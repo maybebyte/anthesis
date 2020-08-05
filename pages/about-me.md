@@ -12,11 +12,10 @@
   on top of it. [Audio Science
   Review](https://www.audiosciencereview.com/) is a good resource for
   amplifiers and DACs.
-- Free/libre and open source software, also known as
+- Free/libre and open source software, otherwise known as
   [FLOSS](https://en.wikipedia.org/wiki/Free_and_open_source_software)
   (though I think of it as a lifestyle/set of convictions rather than an
-  interest). I also
-  [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
+  interest). I [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
 - Meditation. There are many different types of meditation, but the
   specifics matter less than consistency and dedication in my
   experience.
@@ -36,3 +35,9 @@
   charity](https://en.wikipedia.org/wiki/Principle_of_charity).
 - Self-improvement and learning. Simply put, I wouldn't be me without
   those desires.
+- Writing. Teaching is one of the best ways to learn, not to mention
+  that writing can be fulfilling and thought-provoking. Sometimes it's
+  as simple as jotting down ideas on occasion. I started to
+  document my ideas when I realized that many of the things I told
+  myself I'd remember and do something about later never came to
+  fruition.

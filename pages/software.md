@@ -31,6 +31,10 @@ full-featured OS.
 i3status + i3bar. [Lemonbar](https://github.com/LemonBoy/bar) also seems
 promising.
 
+**Launcher**
+
+[Dmenu](https://tools.suckless.org/dmenu/).
+
 **Compositor**
 
 [xcompmgr](https://man.openbsd.org/xcompmgr.1).
@@ -163,7 +167,11 @@ disk. I use
 
 **Mail Client**
 
-[Mutt](http://www.mutt.org/).
+[Mutt](http://www.mutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
+the mail daemon in OpenBSD's base system, makes the experience even
+better given a sensible
+[`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The joy of
+composing emails in vim makes me wonder why I didn't do this sooner.
 
 **Static Site Generator**
 
