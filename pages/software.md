@@ -206,8 +206,6 @@ I use.
   hides cursor when mouse is left idle.
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
   longer use blur to redact things.
-- [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior):
-  CLI task management tool.
 
 # What [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) OS should I use?
 

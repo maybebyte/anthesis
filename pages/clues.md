@@ -12,7 +12,7 @@ learned, thus gaining a clue I previously didn't have.
   "YYYY-mm-dd" format (I used [date(1)](https://man.openbsd.org/date) to
   generate this).
 2. [Signal](https://www.signal.org/) stores its data in a folder called
-  `org.thoughtcrime.securesms` on Android or Android-based
+  `org.thoughtcrime.securesms` on Android and Android-based
   devices. Furthermore, `thoughtcrime.org` redirects to `moxie.org`,
   a website that belongs to [Moxie
   Marlinspike](https://en.wikipedia.org/wiki/Moxie_Marlinspike). He
