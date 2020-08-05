@@ -170,8 +170,9 @@ disk. I use
 [Mutt](http://www.mutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
 the mail daemon in OpenBSD's base system, makes the experience even
 better given a sensible
-[`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The joy of
-composing emails in vim makes me wonder why I didn't do this sooner.
+[`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The
+unadulterated joy I feel while composing emails in vim makes me wonder
+why I didn't do this sooner.
 
 **Static Site Generator**
 
