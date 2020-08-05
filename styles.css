@@ -14,10 +14,17 @@ li {
   padding: 4px 0;
 }
 
-ul {
-  padding: 0;
+ul, ol {
   margin: 0;
+}
+
+ul {
   list-style-type: none;
+  padding: 0;
+}
+
+ol {
+  padding-left: 15px;
 }
 
 a,

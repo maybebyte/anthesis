@@ -9,7 +9,7 @@ Some resources as per usual:
 - [/r/selfhosted](https://old.reddit.com/r/selfhosted/)
 - [OpenBSD's](https://www.openbsd.org) base system
 
-### **DNS Sinkhole**
+**DNS Sinkhole**
 
 [Pi-hole](https://github.com/pi-hole/pi-hole) is one of the most popular
 uses for a [Raspberry
@@ -18,7 +18,7 @@ sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) for ads and
 telemetry and works on devices you may not expect (smart TVs, to name
 one).
 
-### **Media Center**
+**Media Center**
 
 I use [Sakaki's 64-bit Raspberry Pi Gentoo
 build](https://github.com/sakaki-/gentoo-on-rpi-64bit) to run
