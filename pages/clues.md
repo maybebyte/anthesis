@@ -18,3 +18,8 @@ learned, thus gaining a clue I previously didn't have.
   Marlinspike](https://en.wikipedia.org/wiki/Moxie_Marlinspike). He
   co-authored the [Signal
   Protocol](https://en.wikipedia.org/wiki/Signal_Protocol).
+
+3. The word ['apophasis'](https://en.wiktionary.org/wiki/apophasis)
+   means to allude to something by denying that it will be
+   mentioned. The phrases "not to mention" and "to say nothing of" are
+   both apophases.
