@@ -161,6 +161,16 @@ disk. I use
 
 [Dunst](https://github.com/dunst-project/dunst).
 
+**Mail Client**
+
+[Mutt](http://www.mutt.org/).
+
+**Static Site Generator**
+
+[SSG5](https://rgz.ee/bin/ssg5). I simply wrote my webpage
+out by hand before I discovered this script. It generates
+[`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
+
 # Cool miscellaneous software
 
 These are programs that don't need a separate category and therefore

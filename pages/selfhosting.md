@@ -69,3 +69,9 @@ virtualization backend instead of
 [KVM](https://www.linux-kvm.org/page/Main_Page). They donate €10 per VM
 and then €15 for every renewal to the [OpenBSD
 Foundation](https://www.openbsdfoundation.org/).
+
+## Domain Service
+
+[Njalla](https://njal.la/) is worthwhile. They also have a VPS service,
+though they only provided Debian, Ubuntu, CentOS, and Alpine when I
+used it.

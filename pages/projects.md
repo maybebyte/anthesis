@@ -5,7 +5,6 @@ busy with. I generate the git pages with
 [stagit(1)](https://github.com/oxalorg/stagit) (I borrowed this method
 from [Roman Zolotarev](https://www.romanzolotarev.com/stagit.html)).
 
-- [Website (HTML)](../src/website)
 - [Website (Markdown)](../src/website_md)
 - [Dotfiles](../src/dotfiles)
 - [Btstrp](../src/btstrp)
