@@ -176,9 +176,13 @@ why I didn't do this sooner.
 
 **Static Site Generator**
 
-[SSG5](https://rgz.ee/bin/ssg5). I simply wrote my webpage
-out by hand before I discovered this script. It generates
+[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
+I discovered this [POSIX](https://en.wikipedia.org/wiki/Posix) shell
+script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
+Writing in markdown is quicker and more convenient, though it was
+beneficial in my case to learn the ins and outs of HTML before
+I discovered static site generators.
 
 **Task Organizer**
 
