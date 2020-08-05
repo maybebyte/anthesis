@@ -11,7 +11,6 @@ learned, thus gaining a clue I previously didn't have.
   places the backup in a directory named the current date in
   "YYYY-mm-dd" format (I used [date(1)](https://man.openbsd.org/date) to
   generate this).
-
 2. [Signal](https://www.signal.org/) stores its data in a folder called
   `org.thoughtcrime.securesms` on Android or Android-based
   devices. Furthermore, `thoughtcrime.org` redirects to `moxie.org`,

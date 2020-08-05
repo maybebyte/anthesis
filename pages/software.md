@@ -171,6 +171,11 @@ disk. I use
 out by hand before I discovered this script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
 
+**Task Organizer**
+
+[Taskwarrior](https://taskwarrior.org/) is powerful and changed my
+workflow for the better. Disorganization is the enemy of progress.
+
 # Cool miscellaneous software
 
 These are programs that don't need a separate category and therefore
@@ -203,3 +208,31 @@ I use.
   longer use blur to redact things.
 - [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior):
   CLI task management tool.
+
+# What [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) OS should I use?
+
+Check out [Librehunt](https://librehunt.org/) if you're new to this. :)
+
+Personalized recommendations tend to be more meaningful, though it's
+hard to go wrong with the [Cinnamon
+edition](https://www.linuxmint.com/edition.php?id=281) of [Linux
+Mint](https://www.linuxmint.com/). In fact, a USB flash drive with Linux
+Mint is always on my person in case someone wants me to set it up for
+them.
+
+I wouldn't recommend OpenBSD to the
+average user (though ["Building an accessible OpenBSD
+laptop"](https://www.openbsd.org/papers/bsdcan2019-accessible-openbsd-laptop.pdf)
+was a fascinating read). A good 'out-of-box experience' with a low
+learning curve is most appropriate.
+
+Use a privacy-respecting OS for your mobile device if you
+can. [GrapheneOS](https://grapheneos.org/) is what I use, although
+[LineageOS](https://www.lineageos.org/) supports a wider range of
+hardware.
+
+Your router is a computer too. OEM firmware rarely proves as capable as
+[FLOSS
+firmware](https://www.privacytools.io/operating-systems/#firmware). Be
+careful and use Ethernet when you flash the firmware onto your
+router. Fixing a bricked router is not fun for most people.
