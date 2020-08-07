@@ -23,8 +23,9 @@ full-featured OS.
 
 **Window Manager**
 
-[i3](https://i3wm.org/). Note that I use
-[sxhkd](https://github.com/baskerville/sxhkd) to bind keys.
+[i3](https://i3wm.org/). Note that I use [<abbr title="Simple X Hotkey
+Daemon">sxhkd</abbr>](https://github.com/baskerville/sxhkd) to bind
+keys.
 
 **Bar**
 
@@ -133,14 +134,17 @@ videos.
 
 **Music Player**
 
-[MPD](https://github.com/MusicPlayerDaemon/MPD) with
-[NCMPCPP](https://rybczak.net/ncmpcpp/).
+[<abbr title="Music Player
+Daemon">MPD</abbr>](https://github.com/MusicPlayerDaemon/MPD) with
+[<abbr title="Ncurses Music Player
+C++">NCMPCPP</abbr>](https://rybczak.net/ncmpcpp/).
 
 **RSS Reader**
 
-[Newsboat](https://github.com/newsboat/newsboat). I use RSS feeds to
-track new content. It removes the need to create accounts in order to
-stay up to date.
+[Newsboat](https://github.com/newsboat/newsboat). I use <abbr title="RDF
+Site Summary or Really Simple Syndication">RSS</abbr> feeds to track new
+content. It removes the need to create accounts in order to stay up to
+date.
 
 **PDF Viewer**
 
@@ -148,11 +152,12 @@ stay up to date.
 
 **Image Viewer**
 
-[Sxiv](https://github.com/muennich/sxiv).
+[<abbr title="Simple X Image
+Viewer">Sxiv</abbr>](https://github.com/muennich/sxiv).
 
 **Screenshots**
 
-[Maim](https://github.com/naelstrof/maim). It's possible to pipe the
+[<abbr title="Make Image">Maim</abbr>](https://github.com/naelstrof/maim). It's possible to pipe the
 output of maim to xclip to send an image without saving it to
 disk. I use
 [maimpick](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/maimpick).
@@ -177,7 +182,8 @@ why I didn't do this sooner.
 **Static Site Generator**
 
 [SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
-I discovered this [POSIX](https://en.wikipedia.org/wiki/Posix) shell
+I discovered this [<abbr title="Portable Operating System
+Interface">POSIX</abbr>](https://en.wikipedia.org/wiki/Posix) shell
 script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
 Writing in markdown is quicker and more convenient, though it was
@@ -195,7 +201,7 @@ These are programs that don't need a separate category and therefore
 don't belong in the last section. The items below aren't limited to what
 I use.
 
-- [FZF](https://github.com/junegunn/fzf): CLI fuzzy finder. You can
+- [FZF](https://github.com/junegunn/fzf): fuzzy finder. You can
   [search shell
   history](https://wiki.archlinux.org/index.php/Fzf#Shells) with it.
 - [NCDU](https://dev.yorhel.nl/ncdu): NCurses Disk Usage.
@@ -205,7 +211,8 @@ I use.
   search.
 - [Beets](https://github.com/beetbox/beets): manages music libraries and
   tags them appropriately using MusicBrainz.
-- [Sct](https://flak.tedunangst.com/post/sct-set-color-temperature):
+- [<abbr title="Set color
+  temperature">Sct</abbr>](https://flak.tedunangst.com/post/sct-set-color-temperature):
   blue light reduction/gamma management in a minimal C program, what's
   not to love?
 - [Rig](http://rig.sourceforge.net/): Random Identity Generator.
@@ -220,7 +227,7 @@ I use.
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
   longer use blur to redact things.
 
-# What [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) OS should I use?
+# What [<abbr title="Free/Libre and Open Source Software">FLOSS</abbr>](https://en.wikipedia.org/wiki/Free_and_open-source_software) OS should I use?
 
 Check out [Librehunt](https://librehunt.org/) if you're new to this. :)
 
@@ -242,7 +249,8 @@ can. [GrapheneOS](https://grapheneos.org/) is what I use, although
 [LineageOS](https://www.lineageos.org/) supports a wider range of
 hardware.
 
-Your router is a computer too. OEM firmware rarely proves as capable as
+Your router is a computer too. <abbr title="Original Equipment
+Manufacturer">OEM</abbr> firmware rarely proves as capable as
 [FLOSS
 firmware](https://www.privacytools.io/operating-systems/#firmware). Be
 careful and use Ethernet when you flash the firmware onto your

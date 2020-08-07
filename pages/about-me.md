@@ -12,8 +12,8 @@
   on top of it. [Audio Science
   Review](https://www.audiosciencereview.com/) is a good resource for
   amplifiers and DACs.
-- Free/libre and open source software, otherwise known as
-  [FLOSS](https://en.wikipedia.org/wiki/Free_and_open_source_software)
+- [<abbr title="Free/Libre and Open Source
+  Software">FLOSS</abbr>](https://en.wikipedia.org/wiki/Free_and_open_source_software)
   (though I think of it as a lifestyle/set of convictions rather than an
   interest). I [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
 - Meditation. There are many different types of meditation, but the

@@ -9,7 +9,7 @@ this domain because it has a nice ring to it and it's memorable.
 I'm Ashlen. :3 I program and administrate servers; sometimes, I even
 know what I'm doing. :) My "About" page lists other interests.
 
-GPG encryption using [my public GPG Key](pubkeys/eurydice.key) is
-preferred when corresponding via email [(eurydice@riseup.net)]
-(mailto:eurydice@riseup.net), remember to attach yours so I can
-decrypt the message and send one back.
+<abbr title="GNU Privacy Guard">GPG</abbr> encryption using [my public
+GPG Key](pubkeys/eurydice.key) is
+preferred [when corresponding via email](mailto:eurydice@riseup.net),
+remember to attach yours so I can decrypt the message and send one back.
