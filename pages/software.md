@@ -62,7 +62,7 @@ Emoji: Symbola.
 [St](https://st.suckless.org), specifically [Luke Smith's
 build](https://github.com/LukeSmithxyz/st).
 
-**Multiplexer**
+**Terminal Multiplexer**
 
 [Tmux](https://github.com/tmux/tmux).
 
@@ -101,14 +101,17 @@ Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
 disposable email addresses.
 
 [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
-removes tracking elements from URLs.
+removes tracking elements from <abbr title="Uniform Resource
+Locators">URLs</abbr>.
 
 [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/):
-no more centralized CDNs.
+no more centralized <abbr title="Content Delivery/Distribution
+Networks">CDNs</abbr>.
 
 [HTTPS
 Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
-moar HTTPS, Swiper no swiping.
+moar <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr>,
+Swiper no swiping.
 
 [Terms of Service; Didn't
 Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
@@ -123,7 +126,7 @@ wide-spectrum content blocker with CPU and memory efficiency as primary
 features.
 
 [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
-forbid/allow different types of content. I disable both Javascript
+forbid/allow different types of content. I disable both JavaScript
 + cookies, then whitelist as needed.
 
 **Video Player**
@@ -211,10 +214,8 @@ I use.
   search.
 - [Beets](https://github.com/beetbox/beets): manages music libraries and
   tags them appropriately using MusicBrainz.
-- [<abbr title="Set color
-  temperature">Sct</abbr>](https://flak.tedunangst.com/post/sct-set-color-temperature):
-  blue light reduction/gamma management in a minimal C program, what's
-  not to love?
+- [Sct](https://flak.tedunangst.com/post/sct-set-color-temperature): set
+  color temperature in a minimal C program, what's not to love?
 - [Rig](http://rig.sourceforge.net/): Random Identity Generator.
 - [Speedtest-cli](https://github.com/sivel/speedtest-cli): test
   connection speed.
