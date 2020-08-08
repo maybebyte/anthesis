@@ -19,7 +19,7 @@ Here are some resources that I find useful:
 [OpenBSD](https://www.openbsd.org/) powers most of my hardware. My Pixel
 3a runs [GrapheneOS](https://grapheneos.org/). I prefer to build from
 the bottom up rather than stripping away unneeded software from a more
-full-featured OS.
+full-featured <abbr title="Operating System">OS</abbr>.
 
 **Window Manager**
 
@@ -122,12 +122,12 @@ vim bindings for Firefox.
 
 [uBlock
 Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
-wide-spectrum content blocker with CPU and memory efficiency as primary
-features.
+wide-spectrum content blocker with <abbr title="Central Processing
+Unit">CPU</abbr> and memory efficiency as primary features.
 
 [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
 forbid/allow different types of content. I disable both JavaScript
-+ cookies, then whitelist as needed.
+and cookies, then whitelist as needed.
 
 **Video Player**
 
@@ -149,7 +149,8 @@ Site Summary or Really Simple Syndication">RSS</abbr> feeds to track new
 content. It removes the need to create accounts in order to stay up to
 date.
 
-**PDF Viewer**
+<p><strong><abbr title="Portable Document Format">PDF</abbr>
+Viewer</strong></p>
 
 [Zathura](https://git.pwmt.org/pwmt/zathura).
 
@@ -184,8 +185,9 @@ why I didn't do this sooner.
 
 **Static Site Generator**
 
-[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
-I discovered this [<abbr title="Portable Operating System
+[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular <abbr
+title="Hypertext Markup Language">HTML</abbr> before I discovered this
+[<abbr title="Portable Operating System
 Interface">POSIX</abbr>](https://en.wikipedia.org/wiki/Posix) shell
 script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
@@ -221,8 +223,8 @@ I use.
   connection speed.
 - [USBGuard](https://github.com/USBGuard/usbguard): say no to
   [poisontap](https://github.com/samyk/poisontap) and friends.
-- [Wireguard](https://www.wireguard.com/): next generation VPN client
-  and server.
+- [Wireguard](https://www.wireguard.com/): next generation <abbr
+  title="Virtual Private Network">VPN</abbr> client and server.
 - [Unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes):
   hides cursor when mouse is left idle.
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
@@ -235,9 +237,9 @@ Check out [Librehunt](https://librehunt.org/) if you're new to this. :)
 Personalized recommendations tend to be more meaningful, though it's
 hard to go wrong with the [Cinnamon
 edition](https://www.linuxmint.com/edition.php?id=281) of [Linux
-Mint](https://www.linuxmint.com/). In fact, a USB flash drive with Linux
-Mint is always on my person in case someone wants me to set it up for
-them.
+Mint](https://www.linuxmint.com/). In fact, a <abbr title="Universal
+Serial Bus">USB</abbr> flash drive with Linux Mint is always on my
+person in case someone wants me to set it up for them.
 
 I wouldn't recommend OpenBSD to the
 average user (though ["Building an accessible OpenBSD

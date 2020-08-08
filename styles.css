@@ -1,7 +1,7 @@
 html,
 body {
   font-family: sans-serif;
-  background-color: #040A15;
+  background-color: #070D18;
   color: #E0E9F0;
 }
 
@@ -12,6 +12,11 @@ p strong {
 
 li {
   padding: 4px 0;
+}
+
+/*code should remain ${body_color} even if a link*/
+code {
+  color: #E0E9F0;
 }
 
 ul, ol {
@@ -33,7 +38,8 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:hover code {
   color: #80A7F1;
   text-decoration: underline;
 }

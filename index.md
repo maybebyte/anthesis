@@ -13,3 +13,10 @@ know what I'm doing. :) My "About" page lists other interests.
 GPG Key](pubkeys/eurydice.key) is preferred [when corresponding via
 email](mailto:eurydice@riseup.net), remember to attach yours so I can
 send an encrypted message back.
+
+# Conventions
+
+Any word with a trailing number in parentheses,
+e.g. [`help(1)`](https://man.openbsd.org/help), is a link to
+a [`man(1)`](https://man.openbsd.org/man) page. The number represents
+the corresponding section.

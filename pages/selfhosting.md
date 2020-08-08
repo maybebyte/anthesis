@@ -62,10 +62,10 @@ I recommend
 [Exoscale](https://portal.exoscale.com/register?r=JEUcJnv6AIMe) (full
 disclosure, that's a referral link. See [Exoscale's mentor
 program](https://community.exoscale.com/documentation/platform/mentor-program/)
-for details). Exoscale is a Swiss cloud provider that complies with
-[<abbr title="General Data Protection Regulation">GDPR</abbr>
-regulations](https://www.exoscale.com/compliance/) and values data
-privacy/security.
+for details). Exoscale is a Swiss cloud provider [that respects the
+<abbr title="General Data Protection
+Regulation">GDPR</abbr>](https://www.exoscale.com/compliance/) and
+values data privacy/security.
 
 [openbsd.amsterdam](https://openbsd.amsterdam/) also seems excellent if
 you want to have [vmm(4)](https://man.openbsd.org/vmm.4) as the

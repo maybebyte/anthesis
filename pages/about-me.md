@@ -11,7 +11,7 @@
   E30](https://topping-audio.com/produkt/topping-e30-multi-input-ak4493-usb-dac/)
   on top of it. [Audio Science
   Review](https://www.audiosciencereview.com/) is a good resource for
-  amplifiers and <abbr title="Digital-to-analog Converters">DACs</abbr>.
+  amplifiers and <abbr title="Digital-to-analog converters">DACs</abbr>.
 - [<abbr title="Free/Libre and Open Source
   Software">FLOSS</abbr>](https://en.wikipedia.org/wiki/Free_and_open_source_software)
   (though I think of it as a lifestyle/set of convictions rather than an
