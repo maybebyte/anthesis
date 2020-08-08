@@ -19,7 +19,7 @@ Here are some resources that I find useful:
 [OpenBSD](https://www.openbsd.org/) powers most of my hardware. My Pixel
 3a runs [GrapheneOS](https://grapheneos.org/). I prefer to build from
 the bottom up rather than stripping away unneeded software from a more
-full-featured <abbr title="Operating System">OS</abbr>.
+full-featured OS.
 
 **Window Manager**
 
