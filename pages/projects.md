@@ -7,11 +7,12 @@ pages from git repositories with
 Zolotarev](https://www.romanzolotarev.com/stagit.html) brought my
 attention to this fantastic program).
 
-Note that the pages created by stagit can't be cloned. To that end,
-[I index files in /raw](/raw). For example, to clone my dotfiles:
+Note that `.git` needs to be added at the end of the given repository's
+<abbr title="Uniform Resource Locator">URL</abbr> in order to clone
+it. For example, to clone my dotfiles:
 
 ```
-git clone "https://amissing.link/raw/dotfiles/.git"
+git clone "https://amissing.link/src/dotfiles/.git"
 ```
 
 - [Website (Markdown)](../src/website_md)
