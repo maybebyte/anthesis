@@ -85,6 +85,14 @@ adds icons, though I don't use them.
 [Firefox](https://www.mozilla.org/en-US/firefox/). Once configured, they
 mitigate tracking more effectively than the other browsers I've tried.
 
+It's worth mentioning that Firefox has
+[`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
+[`unveil(2)`](https://man.openbsd.org/unveil.2) support in
+OpenBSD. Chromium has that support too, though Chromium has binary blobs
+so it's not of interest to me. [Ungoogled
+Chromium](https://github.com/Eloston/ungoogled-chromium) aims to remedy
+this.
+
 I do have my gripes with Firefox (gigantic code base and uses
 questionable defaults, like Google as a search engine).
 
@@ -93,7 +101,7 @@ user.js](https://github.com/ghacksuserjs/ghacks-user.js).
 
 **Firefox Addons**
 
-I try my best not to pile on the addons. They are mostly for privacy
+I try my best not to pile on the addons. They're mostly for privacy
 because [the modern web sucks](https://suckless.org/sucks/web/).
 
 [Bloody
@@ -176,7 +184,7 @@ disk. I use
 
 **Mail Client**
 
-[Mutt](http://www.mutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
+[Neomutt](https://neomutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
 the mail daemon in OpenBSD's base system, makes the experience even
 better given a sensible
 [`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The
@@ -191,9 +199,7 @@ title="Hypertext Markup Language">HTML</abbr> before I discovered this
 Interface">POSIX</abbr>](https://en.wikipedia.org/wiki/Posix) shell
 script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
-Writing in markdown is quicker and more convenient, though it was
-beneficial in my case to learn the ins and outs of HTML before
-I discovered static site generators.
+Writing in markdown is definitely quicker and inline HTML works too.
 
 **Task Organizer**
 
@@ -244,8 +250,12 @@ person in case someone wants me to set it up for them.
 I wouldn't recommend OpenBSD to the
 average user (though ["Building an accessible OpenBSD
 laptop"](https://www.openbsd.org/papers/bsdcan2019-accessible-openbsd-laptop.pdf)
-was a fascinating read). A good 'out-of-box experience' with a low
+was a fascinating read). A good out-of-box experience with a low
 learning curve is most appropriate.
+
+However, tech-savvy users that want a simple, robust, comprehensible,
+well-documented, and proactively secure OS will feel at home with
+OpenBSD. I certainly do.
 
 Use a privacy-respecting OS for your mobile device if you
 can. [GrapheneOS](https://grapheneos.org/) is what I use, although
@@ -257,4 +267,4 @@ Manufacturer">OEM</abbr> firmware rarely proves as capable as
 [FLOSS
 firmware](https://www.privacytools.io/operating-systems/#firmware). Be
 careful and use Ethernet when you flash the firmware onto your
-router. Fixing a bricked router is not fun for most people.
+router. Fixing a bricked router isn't fun for most people.

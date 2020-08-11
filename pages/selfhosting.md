@@ -44,7 +44,7 @@ software](https://www.gnu.org/proprietary/proprietary.en.html), where
 you can lose everything tied to an account at a whim, where
 surveillance, planned obsolescence, incompatibility, censorship, and
 deception are the norm, where a power differential exists between
-developers and end users. You are the product when you run proprietary
+developers and end users. You're the product when you run proprietary
 software.
 
 Migration can be difficult. That difficulty is intended, as <abbr
@@ -53,7 +53,7 @@ to lock you in. It doesn't help that proprietary software is used by
 friends, work, and school, or even required by the last two. Despite
 that, I highly encourage you to explore free alternatives to proprietary
 software you use. The libre lifestyle doesn't have to be all or nothing;
-you can switch things out as you feel comfortable, like Google Chrome
+switch things out as you feel comfortable, like Google Chrome
 for Firefox, and you'll be better for it.
 
 ## <abbr title="Virtual Private Server">VPS</abbr> providers

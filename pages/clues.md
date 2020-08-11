@@ -9,7 +9,7 @@ learned, thus gaining a clue I previously didn't have.
   escaped. I encountered this while working on an entry to back up my
   server with [`tar(1)`](https://man.openbsd.org/tar) that
   places the backup in a directory named the current date in
-  "YYYY-mm-dd" format (I used [`date(1)`](https://man.openbsd.org/date) to
+  "YYYY-MM-DD" format (I used [`date(1)`](https://man.openbsd.org/date) to
   generate this).
 2. [Signal](https://www.signal.org/) stores its data in a folder called
   `org.thoughtcrime.securesms` on Android and Android-based
@@ -18,7 +18,7 @@ learned, thus gaining a clue I previously didn't have.
   Marlinspike](https://en.wikipedia.org/wiki/Moxie_Marlinspike). He
   co-authored the [Signal
   Protocol](https://en.wikipedia.org/wiki/Signal_Protocol).
-3. [Apophasis](https://en.wiktionary.org/wiki/apophasis)
-   means to allude to something by denying that it will be
+3. An [apophasis](https://en.wiktionary.org/wiki/apophasis)
+   is an allusion to something by denying that it will be
    mentioned. "Not to mention" and "to say nothing of" are
    both apophases.
