@@ -7,7 +7,7 @@ pages from git repositories with
 Zolotarev](https://www.romanzolotarev.com/stagit.html) brought my
 attention to this fantastic program).
 
-Note that `.git` needs to be added at the end of the given repository's
+Note that `.git` must be appended to the given repository's
 <abbr title="Uniform Resource Locator">URL</abbr> in order to clone
 it. For example, to clone my dotfiles:
 
