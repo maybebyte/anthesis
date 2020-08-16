@@ -9,7 +9,7 @@ Some resources as per usual:
 - [/r/selfhosted](https://old.reddit.com/r/selfhosted/)
 - [OpenBSD's](https://www.openbsd.org) base system
 
-<p><strong>DNS Sinkhole</strong></p>
+**DNS Sinkhole**
 
 [Pi-hole](https://github.com/pi-hole/pi-hole) is one of the most popular
 uses for a [Raspberry
@@ -19,13 +19,20 @@ sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) for ads and
 telemetry and works on devices you may not expect (<abbr
 title="Telescreens">smart TVs</abbr>, to name one).
 
-**Media Center**
+**Entertainment Center**
 
-I use [Sakaki's 64-bit Raspberry Pi Gentoo
-build](https://github.com/sakaki-/gentoo-on-rpi-64bit) to run
-[Kodi](https://kodi.tv), though it's common for me to <abbr
-title="Secure Shell">SSH</abbr> in and stream
-media via mpv.
+[Retropie](https://retropie.org.uk/) is a fantastic project. I grew up
+with many of the games it supports so it's a valuable addition in that
+it caters to my nostalgia. ^^ The [Argon
+ONE](https://www.argon40.com/catalog/product/view/id/52/s/argon-one-raspberry-pi-4-case/category/4/)
+makes it feasible to overclock the thermally challenged [Raspberry Pi
+4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
+
+For all devices running Linux with <a
+href="https://en.wikipedia.org/wiki/MultiMediaCard"><abbr
+title="MultiMediaCard">MMC</abbr></a> storage, I prefer to use
+[F2FS](https://en.wikipedia.org/wiki/F2fs), otherwise known as the
+Flash-Friendly File System.
 
 # Why self-host/use <abbr title="Free/Libre and Open Source Software">FLOSS</abbr>?
 
@@ -77,5 +84,6 @@ Foundation](https://www.openbsdfoundation.org/).
 
 ## Domains
 
-[Njalla](https://njal.la/) is worthwhile. They also have a VPS service, though they only
-provided Debian, Ubuntu, CentOS, and Alpine when I used it.
+[Njalla](https://njal.la/) is worthwhile. They also have a VPS service,
+though they only provided Debian, Ubuntu, CentOS, and Alpine when I used
+it.

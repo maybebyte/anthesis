@@ -1,9 +1,9 @@
 # Projects
 
-Source code of various projects I keep myself busy with is published
-here. I generate <abbr title="Hypertext Markup Language">HTML</abbr>
-pages from git repositories with
-[stagit](https://github.com/oxalorg/stagit) ([Roman
+I publish the source code of various projects
+here. [stagit](https://github.com/oxalorg/stagit) generates <abbr
+title="Hypertext Markup Language">HTML</abbr> pages from git
+repositories ([Roman
 Zolotarev](https://www.romanzolotarev.com/stagit.html) brought my
 attention to this fantastic program).
 
