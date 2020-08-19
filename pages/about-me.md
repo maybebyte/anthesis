@@ -6,9 +6,11 @@
   and [E-MU
   Teak](https://sg.creative.com/p/headphones-headsets/e-mu-teak). To
   drive my headphones and produce better sound, the [Monoprice Monolith
-  THX 887](https://www.monoprice.com/product?p_id=39359) sits on my desk
+  THX
+  887](https://www.audiosciencereview.com/forum/index.php?threads/monoprice-monolith-thx-887-balance-headphone-amp-new-champ.8942/)
+  sits on my desk
   with the [Topping
-  E30](https://topping-audio.com/produkt/topping-e30-multi-input-ak4493-usb-dac/)
+  E30](https://www.audiosciencereview.com/forum/index.php?threads/topping-e30-dac-review.12119/)
   on top of it. [Audio Science
   Review](https://www.audiosciencereview.com/) is a good resource for
   amplifiers and <abbr title="Digital-to-analog converters">DACs</abbr>.
@@ -16,6 +18,11 @@
   Software">FLOSS</abbr>](https://en.wikipedia.org/wiki/Free_and_open_source_software)
   (though I think of it as a lifestyle/set of convictions rather than an
   interest). I [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
+- Gaming. My favorite genres include
+  [Metroidvanias](https://en.wikipedia.org/wiki/Metroidvania),
+  platformers, <abbr title="Role-playing games">RPGs</abbr>,
+  [roguelikes](https://en.wikipedia.org/wiki/Roguelike), and strategy
+  games.
 - Meditation. There are many different types of meditation, but the
   specifics matter less than consistency and dedication in my
   experience.
