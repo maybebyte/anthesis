@@ -1,3 +1,16 @@
+<div>
+<nav class="navbar">
+<ul>
+  <li><a class="active" href="/index.html">/home</a></li>
+  <li><a href="/pages/about-me.html">About</a></li>
+  <li><a href="/pages/software.html">Software</a></li>
+  <li><a href="/pages/selfhosting.html">Hosting</a></li>
+  <li><a href="/pages/projects.html">Projects</a></li>
+  <li><a href="/pages/clues.html">Clues</a></li>
+</ul>
+</nav>
+</div>
+
 # Why amissing.link?
 
 Despite the name, it's not a [commentary on human
