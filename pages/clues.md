@@ -36,9 +36,10 @@ learned, thus gaining a clue I previously didn't have.
    mentioned. "Not to mention" and "to say nothing of" are
    both apophases.
 4. [`whois(1)`](https://man.openbsd.org/whois) can use the US Department
-   of Defense database with `whois -d` to query subdomains of the .mil
-   top-level domain (TLD). Apparently the United States is the only
-   country with a TLD for its military (though after contemplating this,
+   of Defense database with `whois -d` to query subdomains of the
+   [.mil](https://www.iana.org/domains/root/db/mil.html) top-level
+   domain (TLD). Apparently the United States is the only country with
+   a dedicated TLD for its military (though after contemplating this,
    it's not incredibly surprising given that
    [ARPANET](https://www.darpa.mil/about-us/timeline/arpanet) was highly
    influential in the advent of the Internet).
