@@ -60,11 +60,11 @@ colors from an image (usually a wallpaper) to use for theming.
 
 **Fonts**
 
-Serif: Linux Libertine.
+Serif: Noto Serif.
 
-Sans-serif: Linux Biolinum and Fira Sans.
+Sans-serif: Noto Sans.
 
-Monospace: Cascadia Code and/or Inconsolata.
+Monospace: Noto Mono.
 
 Bitmap: Terminus.
 
