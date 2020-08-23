@@ -36,14 +36,15 @@ full-featured OS.
 
 **Window Manager**
 
-[i3](https://i3wm.org/). Note that I use [<abbr title="Simple X Hotkey
-Daemon">sxhkd</abbr>](https://github.com/baskerville/sxhkd) to bind
-keys.
+[i3](https://i3wm.org/). Note that I use
+[sxhkd](https://github.com/baskerville/sxhkd "Simple X Hotkey Daemon")
+to bind keys.
 
 **Bar**
 
-i3status + i3bar. [Lemonbar](https://github.com/LemonBoy/bar) also seems
-promising.
+[Lemonbar](https://github.com/LemonBoy/bar), built by piping
+[sysinfo](https://amissing.link/src/dotfiles/file/bin/sysinfo.html)
+into [lbar](https://amissing.link/src/dotfiles/file/bin/lbar.html).
 
 **Launcher**
 
@@ -158,10 +159,8 @@ videos.
 
 **Music Player**
 
-[<abbr title="Music Player
-Daemon">MPD</abbr>](https://github.com/MusicPlayerDaemon/MPD) with
-[<abbr title="Ncurses Music Player
-C++">NCMPCPP</abbr>](https://rybczak.net/ncmpcpp/).
+[MPD](https://github.com/MusicPlayerDaemon/MPD "Music Player Daemon")
+with [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++").
 
 **RSS Reader**
 
@@ -177,13 +176,12 @@ Viewer</strong></p>
 
 **Image Viewer**
 
-[<abbr title="Simple X Image
-Viewer">Sxiv</abbr>](https://github.com/muennich/sxiv).
+[Sxiv](https://github.com/muennich/sxiv "Simple X Image Viewer").
 
 **Screenshots**
 
-[<abbr title="Make Image">Maim</abbr>](https://github.com/naelstrof/maim). It's possible to pipe the
-output of maim to xclip to send an image without saving it to
+[Maim](https://github.com/naelstrof/maim "Make Image"). It's possible to
+pipe the output of maim to xclip to send an image without saving it to
 disk. I use
 [maimpick](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/maimpick).
 
@@ -208,9 +206,8 @@ why I didn't do this sooner.
 
 [SSG5](https://rgz.ee/bin/ssg5). I wrote in regular <abbr
 title="Hypertext Markup Language">HTML</abbr> before I discovered this
-[<abbr title="Portable Operating System
-Interface">POSIX</abbr>](https://en.wikipedia.org/wiki/Posix) shell
-script. It generates
+[POSIX](https://en.wikipedia.org/wiki/Posix "Portable Operating System
+Interface") shell script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
 Writing in markdown is definitely quicker and inline HTML works too.
 
@@ -249,8 +246,7 @@ I use.
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
   longer use blur to redact things.
 
-# What [<abbr title="Free/Libre and Open Source Software">FLOSS</abbr>](https://en.wikipedia.org/wiki/Free_and_open-source_software) OS should I use?
-
+# What [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software "Free/Libre and Open Source Software") OS should I use?
 Check out [Librehunt](https://librehunt.org/) if you're new to this. :)
 
 Personalized recommendations tend to be more meaningful, though it's

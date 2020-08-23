@@ -26,9 +26,9 @@ Some resources as per usual:
 
 [Pi-hole](https://github.com/pi-hole/pi-hole) is one of the most popular
 uses for a [Raspberry
-Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). It acts as a [<abbr
-title="Domain Name System">DNS</abbr>
-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) for ads and
+Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). It acts as a [DNS
+sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole "Domain Name System
+sinkhole") for ads and
 telemetry and works on devices you may not expect (<abbr
 title="Telescreens">smart TVs</abbr>, to name one).
 
@@ -41,9 +41,9 @@ ONE](https://www.argon40.com/catalog/product/view/id/52/s/argon-one-raspberry-pi
 makes it feasible to overclock the thermally challenged [Raspberry Pi
 4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
 
-For all devices running Linux with <a
-href="https://en.wikipedia.org/wiki/MultiMediaCard"><abbr
-title="MultiMediaCard">MMC</abbr></a> storage, I prefer to use
+For all devices running Linux with
+[MMC](https://en.wikipedia.org/wiki/MultiMediaCard "MultiMediaCard")
+storage, I prefer to use
 [F2FS](https://en.wikipedia.org/wiki/F2fs), otherwise known as the
 Flash-Friendly File System.
 
@@ -83,16 +83,16 @@ I recommend
 disclosure, that's a referral link. See [Exoscale's mentor
 program](https://community.exoscale.com/documentation/platform/mentor-program/)
 for details). Exoscale is a Swiss cloud provider [that respects the
-<abbr title="General Data Protection
-Regulation">GDPR</abbr>](https://www.exoscale.com/compliance/) and
+GDPR](https://www.exoscale.com/compliance/ "General Data Protection
+Regulation") and
 values data privacy/security.
 
 [openbsd.amsterdam](https://openbsd.amsterdam/) also seems excellent if
 you want to have [vmm(4)](https://man.openbsd.org/vmm.4) as the
-virtualization backend instead of [<abbr title="Kernel-based Virtual
-Machine">KVM</abbr>](https://www.linux-kvm.org/page/Main_Page). They
-donate €10 per <abbr title="Virtual Machine">VM</abbr> and then €15 for
-every renewal to the [OpenBSD
+virtualization backend instead of
+[KVM](https://www.linux-kvm.org/page/Main_Page "Kernel-based Virtual
+Machine"). They donate €10 per <abbr title="Virtual Machine">VM</abbr>
+and then €15 for every renewal to the [OpenBSD
 Foundation](https://www.openbsdfoundation.org/).
 
 ## Domains

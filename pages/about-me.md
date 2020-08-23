@@ -26,9 +26,9 @@
   E30](https://www.audiosciencereview.com/forum/index.php?threads/topping-e30-dac-review.12119/)
   on top of it. [Audio Science
   Review](https://www.audiosciencereview.com/) is a good resource for
-  amplifiers and <abbr title="Digital-to-analog converters">DACs</abbr>.
-- [<abbr title="Free/Libre and Open Source
-  Software">FLOSS</abbr>](https://en.wikipedia.org/wiki/Free_and_open_source_software)
+  amplifiers and
+  [DACs](https://en.wikipedia.org/wiki/Digital-to-analog_converter "Digital-to-analog converters").
+- [FLOSS](https://en.wikipedia.org/wiki/Free_and_open_source_software "Free/Libre and Open Source Software")
   (though I think of it as a lifestyle/set of convictions rather than an
   interest). I [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
 - Gaming. My favorite genres include
