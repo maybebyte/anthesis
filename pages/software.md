@@ -42,7 +42,7 @@ to bind keys.
 
 **Bar**
 
-[Lemonbar](https://github.com/LemonBoy/bar), built by piping
+[Lemonbar](https://github.com/LemonBoy/bar). My status bar is built by piping
 [sysinfo](https://amissing.link/src/dotfiles/file/bin/sysinfo.html)
 into [lbar](https://amissing.link/src/dotfiles/file/bin/lbar.html).
 

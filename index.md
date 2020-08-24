@@ -22,7 +22,7 @@ this domain because it has a nice ring to it and it's memorable.
 I'm Ashlen. :3 I program and administrate servers; sometimes, I even
 know what I'm doing. :) My "About" page lists other interests.
 
-[GPG](https://www.gnupg.org/ "GnuPG Privacy Guard") encryption using [my public
+[GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my public
 GPG Key](pubkeys/eurydice.key) is preferred [when corresponding via
 email](mailto:eurydice@riseup.net "eurydice@riseup.net"), remember to
 attach yours so I can send an encrypted message back.
