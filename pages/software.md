@@ -73,8 +73,7 @@ Emoji: Symbola.
 
 **Terminal**
 
-[St](https://st.suckless.org), specifically [Luke Smith's
-build](https://github.com/LukeSmithxyz/st).
+[St](https://st.suckless.org).
 
 **Terminal Multiplexer**
 
