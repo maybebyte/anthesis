@@ -46,3 +46,15 @@ learned, thus gaining a clue I previously didn't have.
    word, that distinguishes one group of people from another.
 6. The months July and August are named after Julius and Augustus
    Caesar, respectively.
+7. The
+   [frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors)
+   directive in the
+   [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+   [HTTP
+   header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers "Hypertext Transfer Protocol header") obsoletes
+   [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options),
+   so the presence of both headers is redundant.
+8. As a follow up to the last clue, the
+   [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
+   header is a more standardized version of the
+   X-Forwarded-{For,Host,Proto} headers.
