@@ -53,7 +53,8 @@ learned, thus gaining a clue I previously didn't have.
    [HTTP
    header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers "Hypertext Transfer Protocol header") obsoletes
    [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options),
-   so the presence of both headers is redundant.
+   so `X-Frame-Options: deny` paired with `Content-Security-Policy:
+   [...] frame-ancestors 'none';` is unnecessary.
 8. As a follow up to the last clue, the
    [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
    header is a more standardized version of the
