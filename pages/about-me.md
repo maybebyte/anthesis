@@ -38,7 +38,9 @@
   games.
 - Meditation. There are many different types of meditation, but the
   specifics matter less than consistency and dedication in my
-  experience.
+  experience. [Tara Brach's guided
+  meditations](https://www.tarabrach.com/guided-meditations) are worth
+  checking out. :)
 - Music. I practice piano regularly as a means of self-expression,
   mostly by ear as I have perfect pitch.
 - Philosophy. Let's save that discussion for later, lest we put
@@ -53,8 +55,10 @@
   hope, sadness, and so on, just like I do. It's why I engage in the
   [principle of
   charity](https://en.wikipedia.org/wiki/Principle_of_charity).
-- Self-improvement and learning. Simply put, I wouldn't be me without
-  those desires.
+- Self-improvement, metacognition, and learning. Understanding how to
+  effectively learn and improve is as important as those tasks in
+  themselves. Mindfulness is an important tool to consider in this
+  context, as performance is generally heightened in a state of flow.
 - Writing. Teaching is one of the best ways to learn, not to mention
   that writing can be fulfilling and thought-provoking. Sometimes it's
   as simple as jotting down ideas on occasion. I started to
