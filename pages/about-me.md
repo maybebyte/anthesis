@@ -55,10 +55,11 @@
   hope, sadness, and so on, just like I do. It's why I engage in the
   [principle of
   charity](https://en.wikipedia.org/wiki/Principle_of_charity).
-- Self-improvement, metacognition, and learning. Understanding how to
-  effectively learn and improve is as important as those tasks in
-  themselves. Mindfulness is an important tool to consider in this
-  context, as performance is generally heightened in a state of flow.
+- Self-improvement, metacognition, and learning. After all,
+  understanding how to effectively learn and improve is as important as
+  those tasks in themselves. Mindfulness is an important tool to
+  consider in this context, as a state of flow is conducive to all of
+  those things.
 - Writing. Teaching is one of the best ways to learn, not to mention
   that writing can be fulfilling and thought-provoking. Sometimes it's
   as simple as jotting down ideas on occasion. I started to
