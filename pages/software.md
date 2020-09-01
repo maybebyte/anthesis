@@ -36,7 +36,7 @@ full-featured OS.
 
 **Window Manager**
 
-[i3](https://i3wm.org/). Note that I use
+[xmonad](https://xmonad.org/documentation.html). Note that I use
 [sxhkd](https://github.com/baskerville/sxhkd "Simple X Hotkey Daemon")
 to bind keys.
 
