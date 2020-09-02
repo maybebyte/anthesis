@@ -33,3 +33,7 @@ Any word with a trailing number in parentheses,
 e.g. [`help(1)`](https://man.openbsd.org/help), is a link to
 a [`man(1)`](https://man.openbsd.org/man) page. The number represents
 the corresponding section.
+
+Code is read more often than it's executed. Therefore, I try my best to
+write readable software. To that end, suggestions/diffs are welcome,
+mail them to the address above. Thanks. :)
