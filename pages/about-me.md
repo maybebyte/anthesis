@@ -36,7 +36,7 @@
   platformers, <abbr title="Role-playing games">RPGs</abbr>,
   [roguelikes](https://en.wikipedia.org/wiki/Roguelike), and strategy
   games.
-- Meditation. There are many different types of meditation, but the
+- Meditation. There are many different types of meditation; the
   specifics matter less than consistency and dedication in my
   experience. [Tara Brach's guided
   meditations](https://www.tarabrach.com/guided-meditations) are worth

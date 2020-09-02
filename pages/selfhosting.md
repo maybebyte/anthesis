@@ -41,6 +41,12 @@ ONE](https://www.argon40.com/catalog/product/view/id/52/s/argon-one-raspberry-pi
 makes it feasible to overclock the thermally challenged [Raspberry Pi
 4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
 
+In addition, [Kodi](http://kodi.tv/) is on the same machine as
+Retropie. It's on there so a certain somebody in my life can watch
+[Mystery Science Theater 3000](https://mst3k.com/) without an Apple
+TV. :) Generally speaking, I prefer SSH + mpv to play media on the TV as
+it's a more minimal solution.
+
 For all devices running Linux with
 [MMC](https://en.wikipedia.org/wiki/MultiMediaCard "MultiMediaCard")
 storage, I prefer to use

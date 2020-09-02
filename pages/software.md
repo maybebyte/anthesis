@@ -208,7 +208,7 @@ title="Hypertext Markup Language">HTML</abbr> before I discovered this
 [POSIX](https://en.wikipedia.org/wiki/Posix "Portable Operating System
 Interface") shell script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
-Writing in markdown is definitely quicker and inline HTML works too.
+Writing in markdown is definitely quicker and inline HTML mostly works too.
 
 **Task Organizer**
 
