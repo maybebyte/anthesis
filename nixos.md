@@ -21,7 +21,8 @@ by this?
 Under the imperative paradigm of system management, you'd run something
 similar to this to enable OpenSSH:
 
-    # apt install openssh-server && systemctl enable ssh
+    # apt install openssh-server
+    # systemctl enable ssh
 
 Contrast this with a declarative system like NixOS, where you'd add
 `services.sshd.enable = true;` to `/etc/nixos/configuration.nix` with
