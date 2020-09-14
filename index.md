@@ -7,7 +7,7 @@ this domain because it has a nice ring to it and it's memorable.
 # Who are you?
 
 I'm Ashlen. :3 I program and administrate servers; sometimes, I even
-know what I'm doing. :) My "About" page lists other interests.
+know what I'm doing. :) My [About me](/about-me.html) lists other interests.
 
 [GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my public
 GPG Key](pubkeys/eurydice.key) is preferred [when corresponding via
