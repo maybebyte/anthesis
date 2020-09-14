@@ -120,10 +120,10 @@ iptables vs pf, etc.
 
 You might say, "What's wrong with features? Features are good."
 Sometimes they are. Often they aren't. In fact, lacking unnecessary
-features *is* a feature in my book, because you can't have
-bugs/vulnerabilities in code that doesn't exist. Large code bases are
-also harder to maintain, understand, contribute to, and port over to
-other operating systems.
+features *is* a feature in my book because less code equates to less
+potential for bugs and vulnerabilities. Large code bases are also harder
+to maintain, understand, contribute to, and port over to other operating
+systems.
 
 The only viable boot loader for `/boot` encryption in Linux, GRUB,
 doesn't handle decryption as elegantly as OpenBSD's boot loader does. In
@@ -143,7 +143,7 @@ with OpenBSD. As a sysadmin and someone who's a bit paranoid/cynical
 (hey, just because I'm paranoid doesn't mean they aren't out to get me),
 I need my system to have secure defaults. Security is often eschewed in
 favor of new features because the reward for good security is 'nothing.'
-No intrusions happen, no damage is sustained, and services don't go
+No intrusions happen, no damage is sustained, and no services go
 down. The benefit of good security is often more about what doesn't
 happen rather than what does.
 
