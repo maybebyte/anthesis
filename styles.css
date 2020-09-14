@@ -38,12 +38,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover,
-a:hover code {
-  color: #80A7F1;
-  text-decoration: underline;
-}
-
 .navbar {
   list-style-type: none;
 }
@@ -55,11 +49,10 @@ nav li a:visited {
   padding: 10px;
 }
 
-.active,
-.active:hover,
-.active:visited {
-  background-color: #375580;
-  color: white;
+a:hover,
+a:hover code {
+  color: #80A7F1;
+  text-decoration: underline;
 }
 
 /*
@@ -69,11 +62,11 @@ nav li a:visited {
   html,
   body {
     max-width: 80%;
-    margin-left: 90px;
+    margin-left: 80px;
   }
   .navbar {
     position: fixed;
-    top: 15%;
+    top: 25%;
     left: 0;
     font-size: 125%;
   }
