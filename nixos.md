@@ -2,9 +2,11 @@
 
 I've experimented with many operating systems over the years. Even
 though I chose OpenBSD in the end, NixOS was a strong contender and my
-daily driver for a while. Note that I won't write about every single
-aspect of these systems, as that'd duplicate existing
-documentation. Anyway, let's get into the advantages of NixOS.
+daily driver for a while.
+
+Note that I won't write about every single aspect of these systems, as
+that'd duplicate existing documentation. Anyway, let's get into the
+advantages of NixOS.
 
 ## Pros
 
@@ -146,14 +148,21 @@ with OpenBSD. As a sysadmin and someone who's a bit paranoid (hey, just
 because I'm paranoid doesn't mean they aren't out to get me), I need my
 system to have secure defaults. Security is often eschewed in favor of
 new features because the reward for good security is 'nothing.' No
-intrusions happen, no damage is sustained, and no services go down. The
-benefit of good security is often more about what doesn't happen rather
-than what does.
+intrusions happen, no damage is sustained, and no services go down. In
+other words, the benefit of good security is often more about what
+doesn't happen rather than what does.
 
 Documentation for NixOS is scattered and of varying quality, whereas
 OpenBSD has consistently excellent documentation with its man pages and
 FAQ.
 
+## Verdict
+
 Overall, while I really like the underlying philosophy behind NixOS,
-OpenBSD suits my needs better. That said, NixOS certainly has its place
-and I still check in on the project from time to time.
+OpenBSD suits my needs better. I run it wherever I can and I see myself
+running it for a long time.
+
+That said, NixOS certainly has its place and I still check in on the
+project now and again to see what's new. Declarative languages are
+compelling enough to me that I use xmonad, a window manager written and
+configured in Haskell.
