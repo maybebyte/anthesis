@@ -27,7 +27,7 @@
   specifics matter less than consistency and dedication in my
   experience. [Tara Brach's guided
   meditations](https://www.tarabrach.com/guided-meditations) are worth
-  checking out. :)
+  checking out.
 - Music. I practice piano regularly as a means of self-expression,
   mostly by ear as I have perfect pitch.
 - Philosophy. Let's save that discussion for later, lest we put

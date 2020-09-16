@@ -225,7 +225,7 @@ I use.
   longer use blur to redact things.
 
 # What [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software "Free/Libre and Open Source Software") OS should I use?
-Check out [Librehunt](https://librehunt.org/) if you're new to this. :)
+Check out [Librehunt](https://librehunt.org/) if you're new to this.
 
 Personalized recommendations tend to be more meaningful, though it's
 hard to go wrong with the [Cinnamon

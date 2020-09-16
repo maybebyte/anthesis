@@ -6,8 +6,8 @@ this domain because it has a nice ring to it and it's memorable.
 
 # Who are you?
 
-I'm Ashlen. :3 I program and administrate servers; sometimes, I even
-know what I'm doing. :) My [About me](/about-me.html) lists other interests.
+I'm Ashlen. I program and administrate servers; sometimes, I even
+know what I'm doing. My [About me](/about-me.html) lists other interests.
 
 [GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my public
 GPG Key](pubkeys/eurydice.key) is preferred [when corresponding via
@@ -22,5 +22,5 @@ a [`man(1)`](https://man.openbsd.org/man) page. The number represents
 the corresponding section.
 
 I aspire to write readable, comprehensible software. To that end,
-suggestions/diffs are welcome, mail them to the address
-above. Thanks. :)
+suggestions/diffs are welcome, mail them to the address above. Thank
+you.

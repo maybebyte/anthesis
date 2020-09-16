@@ -22,15 +22,13 @@ sinkhole") for ads and telemetry and works on devices you may not expect
 
 [Retropie](https://retropie.org.uk/) is a fantastic project. I grew up
 with many of the games it supports so it's a valuable addition in that
-it caters to my nostalgia. ^^ The [Argon
+it caters to my nostalgia. The [Argon
 ONE](https://www.argon40.com/catalog/product/view/id/52/s/argon-one-raspberry-pi-4-case/category/4/)
 makes it feasible to overclock the thermally challenged [Raspberry Pi
 4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
 
-In addition, [Kodi](http://kodi.tv/) is on the same machine as
-Retropie. It's on there so a certain somebody in my life can watch
-[Mystery Science Theater 3000](https://mst3k.com/) without an Apple
-TV. :) Generally speaking, I prefer SSH + mpv to play media on the TV as
+In addition, I put [Kodi](http://kodi.tv/) on the same machine as
+Retropie for my boyfriend. I prefer SSH + mpv to play media on the TV as
 it's a more minimal solution.
 
 For all devices running Linux with
