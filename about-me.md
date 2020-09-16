@@ -20,7 +20,7 @@
   interest). I [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
 - Gaming. My favorite genres include
   [Metroidvanias](https://en.wikipedia.org/wiki/Metroidvania),
-  platformers, <abbr title="Role-playing games">RPGs</abbr>,
+  platformers, RPGs,
   [roguelikes](https://en.wikipedia.org/wiki/Roguelike), and strategy
   games.
 - Meditation. There are many different types of meditation; the

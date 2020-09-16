@@ -80,10 +80,7 @@ it out to be.
 
 **File Manager**
 
-[Ranger](https://github.com/ranger/ranger). It's a vim-inspired terminal
-file
-manager. [Ranger_devicons](https://github.com/alexanderjeurissen/ranger_devicons)
-adds icons, though I don't use them.
+[nnn](https://github.com/jarun/nnn).
 
 **Browser**
 
@@ -115,17 +112,14 @@ Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
 disposable email addresses.
 
 [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
-removes tracking elements from <abbr title="Uniform Resource
-Locators">URLs</abbr>.
+removes tracking elements from URLs.
 
 [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/):
-no more centralized <abbr title="Content Delivery/Distribution
-Networks">CDNs</abbr>.
+no more centralized CDNs.
 
 [HTTPS
 Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
-moar <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr>,
-Swiper no swiping.
+moar HTTPS, Swiper no swiping.
 
 [Terms of Service; Didn't
 Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
@@ -136,8 +130,8 @@ vim bindings for Firefox.
 
 [uBlock
 Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
-wide-spectrum content blocker with <abbr title="Central Processing
-Unit">CPU</abbr> and memory efficiency as primary features.
+wide-spectrum content blocker with CPU and memory efficiency as primary
+features.
 
 [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
 forbid/allow different types of content. I disable both JavaScript
@@ -145,7 +139,7 @@ and cookies, then whitelist as needed.
 
 **Video Player**
 
-[Mpv.](https://github.com/mpv-player/mpv) I pair it with
+[Mpv](https://github.com/mpv-player/mpv). I pair it with
 [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) to stream
 videos.
 
@@ -156,13 +150,11 @@ with [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++").
 
 **RSS Reader**
 
-[Newsboat](https://github.com/newsboat/newsboat). I use <abbr title="RDF
-Site Summary or Really Simple Syndication">RSS</abbr> feeds to track new
-content. It removes the need to create accounts in order to stay up to
-date.
+[Newsboat](https://github.com/newsboat/newsboat). I use RSS feeds to
+track new content. It removes the need to create accounts in order to
+stay up to date.
 
-<p><strong><abbr title="Portable Document Format">PDF</abbr>
-Viewer</strong></p>
+**PDF Viewer**
 
 [Zathura](https://git.pwmt.org/pwmt/zathura).
 
@@ -181,10 +173,6 @@ disk. I use
 
 [Slock](https://tools.suckless.org/slock/).
 
-**Notification Daemon**
-
-[Dunst](https://github.com/dunst-project/dunst).
-
 **Mail Client**
 
 [Neomutt](https://neomutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
@@ -196,12 +184,11 @@ why I didn't do this sooner.
 
 **Static Site Generator**
 
-[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular <abbr
-title="Hypertext Markup Language">HTML</abbr> before I discovered this
-[POSIX](https://en.wikipedia.org/wiki/Posix "Portable Operating System
-Interface") shell script. It generates
+[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
+I discovered this [POSIX](https://en.wikipedia.org/wiki/Posix "Portable
+Operating System Interface") shell script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
-Writing in markdown is definitely quicker and inline HTML mostly works too.
+Writing in markdown is definitely quicker.
 
 **Task Organizer**
 
@@ -231,8 +218,7 @@ I use.
   connection speed.
 - [USBGuard](https://github.com/USBGuard/usbguard): say no to
   [poisontap](https://github.com/samyk/poisontap) and friends.
-- [Wireguard](https://www.wireguard.com/): next generation <abbr
-  title="Virtual Private Network">VPN</abbr> client and server.
+- [Wireguard](https://www.wireguard.com/): next generation VPN client and server.
 - [Unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes):
   hides cursor when mouse is left idle.
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
@@ -244,9 +230,9 @@ Check out [Librehunt](https://librehunt.org/) if you're new to this. :)
 Personalized recommendations tend to be more meaningful, though it's
 hard to go wrong with the [Cinnamon
 edition](https://www.linuxmint.com/edition.php?id=281) of [Linux
-Mint](https://www.linuxmint.com/). In fact, a <abbr title="Universal
-Serial Bus">USB</abbr> flash drive with Linux Mint is always on my
-person in case someone wants me to set it up for them.
+Mint](https://www.linuxmint.com/). In fact, a USB flash drive with Linux
+Mint is always on my person in case someone wants me to set it up for
+them.
 
 I wouldn't recommend OpenBSD to the
 average user (though ["Building an accessible OpenBSD
@@ -263,8 +249,7 @@ can. [GrapheneOS](https://grapheneos.org/) is what I use, although
 [LineageOS](https://www.lineageos.org/) supports a wider range of
 hardware.
 
-Your router is a computer too. <abbr title="Original Equipment
-Manufacturer">OEM</abbr> firmware rarely proves as capable as
+Your router is a computer too. OEM firmware rarely proves as capable as
 [FLOSS
 firmware](https://www.privacytools.io/operating-systems/#firmware). Be
 careful and use Ethernet when you flash the firmware onto your

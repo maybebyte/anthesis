@@ -40,39 +40,43 @@ describing and subsequently rebuilding your system. You might ask,
 The point is consistency and reproducibility. Sometimes it feels like
 every program's configuration files use a different syntax. NixOS allows
 you to configure everything with one language: Nix. When I realized this
-meant I could configure fonts without <abbr title="Extensible Markup
-Language">XML</abbr>, I was *sold*. It's the difference between this:
+meant I could configure fonts without XML, I was *sold*. It's the
+difference between this:
 
-    <?xml version='1.0'?>
-    <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
-    <fontconfig>
-      <alias>
-        <family>serif</family>
-        <prefer>
-          <family>Noto Serif</family>
-        </prefer>
-      </alias>
-      <alias>
-        <family>sans-serif</family>
-        <prefer>
-          <family>Noto Sans</family>
-        </prefer>
-      </alias>
-      <alias>
-        <family>monospace</family>
-        <prefer>
-          <family>Noto Mono</family>
-        </prefer>
-      </alias>
-    </fontconfig>
+```
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<fontconfig>
+  <alias>
+    <family>serif</family>
+    <prefer>
+      <family>Noto Serif</family>
+    </prefer>
+  </alias>
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Noto Sans</family>
+    </prefer>
+  </alias>
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Noto Mono</family>
+    </prefer>
+  </alias>
+</fontconfig>
+```
 
 And this:
 
-    fonts.fontconfig.defaultFonts = {
-      serif = [ "Noto Serif" ];
-      sansSerif = [ "Noto Sans" ];
-      monospace = [ "Noto Mono" ];
-    };
+```
+fonts.fontconfig.defaultFonts = {
+  serif = [ "Noto Serif" ];
+  sansSerif = [ "Noto Sans" ];
+  monospace = [ "Noto Mono" ];
+};
+```
 
 I'd much rather write the second one, wouldn't you?
 
@@ -112,9 +116,8 @@ principle, I like it a lot. Yet I switched to OpenBSD. Why?
 
 Many of the problems NixOS suffers aren't exclusive to it. That is to
 say, some of these problems plague Linux in general. I look for
-simplicity in an operating system (architectural simplicity, or <abbr
-title="Keep It Simple Stupid">KISS</abbr>), and these are areas NixOS
-doesn't do as well in.
+simplicity in an operating system (architectural simplicity, or KISS).
+Simplicity is an area NixOS doesn't do so well in.
 
 For instance, compare the tool NixOS uses to manage services,
 [`systemctl(1)`](https://www.mankier.com/1/systemctl), with OpenBSD's

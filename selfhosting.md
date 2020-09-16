@@ -15,9 +15,8 @@ Some resources as per usual:
 uses for a [Raspberry
 Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). It acts as a [DNS
 sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole "Domain Name System
-sinkhole") for ads and
-telemetry and works on devices you may not expect (<abbr
-title="Telescreens">smart TVs</abbr>, to name one).
+sinkhole") for ads and telemetry and works on devices you may not expect
+(smart TVs, to name one).
 
 **Entertainment Center**
 
@@ -36,11 +35,10 @@ it's a more minimal solution.
 
 For all devices running Linux with
 [MMC](https://en.wikipedia.org/wiki/MultiMediaCard "MultiMediaCard")
-storage, I prefer to use
-[F2FS](https://en.wikipedia.org/wiki/F2fs), otherwise known as the
-Flash-Friendly File System.
+storage, I prefer to use [F2FS](https://en.wikipedia.org/wiki/F2fs),
+otherwise known as the Flash-Friendly File System.
 
-# Why self-host/use <abbr title="Free/Libre and Open Source Software">FLOSS</abbr>?
+# Why self-host/use FLOSS?
 
 People often don't understand why I choose to be my own provider when
 the payoff is, to them, about the same.
@@ -60,8 +58,7 @@ deception are the norm, where a power differential exists between
 developers and end users. You're the product when you run proprietary
 software.
 
-Migration can be difficult. That difficulty is intended, as <abbr
-title="Digital Rights Management">DRM</abbr> is meant
+Migration can be difficult. That difficulty is intended, as DRM is meant
 to lock you in. It doesn't help that proprietary software is used by
 friends, work, and school, or even required by the last two. Despite
 that, I highly encourage you to explore free alternatives to proprietary
@@ -69,7 +66,7 @@ software you use. The libre lifestyle doesn't have to be all or nothing;
 switch things out as you feel comfortable, like Google Chrome
 for Firefox, and you'll be better for it.
 
-## <abbr title="Virtual Private Server">VPS</abbr> providers
+## VPS providers
 
 I recommend
 [Exoscale](https://portal.exoscale.com/register?r=JEUcJnv6AIMe) (full
@@ -77,16 +74,14 @@ disclosure, that's a referral link. See [Exoscale's mentor
 program](https://community.exoscale.com/documentation/platform/mentor-program/)
 for details). Exoscale is a Swiss cloud provider [that respects the
 GDPR](https://www.exoscale.com/compliance/ "General Data Protection
-Regulation") and
-values data privacy/security.
+Regulation") and values data privacy/security.
 
 [openbsd.amsterdam](https://openbsd.amsterdam/) also seems excellent if
 you want to have [vmm(4)](https://man.openbsd.org/vmm.4) as the
 virtualization backend instead of
 [KVM](https://www.linux-kvm.org/page/Main_Page "Kernel-based Virtual
-Machine"). They donate €10 per <abbr title="Virtual Machine">VM</abbr>
-and then €15 for every renewal to the [OpenBSD
-Foundation](https://www.openbsdfoundation.org/).
+Machine"). They donate €10 per VM and then €15 for every renewal to the
+[OpenBSD Foundation](https://www.openbsdfoundation.org/).
 
 ## Domains
 
