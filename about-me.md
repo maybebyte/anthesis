@@ -53,15 +53,3 @@
   document my ideas when I realized that many of the things I told
   myself I'd remember and do something about later never came to
   fruition.
-
-# Convictions/Values
-
-Note that this section is intended to be descriptive, not
-prescriptive. These are things that work for me, shared with the hope
-that they can benefit someone else.
-
-1. It's important to expose yourself to new things. When someone else is
-   passionate about something, ask and genuinely listen to them, even if
-   you're not interested in it. By listening, you expand your horizons,
-   which allows you to draw connections between subjects, relate more to
-   people, and pick up new hobbies in the process.
