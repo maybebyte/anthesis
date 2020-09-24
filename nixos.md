@@ -1,4 +1,4 @@
-# The pros and cons of NixOS from an OpenBSD user's perspective
+# Pros and cons of NixOS
 
 I've experimented with many operating systems over the years. Even
 though I chose OpenBSD in the end, NixOS was a strong contender and my
@@ -43,40 +43,36 @@ you to configure everything with one language: Nix. When I realized this
 meant I could configure fonts without XML, I was *sold*. It's the
 difference between this:
 
-```
-<?xml version='1.0'?>
-<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
-<fontconfig>
-  <alias>
-    <family>serif</family>
-    <prefer>
-      <family>Noto Serif</family>
-    </prefer>
-  </alias>
-  <alias>
-    <family>sans-serif</family>
-    <prefer>
-      <family>Noto Sans</family>
-    </prefer>
-  </alias>
-  <alias>
-    <family>monospace</family>
-    <prefer>
-      <family>Noto Mono</family>
-    </prefer>
-  </alias>
-</fontconfig>
-```
+    <?xml version='1.0'?>
+    <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+    <fontconfig>
+      <alias>
+        <family>serif</family>
+        <prefer>
+          <family>Noto Serif</family>
+        </prefer>
+      </alias>
+      <alias>
+        <family>sans-serif</family>
+        <prefer>
+          <family>Noto Sans</family>
+        </prefer>
+      </alias>
+      <alias>
+        <family>monospace</family>
+        <prefer>
+          <family>Noto Mono</family>
+        </prefer>
+      </alias>
+    </fontconfig>
 
 And this:
 
-```
-fonts.fontconfig.defaultFonts = {
-  serif = [ "Noto Serif" ];
-  sansSerif = [ "Noto Sans" ];
-  monospace = [ "Noto Mono" ];
-};
-```
+    fonts.fontconfig.defaultFonts = {
+      serif = [ "Noto Serif" ];
+      sansSerif = [ "Noto Sans" ];
+      monospace = [ "Noto Mono" ];
+    };
 
 I'd much rather write the second one, wouldn't you?
 

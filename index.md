@@ -1,20 +1,20 @@
-# Why amissing.link?
+# There's no place like /home
 
-Despite the name, it's not a [commentary on human
-evolution](https://en.wikipedia.org/wiki/Missing_link_(human_evolution)). I chose
-this domain because it has a nice ring to it and it's memorable.
+Hey, I'm Ashlen. I'm an [OpenBSD](https://www.openbsd.org/) fanatic
+among other things. I maintain `amissing.link` because, firstly,
+a personal website is among the freest forms of expression a person can
+have. Secondly, writing about and sharing my discoveries so others can
+benefit from them makes me happy. The pursuit and dissemination of
+knowledge is in itself meaningful to me.
 
-# Who are you?
-
-I'm Ashlen. I program and administrate servers; sometimes, I even
-know what I'm doing. My [About me](/about-me.html) lists other interests.
-
-[GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my public
-GPG Key](pubkeys/eurydice.key) is preferred [when corresponding via
-email](mailto:eurydice@riseup.net "eurydice@riseup.net"), remember to
-attach yours so I can send an encrypted message back.
+To learn more about me, visit my [About me](/about-me.html).
 
 # Conventions
+
+[GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my
+public GPG Key](pubkeys/eurydice.key) is preferred [when corresponding
+via email](mailto:eurydice@riseup.net "eurydice@riseup.net"), remember
+to attach yours so I can send an encrypted message back.
 
 Any word with a trailing number in parentheses,
 e.g. [`help(1)`](https://man.openbsd.org/help), is a link to

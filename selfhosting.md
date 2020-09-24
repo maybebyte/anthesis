@@ -1,41 +1,3 @@
-# Things I self-host
-
-Some resources as per usual:
-
-- [Lucid index](https://lucidindex.com/)
-- [Awesome self-hosted
-  (github)](https://github.com/Kickball/awesome-selfhosted)
-- [Libre projects](https://libreprojects.net/)
-- [/r/selfhosted](https://old.reddit.com/r/selfhosted/)
-- [OpenBSD's](https://www.openbsd.org) base system
-
-**DNS Sinkhole**
-
-[Pi-hole](https://github.com/pi-hole/pi-hole) is one of the most popular
-uses for a [Raspberry
-Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). It acts as a [DNS
-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole "Domain Name System
-sinkhole") for ads and telemetry and works on devices you may not expect
-(smart TVs, to name one).
-
-**Entertainment Center**
-
-[Retropie](https://retropie.org.uk/) is a fantastic project. I grew up
-with many of the games it supports so it's a valuable addition in that
-it caters to my nostalgia. The [Argon
-ONE](https://www.argon40.com/catalog/product/view/id/52/s/argon-one-raspberry-pi-4-case/category/4/)
-makes it feasible to overclock the thermally challenged [Raspberry Pi
-4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
-
-In addition, I put [Kodi](http://kodi.tv/) on the same machine as
-Retropie for my boyfriend. I prefer SSH + mpv to play media on the TV as
-it's a more minimal solution.
-
-For all devices running Linux with
-[MMC](https://en.wikipedia.org/wiki/MultiMediaCard "MultiMediaCard")
-storage, I prefer to use [F2FS](https://en.wikipedia.org/wiki/F2fs),
-otherwise known as the Flash-Friendly File System.
-
 # Why self-host/use FLOSS?
 
 People often don't understand why I choose to be my own provider when
@@ -64,7 +26,48 @@ software you use. The libre lifestyle doesn't have to be all or nothing;
 switch things out as you feel comfortable, like Google Chrome
 for Firefox, and you'll be better for it.
 
-## VPS providers
+# Stuff I self-host
+
+**DNS Sinkhole**
+
+[Pi-hole](https://github.com/pi-hole/pi-hole) is one of the most popular
+uses for a [Raspberry
+Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). It acts as a [DNS
+sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole "Domain Name System
+sinkhole") for ads and telemetry and works on devices you may not expect
+(smart TVs, to name one).
+
+**Entertainment Center**
+
+[Retropie](https://retropie.org.uk/) is a fantastic project. I grew up
+with many of the games it supports so it's a valuable addition in that
+it caters to my nostalgia. The [Argon
+ONE](https://www.argon40.com/catalog/product/view/id/52/s/argon-one-raspberry-pi-4-case/category/4/)
+makes it feasible to overclock the thermally challenged [Raspberry Pi
+4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
+
+In addition, I put [Kodi](http://kodi.tv/) on the same machine as
+Retropie for my boyfriend. I prefer SSH + mpv to play media on the TV as
+it's a more minimal solution.
+
+For all devices running Linux with
+[MMC](https://en.wikipedia.org/wiki/MultiMediaCard "MultiMediaCard")
+storage, I prefer to use [F2FS](https://en.wikipedia.org/wiki/F2fs),
+otherwise known as the Flash-Friendly File System.
+
+# Recommendations
+
+## Find what you want to self-host
+
+Some resources for pedagogical purposes:
+
+- [Awesome self-hosted
+  (github)](https://github.com/Kickball/awesome-selfhosted)
+- [Libre projects](https://libreprojects.net/)
+- [/r/selfhosted](https://old.reddit.com/r/selfhosted/)
+- [OpenBSD's](https://www.openbsd.org) base system
+
+## Choose a VPS provider
 
 I recommend
 [Exoscale](https://portal.exoscale.com/register?r=JEUcJnv6AIMe) (full
@@ -81,7 +84,7 @@ virtualization backend instead of
 Machine"). They donate €10 per VM and then €15 for every renewal to the
 [OpenBSD Foundation](https://www.openbsdfoundation.org/).
 
-## Domains
+## Pick a domain
 
 [Njalla](https://njal.la/) is worthwhile. They also have a VPS service,
 though they only provided Debian, Ubuntu, CentOS, and Alpine when I used

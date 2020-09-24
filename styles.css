@@ -11,7 +11,7 @@ p strong {
 }
 
 li {
-  padding: 4px 0;
+  padding: 8px 0;
 }
 
 /*code should remain ${body_color} even if a link*/
@@ -19,12 +19,8 @@ code {
   color: #E0E9F0;
 }
 
-ul, ol {
+nav ul {
   margin: 0;
-}
-
-ul {
-  list-style-type: none;
   padding: 0;
 }
 

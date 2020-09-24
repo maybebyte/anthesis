@@ -1,55 +1,36 @@
-# Interests
+# About me
 
-- Audio gear. My current collection includes the [Hifiman
-  Sundara](https://hifiman.com/products/detail/286), [Sennheiser
-  HD600](https://sennheiser.com/best-audio-headphones-high-end-stereo-hifi-hd-600)
-  and [E-MU
-  Teak](https://sg.creative.com/p/headphones-headsets/e-mu-teak). To
-  drive my headphones and produce better sound, the [Monoprice Monolith
-  THX
-  887](https://www.audiosciencereview.com/forum/index.php?threads/monoprice-monolith-thx-887-balance-headphone-amp-new-champ.8942/)
-  sits on my desk
-  with the [Topping
-  E30](https://www.audiosciencereview.com/forum/index.php?threads/topping-e30-dac-review.12119/)
-  on top of it. [Audio Science
-  Review](https://www.audiosciencereview.com/) is a good resource for
-  amplifiers and
-  [DACs](https://en.wikipedia.org/wiki/Digital-to-analog_converter "Digital-to-analog converters").
-- [FLOSS](https://en.wikipedia.org/wiki/Free_and_open_source_software "Free/Libre and Open Source Software")
-  (though I think of it as a lifestyle/set of convictions rather than an
-  interest). I [self-host](https://en.wikipedia.org/wiki/Self-hosting_(web_services)).
-- Gaming. My favorite genres include
-  [Metroidvanias](https://en.wikipedia.org/wiki/Metroidvania),
-  platformers, RPGs,
-  [roguelikes](https://en.wikipedia.org/wiki/Roguelike), and strategy
-  games.
-- Meditation. There are many different types of meditation; the
-  specifics matter less than consistency and dedication in my
-  experience. [Tara Brach's guided
-  meditations](https://www.tarabrach.com/guided-meditations) are worth
-  checking out.
-- Music. I practice piano regularly as a means of self-expression,
-  mostly by ear as I have perfect pitch.
-- Philosophy. Let's save that discussion for later, lest we put
-  [Descartes](https://en.wikipedia.org/wiki/Descartes) before the horse.
-- Programming and tech, in part because they present interesting
-  problems for me to solve. Unlike spoken languages where many things
-  are implicitly conveyed and understood, computers follow the letter of
-  the law and not the spirit of it.
-- Psychology. I find it fascinating that every person I cross paths
-  with, regardless of whether or not we ever end up speaking, probably
-  leads a life as complex as my own. They have moments of joy, doubt,
-  hope, sadness, and so on, just like I do. It's why I engage in the
+To preface this, I don't think it's possible to perfectly condense
+anyone into a set of words. That said, I think there's value in learning
+how to describe myself concisely. It allows me to reflect on what's of
+interest to others and how I'm growing as an individual.
+
+- I deeply appreciate a good audio setup, given that I listen to music
+  often. My current collection includes the Hifiman Sundara, Sennheiser
+  HD600, and E-MU Teak. To drive my headphones and produce better sound,
+  the Monoprice Monolith THX 887 sits on my desk with the Topping E30 on
+  top of it.
+- I enjoy playing piano. I'm fortunate enough to have perfect pitch,
+  which helps with improvisation.
+- I play games from time to time. It helps me to avoid burnout and
+  relax. Metroidvanias, platformers, RPGs, roguelikes, and strategy
+  games are among my favorite genres.
+- I meditate at least once a day because it heals the soul and
+  mind. [Tara Brach offers some excellent guided
+  meditations](https://www.tarabrach.com/guided-meditations/).
+- I consider self-improvement, learning, and metacognition to be
+  crucial. Mindfulness is immensely helpful for me in that regard, as
+  a state of flow is conducive to all of those things.
+- I appreciate psychology as a subject. Even those most distant from my
+  convictions are an amalgamation of the same emotional and physical
+  constituents that comprise me (albeit in a different configuration, and
+  with a different end result). For this reason, I engage in the
   [principle of
   charity](https://en.wikipedia.org/wiki/Principle_of_charity).
-- Self-improvement, metacognition, and learning. After all,
-  understanding how to effectively learn and improve is as important as
-  those tasks in themselves. Mindfulness is an important tool to
-  consider in this context, as a state of flow is conducive to all of
-  those things.
-- Writing. Teaching is one of the best ways to learn, not to mention
-  that writing can be fulfilling and thought-provoking. Sometimes it's
-  as simple as jotting down ideas on occasion. I started to
-  document my ideas when I realized that many of the things I told
-  myself I'd remember and do something about later never came to
-  fruition.
+- I like to write. Teaching is one of the best ways to learn, not to
+  mention that writing can be fulfilling and thought-provoking.
+- I consider philosophy's teachings and apply them, though bringing it
+  up now would be putting Descartes before the horse.
+- I advocate for FLOSS (free/libre and open source software) and
+  generally involve myself with tech often because it presents
+  interesting problems for me to solve.

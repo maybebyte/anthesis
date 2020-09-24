@@ -1,7 +1,9 @@
-# Clues
+# Get a clue
 
-As in, have you got a clue? These are quirks/interesting things I've
-learned, thus gaining a clue I previously didn't have.
+These are quirks/interesting things I've learned, thus gaining a clue
+I previously didn't have. Usually these are things that don't warrant
+a separate article, so I put them here instead. In addition, it's nice
+to have a place to share miscellaneous thoughts.
 
 1. `%` gets converted to a newline in
   [`crontab(5)`](https://man.openbsd.org/crontab.5) and all data after
@@ -41,7 +43,7 @@ learned, thus gaining a clue I previously didn't have.
    header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers "Hypertext Transfer Protocol header") obsoletes
    [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options),
    so `X-Frame-Options: deny` paired with `Content-Security-Policy:
-   [...] frame-ancestors 'none';` is unnecessary.
+   frame-ancestors 'none';` is unnecessary.
 1. As a follow-up to the last clue, the
    [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
    header is a more standardized version of the

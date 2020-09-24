@@ -1,7 +1,11 @@
-# Software I use
+# Software I use/enjoy
 
 This page primarily exists for two reasons: a) for those interested in
-my workflow b) to document things for myself.
+my workflow b) to document things for myself. Granted, one may argue
+that `pkg_info -mz` would accomplish the same thing, to which
+I'd reply that I like to ramble and this is a more symbolically
+meaningful way to represent this information given that the software is
+organized by type.
 
 Here are some resources that I find useful:
 
@@ -12,7 +16,6 @@ Here are some resources that I find useful:
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 - [OpenBSD's](https://www.openbsd.org) base system
-
 
 **Operating Systems**
 
@@ -74,9 +77,15 @@ Emoji: Symbola.
 
 **Editor**
 
-[Vim](https://www.vim.org). I positively adore vim. If you want to learn
+[Vim](https://www.vim.org). I adore vim. If you want to learn
 it, `vimtutor` is your friend. I promise it's not as hard as people make
 it out to be.
+
+Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_use_help)):
+
+  - pattern-overview (shows you search patterns)
+  - option-list (shows you configurable options for
+    [`.vimrc`](/src/dotfiles/file/.vimrc.html))
 
 **File Manager**
 
@@ -104,38 +113,31 @@ user.js](https://github.com/ghacksuserjs/ghacks-user.js).
 
 **Firefox Addons**
 
-I try my best not to pile on the addons. They're mostly for privacy
+Here are the addons I use. They're mostly for privacy
 because [the modern web sucks](https://suckless.org/sucks/web/).
 
-[Bloody
-Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
-disposable email addresses.
-
-[ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
-removes tracking elements from URLs.
-
-[Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/):
-no more centralized CDNs.
-
-[HTTPS
-Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
-moar HTTPS, Swiper no swiping.
-
-[Terms of Service; Didn't
-Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
-understand a site's privacy policy at a glance.
-
-[Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
-vim bindings for Firefox.
-
-[uBlock
-Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
-wide-spectrum content blocker with CPU and memory efficiency as primary
-features.
-
-[uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
-forbid/allow different types of content. I disable both JavaScript
-and cookies, then whitelist as needed.
+- [Bloody
+  Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
+  disposable email addresses.
+- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
+  removes tracking elements from URLs.
+- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/):
+  no more centralized CDNs.
+- [HTTPS
+  Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
+  moar HTTPS, Swiper no swiping.
+- [Terms of Service; Didn't
+  Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
+  understand a site's privacy policy at a glance.
+- [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
+  vim bindings for Firefox.
+- [uBlock
+  Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
+  wide-spectrum content blocker with CPU and memory efficiency as
+  primary features.
+- [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
+  forbid/allow different types of content. I disable both JavaScript and
+  cookies, then whitelist as needed.
 
 **Video Player**
 
@@ -167,7 +169,7 @@ stay up to date.
 [Maim](https://github.com/naelstrof/maim "Make Image"). It's possible to
 pipe the output of maim to xclip to send an image without saving it to
 disk. I use
-[maimpick](https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/maimpick).
+[maimpick](/src/dotfiles/file/.local/bin/maimpick.html).
 
 **Screen Locker**
 
@@ -223,34 +225,3 @@ I use.
   hides cursor when mouse is left idle.
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
   longer use blur to redact things.
-
-# What [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software "Free/Libre and Open Source Software") OS should I use?
-Check out [Librehunt](https://librehunt.org/) if you're new to this.
-
-Personalized recommendations tend to be more meaningful, though it's
-hard to go wrong with the [Cinnamon
-edition](https://www.linuxmint.com/edition.php?id=281) of [Linux
-Mint](https://www.linuxmint.com/). In fact, a USB flash drive with Linux
-Mint is always on my person in case someone wants me to set it up for
-them.
-
-I wouldn't recommend OpenBSD to the
-average user (though ["Building an accessible OpenBSD
-laptop"](https://www.openbsd.org/papers/bsdcan2019-accessible-openbsd-laptop.pdf)
-was a fascinating read). A good out-of-box experience with a low
-learning curve is most appropriate.
-
-However, tech-savvy users that want a simple, robust, comprehensible,
-well-documented, and proactively secure OS will feel at home with
-OpenBSD. I certainly do.
-
-Use a privacy-respecting OS for your mobile device if you
-can. [GrapheneOS](https://grapheneos.org/) is what I use, although
-[LineageOS](https://www.lineageos.org/) supports a wider range of
-hardware.
-
-Your router is a computer too. OEM firmware rarely proves as capable as
-[FLOSS
-firmware](https://www.privacytools.io/operating-systems/#firmware). Be
-careful and use Ethernet when you flash the firmware onto your
-router. Fixing a bricked router isn't fun for most people.
