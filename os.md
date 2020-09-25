@@ -1,8 +1,8 @@
 # FLOSS OS recommendations
 
 Check out [Librehunt](https://librehunt.org/) if you're new to this. It
-does a good job of explaining the merits of FLOSS and what might work
-for you in terms of an operating system.
+does a good job of explaining the merits of FLOSS and suggests operating
+systems based on how you answer its quiz.
 
 If you want a personal recommendation, first look within yourself and
 assess what you want out of an OS. Figure out whether you want to
@@ -14,16 +14,19 @@ The former camp of people should likely go with the [Cinnamon edition of
 Linux Mint](https://www.linuxmint.com/edition.php?id=281). I believe in
 this OS enough that a USB flash drive with Linux Mint is always on my
 person in case someone wants me to set it up for them. It provides
-a familiar interface and full-featured applications.
+a familiar interface and full-featured applications. They dedicate a lot
+of time to making things intuitive, yet it still has all of the power
+and customizability of a Unix-like system.
 
 Those that are willing to dive deeper and aren't afraid to take some
-time to learn, take a look at OpenBSD. It keeps things simple, yet the
-system is robust enough to handle many different use cases. OpenBSD as
-a system feels transparent/comprehensible due to great documentation and
-it's proactively secure. Comfy, in a word. It takes time to learn how it
-works and OpenBSD likely differs in some ways from what you're used to,
-yet it's worth every second of what you put in. At least it has been for
-me.
+time to learn, take a look at [OpenBSD](https://www.openbsd.org/). It
+keeps things simple, yet the system is robust enough to handle many
+different use cases. OpenBSD as a system feels
+transparent/comprehensible due to great documentation and minimal tools
+that work together. These things along with a proactive attitude toward
+security makes OpenBSD comfy, in a word. It takes time to learn how it
+works--OpenBSD will inevitably differ from what you're used to. Yet it's
+worth every second of what you put in, or at least it has been for me.
 
 Use a privacy respecting OS for your mobile device if you
 can. [GrapheneOS](https://grapheneos.org/) is what I use, although

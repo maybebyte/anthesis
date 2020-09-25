@@ -1,8 +1,9 @@
 # Pros and cons of NixOS
 
 I've experimented with many operating systems over the years. Even
-though I chose OpenBSD in the end, NixOS was a strong contender and my
-daily driver for a while.
+though I chose [OpenBSD](https://www.openbsd.org/) in the end,
+[NixOS](https://www.openbsd.org/) was a strong contender and my daily
+driver for a while.
 
 Note that I won't write about every single aspect of these systems, as
 that'd duplicate existing documentation. Anyway, let's get into the

@@ -15,7 +15,6 @@ Here are some resources that I find useful:
 - [AlternativeTo](https://alternativeto.net/)
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
-- [OpenBSD's](https://www.openbsd.org) base system
 
 **Operating Systems**
 
@@ -30,7 +29,7 @@ curiosity, read [my thoughts on NixOS](/nixos.html).
 
 **Window Manager**
 
-[xmonad](https://xmonad.org/documentation.html). Overall, I really like
+[xmonad](https://xmonad.org/). Overall, I really like
 the fundamental concepts and design of Haskell.
 
 Note that I use [sxhkd](https://github.com/baskerville/sxhkd "Simple
@@ -48,7 +47,7 @@ into [lbar](https://amissing.link/src/dotfiles/file/bin/lbar.html).
 
 **Compositor**
 
-[xcompmgr](https://man.openbsd.org/xcompmgr.1).
+[`xcompmgr(1)`](https://man.openbsd.org/xcompmgr.1).
 
 **Color Scheme Generator**
 
@@ -57,15 +56,11 @@ colors from an image (usually a wallpaper) to use for theming.
 
 **Fonts**
 
-Serif: Noto Serif.
-
-Sans-serif: Noto Sans.
-
-Monospace: Noto Mono.
-
-Bitmap: Terminus.
-
-Emoji: Symbola.
+- Serif: Noto Serif.
+- Sans-serif: Noto Sans.
+- Monospace: Noto Mono.
+- Bitmap: Terminus.
+- Emoji: Symbola.
 
 **Terminal**
 
@@ -73,7 +68,7 @@ Emoji: Symbola.
 
 **Terminal Multiplexer**
 
-[Tmux](https://github.com/tmux/tmux).
+[`tmux(1)`](https://man.openbsd.org/tmux).
 
 **Editor**
 
@@ -102,8 +97,7 @@ It's worth mentioning that Firefox has
 [`unveil(2)`](https://man.openbsd.org/unveil.2) support in
 OpenBSD. Chromium has that support too, though Chromium has binary blobs
 so it's not of interest to me. [Ungoogled
-Chromium](https://github.com/Eloston/ungoogled-chromium) aims to remedy
-this.
+Chromium](https://ungoogled-software.github.io/) aims to remedy this.
 
 I do have my gripes with Firefox (gigantic code base and uses
 questionable defaults, like Google as a search engine).
@@ -141,20 +135,20 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
 
 **Video Player**
 
-[Mpv](https://github.com/mpv-player/mpv). I pair it with
+[Mpv](https://mpv.io/). I pair it with
 [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) to stream
 videos.
 
 **Music Player**
 
-[MPD](https://github.com/MusicPlayerDaemon/MPD "Music Player Daemon")
+[MPD](https://www.musicpd.org/ "Music Player Daemon")
 with [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++").
 
 **RSS Reader**
 
-[Newsboat](https://github.com/newsboat/newsboat). I use RSS feeds to
-track new content. It removes the need to create accounts in order to
-stay up to date.
+[Newsboat](https://newsboat.org/). I use RSS feeds to track new
+content. It removes the need to create accounts in order to stay up to
+date.
 
 **PDF Viewer**
 
@@ -187,8 +181,7 @@ why I didn't do this sooner.
 **Static Site Generator**
 
 [SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
-I discovered this [POSIX](https://en.wikipedia.org/wiki/Posix "Portable
-Operating System Interface") shell script. It generates
+I discovered this POSIX shell script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
 Writing in markdown is definitely quicker.
 
@@ -207,21 +200,19 @@ I use.
   [search shell
   history](https://wiki.archlinux.org/index.php/Fzf#Shells) with it.
 - [NCDU](https://dev.yorhel.nl/ncdu): NCurses Disk Usage.
-- [Rmlint](https://github.com/sahib/rmlint): remove duplicates and other
-  lint from your filesystem.
+- [Rmlint](https://rmlint.readthedocs.io/en/latest/): remove duplicates
+  and other lint from your filesystem.
 - [Ripgrep](https://github.com/BurntSushi/ripgrep): blazing fast code
   search.
-- [Beets](https://github.com/beetbox/beets): manages music libraries and
-  tags them appropriately using MusicBrainz.
+- [Beets](http://beets.io/): manages music libraries and tags them
+  appropriately using MusicBrainz.
 - [Sct](https://flak.tedunangst.com/post/sct-set-color-temperature): set
   color temperature in a minimal C program, what's not to love?
 - [Rig](http://rig.sourceforge.net/): Random Identity Generator.
 - [Speedtest-cli](https://github.com/sivel/speedtest-cli): test
   connection speed.
-- [USBGuard](https://github.com/USBGuard/usbguard): say no to
-  [poisontap](https://github.com/samyk/poisontap) and friends.
+- [USBGuard](https://usbguard.github.io/): say no to
+  [poisontap](https://samy.pl/poisontap/) and friends.
 - [Wireguard](https://www.wireguard.com/): next generation VPN client and server.
 - [Unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes):
   hides cursor when mouse is left idle.
-- [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur): why I no
-  longer use blur to redact things.
