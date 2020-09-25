@@ -1,13 +1,14 @@
 # So you want to self-host
 
 That's great! You're on your way to becoming more free and tech
-literate. Note that this page is meant to be an overview and not an
-exhaustive list of what's involved in self-hosting.
+literate. In addition, you'll develop a working understanding of various
+subjects you may not have encountered otherwise.
 
-Self-hosting usually necessitates the command line, though it's not as
-bad as people think. For whatever reason, people get intimidated when
-they're at a shell prompt when it's a skill to be developed like
-anything else. I got where I am by stumbling in the right direction and
+As a forewarning, self-hosting usually necessitates the command line,
+though it's not as bad as people think. For whatever reason, people get
+intimidated when they're at a shell prompt when it's a skill to be
+developed like anything else. Learning often consists of stumbling in
+the right direction, especially when first cultivating a skill, and
 there's no shame in that. Making mistakes is all part of the process.
 
 If essential shell commands like `ls` and `cd` aren't in your
@@ -17,6 +18,9 @@ FAQ](https://www.openbsd.org/faq/) or b) pursuing different avenues to
 liberate your online life and regain privacy, such as installing
 a [FLOSS operating system](/os.html) or using FLOSS software to
 accomplish day-to-day tasks.
+
+Note that this page is meant to be an overview and not an
+exhaustive list of what's involved in self-hosting.
 
 ## Find what you want to host
 
@@ -74,8 +78,8 @@ long URL, and then purchase it.
 
 Now you need to point your domain to your server's IP using an A record
 for IPv4 and an AAAA record for IPv6. Each domain registrar handles this
-  differently. Without these, no one will be able to visit your website
-  unless they type in the IP address of the machine it's running on.
+differently. Without these, no one will be able to visit your website
+unless they type in the IP address of the machine it's running on.
 
 ## Read documentation
 
