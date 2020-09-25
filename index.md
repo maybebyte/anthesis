@@ -9,6 +9,8 @@ knowledge is in itself meaningful to me.
 
 To learn more about me, visit my [About me](/about-me.html).
 
+To browse my articles, visit [Articles](/articles.html).
+
 # Conventions
 
 [GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my

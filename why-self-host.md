@@ -3,28 +3,54 @@
 People often don't understand why I choose to be my own provider when
 the payoff is, to them, about the same.
 
-Libre software has these benefits among others: a)
-customizability/control b) privacy/security (hiding source code is
-security by obscurity, a demonstrably ineffective practice) c)
-a collaborative development process that emphasizes quality over profit
-d) more likely to conform to the [UNIX
-philosophy](https://en.wikipedia.org/wiki/UNIX_philosophy).
+Libre software has these benefits among others:
+
+- Customizable. You can do whatever you want with the software.
+- Free as in freedom and free as in free beer (though you should donate
+  to a project if you find it useful).
+- The software can be redistributed/improved/studied.
+- Collaborative. You can report bugs to developers or contribute and the
+  software will be better for everyone as a result.
+- Quality and passion. The impetus for releasing FLOSS is
+  different. People write libre software because they want to solve
+  a problem.
+- Often more private and secure due to code review.
+- Transparent--libre software isn't trying to hide anything because the
+  source code is publicly available.
+- More likely to adhere to the [Unix
+  philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 Contrast with [proprietary
-software](https://www.gnu.org/proprietary/proprietary.en.html), where
-you can lose everything tied to an account at a whim, where
-surveillance, planned obsolescence, incompatibility, censorship, and
-deception are the norm, where a power differential exists between
-developers and end users. You're the product when you run proprietary
-software.
+software](https://www.gnu.org/proprietary/proprietary.en.html):
 
-Migration can be difficult. That difficulty is intended, as DRM is meant
-to lock you in. It doesn't help that proprietary software is used by
-friends, work, and school, or even required by the last two. Despite
-that, I highly encourage you to explore free alternatives to proprietary
-software you use. The libre lifestyle doesn't have to be all or nothing;
-switch things out as you feel comfortable, like Google Chrome for
-Firefox, and you'll be better for it.
+- DRM means you don't truly own anything, you can lose it at any time
+  and companies use that to their advantage.
+- Incompatible (try moving photos from macOS/iOS to a device outside
+  Apple's ecosystem).
+- You have no say in the development process.
+- Surveillance is commonplace and it's harder to tell if it's
+  happening. Both Apple and Microsoft cooperate with the NSA.
+- Planned obsolescence.
+- Censorship.
+- Usually overengineered or 'bloated.' Proprietary software is developed
+  with the express purpose of making money and many large companies
+  don't care about ethics or freedom.
+- Often deceives or manipulates users.
+- A power differential exists between developers and end users; comply
+  with their terms or lose the right to use that software.
+
+In the end, you're the product when you run proprietary software.
+
+Migration can be difficult (which is intentional, DRM is a method of
+locking users in to an ecosystem). It doesn't help that proprietary
+software is used by friends, work, and school, or sometimes required by
+the last two. Despite that, I highly encourage you to explore free
+alternatives to proprietary software you use.
+
+Bear in mind that the libre lifestyle doesn't have to be all or nothing.
+Exchange proprietary programs for ones that respect your freedom as you
+feel comfortable (Libreoffice instead of Microsoft Office, Firefox
+instead of Google Chrome, etc) and you'll be better for it.
 
 If you're interested, check out [my guide on
 self-hosting](/self-host-guide.html).

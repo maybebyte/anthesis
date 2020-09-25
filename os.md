@@ -13,10 +13,10 @@ things.
 The former camp of people should likely go with the [Cinnamon edition of
 Linux Mint](https://www.linuxmint.com/edition.php?id=281). I believe in
 this OS enough that a USB flash drive with Linux Mint is always on my
-person in case someone wants me to set it up for them. It provides
-a familiar interface and full-featured applications. The developers
-dedicate a lot of time to making things intuitive, yet Linux Mint still
-has all of the power and customizability of a Unix-like system.
+person in case someone wants me to set it up for them. It provides a
+familiar interface and full-featured applications. The developers
+dedicate a lot of time to making things intuitive without sacrificing
+customizability and I really appreciate that approach.
 
 Those that are willing to dive deeper and aren't afraid to take some
 time to learn, take a look at [OpenBSD](https://www.openbsd.org/). It
@@ -28,13 +28,12 @@ security makes OpenBSD comfy, in a word. It takes time to learn how it
 works--OpenBSD will inevitably differ from what you're used to. Yet it's
 worth every second of what you put in, or at least it has been for me.
 
-Use a privacy respecting OS for your mobile device if you
-can. [GrapheneOS](https://grapheneos.org/) is what I use, although
+Use a privacy respecting OS for your mobile device if you can.
+[GrapheneOS](https://grapheneos.org/) is what I use, although
 [LineageOS](https://www.lineageos.org/) supports a wider range of
 hardware.
 
-Your router is a computer too. OEM firmware rarely proves as capable as
-[FLOSS
-firmware](https://www.privacytools.io/operating-systems/#firmware). Be
-careful and use Ethernet when you flash the firmware onto your
-router. Fixing a bricked router isn't fun for most people.
+Your router is a computer too. OEM firmware isn't as capable/secure as
+FLOSS counterparts (such as DD-WRT, OpenWRT, pfSense, or OpenBSD). Be
+careful and use Ethernet if you flash firmware onto your router. Fixing
+a bricked router isn't fun for most people.
