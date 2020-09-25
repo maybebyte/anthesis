@@ -14,9 +14,9 @@ The former camp of people should likely go with the [Cinnamon edition of
 Linux Mint](https://www.linuxmint.com/edition.php?id=281). I believe in
 this OS enough that a USB flash drive with Linux Mint is always on my
 person in case someone wants me to set it up for them. It provides
-a familiar interface and full-featured applications. They dedicate a lot
-of time to making things intuitive, yet it still has all of the power
-and customizability of a Unix-like system.
+a familiar interface and full-featured applications. The developers
+dedicate a lot of time to making things intuitive, yet Linux Mint still
+has all of the power and customizability of a Unix-like system.
 
 Those that are willing to dive deeper and aren't afraid to take some
 time to learn, take a look at [OpenBSD](https://www.openbsd.org/). It

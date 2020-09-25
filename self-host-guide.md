@@ -29,10 +29,10 @@ Some resources for pedagogical purposes:
 [The software I use](/software.html) may be relevant to you as well,
 though it mostly applies to a personal computer instead of a server.
 
-If nothing else, try building a website. By creating your own website,
-you become an Internet landlord and can freely express your thoughts
-instead of remaining under someone else's thumb. The rest of the guide
-uses setting up a website as an example.
+If you're still not sure what to host, try building a website. By
+creating your own website, you become an Internet landlord and can
+freely express your thoughts instead of remaining under someone else's
+thumb. The rest of the guide uses setting up a website as an example.
 
 ## Pick an operating system
 
