@@ -31,8 +31,8 @@ interest to others and how I'm growing as an individual.
   charity](https://en.wikipedia.org/wiki/Principle_of_charity).
 - I like to write. Teaching is one of the best ways to learn, not to
   mention that writing can be fulfilling and thought-provoking.
-- I consider philosophy's teachings and apply them, though bringing it
-  up now would be putting Descartes before the horse.
+- I consider philosophy's teachings and apply them, though discussing
+  philosophy on this page would be putting Descartes before the horse.
 - I advocate for FLOSS (free/libre and open source software) and
   generally involve myself with tech often because it presents
   interesting problems for me to solve.
