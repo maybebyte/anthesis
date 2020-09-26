@@ -12,13 +12,18 @@ Libre software has these benefits among others:
 - Collaborative. You can report bugs to developers or contribute and the
   software will be better for everyone as a result.
 - Quality and passion. The impetus for releasing FLOSS is
-  different. People write libre software because they want to solve
-  a problem.
+  different. Writing libre software is a labor of love and people do it
+  because they want to solve a problem.
 - Often more private and secure due to code review.
 - Transparent--libre software isn't trying to hide anything because the
   source code is publicly available.
 - More likely to adhere to the [Unix
   philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
+- People in the community volunteer their time to help others in need.
+- Unmaintained software can later be revived.
+- Old hardware is still viable. You're not forced to upgrade every few
+  years.
+- Some of it is just plain cool.
 
 Contrast with [proprietary
 software](https://www.gnu.org/proprietary/proprietary.en.html):
