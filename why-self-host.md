@@ -15,12 +15,12 @@ Libre software has these benefits among others:
   different. Writing libre software is a labor of love and people do it
   because they want to solve a problem.
 - Often more private and secure due to code review.
-- Transparent--libre software isn't trying to hide anything because the
-  source code is publicly available.
+- Transparent. The behavior of a given program can be verified.
 - More likely to adhere to the [Unix
   philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 - People in the community volunteer their time to help others in need.
-- Unmaintained software can later be revived.
+- Unmaintained software can later be revived because the source code is
+  available.
 - Old hardware is still viable. You're not forced to upgrade every few
   years.
 - Some of it is just plain cool.
@@ -39,23 +39,20 @@ software](https://www.gnu.org/proprietary/proprietary.en.html):
 - Censorship.
 - Usually overengineered or 'bloated.' Proprietary software is developed
   with the express purpose of making money and many large companies
-  don't care about ethics or freedom.
+  don't care about ethics, freedom, or even the quality of their own
+  software.
 - Often deceives or manipulates users.
 - A power differential exists between developers and end users; comply
   with their terms or lose the right to use that software.
+- The kicker is that by paying for proprietary software, all of these
+  problems are perpetuated and companies see that they can get away with
+  doing unethical things.
 
-In the end, you're the product when you run proprietary software.
-
-Migration can be difficult (which is intentional, DRM is a method of
-locking users in to an ecosystem). It doesn't help that proprietary
-software is used by friends, work, and school, or sometimes required by
-the last two. Despite that, I highly encourage you to explore free
-alternatives to proprietary software you use.
-
-Bear in mind that the libre lifestyle doesn't have to be all or nothing.
-Exchange proprietary programs for ones that respect your freedom as you
-feel comfortable (Libreoffice instead of Microsoft Office, Firefox
-instead of Google Chrome, etc) and you'll be better for it.
+When you run proprietary software, you're the product. You can regain
+your freedom by exchanging software that violates it for software that
+respects it (Libreoffice instead of Microsoft Office, Firefox instead of
+Google Chrome, etc). Bear in mind that it doesn't have to be all or
+nothing, even exchanging one or two programs makes a difference.
 
 If you're interested, check out [my guide on
 self-hosting](/self-host-guide.html).
