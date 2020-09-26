@@ -5,15 +5,13 @@ the payoff is, to them, about the same.
 
 Libre software has these benefits among others:
 
-- Customizable. You can do whatever you want with the software.
+- Customizability. You can do whatever you want with the software.
 - Free as in freedom and free as in free beer (though you should donate
   to a project if you find it useful).
 - The software can be redistributed/improved/studied.
-- Collaborative. You can report bugs to developers or contribute and the
-  software will be better for everyone as a result.
-- Quality and passion. The impetus for releasing FLOSS is
-  different. Writing libre software is a labor of love and people do it
-  because they want to solve a problem.
+- Libre software is collaborative. Bugs are reported, pull requests are
+  made, and the software is better for everyone as a result. Even those
+  that aren't developers.
 - Often more private and secure due to code review.
 - Transparent. The behavior of a given program can be verified.
 - More likely to adhere to the [Unix
@@ -23,7 +21,8 @@ Libre software has these benefits among others:
   available.
 - Old hardware is still viable. You're not forced to upgrade every few
   years.
-- Some of it is just plain cool.
+- Some of the free software people write is really cool and results from
+  enthusiasm, not a desire for profit.
 
 Contrast with [proprietary
 software](https://www.gnu.org/proprietary/proprietary.en.html):
