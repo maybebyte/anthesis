@@ -7,10 +7,6 @@ have. Secondly, writing about and sharing my discoveries so others can
 benefit from them makes me happy. The pursuit and dissemination of
 knowledge is in itself meaningful to me.
 
-To learn more about me, visit my [About me](/about-me.html).
-
-To browse my articles, visit [Articles](/articles.html).
-
 # Conventions
 
 [GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my
@@ -24,5 +20,5 @@ a [`man(1)`](https://man.openbsd.org/man) page. The number represents
 the corresponding section.
 
 I aspire to write readable, comprehensible software. To that end,
-suggestions/diffs are welcome, mail them to the address above. Thank
+suggestions and diffs are welcome--mail them to the address above. Thank
 you.
