@@ -79,7 +79,7 @@ long URL, and then purchase it.
 Now you need to point your domain to your server's IP using an A record
 for IPv4 and an AAAA record for IPv6. Each domain registrar handles this
 differently. Without these, no one will be able to visit your website
-unless they type in the IP address of the machine it's running on.
+unless they type in the IP address of the machine it's hosted on.
 
 ## Read documentation
 

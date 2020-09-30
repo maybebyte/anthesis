@@ -23,16 +23,15 @@ interest to others and how I'm growing as an individual.
 - I consider self-improvement, learning, and metacognition to be
   crucial. Mindfulness is immensely helpful for me in that regard, as
   a state of flow is conducive to all of those things.
-- I appreciate psychology as a subject. Even those most distant from my
-  convictions are an amalgamation of the same emotional and physical
-  constituents that comprise me (albeit in a different configuration, and
-  with a different end result). For this reason, I engage in the
+- I appreciate psychology. Even those most distant from my
+  convictions are comprised of the same physical and emotional
+  constituents (albeit in a different configuration with a different end
+  result). For this reason, I engage in the
   [principle of
   charity](https://en.wikipedia.org/wiki/Principle_of_charity).
 - I like to write. Teaching is one of the best ways to learn, not to
   mention that writing can be fulfilling and thought-provoking.
 - I consider philosophy's teachings and apply them, though discussing
   philosophy on this page would be putting Descartes before the horse.
-- I advocate for FLOSS (free/libre and open source software) and
-  generally involve myself with tech often because it presents
+- I involve myself with tech often because it presents
   interesting problems for me to solve.
