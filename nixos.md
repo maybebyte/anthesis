@@ -123,7 +123,7 @@ Features aren't unequivocally good. Sometimes they're beneficial and
 sometimes they're unneeded or implemented poorly; in fact, lacking
 unnecessary features *is* a feature in my book. Less code equates to
 less potential for bugs and vulnerabilities, and large code bases lead
-to less maintainability and portability by their very nature.
+to less maintainability and portability.
 
 The only viable boot loader for `/boot` encryption in Linux, GRUB,
 doesn't handle decryption as elegantly as OpenBSD's boot loader does. In

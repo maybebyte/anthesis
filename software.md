@@ -94,10 +94,7 @@ mitigate tracking more effectively than the other browsers I've tried.
 
 It's worth mentioning that Firefox has
 [`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
-[`unveil(2)`](https://man.openbsd.org/unveil.2) support in
-OpenBSD. Chromium has that support too, though Chromium has binary blobs
-so it's not of interest to me. [Ungoogled
-Chromium](https://ungoogled-software.github.io/) aims to remedy this.
+[`unveil(2)`](https://man.openbsd.org/unveil.2) support in OpenBSD.
 
 I do have my gripes with Firefox (gigantic code base and uses
 questionable defaults, like Google as a search engine).
@@ -115,8 +112,10 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
   disposable email addresses.
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
   removes tracking elements from URLs.
-- [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/):
-  no more centralized CDNs.
+- [CSS Exfil
+    Protection](https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/):
+    The author has a page that [displays if you're
+    vulnerable](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester).
 - [HTTPS
   Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
   moar HTTPS, Swiper no swiping.
@@ -125,13 +124,11 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
   understand a site's privacy policy at a glance.
 - [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
   vim bindings for Firefox.
-- [uBlock
-  Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
-  wide-spectrum content blocker with CPU and memory efficiency as
-  primary features.
 - [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
   forbid/allow different types of content. I disable both JavaScript and
   cookies, then whitelist as needed.
+
+
 
 **Video Player**
 
@@ -193,8 +190,7 @@ workflow for the better. Disorganization is the enemy of progress.
 # Cool miscellaneous software
 
 These are programs that don't need a separate category and therefore
-don't belong in the last section. The items below aren't limited to what
-I use.
+don't belong in the last section.
 
 - [FZF](https://github.com/junegunn/fzf): fuzzy finder. You can
   [search shell

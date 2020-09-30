@@ -7,9 +7,9 @@ respective categories.
 
 ## Tech
 
-- [Pros and cons of NixOS](/nixos.html "2020-09-29")
+- [Pros and cons of NixOS](/nixos.html "2020-09-30")
+- [Software I use/enjoy](/software.html "2020-09-30")
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-09-25")
-- [Software I use/enjoy](/software.html "2020-09-24")
 - [FLOSS OS recommendations](/os.html "2020-09-24")
 - [Projects I'm working on](/projects.html "2020-09-24")
 - [So you want to self host](/self-host-guide.html "2020-09-24")
