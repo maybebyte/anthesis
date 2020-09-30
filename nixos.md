@@ -2,16 +2,16 @@
 
 I've experimented with many operating systems over the years. Even
 though I became an [OpenBSD](https://www.openbsd.org/) loyalist in the
-end, [NixOS](https://www.openbsd.org/) was my daily driver for
-some time. There are a lot of upsides to NixOS, and some downsides. Let's
-get into them.
+end, [NixOS](https://www.openbsd.org/) was my daily driver for some
+time. There are a lot of upsides to NixOS, and some downsides. Let's
+take a moment to understand NixOS before we dive into the pros and cons.
 
-## Pros
+## What's NixOS like?
 
 If you've used a Unix-like OS before, chances are that NixOS isn't what
 you'd expect. Where many Linux distributions share a number of
 fundamental similarities (certainly they don't differ as much as the
-BSDs), NixOS substantially differs.
+BSDs), NixOS is substantially different.
 
 One of the most important concepts to understand is that NixOS is mostly
 modified by editing a central configuration file. What do I mean by
@@ -34,13 +34,16 @@ it up for you. It follows that maintaining a NixOS installation is an
 ongoing process of describing and subsequently rebuilding a
 system.
 
-The effort put into learning this new method of system management is
-worth it--configuring the system declaratively is more consistent and
-reproducible. Sometimes it feels like every program's configuration
-files use a different syntax. NixOS offers the opportunity to configure
-everything with one language: Nix. When I realized this meant I could
-configure fonts without XML, I was *sold*. It's the difference between
-this:
+## Pros
+
+### Consistency
+
+Once you become acquainted with managing your system declaratively, it
+turns out that it's more consistent and reproducible. Sometimes it feels
+like every program's configuration files use a different syntax. NixOS
+offers the opportunity to configure everything with one language:
+Nix. When I realized this meant I could configure fonts without XML,
+I was *sold*. It's the difference between this:
 
     <?xml version='1.0'?>
     <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
@@ -75,11 +78,15 @@ And this:
 
 I'd rather write the second one, wouldn't you?
 
+### Reliability
+
 Rollbacks and atomic upgrades are a part of NixOS as well. If one
 version of the system doesn't boot, you can boot the last working
 configuration (assuming the problem isn't related to the boot
 loader). In addition, you'll probably still have a functioning system if
 the machine dies in the middle of an upgrade.
+
+### Aids in development
 
 Probably one of the most killer features for developers is
 [`nix-shell`](https://nixos.org/manual/nix/stable/#sec-nix-shell). You
@@ -89,6 +96,8 @@ longer in your PATH. While virtual environments aren't exclusive to
 NixOS, it's convenient to have a language agnostic tool for this
 included with the system. `nix-shell` is more or less limited to your
 imagination given that it uses the Nix language.
+
+### Self-documenting
 
 NixOS is self-documenting in a certain light. When a sysadmin retires
 and someone else takes their place, the newcomer doesn't need to crawl
@@ -100,18 +109,25 @@ describing the system you want, `/etc/nixos` is a living, breathing
 record of the changes you've made. Because of its reproducible nature,
 NixOS is a great choice for server farms.
 
-One last pro: creating a custom live ISO to your specifications by
-leveraging Nix is much more pleasant than doing it imperatively in my
-experience.
+### Custom ISOs are a cinch
+
+One last pro: creating a live ISO to your specifications by leveraging
+Nix is much more pleasant than doing it imperatively in my
+experience. It's easier to understand what the live system does because
+its internals are laid bare in the configuration file. The ISO also
+won't build if there's a problem.
 
 Declarative configuration is visionary in some respects and in
 principle, I like it a lot. Yet I switched to OpenBSD. Why?
 
 ## Cons
 
+### NixOS isn't simple
+
 Many of the problems NixOS suffers are upstream problems (problems with
 Linux in general). I like systems that abide by the KISS philosophy and
-simplicity is an area NixOS doesn't do so well in.
+simplicity is an area Linux, and by extension NixOS, often doesn't do as
+well in.
 
 For instance, compare the tool NixOS uses to manage services,
 [`systemctl(1)`](https://www.mankier.com/1/systemctl), with OpenBSD's
@@ -119,33 +135,49 @@ For instance, compare the tool NixOS uses to manage services,
 sound server (pulseaudio vs sndio), method of privilege elevation (sudo
 vs doas), firewall (iptables vs pf), and so on.
 
-Features aren't unequivocally good. Sometimes they're beneficial and
-sometimes they're unneeded or implemented poorly; in fact, lacking
-unnecessary features *is* a feature in my book. Less code equates to
-less potential for bugs and vulnerabilities, and large code bases lead
-to less maintainability and portability.
+In comparing these pieces of software, I'm illustrating a point:
+additional features aren't unequivocally good. Sometimes features are
+useful and other times they're unneeded or poorly implemented. For this
+reason, I say that lacking unnecessary features *is*
+a feature. Minimalism in software design confers these benefits:
 
-The only viable boot loader for `/boot` encryption in Linux, GRUB,
-doesn't handle decryption as elegantly as OpenBSD's boot loader does. In
-OpenBSD, when you type in the wrong password, the boot loader gives you
-instant feedback and you get to try again. [Here's what GRUB
-necessitates in that
+- Less potential for bugs and vulnerabilities because there's less code
+  for them to exist in.
+- Portable (an example: think of how many systems run OpenSSH, an
+  OpenBSD project).
+- Well-designed minimal programs are comprehensible, and thus easier to
+  contribute to and maintain.
+
+Besides, it's much more important to fix issues than it is to add
+features. A key example is GRUB: it's the only viable solution for
+`/boot` encryption in Linux and it doesn't handle decryption as
+elegantly as OpenBSD's boot loader does. In OpenBSD, when you type in
+the wrong password, the boot loader gives you instant feedback and you
+get to try again. [Here's what GRUB necessitates in that
 situation.](https://wiki.archlinux.org/index.php/Grub#GRUB_rescue_and_encrypted_/boot).
+
+### Managing things declaratively is sometimes harder
 
 NixOS presents a completely different approach to system management and
 while very powerful, it can also be very frustrating. When the 'magic'
-behind the scenes stops working, it gets ugly fast. To the point that
+behind the scenes stops working, it can get ugly. To the point that
 while abstracting away things in Nix saves effort in some ways, it
 creates more work in others.
 
-There isn't a focus on being secure by default in NixOS like there is
-with OpenBSD. As a sysadmin and someone who's a bit paranoid (just
-because I'm paranoid doesn't mean they aren't out to get me), I need my
-system to have secure defaults. Security is often eschewed in favor of
-new features because the reward for good security is 'nothing.' No
-intrusions happen, no damage is sustained, and no services go down. In
-other words, the benefit of good security is often more about what
-doesn't happen rather than what does.
+### No 'secure by default' philosophy
+
+There isn't a focus on security by default in NixOS to the extent that
+it exists with OpenBSD. As a sysadmin and someone who's a bit paranoid
+(just because I'm paranoid doesn't mean they aren't out to get me),
+I need my system to have secure defaults.
+
+I think security is often eschewed in favor of new features because the
+reward for good security is 'nothing.' No intrusions happen, no damage
+is sustained, and no services go down. In other words, the benefit of
+good security is often more about what doesn't happen rather than what
+does.
+
+### Documentation
 
 Documentation for NixOS is scattered and of varying quality, whereas
 OpenBSD has consistently excellent documentation with its man pages and

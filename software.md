@@ -1,4 +1,4 @@
-# Software I use/enjoy (Desktop)
+# Software I use (Desktop/Laptop)
 
 This page primarily exists for two reasons: a) for those interested in
 my workflow b) to document things for myself. Granted, one may argue
