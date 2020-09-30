@@ -34,6 +34,10 @@ it up for you. It follows that maintaining a NixOS installation is an
 ongoing process of describing and subsequently rebuilding a
 system.
 
+As a result of what it sets out to do, NixOS doesn't follow the
+Filesystem Hierarchy Standard. Most things live in `/nix/store`,
+isolated from one another.
+
 ## Pros
 
 ### Consistency
@@ -156,7 +160,7 @@ features. A key example is GRUB: it's the only viable solution for
 elegantly as OpenBSD's boot loader does. In OpenBSD, when you type in
 the wrong password, the boot loader gives you instant feedback and you
 get to try again. [Here's what GRUB necessitates in that
-situation.](https://wiki.archlinux.org/index.php/Grub#GRUB_rescue_and_encrypted_/boot).
+situation](https://wiki.archlinux.org/index.php/Grub#GRUB_rescue_and_encrypted_/boot).
 
 ### Managing things declaratively is sometimes harder
 
