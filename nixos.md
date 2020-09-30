@@ -139,7 +139,9 @@ In comparing these pieces of software, I'm illustrating a point:
 additional features aren't unequivocally good. Sometimes features are
 useful and other times they're unneeded or poorly implemented. For this
 reason, I say that lacking unnecessary features *is*
-a feature. Minimalism in software design confers these benefits:
+a feature.
+
+Minimalism in software design confers these benefits:
 
 - Less potential for bugs and vulnerabilities because there's less code
   for them to exist in.

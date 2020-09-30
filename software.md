@@ -166,10 +166,6 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
 [MPD](https://www.musicpd.org/ "Music Player Daemon")
 with [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++").
 
-**Music tagger**
-
-[Beets](http://beets.io/).
-
 **Video player**
 
 [Mpv](https://mpv.io/). I pair it with
@@ -215,3 +211,7 @@ a negative effect on sleep.
 **Connection tester**
 
 [Speedtest-cli](https://github.com/sivel/speedtest-cli).
+
+**Music tagger**
+
+[Beets](http://beets.io/).
