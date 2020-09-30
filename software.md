@@ -1,4 +1,4 @@
-# Software I use/enjoy
+# Software I use/enjoy (Desktop)
 
 This page primarily exists for two reasons: a) for those interested in
 my workflow b) to document things for myself. Granted, one may argue
@@ -16,18 +16,17 @@ Here are some resources that I find useful:
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
-**Operating Systems**
+## Fundamentals
 
-[OpenBSD](https://www.openbsd.org/) powers most of my hardware. My Pixel
-3a runs [GrapheneOS](https://grapheneos.org/). I prefer to build from
-the bottom up rather than stripping away unneeded software from a more
-full-featured OS.
+**Operating system**
+
+[OpenBSD](https://www.openbsd.org/) powers most of my hardware.
 
 I also tried and enjoyed [NixOS](https://nixos.org/). There's so much
 potential in a declarative, reproducible system. If I've piqued your
 curiosity, read [my thoughts on NixOS](/nixos.html).
 
-**Window Manager**
+**Window manager**
 
 [xmonad](https://xmonad.org/). Overall, I really like
 the fundamental concepts and design of Haskell.
@@ -35,46 +34,35 @@ the fundamental concepts and design of Haskell.
 Note that I use [sxhkd](https://github.com/baskerville/sxhkd "Simple
 X Hotkey Daemon") to bind keys.
 
-**Bar**
+## Development tools
 
-[Lemonbar](https://github.com/LemonBoy/bar). My status bar is built by piping
-[sysinfo](https://amissing.link/src/dotfiles/file/bin/sysinfo.html)
-into [lbar](https://amissing.link/src/dotfiles/file/bin/lbar.html).
+**Code search**
 
-**Launcher**
-
-[Dmenu](https://tools.suckless.org/dmenu/).
-
-**Compositor**
-
-[`xcompmgr(1)`](https://man.openbsd.org/xcompmgr.1).
-
-**Color Scheme Generator**
-
-[Pywal](https://github.com/dylanaraps/pywal). Pywal grabs the dominant
-colors from an image (usually a wallpaper) to use for theming.
-
-**Fonts**
-
-- Serif: Noto Serif.
-- Sans-serif: Noto Sans.
-- Monospace: Noto Mono.
-- Bitmap: Terminus.
-- Emoji: Symbola.
+[Ripgrep](https://github.com/BurntSushi/ripgrep).
 
 **Terminal**
 
 [St](https://st.suckless.org).
 
-**Terminal Multiplexer**
+Patches used:
+
+- Alpha
+- Boxdraw
+- Xresources
+
+**Terminal multiplexer**
 
 [`tmux(1)`](https://man.openbsd.org/tmux).
 
-**Editor**
+**Task organizer**
 
-[Vim](https://www.vim.org). I adore vim. If you want to learn
-it, `vimtutor` is your friend. I promise it's not as hard as people make
-it out to be.
+[Taskwarrior](https://taskwarrior.org/) is powerful and changed my
+workflow for the better. Disorganization is the enemy of progress.
+
+**Text editor**
+
+[Vim](https://www.vim.org). I adore vim. If you want to learn it,
+`vimtutor` is your friend.
 
 Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_use_help)):
 
@@ -82,11 +70,57 @@ Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_
   - option-list (shows you configurable options for
     [`.vimrc`](/src/dotfiles/file/.vimrc.html))
 
-**File Manager**
+**Static site generator**
 
-[nnn](https://github.com/jarun/nnn).
+[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
+I discovered this POSIX shell script. It generates
+[`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
+Writing in markdown is definitely quicker.
 
-**Browser**
+## Day to day tasks
+
+**Program launcher**
+
+[Dmenu](https://tools.suckless.org/dmenu/). Despite appearances, I use
+it as a conventional launcher very rarely (most of the programs I launch
+have key bindings associated with them already). Its strength in my eyes
+is its ability to read from STDIN and present a relevant menu. Given
+this functionality, it's an excellent tool for scripting.
+
+**Mail client**
+
+[Neomutt](https://neomutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
+the mail daemon in OpenBSD's base system, makes the experience even
+better given a sensible
+[`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The
+unadulterated joy I feel while composing emails in vim makes me wonder
+why I didn't do this sooner.
+
+**RSS reader**
+
+[Newsboat](https://newsboat.org/). I use RSS feeds to track new
+content because it removes the need to create accounts in order to stay up to
+date.
+
+**Screenshots**
+
+[Maim](https://github.com/naelstrof/maim "Make Image"). I use
+[maimpick](/src/dotfiles/file/.local/bin/maimpick.html), which leverages
+dmenu.
+
+**Screen locker**
+
+[Slock](https://tools.suckless.org/slock/).
+
+**Image viewer**
+
+[Sxiv](https://github.com/muennich/sxiv "Simple X Image Viewer").
+
+**PDF viewer**
+
+[Zathura](https://git.pwmt.org/pwmt/zathura).
+
+**Web browser**
 
 [Tor Browser](https://www.torproject.org) and
 [Firefox](https://www.mozilla.org/en-US/firefox/). Once configured, they
@@ -96,13 +130,10 @@ It's worth mentioning that Firefox has
 [`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
 [`unveil(2)`](https://man.openbsd.org/unveil.2) support in OpenBSD.
 
-I do have my gripes with Firefox (gigantic code base and uses
-questionable defaults, like Google as a search engine).
-
-I harden Firefox with [ghacks'
+I harden Firefox and remove its questionable defaults with [ghacks'
 user.js](https://github.com/ghacksuserjs/ghacks-user.js).
 
-**Firefox Addons**
+**Firefox addons**
 
 Here are the addons I use. They're mostly for privacy
 because [the modern web sucks](https://suckless.org/sucks/web/).
@@ -128,87 +159,59 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
   forbid/allow different types of content. I disable both JavaScript and
   cookies, then whitelist as needed.
 
+## Entertainment
 
+**Music player**
 
-**Video Player**
+[MPD](https://www.musicpd.org/ "Music Player Daemon")
+with [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++").
+
+**Music tagger**
+
+[Beets](http://beets.io/).
+
+**Video player**
 
 [Mpv](https://mpv.io/). I pair it with
 [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) to stream
 videos.
 
-**Music Player**
+## Eye Candy
 
-[MPD](https://www.musicpd.org/ "Music Player Daemon")
-with [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++").
+**Fonts**
 
-**RSS Reader**
+- Serif: Noto Serif.
+- Sans-serif: Noto Sans.
+- Monospace: Noto Mono.
+- Bitmap: Terminus.
+- Emoji: Symbola.
 
-[Newsboat](https://newsboat.org/). I use RSS feeds to track new
-content. It removes the need to create accounts in order to stay up to
-date.
+**Color scheme generator**
 
-**PDF Viewer**
+[Pywal](https://github.com/dylanaraps/pywal). Pywal grabs the dominant
+colors from an image (usually a wallpaper) to use for theming.
 
-[Zathura](https://git.pwmt.org/pwmt/zathura).
+**Status bar**
 
-**Image Viewer**
+[Lemonbar](https://github.com/LemonBoy/bar). My status bar is built by piping
+[sysinfo](https://amissing.link/src/dotfiles/file/bin/sysinfo.html)
+into [lbar](https://amissing.link/src/dotfiles/file/bin/lbar.html).
 
-[Sxiv](https://github.com/muennich/sxiv "Simple X Image Viewer").
+**Idle cursor obfuscation**
 
-**Screenshots**
+[Unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes).
 
-[Maim](https://github.com/naelstrof/maim "Make Image"). It's possible to
-pipe the output of maim to xclip to send an image without saving it to
-disk. I use
-[maimpick](/src/dotfiles/file/.local/bin/maimpick.html).
+## Miscellaneous
 
-**Screen Locker**
+These are tools that don't neatly fit into any of the previously
+established categories.
 
-[Slock](https://tools.suckless.org/slock/).
+**Blue light reduction**
 
-**Mail Client**
+[Sct](https://flak.tedunangst.com/post/sct-set-color-temperature). Even
+developers need to rest sometime and an abundance of blue light has
+a negative effect on sleep.
 
-[Neomutt](https://neomutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
-the mail daemon in OpenBSD's base system, makes the experience even
-better given a sensible
-[`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The
-unadulterated joy I feel while composing emails in vim makes me wonder
-why I didn't do this sooner.
+**Connection tester**
 
-**Static Site Generator**
-
-[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
-I discovered this POSIX shell script. It generates
-[`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
-Writing in markdown is definitely quicker.
-
-**Task Organizer**
-
-[Taskwarrior](https://taskwarrior.org/) is powerful and changed my
-workflow for the better. Disorganization is the enemy of progress.
-
-# Cool miscellaneous software
-
-These are programs that don't need a separate category and therefore
-don't belong in the last section.
-
-- [FZF](https://github.com/junegunn/fzf): fuzzy finder. You can
-  [search shell
-  history](https://wiki.archlinux.org/index.php/Fzf#Shells) with it.
-- [NCDU](https://dev.yorhel.nl/ncdu): NCurses Disk Usage.
-- [Rmlint](https://rmlint.readthedocs.io/en/latest/): remove duplicates
-  and other lint from your filesystem.
-- [Ripgrep](https://github.com/BurntSushi/ripgrep): blazing fast code
-  search.
-- [Beets](http://beets.io/): manages music libraries and tags them
-  appropriately using MusicBrainz.
-- [Sct](https://flak.tedunangst.com/post/sct-set-color-temperature): set
-  color temperature in a minimal C program, what's not to love?
-- [Rig](http://rig.sourceforge.net/): Random Identity Generator.
-- [Speedtest-cli](https://github.com/sivel/speedtest-cli): test
-  connection speed.
-- [USBGuard](https://usbguard.github.io/): say no to
-  [poisontap](https://samy.pl/poisontap/) and friends.
-- [Wireguard](https://www.wireguard.com/): next generation VPN client and server.
-- [Unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes):
-  hides cursor when mouse is left idle.
+[Speedtest-cli](https://github.com/sivel/speedtest-cli).
