@@ -10,8 +10,8 @@ questionnaire.
 ## My recommendations
 
 First assess what you want and need in an OS. Do you want to maintain
-a similar workflow or do you want to learn a more minimal, and dare
-I say correct, way of doing things?
+a similar workflow or do you want to learn a more minimal way of doing
+things?
 
 ### Maintaining a similar workflow
 
@@ -36,14 +36,13 @@ OpenBSD feels transparent and comprehensible due to great documentation
 and minimal tools that work together. These things along with
 a proactive attitude toward security makes OpenBSD comfy, in a word.
 
-That said, make no mistake: even though it comes with good defaults,
-OpenBSD requires a bit of reading. While full-featured desktop
-environments like GNOME are available, the system itself doesn't
-graphically abstract away tasks in the name of user
-friendliness. Believe it or not, this is actually a blessing in
-disguise--if you learn how the system works as you go, that incremental
-understanding allows you to do new things and fix problems should they
-arise.
+That said, make no mistake: while it comes with good defaults, OpenBSD
+requires a bit of reading. While full-featured desktop environments like
+GNOME are available, the system itself doesn't graphically abstract away
+tasks in the name of user friendliness. Believe it or not, this is
+actually a blessing in disguise--if you learn how the system works as
+you go, that incremental understanding allows you to do new things and
+fix problems should they arise.
 
 If you do install it, remember to consult the FAQ. It's particularly
 useful to newcomers as it shows you how to perform common tasks.
@@ -63,6 +62,6 @@ hardware.
 ### Router
 
 Your router is a computer too. OEM firmware usually isn't as capable nor
-as secure as FLOSS counterparts (such as DD-WRT, OpenWRT, pfSense, or
-OpenBSD). Be careful and use Ethernet if you flash firmware onto your
-router. Fixing a bricked router isn't fun for most people.
+as secure as its FLOSS counterparts (such as DD-WRT, OpenWRT, pfSense,
+or OpenBSD). Be careful and use Ethernet if you flash firmware onto your
+router.

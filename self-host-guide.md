@@ -6,10 +6,10 @@ subjects you may not have encountered otherwise.
 
 As a forewarning, self-hosting usually necessitates the command line,
 though it's not as bad as people think. For whatever reason, people get
-intimidated when they're at a shell prompt when it's a skill to be
-developed like anything else. Learning often consists of stumbling in
-the right direction, especially when first cultivating a skill, and
-there's no shame in that. Making mistakes is all part of the process.
+intimidated when they're at a shell prompt. Learning often consists of
+stumbling in the right direction, especially when cultivating a new
+skill, and there's no shame in that. Making mistakes is all part of the
+process.
 
 If essential shell commands like `ls` and `cd` aren't in your
 repertoire, consider either a) learning more by consulting
