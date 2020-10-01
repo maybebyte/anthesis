@@ -145,7 +145,7 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
   removes tracking elements from URLs.
 - [CSS Exfil
     Protection](https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/):
-    The author has a page that [displays if you're
+    the author has a page that [displays if you're
     vulnerable](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester).
 - [HTTPS
   Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):

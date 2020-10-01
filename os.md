@@ -10,8 +10,8 @@ questionnaire.
 ## My recommendations
 
 First assess what you want and need in an OS. Do you want to maintain
-a similar workflow or are you willing to put in the effort to learn
-a more minimal, and dare I say correct, way of doing things?
+a similar workflow or do you want to learn a more minimal, and dare
+I say correct, way of doing things?
 
 ### Maintaining a similar workflow
 
@@ -20,10 +20,10 @@ Mint](https://www.linuxmint.com/edition.php?id=281). I believe in this
 OS enough that a USB flash drive with Linux Mint is always on my person
 in case someone wants me to set it up for them.
 
-Linux Mint provides a familiar interface and full-featured
-applications. The developers dedicate a lot of time to make things
-intuitive without a sacrifice in customizability and I really appreciate
-that approach.
+Linux Mint provides a familiar interface and full-featured applications
+so the user can hit the ground running. The developers dedicate a lot of
+time to make the system intuitive without a sacrifice in customizability
+and I really appreciate that approach.
 
 ### Trying something different
 
@@ -45,9 +45,8 @@ disguise--if you learn how the system works as you go, that incremental
 understanding allows you to do new things and fix problems should they
 arise.
 
-Fortunately, as mentioned before, a lot of effort is put into
-documentation. The FAQ is particularly useful to newcomers as it shows
-you how to perform common tasks.
+If you do install it, remember to consult the FAQ. It's particularly
+useful to newcomers as it shows you how to perform common tasks.
 
 OpenBSD will inevitably differ from what you're used to, yet it's worth
 every second of what you put in.
