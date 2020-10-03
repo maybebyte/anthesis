@@ -18,8 +18,8 @@ Libre software has these benefits among others:
 - People in the community volunteer their time to help others in need.
 - Unmaintained software can later be revived because the source code is
   available.
-- Old hardware is still viable many years later--no more forced upgrades
-  or planned obsolescence.
+- Old hardware is still viable many years later--no more planned obsolescence
+  and forced upgrades.
 - Some of the free software people write is really cool and results from
   enthusiasm, not a desire for profit.
 
