@@ -29,8 +29,8 @@ to have a place to share miscellaneous thoughts.
 1. A shibboleth is any custom or tradition, usually a choice of phrasing
    or even a single word, that distinguishes one group of people from
    another.
-1. The months July and August are named after Julius and Augustus
-   Caesar, respectively.
+1. The months July and August are named after Julius Caesar and
+   Augustus, respectively.
 1. The
    [frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors)
    directive in the

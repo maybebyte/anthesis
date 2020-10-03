@@ -15,10 +15,10 @@ things?
 
 ### Maintaining a similar workflow
 
-Try the [Cinnamon edition of Linux
-Mint](https://www.linuxmint.com/edition.php?id=281). I believe in this
-OS enough that a USB flash drive with Linux Mint is always on my person
-in case someone wants me to set it up for them.
+Try [Linux Mint](https://www.linuxmint.com/download.php),
+specifically the Cinnamon Edition. I believe in this OS enough that
+a USB flash drive with Linux Mint is always on my person in case someone
+wants me to set it up for them.
 
 Linux Mint provides a familiar interface and full-featured applications
 so the user can hit the ground running. The developers dedicate a lot of

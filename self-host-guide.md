@@ -42,8 +42,8 @@ thumb. The rest of the guide uses setting up a website as an example.
 
 [OpenBSD](https://www.openbsd.org/) gets my vote. Most everything you
 need will be in the base system and it takes the pain out of
-administration (speaking as someone who has experience with various
-flavors of Linux and OpenBSD). Once you explore the wonder that is
+administration (speaking as someone who also has experience with various
+flavors of Linux). Once you explore the wonder that is
 [`httpd(8)`](https://man.openbsd.org/httpd) in tandem with
 [`acme-client(1)`](https://man.openbsd.org/acme-client), you'll wonder
 why you wanted to host your web server on anything else.

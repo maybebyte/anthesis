@@ -10,7 +10,7 @@ p strong {
 }
 
 li {
-  padding: 8px 0;
+  padding: 6px 0;
 }
 
 /*code should remain ${body_color} even if a link*/
