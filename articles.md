@@ -7,11 +7,11 @@ respective categories.
 
 ## Tech
 
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-03")
 - [So you want to self host](/self-host-guide.html "2020-10-01")
 - [FLOSS OS recommendations](/os.html "2020-10-01")
 - [Software I use (Desktop/Laptop)](/software.html "2020-09-30")
 - [Pros and cons of NixOS](/nixos.html "2020-09-30")
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-09-25")
 - [Projects I'm working on](/projects.html "2020-09-24")
 
 ## Personal/Misc

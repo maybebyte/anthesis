@@ -5,47 +5,45 @@ the payoff is, to them, about the same.
 
 Libre software has these benefits among others:
 
-- Customizability. You can do whatever you want with the software.
 - Free as in freedom and free as in free beer (though you should donate
   to a project if you find it useful).
-- The software can be redistributed/improved/studied.
 - Libre software is collaborative. Bugs are reported, pull requests are
   made, and the software is better for everyone as a result. Even those
   that aren't developers.
-- Often more private and secure due to code review.
-- Transparent. The behavior of a given program can be verified.
+- Transparent. The behavior of a given program can be verified;
+  consequently, FLOSS can be more private and secure since others
+  review the source code.
 - More likely to adhere to the [Unix
   philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 - People in the community volunteer their time to help others in need.
 - Unmaintained software can later be revived because the source code is
   available.
-- Old hardware is still viable. You're not forced to upgrade every few
-  years.
+- Old hardware is still viable many years later--no more forced upgrades
+  or planned obsolescence.
 - Some of the free software people write is really cool and results from
   enthusiasm, not a desire for profit.
 
 Contrast with [proprietary
 software](https://www.gnu.org/proprietary/proprietary.en.html):
 
-- DRM means you don't truly own anything, you can lose it at any time
-  and companies use that to their advantage.
+- DRM means you don't truly own anything. It can be taken away from you
+  on a whim.
 - Incompatible (try moving photos from macOS/iOS to a device outside
   Apple's ecosystem).
-- You have no say in the development process.
+- No say in the development process.
 - Surveillance is commonplace and it's harder to tell if it's
   happening. [Both Apple and Microsoft cooperate with the NSA](/images/Prism_slide_5.jpg).
-- Planned obsolescence.
+- Planned obsolescence and forced upgrades.
 - Censorship.
-- Usually overengineered or 'bloated.' Proprietary software is developed
-  with the express purpose of making money and many large companies
-  don't care about ethics, freedom, or even the quality of their own
-  software.
-- Often deceives or manipulates users.
+- Proprietary software is developed with the express purpose of turning
+  a profit and large companies often turn a blind eye to flagrant
+  violations of ethics and freedom if they further that end.
+- Often misleads or takes advantage of users.
 - A power differential exists between developers and end users; comply
   with their terms or lose the right to use that software.
-- The kicker is that by paying for proprietary software, all of these
-  problems are perpetuated and companies see that they can get away with
-  doing unethical things.
+- Any funds that go toward proprietary software
+  perpetuate the aforementioned problems and indicate to companies that
+  they can get away with doing unethical things.
 
 When you run proprietary software, you're the product. You can regain
 your freedom by exchanging software that violates it for software that
