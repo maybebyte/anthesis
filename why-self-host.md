@@ -33,7 +33,7 @@ software](https://www.gnu.org/proprietary/proprietary.en.html):
   Apple's ecosystem).
 - You have no say in the development process.
 - Surveillance is commonplace and it's harder to tell if it's
-  happening. Both Apple and Microsoft cooperate with the NSA.
+  happening. [Both Apple and Microsoft cooperate with the NSA](/images/Prism_slide_5.jpg).
 - Planned obsolescence.
 - Censorship.
 - Usually overengineered or 'bloated.' Proprietary software is developed

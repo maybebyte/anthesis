@@ -16,6 +16,8 @@ Here are some resources that I find useful:
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
+[![A screenshot of my laptop.](/images/rice-laptop.png#rice-laptop "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
+
 ## Fundamentals
 
 **Operating system**

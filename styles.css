@@ -46,6 +46,11 @@ a:hover code {
   text-decoration: underline;
 }
 
+img[src*="#rice-laptop"] {
+  width: 640px;
+  height: 360px;
+}
+
 /*
  *desktop design
  */
