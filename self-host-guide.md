@@ -12,15 +12,15 @@ skill, and there's no shame in that. Making mistakes is all part of the
 process.
 
 If essential shell commands like `ls` and `cd` aren't in your
-repertoire, consider either a) learning more by consulting
-[`help(1)`](https://man.openbsd.org/help) and the [OpenBSD
-FAQ](https://www.openbsd.org/faq/) or b) pursuing different avenues to
-liberate your online life and regain privacy, such as installing
-a [FLOSS operating system](/os.html) or using FLOSS software to
-accomplish day-to-day tasks.
+repertoire, consider one of two options:
 
-Note that this page is meant to be an overview and not an
-exhaustive list of what's involved in self-hosting.
+1. learn more by consulting [`help(1)`](https://man.openbsd.org/help)
+   and the [OpenBSD FAQ](https://www.openbsd.org/faq/).
+2. pursue different avenues to liberate your online life and regain
+   privacy. Install a [FLOSS operating system](/os.html) or
+   use FLOSS software to accomplish day-to-day tasks.
+
+Note that this page is intended as an overview and isn't exhaustive.
 
 ## Find what you want to host
 
@@ -33,10 +33,10 @@ Some resources for pedagogical purposes:
 [The software I use](/software.html) may be relevant to you as well,
 though it mostly applies to a personal computer instead of a server.
 
-If you're still not sure what to host, try building a website. By
+If you're not sure what to host, try building a website. By
 creating your own website, you become an Internet landlord and can
 freely express your thoughts instead of remaining under someone else's
-thumb. The rest of the guide uses setting up a website as an example.
+thumb. From here on out, I'll use setting up a website as an example.
 
 ## Pick an operating system
 

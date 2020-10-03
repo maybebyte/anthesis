@@ -47,9 +47,6 @@ fix problems should they arise.
 If you do install it, remember to consult the FAQ. It's particularly
 useful to newcomers as it shows you how to perform common tasks.
 
-OpenBSD will inevitably differ from what you're used to, yet it's worth
-every second of what you put in.
-
 ## Other devices you can liberate
 
 ### Smartphone

@@ -3,13 +3,15 @@
 To stay updated, [subscribe to my RSS feed](/rss.xml).
 
 The articles are sorted in reverse chronological order within their
-respective categories.
+respective categories. To clarify, I update the order even when I make
+small changes, so an article's date doesn't reflect when it was
+initially released.
 
 ## Tech
 
+- [So you want to self host](/self-host-guide.html "2020-10-03")
+- [FLOSS OS recommendations](/os.html "2020-10-03")
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-10-03")
-- [So you want to self host](/self-host-guide.html "2020-10-01")
-- [FLOSS OS recommendations](/os.html "2020-10-01")
 - [Software I use (Desktop/Laptop)](/software.html "2020-09-30")
 - [Pros and cons of NixOS](/nixos.html "2020-09-30")
 - [Projects I'm working on](/projects.html "2020-09-24")
