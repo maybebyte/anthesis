@@ -1,0 +1,47 @@
+# Search sites directly using Firefox's "add keyword" feature
+
+You probably use a search engine to navigate the Internet. However, you
+might not know that Firefox allows you to use bookmarks and the "add
+keyword" feature to directly search any website that has an input
+field. This provides a modest privacy enhancement since you're cutting
+out the middleman (your default search engine) and it saves time to
+boot.
+
+Let's take [Wiktionary](https://www.wiktionary.org/) as an example,
+a multilingual dictionary.
+
+Navigate to Wiktionary and right click Wiktionary's input field. A dialog
+box should pop up.
+
+[![A dialog box is displayed with the "Add a Keyword for this Search"
+option
+highlighted.](/images/add-keyword-1.png)](/images/add-keyword-1.png)
+
+Click the "Add a Keyword for this Search..." option. Firefox should now
+present you with a dialog box asking for the name of the bookmark, the
+folder to save the bookmark in, and a keyword (I chose `wkt`).
+
+[![Another dialog box, this time asking for the name of the bookmark,
+the folder to save it in, and the keyword
+](/images/add-keyword-2.png)](/images/add-keyword-2.png)
+
+If you were following along, you can now type in `wkt` (or whatever you
+chose as a keyword) into Firefox's search bar followed by a word and
+find its definition.  If you don't have any ideas, figure out what the
+difference between somnambulism and funambulism is, and why the two
+probably wouldn't go well together.
+
+You can search the ArchWiki, Wikipedia, or whatever you want in this
+fashion. In addition, keywords work with ordinary bookmarks too (for
+instance, `awl` is mapped to the ["List of applications" ArchWiki
+entry](https://wiki.archlinux.org/index.php/List_of_applications) on my
+computer). The main difference with regular bookmarks is that you don't
+type anything except the keyword since you're no longer performing a query.
+
+I prefer the bookmark method over adding a site as a search engine for
+two reasons:
+
+1. Firefox doesn't present the "Add Search Engine" option as
+   consistently as you'd expect.
+2. Using keywords minimizes mouse usage, which translates to searching
+   faster.

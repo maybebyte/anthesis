@@ -9,10 +9,11 @@ initially released.
 
 ## Tech
 
+- [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-06")
+- [Software I use (Desktop/Laptop)](/software.html "2020-10-06")
 - [So you want to self host](/self-host-guide.html "2020-10-03")
 - [FLOSS OS recommendations](/os.html "2020-10-03")
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-10-03")
-- [Software I use (Desktop/Laptop)](/software.html "2020-09-30")
 - [Pros and cons of NixOS](/nixos.html "2020-09-30")
 - [Projects I'm working on](/projects.html "2020-09-24")
 

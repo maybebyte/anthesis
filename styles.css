@@ -46,7 +46,7 @@ a:hover code {
   text-decoration: underline;
 }
 
-img[src*="#rice-laptop"] {
+img {
   max-width: 100%;
 }
 

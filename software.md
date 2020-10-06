@@ -16,7 +16,7 @@ Here are some resources that I find useful:
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
-[![A screenshot of my laptop.](/images/rice-laptop.png#rice-laptop "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
+[![A screenshot of my laptop. A black status bar displaying system information decorates the top, with a terminal emulator displaying the contents of uname below it. The wallpaper features a cute girl jotting something down in her notebook and looking outside to an urban landscape, with a cat near the foot of her bed.](/images/rice-laptop.png#rice-laptop "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
 
 ## Fundamentals
 
