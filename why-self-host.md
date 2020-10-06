@@ -1,7 +1,8 @@
 # Why self-host/use FLOSS?
 
-People often don't understand why I choose to be my own provider when
-the payoff is, to them, about the same.
+People often don't understand why I choose to be my own provider and use
+libre software when the payoff is, to them, about the same. Or why
+I won't repair a Windows installation.
 
 Libre software has these benefits among others:
 
@@ -26,30 +27,39 @@ Libre software has these benefits among others:
 Contrast with [proprietary
 software](https://www.gnu.org/proprietary/proprietary.en.html):
 
-- DRM means you don't truly own anything. It can be taken away from you
-  on a whim.
-- Incompatible (try moving photos from macOS/iOS to a device outside
-  Apple's ecosystem).
-- No say in the development process.
-- Surveillance is commonplace and it's harder to tell if it's
-  happening. [Both Apple and Microsoft cooperate with the NSA](/images/Prism_slide_5.jpg).
+- DRM and the power differential that exists between those that provide
+  a service and those that use it means you usually don't own anything
+  in the undiluted sense of the word. It can be taken away from you on
+  a whim, or you can get locked out if you refuse to comply with
+  unreasonable terms of service.
+- Deliberately incompatible (try moving photos from macOS/iOS to
+  a device outside Apple's ecosystem).
+- No say in the development process. Users barely have a voice in
+  general.
+- Surveillance is commonplace and it's harder to tell what exactly
+  a program is doing. [Both Apple and Microsoft cooperate with the
+  NSA](/images/Prism_slide_5.jpg).
 - Planned obsolescence and forced upgrades.
 - Censorship.
 - Proprietary software is developed with the express purpose of turning
-  a profit and large companies often turn a blind eye to flagrant
+  a profit. Large companies tend to turn a blind eye to flagrant
   violations of ethics and freedom if they further that end.
-- Often misleads or takes advantage of users.
-- A power differential exists between developers and end users; comply
-  with their terms or lose the right to use that software.
+- Misleads or takes advantage of users.
 - Any funds that go toward proprietary software
   perpetuate the aforementioned problems and indicate to companies that
   they can get away with doing unethical things.
 
-When you run proprietary software, you're the product. You can regain
-your freedom by exchanging software that violates it for software that
-respects it (Libreoffice instead of Microsoft Office, Firefox instead of
-Google Chrome, etc). Bear in mind that it doesn't have to be all or
-nothing, even exchanging one or two programs makes a difference.
+In saying all of this, I'm not trying to be negative (though any honest
+account of proprietary software and the companies that produce it will
+likely be negative, sadly). Instead, I'm outlining the differences so
+I can drive this point home: when you run proprietary software, you're
+the product.
+
+You can regain your freedom by exchanging software that violates it for
+software that respects it (Libreoffice instead of Microsoft Office,
+Firefox instead of Google Chrome, etc). Bear in mind that this process
+isn't all or nothing. Even exchanging one or two programs makes
+a world of difference.
 
 If you're interested, check out [my guide on
 self-hosting](/self-host-guide.html).
@@ -70,7 +80,7 @@ that ads and telemetry are blocked for any device that connects to the network).
    Argon ONE (a nice case) makes it feasible to overclock the thermally
    challenged Raspberry Pi 4B.
 1. An [MPD](https://www.musicpd.org/) instance is accessible within my
-   LAN so I can play music on the speakers without any toil.
+   LAN so I can play music on the speakers without toil.
 1. [Kodi](http://kodi.tv/) is also on here for my boyfriend.
 
 For all devices running Linux with MMC storage, I prefer F2FS, otherwise

@@ -2,7 +2,7 @@
 
 Hey, I'm Ashlen. I'm an [OpenBSD](https://www.openbsd.org/) fanatic,
 a sysadmin/webdev, and a musician among other things. Passion, a sense
-of humor (even dad jokes/puns have their place), humility, kindness,
+of humor (even dad jokes have their place), humility, kindness,
 a will to improve, and an open mind win my favor.
 
 I maintain `amissing.link` for three main reasons:
@@ -17,11 +17,11 @@ I maintain `amissing.link` for three main reasons:
    them makes me happy. The pursuit and dissemination of knowledge is in
    itself meaningful to me.
 
-This site and others like it are a missing link in my mind--a way to foster
-thought, expression, and community. A place where human connection can
-exist without some company designing to line their pockets with
-it. A gentle yet steadfast act of defiance against what the web has
-become.
+This site and others like it are a missing link in my mind--a way to
+foster thought, expression, and community. A place where human
+connection can exist and flourish without some company designing to line
+their pockets with it. A gentle yet steadfast act of defiance against
+what the web has become.
 
 # Conventions
 
