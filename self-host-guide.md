@@ -11,7 +11,7 @@ stumbling in the right direction, especially when cultivating a new
 skill, and there's no shame in that. Making mistakes is all part of the
 process.
 
-If essential shell commands like `ls` and `cd` aren't in your
+If essential shell commands like `cd` and `ls` aren't in your
 repertoire, consider one of two options:
 
 1. learn more by consulting [`help(1)`](https://man.openbsd.org/help)
@@ -31,7 +31,7 @@ Some resources for pedagogical purposes:
 - [Libre projects](https://libreprojects.net/)
 
 [The software I use](/software.html) may be relevant to you as well,
-though it mostly applies to a personal computer instead of a server.
+though it applies to a personal computer instead of a server.
 
 If you're not sure what to host, try building a website. By
 creating your own website, you become an Internet landlord and can
@@ -74,30 +74,31 @@ step.
 [Njalla](https://njal.la/) is worthwhile. They also have a VPS service,
 though they didn't provide OpenBSD when I used it. Choose something
 short and memorable for a domain name, as no one wants to type in a mile
-long URL, and then purchase it.
+long URL, then purchase it.
 
 Now you need to point your domain to your server's IP using an A record
 for IPv4 and an AAAA record for IPv6. Each domain registrar handles this
-differently. Without these, no one will be able to visit your website
-unless they type in the IP address of the machine it's hosted on.
+differently. Without these, no one can visit your website unless they
+type in the IP address of the machine it's hosted on.
 
 ## Read documentation
 
 OK, now you have the prerequisites in place. You have a domain and
-a VPS, so it's time to figure out how to make those useful, e.g. logging
-in with [`ssh(1)`](https://man.openbsd.org/ssh), reading
-[`afterboot(1)`](https://man.openbsd.org/afterboot) and setting up
-[`httpd(8)`](https://man.openbsd.org/httpd). Between the built-in
-documentation (man pages), the FAQ, and the mailing lists, OpenBSD is
-replete with learning materials, so I'd be doing a disservice to both of
-us if I duplicated all of it here.
+a VPS, so it's time to figure out how to make those useful, e.g. log
+in with [`ssh(1)`](https://man.openbsd.org/ssh), read
+[`afterboot(1)`](https://man.openbsd.org/afterboot), and set up
+[`httpd(8)`](https://man.openbsd.org/httpd).
+
+Between the built-in documentation (man pages), the FAQ, and the mailing
+lists, OpenBSD is replete with learning materials. I'd do
+a disservice to both of us if I duplicated all of it here.
 
 Some other resources:
 
-- Check out [Roman Zolotarev's website](https://rgz.ee/), he documents
+- Check out [Roman Zolotarev's website](https://rgz.ee/). He documents
   how to set up a web server in OpenBSD.
 - [Here's how to write in
-  Markdown](https://www.markdownguide.org/basic-syntax/). You'll need
+  Markdown](https://www.markdownguide.org/basic-syntax/). You need
   a static site generator to make it useful. I like
   [lowdown](https://kristaps.bsd.lv/lowdown) in tandem with
   [SSG](https://rgz.ee/ssg.html).

@@ -16,7 +16,7 @@ Here are some resources that I find useful:
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
-[![A screenshot of my laptop. A black status bar displaying system information decorates the top, with a terminal emulator displaying the contents of uname below it. The wallpaper features a cute girl jotting something down in her notebook and looking outside to an urban landscape, with a cat near the foot of her bed.](/images/rice-laptop.png#rice-laptop "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
+[![A screenshot of my laptop. A black status bar displaying system information decorates the top, with a terminal emulator displaying the contents of uname below it. The wallpaper features a cute girl jotting something down in her notebook and looking outside to an urban landscape, with a cat near the foot of her bed.](/images/rice-laptop.png "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
 
 ## Fundamentals
 
@@ -74,10 +74,14 @@ Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_
 
 **Static site generator**
 
-[SSG5](https://rgz.ee/bin/ssg5). I wrote in regular HTML before
+[SSG](https://rgz.ee/ssg.html). I wrote in regular HTML before
 I discovered this POSIX shell script. It generates
 [`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
 Writing in markdown is definitely quicker.
+
+**RSS feed generator**
+
+[RSSG](https://rgz.ee/rssg.html).
 
 ## Day to day tasks
 
@@ -85,7 +89,7 @@ Writing in markdown is definitely quicker.
 
 [Dmenu](https://tools.suckless.org/dmenu/). Despite appearances, I use
 it as a conventional launcher very rarely (most of the programs I launch
-have key bindings associated with them already). Its strength in my eyes
+have key bindings associated with them already). Dmenu's strength in my eyes
 is its ability to read from STDIN and present a relevant menu. Given
 this functionality, it's an excellent tool for scripting.
 
@@ -206,9 +210,9 @@ established categories.
 
 **Blue light reduction**
 
-[Sct](https://flak.tedunangst.com/post/sct-set-color-temperature). Even
-developers need to rest sometime and an abundance of blue light has
-a negative effect on sleep.
+[Sct](https://flak.tedunangst.com/post/sct-set-color-temperature). Getting
+proper rest is important and an abundance of blue light has a negative
+effect on sleep.
 
 **Connection tester**
 

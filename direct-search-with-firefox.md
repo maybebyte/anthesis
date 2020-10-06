@@ -10,10 +10,10 @@ boot.
 Let's take [Wiktionary](https://www.wiktionary.org/) as an example,
 a multilingual dictionary.
 
-Navigate to Wiktionary and right click Wiktionary's input field. A dialog
-box should pop up.
+Navigate to Wiktionary and right click Wiktionary's input field. A menu
+should pop up.
 
-[![A dialog box is displayed with the "Add a Keyword for this Search"
+[![A menu is displayed with the "Add a Keyword for this Search"
 option
 highlighted.](/images/add-keyword-1.png)](/images/add-keyword-1.png)
 
@@ -21,9 +21,9 @@ Click the "Add a Keyword for this Search..." option. Firefox should now
 present you with a dialog box asking for the name of the bookmark, the
 folder to save the bookmark in, and a keyword (I chose `wkt`).
 
-[![Another dialog box, this time asking for the name of the bookmark,
-the folder to save it in, and the keyword
-](/images/add-keyword-2.png)](/images/add-keyword-2.png)
+[![A dialog box that asks for the name of the bookmark, the folder to
+save it in, and the
+keyword.](/images/add-keyword-2.png)](/images/add-keyword-2.png)
 
 If you were following along, you can now type in `wkt` (or whatever you
 chose as a keyword) into Firefox's search bar followed by a word and

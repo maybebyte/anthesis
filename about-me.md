@@ -14,14 +14,16 @@ interest to others and how I'm growing as an individual.
   top of it.
 - I enjoy playing piano. I'm fortunate enough to have perfect pitch,
   which helps with improvisation.
-- I play games from time to time. It helps me to avoid burnout and
-  relax. Metroidvanias, platformers, RPGs, roguelikes, and strategy
+- I play games from time to time (see [Stuff
+  I self-host](/why-self-host.html#Stuff%20I%20self-host)). It helps me
+  to avoid burnout and relax. Metroidvanias, platformers, RPGs,
+  roguelikes, and strategy
   games are among my favorite genres.
 - I meditate at least once a day because it heals the soul and
   mind. [Tara Brach offers some excellent guided
   meditations](https://www.tarabrach.com/guided-meditations/).
 - I consider self-improvement, learning, and metacognition to be
-  crucial. Mindfulness is immensely helpful for me in that regard, as
+  crucial. Mindfulness is immensely helpful for me in this regard, as
   a state of flow is conducive to all of those things.
 - I appreciate psychology. Even those most distant from my
   convictions are comprised of the same physical and emotional
