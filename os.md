@@ -16,7 +16,7 @@ things?
 ### Maintaining a similar workflow
 
 [![Screenshot of Linux Mint 20 "Ulyana" Cinnamon
-Edition.](/images/cinnamon.png)](/images/cinnamon.png)
+Edition.](/images/cinnamon-thumb.png)](/images/cinnamon-full.png)
 
 Try [Linux Mint](https://www.linuxmint.com/download.php),
 specifically the Cinnamon Edition. I believe in this OS enough that
