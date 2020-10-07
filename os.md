@@ -15,6 +15,9 @@ things?
 
 ### Maintaining a similar workflow
 
+[![Screenshot of Linux Mint 20 "Ulyana" Cinnamon
+Edition.](/images/cinnamon.png)](/images/cinnamon.png)
+
 Try [Linux Mint](https://www.linuxmint.com/download.php),
 specifically the Cinnamon Edition. I believe in this OS enough that
 a USB flash drive with Linux Mint is always on my person in case someone
@@ -27,6 +30,8 @@ and I really appreciate that approach.
 
 ### Trying something different
 
+[![The OpenBSD logo.](/images/openbsd-logo.png)](/images/openbsd-logo.png)
+
 Take a look at [OpenBSD](https://www.openbsd.org/). It follows the KISS
 philosophy, yet the system is robust enough to handle many different use
 cases (building a web server or a router is feasible using only the
@@ -37,13 +42,12 @@ and minimal tools that work together. These things along with
 a proactive attitude toward security makes OpenBSD comfy, in a word.
 
 That said, make no mistake: even though it comes with good defaults,
-OpenBSD requires a bit of reading. While full-featured desktop
-environments like GNOME are available, the system itself doesn't
-graphically abstract away tasks in the name of user
-friendliness. Believe it or not, this is actually a blessing in
-disguise--if you learn how the system works as you go, that incremental
-understanding allows you to do new things and fix problems should they
-arise.
+OpenBSD requires a bit of reading. While full-featured desktop environments
+like GNOME are available, the system itself doesn't graphically abstract
+away tasks in the name of user friendliness. Believe it or not, this is
+actually a blessing in disguise--if you learn how the system works as
+you go, that incremental understanding allows you to do new things and
+fix problems should they arise.
 
 If you do install it, remember to consult the FAQ. It's particularly
 useful to newcomers as it shows you how to perform common tasks.

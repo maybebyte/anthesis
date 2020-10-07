@@ -17,7 +17,7 @@ I maintain `amissing.link` for three main reasons:
    them makes me happy. The pursuit and dissemination of knowledge is in
    itself meaningful to me.
 
-This site and others like it are a missing link in my mind--a way to
+This site and others like it are a missing link--a way to
 foster thought, expression, and community. A place where human
 connection can exist and flourish without some company designing to line
 their pockets with it. A gentle yet steadfast act of defiance against
