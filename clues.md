@@ -51,3 +51,6 @@ to have a place to share miscellaneous thoughts.
 1. Octopuses is the correct plural form of octopus, not octopi. Octopi
    is a hypercorrect word (meaning it's a misguided application of
    prescriptive grammar).
+1. In XMonad (and I suspect other window managers), adding borders to
+   browsers causes them to do very poorly in fingerprinting tests, and
+   will likely deanonymize you if using Tor Browser.

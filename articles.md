@@ -19,6 +19,6 @@ initially released.
 
 ## Personal/Misc
 
+- [Clues](/clues.html "2020-10-07")
 - [About me](/about-me.html "2020-10-06")
-- [Clues](/clues.html "2020-09-24")
 - [/home](/index.html "2020-09-24")
