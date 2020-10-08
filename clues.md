@@ -54,3 +54,6 @@ to have a place to share miscellaneous thoughts.
 1. In xmonad (and I suspect other window managers), adding borders to
    browser windows causes them to do very poorly in fingerprinting
    tests. It'll likely deanonymize you if you're using Tor Browser.
+1. When researching, use the search engine's capabilities to your
+   advantage. For instance, to only return web pages that have an `.edu`
+   TLD, use the `site` operator, i.e. `site:edu`.

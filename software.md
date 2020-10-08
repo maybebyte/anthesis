@@ -126,17 +126,18 @@ dmenu.
 
 [Zathura](https://git.pwmt.org/pwmt/zathura).
 
-**Web browser**
+**Web browsers**
 
 [Tor Browser](https://www.torproject.org) and
-[Firefox](https://www.mozilla.org/en-US/firefox/). Once configured, they
-mitigate tracking more effectively than the other browsers I've tried.
+[Firefox](https://www.mozilla.org/en-US/firefox/). Tor Browser is as
+private as it gets in my experience, out of the box and otherwise.
+I use it over Firefox whenever possible.
 
 It's worth mentioning that Firefox has
 [`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
 [`unveil(2)`](https://man.openbsd.org/unveil.2) support in OpenBSD.
 
-I harden Firefox and remove its questionable defaults with [ghacks'
+I harden Firefox with [ghacks'
 user.js](https://github.com/ghacksuserjs/ghacks-user.js).
 
 **Firefox addons**
