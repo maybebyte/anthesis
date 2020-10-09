@@ -30,7 +30,7 @@ interest to others and how I'm growing as an individual.
   constituents (albeit in a different configuration with a different end
   result). For this reason, I engage in the
   [principle of
-  charity](https://en.wikipedia.org/wiki/Principle_of_charity).
+  charity](https://www.csus.edu/indiv/m/mayesgr/phl4/tutorial/phl4charity.htm).
 - I like to write. Teaching is one of the best ways to learn, not to
   mention that writing can be fulfilling and thought-provoking.
 - I consider philosophy's teachings and apply them, though discussing

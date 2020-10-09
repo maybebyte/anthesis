@@ -15,7 +15,7 @@ Libre software has these benefits among others:
   consequently, FLOSS can be more private and secure since others
   review the source code.
 - More likely to adhere to the [Unix
-  philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
+  philosophy (PDF)](https://web.mit.edu/6.055/old/S2009/notes/unix.pdf).
 - People in the community volunteer their time to help others in need.
 - Unmaintained software can later be revived because the source code is
   available.
@@ -81,7 +81,7 @@ that ads and telemetry are blocked for any device that connects to the network).
    challenged Raspberry Pi 4B.
 1. An [MPD](https://www.musicpd.org/) instance is accessible within my
    LAN so I can play music on the speakers without toil.
-1. [Kodi](http://kodi.tv/) is also on here for my boyfriend.
+1. [Kodi](https://kodi.tv/) is also on here for my boyfriend.
 
 For all devices running Linux with MMC storage, I prefer F2FS, otherwise
 known as the Flash-Friendly File System.

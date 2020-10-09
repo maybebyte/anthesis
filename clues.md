@@ -57,3 +57,8 @@ to have a place to share miscellaneous thoughts.
 1. When researching, use the search engine's capabilities to your
    advantage. For instance, to only return web pages that have an `.edu`
    TLD, use the `site` operator, i.e. `site:edu`.
+1. Vim allows you to rotate characters 13 places using `g?{motion}` or
+   `{Visual}g?`. [`rot13(6)`](https://man.openbsd.org/rot13) in OpenBSD
+   does the same. [Here's an explanation of
+   rot13](https://kb.iu.edu/d/aeol) in case you're wondering why anyone
+   would ever need this.

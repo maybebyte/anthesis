@@ -9,9 +9,9 @@ initially released.
 
 ## Tech
 
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-08")
 - [Software I use (Desktop/Laptop)](/software.html "2020-10-08")
 - [FLOSS OS recommendations](/os.html "2020-10-06")
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-06")
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-06")
 - [So you want to self host](/self-host-guide.html "2020-10-06")
 - [Pros and cons of NixOS](/nixos.html "2020-09-30")
@@ -19,6 +19,7 @@ initially released.
 
 ## Personal/Misc
 
+- [Media I find noteworthy](/media.html "2020-10-08")
 - [Clues](/clues.html "2020-10-08")
 - [About me](/about-me.html "2020-10-06")
 - [/home](/index.html "2020-09-24")

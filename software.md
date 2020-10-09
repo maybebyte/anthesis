@@ -16,7 +16,7 @@ Here are some resources that I find useful:
 - ["Awesome" topic on github](https://github.com/topics/awesome)
 - [Alternatives to bloatware](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 
-[![A screenshot of my laptop. A black status bar displaying system information decorates the top, with a terminal emulator displaying the contents of uname below it. The wallpaper features a cute girl jotting something down in her notebook and looking outside to an urban landscape, with a cat near the foot of her bed.](/images/rice-laptop.png "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
+[![A screenshot of my laptop. A black status bar displaying system information decorates the top, with a terminal emulator displaying the contents of uname below it. The wallpaper features a cute girl jotting something down in her notebook and looking outside to an urban landscape, with a cat near the foot of her bed.](/images/rice-laptop-thumb.png "The epitome of comfy. Time is redacted since that would reveal my time zone and thus general location.")](/images/rice-laptop.png)
 
 ## Fundamentals
 
@@ -76,8 +76,8 @@ Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_
 
 [SSG](https://rgz.ee/ssg.html). I wrote in regular HTML before
 I discovered this POSIX shell script. It generates
-[`sitemap.xml`](https://en.wikipedia.org/wiki/Sitemaps) automatically.
-Writing in markdown is definitely quicker.
+[`sitemap.xml`](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.215.5690&rep=rep1&type=pdf)
+automatically.  Writing in markdown is definitely quicker.
 
 **RSS feed generator**
 
@@ -221,4 +221,4 @@ effect on sleep.
 
 **Music tagger**
 
-[Beets](http://beets.io/).
+[Beets](https://beets.io/).
