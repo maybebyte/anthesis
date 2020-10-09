@@ -19,7 +19,7 @@ initially released.
 
 ## Personal/Misc
 
+- [About me](/about-me.html "2020-10-09")
 - [Media I find noteworthy](/media.html "2020-10-08")
 - [Clues](/clues.html "2020-10-08")
-- [About me](/about-me.html "2020-10-06")
 - [/home](/index.html "2020-09-24")
