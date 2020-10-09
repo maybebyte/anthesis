@@ -15,7 +15,7 @@ Libre software has these benefits among others:
   consequently, FLOSS can be more private and secure since others
   review the source code.
 - More likely to adhere to the [Unix
-  philosophy (PDF)](https://web.mit.edu/6.055/old/S2009/notes/unix.pdf).
+  philosophy](https://web.mit.edu/6.055/old/S2009/notes/unix.pdf).
 - People in the community volunteer their time to help others in need.
 - Unmaintained software can later be revived because the source code is
   available.
