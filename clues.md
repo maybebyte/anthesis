@@ -61,3 +61,7 @@ to have a place to share miscellaneous thoughts.
    reads from standard input and performs the same conversion. [Here's an
    explanation of rot13](https://kb.iu.edu/d/aeol) in case you're
    wondering why anyone would ever need this.
+1. `command -v` seems more portable than `which` and should be given
+   preferential treatment most of the time. See [this Stack Exchange
+   post for more
+   details](https://unix.stackexchange.com/questions/85249/why-not-use-which-what-to-use-then).
