@@ -28,17 +28,16 @@ to have a place to share miscellaneous thoughts.
    was highly influential in the advent of the Internet).
 1. A shibboleth is any custom or tradition, usually a choice of phrasing
    or even a single word, that distinguishes one group of people from
-   another.
+   another. In a certain light, shibboleths are somewhat like passwords
+   in that both are a proof of identity and a means to keep 'intruders'
+   out.
 1. The months July and August are named after Julius Caesar and
    Augustus, respectively.
 1. The
    [frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors)
    directive in the
    [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
-   HTTP header obsoletes
-   [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options),
-   so `X-Frame-Options: deny` paired with `Content-Security-Policy:
-   frame-ancestors 'none';` is unnecessary.
+   HTTP header obsoletes `X-Frame-Options: deny`.
 1. As a follow-up to the last clue, the
    [Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
    header is a more standardized version of the
@@ -58,7 +57,7 @@ to have a place to share miscellaneous thoughts.
    advantage. For instance, to only return web pages that have an `.edu`
    TLD, use the `site` operator, i.e. `site:edu`.
 1. Vim allows you to rotate characters 13 places using `g?{motion}` or
-   `{Visual}g?`. [`rot13(6)`](https://man.openbsd.org/rot13) in OpenBSD
-   does the same. [Here's an explanation of
-   rot13](https://kb.iu.edu/d/aeol) in case you're wondering why anyone
-   would ever need this.
+   `{Visual}g?`. On OpenBSD, [`rot13(6)`](https://man.openbsd.org/rot13)
+   reads from standard input and performs the same conversion. [Here's an
+   explanation of rot13](https://kb.iu.edu/d/aeol) in case you're
+   wondering why anyone would ever need this.
