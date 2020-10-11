@@ -13,8 +13,8 @@ li {
   padding: 6px 0;
 }
 
-/*code should remain ${body_color} even if a link*/
-code {
+code,
+hr {
   color: #E0E9F0;
 }
 

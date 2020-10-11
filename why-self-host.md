@@ -1,17 +1,19 @@
 # Why self-host/use FLOSS?
 
 People often don't understand why I choose to be my own provider and use
-libre software when the payoff is, to them, about the same. Or why
-I won't repair a broken Windows/macOS installation (I realize that
-refusing to repair proprietary operating systems has the potential to
-come across as 'holier-than-thou.' That said, I don't want to contribute
-to these companies' success, nor their hold on those that want my aid,
-for reasons that will become evident shortly).
+libre software, or why I won't repair a broken Windows/macOS
+installation.[^1]
 
-Libre software has these benefits among others:
+[^1]: I realize that refusing to repair proprietary operating systems
+  can come across as 'holier-than-thou.' That said, I don't want to
+  contribute to the success Microsoft and Apple enjoy, nor their hold on
+  those that want my aid, for reasons mentioned in this document.
 
-- Free as in freedom and free as in free beer (though you should donate
-  to a project if you find it useful).
+Allow me to explain my reasoning/proselytize. Libre software confers
+these benefits among others:
+
+- Free as in freedom and free as in free beer (donations are
+  often what keep projects alive).
 - Libre software is collaborative. Bugs are reported, pull requests are
   made, and the software is better for everyone as a result. Even those
   that aren't developers.
@@ -25,17 +27,13 @@ Libre software has these benefits among others:
   available.
 - Old hardware is still viable many years later--no more planned obsolescence
   and forced upgrades.
-- Some of the free software people write is really cool and results from
-  enthusiasm, not a desire for profit.
 
-Contrast with [proprietary
-software](https://www.gnu.org/proprietary/proprietary.en.html):
+Contrast the above with the experience [proprietary
+software](https://www.gnu.org/proprietary/proprietary.en.html) offers:
 
-- DRM and the power differential that exists between those that provide
-  a service and those that use it means you usually don't own anything
-  in the undiluted sense of the word. It can be taken away from you on
-  a whim, or you can get locked out if you refuse to comply with
-  unreasonable terms of service.
+- DRM means the user doesn't own anything in the undiluted sense of the
+  word. It can be taken away from them on a whim, or they can get locked
+  out if they refuse to comply with unreasonable terms of service.
 - Deliberately incompatible (try moving photos from macOS/iOS to
   a device outside Apple's ecosystem).
 - No say in the development process. Users barely have a voice in
@@ -48,25 +46,37 @@ software](https://www.gnu.org/proprietary/proprietary.en.html):
 - Proprietary software is developed with the express purpose of turning
   a profit. Large companies tend to turn a blind eye to flagrant
   violations of ethics and freedom if they further that end.
-- Misleads or takes advantage of users.
-- Any funds that go toward proprietary software
-  perpetuate the aforementioned problems and indicate to companies that
-  they can get away with doing unethical things.
+- Misleads and takes advantage of users.
+- Any funds that go toward proprietary software perpetuate these
+  problems.
 
-In saying all of this, I'm not trying to be negative (though any honest
-account of proprietary software and the companies that produce it will
-likely be negative, sadly). Instead, I'm outlining the differences so
-I can drive this point home: when you run proprietary software, you're
-the product.
+Understand that my intent here isn't to be negative, nor do I want to
+attack those that use proprietary software. It's the companies that make
+said software that are to blame, not the users, and any honest account
+of these injustices is bound to be negative.
 
-You can regain your freedom by exchanging software that violates it for
-software that respects it (Libreoffice instead of Microsoft Office,
-Firefox instead of Google Chrome, etc). Bear in mind that this process
-isn't all or nothing. Even exchanging one or two programs makes
-a world of difference.
+Instead, I've outlined the differences between these two so I can drive
+this point home: **when someone runs proprietary software, they're the
+product**. I've experienced it firsthand and know that people deserve
+better.
 
-If you're interested, check out [my guide on
-self-hosting](/self-host-guide.html).
+Of course, this raises the following question: if proprietary
+software takes advantage of the user, what can the user do to combat
+that?
+
+A good way to regain freedom is to exchange software that violates
+privacy/user rights for software that respects these values. That is to
+say, Libreoffice instead of Microsoft Office, Jitsi instead of Zoom, and
+so on.
+
+Bear in mind that this process doesn't have to be all or
+nothing. Gradually replace things as comfortable and note the
+differences. If those differences are more positive than negative,
+embrace it.
+
+Check out [my guide on self-hosting](/self-host-guide.html), [software
+I use](/software.html), and [FLOSS OS recommendations](/os.html) for
+more ways to defend privacy and freedom.
 
 # Stuff I self-host
 
