@@ -12,8 +12,7 @@ installation.[^1]
 Allow me to explain my reasoning/proselytize. Libre software confers
 these benefits among others:
 
-- Free as in freedom and free as in free beer (donations are
-  often what keep projects alive).
+- Free as in freedom and free as in free beer.
 - Libre software is collaborative. Bugs are reported, pull requests are
   made, and the software is better for everyone as a result. Even those
   that aren't developers.
