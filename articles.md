@@ -9,7 +9,7 @@ initially released.
 
 ## Tech
 
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-08")
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-11")
 - [Software I use (Desktop/Laptop)](/software.html "2020-10-08")
 - [FLOSS OS recommendations](/os.html "2020-10-06")
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-06")
