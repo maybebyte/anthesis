@@ -87,10 +87,11 @@ that ads and telemetry are blocked for any device that connects to the network).
 
 **Entertainment Center**
 
-1. [Retropie](https://retropie.org.uk/) is a fantastic project. I grew
-   up with many of the games it supports so it caters to my nostalgia,
-   and shaders only serve to further improve the experience. The
-   Argon ONE (a nice case) makes it feasible to overclock the thermally
+1. [Retropie](https://retropie.org.uk/) is great for those interested in
+   retro gaming. I grew up with many of the games it supports so it
+   caters to my nostalgia (in fact, the experience is even better than
+   it was before given multi-pass shaders and a good audio system). The
+   Argon ONE case makes it feasible to overclock the thermally
    challenged Raspberry Pi 4B.
 1. An [MPD](https://www.musicpd.org/) instance is accessible within my
    LAN so I can play music on the speakers without toil.
