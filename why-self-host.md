@@ -2,7 +2,11 @@
 
 People often don't understand why I choose to be my own provider and use
 libre software when the payoff is, to them, about the same. Or why
-I won't repair a Windows installation.
+I won't repair a broken Windows/macOS installation (I realize that
+refusing to repair proprietary operating systems has the potential to
+come across as 'holier-than-thou.' That said, I don't want to contribute
+to these companies' success, nor their hold on those that want my aid,
+for reasons that will become evident shortly).
 
 Libre software has these benefits among others:
 
