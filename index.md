@@ -25,6 +25,10 @@ what the web has become.
 
 # Conventions
 
+1. My site is also available as a [hidden
+   service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/)
+   for those that want and/or need more privacy. To access the hidden service, use
+   [Tor](https://www.torproject.org/).
 1. [GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using
    [my public GPG Key](pubkeys/eurydice.key) is preferred [when
    corresponding via email](mailto:eurydice@riseup.net
