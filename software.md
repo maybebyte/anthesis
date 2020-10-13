@@ -1,11 +1,9 @@
 # Software I use (Desktop/Laptop)
 
-This page primarily exists for two reasons: a) for those interested in
-my workflow b) to document things for myself. Granted, one may argue
-that `pkg_info -mz` would accomplish the same thing, to which
-I'd reply that I like to ramble and this is a more symbolically
-meaningful way to represent this information given that the software is
-organized by type.
+This page primarily exists for two reasons:
+
+1. To inform those interested in my workflow.
+1. To meaningfully document the software I use for my own reference.
 
 Here are some resources that I find useful:
 
