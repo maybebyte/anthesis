@@ -52,16 +52,21 @@ to have a place to share miscellaneous thoughts.
    prescriptive grammar).
 1. In xmonad (and I suspect other window managers), adding borders to
    browser windows causes them to do very poorly in fingerprinting
-   tests. It'll likely deanonymize you if you're using Tor Browser.
+   tests. Borders can deanonymize Tor Browser users.
 1. When researching, use the search engine's capabilities to your
    advantage. For instance, to only return web pages that have an `.edu`
    TLD, use the `site` operator, i.e. `site:edu`.
-1. Vim allows you to rotate characters 13 places using `g?{motion}` or
+1. Vim can rotate characters 13 places using `g?{motion}` or
    `{Visual}g?`. On OpenBSD, [`rot13(6)`](https://man.openbsd.org/rot13)
    reads from standard input and performs the same conversion. [Here's an
    explanation of rot13](https://kb.iu.edu/d/aeol) in case you're
    wondering why anyone would ever need this.
 1. `command -v` seems more portable than `which` and should be given
    preferential treatment most of the time. See [this Stack Exchange
-   post for more
-   details](https://unix.stackexchange.com/questions/85249/why-not-use-which-what-to-use-then).
+   post](https://unix.stackexchange.com/questions/85249/why-not-use-which-what-to-use-then)
+   for more details.
+1. For the time being, HTTP keep-alive must be disabled in
+   [`relayd(8)`](https://man.openbsd.org/relayd) in order for HTTP
+   headers to be applied on subsequent requests. See [this marc.info
+   thread](https://marc.info/?l=openbsd-misc&m=150287292709311&w=2) for
+   more details.

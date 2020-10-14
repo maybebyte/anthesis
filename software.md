@@ -66,9 +66,10 @@ workflow for the better. Disorganization is the enemy of progress.
 
 Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_use_help)):
 
-  - pattern-overview (shows you search patterns)
-  - option-list (shows you configurable options for
+  - pattern-overview (search patterns)
+  - option-list (configurable options for
     [`.vimrc`](/src/dotfiles/file/.vimrc.html))
+  - text-objects (selection motions, e.g. `vip` for 'inner paragraph')
 
 **Static site generator**
 
