@@ -9,21 +9,27 @@ installation.[^1]
   contribute to the success Microsoft and Apple enjoy, nor their hold on
   those that want my aid, for reasons mentioned in this document.
 
-Allow me to explain my reasoning/proselytize. Libre software confers
+Allow me to explain my reasoning/proselytize. Libre software has
 these benefits among others:
 
 - Free as in freedom and free as in free beer.
+
 - Libre software is collaborative. Bugs are reported, pull requests are
   made, and the software is better for everyone as a result. Even those
   that aren't developers.
+
 - Transparent. The behavior of a given program can be verified;
   consequently, FLOSS can be more private and secure since others
   review the source code.
+
 - More likely to adhere to the [Unix
   philosophy](https://web.mit.edu/6.055/old/S2009/notes/unix.pdf).
+
 - People in the community volunteer their time to help others in need.
+
 - Unmaintained software can later be revived because the source code is
   available.
+
 - Old hardware is still viable many years later--no more planned obsolescence
   and forced upgrades.
 
@@ -33,19 +39,27 @@ software](https://www.gnu.org/proprietary/proprietary.en.html) offers:
 - DRM means the user doesn't own anything in the undiluted sense of the
   word. It can be taken away from them on a whim, or they can get locked
   out if they refuse to comply with unreasonable terms of service.
+
 - Deliberately incompatible (try moving photos from macOS/iOS to
   a device outside Apple's ecosystem).
+
 - No say in the development process. Users barely have a voice in
   general.
+
 - Surveillance is commonplace and it's harder to tell what exactly
   a program is doing. [Both Apple and Microsoft cooperate with the
   NSA](/images/Prism_slide_5.jpg).
+
 - Planned obsolescence and forced upgrades.
+
 - Censorship.
+
 - Proprietary software is developed with the express purpose of turning
   a profit. Large companies tend to turn a blind eye to flagrant
   violations of ethics and freedom if they further that end.
+
 - Misleads and takes advantage of users.
+
 - Any funds that go toward proprietary software perpetuate these
   problems.
 
@@ -55,13 +69,12 @@ said software that are to blame, not the users, and any honest account
 of these injustices is bound to be negative.
 
 Instead, I've outlined the differences between these two so I can drive
-this point home: **when someone runs proprietary software, they're the
-product**. I've experienced it firsthand and know that people deserve
-better.
+this point home: **those who run proprietary software are the
+product**. I've experienced it firsthand and I'm certain that people
+deserve better.
 
-Of course, this raises the following question: if proprietary
-software takes advantage of the user, what can the user do to combat
-that?
+Of course, this raises the following question: if proprietary software
+takes advantage of the user, how can the user combat that?
 
 A good way to regain freedom is to exchange software that violates
 privacy/user rights for software that respects these values. That is to
@@ -89,13 +102,14 @@ that ads and telemetry are blocked for any device that connects to the network).
 
 1. [Retropie](https://retropie.org.uk/) is great for those interested in
    retro gaming. I grew up with many of the games it supports so it
-   caters to my nostalgia (in fact, the experience is even better than
-   it was before given multi-pass shaders and a good audio system). The
-   Argon ONE case makes it feasible to overclock the thermally
-   challenged Raspberry Pi 4B.
-1. An [MPD](https://www.musicpd.org/) instance is accessible within my
-   LAN so I can play music on the speakers without toil.
-1. [Kodi](https://kodi.tv/) is also on here for my boyfriend.
+   caters to my nostalgia. The experience gets even better with
+   multi-pass shaders, a good case (Argon ONE is what I use), and a good
+   audio system.
+
+1. [MPD](https://www.musicpd.org/), so I can play music on the speakers
+   without toil.
+
+1. [Kodi](https://kodi.tv/), for my boyfriend.
 
 For all devices running Linux with MMC storage, I prefer F2FS, otherwise
 known as the Flash-Friendly File System.

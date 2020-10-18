@@ -16,6 +16,7 @@ repertoire, consider one of two options:
 
 1. learn more by consulting [`help(1)`](https://man.openbsd.org/help)
    and the [OpenBSD FAQ](https://www.openbsd.org/faq/).
+
 2. pursue different avenues to liberate your online life and regain
    privacy. Install a [FLOSS operating system](/os.html) or
    use FLOSS software to accomplish day-to-day tasks.

@@ -9,10 +9,6 @@ p strong {
   text-decoration: underline;
 }
 
-li {
-  padding: 5px 0;
-}
-
 code,
 hr {
   color: #E0E9F0;

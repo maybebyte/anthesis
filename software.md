@@ -69,7 +69,7 @@ Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_
   - pattern-overview (search patterns)
   - option-list (configurable options for
     [`.vimrc`](/src/dotfiles/file/.vimrc.html))
-  - text-objects (selection motions, e.g. `vip` for 'inner paragraph')
+  - text-objects (motions, e.g. `vip` for 'select inner paragraph')
 
 **Static site generator**
 
@@ -147,20 +147,26 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
 - [Bloody
   Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
   disposable email addresses.
+
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
   removes tracking elements from URLs.
+
 - [CSS Exfil
     Protection](https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/):
     the author has a page that [displays if you're
     vulnerable](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester).
+
 - [HTTPS
   Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
-  moar HTTPS, Swiper no swiping.
+  exactly what it sounds like. TLS is important for privacy.
+
 - [Terms of Service; Didn't
   Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
   understand a site's privacy policy at a glance.
+
 - [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
   vim bindings for Firefox.
+
 - [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
   forbid/allow different types of content. I disable both JavaScript and
   cookies, then whitelist as needed.
