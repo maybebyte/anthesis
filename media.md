@@ -1,5 +1,9 @@
 # Media I find noteworthy
 
+## Sat Oct 17
+- [Engineers create plants that
+glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213).
+
 ## Sun Oct 11
 
 - [Serial killers can be caught with an
