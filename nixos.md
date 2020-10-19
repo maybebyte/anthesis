@@ -43,11 +43,11 @@ isolated from one another.
 ### Consistency
 
 Once you become acquainted with managing your system declaratively, it
-turns out that it's more consistent and reproducible. Sometimes it feels
-like every program's configuration files use a different syntax. NixOS
+turns out that it's more consistent and reproducible. It feels like
+every program's configuration files use a different syntax, and NixOS
 offers the opportunity to configure everything with one language:
 Nix. When I realized this meant I could configure fonts without XML,
-I was *sold*. It's the difference between this:
+I was sold. It's the difference between this:
 
     <?xml version='1.0'?>
     <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
@@ -142,10 +142,9 @@ vs doas), firewall (iptables vs pf), and so on.
 In comparing these pieces of software, I'm illustrating a point:
 additional features aren't unequivocally good. Sometimes features are
 useful and other times they're unneeded or poorly implemented. For this
-reason, I say that lacking unnecessary features *is*
-a feature.
+reason, lacking unnecessary features *is* a feature.
 
-Minimalism in software design confers these benefits:
+Here's a brief outline of why minimalism in software design is important:
 
 - Less potential for bugs and vulnerabilities because there's less code
   for them to exist in.

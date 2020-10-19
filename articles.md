@@ -9,6 +9,8 @@ initially released.
 
 ## Tech
 
+- [Pros and cons of NixOS](/nixos.html "2020-10-19")
+
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-10-19")
 
 - [So you want to self host](/self-host-guide.html "2020-10-19")
@@ -18,8 +20,6 @@ initially released.
 - [FLOSS OS recommendations](/os.html "2020-10-06")
 
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-06")
-
-- [Pros and cons of NixOS](/nixos.html "2020-09-30")
 
 - [Projects I'm working on](/projects.html "2020-09-24")
 
