@@ -11,7 +11,7 @@ I maintain `amissing.link` for three main reasons:
 1. A personal website is among the freest forms of expression a person
    can have.
 
-1. Many sites these days are over-engineered and/or hostile to those
+1. Many sites these days are overengineered and/or hostile to those
    that value privacy. Developing and hosting a minimal,
    privacy-respecting website allows me to be the change I want to see
    in the world.

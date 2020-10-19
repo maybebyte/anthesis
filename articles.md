@@ -9,7 +9,7 @@ initially released.
 
 ## Tech
 
-- [So you want to self host](/self-host-guide.html "2020-10-17")
+- [So you want to self host](/self-host-guide.html "2020-10-19")
 
 - [Software I use (Desktop/Laptop)](/software.html "2020-10-17")
 
@@ -25,7 +25,7 @@ initially released.
 
 ## Personal/Misc
 
-- [/home](/index.html "2020-09-17")
+- [/home](/index.html "2020-09-19")
 
 - [About me](/about-me.html "2020-10-17")
 
