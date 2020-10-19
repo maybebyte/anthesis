@@ -9,11 +9,11 @@ initially released.
 
 ## Tech
 
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-19")
+
 - [So you want to self host](/self-host-guide.html "2020-10-19")
 
 - [Software I use (Desktop/Laptop)](/software.html "2020-10-17")
-
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-17")
 
 - [FLOSS OS recommendations](/os.html "2020-10-06")
 

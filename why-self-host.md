@@ -68,18 +68,19 @@ attack those that use proprietary software. It's the companies that make
 said software that are to blame, not the users, and any honest account
 of these injustices is bound to be negative.
 
-Instead, I've outlined the differences between these two so I can drive
-this point home: **those who run proprietary software are the
-product**. I've experienced it firsthand and I'm certain that people
-deserve better.
+Instead, I've outlined the differences so I can drive this point home:
+**those who run proprietary software are the product**. I've experienced
+it firsthand and I'm certain that people deserve better.
 
 Of course, this raises the following question: if proprietary software
 takes advantage of the user, how can the user combat that?
 
 A good way to regain freedom is to exchange software that violates
 privacy/user rights for software that respects these values. That is to
-say, Libreoffice instead of Microsoft Office, Jitsi instead of Zoom, and
-so on.
+say, [Libreoffice](https://www.libreoffice.org/) instead of Microsoft
+Office, [Jitsi](https://jitsi.org/) instead of Zoom, [Tor
+Browser](https://www.torproject.org/) instead of proprietary browsers,
+and so on.
 
 Bear in mind that this process doesn't have to be all or
 nothing. Gradually replace things as comfortable and note the
