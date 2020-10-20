@@ -79,7 +79,7 @@ A good way to regain freedom is to exchange software that violates
 privacy/user rights for software that respects these values. That is to
 say, [Libreoffice](https://www.libreoffice.org/) instead of Microsoft
 Office, [Jitsi](https://jitsi.org/) instead of Zoom, [Tor
-Browser](https://www.torproject.org/) instead of proprietary browsers,
+Browser](https://www.torproject.org/) instead of a proprietary browser,
 and so on.
 
 Bear in mind that this process doesn't have to be all or
@@ -104,13 +104,16 @@ that ads and telemetry are blocked for any device that connects to the network).
 1. [Retropie](https://retropie.org.uk/) is great for those interested in
    retro gaming. I grew up with many of the games it supports so it
    caters to my nostalgia. The experience gets even better with
-   multi-pass shaders, a good case (Argon ONE is what I use), and a good
-   audio system.
+   multi-pass shaders, a good case (the Argon ONE is what I use), and
+   a good audio system.
 
 1. [MPD](https://www.musicpd.org/), so I can play music on the speakers
    without toil.
 
 1. [Kodi](https://kodi.tv/), for my boyfriend.
 
-For all devices running Linux with MMC storage, I prefer F2FS, otherwise
-known as the Flash-Friendly File System.
+When I run Linux on a device that has MMC storage, I prefer F2FS
+(otherwise known as the Flash-Friendly File System). For more
+information, see ["F2FS: A New
+File System for Flash
+Storage"](https://www.cs.fsu.edu/~awang/courses/cop5611_s2020/f2fs2.pdf).

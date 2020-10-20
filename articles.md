@@ -9,9 +9,9 @@ initially released.
 
 ## Tech
 
-- [Pros and cons of NixOS](/nixos.html "2020-10-19")
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-20")
 
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-19")
+- [Pros and cons of NixOS](/nixos.html "2020-10-19")
 
 - [So you want to self host](/self-host-guide.html "2020-10-19")
 
