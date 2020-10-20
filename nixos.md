@@ -148,7 +148,7 @@ Here's a brief outline of why minimalism in software design is important:
 
 - Less potential for bugs and vulnerabilities because there's less code
   for them to exist in.
-- Portable (an example: think of how many systems run OpenSSH, an
+- Portable (an example: many systems run OpenSSH, an
   OpenBSD project).
 - Well-designed minimal programs are comprehensible, and thus easier to
   contribute to and maintain.
@@ -176,7 +176,7 @@ it exists with OpenBSD. As a sysadmin and someone who's a bit paranoid
 (just because I'm paranoid doesn't mean they aren't out to get me),
 I need my system to have secure defaults.
 
-I think security is often eschewed in favor of new features because the
+Security is often eschewed in favor of new features because the
 reward for good security is 'nothing.' No intrusions happen, no damage
 is sustained, and no services go down. In other words, the benefit of
 good security is often more about what doesn't happen rather than what

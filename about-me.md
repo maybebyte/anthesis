@@ -1,9 +1,9 @@
 # About me
 
-To preface this, I don't think it's possible to perfectly condense
-anyone into a set of words. That said, I think there's value in learning
-how to describe myself concisely. It allows me to reflect on what's of
-interest to others and how I'm growing as an individual.
+To preface this, it's impossible to perfectly condense anyone into a set
+of words. That said, there's value in learning how to describe myself
+concisely. It allows me to reflect on what's of interest to others and
+how I'm growing as an individual.
 
 ## Things I engage in
 
