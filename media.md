@@ -1,5 +1,9 @@
 # Media I find noteworthy
 
+## Wed Oct 21
+- [All the ways your phone tracks your
+  location](https://invidious.snopyta.org/watch?v=GMIY4J8jAUc). (12:25)
+
 ## Sat Oct 17
 - [Engineers create plants that
 glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213).
