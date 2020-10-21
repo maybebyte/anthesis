@@ -114,6 +114,6 @@ that ads and telemetry are blocked for any device that connects to the network).
 
 When I run Linux on a device that has MMC storage, I prefer F2FS
 (otherwise known as the Flash-Friendly File System). For more
-information, see ["F2FS: A New
+information, see [F2FS: A New
 File System for Flash
-Storage"](https://www.cs.fsu.edu/~awang/courses/cop5611_s2020/f2fs2.pdf).
+Storage](https://www.cs.fsu.edu/~awang/courses/cop5611_s2020/f2fs2.pdf).

@@ -9,7 +9,7 @@ initially released.
 
 ## Tech
 
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-20")
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-21")
 
 - [Pros and cons of NixOS](/nixos.html "2020-10-19")
 
