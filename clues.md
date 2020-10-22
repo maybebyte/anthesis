@@ -64,9 +64,16 @@ to have a place to share miscellaneous thoughts.
    browser windows causes them to do very poorly in fingerprinting
    tests. Borders can deanonymize Tor Browser users.
 
-1. When researching, use the search engine's capabilities to your
-   advantage. For instance, to only return web pages that have an `.edu`
-   TLD, use the `site` operator, i.e. `site:edu`.
+1. Use your search engine's capabilities to your advantage. For
+   instance, to only return web pages that have either the `.edu` or
+   `.gov` TLD (useful for research), use the `site` operator,
+   i.e. `site:(edu | gov)`. See [Step-by-Step Guide & Research Rescue:
+   Evaluating
+   Credibility](https://guides.lib.byu.edu/c.php?g=216340&p=1428399) and
+   [Google Hacking
+   101](https://www.oakton.edu/user/2/rjtaylor/CIS101/Google%20Hacking%20101.pdf)
+   (but don't use Google--many operators apply on other search engines,
+   like DuckDuckGo or Searx).
 
 1. Vim can rotate characters 13 places using `g?{motion}` or
    `{Visual}g?`. On OpenBSD, [`rot13(6)`](https://man.openbsd.org/rot13)
