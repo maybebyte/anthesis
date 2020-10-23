@@ -27,10 +27,10 @@ initially released.
 
 ## Personal/Misc
 
+- [/home](/index.html "2020-10-23")
+
 - [Clues](/clues.html "2020-10-21")
 
 - [Media I find noteworthy](/media.html "2020-10-21")
-
-- [/home](/index.html "2020-09-19")
 
 - [About me](/about-me.html "2020-10-17")

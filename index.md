@@ -44,6 +44,13 @@ what the web has become.
    a [`man(1)`](https://man.openbsd.org/man) page. The number represents
    the section number of that man page.
 
+1. In command line examples, a dollar sign `($)` represents a shell
+   without root permissions; conversely, an octothorpe `(#)` represents
+   a shell with root permissions. Root can be acquired via
+   [`su(1)`](https://man.openbsd.org/su) or
+   [`doas(1)`](https://man.openbsd.org/doas), though the latter is
+   preferred.
+
 1. I try my best to write readable, comprehensible software. To that
    end, suggestions and diffs are welcome--mail them to the address
    above. Thank you.
