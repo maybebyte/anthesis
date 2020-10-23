@@ -53,9 +53,15 @@ Engines](https://pcengines.ch/). Their boards come with
 [coreboot](https://www.coreboot.org/) preinstalled and so far it's been
 a great experience.
 
+[![APU4B4, front side.](/images/apu4b4_1_thumb.jpg)](/images/apu4b4_1.jpg)
+
+[![APU4B4, back side.](/images/apu4b4_2_thumb.jpg)](/images/apu4b4_2.jpg)
+
 Include a [USB to DB9F serial
 adapter](https://www.pcengines.ch/usbcom1a.htm) in your purchase, as
 it's needed for the installation.
+
+[![USB to DB9F serial adapter.](/images/usbcom1a_thumb.jpg)](/images/usbcom1a.jpg)
 
 [Consult the manual for assembly
 instructions](https://pcengines.ch/pdf/apu4.pdf).
@@ -135,8 +141,8 @@ If everything's up and working, place the following in `/etc/rc.local`:
 
 ### Concerning WireGuard and Unbound
 
-If you use [`unbound(8)`](https://man.openbsd.org/unbound), replace the
+If you run [`unbound(8)`](https://man.openbsd.org/unbound), replace the
 DNS entry in the WireGuard configuration file with `127.0.0.1` or your
-router won't use your local resolver. After doing so, set your VPN's DNS
-server as the `forward-addr` in
+router won't use it. After doing so, set the IP address of your VPN's
+DNS server as the `forward-addr` in
 [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).

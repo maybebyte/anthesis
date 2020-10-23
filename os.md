@@ -67,3 +67,6 @@ Your router is a computer too. OEM firmware usually isn't as capable nor
 as secure as its FLOSS counterparts (such as DD-WRT, OpenWRT, pfSense,
 or OpenBSD). Be careful and use Ethernet if you flash firmware onto your
 router.
+
+Check out [Building an OpenBSD router](/openbsd-router.html) for more
+information on how I approach it.

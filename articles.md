@@ -9,17 +9,17 @@ initially released.
 
 ## Tech
 
-- [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-23")
+- [FLOSS OS recommendations](/os.html "2020-10-23")
 
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-21")
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-23")
+
+- [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-23")
 
 - [Pros and cons of NixOS](/nixos.html "2020-10-19")
 
 - [So you want to self host](/self-host-guide.html "2020-10-19")
 
 - [Software I use (Desktop/Laptop)](/software.html "2020-10-17")
-
-- [FLOSS OS recommendations](/os.html "2020-10-06")
 
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-06")
 

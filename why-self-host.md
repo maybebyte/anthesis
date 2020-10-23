@@ -93,11 +93,9 @@ more ways to defend privacy and freedom.
 
 # Stuff I self-host
 
-**DNS Sinkhole**
+**Router**
 
-[Pi-hole](https://pi-hole.net/) is one of the most popular uses for
-a Raspberry Pi. It acts as a DNS sinkhole for ads and telemetry (meaning
-that ads and telemetry are blocked for any device that connects to the network).
+See my article on [building an OpenBSD router](/openbsd-router.html).
 
 **Entertainment Center**
 
