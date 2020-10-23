@@ -9,6 +9,8 @@ initially released.
 
 ## Tech
 
+- [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-23")
+
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-10-21")
 
 - [Pros and cons of NixOS](/nixos.html "2020-10-19")
