@@ -23,7 +23,7 @@ initially released.
 
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-06")
 
-- [Projects I'm working on](/projects.html "2020-09-24")
+- [Projects I'm working on](/src "2020-09-24")
 
 ## Personal/Misc
 
