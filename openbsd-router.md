@@ -117,35 +117,35 @@ pretty straightforward, as the 6.8 release added
 Note that I only use IPv4 for the sake of simplicity; additional steps
 are needed if IPv6 tunneling is required.
 
-Install WireGuard:
+1. Install WireGuard:
 
-`# pkg_add wireguard-tools`
+        # pkg_add wireguard-tools
 
-Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
+1. Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
 `wg-quick` (omit the filename extension for conf filename):
 
-`# wg-quick up [conf filename]`
+        # wg-quick up [conf filename]
 
-Modify your `nat-to` entry in
-[`pf(4)`](https://man.openbsd.org/man4/pf.4) accordingly:
+1. Modify your `nat-to` entry in
+   [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly:
 
-`match out on wg inet from !(wg:network) to any nat-to (wg:0)`
+        match out on wg inet from !(wg:network) to any nat-to (wg:0)
 
-Test the configuration:
+1. Test the configuration:
 
-`# pfctl -f /etc/pf.conf -n -vv`
+        # pfctl -f /etc/pf.conf -n -vv
 
-If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf):
+1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf):
 
-`# pfctl -f /etc/pf.conf`
+        # pfctl -f /etc/pf.conf
 
-Verify from a connected client:
+1. Verify from a connected client:
 
-`$ curl ifconfig.me && printf '\n'`
+        $ curl ifconfig.me && printf '\n'
 
-If everything's up and working, place the following in `/etc/rc.local`:
+1. If everything's up and working, place the following in `/etc/rc.local`:
 
-`/usr/local/bin/wg-quick up [conf filename]`
+        /usr/local/bin/wg-quick up [conf filename]
 
 ### Concerning WireGuard and Unbound
 
