@@ -131,6 +131,14 @@ Modify your `nat-to` entry in
 
 `match out on wg inet from !(wg:network) to any nat-to (wg:0)`
 
+Test the configuration:
+
+`# pfctl -f /etc/pf.conf -n -vv`
+
+If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf):
+
+`# pfctl -f /etc/pf.conf`
+
 Verify from a connected client:
 
 `$ curl ifconfig.me && printf '\n'`
