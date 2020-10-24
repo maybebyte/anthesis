@@ -129,8 +129,7 @@ dmenu.
 
 [Tor Browser](https://www.torproject.org) and
 [Firefox](https://www.mozilla.org/en-US/firefox/). Tor Browser is as
-private as it gets in my experience, out of the box and otherwise.
-I use it over Firefox whenever possible.
+private as it gets, so I use it over Firefox whenever possible.
 
 It's worth mentioning that Firefox has
 [`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
@@ -147,29 +146,22 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
 - [Bloody
   Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
   disposable email addresses.
-
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
   removes tracking elements from URLs.
-
 - [CSS Exfil
     Protection](https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/):
     the author has a page that [displays if you're
     vulnerable](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester).
-
 - [HTTPS
   Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
   exactly what it sounds like. TLS is important for privacy.
-
 - [Terms of Service; Didn't
   Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
   understand a site's privacy policy at a glance.
-
 - [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
   vim bindings for Firefox.
-
 - [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
-  forbid/allow different types of content. I disable both JavaScript and
-  cookies, then whitelist as needed.
+  forbid/allow different types of content.
 
 ## Entertainment
 
