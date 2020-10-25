@@ -75,10 +75,10 @@ to have a place to share miscellaneous thoughts.
    (but don't use Google--many operators apply on other search engines,
    like DuckDuckGo or Searx).
 
-1. Vim can rotate characters 13 places using `g?{motion}` or
+1. Vim/Neovim can rotate characters 13 places using `g?{motion}` or
    `{Visual}g?`. On OpenBSD, [`rot13(6)`](https://man.openbsd.org/rot13)
-   reads from standard input and performs the same conversion. [Here's an
-   explanation of rot13](https://kb.iu.edu/d/aeol) in case you're
+   reads from standard input and performs the same conversion. [Here's
+   an explanation of rot13](https://kb.iu.edu/d/aeol) in case you're
    wondering why anyone would ever need this.
 
 1. `command -v` seems more portable than `which` and should be given

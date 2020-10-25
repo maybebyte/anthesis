@@ -61,14 +61,26 @@ workflow for the better. Disorganization is the enemy of progress.
 
 **Text editor**
 
-[Vim](https://www.vim.org). I adore vim. If you want to learn it,
-`vimtutor` is your friend.
+[Neovim](https://neovim.io). To take your text editing to the next
+level, follow these steps:
 
-Useful help pages (see [learn to use help](https://vim.fandom.com/wiki/Learn_to_use_help)):
+1. Add the neovim package.
+
+        # pkg_add neovim
+
+2. Open Neovim.
+
+        $ nvim
+
+3. Open the tutorial.
+
+        :Tutor
+
+Useful help pages (accessed with `:h`)
 
   - pattern-overview (search patterns)
   - option-list (configurable options for
-    [`.vimrc`](/src/dotfiles/file/.vimrc.html))
+    [`init.vim`](/src/dotfiles/file/.config/nvim/init.vim.html))
   - text-objects (motions, e.g. `vip` for 'select inner paragraph')
 
 **Static site generator**
@@ -94,12 +106,12 @@ this functionality, it's an excellent tool for scripting.
 
 **Mail client**
 
-[Neomutt](https://neomutt.org/). [`smtpd(8)`](https://man.openbsd.org/smtpd),
-the mail daemon in OpenBSD's base system, makes the experience even
-better given a sensible
+[Neomutt](https://neomutt.org/).
+[`smtpd(8)`](https://man.openbsd.org/smtpd), the mail daemon in
+OpenBSD's base system, makes the experience even better given a sensible
 [`smtpd.conf(5)`](https://man.openbsd.org/smtpd.conf.5). The
-unadulterated joy I feel while composing emails in vim makes me wonder
-why I didn't do this sooner.
+unadulterated joy I feel while composing emails in Neovim makes me
+wonder why I didn't do this sooner.
 
 **RSS reader**
 
@@ -159,7 +171,7 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
   Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
   understand a site's privacy policy at a glance.
 - [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
-  vim bindings for Firefox.
+  Vim bindings for Firefox.
 - [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
   forbid/allow different types of content.
 
