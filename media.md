@@ -1,6 +1,6 @@
 # Media I find noteworthy
 
-## Sat Oct 25
+## Sun Oct 25
 - [Plato’s Allegory of the Cave - Alex Gendler](http://invidious.snopyta.org/watch?v=1RWOpQXTltA). (4:33)
 - [Kardashev Scale |
   Unveiled](http://invidious.snopyta.org/playlist?list=PLfq8kkw599aDDjXd5nvroklQ9wC3_KLB9).
