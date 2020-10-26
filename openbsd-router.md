@@ -15,7 +15,7 @@ For a while, I was running [DD-WRT](https://dd-wrt.com/) on a Netgear
 R7000P as my router. Even though it's leagues better than the stock
 firmware (not a very high bar to clear) and makes for a capable access
 point (AP), it has some pain points as a router. Here are a few that come to
-mind:
+mind.
 
 1. Upgrades necessitate a total reconfiguration of the router's
    settings. If upgrades are hard, no one will do them... and then the
@@ -90,7 +90,7 @@ guide](https://www.tumfatig.net/20200530/openbsd-6-7-on-pc-engines-apu4d4/).
 Do the usual, e.g. read
 [`afterboot(8)`](https://man.openbsd.org/afterboot), check your mail,
 etc. After that, there's a couple of things you'll probably want to
-implement:
+implement.
 
 - A [firewall, DHCP server, and DNS
   server](https://www.openbsd.org/faq/pf/example1.html).
@@ -117,33 +117,33 @@ pretty straightforward, as the 6.8 release added
 Note that I only use IPv4 for the sake of simplicity; additional steps
 are needed if IPv6 tunneling is required.
 
-1. Install WireGuard:
+1. Install WireGuard.
 
         # pkg_add wireguard-tools
 
 1. Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
-`wg-quick` (omit the filename extension for conf filename):
+`wg-quick` (omit the filename extension for conf filename).
 
         # wg-quick up [conf filename]
 
 1. Modify your `nat-to` entry in
-   [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly:
+   [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
 
         match out on wg inet from !(wg:network) to any nat-to (wg:0)
 
-1. Test the configuration:
+1. Test the configuration.
 
         # pfctl -f /etc/pf.conf -n -vv
 
-1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf):
+1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
 
         # pfctl -f /etc/pf.conf
 
-1. Verify from a connected client:
+1. Verify from a connected client.
 
         $ curl ifconfig.me && printf '\n'
 
-1. If everything's up and working, place the following in `/etc/rc.local`:
+1. If everything's up and working, place the following in `/etc/rc.local`.
 
         /usr/local/bin/wg-quick up [conf filename]
 
