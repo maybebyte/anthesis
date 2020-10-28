@@ -83,7 +83,7 @@ This indicates the line to use `(-l)` and the baud rate `(-s)`. The APU4D4
 requires a baud rate of 115200.
 
 Now that you're connected, use this [OpenBSD APU4D4 installation
-guide](https://www.tumfatig.net/20200530/openbsd-6-7-on-pc-engines-apu4d4/).
+guide](https://hofmeyr.de/OpenBSD%20on%20APU4/).
 
 ## After installation
 
