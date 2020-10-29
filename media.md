@@ -1,5 +1,10 @@
 # Media I find noteworthy
 
+## Thu Oct 29
+
+- [How Homegrown Disinformation Could Disrupt This U.S. Election | 2020
+Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
+
 ## Tue Oct 27
 
 - [Brain Basics: Understanding
