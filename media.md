@@ -12,10 +12,9 @@ Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
 
 - [Brain Basics: Understanding
   Sleep](https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Understanding-Sleep)
-  (article)
 - [Are You Getting Enough
   Sleep?](https://www.cdc.gov/sleep/features/getting-enough-sleep.html)
-  (article)
+
 
 ## Sun Oct 25
 - [Plato’s Allegory of the Cave - Alex Gendler](http://invidious.snopyta.org/watch?v=1RWOpQXTltA) (4:33)
@@ -28,7 +27,7 @@ Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
 realz](http://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 - [Scientists test depth perception in cuttlefish by putting 3-D glasses
   on
-  them](https://www.nytimes.com/2020/01/08/science/3d-glasses-cuttlefish.html). (article)
+  them](https://www.nytimes.com/2020/01/08/science/3d-glasses-cuttlefish.html).
 - ["Stargate Project" was a CIA program that involved remote
   viewing for intelligence
   purposes](https://www.cia.gov/library/readingroom/docs/CIA-RDP96-00789R003300210001-2.pdf).
@@ -40,13 +39,12 @@ realz](http://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 
 ## Sat Oct 17
 - [Engineers create plants that
-  glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213). (article)
+  glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213).
 
 ## Sun Oct 11
 
 - [Catching serial killers with an algorithm | Big Think x Freethink](https://invidious.snopyta.org/watch?v=8BvjAlf2SBk) (05:32)
-- [The fastest drummer in the world is a cyborg | Big Think x Freethink](https://invidious.snopyta.org/watch?v=V-cz2tiHzEo)
-  (07:31)
+- [The fastest drummer in the world is a cyborg | Big Think x Freethink](https://invidious.snopyta.org/watch?v=V-cz2tiHzEo) (07:31)
 
 ## Thu Oct 8
 
