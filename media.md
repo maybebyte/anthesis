@@ -1,7 +1,7 @@
 # Media I find noteworthy
 
 ## Fri Oct 30
-- [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl). If the takedown notice is down, [visit my mirror](/mirror/youtube-dl-riaa.html).
+- [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 ## Thu Oct 29
 
