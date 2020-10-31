@@ -149,8 +149,11 @@ are needed if IPv6 tunneling is required.
 
 ### Concerning WireGuard and Unbound
 
-If you run [`unbound(8)`](https://man.openbsd.org/unbound), replace the
-DNS entry in the WireGuard configuration file with `127.0.0.1` or your
-router won't use it. After doing so, set the IP address of your VPN's
-DNS server as the `forward-addr` in
-[`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
+1. Replace the DNS entry in the WireGuard configuration file with
+   `127.0.0.1` or your router won't use
+   [`unbound(8)`](https://man.openbsd.org/man8/unbound.8).
+2. Set the IP address of your VPN's DNS server as the `forward-addr` in
+   [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
+
+Don't set `forward-first: yes` or you'll experience DNS leaks whenever
+the upstream resolver fails.
