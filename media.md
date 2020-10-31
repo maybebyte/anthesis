@@ -2,6 +2,7 @@
 
 ## Fri Oct 30
 - [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+- [28c3: The coming war on general computation](https://invidious.snopyta.org/watch?v=HUEvRyemKSg) (54:34)
 
 ## Thu Oct 29
 
