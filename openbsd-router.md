@@ -168,7 +168,7 @@ dependencies.
 
         # ifconfig wg0 wgpeer [public key] \
         wgendpoint [endpoint addr] [port] \
-        wgpka 25 wgaip 0.0.0.0/0
+        wgaip 0.0.0.0/0
 
 1. Add the IP address specified in your WireGuard configuration file.
 
@@ -204,7 +204,6 @@ dependencies.
         wgkey [private key]
         wgpeer [public key] \
           wgendpoint [endpoint addr] [port] \
-          wgpka 25 \
           wgaip 0.0.0.0/0
 
         inet [if addr]
