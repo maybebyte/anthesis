@@ -1,7 +1,13 @@
 # Media I find noteworthy
 
+## Mon Nov 02
+- [25 moments in tech that defined the past 25 years]
+  (https://www.fastcompany.com/90565059/25-moments-in-tech-that-defined-the-past-25-years)
+- [14 Cool Apps Built on OpenAI's GPT-3 API]
+  (https://invidious.snopyta.org/watch?v=G6Z_S6hs29s) (14:55)
+
 ## Fri Oct 30
-- [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl).
+- [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl) on Github.
 - [28c3: The coming war on general computation](https://invidious.snopyta.org/watch?v=HUEvRyemKSg) (54:34)
 
 ## Thu Oct 29
