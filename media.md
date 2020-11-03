@@ -5,6 +5,8 @@
   (https://www.fastcompany.com/90565059/25-moments-in-tech-that-defined-the-past-25-years)
 - [14 Cool Apps Built on OpenAI's GPT-3 API]
   (https://invidious.snopyta.org/watch?v=G6Z_S6hs29s) (14:55)
+- [The Github youtube-dl Takedown Isn't Just a Problem of American
+  Law](https://www.eff.org/deeplinks/2020/11/github-youtube-dl-takedown-isnt-just-problem-american-law)
 
 ## Fri Oct 30
 - [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl) on Github.
