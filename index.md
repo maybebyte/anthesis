@@ -28,9 +28,9 @@ what the web has become.
 
 # Conventions
 
-1. My site is also available as a [hidden
+1. My site is also available as an [onion
    service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/)
-   for those that want/need more privacy. To access the hidden service, use
+   for those that want/need more privacy. To access the onion service, use
    [Tor](https://www.torproject.org/).
 
 1. [GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using
