@@ -33,6 +33,9 @@ mind.
 1. DD-WRT must be configured through the web interface despite support
    for SSH. It uses a read-only filesystem for `/` (SquashFS).
 
+1. Clicking 'Apply settings' usually necessitates reassociating with the
+   access point (meaning connectivity loss).
+
 DD-WRT is powerful set-and-forget consumer firmware, don't get me
 wrong--I'd still recommend it over proprietary firmware. That said,
 I was constantly wishing that I could peel back the layers of
