@@ -206,8 +206,8 @@ colors from an image (usually a wallpaper) to use for theming.
 **Status bar**
 
 [Lemonbar](https://github.com/LemonBoy/bar). My status bar is built by piping
-[sysinfo](https://amissing.link/src/dotfiles/file/bin/sysinfo.html)
-into [lbar](https://amissing.link/src/dotfiles/file/bin/lbar.html).
+[sysinfo](/src/dotfiles/file/bin/sysinfo.html)
+into [lbar](/src/dotfiles/file/bin/lbar.html).
 
 **Idle cursor obfuscation**
 

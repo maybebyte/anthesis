@@ -48,7 +48,7 @@ sheet (a text file that describes the album's track layout).
         $ rm example.flac.bak
 
 Given that this is a bit tedious, I [wrote a small shell
-script](https://amissing.link/src/dotfiles/file/.local/bin/splitflac.html)
+script](/src/dotfiles/file/.local/bin/splitflac.html)
 to take care of it for me. Usage is as follows:
 
     $ splitflac example.cue example.flac
