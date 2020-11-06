@@ -1,6 +1,12 @@
 # Media I find noteworthy
 
+## Thu Nov 05
+
+- [What If Rain Was Poisonous? |
+  Unveiled](https://invidious.snopyta.org/watch?v=D6zprGIbQj4) (8:59)
+
 ## Mon Nov 02
+
 - [25 moments in tech that defined the past 25 years]
   (https://www.fastcompany.com/90565059/25-moments-in-tech-that-defined-the-past-25-years)
 - [14 Cool Apps Built on OpenAI's GPT-3 API]
@@ -9,6 +15,7 @@
   Law](https://www.eff.org/deeplinks/2020/11/github-youtube-dl-takedown-isnt-just-problem-american-law)
 
 ## Fri Oct 30
+
 - [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl) on Github.
 - [28c3: The coming war on general computation](https://invidious.snopyta.org/watch?v=HUEvRyemKSg) (54:34)
 
@@ -26,12 +33,14 @@ Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
 
 
 ## Sun Oct 25
+
 - [Plato’s Allegory of the Cave - Alex Gendler](http://invidious.snopyta.org/watch?v=1RWOpQXTltA) (4:33)
 - [Kardashev Scale |
   Unveiled](http://invidious.snopyta.org/playlist?list=PLfq8kkw599aDDjXd5nvroklQ9wC3_KLB9)
   (playlist)
 
 ## Sat Oct 24
+
 - [Vim #99: Moving to Neovim... for
 realz](http://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 - [Scientists test depth perception in cuttlefish by putting 3-D glasses
@@ -43,10 +52,12 @@ realz](http://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
   (PDF)
 
 ## Wed Oct 21
+
 - [All the ways your phone tracks your
   location](https://invidious.snopyta.org/watch?v=GMIY4J8jAUc) (12:25)
 
 ## Sat Oct 17
+
 - [Engineers create plants that
   glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213).
 
