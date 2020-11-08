@@ -230,4 +230,5 @@ effect on sleep.
 
 **Music tagger**
 
-[Beets](https://beets.io/).
+[Beets](https://beets.io/). See my [article on tagging music with
+beets](/beets.html).
