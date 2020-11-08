@@ -43,5 +43,5 @@ two reasons:
 
 1. Firefox doesn't present the "Add Search Engine" option as
    consistently as you'd expect.
-2. Using keywords minimizes mouse usage, which translates to searching
+1. Using keywords minimizes mouse usage, which translates to searching
    faster.

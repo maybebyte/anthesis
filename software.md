@@ -68,11 +68,11 @@ level, follow these steps:
 
         # pkg_add neovim
 
-2. Open Neovim.
+1. Open Neovim.
 
         $ nvim
 
-3. Open the tutorial.
+1. Open the tutorial.
 
         :Tutor
 

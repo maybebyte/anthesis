@@ -223,7 +223,7 @@ dependencies.
 1. Ensure `127.0.0.1` is used for DNS or your router won't use
    [`unbound(8)`](https://man.openbsd.org/man8/unbound.8). See
    [`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
-2. Set the IP address of your VPN's DNS server as the `forward-addr` in
+1. Set the IP address of your VPN's DNS server as the `forward-addr` in
    [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
 
 Don't set `forward-first: yes` or you'll experience DNS leaks whenever
