@@ -14,9 +14,9 @@ I maintain `amissing.link` for four main reasons:
    value privacy. Developing and hosting a minimal, privacy-respecting
    website allows me to be the change I want to see in the world.
 
-1. Writing about and sharing my discoveries so others can benefit from
-   them makes me happy. The pursuit and dissemination of knowledge is in
-   itself meaningful to me.
+1. The act of sharing my discoveries sparks joy ([which means I get to
+   keep them](https://knowyourmeme.com/memes/does-it-spark-joy)).
+   Pursuing and disseminating knowledge is in itself meaningful to me.
 
 1. Organizing my thoughts somewhere allows me to understand myself to a
    greater extent. Otherwise, they vanish into the ether.
