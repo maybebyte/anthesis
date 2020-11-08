@@ -77,11 +77,11 @@ and moves on.
 
 However, sometimes beets matches something very similar that isn't 100%
 correct. The release date or record label might be wrong, for instance.
-I use `-t` (timid) and go to the effort to check the URL. If it isn't
-right, I navigate to the correct release on
-[MusicBrainz](https://musicbrainz.org/) by clicking on *(see all versions of
-this release, X available)*. Then, I enter the ID (found in the URL) into
-the prompt.
+I use `-t` (timid) and load the URL in my web browser to verify that
+beets has selected the appropriate release. If not, I navigate to the
+correct release on [MusicBrainz](https://musicbrainz.org/) by clicking
+on '*(see all versions of this release, X available)*.' Then, I enter
+the ID (found in the URL) into the prompt.
 
 If `-t` is used consistently, consider setting the equivalent option in
 `config.yaml`.
