@@ -14,11 +14,12 @@ process.
 If essential commands like `cd` and `ls` aren't in your repertoire,
 consider one of two options:
 
-1. learn more by consulting [`help(1)`](https://man.openbsd.org/help)
-   and the [OpenBSD FAQ](https://www.openbsd.org/faq/).
+1. learn more by consulting man pages, e.g.
+   [`help(1)`](https://man.openbsd.org/help), and the [OpenBSD
+   FAQ](https://www.openbsd.org/faq/).
 1. pursue different avenues to liberate your online life and regain
    privacy. Install a [FLOSS operating system](/os.html) or
-   use FLOSS software to accomplish day-to-day tasks.
+   use [FLOSS software](/software.html) to accomplish day-to-day tasks.
 
 Note that this page is intended as an overview and isn't exhaustive.
 
@@ -29,9 +30,6 @@ Some resources for pedagogical purposes:
 - [Awesome self-hosted
   (github)](https://github.com/Kickball/awesome-selfhosted)
 - [Libre projects](https://libreprojects.net/)
-
-[The software I use](/software.html) may be relevant to you as well,
-though it applies to a personal computer instead of a server.
 
 If you're not sure what to host, try building a website. By
 creating your own website, you become an Internet landlord and can
