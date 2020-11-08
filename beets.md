@@ -69,7 +69,7 @@ Chances are that you won't need to modify anything else. Otherwise, see
 
 Importing music is pretty simple.
 
-    beet import [album name]
+    beet import /path/to/album
 
 `beet import` prompts the user for additional details if needed. If the
 similarity score is high enough, beets tags the music automatically
