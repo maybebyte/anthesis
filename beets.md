@@ -24,6 +24,10 @@ sheet (a text file that describes the album's track layout).
 
         # pkg_add shntool cuetools
 
+1. Navigate to the album in question.
+
+        $ cd /path/to/album
+
 1. Split the FLAC file.  `-f` specifies the cue sheet, `-o` is the
    encoder (`shnsplit` uses WAV by default), and `-t` is the output
    format (track number + title).
