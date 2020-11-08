@@ -84,7 +84,7 @@ this release, X available)*. Then, I enter the ID (found in the URL) into
 the prompt.
 
 If `-t` is used consistently, consider setting the equivalent option in
-`config.yaml`:
+`config.yaml`.
 
     import:
       timid: yes
@@ -92,8 +92,11 @@ If `-t` is used consistently, consider setting the equivalent option in
 ## Other nice things
 
 There are advantages to using beets other than correct metadata. Beets
-can output statistics and perform queries, for instance. To list all
-music that matches a specific genre, use `beet ls`.
+can output statistics and perform queries, for instance.
+
+To list music, use `beet ls`. Beets can narrow down the query via a
+plethora of metadata fields (`genre`, `artist`, `album`, `year`,
+`country`, and so on).
 
     beet ls genre:"Progressive Rock"
 
