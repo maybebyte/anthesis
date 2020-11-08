@@ -5,7 +5,7 @@ of words. That said, there's value in learning how to describe myself
 concisely. It allows me to reflect on what's of interest to others and
 how I'm growing as an individual.
 
-## Things I engage in
+## Interests
 
 - I deeply appreciate a good audio setup, given that I listen to music
   often. My current collection includes the Hifiman Sundara, Sennheiser
