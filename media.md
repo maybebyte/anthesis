@@ -1,5 +1,12 @@
 # Media I find noteworthy
 
+## Mon Nov 09
+
+- [FTC Requires Zoom to Enhance its Security Practices as Part of
+  Settlement](https://www.ftc.gov/news-events/press-releases/2020/11/ftc-requires-zoom-enhance-its-security-practices-part-settlement).
+  Use [Jitsi](https://jitsi.org/) instead.
+- [Why Congress should invest in open-source software](https://www.brookings.edu/techstream/why-congress-should-invest-in-open-source-software/)
+
 ## Thu Nov 05
 
 - [What If Rain Was Poisonous? |
