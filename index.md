@@ -1,9 +1,9 @@
 # There's no place like /home
 
-Hey, I'm Ashlen. I'm an [OpenBSD](https://www.openbsd.org/) fanatic, a
-sysadmin/webdev, and a musician among other things. Passion, a sense of
-humor (even dad jokes have their place), resilience, humility, kindness,
-a will to improve, and an open mind are qualities I value in a person.
+Hey, I'm Ashlen. I'm an [OpenBSD](https://www.openbsd.org/) fanatic and
+a musician among other things. Passion, a sense of humor (even dad jokes
+have their place), resilience, humility, kindness, a will to improve,
+and an open mind are qualities I value in a person.
 
 I maintain `amissing.link` for four main reasons:
 
