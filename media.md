@@ -1,5 +1,14 @@
 # Media I find noteworthy
 
+## Tue Nov 10
+
+- [Playing Tetris decreases drug and other cravings in real world
+  settings](https://pubmed.ncbi.nlm.nih.gov/26275843/). Apparently
+  visuospatial tasks help because imagery is a large component of
+  craving something.  For whatever reason, it amuses me that moving
+  tetrominoes around combats addiction and drug use more effectively
+  than the D.A.R.E program.
+
 ## Mon Nov 09
 
 - [FTC Requires Zoom to Enhance its Security Practices as Part of

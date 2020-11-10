@@ -57,6 +57,9 @@ to take care of it for me. Usage is as follows:
 
     $ splitflac example.cue example.flac
 
+Note that `splitflac` deletes the original FLAC file if both `shnsplit`
+and `cuetag` succeed.
+
 ## Configuring beets (if needed)
 
 By default, beets imports music to `~/Music`. If this fits your use
