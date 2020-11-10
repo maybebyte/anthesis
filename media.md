@@ -4,10 +4,10 @@
 
 - [Playing Tetris decreases drug and other cravings in real world
   settings](https://pubmed.ncbi.nlm.nih.gov/26275843/). Apparently
-  visuospatial tasks help because imagery is a large component of
-  craving something.  For whatever reason, it amuses me that moving
-  tetrominoes around combats addiction and drug use more effectively
-  than the D.A.R.E program.
+  visuospatial tasks help because they target the working memory
+  processes that support imagery related to cravings. For whatever
+  reason, it amuses me that moving tetrominoes around combats addiction
+  and drug use more effectively than the D.A.R.E program.
 
 ## Mon Nov 09
 
