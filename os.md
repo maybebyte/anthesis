@@ -28,7 +28,7 @@ so the user can hit the ground running. The developers dedicate a lot of
 time to make the system intuitive without a sacrifice in customizability
 and I really appreciate that approach.
 
-### Trying something different
+### Trying something more minimal
 
 [![The OpenBSD logo.](/images/openbsd-logo.png)](/images/openbsd-logo.png)
 
