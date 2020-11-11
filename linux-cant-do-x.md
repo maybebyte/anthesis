@@ -4,10 +4,10 @@ I'll take off my OpenBSD hat for a moment to address something that's
 bothered me for a while.
 
 People are quick to suggest a system is incapable of something;
-sometimes these people have never booted a Linux system, yet seem to
-magically know its limitations. I've heard this regarding everything
-from gaming to photo editing, and it's simply not true when one consults
-the facts.
+sometimes, these people have never even booted a Linux system. Yet they
+seem to magically know its limitations. I've heard this regarding
+everything from gaming to photo editing, and it's simply not true when
+one consults the facts.
 
 ## Alleged incapabilities
 
