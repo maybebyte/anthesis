@@ -13,6 +13,8 @@ All articles before this change have a date of October 24th.
 
 ## Tech
 
+- ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
+
 - [Perfecting your metadata: tagging music with beets](/beets.html "2020-11-05")
 
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-24")
