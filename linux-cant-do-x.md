@@ -75,7 +75,8 @@ as a supplementary resource.
 1. "Linux isn't user-friendly."
 
   - [Install Wars! Linux Mint vs Windows 10 vs
-    Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA) (9:01)
+    Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
+    (9:01)[^1]
 
 [^1]: Note that he incorrectly states Chromium can't be installed in
       Linux Mint. [It
