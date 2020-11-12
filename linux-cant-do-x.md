@@ -76,13 +76,7 @@ as a supplementary resource.
 
   - [Install Wars! Linux Mint vs Windows 10 vs
     Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
-    (9:01)[^1]
-
-[^1]: Note that he incorrectly states Chromium can't be installed in
-      Linux Mint. [It
-      can](https://linuxmint-user-guide.readthedocs.io/en/latest/chromium.html).
-      Though he's right that the Snap Store is unavailable by default in
-      Linux Mint.
+    (9:01)
 
 That said, know this: [Linux is NOT
 Windows](https://linux.oneandoneis2.org/LNW.htm).
