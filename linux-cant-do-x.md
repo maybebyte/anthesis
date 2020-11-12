@@ -11,8 +11,8 @@ one consults the facts.
 
 ## Alleged incapabilities
 
-For any of these categories, feel free to use the [ArchWiki's List of
-Applications](https://wiki.archlinux.org/index.php/List_of_applications)
+For any of these categories, feel free to use the ["List of
+Applications" ArchWiki entry](https://wiki.archlinux.org/index.php/List_of_applications)
 as a supplementary resource.
 
 1. "Linux can't game."

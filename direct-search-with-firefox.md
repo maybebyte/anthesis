@@ -1,11 +1,17 @@
 # Search sites directly using Firefox's "add keyword" feature
 
 You probably use a search engine to navigate the Internet. However, you
-might not know that Firefox allows you to use bookmarks and the "add
-keyword" feature to directly search any website that has an input
-field. This provides a modest privacy enhancement since you're cutting
-out the middleman (your default search engine) and it saves time to
-boot.
+might not know that Firefox's[^1] "add keyword" feature allows you to
+directly search any website with an input field.
+
+[^1]: Anything based on Firefox, such as Tor Browser, can also make use
+      of this feature (assuming the fork is sufficiently up to date).
+
+As for why you'd want to do this:
+
+1. Searching directly is more private since you're cutting out the
+   middleman (your default search engine).
+1. It saves time.
 
 Let's take [Wiktionary](https://www.wiktionary.org/) as an example,
 a multilingual dictionary.
