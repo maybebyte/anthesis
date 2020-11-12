@@ -4,10 +4,18 @@ I'll take off my OpenBSD hat for a moment to address something that's
 bothered me for a while.
 
 People are quick to suggest a system is incapable of something;
-sometimes, these people have never even booted a Linux system. Yet they
-seem to magically know its limitations. I've heard this regarding
-everything from gaming to photo editing, and it's simply not true when
-one consults the facts.
+sometimes, these people have never even booted the system they're
+criticizing. Yet they seem to magically know its limitations.
+
+People denounce Linux in many areas, from gaming to photo editing to
+user-friendliness. Realistically, Linux is sufficient for most people's
+needs. If [Linux is good enough for a 77-year-old grandma with
+dementia](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
+it's probably good enough for you.
+
+Usually, I find that mindset is the underlying reason for perceived
+deficiencies. Remember that [Linux is NOT
+Windows](https://linux.oneandoneis2.org/LNW.htm).
 
 ## Alleged incapabilities
 
@@ -77,9 +85,6 @@ as a supplementary resource.
   - [Install Wars! Linux Mint vs Windows 10 vs
     Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
     (9:01)
-
-That said, know this: [Linux is NOT
-Windows](https://linux.oneandoneis2.org/LNW.htm).
 
 ## Linux is powerful
 
