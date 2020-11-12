@@ -1,5 +1,10 @@
 # Media I find noteworthy
 
+## Thu Nov 12
+
+- [Characteristics of healthy romantic
+  relationships](https://assets.campbell.edu/wp-content/uploads/2016/12/22122441/characteristics-of-healthy-romantic-relationships.pdf). (PDF)
+
 ## Tue Nov 10
 
 - [Playing Tetris decreases drug and other cravings in real world
