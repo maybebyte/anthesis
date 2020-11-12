@@ -46,3 +46,16 @@ how I'm growing as an individual.
 
 - I involve myself with tech because it presents interesting problems
   for me to solve.
+
+## Qualities I value
+
+- A sense of humor (even dad jokes are OK).
+- Ambition/a will to improve.
+- Compassion.
+- Honesty. Be direct with me and clearly communicate what you need--I'm
+  not a mind reader.
+- Humility.
+- Mindfulness.
+- Openness.
+- Passion.
+- Resilience.
