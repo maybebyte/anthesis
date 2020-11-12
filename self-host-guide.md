@@ -30,6 +30,7 @@ Some resources for pedagogical purposes:
 - [Awesome self-hosted
   (github)](https://github.com/Kickball/awesome-selfhosted)
 - [Libre projects](https://libreprojects.net/)
+- [Pi-hole](https://github.com/pi-hole/pi-hole)
 
 If you're not sure what to host, try building a website. By
 creating your own website, you become an Internet landlord and can
