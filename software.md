@@ -169,6 +169,10 @@ for more.
 - [HTTPS
   Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
   exactly what it sounds like. TLS is important for privacy.
+- [Smart
+  Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/):
+  [HTTP Referers are a privacy
+  risk](https://developer.mozilla.org/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns).
 - [Terms of Service; Didn't
   Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
   understand a site's privacy policy at a glance.
