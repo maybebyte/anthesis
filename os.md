@@ -63,10 +63,10 @@ hardware.
 
 ### Router
 
-Your router is a computer too. OEM firmware usually isn't as capable nor
-as secure as its FLOSS counterparts (such as DD-WRT, OpenWRT, pfSense,
-or OpenBSD). Be careful and use Ethernet if you flash firmware onto your
-router.
+Your router is a computer too. Proprietary consumer firmware isn't very
+capable, nor is it secure. DD-WRT, OpenWRT, pfSense, and OpenBSD are all
+much better options. If you decide to flash firmware onto a consumer
+router, use Ethernet and take the appropriate precautions.
 
 Check out [Building an OpenBSD router](/openbsd-router.html) for more
 information on how I approach it.
