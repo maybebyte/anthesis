@@ -184,6 +184,22 @@ for more.
     Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/),
     in case the granular control offered by uMatrix is overwhelming.
 
+Ideally, your results on [Panopticlick](https://panopticlick.eff.org/)
+should look similar to mine:
+
+[![Panopticlick
+results](/images/panopticlick-results.png)](/images/panopticlick-results.png)
+
+I don't change my browser's behavior based on Do Not Track because most
+websites don't care about, let alone follow, that standard.  Besides, a
+website could easily claim to honor Do Not Track, then turn around and
+track the users that unblocked them.
+
+Anyone willing to put in this much effort to harden Firefox should
+commit to using Tor Browser for most things. I use Firefox for precious
+few tasks these days given that even with these tweaks, Firefox can't
+protect the user as effectively as Tor Browser can.
+
 ## Entertainment
 
 **Music player**
