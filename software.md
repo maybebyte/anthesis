@@ -147,13 +147,15 @@ It's worth mentioning that Firefox has
 [`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
 [`unveil(2)`](https://man.openbsd.org/unveil.2) support in OpenBSD.
 
-I harden Firefox with [ghacks'
-user.js](https://github.com/ghacksuserjs/ghacks-user.js).
+I harden Firefox with [arkenfox's
+user.js](https://github.com/arkenfox/user.js).
 
 **Firefox addons**
 
-Here are the addons I use. They're mostly for privacy
-because [the modern web sucks](https://suckless.org/sucks/web/).
+Here are the addons I use. They're mostly for privacy because [the
+modern web sucks](https://suckless.org/sucks/web/). Check [arkenfox's
+user.js wiki](https://github.com/arkenfox/user.js/wiki/4.1-Extensions)
+for more.
 
 - [Bloody
   Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
@@ -174,6 +176,9 @@ because [the modern web sucks](https://suckless.org/sucks/web/).
   Vim bindings for Firefox.
 - [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
   forbid/allow different types of content.
+  - An low effort alternative is [uBlock
+    Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/),
+    in case the granular control offered by uMatrix is overwhelming.
 
 ## Entertainment
 
