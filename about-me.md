@@ -21,9 +21,9 @@ how I'm growing as an individual.
   help me to avoid burnout and relax. Metroidvanias, platformers, RPGs,
   roguelikes, and strategy games are among my favorite genres.
 
-- I try my best to meditate once a day because [meditation heals the
-  mind](https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/). [Tara
-  Brach offers some excellent guided
+- I meditate because [meditation heals the
+  mind](https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/).
+  [Tara Brach offers some excellent guided
   meditations](https://www.tarabrach.com/guided-meditations/).
 
 - I find self-improvement, learning, and metacognition are
