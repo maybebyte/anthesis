@@ -1,5 +1,10 @@
 # Media I find noteworthy
 
+## Sun Nov 15
+
+- [Your phone is LISTENING to you - ultrasonic cross-device
+  tracking](https://invidious.snopyta.org/watch?v=j1FfVK6sj4I) (12:51)
+
 ## Thu Nov 12
 
 - [Characteristics of healthy romantic
