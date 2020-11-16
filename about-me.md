@@ -64,3 +64,4 @@ qualities in the people that become dear to me.
 - Openness.
 - Passion.
 - Resilience.
+- Tranquility.
