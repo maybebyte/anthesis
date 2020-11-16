@@ -143,7 +143,7 @@ are needed if IPv6 tunneling is required.
 
 1. Test the configuration.
 
-        # pfctl -f /etc/pf.conf -n -vv
+        # pfctl -f /etc/pf.conf -nvv
 
 1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
 
@@ -195,7 +195,7 @@ dependencies.
 
 1. Test the configuration.
 
-        # pfctl -f /etc/pf.conf -n -vv
+        # pfctl -f /etc/pf.conf -nvv
 
 1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
 
