@@ -52,7 +52,10 @@ how I'm growing as an individual.
 To be clear: this isn't a laundry list of expectations I carry with me
 when I meet people. I try to accept people as they are. In my
 experience, a person's value crystallizes in the absence of arbitrary
-comparisons. That said, humans seek patterns.
+comparisons.
+
+That said, humans seek patterns. The people I hold dear tend to possess
+some of these characteristics.
 
 - A sense of humor (even dad jokes are OK).
 - Ambition/a will to improve.
