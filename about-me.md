@@ -45,7 +45,8 @@ how I'm growing as an individual.
   philosophy on this page would be putting Descartes before the horse.
 
 - I involve myself with tech because it presents interesting problems
-  for me to solve.
+  for me to solve. Computers are the most patient teachers a student
+  could ask for.
 
 ## Qualities I value
 
