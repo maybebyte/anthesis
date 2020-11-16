@@ -52,8 +52,7 @@ how I'm growing as an individual.
 To be clear: this isn't a laundry list of expectations I carry with me
 when I meet people. I try to accept people as they are. In my
 experience, a person's value crystallizes in the absence of arbitrary
-comparisons. That said, humans notice patterns; these are recurring
-qualities in the people that become dear to me.
+comparisons. That said, humans seek patterns.
 
 - A sense of humor (even dad jokes are OK).
 - Ambition/a will to improve.
@@ -64,4 +63,7 @@ qualities in the people that become dear to me.
 - Openness.
 - Passion.
 - Resilience.
-- Tranquility.
+- Tranquility. Passion and tranquility seem like
+  they would contradict one another, yet they can coexist. For instance,
+  a sense of inner stillness doesn't mean one's hunger for knowledge
+  must disappear.
