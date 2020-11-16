@@ -49,11 +49,16 @@ how I'm growing as an individual.
 
 ## Qualities I value
 
+To be clear: this isn't a laundry list of expectations I carry with me
+when I meet people. I try to accept people as they are. In my
+experience, a person's value crystallizes in the absence of arbitrary
+comparisons. That said, humans notice patterns; these are recurring
+qualities in the people that become dear to me.
+
 - A sense of humor (even dad jokes are OK).
 - Ambition/a will to improve.
 - Compassion.
-- Honesty. Be direct with me and clearly communicate what you need--I'm
-  not a mind reader.
+- Honesty. Be direct with me and clearly communicate what you need.
 - Humility.
 - Mindfulness.
 - Openness.
