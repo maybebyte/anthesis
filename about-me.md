@@ -52,7 +52,9 @@ how I'm growing as an individual.
 To be clear: this isn't a laundry list of expectations I carry with me
 when I meet people. I try to accept people as they are. In my
 experience, a person's value crystallizes in the absence of arbitrary
-comparisons.
+comparisons. In addition, looking for someone that matches a set of
+criteria can sometimes lead to missing what's right in front of you,
+like a packet filter with a misconfigured ruleset.
 
 That said, humans seek patterns. The people I hold dear tend to possess
 some of these characteristics.
