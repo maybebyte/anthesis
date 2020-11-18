@@ -82,13 +82,19 @@ Importing music is pretty simple.
 similarity score is high enough, beets tags the music automatically
 and moves on.
 
-However, sometimes beets matches something very similar that isn't 100%
-correct. The release date or record label might be wrong, for instance.
-I use `-t` (timid) and load the [MusicBrainz](https://musicbrainz.org/)
-URL in my web browser to verify that beets has selected the appropriate
-release. If not, I navigate to the correct release on MusicBrainz by
-clicking on '*(see all versions of this release, X available)*.' Then, I
-enter the ID (found in the URL) into the prompt.
+## Dealing with false positives
+
+Sometimes beets makes mistakes.  The release date or record label might
+be wrong, for instance. I use `-t` (timid) for this reason.
+
+If the provided [MusicBrainz](https://musicbrainz.org/) URL at least
+points to the correct album, navigate to the correct release by clicking
+on '*(see all versions of this release, X available)*.' Then, enter the
+ID (found in the URL) into the prompt.
+
+Rarely, beets will spit out something that doesn't match at all. When
+this happens, it's easiest to manually search for the album. Then, note
+the ID and feed it to beets.
 
 If `-t` is used consistently, consider setting the equivalent option in
 `config.yaml`.
