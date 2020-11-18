@@ -13,25 +13,31 @@ All articles before this change have a date of October 24th.
 
 ## Tech
 
+### Opinion
+
 - ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
+
+- [Pros and cons of NixOS](/nixos.html "2020-10-24")
+
+- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-24")
+
+### Software
+
+- [FLOSS OS recommendations](/os.html "2020-10-24")
+
+- [Software I use (Desktop/Laptop)](/software.html "2020-10-24")
+
+- [Projects I'm working on](/src "2020-10-24")
+
+### Tutorials
 
 - [Perfecting your metadata: tagging music with beets](/beets.html "2020-11-05")
 
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-24")
 
-- [FLOSS OS recommendations](/os.html "2020-10-24")
-
-- [Projects I'm working on](/src "2020-10-24")
-
-- [Pros and cons of NixOS](/nixos.html "2020-10-24")
-
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-24")
 
 - [So you want to self host](/self-host-guide.html "2020-10-24")
-
-- [Software I use (Desktop/Laptop)](/software.html "2020-10-24")
-
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-24")
 
 ## Personal/Misc
 
