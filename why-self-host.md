@@ -90,28 +90,3 @@ embrace it.
 Check out [my guide on self-hosting](/self-host-guide.html), [software
 I use](/software.html), and [FLOSS OS recommendations](/os.html) for
 more ways to defend privacy and freedom.
-
-# Stuff I self-host
-
-**Router**
-
-See my article on [building an OpenBSD router](/openbsd-router.html).
-
-**Entertainment Center**
-
-1. [Retropie](https://retropie.org.uk/) is great for those interested in
-   retro gaming. I grew up with many of the games it supports so it
-   caters to my nostalgia. The experience gets even better with
-   multi-pass shaders, a good case (the Argon ONE is what I use), and
-   a good audio system.
-
-1. [MPD](https://www.musicpd.org/), so I can play music on the speakers
-   without toil.
-
-1. [Kodi](https://kodi.tv/), for my boyfriend.
-
-When I run Linux on a device that has MMC storage, I prefer F2FS
-(otherwise known as the Flash-Friendly File System). For more
-information, see [F2FS: A New
-File System for Flash
-Storage](https://www.cs.fsu.edu/~awang/courses/cop5611_s2020/f2fs2.pdf).

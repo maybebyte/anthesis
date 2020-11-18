@@ -17,7 +17,7 @@ how I'm growing as an individual.
   which helps with improvisation.
 
 - I play games from time to time (see [Stuff
-  I self-host](/why-self-host.html#Stuff%20I%20self-host)). Video games
+  I self-host](/self-host-guide.html#Stuff%20I%20self-host)). Video games
   help me to avoid burnout and relax. Metroidvanias, platformers, RPGs,
   roguelikes, and strategy games are among my favorite genres.
 
