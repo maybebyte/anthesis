@@ -190,11 +190,6 @@ should look similar to mine:
 [![Cover Your Tracks
 results](/images/coveryourtracks-results.png)](/images/coveryourtracks-results.png)
 
-I don't change my browser's behavior based on Do Not Track because most
-websites don't care about, let alone follow, that standard.  Besides, a
-website could easily claim to honor Do Not Track, then turn around and
-track the users that unblocked them.
-
 Anyone willing to put in this much effort to harden Firefox should
 commit to using Tor Browser for most things. I use Firefox for precious
 few tasks these days given that even with these tweaks, Firefox can't
