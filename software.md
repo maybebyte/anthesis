@@ -184,11 +184,11 @@ for more.
     Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/),
     in case the granular control offered by uMatrix is overwhelming.
 
-Ideally, your results on [Panopticlick](https://panopticlick.eff.org/)
+Ideally, your results on [Cover Your Tracks](https://coveryourtracks.eff.org/)
 should look similar to mine:
 
-[![Panopticlick
-results](/images/panopticlick-results.png)](/images/panopticlick-results.png)
+[![Cover Your Tracks
+results](/images/coveryourtracks-results.png)](/images/coveryourtracks-results.png)
 
 I don't change my browser's behavior based on Do Not Track because most
 websites don't care about, let alone follow, that standard.  Besides, a
