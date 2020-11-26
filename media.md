@@ -1,5 +1,16 @@
 # Media I find noteworthy
 
+## Wed Nov 25
+
+- [Standing up for developers: youtube-dl is
+  back](https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/)
+- [Unexpected, Useless, and
+  Urgent](https://www.charlieharrington.com/unexpected-useless-and-urgent).
+  This is an interesting way to conceptualize various means of
+  aggregating content.
+- [6 ways mushrooms can save the world | Paul
+  Stamets](https://www.ted.com/talks/paul_stamets_6_ways_mushrooms_can_save_the_world) (18:18)
+
 ## Sun Nov 15
 
 - [Your phone is LISTENING to you - ultrasonic cross-device
@@ -95,4 +106,6 @@ realz](http://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 ## Thu Oct 8
 
 - [The psychological traits that shape your political beliefs | Dannagal
-G. Young](https://invidious.snopyta.org/watch?v=ZSJzPB4qrxU) (09:04)
+G.
+Young](https://www.ted.com/talks/dannagal_g_young_the_psychological_traits_that_shape_your_political_beliefs)
+(09:04)
