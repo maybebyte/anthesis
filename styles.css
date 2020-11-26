@@ -1,7 +1,7 @@
 html,
 body {
-  font-family: sans-serif;
-  background-color: #070D18;
+  font: large sans-serif;
+  background: #070D18;
   color: #E0E9F0;
 }
 
@@ -17,6 +17,7 @@ hr {
 nav ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a,
@@ -26,12 +27,12 @@ a:visited {
 }
 
 .navbar {
-  list-style-type: none;
+  border: 1.5px dotted #E0E9F0;
 }
 
 nav li a,
 nav li a:visited {
-  color: white;
+  color: #E0E9F0;
   display: flex;
   padding: 10px;
 }
@@ -52,14 +53,16 @@ img {
 @media (min-width: 800px) {
   html,
   body {
-    max-width: 80%;
-    margin-left: 80px;
+    max-width: 75%;
+    margin: auto;
   }
   .navbar {
     position: fixed;
-    top: 25%;
+    top: 0;
     left: 0;
-    font-size: 125%;
+    font-size: 120%;
+    outline: outset #E0E9F0;
+    border: none;
   }
   nav li {
     display: block;
@@ -67,6 +70,6 @@ img {
   }
   nav li a {
     justify-content: center;
-    padding: 25px 20px;
+    padding: 20px 20px;
   }
 }
