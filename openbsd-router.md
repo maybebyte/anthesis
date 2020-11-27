@@ -20,16 +20,11 @@ mind.
 1. Upgrades necessitate a total reconfiguration of the router's
    settings. If upgrades are hard, no one will do them... and then the
    system is wide open.
-
 1. No package manager.
-
 1. No service manager.
-
 1. No man pages.
-
 1. OpenBSD's networking tools are better than what Linux has to offer in
    my experience.
-
 1. DD-WRT must be configured through the web interface despite support
    for SSH. It uses a read-only filesystem for `/` (SquashFS).
 
