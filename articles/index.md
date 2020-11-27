@@ -5,11 +5,9 @@ To keep up with new content, [subscribe to my RSS feed](/rss.xml).
 Articles are sorted in reverse chronological order within their
 respective categories.
 
-At one point, I updated the date of articles whenever I made any change
-to them. After some thought, it's more logical to let the date
-correspond to when an article was published.
-
-All articles before this change have a date of October 24th.
+Formerly, I changed the date of articles whenever I modified them. Upon
+further reflection, the day an article was published is more useful as a
+date. All articles before this change have a date of October 24th.
 
 ## Tech
 
