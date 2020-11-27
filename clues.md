@@ -98,3 +98,6 @@ to have a place to share miscellaneous thoughts.
    heuristic that served me well most of the time didn't apply to those
    two. I suppose the lesson embedded in this experience is to avoid
    blindly trusting rules of thumb.
+
+1. Regarding `line-height` in CSS, a minimum value of `1.5` is
+   appropriate. This improves readability and accessibility.
