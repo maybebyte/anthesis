@@ -116,10 +116,8 @@ See my article on [building an OpenBSD router](/openbsd-router.html).
    caters to my nostalgia. The experience gets even better with
    multi-pass shaders, a good case (the Argon ONE is what I use), and
    a good audio system.
-
 1. [MPD](https://www.musicpd.org/), so I can play music on the speakers
    without toil.
-
 1. [Kodi](https://kodi.tv/), for my boyfriend.
 
 When I run Linux on a device that has MMC storage, I prefer F2FS
