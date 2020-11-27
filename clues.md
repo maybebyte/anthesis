@@ -91,3 +91,10 @@ to have a place to share miscellaneous thoughts.
    headers to be applied on subsequent requests. See [this marc.info
    thread](https://marc.info/?l=openbsd-misc&m=150287292709311&w=2) for
    more details.
+
+1. In Super Mario World, there are exactly two ghost houses without a
+   secret exit (Vanilla Ghost House and Choco-Ghost House). I spent too
+   long trying to figure out where the second exit was because a mental
+   heuristic that served me well most of the time didn't apply to those
+   two. I suppose the lesson embedded in this experience is to avoid
+   blindly trusting rules of thumb.
