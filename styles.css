@@ -1,9 +1,8 @@
 html,
 body {
-  font: 18px sans-serif;
+  font: 18px/1.6 sans-serif;
   background: #070D18;
   color: #E0E9F0;
-  line-height: 1.6;
 }
 
 h1,
