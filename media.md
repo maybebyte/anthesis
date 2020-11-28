@@ -1,5 +1,13 @@
 # Media I find noteworthy
 
+## Fri Nov 27
+
+- [Contrast Rebellion](https://contrastrebellion.com/)
+- [An opinionated list of best practices for textual
+  websites](https://seirdy.one/2020/11/23/website-best-practices.html)
+- [Why The Web Is Such A
+  Mess](https://invidious.snopyta.org/watch?v=OFRjZtYs3wY) (9:50)
+
 ## Wed Nov 25
 
 - [Standing up for developers: youtube-dl is
