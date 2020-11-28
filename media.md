@@ -1,5 +1,9 @@
 # Media I find noteworthy
 
+## Sat Nov 28
+
+- [How to approach contemporary music, explained in 10 minutes](https://invidious.snopyta.org/watch?v=WbE5sfYhxIk) (9:42)
+
 ## Fri Nov 27
 
 - [Contrast Rebellion](https://contrastrebellion.com/)
