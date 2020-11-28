@@ -191,5 +191,6 @@ FAQ.
 ## Verdict
 
 Overall, while I enjoy how innovative NixOS is and concede that it has
-its advantages, OpenBSD is near and dear to my heart. Sometimes less is
-more.
+its advantages, OpenBSD is near and dear to my heart. Sometimes
+[`less(1)`](https://man.openbsd.org/less) is
+[`more(1)`](https://man.openbsd.org/more).
