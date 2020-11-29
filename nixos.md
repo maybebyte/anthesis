@@ -17,17 +17,27 @@ One of the most important concepts to understand is that NixOS is mostly
 modified by editing a central configuration file. What do I mean by
 this?
 
-Under the imperative paradigm of system management, you'd run something
-similar to this to enable OpenSSH:
+Under the imperative paradigm of system management, you'd enable the
+OpenSSH daemon like so (using Debian as an example).
 
-    # apt install openssh-server
-    # systemctl enable ssh
+1. Install OpenSSH.
 
-Contrast this with a declarative system like NixOS, where you'd add
-`services.sshd.enable = true;` to `/etc/nixos/configuration.nix` with
-your favorite text editor followed by:
+        # apt install openssh-server
 
-    # nixos-rebuild switch
+1. Enable the OpenSSH daemon.
+
+        # systemctl enable ssh
+
+Contrast this with a declarative system like NixOS.
+
+1. Modify `/etc/nixos/configuration.nix` with your favorite text editor
+   so NixOS knows to enable the OpenSSH daemon.
+
+        services.sshd.enable = true;
+
+1. Rebuild and switch to the new configuration.
+
+        # nixos-rebuild switch
 
 This installs OpenSSH if it's not already present on the system and sets
 it up for you. It follows that maintaining a NixOS installation is an
@@ -35,8 +45,8 @@ ongoing process of describing and subsequently rebuilding a
 system.
 
 As a result of what it sets out to do, NixOS doesn't follow the
-Filesystem Hierarchy Standard. Most things live in `/nix/store`,
-isolated from one another.
+Filesystem Hierarchy Standard. Most things are isolated from one another
+in `/nix/store`.
 
 ## Pros
 
