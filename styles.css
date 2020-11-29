@@ -20,6 +20,12 @@ hr {
   color: #E0E9F0;
 }
 
+pre {
+  overflow: auto;
+  border: 1px solid #E0E9F0;
+  padding: 10px;
+}
+
 nav ul {
   margin: 0;
   padding: 0;

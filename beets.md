@@ -76,7 +76,7 @@ Chances are that you won't need to modify anything else. Otherwise, see
 
 Importing music is pretty simple.
 
-    beet import /path/to/album
+    $ beet import /path/to/album
 
 `beet import` prompts the user for additional details if needed. If the
 similarity score is high enough, beets tags the music automatically
@@ -111,6 +111,6 @@ To list music, use `beet ls`. Beets can narrow down the query via a
 plethora of metadata fields (`genre`, `artist`, `album`, `year`,
 `country`, and so on).
 
-    beet ls genre:"Progressive Rock"
+    $ beet ls genre:"Progressive Rock"
 
 Quoting isn't strictly necessary. I do it out of habit.
