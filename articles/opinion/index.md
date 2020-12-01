@@ -1,3 +1,5 @@
+[![Public opinion.](/images/public_opinion.png)](https://xkcd.com/756/)
+
 # Opinion
 
 - ["Linux can't do X"](/articles/opinion/linux-cant-do-x.html "2020-11-11")
