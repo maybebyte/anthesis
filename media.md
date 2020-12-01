@@ -1,5 +1,12 @@
 # Media I find noteworthy
 
+## Mon Nov 30
+
+- [Why Windows Causes Stupidity](https://www.over-yonder.net/~fullermd/rants/winstupid/1).
+  Note that the author uses the word 'stupid' differently than you'd expect.
+- [Are you user
+  friendly?](https://www.over-yonder.net/~fullermd/rants/userfriendly/1)
+
 ## Sat Nov 28
 
 - [How to approach contemporary music, explained in 10 minutes](https://invidious.snopyta.org/watch?v=WbE5sfYhxIk) (9:42)
