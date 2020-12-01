@@ -73,6 +73,6 @@ nothing. Gradually replace things as comfortable and note the
 differences. If those differences are more positive than negative,
 embrace it.
 
-Check out [my guide on self-hosting](/self-host-guide.html), [software
-I use](/software.html), and [FLOSS OS recommendations](/os.html) for
+Check out [my guide on self-hosting](/articles/toriel/self-host-guide.html), [software
+I use](/articles/software/pc.html), and [FLOSS OS recommendations](/articles/software/os.html) for
 more ways to defend privacy and freedom.
