@@ -16,7 +16,7 @@ things?
 ### Maintaining a similar workflow
 
 [![Screenshot of Linux Mint 20 "Ulyana" Cinnamon
-Edition.](/images/cinnamon-thumb.png)](/images/cinnamon-full.png)
+Edition.](/images/cinnamon-thumb.png "Look at all those buttons. You can probably click them or something.")](/images/cinnamon-full.png)
 
 Try [Linux Mint](https://www.linuxmint.com/download.php),
 specifically the Cinnamon Edition. I believe in this OS enough that
@@ -30,7 +30,7 @@ and I really appreciate that approach.
 
 ### Trying something more minimal
 
-[![The OpenBSD logo.](/images/openbsd-logo.png)](/images/openbsd-logo.png)
+[![The OpenBSD logo.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
 
 Take a look at [OpenBSD](https://www.openbsd.org/). It follows the KISS
 philosophy, yet the system is robust enough to handle many different use

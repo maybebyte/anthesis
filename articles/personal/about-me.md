@@ -58,7 +58,7 @@ of criteria can lead to discarding what's right in front of you, like a
 packet filter with a misconfigured ruleset.
 
 That said, humans seek patterns. The people I hold dear tend to possess
-some of these characteristics.
+some of these characteristics:
 
 - A sense of humor (even dad jokes are OK).
 - Ambition/a will to improve.

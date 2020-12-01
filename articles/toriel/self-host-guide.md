@@ -107,7 +107,7 @@ Some other resources:
 
 **Router**
 
-See my article on [building an OpenBSD router](/openbsd-router.html).
+See my article on [building an OpenBSD router](/articles/toriel/openbsd-router.html).
 
 **Entertainment Center**
 

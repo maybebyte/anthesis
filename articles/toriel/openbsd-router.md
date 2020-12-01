@@ -61,7 +61,7 @@ Include a [USB to DB9F serial
 adapter](https://www.pcengines.ch/usbcom1a.htm) in your purchase, as
 it's needed for the installation.
 
-[![USB to DB9F serial adapter.](/images/usbcom1a_thumb.jpg)](/images/usbcom1a.jpg)
+[![USB to DB9F serial adapter.](/images/usbcom1a_thumb.jpg "It's a pretty nice cable, all in all.")](/images/usbcom1a.jpg)
 
 [Consult the manual for assembly
 instructions](https://pcengines.ch/pdf/apu4.pdf).
