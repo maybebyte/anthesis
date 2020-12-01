@@ -1,4 +1,4 @@
-# There's no place like `/home`
+# There's no place like /home
 
 Hey, I'm Ashlen. I'm an [OpenBSD](https://www.openbsd.org/) fanatic and
 a musician among other things (see [About me](/articles/personal/about-me.html)).
