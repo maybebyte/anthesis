@@ -13,26 +13,28 @@ date. All articles before this change have a date of October 24th.
 
 ### Opinion
 
-- ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
-- [Pros and cons of NixOS](/nixos.html "2020-10-24")
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-24")
+- ["Linux can't do X"](/articles/opinion/linux-cant-do-x.html "2020-11-11")
+- [Pros and cons of NixOS](/articles/opinion/nixos.html "2020-10-24")
+- [Why self-host/use FLOSS?](/articles/opinion/why-self-host.html "2020-10-24")
 
 ### Software
 
-- [FLOSS OS recommendations](/os.html "2020-10-24")
-- [Software I use (Desktop/Laptop)](/software.html "2020-10-24")
+- [FLOSS OS recommendations](/articles/software/os.html "2020-10-24")
+- [Software I use (PC)](/articles/software/pc.html "2020-10-24")
+
+### Source code
+
 - [Projects I'm working on](/src "2020-10-24")
 
 ### Tutorials
 
-- [Perfecting your metadata: tagging music with beets](/beets.html "2020-11-05")
-- [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-24")
-- [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-24")
-- [So you want to self host](/self-host-guide.html "2020-10-24")
+- [Perfecting your metadata: tagging music with beets](/articles/toriel/beets.html "2020-11-05")
+- [Building an OpenBSD router using an APU4D4](/articles/toriel/openbsd-router.html "2020-10-24")
+- [Search sites directly with Firefox](/articles/toriel/direct-search-with-firefox.html "2020-10-24")
+- [So you want to self host](/articles/toriel/self-host-guide.html "2020-10-24")
 
-## Personal/Misc
+## Personal
 
-- [/home](/index.html "2020-10-24")
-- [About me](/about-me.html "2020-10-24")
-- [Clues](/clues.html "2020-10-24")
-- [Media I find noteworthy](/media.html "2020-10-24")
+- [About me](/articles/personal/about-me.html "2020-10-24")
+- [Clues](/articles/personal/clues.html "2020-10-24")
+- [Media I find noteworthy](/articles/personal/media.html "2020-10-24")

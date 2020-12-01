@@ -1,4 +1,4 @@
-# Software I use (Desktop/Laptop)
+# Software I use (PC)
 
 This page primarily exists for two reasons:
 
