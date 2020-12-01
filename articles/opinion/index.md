@@ -1,4 +1,4 @@
-[![Public opinion.](/images/public_opinion.png)](https://xkcd.com/756/)
+[![Bad opinions.](/images/bad_opinions.png)](https://xkcd.com/2051/)
 
 # Opinion
 
