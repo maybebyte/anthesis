@@ -1,9 +1,16 @@
 # Media I find noteworthy
 
+## Tue Dec 01
+
+- [How to Solve the Social
+  Dilemma](https://invidious.snopyta.org/watch?v=wyxnaaPqbRk) (16:19)
+
 ## Mon Nov 30
 
-- [Why Windows Causes Stupidity](https://www.over-yonder.net/~fullermd/rants/winstupid/1).
-  Note that the author uses the word 'stupid' differently than you'd expect.
+- [Why Windows Causes
+  Stupidity](https://www.over-yonder.net/~fullermd/rants/winstupid/1).
+  Note that the author doesn't use the word 'stupid' pejoratively; rather, it's used to signify a lack of
+  knowledge/competence.
 - [Are you user
   friendly?](https://www.over-yonder.net/~fullermd/rants/userfriendly/1)
 
