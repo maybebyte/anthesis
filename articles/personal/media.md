@@ -90,15 +90,15 @@ Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
 
 ## Sun Oct 25
 
-- [Plato’s Allegory of the Cave - Alex Gendler](http://invidious.snopyta.org/watch?v=1RWOpQXTltA) (4:33)
+- [Plato’s Allegory of the Cave - Alex Gendler](https://invidious.snopyta.org/watch?v=1RWOpQXTltA) (4:33)
 - [Kardashev Scale |
-  Unveiled](http://invidious.snopyta.org/playlist?list=PLfq8kkw599aDDjXd5nvroklQ9wC3_KLB9)
+  Unveiled](https://invidious.snopyta.org/playlist?list=PLfq8kkw599aDDjXd5nvroklQ9wC3_KLB9)
   (playlist)
 
 ## Sat Oct 24
 
 - [Vim #99: Moving to Neovim... for
-realz](http://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
+realz](https://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 - [Scientists test depth perception in cuttlefish by putting 3-D glasses
   on
   them](https://www.nytimes.com/2020/01/08/science/3d-glasses-cuttlefish.html).
