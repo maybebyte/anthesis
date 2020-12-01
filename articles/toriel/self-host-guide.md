@@ -18,8 +18,8 @@ consider one of two options:
    [`help(1)`](https://man.openbsd.org/help), and the [OpenBSD
    FAQ](https://www.openbsd.org/faq/).
 1. pursue different avenues to liberate your online life and regain
-   privacy. Install a [FLOSS operating system](/os.html) or
-   use [FLOSS software](/software.html) to accomplish day-to-day tasks.
+   privacy. Install a [FLOSS operating system](/articles/software/os.html) or
+   use [FLOSS software](/articles/software/pc.html) to accomplish day-to-day tasks.
 
 Note that this page is intended as an overview and isn't exhaustive.
 

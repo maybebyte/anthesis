@@ -102,4 +102,4 @@ here are some places you can find Linux:
 
 ## Want to use Linux?
 
-See [FLOSS OS recommendations](/os.html).
+See [FLOSS OS recommendations](/articles/software/os.html).
