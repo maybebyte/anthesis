@@ -4,6 +4,7 @@
 
 - [How to Solve the Social
   Dilemma](https://invidious.snopyta.org/watch?v=wyxnaaPqbRk) (16:19)
+- [Are you a “harbinger of failure”?](https://news.mit.edu/2015/harbinger-failure-consumers-unpopular-products-1223)
 
 ## Mon Nov 30
 
