@@ -1,5 +1,9 @@
 # Media I find noteworthy
 
+## Thu Dec 03
+
+- [Morality, the Good Life, and the Cold-Hearted Benefactor](http://aporia.byu.edu/pdfs/mcmurray-morality_the_good_life_and_the_coldhearted_benefactor.pdf) (PDF)
+
 ## Tue Dec 01
 
 - [How to Solve the Social
