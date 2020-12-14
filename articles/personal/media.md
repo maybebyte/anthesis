@@ -1,5 +1,14 @@
 # Media I find noteworthy
 
+## Mon Dec 14
+
+- [How meditation can change your life and mind | Sam Harris, Jon
+  Kabat-Zinn & more | Big
+  Think](https://invidious.snopyta.org/watch?v=jCJdl6Vs7wg) (27:25)
+- [Psychedelics: The scientific renaissance of mind-altering drugs | Sam
+  Harris, Michael Pollan & more](https://invidious.snopyta.org/watch?v=5T0LmbWROKY)
+  (20:04)
+
 ## Thu Dec 03
 
 - [Morality, the Good Life, and the Cold-Hearted Benefactor](http://aporia.byu.edu/pdfs/mcmurray-morality_the_good_life_and_the_coldhearted_benefactor.pdf) (PDF)
