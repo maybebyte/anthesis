@@ -5,7 +5,7 @@ might not know that Firefox's[^1] "add keyword" feature allows you to
 directly search any website with an input field.
 
 [^1]: Anything based on Firefox, such as Tor Browser, can also make use
-      of this feature (assuming the fork is sufficiently up to date).
+  of this feature (assuming the fork is sufficiently up to date).
 
 As for why you'd want to do this:
 

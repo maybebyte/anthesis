@@ -43,11 +43,15 @@
 ## Qualities I value
 
 To be clear: this isn't a laundry list of expectations. In my
-experience, superfluous expectations create distance, whereas intimacy
+experience, superfluous expectations create distance,[^1] whereas intimacy
 manifests when you embrace a person as they are. In addition,
 exclusively looking for those that match a set of criteria can lead to
 discarding what's right in front of you, like a packet filter with a
 misconfigured ruleset.
+
+[^1]: That isn't to say that one should abandon the concept of
+  boundaries altogether. Boundaries are healthy and represent you
+  communicating what you need to another person.
 
 That said, humans recognize and seek patterns. People with some of these
 characteristics seem to endear themselves to me quickly.
