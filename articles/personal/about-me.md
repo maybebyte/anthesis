@@ -42,20 +42,20 @@
 
 ## Qualities I value
 
-To be clear: this isn't a laundry list of expectations I carry with me
-when I meet people. I try to accept people as they are. In my
-experience, a person's value crystallizes in the absence of arbitrary
-comparisons. In addition, exclusively looking for those that match a set
-of criteria can lead to discarding what's right in front of you, like a
-packet filter with a misconfigured ruleset.
+To be clear: this isn't a laundry list of expectations. In my
+experience, superfluous expectations create distance, whereas intimacy
+manifests when you embrace a person as they are. In addition,
+exclusively looking for those that match a set of criteria can lead to
+discarding what's right in front of you, like a packet filter with a
+misconfigured ruleset.
 
-That said, humans seek patterns. The people I hold dear tend to possess
-some of these characteristics:
+That said, humans recognize and seek patterns. People with some of these
+characteristics seem to endear themselves to me quickly.
 
 - A sense of humor (even dad jokes are OK).
 - Ambition/a will to improve.
 - Compassion.
-- Honesty. Be direct with me and clearly communicate what you need.
+- Honesty. Please be direct with me and clearly communicate what you need.
 - Humility.
 - Mindfulness.
 - Openness.
