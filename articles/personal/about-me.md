@@ -1,52 +1,44 @@
 # About me
 
-To preface this, it's impossible to perfectly condense anyone into a set
-of words. That said, there's value in learning how to describe myself
-concisely. It allows me to reflect on what's of interest to others and
-how I'm growing as an individual.
-
 ## Interests
 
-- I deeply appreciate a good audio setup, given that I listen to music
-  often. My current collection includes the Hifiman Sundara, Sennheiser
-  HD600, and E-MU Teak. To drive my headphones and produce better sound,
-  the Monoprice Monolith THX 887 sits on my desk with the Topping E30 on
+- A good audio setup is something I deeply appreciate. Currently, I
+  enjoy listening to music with the Hifiman Sundara, Sennheiser HD600,
+  and E-MU Teak. To drive my headphones and produce better sound, the
+  Monoprice Monolith THX 887 sits on my desk with the Topping E30 on
   top of it.
 
-- I enjoy playing piano. I'm fortunate enough to have perfect pitch,
-  which helps with improvisation.
+- Improvising/composing music (piano is my instrument of choice) can be
+  really cathartic. I'm fortunate enough to have perfect pitch.
 
-- I play games from time to time (see [Stuff
-  I self-host](/articles/toriel/self-host-guide.html#Stuff%20I%20self-host)). Video games
-  help me to avoid burnout and relax. Metroidvanias, platformers, RPGs,
-  roguelikes, and strategy games are among my favorite genres.
+- Gaming helps me relax and reminds me that there is value in simply
+  being. Metroidvanias, platformers, RPGs, roguelikes, and strategy
+  games are among my favorite genres.
 
-- I meditate because [meditation heals the
-  mind](https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/).
-  [Tara Brach offers some excellent guided
-  meditations](https://www.tarabrach.com/guided-meditations/).
+- [Meditation heals the
+  mind](https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/),
+  so I practice mindfulness.
 
-- I find self-improvement, learning, and metacognition are
-  crucial (those aspirations are part of what give my life
-  meaning). Mindfulness helps me explore those things and better myself,
-  as it's difficult for one to improve without awareness and presence.
+- Taking time to improve, learn, and cultivate awareness is my
+  lifeblood. That said, I find it important to remind myself from time
+  to time that imperfection and setbacks are an immutable part of
+  the human condition. Striving to be perfect is a form of self-sabotage.
 
-- I appreciate psychology. Even those most distant from my
-  convictions are comprised of the same physical and emotional
-  constituents (albeit in a different configuration with a different end
-  result). For this reason, I engage in the [principle of
-  charity](https://www.csus.edu/indiv/m/mayesgr/phl4/tutorial/phl4charity.htm).
+- Psychology has fascinated me for as long as I can remember. Ever since
+  I was a kid, I've observed people because there's a lesson embedded in
+  every interaction. Additionally, psychology in tandem with
+  mindfulness helps me remember that even those most distant from my
+  convictions are human and worthy of kindness.
 
-- I like to write. Teaching is one of the best ways to learn, not to
-  mention that writing can be fulfilling and thought-provoking. Writing
-  helps me understand how to effectively convey my ideas.
+- Writing is another pastime I hold dear. In particular, I like to teach
+  through writing. I yearn to share my knowledge with others, and
+  teaching is one of the best ways to learn.
 
-- I contemplate philosophy's teachings and apply them, though discussing
-  philosophy on this page would be putting Descartes before the horse.
+- Applying philosophy's teachings can be useful, though discussing
+  it at length here would be putting Descartes before the horse.
 
-- I involve myself with tech because it presents interesting problems
-  for me to solve. Computers are the most patient teachers a student
-  could ask for.
+- Of course, tech captivates me as well. Computers are the most patient
+  teachers a student could ask for.
 
 ## Qualities I value
 
