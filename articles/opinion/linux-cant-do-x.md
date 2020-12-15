@@ -4,13 +4,13 @@ I'll take off my OpenBSD hat for a moment to address something that's
 bothered me for a while.
 
 People are quick to suggest a system is incapable of something;
-sometimes, these people have never even booted the system they're
-criticizing. Yet they seem to magically know its limitations.
+sometimes, these people have never booted the system they're
+criticizing.
 
-People denounce Linux in many areas, from gaming to photo editing to
-user-friendliness. Realistically, Linux is sufficient for most people's
-needs. If [Linux is good enough for a 77-year-old grandma with
-dementia](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
+Linux is denounced in many areas, from gaming to photo editing to
+user-friendliness, yet in reality it's sufficient for most people's
+needs. If [Linux is good enough for a 77-year-old
+grandma](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
 it's probably good enough for you.
 
 Usually, I find that mindset is the underlying reason for perceived
@@ -25,7 +25,7 @@ as a supplementary resource.
 
 1. "Linux can't game."
 
-   I'll concede Linux can't play every Windows game, but let me ask you
+   I concede that Linux can't play every Windows game. Let me ask you
    this: if Linux supports more games than most people can play in a
    lifetime, does it matter that it doesn't support every single game
    out there?  Linux can play more games than any console I can think
@@ -88,8 +88,8 @@ as a supplementary resource.
 
 ## Linux is powerful
 
-If you're still not convinced that Linux is good enough for your needs,
-here are some places you can find Linux:
+If you're not convinced that Linux is good enough for your needs, here
+are some places you can find Linux:
 
 - [Linux runs on the top 500
   supercomputers](https://www.top500.org/statistics/details/osfam/1/).
