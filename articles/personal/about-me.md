@@ -51,7 +51,8 @@ misconfigured ruleset.
 
 [^1]: That isn't to say that one should abandon the concept of
   boundaries altogether. Boundaries are healthy and represent you
-  communicating what you need to another person.
+  communicating what you need to another person. There's a difference
+  between advocating for yourself and domineering someone.
 
 That said, humans recognize and seek patterns. People with some of these
 characteristics seem to endear themselves to me quickly.
