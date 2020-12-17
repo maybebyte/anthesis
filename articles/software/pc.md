@@ -42,13 +42,8 @@ X Hotkey Daemon") to bind keys.
 
 **Terminal**
 
-[St](https://st.suckless.org).
-
-Patches used:
-
-- Alpha
-- Boxdraw
-- Xresources
+[xst](https://github.com/gnotclub/xst), a fork of
+[st](https://st.suckless.org/).
 
 **Terminal multiplexer**
 
