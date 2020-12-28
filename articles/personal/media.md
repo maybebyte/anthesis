@@ -1,5 +1,9 @@
 # Media I find noteworthy
 
+## Dec 27
+
+- [Creating False Memories](https://staff.washington.edu/eloftus/Articles/sciam.htm)
+
 ## Dec 14
 
 - [How meditation can change your life and mind | Sam Harris, Jon
