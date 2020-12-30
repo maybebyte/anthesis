@@ -114,8 +114,10 @@ See my article on [building an OpenBSD router](/articles/toriel/openbsd-router.h
 1. [Retropie](https://retropie.org.uk/) is great for those interested in
    retro gaming. I grew up with many of the games it supports so it
    caters to my nostalgia. The experience gets even better with
-   multi-pass shaders, a good case (the Argon ONE is what I use), and
-   a good audio system.
+   multi-pass shaders, a good case (the Argon ONE is what I use), and a
+   good audio system. Note that I run RetroPie on top of
+   [DietPi](https://dietpi.com/), as it provides optimized software and
+   a small footprint.
 1. [MPD](https://www.musicpd.org/), so I can play music on the speakers
    without toil.
 1. [Kodi](https://kodi.tv/), for my boyfriend.
