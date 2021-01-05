@@ -111,7 +111,7 @@ See my article on [building an OpenBSD router](/articles/toriel/openbsd-router.h
 
 **Entertainment Center**
 
-1. [Retropie](https://retropie.org.uk/) is great for those interested in
+1. [RetroPie](https://retropie.org.uk/) is great for those interested in
    retro gaming. I grew up with many of the games it supports so it
    caters to my nostalgia. The experience gets even better with
    multi-pass shaders, a good case (the Argon ONE is what I use), and a
@@ -123,7 +123,10 @@ See my article on [building an OpenBSD router](/articles/toriel/openbsd-router.h
    the same network (could even transform this setup into a more remote
    service if desired; that said, streaming music over my LAN is all I
    need).
-1. [Kodi](https://kodi.tv/), for my boyfriend.
+1. [Kodi](https://kodi.tv/). I don't watch TV very often. When I'm in
+   the mood to do so, it's nice to have everything set up.
+   [Peluccid](https://kodi.tv/addon/skins/pellucid) is my skin of
+   choice.
 
 When I run Linux on a device that has MMC storage, I prefer F2FS
 (otherwise known as the Flash-Friendly File System). For more
