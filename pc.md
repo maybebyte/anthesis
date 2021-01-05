@@ -24,7 +24,7 @@ Here are some resources that I find useful:
 
 I also tried and enjoyed [NixOS](https://nixos.org/). There's so much
 potential in a declarative, reproducible system. If I've piqued your
-curiosity, read [my thoughts on NixOS](/articles/opinion/nixos.html).
+curiosity, read [my thoughts on NixOS](/nixos.html).
 
 **Window manager**
 
@@ -246,4 +246,4 @@ effect on sleep.
 **Music tagger**
 
 [Beets](https://beets.io/). See my [article on tagging music with
-beets](/articles/toriel/beets.html).
+beets](/beets.html).

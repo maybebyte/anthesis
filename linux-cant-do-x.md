@@ -85,7 +85,7 @@ as a supplementary resource.
   - [Install Wars! Linux Mint vs Windows 10 vs
     Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
     (9:01)
-  - See my [media entry for November 30th, 2020](/articles/personal/media.html#Nov 30).
+  - See my [media entry for November 30th, 2020](/media.html#Nov 30).
 
 ## Linux is powerful
 
@@ -103,4 +103,4 @@ are some places you can find Linux:
 
 ## Want to use Linux?
 
-See [FLOSS OS recommendations](/articles/software/os.html).
+See [FLOSS OS recommendations](/os.html).

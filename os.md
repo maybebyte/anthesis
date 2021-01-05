@@ -68,5 +68,5 @@ capable, nor is it secure. DD-WRT, OpenWRT, pfSense, and OpenBSD are all
 much better options. If you decide to flash firmware onto a consumer
 router, use Ethernet and take the appropriate precautions.
 
-Check out [Building an OpenBSD router](/articles/toriel/openbsd-router.html) for more
+Check out [Building an OpenBSD router](/openbsd-router.html) for more
 information on how I approach it.
