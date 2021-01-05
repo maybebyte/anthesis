@@ -119,7 +119,10 @@ See my article on [building an OpenBSD router](/articles/toriel/openbsd-router.h
    [DietPi](https://dietpi.com/), as it provides optimized software and
    a small footprint.
 1. [MPD](https://www.musicpd.org/), so I can play music on the speakers
-   without toil.
+   without toil. I combine NFS and MPD to stream music to any device on
+   the same network (could even transform this setup into a more remote
+   service if desired; that said, streaming music over my LAN is all I
+   need).
 1. [Kodi](https://kodi.tv/), for my boyfriend.
 
 When I run Linux on a device that has MMC storage, I prefer F2FS
