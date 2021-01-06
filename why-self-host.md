@@ -63,7 +63,7 @@ takes advantage of the user, how can the user combat that?
 
 A good way to regain freedom is to exchange software that violates
 privacy/user rights for software that respects these values. That is to
-say, [Libreoffice](https://www.libreoffice.org/) instead of Microsoft
+say, [LibreOffice](https://www.libreoffice.org/) instead of Microsoft
 Office, [Jitsi](https://jitsi.org/) instead of Zoom, [Tor
 Browser](https://www.torproject.org/) instead of a proprietary browser,
 and so on.

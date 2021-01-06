@@ -78,7 +78,7 @@ as a supplementary resource.
 
 1. "Linux can't do word processing, spreadsheets, presentations, etc."
 
-  - [Libreoffice](https://www.libreoffice.org/).
+  - [LibreOffice](https://www.libreoffice.org/).
 
 1. "Linux isn't user-friendly."
 

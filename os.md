@@ -2,8 +2,8 @@
 
 ## Generate recommendations from a quiz
 
-Check out [Librehunt](https://librehunt.org/) if you want something more
-hands-on. Librehunt does a good job of explaining the merits of FLOSS
+Check out [LibreHunt](https://librehunt.org/) if you want something more
+hands-on. LibreHunt does a good job of explaining the merits of FLOSS
 and suggests operating systems based on how you answer its
 questionnaire.
 
