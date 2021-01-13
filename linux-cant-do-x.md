@@ -37,8 +37,7 @@ as a supplementary resource.
   - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
     [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
     don't particularly like Reddit; that said, I consult subreddit wikis
-    from time to time because they sometimes house decent content. Note
-    the number of people that have subscribed to that subreddit.
+    from time to time because they can have useful content.
 
 1. "Linux can't handle photos."
 
