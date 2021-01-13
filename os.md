@@ -4,7 +4,7 @@
 
 Check out [LibreHunt](https://librehunt.org/) if you want something more
 hands-on. LibreHunt does a good job of explaining the merits of FLOSS
-and suggests operating systems based on how you answer its
+and suggests Linux distributions based on how you answer its
 questionnaire.
 
 ## My recommendations
@@ -18,10 +18,11 @@ things?
 [![Screenshot of Linux Mint 20 "Ulyana" Cinnamon
 Edition.](/images/cinnamon-thumb.png "Look at all those buttons. You can probably click them or something.")](/images/cinnamon-full.png)
 
-Try [Linux Mint](https://www.linuxmint.com/download.php),
-specifically the Cinnamon Edition. I believe in this OS enough that
-a USB flash drive with Linux Mint is always on my person in case someone
-wants me to set it up for them.
+Try [Linux Mint](https://www.linuxmint.com/download.php), specifically
+the Cinnamon Edition. I believe in this OS enough that a USB flash drive
+with Linux Mint is always on my person in case someone wants me to set
+it up for them (perhaps I should have a utility belt with USB drives
+strapped to it; each drive would be flashed with a different OS).
 
 Linux Mint provides a familiar interface and full-featured applications
 so the user can hit the ground running. The developers dedicate a lot of
@@ -44,7 +45,7 @@ a proactive attitude toward security makes OpenBSD comfy, in a word.
 That said, make no mistake: even though it comes with good defaults,
 OpenBSD requires a bit of reading. While full-featured desktop environments
 like GNOME are available, the system itself doesn't graphically abstract
-away tasks in the name of user friendliness. Believe it or not, this is
+away tasks in the name of user-friendliness. Believe it or not, this is
 actually a blessing in disguise--if you learn how the system works as
 you go, that incremental understanding allows you to do new things and
 fix problems should they arise.
