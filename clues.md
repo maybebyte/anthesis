@@ -101,3 +101,9 @@ to have a place to share miscellaneous thoughts.
 
 1. Regarding `line-height` in CSS, a minimum value of `1.5` is
    appropriate. This improves readability and accessibility.
+
+1. On [DietPi](https://dietpi.com/), calling `man` in an instance of `torsocks --shell` breaks man pages with this output:
+
+        man: command exited with status 159: (cd /usr/share/man && /usr/lib/man-db/zsoelim) | (cd /usr/share/man && /usr/lib/man-db/manconv -f UTF-8:ISO-8859-1 -t UTF-8//IGNORE) | (cd /usr/share/man && preconv -e UTF-8) | (cd /usr/share/man && tbl) | (cd /usr/share/man && nroff -mandoc -rLL=114n -rLT=114n -Tascii)
+
+   Interestingly, OpenBSD doesn't have this problem.
