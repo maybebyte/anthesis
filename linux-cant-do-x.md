@@ -9,7 +9,7 @@ criticizing.
 
 Linux is denounced in many areas, from gaming to photo editing to
 user-friendliness, yet in reality it's sufficient for most people's
-needs. If [a 77-year-old grandma can learn to use
+needs. If [a 77-year-old grandma can learn how to use
 Linux](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
 you can learn how to use it, too.
 
