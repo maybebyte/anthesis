@@ -9,9 +9,9 @@ criticizing.
 
 Linux is denounced in many areas, from gaming to photo editing to
 user-friendliness, yet in reality it's sufficient for most people's
-needs. If [Linux is good enough for a 77-year-old
-grandma](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
-it's probably good enough for you.
+needs. If [a 77-year-old grandma can learn to use
+Linux](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
+you can learn how to use it, too.
 
 Usually, I find that mindset is the underlying reason for perceived
 deficiencies. Remember that [Linux is NOT
