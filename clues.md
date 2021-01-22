@@ -107,3 +107,9 @@ to have a place to share miscellaneous thoughts.
         man: command exited with status 159: (cd /usr/share/man && /usr/lib/man-db/zsoelim) | (cd /usr/share/man && /usr/lib/man-db/manconv -f UTF-8:ISO-8859-1 -t UTF-8//IGNORE) | (cd /usr/share/man && preconv -e UTF-8) | (cd /usr/share/man && tbl) | (cd /usr/share/man && nroff -mandoc -rLL=114n -rLT=114n -Tascii)
 
    Interestingly, OpenBSD doesn't have this problem.
+
+1. [`sh(1)`](https://man.openbsd.org/sh) and
+   [`ksh(1)`](https://man.openbsd.org/ksh) have some useful options.
+   `-x` writes a trace of each command executed to standard
+   error--great for debugging shell scripts. Whereas `-nv` can let
+   you see how much of the shell script has been read.
