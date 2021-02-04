@@ -1,8 +1,8 @@
 html,
 body {
   font: 18px/1.6 sans-serif;
-  background: #070D18;
-  color: #E0E9F0;
+  background: #070d18;
+  color: #e0e9f0;
 }
 
 h1,
@@ -17,12 +17,12 @@ p strong {
 
 code,
 hr {
-  color: #E0E9F0;
+  color: #e0e9f0;
 }
 
 pre {
   overflow: auto;
-  border: 1px solid #E0E9F0;
+  border: 1px solid #e0e9f0;
   padding: 15px;
 }
 
@@ -34,24 +34,24 @@ nav ul {
 
 a,
 a:visited {
-  color: #996AEA;
+  color: #996aea;
   text-decoration: none;
 }
 
 .navbar {
-  border: 1.5px dotted #E0E9F0;
+  border: 1.5px dotted #e0e9f0;
 }
 
 nav li a,
 nav li a:visited {
-  color: #E0E9F0;
+  color: #e0e9f0;
   display: flex;
   padding: 10px;
 }
 
 a:hover,
 a:hover code {
-  color: #80A7F1;
+  color: #80a7f1;
   text-decoration: underline;
 }
 
@@ -73,7 +73,7 @@ img {
     top: 0;
     left: 0;
     font-size: 24px;
-    outline: outset #E0E9F0;
+    outline: outset #e0e9f0;
     border: initial;
   }
   nav li {

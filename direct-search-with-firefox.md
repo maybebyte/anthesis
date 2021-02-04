@@ -19,9 +19,9 @@ a multilingual dictionary.
 Navigate to Wiktionary and right click Wiktionary's input field. A menu
 should pop up.
 
-[![A menu is displayed with the "Add a Keyword for this Search"
-option
-highlighted.](/images/add-keyword-1.png)](/images/add-keyword-1.png)
+[![In a Firefox window displaying Wiktionary, the cursor is highlighting
+the "Add a Keyword for this Search" option in a
+menu.](/images/add-keyword-1.png)](/images/add-keyword-1.png)
 
 Click the "Add a Keyword for this Search..." option. Firefox should now
 present you with a dialog box asking for the name of the bookmark, the

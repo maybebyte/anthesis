@@ -31,7 +31,7 @@ and I really appreciate that approach.
 
 ### Trying something more minimal
 
-[![The OpenBSD logo.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
+[![The OpenBSD logo with the mascot, Puffy the pufferfish, above it.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
 
 Take a look at [OpenBSD](https://www.openbsd.org/). It follows the KISS
 philosophy, yet the system is robust enough to handle many different use
