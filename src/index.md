@@ -9,6 +9,6 @@ to clone it. For example, to clone my dotfiles:
 
     $ git clone "https://amissing.link/src/dotfiles/.git"
 
-- [Website (Markdown)](/src/website_md)
-- [Dotfiles](/src/dotfiles)
-- [COBS](/src/cobs)
+- [Website (Markdown)](/src/website_md/)
+- [Dotfiles](/src/dotfiles/)
+- [COBS](/src/cobs/)
