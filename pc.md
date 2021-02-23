@@ -145,7 +145,7 @@ dmenu.
 [Firefox](https://www.mozilla.org/en-US/firefox/). Tor Browser is as
 private as it gets, so I use it over Firefox whenever possible.
 
-It's worth mentioning that Firefox has
+It's worth mentioning that both of these browsers have
 [`pledge(2)`](https://man.openbsd.org/man2/pledge.2) and
 [`unveil(2)`](https://man.openbsd.org/unveil.2) support in OpenBSD.
 
