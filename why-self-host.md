@@ -12,8 +12,9 @@ installation.[^1]
 Allow me to explain my reasoning/proselytize. Libre software has
 these benefits among others:
 
-- Free as in freedom and free as in free coffee (though developers
-  appreciate/need donations, anyone can use FLOSS).
+- Free as in freedom (the freedom to run, copy, distribute, study,
+  change and improve the software) and free as in free coffee. However,
+  developers appreciate/need donations.
 - Libre software is collaborative. Bugs are reported, pull requests are
   made, and the software is better for everyone as a result. Even those
   that aren't developers.
@@ -21,8 +22,6 @@ these benefits among others:
   source code availability; consequently, qualms about privacy and
   security can be resolved more easily, and unmaintained FLOSS can
   always be revived at a later date.
-- More likely to adhere to the [Unix
-  philosophy](https://web.mit.edu/6.055/old/S2009/notes/unix.pdf).
 
 Contrast the above with the experience [proprietary
 software](https://www.gnu.org/proprietary/proprietary.en.html) offers:
@@ -35,8 +34,7 @@ software](https://www.gnu.org/proprietary/proprietary.en.html) offers:
 - Surveillance is commonplace and it's harder to tell what exactly
   a program is doing. [Both Apple and Microsoft cooperate with the
   NSA](/images/Prism_slide_5.jpg).
-- Planned obsolescence, which nickels and dimes users with
-  otherwise functional hardware.
+- Planned obsolescence, which nickels and dimes users.
 - Proprietary software exists to turn a profit. Large companies have
   enough power that they can (and do) turn a blind eye to flagrant
   violations of ethics and freedom ([Apple is complicit in the Great
