@@ -90,7 +90,7 @@ Useful help pages (accessed with `:h`)
 [SSG](https://rgz.ee/ssg.html). I wrote in regular HTML before
 I discovered this POSIX shell script. It generates
 [`sitemap.xml`](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.215.5690&rep=rep1&type=pdf)
-automatically.  Writing in markdown is definitely quicker.
+automatically. Writing in markdown is definitely quicker.
 
 **RSS feed generator**
 
@@ -217,7 +217,7 @@ videos.
 
 - Serif: Noto Serif.
 - Sans-serif: Noto Sans.
-- Monospace: Noto Mono.
+- Monospace: Iosevka.
 - Bitmap: Terminus.
 - Emoji: Symbola.
 

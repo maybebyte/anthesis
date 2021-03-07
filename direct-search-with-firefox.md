@@ -33,7 +33,7 @@ keyword.](/images/add-keyword-2.png)](/images/add-keyword-2.png)
 
 If you were following along, you can now type in `wkt` (or whatever you
 chose as a keyword) into Firefox's search bar followed by a word and
-find its definition.  If you don't have any ideas, figure out what the
+find its definition. If you don't have any ideas, figure out what the
 difference between somnambulism and funambulism is, and why the two
 probably wouldn't go well together.
 

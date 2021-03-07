@@ -28,13 +28,13 @@ sheet (a text file that describes the album's track layout).
 
         $ cd /path/to/album
 
-1. Split the FLAC file.  `-f` specifies the cue sheet, `-o` is the
+1. Split the FLAC file. `-f` specifies the cue sheet, `-o` is the
    encoder (`shnsplit` uses WAV by default), and `-t` is the output
    format (track number + title).
 
         $ shnsplit -f example.cue -o flac -t "%n %t" example.flac
 
-1. Append a `.bak` extension to the FLAC file.  This is needed for the
+1. Append a `.bak` extension to the FLAC file. This is needed for the
    next step so that the original FLAC file won't be targeted by
    `cuetag`.
 
@@ -84,7 +84,7 @@ and moves on.
 
 ## Dealing with false positives
 
-Sometimes beets makes mistakes.  The release date or record label might
+Sometimes beets makes mistakes. The release date or record label might
 be wrong, for instance. I use `-t` (timid) for this reason.
 
 If the provided [MusicBrainz](https://musicbrainz.org/) URL at least
