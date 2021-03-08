@@ -24,7 +24,7 @@ date. All articles before this change have a date of October 24th.
 
 ### Source code
 
-- [Projects I'm working on](/src/ "2020-10-24")
+- [Projects I'm working on](/src/index.html "2020-10-24")
 
 ### Tutorials
 
