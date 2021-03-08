@@ -146,7 +146,7 @@ are needed if IPv6 tunneling is required.
 
 1. Verify from a connected client.
 
-        $ curl ifconfig.me && printf '\n'
+        $ curl ifconfig.me -w '\n'
 
 1. If everything's up and working, place the following in
    `/etc/rc.local` so a WireGuard connection is established on boot.
@@ -198,7 +198,7 @@ dependencies.
 
 1. Verify from a connected client.
 
-        $ curl ifconfig.me && printf '\n'
+        $ curl ifconfig.me -w '\n'
 
 1. If everything's up and working, place the following in
    `/etc/hostname.wg0` so a WireGuard connection is established on boot.
