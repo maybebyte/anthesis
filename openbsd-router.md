@@ -103,7 +103,7 @@ implement.
 - [IPv6](https://lipidity.com/openbsd/router/), depending on your use
   case and whether your ISP supports it.
 - DNS sinkhole with [`unbound(8)`](https://man.openbsd.org/unbound), see
-  [genblock](/src/dotfiles/file/.local/bin/genblock.html).
+  [genblock](/src/sysadm/file/genblock.html).
 
 As always, give official OpenBSD documentation preferential treatment
 and cross-reference it when using unofficial documentation. Keep it
