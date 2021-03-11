@@ -1,5 +1,10 @@
 # Media I find noteworthy
 
+## Mar 10
+
+- [What is the ‘self’? The 3 layers of your identity. | Sam Harris, Mark
+  Epstein & more | Big Think](https://invidiou.site/watch?v=l0TzeH6Zmog) (11:40)
+
 ## Dec 27
 
 - [Creating False Memories](https://staff.washington.edu/eloftus/Articles/sciam.htm)
