@@ -39,15 +39,8 @@ thumb. From here on out, I'll use setting up a website as an example.
 
 ## Pick an operating system
 
-[OpenBSD](https://www.openbsd.org/) gets my vote. Most everything you
-need will be in the base system and it takes the pain out of
-administration (speaking as someone who also has experience with various
-flavors of Linux). Once you explore the wonder that is
-[`httpd(8)`](https://man.openbsd.org/httpd) in tandem with
-[`acme-client(1)`](https://man.openbsd.org/acme-client), you'll wonder
-why you wanted to host your web server on anything else.
-
-[Why OpenBSD rocks](https://why-openbsd.rocks/fact/).
+[OpenBSD](https://www.openbsd.org/) gets my vote. See ['Why
+OpenBSD?'](/why-openbsd.html) for more details.
 
 ## Choose a VPS provider
 

@@ -132,7 +132,8 @@ its internals are laid bare in the configuration file. The ISO also
 won't build if there's a problem.
 
 Declarative configuration is visionary in some respects and in
-principle, I like it a lot. Yet I switched to OpenBSD. Why?
+principle, I like it a lot. [So why did I switch to
+OpenBSD](/why-openbsd.html)?
 
 ## Cons
 

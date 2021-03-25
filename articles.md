@@ -13,6 +13,7 @@ date. All articles before this change have a date of October 24th.
 
 ### Opinion
 
+- [Why OpenBSD?](/why-openbsd.html "2021-03-25")
 - ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
 - [Pros and cons of NixOS](/nixos.html "2020-10-24")
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-10-24")
