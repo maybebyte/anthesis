@@ -117,8 +117,7 @@ a tool like this ensures only what's needed is installed.
 
 I mean this both in terms of system stability and how fast things
 change. A constantly changing system is a nightmare to maintain for
-system administrators. OpenBSD's development is focused and
-uncompromising.
+system administrators.
 
 ## Other resources
 
