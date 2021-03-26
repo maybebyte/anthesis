@@ -25,7 +25,8 @@ Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD t
   other projects, too.
 
 If you remain unfettered by these, or at least aren't bothered by them
-too much, continue on.
+too much, continue on. Otherwise, perhaps
+[Librehunt](https://librehunt.org/) will be of more avail.
 
 ## Simplicity
 
