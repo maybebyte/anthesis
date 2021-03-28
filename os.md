@@ -1,35 +1,26 @@
 # FLOSS OS recommendations
 
+[![The absolute state of Linux
+distributions.](/images/standards.png)](/images/standards.png)
+
+The above illustrates how operating systems, in particular Linux
+distributions, tend to be. Given this, I don't have a one-size-fits-all
+recommendation; each user has different needs, so pigeonholing is
+counterproductive. For instance, someone that feels more comfortable
+with an interface akin to macOS would have a bad time with [Linux
+Mint](https://www.linuxmint.com/download.php), even though Linux Mint is
+a great OS for many people.
+
+However, I'll share a quiz I find helpful, as well as what works for
+me.
+
 ## Generate recommendations from a quiz
 
-Check out [LibreHunt](https://librehunt.org/) if you want something more
-hands-on. LibreHunt does a good job of explaining the merits of FLOSS
-and suggests Linux distributions based on how you answer its
-questionnaire.
+Check out [LibreHunt](https://librehunt.org/). LibreHunt does a good job
+of explaining the merits of FLOSS and suggests Linux distributions based
+on how you answer its questionnaire.
 
-## My recommendations
-
-First assess what you want and need in an OS. Do you want to maintain
-a similar workflow or do you want to learn a more minimal way of doing
-things?
-
-### Maintaining a similar workflow
-
-[![Screenshot of Linux Mint 20 "Ulyana" Cinnamon
-Edition.](/images/cinnamon-thumb.png "Look at all those buttons. You can probably click them or something.")](/images/cinnamon-full.png)
-
-Try [Linux Mint](https://www.linuxmint.com/download.php), specifically
-the Cinnamon Edition. I believe in this OS enough that a USB flash drive
-with Linux Mint is always on my person in case someone wants me to set
-it up for them (perhaps I should have a utility belt with USB drives
-strapped to it; each drive would be flashed with a different OS).
-
-Linux Mint provides a familiar interface and full-featured applications
-so the user can hit the ground running. The developers dedicate a lot of
-time to make the system intuitive without a sacrifice in customizability
-and I really appreciate that approach.
-
-### Trying something more minimal
+## What I use
 
 [![The OpenBSD logo with the mascot, Puffy the pufferfish, above it.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
 
