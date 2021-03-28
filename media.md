@@ -1,5 +1,11 @@
 # Media I find noteworthy
 
+## Mar 27
+
+- [More than just coupon codes: Browser extension Honey also collects
+  their user’s history data](https://www.datarequests.org/blog/honey-data-collection/)
+- [Prime Numbers & RSA Encryption Algorithm - Computerphile](https://invidiou.site/watch?v=JD72Ry60eP4) (15:06)
+
 ## Mar 10
 
 - [What is the ‘self’? The 3 layers of your identity. | Sam Harris, Mark
