@@ -17,7 +17,9 @@ Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD t
 - Prioritize performance above all else.
 - Desire a powerful filesystem like ZFS.
 - Want all the latest features.
-- Need every task or detail to be abstracted away graphically.
+- Need every task or detail to be abstracted away graphically (note that
+  I didn't say 'user-friendly.' OpenBSD *is* user-friendly, albeit to
+  a particular type of user).
 - Get offended by terseness or being directed to relevant
   documentation when asking others for help. Generally speaking, the mailing lists
   are quite helpful, but there isn't a lot of hand-holding because
