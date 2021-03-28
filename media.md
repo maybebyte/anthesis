@@ -13,9 +13,9 @@
 
 - [How meditation can change your life and mind | Sam Harris, Jon
   Kabat-Zinn & more | Big
-  Think](https://invidious.snopyta.org/watch?v=jCJdl6Vs7wg) (27:25)
+  Think](https://invidiou.site/watch?v=jCJdl6Vs7wg) (27:25)
 - [Psychedelics: The scientific renaissance of mind-altering drugs | Sam
-  Harris, Michael Pollan & more](https://invidious.snopyta.org/watch?v=5T0LmbWROKY)
+  Harris, Michael Pollan & more](https://invidiou.site/watch?v=5T0LmbWROKY)
   (20:04)
 
 ## Dec 03
@@ -25,7 +25,7 @@
 ## Dec 01
 
 - [How to Solve the Social
-  Dilemma](https://invidious.snopyta.org/watch?v=wyxnaaPqbRk) (16:19)
+  Dilemma](https://invidiou.site/watch?v=wyxnaaPqbRk) (16:19)
 - [Are you a “harbinger of failure”?](https://news.mit.edu/2015/harbinger-failure-consumers-unpopular-products-1223)
 
 ## Nov 30
@@ -39,7 +39,7 @@
 
 ## Nov 28
 
-- [How to approach contemporary music, explained in 10 minutes](https://invidious.snopyta.org/watch?v=WbE5sfYhxIk) (9:42)
+- [How to approach contemporary music, explained in 10 minutes](https://invidiou.site/watch?v=WbE5sfYhxIk) (9:42)
 
 ## Nov 27
 
@@ -47,7 +47,7 @@
 - [An opinionated list of best practices for textual
   websites](https://seirdy.one/2020/11/23/website-best-practices.html)
 - [Why The Web Is Such A
-  Mess](https://invidious.snopyta.org/watch?v=OFRjZtYs3wY) (9:50)
+  Mess](https://invidiou.site/watch?v=OFRjZtYs3wY) (9:50)
 
 ## Nov 25
 
@@ -63,7 +63,7 @@
 ## Nov 15
 
 - [Your phone is LISTENING to you - ultrasonic cross-device
-  tracking](https://invidious.snopyta.org/watch?v=j1FfVK6sj4I) (12:51)
+  tracking](https://invidiou.site/watch?v=j1FfVK6sj4I) (12:51)
 
 ## Nov 12
 
@@ -89,26 +89,26 @@
 ## Nov 05
 
 - [What If Rain Was Poisonous? |
-  Unveiled](https://invidious.snopyta.org/watch?v=D6zprGIbQj4) (8:59)
+  Unveiled](https://invidiou.site/watch?v=D6zprGIbQj4) (8:59)
 
 ## Nov 02
 
 - [25 moments in tech that defined the past 25 years]
   (https://www.fastcompany.com/90565059/25-moments-in-tech-that-defined-the-past-25-years)
 - [14 Cool Apps Built on OpenAI's GPT-3 API]
-  (https://invidious.snopyta.org/watch?v=G6Z_S6hs29s) (14:55)
+  (https://invidiou.site/watch?v=G6Z_S6hs29s) (14:55)
 - [The Github youtube-dl Takedown Isn't Just a Problem of American
   Law](https://www.eff.org/deeplinks/2020/11/github-youtube-dl-takedown-isnt-just-problem-american-law)
 
 ## Oct 30
 
 - [After receiving a takedown notice from the RIAA](https://github.com/github/dmca/blob/master/2020/10/2020-10-23-RIAA.md) (read: copyright trolls), Microsoft disabled 18 repositories related to [youtube-dl](https://github.com/ytdl-org/youtube-dl) on Github.
-- [28c3: The coming war on general computation](https://invidious.snopyta.org/watch?v=HUEvRyemKSg) (54:34)
+- [28c3: The coming war on general computation](https://invidiou.site/watch?v=HUEvRyemKSg) (54:34)
 
 ## Oct 29
 
 - [How Homegrown Disinformation Could Disrupt This U.S. Election | 2020
-Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
+Elections](https://invidiou.site/watch?v=_gNcYdvF1Co) (15:39)
 
 ## Oct 27
 
@@ -120,15 +120,15 @@ Elections](https://invidious.snopyta.org/watch?v=_gNcYdvF1Co) (15:39)
 
 ## Oct 25
 
-- [Plato’s Allegory of the Cave - Alex Gendler](https://invidious.snopyta.org/watch?v=1RWOpQXTltA) (4:33)
+- [Plato’s Allegory of the Cave - Alex Gendler](https://invidiou.site/watch?v=1RWOpQXTltA) (4:33)
 - [Kardashev Scale |
-  Unveiled](https://invidious.snopyta.org/playlist?list=PLfq8kkw599aDDjXd5nvroklQ9wC3_KLB9)
+  Unveiled](https://invidiou.site/playlist?list=PLfq8kkw599aDDjXd5nvroklQ9wC3_KLB9)
   (playlist)
 
 ## Oct 24
 
 - [Vim #99: Moving to Neovim... for
-realz](https://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
+realz](https://invidiou.site/watch?v=T7TAX653_OM) (10:14)
 - [Scientists test depth perception in cuttlefish by putting 3-D glasses
   on
   them](https://www.nytimes.com/2020/01/08/science/3d-glasses-cuttlefish.html).
@@ -140,7 +140,7 @@ realz](https://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 ## Oct 21
 
 - [All the ways your phone tracks your
-  location](https://invidious.snopyta.org/watch?v=GMIY4J8jAUc) (12:25)
+  location](https://invidiou.site/watch?v=GMIY4J8jAUc) (12:25)
 
 ## Oct 17
 
@@ -149,8 +149,8 @@ realz](https://invidious.snopyta.org/watch?v=T7TAX653_OM) (10:14)
 
 ## Oct 11
 
-- [Catching serial killers with an algorithm | Big Think x Freethink](https://invidious.snopyta.org/watch?v=8BvjAlf2SBk) (05:32)
-- [The fastest drummer in the world is a cyborg | Big Think x Freethink](https://invidious.snopyta.org/watch?v=V-cz2tiHzEo) (07:31)
+- [Catching serial killers with an algorithm | Big Think x Freethink](https://invidiou.site/watch?v=8BvjAlf2SBk) (05:32)
+- [The fastest drummer in the world is a cyborg | Big Think x Freethink](https://invidiou.site/watch?v=V-cz2tiHzEo) (07:31)
 
 ## Oct 8
 
