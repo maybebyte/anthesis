@@ -1,5 +1,9 @@
 # Media I find noteworthy
 
+## April 02
+
+- [Google’s FLoC Is a Terrible Idea](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea)
+
 ## Mar 27
 
 - [More than just coupon codes: Browser extension Honey also collects
@@ -158,7 +162,7 @@ realz](https://invidiou.site/watch?v=T7TAX653_OM) (10:14)
 - [Catching serial killers with an algorithm | Big Think x Freethink](https://invidiou.site/watch?v=8BvjAlf2SBk) (05:32)
 - [The fastest drummer in the world is a cyborg | Big Think x Freethink](https://invidiou.site/watch?v=V-cz2tiHzEo) (07:31)
 
-## Oct 8
+## Oct 08
 
 - [The psychological traits that shape your political beliefs | Dannagal
 G.
