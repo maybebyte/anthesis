@@ -193,12 +193,6 @@ is sustained, and no services go down. In other words, the benefit of
 good security is often more about what doesn't happen rather than what
 does.
 
-### Documentation
-
-Documentation for NixOS is scattered and of varying quality, whereas
-OpenBSD has consistently excellent documentation with its man pages and
-FAQ.
-
 ## Verdict
 
 Overall, while I enjoy how innovative NixOS is and concede that it has
