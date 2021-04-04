@@ -57,8 +57,10 @@ to take care of it for me. Usage is as follows:
 
     $ splitflac example.cue example.flac
 
-Note that `splitflac` deletes the original FLAC file if both `shnsplit`
-and `cuetag` succeed.
+By default, `splitflac` doesn't delete the original FLAC file. To do so
+if the other commands succeed, pass the `-d` flag.
+
+    $ splitflac -d example.cue example.flac
 
 ## Configuring beets (if needed)
 
