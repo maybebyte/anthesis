@@ -141,10 +141,10 @@ Elections](https://invidiou.site/watch?v=_gNcYdvF1Co) (15:39)
 realz](https://invidiou.site/watch?v=T7TAX653_OM) (10:14)
 - [Scientists test depth perception in cuttlefish by putting 3-D glasses
   on
-  them](https://www.nytimes.com/2020/01/08/science/3d-glasses-cuttlefish.html).
+  them](https://www.nytimes.com/2020/01/08/science/3d-glasses-cuttlefish.html)
 - ["Stargate Project" was a CIA program that involved remote
   viewing for intelligence
-  purposes](https://www.cia.gov/library/readingroom/docs/CIA-RDP96-00789R003300210001-2.pdf).
+  purposes](https://www.cia.gov/library/readingroom/docs/CIA-RDP96-00789R003300210001-2.pdf)
   (PDF)
 
 ## Oct 21
@@ -155,7 +155,7 @@ realz](https://invidiou.site/watch?v=T7TAX653_OM) (10:14)
 ## Oct 17
 
 - [Engineers create plants that
-  glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213).
+  glow](https://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213)
 
 ## Oct 11
 
