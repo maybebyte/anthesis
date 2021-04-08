@@ -14,8 +14,8 @@ process.
 If essential commands like `cd` and `ls` aren't in your repertoire,
 consider one of two options:
 
-1. learn more by consulting man pages, e.g.
-   [`help(1)`](https://man.openbsd.org/help), and the [OpenBSD
+1. learn more by consulting man pages, such as
+   [`help(1)`](https://man.openbsd.org/help), the mailing lists, and the [OpenBSD
    FAQ](https://www.openbsd.org/faq/).
 1. pursue different avenues to liberate your online life and regain
    privacy. Install a [FLOSS operating system](/os.html) or
@@ -76,7 +76,7 @@ unless they type in the IP address of the machine it's hosted on.
 ## Read documentation
 
 OK, now you have the prerequisites in place. You have a domain and
-a VPS, so it's time to figure out how to make those useful, e.g. log
+a VPS, so it's time to figure out how to make those useful, e.g., log
 in with [`ssh(1)`](https://man.openbsd.org/ssh), read
 [`afterboot(1)`](https://man.openbsd.org/afterboot), and set up
 [`httpd(8)`](https://man.openbsd.org/httpd).

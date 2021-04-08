@@ -87,10 +87,10 @@ guide](https://hofmeyr.de/OpenBSD%20on%20APU4/).
 
 ## After installation
 
-Do the usual, e.g. read
+Do the usual, e.g., read
 [`afterboot(8)`](https://man.openbsd.org/afterboot), check your mail,
-etc. After that, there's a couple of things you'll probably want to
-implement.
+and so on. After that, there's a couple of things you'll probably want
+to implement.
 
 - A [firewall, DHCP server, and DNS
   server](https://www.openbsd.org/faq/pf/example1.html).

@@ -38,7 +38,7 @@ become.
    "eurydice@riseup.net"). Remember to attach your public key so I can
    send an encrypted message back.
 
-1. Any word with a trailing number enclosed in parentheses, e.g.
+1. Any word with a trailing number enclosed in parentheses, such as
    [`help(1)`](https://man.openbsd.org/help), is a link to a
    [`man(1)`](https://man.openbsd.org/man) page. The number represents
    the section number of that man page.
