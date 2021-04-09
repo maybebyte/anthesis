@@ -100,6 +100,6 @@ are some places you can find Linux:
 - Linux is good enough for Google--both Android and ChromeOS are based
   on it.
 
-## Interested in FLOSS Operating Systems?
+## Interested in FLOSS operating systems?
 
 See [FLOSS OS recommendations](/os.html).
