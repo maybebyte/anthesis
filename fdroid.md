@@ -34,10 +34,9 @@ every app on F-Droid.
   depending on use case.
 - [KISS Launcher](https://f-droid.org/en/packages/fr.neamar.kiss/). I
   find that pinning a few choice apps and searching for the rest with
-  KISS Launcher is a more pleasant experience than what the default
-  launcher that comes with [GrapheneOS](https://grapheneos.org/)
-  provides.  Also, launchers allow one to use custom icons (I use
-  [Ameixa
+  KISS Launcher is a more pleasant experience relative to the default
+  [GrapheneOS](https://grapheneos.org/) launcher. Also, launchers allow
+  one to use custom icons (I use [Ameixa
   Monochrome](https://f-droid.org/en/packages/org.xphnx.ameixamonochrome/)).
 - [Netguard](https://netguard.me/). Block access to the internet per
   application. Unfortunately, I haven't found a way to combine it with
