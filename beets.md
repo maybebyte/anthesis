@@ -86,17 +86,17 @@ and moves on.
 
 ## Dealing with false positives
 
-Sometimes beets makes mistakes. The release date or record label might
-be wrong, for instance. I use `-t` (timid) for this reason.
+Sometimes beets makes mistakes. The release date, record label, or
+country might be wrong, for instance. I use `-t` (timid) for this
+reason.
 
 If the provided [MusicBrainz](https://musicbrainz.org/) URL at least
-points to the correct album, navigate to the correct release by clicking
-on '*(see all versions of this release, X available)*.' Then, enter the
-ID (found in the URL) into the prompt.
+points to the correct album, press 'm' (More candidates) to see more options.
 
 Rarely, beets will spit out something that doesn't match at all. When
-this happens, it's easiest to manually search for the album. Then, note
-the ID and feed it to beets.
+this happens, it's easiest to manually search for the album on
+MusicBrainz. Then, copy and paste the URL and feed it to beets by
+pressing 'i' (enter ID).
 
 If `-t` is used consistently, consider setting the equivalent option in
 `config.yaml`.
