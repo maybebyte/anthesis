@@ -39,8 +39,8 @@ thumb. From here on out, I'll use setting up a website as an example.
 
 ## Pick an operating system
 
-[OpenBSD](https://www.openbsd.org/) gets my vote. See ['Why
-OpenBSD?'](/why-openbsd.html) for more details.
+[OpenBSD](https://www.openbsd.org/) gets my vote. See ["Why
+OpenBSD?"](/why-openbsd.html) for more details.
 
 ## Choose a VPS provider
 

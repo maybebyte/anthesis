@@ -50,7 +50,7 @@ had with [`httpd(8)`](https://man.openbsd.org/httpd) and
 [`acme-client(1)`](https://man.openbsd.org/acme-client), all without
 installing any additional software.
 
-See [OpenBSD's 'innovations'
+See [OpenBSD's "innovations"
 page](https://www.openbsd.org/innovations.html) for more cool software
 and ideas developed by the OpenBSD project. Did you know that
 [OpenSSH](https://www.openssh.com/) is an OpenBSD project?
@@ -104,12 +104,11 @@ CPU frequency scaling, and hibernate + suspend are easily handled by
 
         # rcctl start apmd
 
-The only thing a bit 'weird' regarding hardware compatibility is that
-binary blobs, needed sometimes for graphics and wireless, aren't
-distributed with the installation images. Rather, they're automatically
-detected and installed with
-[`fw_update(1)`](https://man.openbsd.org/fw_update) upon first boot
-given a functioning Internet connection. I'd say it's a
+The only thing unusual regarding hardware compatibility is that binary
+blobs, needed sometimes for graphics and wireless, aren't distributed
+with the installation images. Rather, they're automatically detected and
+installed with [`fw_update(1)`](https://man.openbsd.org/fw_update) upon
+first boot given a functioning Internet connection. I'd say it's a
 superior approach overall, as binary blobs are a security risk and using
 a tool like this ensures only what's needed is installed.
 
