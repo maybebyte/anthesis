@@ -1,5 +1,10 @@
 # Media I find noteworthy
 
+## April 16
+
+- [How To Become A
+  Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html) (HTTP only)
+
 ## April 02
 
 - [Google’s FLoC Is a Terrible Idea](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea)
