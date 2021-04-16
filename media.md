@@ -30,7 +30,7 @@
 
 ## Dec 03
 
-- [Morality, the Good Life, and the Cold-Hearted Benefactor](http://aporia.byu.edu/pdfs/mcmurray-morality_the_good_life_and_the_coldhearted_benefactor.pdf) (PDF)
+- [Morality, the Good Life, and the Cold-Hearted Benefactor](https://aporia.byu.edu/pdfs/mcmurray-morality_the_good_life_and_the_coldhearted_benefactor.pdf) (PDF)
 
 ## Dec 01
 
