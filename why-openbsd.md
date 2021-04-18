@@ -104,7 +104,7 @@ CPU frequency scaling, and hibernate + suspend are easily handled by
 
         # rcctl start apmd
 
-The only thing unusual regarding hardware compatibility is that binary
+The only unusual thing regarding hardware compatibility is that binary
 blobs, needed sometimes for graphics and wireless, aren't distributed
 with the installation images. Rather, they're automatically detected and
 installed with [`fw_update(1)`](https://man.openbsd.org/fw_update) upon
