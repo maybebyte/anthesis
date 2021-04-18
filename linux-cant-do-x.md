@@ -84,7 +84,7 @@ as a supplementary resource.
   - [Install Wars! Linux Mint vs Windows 10 vs
     Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
     (9:01)
-  - See my [media entry for November 30th, 2020](/media.html#Nov 30).
+  - See my [media entry for November 30th, 2020](/media.html#2020-11-30).
 
 ## Linux is powerful
 
