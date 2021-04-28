@@ -1,5 +1,11 @@
 # Media I find noteworthy
 
+## 2021-04-28
+
+- [Cryptocoin Miner - Unpeeling Lemon Duck Malware](https://vid.puffyan.us/watch?v=D3ynyQV0LLY) (1:01:02)
+- [The REAL Reason McDonalds Ice Cream Machines Are Always
+  Broken](https://vid.puffyan.us/watch?v=SrDEtSlqJC4) (29:45)
+
 ## 2021-04-16
 
 - [How To Become A
