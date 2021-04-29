@@ -37,6 +37,8 @@ date. All articles before this change have a date of October 24th.
 
 ## Personal
 
+- [Why a passion for technical subjects can be
+  lonely](/on-lonely-passions.html "2021-04-28")
 - [About me](/about-me.html "2020-10-24")
 - [Clues](/clues.html "2020-10-24")
 - [Media I find noteworthy](/media.html "2020-10-24")
