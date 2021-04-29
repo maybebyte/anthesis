@@ -48,7 +48,7 @@ there is with music and cooking.[^2]
 Also, one has to consider the relationship most people have with
 technology. Some people regard computers and digital tasks similarly to
 hammers and nails. That is to say, understanding the nature of the means
-(how to use the hammer/computer) often isn't prioritized as much as
+(how to best use the hammer/computer) often isn't prioritized as much as
 achieving the ends (a nail driven into an object/a completed digital
 task).
 
