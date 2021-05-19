@@ -114,6 +114,8 @@ plethora of metadata fields (`genre`, `artist`, `album`, `year`,
 
 Quoting isn't strictly necessary. I do it out of habit.
 
+To list the available metadata fields, use `beet fields`.
+
 ## Album art
 
 Ordinarily, this wouldn't matter to me too much as I use
