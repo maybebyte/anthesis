@@ -104,10 +104,7 @@ If `-t` is used consistently, consider setting the equivalent option in
     import:
       timid: yes
 
-## Other nice things
-
-There are advantages to using beets other than correct metadata. Beets
-can output statistics and perform queries, for instance.
+## Querying music
 
 To list music, use `beet ls`. Beets can narrow down the query via a
 plethora of metadata fields (`genre`, `artist`, `album`, `year`,
@@ -116,3 +113,24 @@ plethora of metadata fields (`genre`, `artist`, `album`, `year`,
     $ beet ls genre:"Progressive Rock"
 
 Quoting isn't strictly necessary. I do it out of habit.
+
+## Album art
+
+Ordinarily, this wouldn't matter to me too much as I use
+[NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++") +
+[MPD](https://www.musicpd.org/ "Music Player Daemon") to play music.
+However, with more full-featured applications like
+[Kodi](https://kodi.tv/), missing artwork sticks out like a sore thumb
+to me.
+
+Fortunately, there's an easy fix for this. Make certain the following is
+in `config.yaml`:
+
+    plugins: fetchart
+
+Then, update your library.
+
+    $ beet update
+
+See [the documentation on
+fetchart](https://beets.readthedocs.io/en/stable/plugins/fetchart.html) for more details.
