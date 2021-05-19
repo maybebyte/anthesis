@@ -118,7 +118,7 @@ To list the available metadata fields, use `beet fields`.
 
 ## Album art
 
-Ordinarily, this wouldn't matter to me too much as I use
+Ordinarily, this wouldn't matter to me too much as I primarily use
 [NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++") +
 [MPD](https://www.musicpd.org/ "Music Player Daemon") to play music.
 However, with more full-featured applications like
