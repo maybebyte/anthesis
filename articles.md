@@ -20,7 +20,7 @@ date. All articles before this change have a date of October 24th.
 
 ### Software
 
-- [My favorite F-Droid apps](/fdroid.html "2020-04-12")
+- [My favorite F-Droid apps](/fdroid.html "2021-04-12")
 - [FLOSS OS recommendations](/os.html "2020-10-24")
 - [Software I use (PC)](/pc.html "2020-10-24")
 
