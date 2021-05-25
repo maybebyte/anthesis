@@ -164,13 +164,6 @@ for more.
   disposable email addresses.
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
   removes tracking elements from URLs.
-- [CSS Exfil
-    Protection](https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/):
-    the author has a page that [displays if you're
-    vulnerable](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester).
-- [HTTPS
-  Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/):
-  exactly what it sounds like. TLS is important for privacy.
 - [Smart
   Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/):
   [HTTP Referers are a privacy
