@@ -132,7 +132,23 @@ in `config.yaml`:
 
 Then, update your library.
 
-    $ beet update
+    $ beet fetchart
 
-See [the documentation on
+See [the documentation for
 fetchart](https://beets.readthedocs.io/en/stable/plugins/fetchart.html) for more details.
+
+## Genre
+
+MusicBrainz actually doesn't contain genre information, so I use a
+plugin for this, too. Ensure that you place the appropriate entry under
+`plugins` in `config.yaml`:
+
+    plugins: lastgenre
+
+Then, update your library.
+
+    $ beet lastgenre
+
+See [the documentation for
+lastgenre](https://beets.readthedocs.io/en/stable/plugins/lastgenre.html)
+for more details.
