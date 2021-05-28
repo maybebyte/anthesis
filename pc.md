@@ -171,6 +171,10 @@ for more.
 - [Terms of Service; Didn't
   Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
   understand a site's privacy policy at a glance.
+- [Temporary
+  Containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/):
+  can be configured to automatically open every new tab in a separate
+  container, which isolates data and confers privacy + security.
 - [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
   Vim bindings for Firefox.
 - [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
