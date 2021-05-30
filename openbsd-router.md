@@ -82,8 +82,11 @@ Connect to the serial port. I run OpenBSD on my laptop, so I use
 This indicates the line to use `(-l)` and the baud rate `(-s)`. The APU4D4
 requires a baud rate of `115200`.
 
-Now that you're connected, use this [OpenBSD APU4D4 installation
-guide](https://hofmeyr.de/OpenBSD%20on%20APU4/).
+From here, the FAQ provides enough information to get through the rest
+of the installation procedure. Be sure to look at [the documentation for
+your architecture](https://www.openbsd.org/plat.html). In this case,
+that means to consult [the notes on
+amd64](https://www.openbsd.org/amd64.html).
 
 ## After installation
 
