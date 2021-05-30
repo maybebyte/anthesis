@@ -98,9 +98,8 @@ to implement.
 - A [firewall, DHCP server, and DNS
   server](https://www.openbsd.org/faq/pf/example1.html).
 - A [network bridge for ethernet
-  interfaces](https://www.openbsd.org/faq/faq6.html#Bridge). Remember to
-  pass traffic as needed on the interfaces included within the
-  bridge.
+  interfaces](https://www.openbsd.org/faq/faq6.html#Bridge). As of 6.9,
+  I'm using [`veb(4)`](https://man.openbsd.org/veb) with good results.
 - Depending on your provider, you may need a PPPoE connection. See
   [`pppoe(4)`](https://man.openbsd.org/pppoe).
 - [IPv6](https://lipidity.com/openbsd/router/), depending on your use
