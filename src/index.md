@@ -11,5 +11,4 @@ to clone it. For example, to clone my dotfiles:
 
 - [Website (Markdown)](/src/website_md/)
 - [Dotfiles](/src/dotfiles/)
-- [COBS](/src/cobs/)
 - [sysadm](/src/sysadm)
