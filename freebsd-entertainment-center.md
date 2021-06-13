@@ -352,30 +352,50 @@ in the correct tty before doing so.
 
 ### Configuring the sound system
 
-1. If everything is good, it's time to configure the sound system.[^3] Set the default
-   device with
-   [`sysctl(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl)
-   if needed (inspect `/dev/sndstat` for a list of devices), then enable
-   and start [`sndiod(8)`](https://man.openbsd.org/sndiod).
+If everything is good, it's time to configure the sound system. Set the
+default device with
+[`sysctl(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl)
+if needed (inspect `/dev/sndstat` for a list of devices).
 
-   I also recommend changing `hw.snd.feeder_rate_quality` from its
-   default of `1` (I use the maximum value of `4` without any issues).
-   According to
-   [`sound(4)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sound),
-   the default of linear interpolation doesn't provide anti-aliasing
-   filtering.
+    # sysctl hw.snd.default.unit=1 # needed for HDMI in my case.
 
-        # sysctl hw.snd.default.unit=1 # needed for HDMI in my case.
-        # sysctl hw.snd.feeder_rate_quality=4
-        # sysrc sndiod_enable="YES"
-        # service sndiod start
+Now, decide whether or not you want to use bit-perfect mode and consult
+the relevant section below.
 
-    To make the changes to `hw.snd.default.unit` and
-    `hw.snd.feeder_rate_quality` permanent, modify
-    [`sysctl.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl.conf).
+#### Bit-perfect
 
-        # echo 'hw.snd.default.unit=1' >>/etc/sysctl.conf
-        # echo 'hw.snd.feeder_rate_quality=4' >>/etc/sysctl.conf
+In order to use bit-perfect mode, two `sysctl` tweaks are needed. Here,
+I use the first device, but be sure to check what device needs to be
+adjusted.
+
+    # sysctl dev.pcm.1.bitperfect=1
+    # sysctl hw.snd.maxautovchans=0
+
+A sound server isn't desirable in this case, as `/dev/dsp` can't
+be accessed concurrently in bit-perfect mode, so
+[`sndiod(8)`](https://man.openbsd.org/sndiod) remains disabled. Kodi
+will still use `sndio`, however, due to [behavior specific to the
+FreeBSD
+port](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
+
+#### Not bit-perfect
+
+I recommend changing `hw.snd.feeder_rate_quality` from its default of
+`1` (I use the maximum value of `4` without any issues).  According to
+[`sound(4)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sound),
+the default of linear interpolation doesn't provide anti-aliasing
+filtering.
+
+    # sysctl hw.snd.feeder_rate_quality=4
+
+Then, enable and start `sndiod`.
+
+    # sysrc sndiod_enable="YES"
+    # service sndiod start
+
+Remember that if tweaks made with `sysctl` are to be permanent,
+[`sysctl.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl.conf)
+must be modified accordingly.
 
 ## Parting words
 
@@ -404,12 +424,3 @@ For now, Kodi is enough to quell my boredom.
     because of the way that the `FONTCONFIG` option works, and building
     fonts from source separately just to make sure that directory exists
     seems like a waste to me.
-
-[^3]:
-    Technically, there isn't really a need to have a sound server
-    because [the FreeBSD port](https://www.freshports.org/audio/sndio/)
-    [behaves a bit
-    differently](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
-    However, `sndiod` comes with some features that are relevant to a
-    media center. For instance, surround sound audio can be converted to
-    stereo, which can make a difference.
