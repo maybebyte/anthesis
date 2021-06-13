@@ -57,13 +57,13 @@ Log in to the freshly installed FreeBSD box and follow along.
 
 ### Power management
 
-1. Enable and start
-   [`powerd(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=powerd)
-   for power management. In theory, it should lower power consumption
-   when the entertainment center isn't doing much.
+Enable and start
+[`powerd(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=powerd)
+for power management. In theory, it should lower power consumption when
+the entertainment center isn't doing much.
 
-        # sysrc powerd_enable="YES"
-        # service powerd start
+    # sysrc powerd_enable="YES"
+    # service powerd start
 
 ### Checking out source code
 
