@@ -242,7 +242,13 @@ the entertainment center isn't doing much.
    recommend at least looking over the options available for
    `multimedia/ffmpeg` and `multimedia/kodi` with `make config`.
 
-        # portmaster audio/sndio graphics/drm-kmod x11/xorg x11-fonts/noto misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
+   Remember to install packages needed for [Hardware video
+   acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration).
+   In the Latte Panda Delta's case, they are
+   `multimedia/libva-intel-media-driver` and
+   `multimedia/libvdpau-va-gl`.
+
+        # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver multimedia/libvdpau-va-gl x11/xorg x11-fonts/noto misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
 
    After confirming that you want to build everything, detach from the
    `tmux` session (`CTRL-b d` is the default binding. Alternatively,
