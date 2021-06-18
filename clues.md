@@ -67,7 +67,10 @@ to have a place to share miscellaneous thoughts.
 1. Use your search engine's capabilities to your advantage. For
    instance, to only return web pages that have either the `.edu` or
    `.gov` TLD (useful for research), use the `site` operator like so:
-   `site:(edu | gov)`. See [Step-by-Step Guide & Research Rescue:
+
+        site:(edu | gov)
+
+   See [Step-by-Step Guide & Research Rescue:
    Evaluating
    Credibility](https://guides.lib.byu.edu/c.php?g=216340&p=1428399) and
    [Google Hacking
