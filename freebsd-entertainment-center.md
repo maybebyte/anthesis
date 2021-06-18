@@ -394,12 +394,20 @@ filtering.
 
     # sysctl hw.snd.feeder_rate_quality=4
 
-Then, enable and start `sndiod`.
+Optionally, enable and start `sndiod`. Audio will function with the
+daemon running or not. Though passing audio through `sndiod` first has
+some real perks, like being able to monitor and record what other
+programs play, and being able to tweak the volume of specific
+applications in addition to the master volume.
+
+Keep in mind that without bit-perfect mode on, audio is going to be
+resampled either way.
 
     # sysrc sndiod_enable="YES"
     # service sndiod start
 
-Remember that if tweaks made with `sysctl` are to be permanent,
+Remember that regardless of whether you chose bit-perfect mode or not,
+if tweaks made with `sysctl` are to be permanent,
 [`sysctl.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl.conf)
 must be modified accordingly.
 
