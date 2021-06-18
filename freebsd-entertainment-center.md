@@ -139,7 +139,7 @@ the entertainment center isn't doing much.
 
    Consider installing a text editor and a shell in addition to the
    aforementioned tools, if the options in the base system don't meet
-   your needs.
+   your needs. I like `editors/neovim` and `shells/oksh`.
 
 1. If you've installed `doas`, set up
    [`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since
