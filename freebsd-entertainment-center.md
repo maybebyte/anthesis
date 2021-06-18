@@ -122,7 +122,7 @@ the entertainment center isn't doing much.
    `portmaster` can cope with (probably some of the ports I use aren't
    written to handle parallel builds yet).
 
-        # cd /usr/ports/ports-mgmt/portmaster && make install clean
+        # make -C /usr/ports/ports-mgmt/portmaster install clean
 
 1. I like to install a couple of tools to make myself comfortable before
    building Kodi. In particular, I find `tmux` to be essential, because
