@@ -431,7 +431,7 @@ For now, Kodi is enough to quell my boredom.
 - [Calibration media for TV brightness, contrast,
   and so on](https://w6rz.net/), as mentioned in [this
   thread](https://www.avsforum.com/forum/139-display-calibration/948496-avs-hd-709-blu-ray-mp4-calibration.html).
-  The OP deems it an 'alternative download link' (the other links are to
+  The OP deems it an 'alternate download link' (the other links are to
   Google Docs).
 
 [^1]:
