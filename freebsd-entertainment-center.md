@@ -387,7 +387,8 @@ port](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
 #### Not bit-perfect
 
 I recommend changing `hw.snd.feeder_rate_quality` from its default of
-`1` (I use the maximum value of `4` without any issues).  According to
+`1` (I've used the maximum value of `4` before without any issues, but
+see what works for you).  According to
 [`sound(4)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sound),
 the default of linear interpolation doesn't provide anti-aliasing
 filtering.
