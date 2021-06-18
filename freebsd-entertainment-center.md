@@ -423,6 +423,17 @@ out well for me.
 Eventually, I'd like to add in the ability to emulate and play games.
 For now, Kodi is enough to quell my boredom.
 
+## Additional resources
+
+- [Video levels and color
+  space](https://kodi.wiki/view/Video_levels_and_color_space). Helpful
+  entry from the Kodi Wiki.
+- [Calibration media for TV brightness, contrast,
+  and so on](https://w6rz.net/), as mentioned in [this
+  thread](www.avsforum.com/forum/139-display-calibration/948496-avs-hd-709-blu-ray-mp4-calibration.html).
+  The OP deems it an 'alternative download link' (the other links are to
+  Google Docs).
+
 [^1]:
     I found the relevant info for `CPUTYPE` in
     `/usr/share/examples/etc/make.conf`. `MFX` is for Intel Quick Sync,
