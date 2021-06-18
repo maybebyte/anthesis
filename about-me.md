@@ -16,8 +16,8 @@
   games are among my favorite genres.
 
 - [Meditation heals the
-  mind](https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/),
-  so I consistently practice it.
+  mind](https://news.harvard.edu/gazette/story/2018/04/harvard-researchers-study-how-mindfulness-may-change-the-brain-in-depressed-patients/).
+  My practice tends to be off and on, but I hope to improve that.
 
 - Taking time to improve, learn, and cultivate awareness is my
   lifeblood. That said, I find it important to remind myself from time
