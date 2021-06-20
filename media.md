@@ -58,8 +58,8 @@
 
 - [Why Windows Causes
   Stupidity](https://www.over-yonder.net/~fullermd/rants/winstupid/1).
-  Note that the author doesn't use the word 'stupid' pejoratively; rather, it's used to signify a lack of
-  knowledge/competence.
+  Note that the author doesn't seem to use 'stupid' as a pejorative;
+  rather, it's used to signify a lack of knowledge/competence.
 - [Are you user
   friendly?](https://www.over-yonder.net/~fullermd/rants/userfriendly/1)
 
