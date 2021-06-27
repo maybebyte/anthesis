@@ -99,7 +99,7 @@ the entertainment center isn't doing much.
         # cat <<EOF >/etc/make.conf
         # performance related tweaks
         CPUTYPE?=goldmont-plus
-        OPTIONS_SET=ASM LTO MFX OPTIMIZED_CFLAGS PGO
+        OPTIONS_SET=ASM CPU_OPTS LTO MFX OPTIMIZED_CFLAGS PGO
         #
         # documentation
         OPTIONS_SET+=DOCS EXAMPLES MANPAGES
