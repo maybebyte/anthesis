@@ -395,16 +395,26 @@ filtering.
 
     # sysctl hw.snd.feeder_rate_quality=4
 
-Optionally, enable and start `sndiod`. Audio will function with the
-daemon running or not. Though passing audio through `sndiod` first has
-some real perks, like being able to monitor and record what other
-programs play, and being able to tweak the volume of specific
-applications in addition to the master volume.
-
-Keep in mind that without bit-perfect mode on, audio is going to be
-resampled either way.
+Optionally, enable `sndiod`. Audio will function with the daemon running
+or not. Though passing audio through `sndiod` first has some real perks,
+like being able to monitor and record what other programs play, and
+being able to tweak the volume of specific applications in addition to
+the master volume.
 
     # sysrc sndiod_enable="YES"
+
+Since Kodi isn't going to be playing more than one stream of audio at a
+time, [using some information from a marc.info
+thread](https://marc.info/?t=152968639700029&r=1&w=2), I set some
+options to lessen the likelihood of audio being unnecessarily resampled.
+These values seem to be default in newer versions of `sndiod`, but
+weren't default in the version of `sndiod` associated with the `2021Q2`
+branch.
+
+    # sysrc sndiod_flags="-v 127 -w off"
+
+Then, start the daemon.
+
     # service sndiod start
 
 Remember that regardless of whether you chose bit-perfect mode or not,
