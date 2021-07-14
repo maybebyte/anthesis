@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# My GPG keys are now updated
+
+My original RSA2048 public key is set to expire August 3rd, 2021, so
+intervention is needed in some form. Looking to the future, I think it's
+a good idea to switch to elliptic curve cryptography, specifically
+ed25519.
+
+Given this, my current public key, located at '/eurydice.key', uses
+ed25519 and is set to expire July 14th, 2022. My old public key, located
+at '/old-rsa2048.key', will remain accessible for a time because this
+document is signed with it.
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEVSj3uiSz2uB4Dw4lGhsHnmoEg+EFAmDvA3YACgkQGhsHnmoE
+g+HgQwgAm5XSuE2zcyzIui77N7sSt7D9z11z35Pl4kVC0sqATzqrEHLZhoquGkXt
+sqaEVTDk4OkxiBJIPxK1a5L2OjASv3HDtLyJaXqDzu8KpsZmXz/ajjiQZBeHYjY9
+KYzyuUCbsi5jyx9G/Zaf0NIPS6WMuWZc/3Qob7wf5Wn9k279z52TxG4ESAiuzY3g
+wlbaE4T5961cCy0TlJklYk+6z9DLMgplsGjgUyZrvsaG5nuhKzgmYBxMvnbGINg8
+IIGStO7AAlW+sqtBOKNepHKoaKmepfjdlY2MWQoVU2OkZ1hTxbBG/JKiw9bNKWlS
+KPeyaaZbbnMK9FRl7S1OzxpABtulAw==
+=vWq6
+-----END PGP SIGNATURE-----

@@ -38,6 +38,10 @@ become.
    "eurydice@riseup.net"). Remember to attach your public key so I can
    send an encrypted message back.
 
+   Note that as of July 14th, 2021, **this
+   key has changed**. See [My GPG keys are now updated](/gpg-update.txt)
+   for more details.
+
 1. Any word with a trailing number enclosed in parentheses, such as
    [`help(1)`](https://man.openbsd.org/help), is a link to a
    [`man(1)`](https://man.openbsd.org/man) page. The number represents
