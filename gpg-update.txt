@@ -11,15 +11,15 @@ ed25519.
 Given this, my current public key, located at '/pubkeys/eurydice.key',
 uses ed25519 and is set to expire July 14th, 2022. My old public key,
 located at '/pubkeys/old-rsa2048.key', will remain accessible for a time
-because this document is signed with it.
+because it was used to sign both this document and the ed25519 key.
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVSj3uiSz2uB4Dw4lGhsHnmoEg+EFAmDx2bUACgkQGhsHnmoE
-g+EDzwf8C3tRh4ffTwgOzdaNjgaErt93I0w/FfYWga7/+ACql1Kk9AxlS2RFs5CW
-ymndrDV0oyAv+7zyO4XukkgKEGBcofQumNO2+cv/SuogxHPF4BLpY47l61WcKImA
-gdypPzTkOFWJoPXTZwxrOF3uwOKvdB5Q2i6E9HwsBSOSSRf2nD5hwHSvvTlApKVj
-hwt+/0RRKoH1PiMSLMpFLUCKTjCd0eEJqr9ANXkJPAYsucC4jYdd7l8P3My5S9AU
-BPIWFd+p4DUa5+Tb5e7yMC9s+/F6w1CfK3Tn4BcoGljBj8xt4yTVxowM8/WwDgJ7
-LCbgqr7ppYGZ1zLwVyeI8AMqKDTc8A==
-=u93G
+iQEzBAEBCAAdFiEEVSj3uiSz2uB4Dw4lGhsHnmoEg+EFAmDx3sAACgkQGhsHnmoE
+g+E18QgAviM1/GP13rJlVovQ2TXa6g6Cpt0gzyWO8F2rRS7V8XiJG5ZykotldXbd
+9Wqak2cg4s8lEv0kQUsXitgwyLV2Qaxz76D38kTxz0GfhvP78XYW4JCc3I9Pm+sd
+Unpw81R01mNOveOehBgBDcK0dOIBMAxhdl5niONjop86mD9rI21RUnrzTg9olFDY
+g3eTwn7Eii3W/kyHuLOkuhr3n9hDJ0fLlgW8G2R8MuvSY1i2d4s6i5Z6sYOWM2QB
+VZGKaF9CGAcg3PaHpcKc7wT2FdOQXQMfkWCCBTt3N89JVhf73uhnnTDqg8BLgV7m
+qc1juW1NceRhqiILEQzO9IlM8LJdMw==
+=S/6b
 -----END PGP SIGNATURE-----
