@@ -8,18 +8,18 @@ intervention is needed in some form. Looking to the future, I think it's
 a good idea to switch to elliptic curve cryptography, specifically
 ed25519.
 
-Given this, my current public key, located at '/eurydice.key', uses
-ed25519 and is set to expire July 14th, 2022. My old public key, located
-at '/old-rsa2048.key', will remain accessible for a time because this
-document is signed with it.
+Given this, my current public key, located at '/pubkeys/eurydice.key',
+uses ed25519 and is set to expire July 14th, 2022. My old public key,
+located at '/pubkeys/old-rsa2048.key', will remain accessible for a time
+because this document is signed with it.
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVSj3uiSz2uB4Dw4lGhsHnmoEg+EFAmDvA3YACgkQGhsHnmoE
-g+HgQwgAm5XSuE2zcyzIui77N7sSt7D9z11z35Pl4kVC0sqATzqrEHLZhoquGkXt
-sqaEVTDk4OkxiBJIPxK1a5L2OjASv3HDtLyJaXqDzu8KpsZmXz/ajjiQZBeHYjY9
-KYzyuUCbsi5jyx9G/Zaf0NIPS6WMuWZc/3Qob7wf5Wn9k279z52TxG4ESAiuzY3g
-wlbaE4T5961cCy0TlJklYk+6z9DLMgplsGjgUyZrvsaG5nuhKzgmYBxMvnbGINg8
-IIGStO7AAlW+sqtBOKNepHKoaKmepfjdlY2MWQoVU2OkZ1hTxbBG/JKiw9bNKWlS
-KPeyaaZbbnMK9FRl7S1OzxpABtulAw==
-=vWq6
+iQEzBAEBCAAdFiEEVSj3uiSz2uB4Dw4lGhsHnmoEg+EFAmDx2bUACgkQGhsHnmoE
+g+EDzwf8C3tRh4ffTwgOzdaNjgaErt93I0w/FfYWga7/+ACql1Kk9AxlS2RFs5CW
+ymndrDV0oyAv+7zyO4XukkgKEGBcofQumNO2+cv/SuogxHPF4BLpY47l61WcKImA
+gdypPzTkOFWJoPXTZwxrOF3uwOKvdB5Q2i6E9HwsBSOSSRf2nD5hwHSvvTlApKVj
+hwt+/0RRKoH1PiMSLMpFLUCKTjCd0eEJqr9ANXkJPAYsucC4jYdd7l8P3My5S9AU
+BPIWFd+p4DUa5+Tb5e7yMC9s+/F6w1CfK3Tn4BcoGljBj8xt4yTVxowM8/WwDgJ7
+LCbgqr7ppYGZ1zLwVyeI8AMqKDTc8A==
+=u93G
 -----END PGP SIGNATURE-----
