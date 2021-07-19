@@ -32,26 +32,32 @@ every app on F-Droid.
   (though it keeps the original unaltered and stores the changed copy in
   a separate folder), which may or may not be a desirable feature
   depending on use case.
+
 - [KISS Launcher](https://f-droid.org/en/packages/fr.neamar.kiss/). I
   find that pinning a few choice apps and searching for the rest with
   KISS Launcher is a more pleasant experience relative to the default
   [GrapheneOS](https://grapheneos.org/) launcher. Also, launchers allow
   one to use custom icons (I use [Ameixa
   Monochrome](https://f-droid.org/en/packages/org.xphnx.ameixamonochrome/)).
+
 - [Netguard](https://netguard.me/). Block access to the internet per
   application. Unfortunately, I haven't found a way to combine it with
   Orbot yet.
+
 - [NewPipe](https://newpipe.net/). NewPipe allows the user to watch
   YouTube privately on their smartphone; in addition, the user can keep
   up with their favorite content creators without signing up for an
   account.
+
 - [Orbot](https://guardianproject.info/apps/org.torproject.android/). An
   invaluable tool for privacy, Orbot tunnels the traffic of selected
   apps through Tor.
+
 - [Termux](https://termux.com/). Termux is a terminal emulator for
   Android, and offers an incredible amount of power. I use Termux to
   securely transfer files between my smartphone and computer using SSH,
   and my dotfiles are there, too.
+
 - [UntrackMe](https://f-droid.org/en/packages/app.fedilab.nitterizeme/).
   UntrackMe transforms certain links, such as YouTube, Twitter, and
   Instagram, to point at a FLOSS privacy respecting alternative. In the
