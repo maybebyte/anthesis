@@ -2,8 +2,8 @@
 
 ## 2021-07-20
 
-Note that the bottom two links to Signal's blog are included in the
-first article. However, in the event that the first article becomes
+Note that the two links to Signal's blog are included in the Stanford
+cyberlaw blog entry. However, in the event that the first link becomes
 inaccessible, I want the other two links to be here for context.
 
 - [I Have a Lot to Say About Signal’s Cellebrite
