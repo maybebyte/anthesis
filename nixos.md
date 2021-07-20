@@ -147,8 +147,8 @@ well in.
 For instance, compare the tool NixOS uses to manage services,
 [`systemctl(1)`](https://www.mankier.com/1/systemctl), with OpenBSD's
 [`rcctl(8)`](https://man.openbsd.org/rcctl). Other examples include the
-sound server (pulseaudio vs. sndio), method of privilege elevation (sudo
-vs. doas), firewall (iptables vs. pf), and so on.
+sound server (pulseaudio versus sndio), method of privilege elevation
+(sudo versus doas), firewall (iptables versus pf), and so on.
 
 In comparing these pieces of software, I'm illustrating a point:
 additional features aren't unequivocally good. Sometimes features are
