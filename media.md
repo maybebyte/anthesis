@@ -1,5 +1,19 @@
 # Media I find noteworthy
 
+## 2021-07-20
+
+Note that the bottom two links to Signal's blog are included in the
+first article. However, in the event that the first article becomes
+inaccessible, I want the other two links to be here for context.
+
+- [I Have a Lot to Say About Signal’s Cellebrite
+  Hack](https://cyberlaw.stanford.edu/blog/2021/05/i-have-lot-say-about-signal%E2%80%99s-cellebrite-hack)
+- [No, Cellebrite cannot 'break Signal
+  encryption.'](https://signal.org/blog/cellebrite-and-clickbait/)
+- [Exploiting vulnerabilities in Cellebrite UFED and Physical Analyzer
+  from an app's
+  perspective](https://signal.org/blog/cellebrite-vulnerabilities/)
+
 ## 2021-05-19
 
 - [Signal's Terrible MobileCoin
