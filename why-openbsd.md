@@ -75,9 +75,11 @@ is how Firefox and Tor Browser are packaged with
 [`pledge(2)`](https://man.openbsd.org/pledge) and
 [`unveil(2)`](https://man.openbsd.org/unveil) in mind. Speaking to the
 latter system call, there's no reason these browsers should be able to
-read `~/.ssh` or `~/.gnupg`, so they can't. As a result, the amount of
-damage a malicious extension or browser exploit could wreak is much less
-than usual.
+read `~/.ssh` or `~/.gnupg`, so they can't. They can only interact with
+whitelisted paths (with permission to read, write, execute, create, or
+any combination thereof, depending on what's stipulated). As a result,
+the amount of damage a malicious extension or browser exploit could
+wreak is much less than usual.
 
 ## Privacy
 
