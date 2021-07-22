@@ -68,14 +68,15 @@ is a didactic environment well-suited to anyone with a DIY attitude.
 
 Of course, no discussion of OpenBSD's strengths would be complete
 without mention of [its focus on
-security](https://www.openbsd.org/security.html). One great example is
+security](https://www.openbsd.org/security.html).
+
+One example I like, albeit one not strictly focused on the base system,
+is how Firefox and Tor Browser are packaged with
 [`pledge(2)`](https://man.openbsd.org/pledge) and
-[`unveil(2)`](https://man.openbsd.org/unveil) support for Firefox and Tor
-Browser. There's no reason these browsers should be able to read
-`~/.ssh`, `~/.gnupg`, or private documents, so they can't. If they request a file
-or capability outside of those that are whitelisted (`~/Downloads` being one
-such whitelisted location), they'll fail. As a result, the amount of
-damage a malicious extension or browser exploit can wreak is much less
+[`unveil(2)`](https://man.openbsd.org/unveil) in mind. Speaking to the
+latter system call, there's no reason these browsers should be able to
+read `~/.ssh` or `~/.gnupg`, so they can't. As a result, the amount of
+damage a malicious extension or browser exploit could wreak is much less
 than usual.
 
 ## Privacy
