@@ -122,6 +122,19 @@ I mean this both in terms of system stability and how fast things
 change. A constantly changing system is a nightmare to maintain for
 system administrators.
 
+## Sane defaults
+
+OpenBSD is very configurable, but usually it doesn't really *need* to be
+configured. Where most minimal Linux distributions require some ironing
+out to really feel viable, OpenBSD doesn't. There's no need to set up
+the plethora of things that minimal Linux distributions would demand of
+you, like time synchronization, cron, log rotation, local mail delivery,
+ACPI events, and so forth. It's all there already, and set up to work in
+such a way that many users never need to configure them. I miss that
+seamless, integrated feeling every time I work with something that isn't
+OpenBSD, and the truly magical thing is OpenBSD does all this without
+feeling bloated.
+
 ## Other resources
 
 - [Why OpenBSD rocks](https://why-openbsd.rocks/fact/)
