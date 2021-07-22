@@ -91,7 +91,7 @@ permission.
 
 This might sound strange. Surely Linux supports more hardware, no? The
 key is that when OpenBSD supports a piece of hardware, it supports it
-really well. Things that are often a struggle to set up on minimalist
+really well. Things that are often tedious to set up on minimalist
 Linux distributions are a piece of cake on OpenBSD. Power management,
 CPU frequency scaling, and hibernate + suspend are easily handled by
 [`apmd(8)`](https://man.openbsd.org/apmd), for example.
