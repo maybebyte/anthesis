@@ -60,9 +60,9 @@ and ideas developed by the OpenBSD project. Did you know that
 
 OpenBSD feels transparent and comprehensible.  Between the FAQ, man
 pages, and mailing lists, as well as other resources `(/etc/examples,
-/usr/local/share/doc/pkg-readmes)`, OpenBSD gives one the tools to
-understand any problems one may run into at a fundamental level. It's a
-didactic environment well-suited to anyone with a DIY attitude.
+/usr/local/share/doc/pkg-readmes)`, the user is not lacking in ways to
+understand how the system works under the hood. An OpenBSD installation
+is a didactic environment well-suited to anyone with a DIY attitude.
 
 ## Security
 
