@@ -44,9 +44,10 @@ choice. Deciding what implementation to use for a mail/web/DNS/NTP
 server is a task in itself, as there are many out there. With OpenBSD,
 one already has a sane, powerful, and secure suite of software to choose
 from, also known as the [base
-system](https://why-openbsd.rocks/fact/base-system-concept/). For
-instance, a secure web server with automated certificate renewal can be
-had with [`httpd(8)`](https://man.openbsd.org/httpd) and
+system](https://why-openbsd.rocks/fact/base-system-concept/).
+
+For instance, a web server with automated certificate renewal can be had
+with [`httpd(8)`](https://man.openbsd.org/httpd) and
 [`acme-client(1)`](https://man.openbsd.org/acme-client), all without
 installing any additional software.
 
