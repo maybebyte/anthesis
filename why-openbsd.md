@@ -58,7 +58,7 @@ and ideas developed by the OpenBSD project. Did you know that
 
 ## Great documentation
 
-OpenBSD feels transparent and comprehensible.  Between the FAQ, man
+OpenBSD feels transparent and comprehensible. Between the FAQ, man
 pages, and mailing lists, as well as other resources `(/etc/examples,
 /usr/local/share/doc/pkg-readmes)`, the user is not lacking in ways to
 understand how the system works under the hood. An OpenBSD installation
