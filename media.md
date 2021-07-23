@@ -1,5 +1,14 @@
 # Media I find noteworthy
 
+## 2021-07-23
+
+- [Introducing
+  dhcpleased(8)](https://undeadly.org/cgi?action=article;sid=20210722072359).
+  I really like this concept, great to see more privilege separation. It
+  works great with
+  [`resolvd(8)`](https://man.openbsd.org/resolvd) and
+  [`unwind(8)`](https://man.openbsd.org/unwind).
+
 ## 2021-07-20
 
 Note that the two links to Signal's blog are included in the Stanford
