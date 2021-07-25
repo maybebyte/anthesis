@@ -95,8 +95,8 @@ I mean this both in terms of system stability and how fast things
 change. A constantly changing system is a nightmare to maintain for
 system administrators.
 
-Users can depend on a new release being made available once every 6
-months. Every new release comes with documentation on changes made and
+Users can depend on a new release being made available about once every
+6 months. Every new release comes with documentation on changes made and
 how to upgrade, which is a painless process with the
 [`sysupgrade(8)`](https://man.openbsd.org/sysupgrade) tool. [Here is
 what the upgrade from 6.8 to 6.9 looks
