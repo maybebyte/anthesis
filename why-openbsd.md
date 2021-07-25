@@ -40,6 +40,8 @@ consciously avoids feature creep. There aren't as many bells and
 whistles compared to other operating systems and that's good! That means
 there's less to sift through if something breaks.
 
+Minimalism is another word that could be used to describe this concept.
+
 ## Less decision paralysis
 
 One of Linux's strengths is also a grave weakness: the abundance of
