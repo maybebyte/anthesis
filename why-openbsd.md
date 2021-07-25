@@ -14,6 +14,9 @@ Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD t
 
 - Dislike reading/are unwilling to learn. OpenBSD *will* require reading
   from time to time, it's just how it is.
+- Expect it to work like $PREVIOUS_OS. There's probably a way to make
+  OpenBSD do what you want, but it's the OpenBSD way, not the
+  $PREVIOUS_OS way.
 - Prioritize performance above all else.
 - Desire a powerful filesystem like ZFS.
 - Want all the latest features.
