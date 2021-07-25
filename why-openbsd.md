@@ -46,10 +46,11 @@ one already has a sane, powerful, and secure suite of software to choose
 from, also known as the [base
 system](https://why-openbsd.rocks/fact/base-system-concept/).
 
-For instance, a web server with automated certificate renewal can be had
-with [`httpd(8)`](https://man.openbsd.org/httpd) and
-[`acme-client(1)`](https://man.openbsd.org/acme-client), all without
-installing any additional software.
+For instance, a web server with HTTPS and automated certificate renewal
+can be had with [`httpd(8)`](https://man.openbsd.org/httpd),
+[`acme-client(1)`](https://man.openbsd.org/acme-client), and
+[`cron(8)`](https://man.openbsd.org/cron), all without installing any
+additional software.
 
 See [OpenBSD's "innovations"
 page](https://www.openbsd.org/innovations.html) for more cool software
