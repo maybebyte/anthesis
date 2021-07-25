@@ -89,12 +89,24 @@ the entertainment center isn't doing much.
 
 1. To get it out of the way as early as possible, set up
    [`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
-   If we're compiling software anyway, we might as well compile natively
-   for the microarchitecture in use.
 
-   Note that `CPUTYPE` and the `MFX` option shouldn't be copied blindly
-   if you aren't using a Latte Panda Delta.[^1] None of it should be
-   copied blindly in reality, but especially those.
+   In my case, there's no need to run binaries compiled on the Latte
+   Panda Delta on other computers. Given this, I set
+   `CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
+   [Goldmont
+   Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
+   microarchitecture (the Latte Panda Delta's microarchitecture),
+   assuming that the `CPUTYPE` variable is not already defined somehow.
+
+   Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
+   using a Latte Panda Delta. Compiling binaries for a microarchitecture
+   other than that of the machine trying to run them will end poorly.
+
+   `MFX` is for [Intel Quick Sync
+   Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
+   support in `multimedia/ffmpeg`, because the [Celeron
+   N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
+   (the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
 
         # cat <<EOF >/etc/make.conf
         # performance related tweaks
@@ -155,7 +167,7 @@ the entertainment center isn't doing much.
    fresh installation or not (based on information
    contained in
    [`hier(7)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=hier), I'd assume not).
-   I create the directory here just to be safe.[^2]
+   I create the directory here just to be safe.[^1]
 
         # mkdir -p /usr/local/share/fonts
         # cat <<EOF >/usr/local/share/fonts/local.conf
@@ -446,16 +458,6 @@ For now, Kodi is enough to quell my boredom.
   Google Docs).
 
 [^1]:
-    I found the relevant info for `CPUTYPE` in
-    `/usr/share/examples/etc/make.conf`. `MFX` is for Intel Quick Sync,
-    because [the CPU inside the Latte Panda
-    Delta](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
-    supports it. Save yourself the heartache and research `CPUTYPE`
-    *before* building. The last thing you want is to realize you built
-    for the wrong microarchitecture, as that means the resulting binaries
-    won't work and you'll need to rebuild again.
-
-[^2]:
     We want this stuff to be specified before we install Kodi
     because of the way that the `FONTCONFIG` option works, and building
     fonts from source separately just to make sure that directory exists
