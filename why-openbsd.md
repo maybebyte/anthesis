@@ -3,8 +3,8 @@
 [![The OpenBSD logo with the mascot, Puffy the pufferfish, above it.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
 
 Formerly, my thoughts on [OpenBSD](https://www.openbsd.org/) were
-scattered around my website. I'd allude to its strengths when needed;
-however, that approach made my argumentation feel disjointed as a
+scattered around my website. I'd allude to its strengths when needed.
+However, that approach made my argumentation feel disjointed as a
 result. Overall, it seems more sensible to have a central place to talk
 about these things that can be linked to from elsewhere.
 
