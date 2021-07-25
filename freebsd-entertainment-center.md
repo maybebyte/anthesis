@@ -38,7 +38,9 @@ The short of it is as follows:
 1. [Obtain an installation image for
 amd64](https://www.freebsd.org/where/).
 
-1. Verify the image's checksum and GPG signature.
+1. Verify the image's checksum and GPG signature. Without this, there is
+   no assurance that the installation image is from the source it claims
+   to be and that it hasn't been tampered with.
 
 1. Flash the image to a USB drive.
 
