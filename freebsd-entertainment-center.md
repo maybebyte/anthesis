@@ -277,7 +277,7 @@ the entertainment center isn't doing much.
   If you forgot to add `kodi` to the `video` group, no problem. Just
   issue the following:
 
-        # pw groupmod wheel -m kodi
+        # pw groupmod video -m kodi
 
   After that, make sure to log in as `kodi`.
 
