@@ -88,14 +88,26 @@ wreak is much less than usual.
 default, meaning that no video or audio can be recorded without
 permission.
 
-## Hardware compatibility
+## Stability
 
-This might sound strange. Surely Linux supports more hardware, no? The
-key is that when OpenBSD supports a piece of hardware, it supports it
-really well. Things that are often tedious to set up on minimalist
-Linux distributions are a piece of cake on OpenBSD. Power management,
-CPU frequency scaling, and hibernate + suspend are easily handled by
-[`apmd(8)`](https://man.openbsd.org/apmd), for example.
+I mean this both in terms of system stability and how fast things
+change. A constantly changing system is a nightmare to maintain for
+system administrators.
+
+## Sane defaults
+
+OpenBSD is very configurable, but usually it doesn't really *need* to be
+configured. There's no need to set up the plethora of things that
+minimal Linux distributions would demand of you, like time
+synchronization, cron, log rotation, local mail delivery, and so forth.
+I miss that seamless, integrated feeling every time I work with
+something that isn't OpenBSD. The truly magical thing is OpenBSD does
+all this without feeling bloated.
+
+Also, the things that *do* require intervention from the user are
+usually pretty straightforward. For instance, enabling power management
+and hibernate + suspend is a three step process involving
+[`apmd(8)`](https://man.openbsd.org/apmd).
 
 1. Enable the service.
 
@@ -108,30 +120,6 @@ CPU frequency scaling, and hibernate + suspend are easily handled by
 1. Finally, start the service.
 
         # rcctl start apmd
-
-The only unusual thing regarding hardware compatibility is that binary
-blobs, needed sometimes for graphics and wireless, aren't distributed
-with the installation images. Rather, they're automatically detected and
-installed with [`fw_update(1)`](https://man.openbsd.org/fw_update) upon
-first boot given a functioning Internet connection. I'd say it's a
-superior approach overall, as binary blobs are a security risk and using
-a tool like this ensures only what's needed is installed.
-
-## Stability
-
-I mean this both in terms of system stability and how fast things
-change. A constantly changing system is a nightmare to maintain for
-system administrators.
-
-## Sane defaults
-
-OpenBSD is very configurable, but usually it doesn't really *need* to be
-configured. There's no need to set up the plethora of things that
-minimal Linux distributions would demand of you, like time
-synchronization, cron, log rotation, local mail delivery, ACPI events,
-and so forth. I miss that seamless, integrated feeling every time I work
-with something that isn't OpenBSD. The truly magical thing is
-OpenBSD does all this without feeling bloated.
 
 ## Other resources
 
