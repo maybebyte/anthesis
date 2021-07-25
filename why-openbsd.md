@@ -107,7 +107,8 @@ all this without feeling bloated.
 Also, the things that *do* require intervention from the user are
 usually pretty straightforward. For instance, enabling power management
 and hibernate + suspend is a three step process involving
-[`apmd(8)`](https://man.openbsd.org/apmd).
+[`apmd(8)`](https://man.openbsd.org/apmd) and
+[`rcctl(8)`](https://man.openbsd.org/rcctl).
 
 1. Enable the service.
 
