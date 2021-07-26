@@ -101,8 +101,9 @@ the entertainment center isn't doing much.
    assuming that the `CPUTYPE` variable is not already defined somehow.
 
    Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
-   using a Latte Panda Delta. Compiling binaries for a microarchitecture
-   other than that of the machine trying to run them will end poorly.
+   using a Latte Panda Delta or something else with an appropriate CPU.
+   Compiling binaries for a microarchitecture other than that of the
+   machine trying to run them will end poorly.
 
    `MFX` is for [Intel Quick Sync
    Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
