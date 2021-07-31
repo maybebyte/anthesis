@@ -92,6 +92,6 @@ Some other resources:
   Markdown](https://www.markdownguide.org/basic-syntax/). Note that you
   need something that can parse Markdown to make it useful. I like
   [lowdown](https://kristaps.bsd.lv/lowdown) in tandem with
-  [SSG](https://rgz.ee/ssg.html).
+  [ssg](https://rgz.ee/ssg.html).
 - [Mozilla's web documentation](https://developer.mozilla.org/en-US/) is
   a great reference.
