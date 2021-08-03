@@ -37,10 +37,6 @@ a:visited {
   text-decoration: none;
 }
 
-.navbar {
-  border: 1.5px dotted #e0e9f0;
-}
-
 nav li a,
 nav li a:visited {
   color: #e0e9f0;
@@ -66,22 +62,6 @@ img {
   body {
     max-width: 75%;
     margin: auto;
-  }
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-size: 24px;
-    outline: outset #e0e9f0;
-    border: initial;
-  }
-  nav li {
-    display: block;
-    padding: initial;
-  }
-  nav li a {
-    justify-content: center;
-    padding: 20px 20px;
   }
 }
 
