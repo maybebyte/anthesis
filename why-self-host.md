@@ -65,7 +65,3 @@ Bear in mind that this process doesn't have to be all or
 nothing. Gradually replace things as comfortable and note the
 differences. If those differences are more positive than negative,
 embrace it.
-
-Check out [my guide on self-hosting](/self-host-guide.html), [software
-I use](/pc.html), and [FLOSS OS recommendations](/os.html) for
-more ways to defend privacy and freedom.
