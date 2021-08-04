@@ -1,4 +1,4 @@
-# Search sites directly using Firefox's "add keyword" feature
+# Search sites directly with Firefox
 
 You probably use a search engine to navigate the Internet. However, you
 might not know that Firefox's[^1] "add keyword" feature allows you to
