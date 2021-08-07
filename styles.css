@@ -64,25 +64,3 @@ img {
     margin: auto;
   }
 }
-
-/*
- *this CSS makes the whoami fluff at the bottom of the page work
- */
-.whoami {
-  font-size: 20px;
-}
-
-.whoami_cursor {
-  height: 1px;
-  width: 8px;
-  background: #e0e9f0;
-  display: inline-block;
-  margin-left: 8px;
-  animation: 2500ms step-start 0s infinite blink;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0.0;
-  }
-}
