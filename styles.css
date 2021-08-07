@@ -55,7 +55,7 @@ img {
 }
 
 /*
- *    desktop design
+ *desktop design
  */
 @media (min-width: 800px) {
   html,
@@ -65,14 +65,13 @@ img {
   }
 }
 
+/*
+ *this CSS makes the whoami fluff at the bottom of the page work
+ */
 .whoami {
   font-size: 20px;
 }
 
-/*
- *    '.whoami_cursor' and '@keyframes blink' are what make the cursor
- *    at the bottom of the page following '$ whoami' blink.
- */
 .whoami_cursor {
   animation: 2500ms step-start infinite blink;
 }
