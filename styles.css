@@ -73,7 +73,7 @@ img {
 }
 
 .whoami_cursor {
-  animation: 2500ms step-start infinite blink;
+  animation: 2500ms step-start 0s infinite blink;
 }
 
 @keyframes blink {
