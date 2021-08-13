@@ -46,9 +46,11 @@ Quoting isn't strictly necessary. I do it out of habit.
 
 To list the available metadata fields, use `beet fields`.
 
-## Odds and ends
+## Plugins
 
-These are helpful things to know that aren't related to the core functionality of beets.
+There are high quality plugins available for beets that extend its
+functionality and sweeten the deal even more. I won't list all of them
+here, but I'll include a couple examples for demonstrative purposes.
 
 ### Album art
 
@@ -86,6 +88,11 @@ Then, update your library.
 See [the documentation for
 lastgenre](https://beets.readthedocs.io/en/stable/plugins/lastgenre.html)
 for more details.
+
+## When beets is beat
+
+Beets handles most everything well. In some situations, however, I had
+to gently coax it into understanding what I wanted it to do.
 
 ### Dealing with false positives
 
