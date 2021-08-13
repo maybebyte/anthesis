@@ -12,7 +12,97 @@ Avoid that predicament by using [beets](https://beets.io/). From the
 project's website:
 >"Beets is the media library management system for obsessive music geeks."
 
-## Cue splitting
+## Configuring beets (if needed)
+
+By default, beets imports music to `~/Music`. If this fits your use
+case, feel free to skip this section. Otherwise, add the path of your
+music library to the `config.yaml` file:
+
+    directory: /path/to/music/library
+
+Chances are that you won't need to modify anything else. Otherwise, see
+[Configuration](https://beets.readthedocs.io/en/stable/reference/config.html).
+
+## Importing music
+
+In order to be useful, beets needs a library to work with, and that
+means importing music. Fortunately, importing music is pretty simple.
+
+    $ beet import /path/to/album
+
+`beet import` prompts the user for additional details if needed. If the
+similarity score is high enough, beets tags the music automatically
+and moves on.
+
+## Querying music
+
+To list music, use `beet ls`. Beets can narrow down the query via a
+plethora of metadata fields (`genre`, `artist`, `album`, `year`,
+`country`, and so on).
+
+    $ beet ls genre:"Progressive Rock"
+
+Quoting isn't strictly necessary. I do it out of habit.
+
+To list the available metadata fields, use `beet fields`.
+
+## Odds and ends
+
+These are helpful things to know that aren't related to the core functionality of beets.
+
+### Album art
+
+Ordinarily, this wouldn't matter to me too much as I primarily use
+[NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++") +
+[MPD](https://www.musicpd.org/ "Music Player Daemon") to play music.
+However, with more full-featured applications like
+[Kodi](https://kodi.tv/), missing artwork sticks out like a sore thumb
+to me.
+
+Fortunately, there's an easy fix for this. Make certain the following is
+in `config.yaml`:
+
+    plugins: fetchart
+
+Then, update your library.
+
+    $ beet fetchart
+
+See [the documentation for
+fetchart](https://beets.readthedocs.io/en/stable/plugins/fetchart.html) for more details.
+
+### Genre
+
+MusicBrainz actually doesn't contain genre information, so I use a
+plugin for this, too. Ensure that you place the appropriate entry under
+`plugins` in `config.yaml`:
+
+    plugins: lastgenre
+
+Then, update your library.
+
+    $ beet lastgenre
+
+See [the documentation for
+lastgenre](https://beets.readthedocs.io/en/stable/plugins/lastgenre.html)
+for more details.
+
+### Dealing with false positives
+
+Sometimes beets makes mistakes (particularly when operating without the
+[chroma
+plugin](https://beets.readthedocs.io/en/stable/plugins/chroma.html)).
+Even with acoustic fingerprinting, certain things may be off. The
+release date, record label, or country might be wrong, for instance. I
+use `-t` (timid) for this reason.
+
+If `-t` is used consistently, consider setting the equivalent option in
+`config.yaml`.
+
+    import:
+      timid: yes
+
+### Cue splitting
 
 Beets needs a separate file for each track in order to tag music, yet
 some releases have only one FLAC file for the entire album.
@@ -61,94 +151,3 @@ By default, `splitflac` doesn't delete the original FLAC file. To do so
 if the other commands succeed, pass the `-d` flag.
 
     $ splitflac -d example.cue example.flac
-
-## Configuring beets (if needed)
-
-By default, beets imports music to `~/Music`. If this fits your use
-case, feel free to skip this section. My music is located at
-`/mnt/music` since I use an external drive to store it, so I added
-this to my `config.yaml` file:
-
-    directory: /mnt/music
-
-Chances are that you won't need to modify anything else. Otherwise, see
-[Configuration](https://beets.readthedocs.io/en/stable/reference/config.html).
-
-## Importing music
-
-Importing music is pretty simple.
-
-    $ beet import /path/to/album
-
-`beet import` prompts the user for additional details if needed. If the
-similarity score is high enough, beets tags the music automatically
-and moves on.
-
-## Dealing with false positives
-
-Sometimes beets makes mistakes. The release date, record label, or
-country might be wrong, for instance. I use `-t` (timid) for this
-reason.
-
-If the provided [MusicBrainz](https://musicbrainz.org/) URL at least
-points to the correct album, press 'm' (More candidates) to see more options.
-
-Rarely, beets will spit out something that doesn't match at all. When
-this happens, it's easiest to manually search for the album on
-MusicBrainz. Then, copy and paste the URL and feed it to beets by
-pressing 'i' (enter ID).
-
-If `-t` is used consistently, consider setting the equivalent option in
-`config.yaml`.
-
-    import:
-      timid: yes
-
-## Querying music
-
-To list music, use `beet ls`. Beets can narrow down the query via a
-plethora of metadata fields (`genre`, `artist`, `album`, `year`,
-`country`, and so on).
-
-    $ beet ls genre:"Progressive Rock"
-
-Quoting isn't strictly necessary. I do it out of habit.
-
-To list the available metadata fields, use `beet fields`.
-
-## Album art
-
-Ordinarily, this wouldn't matter to me too much as I primarily use
-[NCMPCPP](https://rybczak.net/ncmpcpp/ "NCurses Music Player C++") +
-[MPD](https://www.musicpd.org/ "Music Player Daemon") to play music.
-However, with more full-featured applications like
-[Kodi](https://kodi.tv/), missing artwork sticks out like a sore thumb
-to me.
-
-Fortunately, there's an easy fix for this. Make certain the following is
-in `config.yaml`:
-
-    plugins: fetchart
-
-Then, update your library.
-
-    $ beet fetchart
-
-See [the documentation for
-fetchart](https://beets.readthedocs.io/en/stable/plugins/fetchart.html) for more details.
-
-## Genre
-
-MusicBrainz actually doesn't contain genre information, so I use a
-plugin for this, too. Ensure that you place the appropriate entry under
-`plugins` in `config.yaml`:
-
-    plugins: lastgenre
-
-Then, update your library.
-
-    $ beet lastgenre
-
-See [the documentation for
-lastgenre](https://beets.readthedocs.io/en/stable/plugins/lastgenre.html)
-for more details.
