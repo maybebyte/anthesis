@@ -14,9 +14,9 @@ project's website:
 
 ## Configuring beets (if needed)
 
-By default, beets imports music to `~/Music`. If this fits your use
-case, feel free to skip this section. Otherwise, add the path of your
-music library to the `config.yaml` file:
+By default, beets places imported music in `~/Music`. If this fits your
+use case, feel free to skip this section. Otherwise, add the desired
+path to the `config.yaml` file:
 
     directory: /path/to/music/library
 
