@@ -32,6 +32,7 @@ nav ul {
 }
 
 a,
+a code,
 a:visited {
   color: #996aea;
   text-decoration: none;
