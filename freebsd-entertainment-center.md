@@ -91,8 +91,7 @@ the entertainment center isn't doing much.
    `CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
    [Goldmont
    Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
-   microarchitecture (the Latte Panda Delta's microarchitecture),
-   assuming that the `CPUTYPE` variable is not already defined somehow.
+   microarchitecture (the Latte Panda Delta's microarchitecture).
 
    Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
    using a Latte Panda Delta or something else with an appropriate CPU.
