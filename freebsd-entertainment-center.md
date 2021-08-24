@@ -74,11 +74,7 @@ the entertainment center isn't doing much.
 
 1. [Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
 
-        # git clone https://git.freebsd.org/ports.git -b 2021Q2 /usr/ports
-
-  Of course, the argument for `-b` will change with time, so be sure to
-  check what the latest quarterly branch is if that's the version of
-  ports you intend to track.
+        # git clone https://git.freebsd.org/ports.git /usr/ports
 
 1. [Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
    This is required for building `graphics/drm-kmod`.
