@@ -211,26 +211,11 @@ the entertainment center isn't doing much.
 
   After that, make sure to log in as `kodi`.
 
-1. Before we create `/home/kodi/.xinitrc`, I  like to add
-   `/home/kodi/.Xresources` with some choice contents for eye candy
-   purposes.
-
-        $ cat <<EOF >~/.Xresources
-        ! eye candy for non-{GTK,QT} applications
-        Xft.antialias: 1
-        Xft.autohint:  0
-        Xft.hinting:   1
-        Xft.hintstyle: hintslight
-        Xft.lcdfilter: lcddefault
-        Xft.rgba:      rgb
-        EOF
-
 1. In order to initialize a graphical environment, we need to create
    `/home/kodi/.xinitrc`.
 
         $ cat <<EOF >~/.xinitrc
         . "${HOME}/.profile"
-        xrdb "${HOME}/.Xresources"
         xset s noblank
         xset s off
         xset -dpms
