@@ -114,13 +114,10 @@ the entertainment center isn't doing much.
         OPTIONS_SET+=DOCS EXAMPLES MANPAGES
         #
         # sndio
-        OPTIONS_SET+=PORTAUDIO SNDIO
+        OPTIONS_SET+=SNDIO
         #
         # graphical stuff
-        OPTIONS_SET+=FONTCONFIG X11
-        #
-        # misc
-        OPTIONS_SET+=JOYSTICK
+        OPTIONS_SET+=X11
         #
         # stuff to get rid of
         OPTIONS_UNSET=ALSA BASH CUPS PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND ZSH
@@ -157,82 +154,6 @@ the entertainment center isn't doing much.
 
         # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
 
-1. I prefer to use Noto fonts as Kodi's default (hence why the
-   `FONTCONFIG` option is specified in `make.conf`).
-
-   I can't remember offhand if `/usr/local/share/fonts` is present on a
-   fresh installation or not (based on information
-   contained in
-   [`hier(7)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=hier), I'd assume not).
-   I create the directory here just to be safe.[^1]
-
-        # mkdir -p /usr/local/share/fonts
-        # cat <<EOF >/usr/local/share/fonts/local.conf
-        <?xml version="1.0"?>
-        <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-        <fontconfig>
-          <!-- hinting/antialiasing settings -->
-          <match target="font">
-            <edit mode="assign" name="antialias">
-              <bool>true</bool>
-            </edit>
-            <edit mode="assign" name="hinting">
-              <bool>true</bool>
-            </edit>
-            <edit mode="assign" name="hintstyle">
-              <const>hintslight</const>
-            </edit>
-            <edit mode="assign" name="rgba">
-              <const>rgb</const>
-            </edit>
-            <edit mode="assign" name="lcdfilter">
-              <const>lcddefault</const>
-            </edit>
-            <edit mode="assign" name="autohint">
-              <bool>false</bool>
-            </edit>
-            <edit mode="assign" name="scalable">
-              <bool>false</bool>
-            </edit>
-            <edit mode="assign" name="embeddedbitmap">
-              <bool>false</bool>
-            </edit>
-          </match>
-          <!-- preferred fonts (first match will be used) -->
-          <alias>
-            <family>serif</family>
-            <prefer>
-              <family>Noto Serif</family>
-              <family>Noto Color Emoji</family>
-            </prefer>
-          </alias>
-          <alias>
-            <family>sans-serif</family>
-            <prefer>
-              <family>Noto Sans</family>
-              <family>Noto Color Emoji</family>
-            </prefer>
-          </alias>
-          <alias>
-            <family>sans</family>
-            <prefer>
-              <family>Noto Sans</family>
-              <family>Noto Color Emoji</family>
-            </prefer>
-          </alias>
-          <alias>
-            <family>monospace</family>
-            <prefer>
-              <family>Noto Mono</family>
-              <family>Noto Color Emoji</family>
-            </prefer>
-          </alias>
-        </fontconfig>
-        EOF
-
-  More or less, this is a slightly modified version of the `fonts.conf`
-  present in my dotfiles.
-
 1. Ensure you're inside a `tmux` session. It's important for the next
    part.
 
@@ -257,7 +178,7 @@ the entertainment center isn't doing much.
    `multimedia/libva-intel-media-driver` and
    `multimedia/libvdpau-va-gl`.
 
-        # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver multimedia/libvdpau-va-gl x11/xorg x11-fonts/noto misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
+        # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver multimedia/libvdpau-va-gl x11/xorg misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
 
    After confirming that you want to build everything, detach from the
    `tmux` session (`CTRL-b d` is the default binding. Alternatively,
@@ -453,9 +374,3 @@ For now, Kodi is enough to quell my boredom.
   thread](https://www.avsforum.com/forum/139-display-calibration/948496-avs-hd-709-blu-ray-mp4-calibration.html).
   The OP deems it an 'alternate download link' (the other links are to
   Google Docs).
-
-[^1]:
-    We want this stuff to be specified before we install Kodi
-    because of the way that the `FONTCONFIG` option works, and building
-    fonts from source separately just to make sure that directory exists
-    seems like a waste to me.
