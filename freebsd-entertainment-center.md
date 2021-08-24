@@ -44,9 +44,7 @@ amd64](https://www.freebsd.org/where/).
 
 1. Flash the image to a USB drive.
 
-1. Ensure needed peripherals are connected (keyboard + monitor, a way to
-   connect to the Internet, and whatever else you might need), then boot
-   from the USB drive and go through the installation procedure.
+1. Boot from the USB drive and go through the installation procedure.
 
 ## After installation
 
