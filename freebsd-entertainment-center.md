@@ -27,10 +27,10 @@ specific needs on a Latte Panda Delta.
 
 ## Installation
 
-For the sake of brevity, I won't cover the installation process in depth. It's
+For the sake of brevity, I won't cover the process of installing FreeBSD in depth. It's
 [well-documented
 elsewhere](https://docs.freebsd.org/en/books/handbook/bsdinstall/), and
-I'm not doing anything out of the ordinary with FreeBSD during this
+I'm not doing anything out of the ordinary during this
 phase.
 
 The short of it is as follows:
