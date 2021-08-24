@@ -333,16 +333,6 @@ the master volume.
 
     # sysrc sndiod_enable="YES"
 
-Since Kodi isn't going to be playing more than one stream of audio at a
-time, using some information from [an OpenBSD misc@ thread archived on
-marc.info](https://marc.info/?t=152968639700029&r=1&w=2), I set some
-options to lessen the likelihood of audio being unnecessarily resampled.
-These values seem to be default in newer versions of `sndiod`, but
-weren't default in the version of `sndiod` associated with the `2021Q2`
-branch.
-
-    # sysrc sndiod_flags="-v 127 -w off"
-
 Then, start the daemon.
 
     # service sndiod start
