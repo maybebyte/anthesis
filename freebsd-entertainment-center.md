@@ -119,8 +119,8 @@ the entertainment center isn't doing much.
         # graphical stuff
         OPTIONS_SET+=X11
         #
-        # stuff to get rid of
-        OPTIONS_UNSET=ALSA BASH CUPS PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND ZSH
+        # disable certain build options
+        OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
         EOF
 
 1. Install your ports management tool of choice. I find `portmaster` to
