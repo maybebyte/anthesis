@@ -122,23 +122,24 @@ the entertainment center isn't doing much.
         OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
         EOF
 
-1. Install your ports management tool of choice. I find `portmaster` to
-   be the most reliable, as `synth` appears to break builds that
+1. Install your ports management tool of choice. I find `ports-mgmt/portmaster` to
+   be the most reliable, as `ports-mgmt/synth` appears to break builds that
    `portmaster` can cope with (probably some of the ports I use aren't
    written to handle parallel builds yet).
 
         # make -C /usr/ports/ports-mgmt/portmaster install clean
 
 1. I like to install a couple of tools to make myself comfortable before
-   building Kodi. In particular, I find `tmux` to be essential, because
-   one can detach from a `tmux` session and log out while `portmaster`
-   is building, then later log in and reattach to check on the build.
+   building Kodi. In particular, I find `sysutils/tmux` to be essential,
+   because one can detach from a `tmux` session and log out while
+   `portmaster` is building, then later log in and reattach to check on
+   the build.
 
-   I also rebuild `git` so `portmaster` controls it. It's probably
+   I also build `devel/git@tiny` so `portmaster` controls `git`. It's probably
    unneeded, but it helps me sleep at night.
 
-   Finally, I definitely recommend `doas` over `sudo` or `su` as a
-   simpler method of privilege elevation.
+   Finally, I definitely recommend `security/doas` as a simple method of
+   privilege elevation.
 
         # portmaster sysutils/tmux devel/git@tiny security/doas
 
@@ -146,7 +147,7 @@ the entertainment center isn't doing much.
    aforementioned tools, if the options in the base system don't meet
    your needs. I like `editors/neovim` and `shells/oksh`.
 
-1. If you've installed `doas`, set up
+1. If you've installed `security/doas`, set up
    [`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since
    persistence is currently unsupported on FreeBSD, I add `nopass` for
    my own sanity.
