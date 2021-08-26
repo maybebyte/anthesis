@@ -67,45 +67,45 @@ the entertainment center isn't doing much.
 
 ### make.conf
 
-1. To get it out of the way before compiling anything to ensure changes
-   are immediately effective, set up
-   [`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
+To get it out of the way before compiling anything to ensure changes
+are immediately effective, set up
+[`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
 
-   In my case, there's no need to run binaries compiled on the Latte
-   Panda Delta on other computers. Given this, I set
-   `CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
-   [Goldmont
-   Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
-   microarchitecture (the Latte Panda Delta's microarchitecture).
+In my case, there's no need to run binaries compiled on the Latte
+Panda Delta on other computers. Given this, I set
+`CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
+[Goldmont
+Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
+microarchitecture (the Latte Panda Delta's microarchitecture).
 
-   Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
-   using a Latte Panda Delta or something else with an appropriate CPU.
-   Compiling binaries for a microarchitecture other than that of the
-   machine trying to run them will end poorly.
+Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
+using a Latte Panda Delta or something else with an appropriate CPU.
+Compiling binaries for a microarchitecture other than that of the
+machine trying to run them will end poorly.
 
-   `MFX` is for [Intel Quick Sync
-   Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
-   support in `multimedia/ffmpeg`, because the [Celeron
-   N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
-   (the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
+`MFX` is for [Intel Quick Sync
+Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
+support in `multimedia/ffmpeg`, because the [Celeron
+N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
+(the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
 
-        # cat <<EOF >/etc/make.conf
-        # performance related tweaks
-        CPUTYPE?=goldmont-plus
-        OPTIONS_SET=ASM CPU_OPTS LTO MFX OPTIMIZED_CFLAGS PGO
-        #
-        # documentation
-        OPTIONS_SET+=DOCS EXAMPLES MANPAGES
-        #
-        # sndio
-        OPTIONS_SET+=SNDIO
-        #
-        # graphical stuff
-        OPTIONS_SET+=X11
-        #
-        # disable certain build options
-        OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
-        EOF
+     # cat <<EOF >/etc/make.conf
+     # performance related tweaks
+     CPUTYPE?=goldmont-plus
+     OPTIONS_SET=ASM CPU_OPTS LTO MFX OPTIMIZED_CFLAGS PGO
+     #
+     # documentation
+     OPTIONS_SET+=DOCS EXAMPLES MANPAGES
+     #
+     # sndio
+     OPTIONS_SET+=SNDIO
+     #
+     # graphical stuff
+     OPTIONS_SET+=X11
+     #
+     # disable certain build options
+     OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
+     EOF
 
 ### Checking out source code
 
