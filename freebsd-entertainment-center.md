@@ -67,7 +67,8 @@ the entertainment center isn't doing much.
 
 ### make.conf
 
-1. To get it out of the way as early as possible, set up
+1. To get it out of the way before compiling anything to ensure changes
+   are immediately effective, set up
    [`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
 
    In my case, there's no need to run binaries compiled on the Latte
