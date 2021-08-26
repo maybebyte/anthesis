@@ -65,23 +65,7 @@ the entertainment center isn't doing much.
     # sysrc powerd_enable="YES"
     # service powerd start
 
-### Checking out source code
-
-1. Install `git`, as it's needed for the following steps. I like the
-   `git-tiny` flavor.
-
-        # pkg install git-tiny
-
-1. [Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
-
-        # git clone https://git.freebsd.org/ports.git /usr/ports
-
-1. [Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
-   This is required for building `graphics/drm-kmod`.
-
-        # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
-
-### Odds and ends before compiling software
+### make.conf
 
 1. To get it out of the way as early as possible, set up
    [`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
@@ -122,6 +106,12 @@ the entertainment center isn't doing much.
         OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
         EOF
 
+### Checking out source code
+
+1. [Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
+
+        # portsnap fetch extract
+
 1. Install your ports management tool of choice. I find `ports-mgmt/portmaster` to
    be the most reliable, as `ports-mgmt/synth` appears to break builds that
    `portmaster` can cope with (probably some of the ports I use aren't
@@ -129,19 +119,28 @@ the entertainment center isn't doing much.
 
         # make -C /usr/ports/ports-mgmt/portmaster install clean
 
+1. Install `git`, as it's needed for checking out the source tree. I
+   like the `git-tiny` flavor.
+
+        # portmaster devel/git@tiny
+
+1. [Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
+   This is required for building `graphics/drm-kmod`.
+
+        # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
+
+### Odds and ends before compiling Kodi
+
 1. I like to install a couple of tools to make myself comfortable before
    building Kodi. In particular, I find `sysutils/tmux` to be essential,
    because one can detach from a `tmux` session and log out while
    `portmaster` is building, then later log in and reattach to check on
    the build.
 
-   I also build `devel/git@tiny` so `portmaster` controls `git`. It's probably
-   unneeded, but it helps me sleep at night.
-
-   Finally, I definitely recommend `security/doas` as a simple method of
+   I definitely recommend `security/doas` as a simple method of
    privilege elevation.
 
-        # portmaster sysutils/tmux devel/git@tiny security/doas
+        # portmaster sysutils/tmux security/doas
 
    Consider installing a text editor and a shell in addition to the
    aforementioned tools, if the options in the base system don't meet
@@ -163,9 +162,9 @@ the entertainment center isn't doing much.
    `tmux` session currently open. If not, it first tries to attach to an
    existing session, and creates a new session if that fails.
 
-### Compiling software
+### Compiling Kodi
 
-1. Alright, it's finally time to compile software.
+1. Alright, it's finally time to compile Kodi.
 
    Note: if you don't want to configure anything beyond what's already
    specified in `make.conf`, prepend `BATCH=1` to the below command. I
