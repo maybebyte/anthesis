@@ -107,6 +107,9 @@ N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron
      OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
      EOF
 
+Optionally, use [LibreSSL](https://wiki.freebsd.org/LibreSSL) for ports by
+adding `DEFAULT_VERSIONS+=ssl=libressl` to make.conf.
+
 ### Checking out source code
 
 1. [Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
