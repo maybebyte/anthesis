@@ -108,7 +108,8 @@ N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron
      EOF
 
 Optionally, use [LibreSSL](https://wiki.freebsd.org/LibreSSL) for ports by
-adding `DEFAULT_VERSIONS+=ssl=libressl` to make.conf.
+adding `DEFAULT_VERSIONS+=ssl=libressl` to `make.conf`. Bear in mind
+that some ports, like `ftp/curl`, will require manual intervention.
 
 ### Checking out source code
 
