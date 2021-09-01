@@ -71,24 +71,6 @@ To get it out of the way before compiling anything to ensure changes
 are immediately effective, set up
 [`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
 
-In my case, there's no need to run binaries compiled on the Latte
-Panda Delta on other computers. Given this, I set
-`CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
-[Goldmont
-Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
-microarchitecture (the Latte Panda Delta's microarchitecture).
-
-Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
-using a Latte Panda Delta or something else with an appropriate CPU.
-Compiling binaries for a microarchitecture other than that of the
-machine trying to run them will end poorly.
-
-`MFX` is for [Intel Quick Sync
-Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
-support in `multimedia/ffmpeg`, because the [Celeron
-N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
-(the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
-
     # cat <<EOF >/etc/make.conf
     # performance related tweaks
     CPUTYPE?=goldmont-plus
@@ -107,16 +89,37 @@ N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron
     OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
     EOF
 
+In my case, there's no need to run binaries compiled on the Latte
+Panda Delta on other computers. Given this, I set
+`CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
+[Goldmont
+Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
+microarchitecture (the Latte Panda Delta's microarchitecture).
+
+Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
+using a Latte Panda Delta or something else with an appropriate CPU.
+Compiling binaries for a microarchitecture other than that of the
+machine trying to run them will end poorly.
+
+`MFX` is for [Intel Quick Sync
+Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
+support in `multimedia/ffmpeg`, because the [Celeron
+N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
+(the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
+
 Optionally, use [LibreSSL](https://wiki.freebsd.org/LibreSSL) for ports by
 adding `DEFAULT_VERSIONS+=ssl=libressl` to `make.conf`. Bear in mind
 that some ports, like `ftp/curl`, will require manual intervention.
 
 ### Checking out source code
 
-[Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
+#### Checking out the ports tree
+
+[See the FreeBSD handbook entry on ports for more details](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
 
     # portsnap fetch extract
 
+#### Installing portmaster
 
 Install your ports management tool of choice. I find `ports-mgmt/portmaster` to
 be the most reliable, as `ports-mgmt/synth` appears to break builds that
@@ -125,12 +128,12 @@ written to handle parallel builds yet).
 
     # make -C /usr/ports/ports-mgmt/portmaster install clean
 
+#### Checking out FreeBSD's source code
 
 Install `git`, as it's needed for checking out the source tree. I
 like the `git-tiny` flavor.
 
     # portmaster devel/git@tiny
-
 
 [Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
 This is required for building `graphics/drm-kmod`.
@@ -138,6 +141,8 @@ This is required for building `graphics/drm-kmod`.
     # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
 
 ### Odds and ends before compiling Kodi
+
+#### Installing needed tools
 
 I like to install a couple of tools to make myself comfortable before
 building Kodi. In particular, I find `sysutils/tmux` to be essential,
@@ -154,6 +159,8 @@ your needs. I like `editors/neovim` and `shells/oksh`.
 
     # portmaster sysutils/tmux security/doas
 
+#### Setting up doas.conf
+
 If you've installed `security/doas`, set up
 [`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since
 persistence is currently unsupported on FreeBSD, I add `nopass` for
@@ -161,16 +168,18 @@ my own sanity.
 
     # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
 
-Ensure you're inside a `tmux` session. It's important for the next
-part.
+#### Entering a tmux session
 
-    $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
-
-Simply put, this one-liner checks to see if the current user has a
+Ensure you're inside a `tmux` session, as it's important for the next
+part. Simply put, this one-liner checks to see if the current user has a
 `tmux` session currently open. If not, it first tries to attach to an
 existing session, and creates a new session if that fails.
 
+    $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
+
 ### Compiling Kodi
+
+#### Using portmaster to compile ports
 
 Alright, it's finally time to compile Kodi.
 
@@ -199,11 +208,15 @@ realize that `portmaster` wasn't actually compiling anything for most
 of that time. Now that you've done so, you can truly relax, because
 compiling Kodi and Xorg on a single board computer isn't too speedy.
 
+#### Review installation messages
+
 Review installation messages to check for needed interventions.
 
     $ pkg query '%M' | less
 
 ### Setting up a user environment for Kodi
+
+#### Creating the kodi user
 
 Create a separate user for Kodi (I simply named mine `kodi`, and will
 refer to this separate user as such for the rest of this article). Make
@@ -218,8 +231,16 @@ issue the following:
 
 After that, make sure to log in as `kodi`.
 
+#### Creating .xinitrc
+
 In order to initialize a graphical environment, we need to create
 `/home/kodi/.xinitrc`.
+
+The `xset` commands are here to prevent interference with Kodi's
+screen blanking mechanisms. `unclutter` simply ensures that the
+cursor won't remain visible if idle (though the cursor shouldn't be
+visible during ordinary usage--it's merely a fallback in case that
+does happen, i.e., if a pointer device is accidentally bumped).
 
     $ cat <<EOF >~/.xinitrc
     . "${HOME}/.profile"
@@ -231,11 +252,7 @@ In order to initialize a graphical environment, we need to create
     exec kodi
     EOF
 
-The `xset` commands are there to prevent interference with Kodi's
-screen blanking mechanisms. `unclutter` simply ensures that the
-cursor won't remain visible if idle (though the cursor shouldn't be
-visible during ordinary usage--it's merely a fallback in case that
-does happen, i.e., if a pointer device is accidentally bumped).
+#### Start X
 
 From a console (not SSH), start X.
 
@@ -244,6 +261,8 @@ From a console (not SSH), start X.
 If it works, log out of `kodi` and back in to the user with root access.
 
 ### Starting Kodi automatically
+
+#### Setting up gettytab
 
 You'll likely want Kodi to start automatically on boot. Some things
 are required for this to work: the first is that `kodi` needs
@@ -256,6 +275,8 @@ to be automatically logged in. To address this, append some magic to
       :ht:np:sp#115200:al=kodi
     EOF
 
+#### Editing ttys
+
 Edit
 [`ttys(5)`](https://www.freebsd.org/cgi/man.cgi?query=ttys&apropos=0&sektion=0&manpath=FreeBSD+13.0-RELEASE&arch=default&format=html)
 to match below.
@@ -263,6 +284,8 @@ to match below.
     # Virtual terminals
     #ttyv1  "/usr/libexec/getty Pc"         xterm   onifexists secure
     ttyv1   "/usr/libexec/getty Al"         xterm   onifexists secure
+
+#### Ensure X is only started in the correct TTY
 
 As `kodi`, append this simple check to `/home/kodi/.profile`.
 Essentially, it makes sure X isn't running and that it would start X
@@ -296,15 +319,15 @@ In order to use bit-perfect mode, two `sysctl` tweaks are needed. Here,
 I use the first device, but be sure to check what device needs to be
 adjusted.
 
-    # sysctl dev.pcm.1.bitperfect=1
-    # sysctl hw.snd.maxautovchans=0
-
 A sound server isn't desirable in this case, as `/dev/dsp` can't
 be accessed concurrently in bit-perfect mode, so
 [`sndiod(8)`](https://man.openbsd.org/sndiod) remains disabled. Kodi
 will still use `sndio`, however, due to [behavior specific to the
 FreeBSD
 port](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
+
+    # sysctl dev.pcm.1.bitperfect=1
+    # sysctl hw.snd.maxautovchans=0
 
 #### Not bit-perfect
 
@@ -334,21 +357,25 @@ if tweaks made with `sysctl` are to be permanent,
 [`sysctl.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl.conf)
 must be modified accordingly.
 
-## Staying up to date
+### Staying up to date
+
+#### Fetch updates nightly with cron
 
 Pull in updates every night at `03:00` per
 [`portsnap(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=portsnap) and [`freebsd-update(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=freebsd-update).
-
-    # cat <<EOF | crontab -
-    > 0 3 * * * root /usr/sbin/portsnap cron
-    > 0 3 * * * root /usr/sbin/freebsd-update cron
-    > EOF
 
 Note that neither `portsnap cron` nor `freebsd-update cron` apply
 updates. They only download updates. Applying updates must be done
 manually, with `freebsd-update install` or `portsnap update`. I usually
 invoke them as `freebsd-update fetch install` and `portsnap fetch
 update` when upgrading anyway just to be sure.
+
+    # cat <<EOF | crontab -
+    > 0 3 * * * root /usr/sbin/portsnap cron
+    > 0 3 * * * root /usr/sbin/freebsd-update cron
+    > EOF
+
+#### Updating the system and ports
 
 When you're ready and have time to update, perform the following to
 apply changes to the ports and source tree, as well as binary updates to
