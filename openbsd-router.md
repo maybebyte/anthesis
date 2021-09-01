@@ -219,12 +219,10 @@ If everything's up and working, place the following in
 
 ### Concerning WireGuard and Unbound
 
-Ensure `127.0.0.1` is used for DNS or your router won't use
+- Ensure `127.0.0.1` is used for DNS or your router won't use
 [`unbound(8)`](https://man.openbsd.org/man8/unbound.8). See
 [`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
-
-Set the IP address of your VPN's DNS server as the `forward-addr` in
+- Set the IP address of your VPN's DNS server as the `forward-addr` in
 [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
-
-Don't set `forward-first: yes` or you'll experience DNS leaks whenever
+- Don't set `forward-first: yes` or you'll experience DNS leaks whenever
 the upstream resolver fails.
