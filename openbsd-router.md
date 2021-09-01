@@ -124,106 +124,107 @@ are needed if IPv6 tunneling is required.
 
 ### Method 1: `wg-quick`
 
-1. Install `wireguard-tools`.
+Install `wireguard-tools`.
 
-        # pkg_add wireguard-tools
+    # pkg_add wireguard-tools
 
-1. Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
-   `wg-quick` (omit the filename extension for conf filename).
+Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
+`wg-quick` (omit the filename extension for conf filename).
 
-        # wg-quick up [conf filename]
+    # wg-quick up [conf filename]
 
-1. Modify your `nat-to` entry in
-   [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
+Modify your `nat-to` entry in
+[`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
 
-        match out on wg inet from !(wg:network) to any nat-to (wg:0)
+    match out on wg inet from !(wg:network) to any nat-to (wg:0)
 
-1. Test the configuration.
+Test the configuration.
 
-        # pfctl -f /etc/pf.conf -nvv
+    # pfctl -f /etc/pf.conf -nvv
 
-1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
+If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
 
-        # pfctl -f /etc/pf.conf
+    # pfctl -f /etc/pf.conf
 
-1. Verify from a connected client.
+Verify from a connected client.
 
-        $ curl ifconfig.me -w '\n'
+    $ curl ifconfig.me -w '\n'
 
-1. If everything's up and working, place the following in
-   `/etc/rc.local` so a WireGuard connection is established on boot.
+If everything's up and working, place the following in
+`/etc/rc.local` so a WireGuard connection is established on boot.
 
-        /usr/local/bin/wg-quick up [conf filename]
+    /usr/local/bin/wg-quick up [conf filename]
 
 This works just fine--that said, `ifconfig` has the advantage of no
 dependencies.
 
 ### Method 2: `ifconfig`
 
-1. Create `wg0`.
+Create `wg0`.
 
-        # ifconfig wg0 create
+    # ifconfig wg0 create
 
-1. Add the private key.
+Add the private key.
 
-        # ifconfig wg0 wgkey [private key]
+    # ifconfig wg0 wgkey [private key]
 
-1. Add the public key and related options.
+Add the public key and related options.
 
-        # ifconfig wg0 wgpeer [public key] \
-        wgendpoint [endpoint addr] [port] \
-        wgaip 0.0.0.0/0
+    # ifconfig wg0 wgpeer [public key] \
+    > wgendpoint [endpoint addr] [port] \
+    > wgaip 0.0.0.0/0
 
-1. Add the IP address specified in your WireGuard configuration file.
+Add the IP address specified in your WireGuard configuration file.
 
-        # ifconfig wg0 [if addr]
+    # ifconfig wg0 [if addr]
 
-1. Set up the relevant routing table entries.
+Set up the relevant routing table entries.
 
-        # route -qn add -inet 0.0.0.0/1 -iface [if addr]
-        # route -qn add -inet 128.0.0.0/1 -iface [if addr]
-        # route -qn delete -inet [endpoint addr]
-        # route -qn add -inet [endpoint addr] -gateway [gateway addr]
+    # route -qn add -inet 0.0.0.0/1 -iface [if addr]
+    # route -qn add -inet 128.0.0.0/1 -iface [if addr]
+    # route -qn delete -inet [endpoint addr]
+    # route -qn add -inet [endpoint addr] -gateway [gateway addr]
 
-1. Modify your `nat-to` entry in
-   [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
+Modify your `nat-to` entry in
+[`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
 
-        match out on wg inet from !(wg:network) to any nat-to (wg:0)
+    match out on wg inet from !(wg:network) to any nat-to (wg:0)
 
-1. Test the configuration.
+Test the configuration.
 
-        # pfctl -f /etc/pf.conf -nvv
+    # pfctl -f /etc/pf.conf -nvv
 
-1. If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
+If everything looks right, load [`pf.conf(5)`](https://man.openbsd.org/pf.conf).
 
-        # pfctl -f /etc/pf.conf
+    # pfctl -f /etc/pf.conf
 
-1. Verify from a connected client.
+Verify from a connected client.
 
-        $ curl ifconfig.me -w '\n'
+    $ curl ifconfig.me -w '\n'
 
-1. If everything's up and working, place the following in
-   `/etc/hostname.wg0` so a WireGuard connection is established on boot.
+If everything's up and working, place the following in
+`/etc/hostname.wg0` so a WireGuard connection is established on boot.
 
-        wgkey [private key]
-        wgpeer [public key] \
-          wgendpoint [endpoint addr] [port] \
-          wgaip 0.0.0.0/0
+    wgkey [private key]
+    wgpeer [public key] \
+      wgendpoint [endpoint addr] [port] \
+      wgaip 0.0.0.0/0
 
-        inet [if addr]
+    inet [if addr]
 
-        !route -qn add -inet 0.0.0.0/1 -iface [if addr]
-        !route -qn add -inet 128.0.0.0/1 -iface [if addr]
-        !route -qn delete -inet [endpoint addr]
-        !route -qn add -inet [endpoint addr] -gateway [gateway addr]
+    !route -qn add -inet 0.0.0.0/1 -iface [if addr]
+    !route -qn add -inet 128.0.0.0/1 -iface [if addr]
+    !route -qn delete -inet [endpoint addr]
+    !route -qn add -inet [endpoint addr] -gateway [gateway addr]
 
 ### Concerning WireGuard and Unbound
 
-1. Ensure `127.0.0.1` is used for DNS or your router won't use
-   [`unbound(8)`](https://man.openbsd.org/man8/unbound.8). See
-   [`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
-1. Set the IP address of your VPN's DNS server as the `forward-addr` in
-   [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
+Ensure `127.0.0.1` is used for DNS or your router won't use
+[`unbound(8)`](https://man.openbsd.org/man8/unbound.8). See
+[`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
+
+Set the IP address of your VPN's DNS server as the `forward-addr` in
+[`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
 
 Don't set `forward-first: yes` or you'll experience DNS leaks whenever
 the upstream resolver fails.
