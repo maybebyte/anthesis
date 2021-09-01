@@ -365,10 +365,7 @@ Pull in updates every night at `03:00` per
 [`portsnap(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=portsnap) and [`freebsd-update(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=freebsd-update).
 
 Note that neither `portsnap cron` nor `freebsd-update cron` apply
-updates. They only download updates. Applying updates must be done
-manually, with `freebsd-update install` or `portsnap update`. I usually
-invoke them as `freebsd-update fetch install` and `portsnap fetch
-update` when upgrading anyway just to be sure.
+updates. They only download updates.
 
     # cat <<EOF | crontab -
     > 0 3 * * * root /usr/sbin/portsnap cron
@@ -379,7 +376,7 @@ update` when upgrading anyway just to be sure.
 
 When you're ready and have time to update, perform the following to
 apply changes to the ports and source tree, as well as binary updates to
-the base system:
+the base system (I add `fetch` just to be safe):
 
     # portsnap fetch update
     # freebsd-update fetch install
