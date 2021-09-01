@@ -359,7 +359,7 @@ must be modified accordingly.
 
 ### Staying up to date
 
-#### Fetch updates nightly with cron
+#### Setting up cron to fetch updates nightly
 
 Pull in updates every night at `03:00` per
 [`portsnap(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=portsnap) and [`freebsd-update(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=freebsd-update).
