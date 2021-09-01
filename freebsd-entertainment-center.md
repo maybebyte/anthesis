@@ -261,7 +261,7 @@ that some ports, like `ftp/curl`, will require manual intervention.
         #ttyv1  "/usr/libexec/getty Pc"         xterm   onifexists secure
         ttyv1   "/usr/libexec/getty Al"         xterm   onifexists secure
 
-1. As `kodi`, edit `/home/kodi/.profile` to include this simple check.
+1. As `kodi`, append this simple check to `/home/kodi/.profile`.
 Essentially, it makes sure X isn't running and that it would start X
 in the correct tty before doing so.
 
