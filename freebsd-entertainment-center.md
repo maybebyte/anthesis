@@ -89,23 +89,23 @@ support in `multimedia/ffmpeg`, because the [Celeron
 N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
 (the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
 
-     # cat <<EOF >/etc/make.conf
-     # performance related tweaks
-     CPUTYPE?=goldmont-plus
-     OPTIONS_SET=ASM CPU_OPTS LTO MFX OPTIMIZED_CFLAGS PGO
-     #
-     # documentation
-     OPTIONS_SET+=DOCS EXAMPLES MANPAGES
-     #
-     # sndio
-     OPTIONS_SET+=SNDIO
-     #
-     # graphical stuff
-     OPTIONS_SET+=X11
-     #
-     # disable certain build options
-     OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
-     EOF
+    # cat <<EOF >/etc/make.conf
+    # performance related tweaks
+    CPUTYPE?=goldmont-plus
+    OPTIONS_SET=ASM CPU_OPTS LTO MFX OPTIMIZED_CFLAGS PGO
+    #
+    # documentation
+    OPTIONS_SET+=DOCS EXAMPLES MANPAGES
+    #
+    # sndio
+    OPTIONS_SET+=SNDIO
+    #
+    # graphical stuff
+    OPTIONS_SET+=X11
+    #
+    # disable certain build options
+    OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
+    EOF
 
 Optionally, use [LibreSSL](https://wiki.freebsd.org/LibreSSL) for ports by
 adding `DEFAULT_VERSIONS+=ssl=libressl` to `make.conf`. Bear in mind
@@ -113,167 +113,170 @@ that some ports, like `ftp/curl`, will require manual intervention.
 
 ### Checking out source code
 
-1. [Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
+[Check out the ports tree](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
 
-        # portsnap fetch extract
+    # portsnap fetch extract
 
-1. Install your ports management tool of choice. I find `ports-mgmt/portmaster` to
-   be the most reliable, as `ports-mgmt/synth` appears to break builds that
-   `portmaster` can cope with (probably some of the ports I use aren't
-   written to handle parallel builds yet).
 
-        # make -C /usr/ports/ports-mgmt/portmaster install clean
+Install your ports management tool of choice. I find `ports-mgmt/portmaster` to
+be the most reliable, as `ports-mgmt/synth` appears to break builds that
+`portmaster` can cope with (probably some of the ports I use aren't
+written to handle parallel builds yet).
 
-1. Install `git`, as it's needed for checking out the source tree. I
-   like the `git-tiny` flavor.
+    # make -C /usr/ports/ports-mgmt/portmaster install clean
 
-        # portmaster devel/git@tiny
 
-1. [Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
-   This is required for building `graphics/drm-kmod`.
+Install `git`, as it's needed for checking out the source tree. I
+like the `git-tiny` flavor.
 
-        # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
+    # portmaster devel/git@tiny
+
+
+[Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
+This is required for building `graphics/drm-kmod`.
+
+    # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
 
 ### Odds and ends before compiling Kodi
 
-1. I like to install a couple of tools to make myself comfortable before
-   building Kodi. In particular, I find `sysutils/tmux` to be essential,
-   because one can detach from a `tmux` session and log out while
-   `portmaster` is building, then later log in and reattach to check on
-   the build.
+I like to install a couple of tools to make myself comfortable before
+building Kodi. In particular, I find `sysutils/tmux` to be essential,
+because one can detach from a `tmux` session and log out while
+`portmaster` is building, then later log in and reattach to check on
+the build.
 
-   I definitely recommend `security/doas` as a simple method of
-   privilege elevation.
+I definitely recommend `security/doas` as a simple method of
+privilege elevation.
 
-        # portmaster sysutils/tmux security/doas
+Consider installing a text editor and a shell in addition to the
+aforementioned tools, if the options in the base system don't meet
+your needs. I like `editors/neovim` and `shells/oksh`.
 
-   Consider installing a text editor and a shell in addition to the
-   aforementioned tools, if the options in the base system don't meet
-   your needs. I like `editors/neovim` and `shells/oksh`.
+    # portmaster sysutils/tmux security/doas
 
-1. If you've installed `security/doas`, set up
-   [`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since
-   persistence is currently unsupported on FreeBSD, I add `nopass` for
-   my own sanity.
+If you've installed `security/doas`, set up
+[`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since
+persistence is currently unsupported on FreeBSD, I add `nopass` for
+my own sanity.
 
-        # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
+    # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
 
-1. Ensure you're inside a `tmux` session. It's important for the next
-   part.
+Ensure you're inside a `tmux` session. It's important for the next
+part.
 
-        $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
+    $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
 
-   Simply put, this one-liner checks to see if the current user has a
-   `tmux` session currently open. If not, it first tries to attach to an
-   existing session, and creates a new session if that fails.
+Simply put, this one-liner checks to see if the current user has a
+`tmux` session currently open. If not, it first tries to attach to an
+existing session, and creates a new session if that fails.
 
 ### Compiling Kodi
 
-1. Alright, it's finally time to compile Kodi.
+Alright, it's finally time to compile Kodi.
 
-   Note: if you don't want to configure anything beyond what's already
-   specified in `make.conf`, prepend `BATCH=1` to the below command. I
-   recommend at least looking over the options available for
-   `multimedia/ffmpeg` and `multimedia/kodi` with `make config`.
+Note: if you don't want to configure anything beyond what's already
+specified in `make.conf`, prepend `BATCH=1` to the below command. I
+recommend at least looking over the options available for
+`multimedia/ffmpeg` and `multimedia/kodi` with `make config`.
 
-   Remember to install packages needed for [Hardware video
-   acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration).
-   In the Latte Panda Delta's case, they are
-   `multimedia/libva-intel-media-driver` and
-   `multimedia/libvdpau-va-gl`.
+Remember to install packages needed for [Hardware video
+acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration).
+In the Latte Panda Delta's case, they are
+`multimedia/libva-intel-media-driver` and
+`multimedia/libvdpau-va-gl`.
 
-        # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver multimedia/libvdpau-va-gl x11/xorg misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
+    # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver multimedia/libvdpau-va-gl x11/xorg misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
 
-   After confirming that you want to build everything, detach from the
-   `tmux` session (`CTRL-b d` is the default binding. Alternatively,
-   create a second window with `CTRL-b c` and issue `tmux detach`).
-   Then, kill the SSH connection and take a fifteen minute break or so.
+After confirming that you want to build everything, detach from the
+`tmux` session (`CTRL-b d` is the default binding. Alternatively,
+create a second window with `CTRL-b c` and issue `tmux detach`).
+Then, kill the SSH connection and take a fifteen minute break or so.
 
-   Once that initial fifteen minute break is over, SSH in and `tmux
-   attach` to see if there were any errors encountered early on that
-   need to be addressed. It's tedious to wait several hours only to
-   realize that `portmaster` wasn't actually compiling anything for most
-   of that time. Now that you've done so, you can truly relax, because
-   compiling Kodi and Xorg on a single board computer isn't too speedy.
+Once that initial fifteen minute break is over, SSH in and `tmux
+attach` to see if there were any errors encountered early on that
+need to be addressed. It's tedious to wait several hours only to
+realize that `portmaster` wasn't actually compiling anything for most
+of that time. Now that you've done so, you can truly relax, because
+compiling Kodi and Xorg on a single board computer isn't too speedy.
 
-1. Review installation messages to check for needed interventions.
+Review installation messages to check for needed interventions.
 
-        $ pkg query '%M' | less
+    $ pkg query '%M' | less
 
 ### Setting up a user environment for Kodi
 
-1. Create a separate user for Kodi (I simply named mine `kodi`, and will
-   refer to this separate user as such for the rest of this article). Make
-   sure to add `kodi` to the `video` group.
+Create a separate user for Kodi (I simply named mine `kodi`, and will
+refer to this separate user as such for the rest of this article). Make
+sure to add `kodi` to the `video` group.
 
-        # adduser
+    # adduser
 
-  If you forgot to add `kodi` to the `video` group, no problem. Just
-  issue the following:
+If you forgot to add `kodi` to the `video` group, no problem. Just
+issue the following:
 
-        # pw groupmod video -m kodi
+    # pw groupmod video -m kodi
 
-  After that, make sure to log in as `kodi`.
+After that, make sure to log in as `kodi`.
 
-1. In order to initialize a graphical environment, we need to create
-   `/home/kodi/.xinitrc`.
+In order to initialize a graphical environment, we need to create
+`/home/kodi/.xinitrc`.
 
-        $ cat <<EOF >~/.xinitrc
-        . "${HOME}/.profile"
-        xset s noblank
-        xset s off
-        xset -dpms
-        unclutter &
+    $ cat <<EOF >~/.xinitrc
+    . "${HOME}/.profile"
+    xset s noblank
+    xset s off
+    xset -dpms
+    unclutter &
 
-        exec kodi
-        EOF
+    exec kodi
+    EOF
 
-   The `xset` commands are there to prevent interference with Kodi's
-   screen blanking mechanisms. `unclutter` simply ensures that the
-   cursor won't remain visible if idle (though the cursor shouldn't be
-   visible during ordinary usage--it's merely a fallback in case that
-   does happen, i.e., if a pointer device is accidentally bumped).
+The `xset` commands are there to prevent interference with Kodi's
+screen blanking mechanisms. `unclutter` simply ensures that the
+cursor won't remain visible if idle (though the cursor shouldn't be
+visible during ordinary usage--it's merely a fallback in case that
+does happen, i.e., if a pointer device is accidentally bumped).
 
-1. From a console (not SSH), start X.
+From a console (not SSH), start X.
 
-        $ startx
+    $ startx
 
-  If it works, log out of `kodi` and back in to the user with root access.
+If it works, log out of `kodi` and back in to the user with root access.
 
 ### Starting Kodi automatically
 
-1. You'll likely want Kodi to start automatically on boot. Some things
-   are required for this to work: the first is that `kodi` needs
-   to be automatically logged in. To address this, append some magic to
-   [`gettytab(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=gettytab).
+You'll likely want Kodi to start automatically on boot. Some things
+are required for this to work: the first is that `kodi` needs
+to be automatically logged in. To address this, append some magic to
+[`gettytab(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=gettytab).
 
-        # cat <<EOF >>/etc/gettytab
-        # autologin kodi
-        A|Al|Autologin console:\
-          :ht:np:sp#115200:al=kodi
-        EOF
+    # cat <<EOF >>/etc/gettytab
+    # autologin kodi
+    A|Al|Autologin console:\
+      :ht:np:sp#115200:al=kodi
+    EOF
 
-1. Edit
-   [`ttys(5)`](https://www.freebsd.org/cgi/man.cgi?query=ttys&apropos=0&sektion=0&manpath=FreeBSD+13.0-RELEASE&arch=default&format=html)
-   to match below.
+Edit
+[`ttys(5)`](https://www.freebsd.org/cgi/man.cgi?query=ttys&apropos=0&sektion=0&manpath=FreeBSD+13.0-RELEASE&arch=default&format=html)
+to match below.
 
-        # Virtual terminals
-        #ttyv1  "/usr/libexec/getty Pc"         xterm   onifexists secure
-        ttyv1   "/usr/libexec/getty Al"         xterm   onifexists secure
+    # Virtual terminals
+    #ttyv1  "/usr/libexec/getty Pc"         xterm   onifexists secure
+    ttyv1   "/usr/libexec/getty Al"         xterm   onifexists secure
 
-1. As `kodi`, append this simple check to `/home/kodi/.profile`.
+As `kodi`, append this simple check to `/home/kodi/.profile`.
 Essentially, it makes sure X isn't running and that it would start X
 in the correct tty before doing so.
 
-        $ cat <<EOF >>~/.profile
-        if [ -z "${DISPLAY}" ] && [ "$(tty)" = '/dev/ttyv1' ]; then
-          exec startx
-        fi
-        EOF
+    $ cat <<EOF >>~/.profile
+    if [ -z "${DISPLAY}" ] && [ "$(tty)" = '/dev/ttyv1' ]; then
+      exec startx
+    fi
+    EOF
 
-1. Finally, cross your fingers and reboot.
+Finally, cross your fingers and reboot.
 
-        # reboot
+    # reboot
 
 ### Configuring the sound system
 
