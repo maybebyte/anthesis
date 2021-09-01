@@ -208,7 +208,7 @@ realize that `portmaster` wasn't actually compiling anything for most
 of that time. Now that you've done so, you can truly relax, because
 compiling Kodi and Xorg on a single board computer isn't too speedy.
 
-#### Review installation messages
+#### Reviewing installation messages
 
 Review installation messages to check for needed interventions.
 
@@ -252,7 +252,7 @@ does happen, i.e., if a pointer device is accidentally bumped).
     exec kodi
     EOF
 
-#### Start X
+#### Starting X
 
 From a console (not SSH), start X.
 
@@ -285,7 +285,7 @@ to match below.
     #ttyv1  "/usr/libexec/getty Pc"         xterm   onifexists secure
     ttyv1   "/usr/libexec/getty Al"         xterm   onifexists secure
 
-#### Ensure X is only started in the correct TTY
+#### Ensuring X only starts in the correct TTY
 
 As `kodi`, append this simple check to `/home/kodi/.profile`.
 Essentially, it makes sure X isn't running and that it would start X
