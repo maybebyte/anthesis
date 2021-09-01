@@ -55,7 +55,7 @@ the post-installation phase much more tedious.
 
 Log in to the freshly installed FreeBSD box and follow along.
 
-### Power management
+### Setting up power management
 
 Enable and start
 [`powerd(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=powerd)
@@ -65,7 +65,7 @@ the entertainment center isn't doing much.
     # sysrc powerd_enable="YES"
     # service powerd start
 
-### make.conf
+### Creating make.conf
 
 To get it out of the way before compiling anything to ensure changes
 are immediately effective, set up
