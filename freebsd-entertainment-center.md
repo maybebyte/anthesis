@@ -388,8 +388,10 @@ handbook](https://docs.freebsd.org/en/books/handbook/x11/#x-config-video-cards).
 
     # portmaster -f graphics/drm-kmod
 
-Then, upgrade other ports as needed.
+Always check `/usr/ports/UPDATING` before upgrading any ports. Then,
+upgrade.
 
+    $ less /usr/ports/UPDATING
     # portmaster -a
 
 Reboot.
