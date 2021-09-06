@@ -134,9 +134,10 @@ Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
     # wg-quick up [conf filename]
 
 Modify your `nat-to` entry in
-[`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
+[`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly. In my
+case, `vport0` and `wg0` are the relevant interfaces.
 
-    match out on wg inet from !(wg:network) to any nat-to (wg:0)
+    match out on wg0 inet from (vport0:network) nat-to (wg0)
 
 Test the configuration.
 
@@ -186,9 +187,10 @@ Set up the relevant routing table entries.
     # route -qn add -inet [endpoint addr] -gateway [gateway addr]
 
 Modify your `nat-to` entry in
-[`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly.
+[`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly. In my
+case, `vport0` and `wg0` are the relevant interfaces.
 
-    match out on wg inet from !(wg:network) to any nat-to (wg:0)
+    match out on wg0 inet from (vport0:network) nat-to (wg0)
 
 Test the configuration.
 
