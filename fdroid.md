@@ -1,4 +1,4 @@
-# My favorite F-Droid apps
+# Recommended F-Droid apps
 
 [![KISS launcher + Ameixa
 Monochrome.](/images/mobile-rice-lain-thumb.png "KISS launcher + Ameixa
