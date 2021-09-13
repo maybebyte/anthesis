@@ -39,5 +39,3 @@ If you'd like to talk, [see how to contact me](/contact.html).
 - [My GPG keys are now updated](/gpg-update.txt)
 - [Why a passion for technical subjects can be lonely](/on-lonely-passions.html "2021-04-29")
 - [About me](/about-me.html "2020-10-24")
-- [Clues](/clues.html "2020-10-24")
-- [Media I find noteworthy](/media.html "2020-10-24")
