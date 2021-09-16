@@ -126,10 +126,10 @@ sheet (a text file that describes the album's track layout).
         $ cd /path/to/album
 
 1. Split the FLAC file. `-f` specifies the cue sheet, `-o` is the
-   encoder (`shnsplit` uses WAV by default), and `-t` is the output
-   format (track number + title).
+   encoder (`shnsplit` uses WAV by default). `-t` may be used to specify
+   output format if desired.
 
-        $ shnsplit -f example.cue -o flac -t "%n %t" example.flac
+        $ cuebreakpoints example.cue | shnsplit -o flac example.flac
 
 1. Append a `.bak` extension to the FLAC file. This is needed for the
    next step so that the original FLAC file won't be targeted by
@@ -149,8 +149,8 @@ sheet (a text file that describes the album's track layout).
         $ rm example.flac.bak
 
 Given that this is a bit tedious, I [wrote a small shell
-script](/src/dotfiles/file/.local/bin/splitflac.html)
-to take care of it for me. Usage is as follows:
+script](/src/dotfiles/file/.local/bin/splitflac.html) to take care of
+splitting FLAC files for me. Usage is as follows:
 
     $ splitflac example.cue example.flac
 
