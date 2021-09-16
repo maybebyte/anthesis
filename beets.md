@@ -125,9 +125,8 @@ sheet (a text file that describes the album's track layout).
 
         $ cd /path/to/album
 
-1. Split the FLAC file. `-f` specifies the cue sheet, `-o` is the
-   encoder (`shnsplit` uses WAV by default). `-t` may be used to specify
-   output format if desired.
+1. Split the FLAC file. `-o` is the encoder (`shnsplit` uses WAV by
+   default). `-t` may be used to specify output format if desired.
 
         $ cuebreakpoints example.cue | shnsplit -o flac example.flac
 
