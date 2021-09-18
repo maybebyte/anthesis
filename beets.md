@@ -95,20 +95,6 @@ for more details.
 Beets handles most everything well. In some situations, however, I had
 to gently coax it into understanding what I wanted it to do.
 
-### Dealing with false positives
-
-Sometimes beets makes mistakes (particularly when operating without the
-[chroma](https://beets.readthedocs.io/en/stable/plugins/chroma.html)
-plugin).  Even with acoustic fingerprinting, certain things may be off.
-The release date, record label, or country might be wrong, for instance.
-I use `-t` (timid) for this reason.
-
-If `-t` is used consistently, consider setting the equivalent option in
-`config.yaml`.
-
-    import:
-      timid: yes
-
 ### Cue splitting
 
 Beets needs a separate file for each track in order to tag music, yet
