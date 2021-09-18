@@ -112,7 +112,10 @@ sheet (a text file that describes the album's track layout).
         $ cd /path/to/album
 
 1. Split the FLAC file. `-o` is the encoder (`shnsplit` uses WAV by
-   default). `-t` may be used to specify output format if desired.
+   default). By default, the output format looks like
+   `split-track01.flac`, `split-track02.flac`, etc. Beets will rename
+   the files according to the metadata anyway, so it doesn't matter too
+   much.
 
         $ cuebreakpoints example.cue | shnsplit -o flac example.flac
 
