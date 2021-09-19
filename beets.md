@@ -40,7 +40,7 @@ To list music, use `beet ls`. Beets can narrow down the query via a
 plethora of metadata fields (`genre`, `artist`, `album`, `year`,
 `country`, and so on).
 
-    $ beet ls genre:"Progressive Rock"
+    $ beet ls genre:'Progressive Rock'
 
 Quoting isn't strictly necessary. I do it out of habit.
 
