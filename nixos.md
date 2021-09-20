@@ -155,23 +155,6 @@ additional features aren't unequivocally good. Sometimes features are
 useful and other times they're unneeded or poorly implemented. For this
 reason, lacking unnecessary features *is* a feature.
 
-Here's a brief outline of why minimalism in software design is important:
-
-- Less potential for bugs and vulnerabilities because there's less code
-  for them to exist in.
-- Portable (an example: many systems run OpenSSH, an
-  OpenBSD project).
-- Well-designed minimal programs are comprehensible, and thus easier to
-  contribute to and maintain.
-
-Besides, it's much more important to fix issues than it is to add
-features. A key example is GRUB: it's the only viable solution for
-`/boot` encryption in Linux and it doesn't handle decryption as
-elegantly as OpenBSD's boot loader does. In OpenBSD, when you type in
-the wrong password, the boot loader gives you instant feedback and you
-get to try again. [Here's what GRUB necessitates in that
-situation](https://wiki.archlinux.org/index.php/Grub#GRUB_rescue_and_encrypted_/boot).
-
 ### Managing things declaratively is sometimes harder
 
 NixOS presents a completely different approach to system management and
