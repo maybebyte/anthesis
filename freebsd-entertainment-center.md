@@ -319,13 +319,6 @@ In order to use bit-perfect mode, two `sysctl` tweaks are needed. Here,
 I use the first device, but be sure to check what device needs to be
 adjusted.
 
-A sound server isn't desirable in this case, as `/dev/dsp` can't
-be accessed concurrently in bit-perfect mode, so
-[`sndiod(8)`](https://man.openbsd.org/sndiod) remains disabled. Kodi
-will still use `sndio`, however, due to [behavior specific to the
-FreeBSD
-port](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
-
     # sysctl dev.pcm.1.bitperfect=1
     # sysctl hw.snd.maxautovchans=0
 
@@ -340,22 +333,13 @@ filtering.
 
     # sysctl hw.snd.feeder_rate_quality=4
 
-Optionally, enable `sndiod`. Audio will function with the daemon running
-or not. Though passing audio through `sndiod` first has some real perks,
-like being able to monitor and record what other programs play, and
-being able to tweak the volume of specific applications in addition to
-the master volume.
-
-    # sysrc sndiod_enable="YES"
-
-Then, start the daemon.
-
-    # service sndiod start
-
 Remember that regardless of whether you chose bit-perfect mode or not,
 if tweaks made with `sysctl` are to be permanent,
 [`sysctl.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl.conf)
 must be modified accordingly.
+
+[Note that `sndiod` is not needed in either case](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
+
 
 ### Staying up to date
 
