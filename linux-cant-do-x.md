@@ -39,7 +39,7 @@ as a supplementary resource.
   - [Retropie](https://retropie.org.uk/).
   - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
     [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
-    don't particularly like Reddit; that said, I consult subreddit wikis
+    can't really endorse Reddit; that said, I consult subreddit wikis
     from time to time because they can have useful content.
 
 1. "Linux can't handle photos."
