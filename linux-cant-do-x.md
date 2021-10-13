@@ -15,7 +15,10 @@ you can learn how to use it, too.
 
 Usually, I find that mindset is the underlying reason for perceived
 deficiencies. Remember that [Linux is NOT
-Windows](https://linux.oneandoneis2.org/LNW.htm).
+Windows](https://linux.oneandoneis2.org/LNW.htm). Your new favorite
+program for a specific task may very well not be the first one you try.
+However, that is no reason in itself to discard an operating system
+wholesale.
 
 ## Alleged incapabilities
 
