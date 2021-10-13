@@ -40,6 +40,9 @@ every app on F-Droid.
   one to use custom icons (I use [Ameixa
   Monochrome](https://f-droid.org/en/packages/org.xphnx.ameixamonochrome/)).
 
+- [mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/). For those
+  that love [mpv](https://mpv.io/) and want it on their phone, too.
+
 - [Netguard](https://netguard.me/). Block access to the internet per
   application. Unfortunately, I haven't found a way to combine it with
   Orbot yet.
@@ -53,10 +56,24 @@ every app on F-Droid.
   invaluable tool for privacy, Orbot tunnels the traffic of selected
   apps through Tor.
 
+- [RedReader](https://f-droid.org/packages/org.quantumbadger.redreader/),
+  an unofficial open-source client for Reddit. It has a clean UI with no
+  nonsense. I found it through word of mouth, as I've never liked the
+  redesign and wanted to find a less feature-rich (and frankly less
+  buggy) client than Slide. This is exactly what RedReader provides.
+
 - [Termux](https://termux.com/). Termux is a terminal emulator for
   Android, and offers an incredible amount of power. I use Termux to
   securely transfer files between my smartphone and computer using SSH,
   and my dotfiles are there, too.
+
+- [Yet Another Call
+  Blocker](https://f-droid.org/en/packages/dummydomain.yetanothercallblocker/).
+  Quite a useful app. If you have a problem with specific area codes
+  calling your number, you can input them in YACB and it will filter
+  them out automatically. You can, of course, exempt contacts from being
+  treated as unknown callers, and YACB even has an option to stop the
+  call before the phone starts ringing on Android 7+.
 
 - [UntrackMe](https://f-droid.org/en/packages/app.fedilab.nitterizeme/).
   UntrackMe transforms certain links, such as YouTube, Twitter, and
