@@ -161,6 +161,10 @@ for more.
   Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/):
   [HTTP Referers are a privacy
   risk](https://developer.mozilla.org/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns).
+- [Skip
+  Redirect](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/):
+  in cases of intermediary URLs, attempts to extract the destination URL
+  and go there directly.
 - [Terms of Service; Didn't
   Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
   understand a site's privacy policy at a glance.
