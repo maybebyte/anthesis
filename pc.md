@@ -170,11 +170,9 @@ for more.
   container, which isolates data and confers privacy + security.
 - [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
   Vim bindings for Firefox.
-- [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/):
-  forbid/allow different types of content.
-  - An low effort alternative is [uBlock
-    Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/),
-    in case the granular control offered by uMatrix is overwhelming.
+- [uBlock
+  Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
+  content filtering/adblock.
 
 Ideally, your results on [Cover Your Tracks](https://coveryourtracks.eff.org/)
 should look similar to mine:
