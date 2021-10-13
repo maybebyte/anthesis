@@ -78,13 +78,6 @@ level, follow these steps:
 
         :Tutor
 
-Useful help pages (accessed with `:h`)
-
-  - pattern-overview (search patterns)
-  - option-list (configurable options for
-    [`init.vim`](/src/dotfiles/file/.config/nvim/init.vim.html))
-  - text-objects (motions, such as `vip` for 'select inner paragraph')
-
 **Static site generator**
 
 [ssg](https://rgz.ee/ssg.html). I wrote in regular HTML before

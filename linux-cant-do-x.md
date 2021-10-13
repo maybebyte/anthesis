@@ -45,7 +45,7 @@ as a supplementary resource.
 1. "Linux can't handle photos."
 
    Mostly comes from people used to the Adobe suite. It's also not true.
-   Differences in software design/workflow != deficient software.
+   Differences in software design/workflow `!=` deficient software.
 
    - [GIMP](https://www.gimp.org/).
    - [Inkscape](https://inkscape.org/).
