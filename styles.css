@@ -32,8 +32,7 @@ nav ul {
 }
 
 a,
-a code,
-a:visited {
+a code {
   color: #996aea;
   text-decoration: none;
 }
@@ -45,9 +44,14 @@ nav li a:visited {
   padding: 10px;
 }
 
+a:visited,
 a:hover,
 a:hover code {
   color: #80a7f1;
+}
+
+a:hover,
+a:hover code {
   text-decoration: underline;
 }
 
