@@ -20,13 +20,13 @@ program for a specific task may very well not be the first one you try.
 However, that is no reason in itself to discard an operating system
 wholesale.
 
-## Alleged incapabilities
+## Linux can't...
 
 For any of these categories, feel free to use the ["List of
 Applications" ArchWiki entry](https://wiki.archlinux.org/index.php/List_of_applications)
 as a supplementary resource.
 
-1. "Linux can't game."
+### Game
 
    I concede that Linux can't play every Windows game. Let me ask you
    this: if Linux supports more games than most people can play in a
@@ -34,59 +34,59 @@ as a supplementary resource.
    out there?  Linux can play more games than any console I can think
    of.
 
-  - [Lutris](https://lutris.net/).
-  - [ProtonDB](https://www.protondb.com/).
-  - [Retropie](https://retropie.org.uk/).
-  - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
-    [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
-    can't really endorse Reddit; that said, I consult subreddit wikis
-    from time to time because they can have useful content.
+   - [Lutris](https://lutris.net/)
+   - [ProtonDB](https://www.protondb.com/)
+   - [Retropie](https://retropie.org.uk/)
+   - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
+     [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
+     can't really endorse Reddit; that said, I consult subreddit wikis
+     from time to time because they can have useful content.
 
-1. "Linux can't handle photos."
+### Handle photos
 
    Mostly comes from people used to the Adobe suite. It's also not true.
    Differences in software design/workflow `!=` deficient software.
 
-   - [GIMP](https://www.gimp.org/).
-   - [Inkscape](https://inkscape.org/).
-   - [Pinta](https://pinta-project.com/).
-   - [RawTherapee](https://rawtherapee.com/).
-   - [darktable](https://www.darktable.org/).
-   - [digiKam](https://www.digikam.org/).
+   - [GIMP](https://www.gimp.org/)
+   - [Inkscape](https://inkscape.org/)
+   - [Pinta](https://pinta-project.com/)
+   - [RawTherapee](https://rawtherapee.com/)
+   - [darktable](https://www.darktable.org/)
+   - [digiKam](https://www.digikam.org/)
 
-1. "Linux can't do digital painting."
+### Paint digitally
 
-   - [Krita](https://krita.org/en/).
+   - [Krita](https://krita.org/en/)
 
-1. "Linux can't do video editing."
+### Edit videos
 
-  - [Flowblade](https://jliljebl.github.io/flowblade/).
-  - [Kdenlive](https://kdenlive.org/).
-  - [Shotcut](https://www.shotcut.org/).
+   - [Flowblade](https://jliljebl.github.io/flowblade/)
+   - [Kdenlive](https://kdenlive.org/)
+   - [Shotcut](https://www.shotcut.org/)
 
-1. "Linux can't do audio production."
+### Produce audio
 
-  - [Ardour](https://ardour.org/).
-  - [Audacity](https://www.audacityteam.org/).
-  - [LMMS](https://lmms.io/).
-  - [MusE](https://muse-sequencer.github.io/).
-  - [MuseScore](https://musescore.org/).
+   - [Ardour](https://ardour.org/)
+   - [Audacity](https://www.audacityteam.org/)
+   - [LMMS](https://lmms.io/)
+   - [MusE](https://muse-sequencer.github.io/)
+   - [MuseScore](https://musescore.org/)
 
-1. "Linux can't do CAD (computer-aided design)."
+### Do CAD (computer-aided design)
 
-  - [BRL-CAD](https://brlcad.org/). The US Military models weapons
-    systems with it.
-  - [LibreCAD](https://www.librecad.org/).
+   - [BRL-CAD](https://brlcad.org/). The US Military models weapons
+     systems with it.
+   - [LibreCAD](https://www.librecad.org/)
 
-1. "Linux can't do word processing, spreadsheets, presentations, etc."
+### Process documents
 
-  - [LibreOffice](https://www.libreoffice.org/).
+   - [LibreOffice](https://www.libreoffice.org/)
 
-1. "Linux isn't user-friendly."
+### Be user-friendly
 
-  - [Install Wars! Linux Mint vs Windows 10 vs
-    Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
-    (9:01)
+   - [Install Wars! Linux Mint vs Windows 10 vs
+     Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
+     (9:01)
 
 ## Linux is powerful
 
