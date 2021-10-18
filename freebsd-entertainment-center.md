@@ -121,10 +121,8 @@ that some ports, like `ftp/curl`, will require manual intervention.
 
 #### Installing portmaster
 
-Install your ports management tool of choice. I find `ports-mgmt/portmaster` to
-be the most reliable, as `ports-mgmt/synth` appears to break builds that
-`portmaster` can cope with (probably some of the ports I use aren't
-written to handle parallel builds yet).
+Install your ports management tool of choice. For the purpose of
+simplicity, I'll choose `ports-mgmt/portmaster` here.
 
     # make -C /usr/ports/ports-mgmt/portmaster install clean
 
