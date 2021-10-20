@@ -34,8 +34,8 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-	color: var(--link-alt-color);
-	text-decoration: underline;
+  color: var(--link-alt-color);
+  text-decoration: underline;
 }
 
 #blob a {
