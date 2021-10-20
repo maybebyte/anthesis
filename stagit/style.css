@@ -1,9 +1,20 @@
+/* variables for use throughout the document */
+:root {
+  --bg-color: #070d18;
+  --fg-color: #e0e9f0;
+  --link-color: #996aea;
+  --link-alt-color: #80a7f1;
+  --git-added-color:  #507fdb;
+  --git-deleted-color: #b075c5;
+  --git-chunk-header-color: #9999d0;
+}
+
 body {
   margin: 0 auto;
   max-width: 1000px;
   padding: 20px;
-  background-color: #040A15;
-  color: #E0E9F0;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
   font-family: monospace;
 }
 
@@ -19,11 +30,11 @@ h2 {
 
 a,
 a:visited {
-  color: #906FE8;
+  color: var(--link-color);
   text-decoration: none;
 }
 a:hover {
-	color: #80A7F1;
+	color: var(--link-alt-color);
 	text-decoration: underline;
 }
 
@@ -74,17 +85,17 @@ pre {
 }
 
 pre a.h {
-  color: #9999d0;
+  color: var(--git-chunk-header-color);
 }
 
 span.i,
 pre a.i {
-  color: #507FDB;
+  color: var(--git-added-color);
 }
 
 span.d,
 pre a.d {
-  color: #B075C5;
+  color: var(--git-deleted-color);
 }
 
 pre a.h:hover,
@@ -94,5 +105,5 @@ pre a.d:hover {
 }
 
 .line {
-  color: white;
+  color: var(--fg-color);
 }
