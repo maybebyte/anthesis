@@ -11,7 +11,7 @@
   really cathartic. I'm fortunate enough to have perfect pitch.
 
 - Gaming helps me relax and reminds me that there is value in simply
-  being. Metroidvanias, platformers, RPGs, roguelikes, and strategy
+  being. Metroidvanias, platformers, (J)RPGs, roguelikes, and strategy
   games are among my favorite genres.
 
 - Taking time to improve, learn, and cultivate awareness is my
