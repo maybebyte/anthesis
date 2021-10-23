@@ -19,11 +19,9 @@
   to time that imperfection and setbacks are an immutable part of
   the human condition. Striving to be perfect is a form of self-sabotage.
 
-- Psychology has fascinated me for as long as I can remember. Ever since
-  I was a kid, I've observed people because there's a lesson embedded in
-  every interaction. Additionally, psychology in tandem with
-  mindfulness helps me remember that even those most distant from my
-  convictions are human and worthy of kindness.
+- Psychology has fascinated me for some time. I often end up people
+  watching in situations that allow it because I find it interesting.
+  There are many lessons to be learned in observing others.
 
 - Writing is another pastime I hold dear. In particular, I like to teach
   through writing. I yearn to share my knowledge with others, and
