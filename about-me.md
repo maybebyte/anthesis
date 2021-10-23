@@ -3,10 +3,9 @@
 ## Interests
 
 - A good audio setup is something I deeply appreciate. Currently, I
-  enjoy listening to music with the Hifiman Sundara, Sennheiser HD600,
-  and E-MU Teak. To drive my headphones and produce better sound, the
-  Monoprice Monolith THX 887 sits on my desk with the Topping E30 on
-  top of it.
+  enjoy listening to music with the Hifiman Sundara and Sennheiser
+  HD600. To drive my headphones and produce better sound, the Monoprice
+  Monolith THX 887 sits on my desk with the Topping E30 on top of it.
 
 - Improvising/composing music (piano is my instrument of choice) can be
   really cathartic. I'm fortunate enough to have perfect pitch.
