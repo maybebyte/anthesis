@@ -46,7 +46,8 @@ this](https://www.openbsd.org/faq/faq4.html).
 
 Connect to the serial port. I run OpenBSD on my laptop, so I use
 [`cu(1)`](https://man.openbsd.org/cu) for serial connections. Note that
-the user must be part of the `dialer` group to use `cua(4)` devices.
+the user must be part of the `dialer` group to use
+[`cua(4)`](https://man.openbsd.org/cua) devices.
 
     $ cu -l cuaU0 -s 115200
 
