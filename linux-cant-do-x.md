@@ -1,17 +1,13 @@
 # "Linux can't do X"
 
-I'll take off my OpenBSD hat for a moment to address something that's
-bothered me for a while.
-
-People are quick to suggest a system is incapable of something;
-sometimes, these people have never booted the system they're
-criticizing.
-
-Linux is denounced in many areas, from gaming to photo editing to
-user-friendliness, yet in reality it's sufficient for most people's
-needs. If [a 77-year-old grandma can learn how to use
+People are quick to suggest a system is incapable of something. Often I
+see things online saying that Linux is terrible compared to Windows or
+macOS at handling *X*, or that it is unfriendly to users. Yet, I know of
+at least one [77-year-old grandma that learned how to use
 Linux](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
-you can learn how to use it, too.
+and have always been able to find an application to perform the task I
+needed on Linux. From my point of view, Linux has never been more
+user-friendly and powerful than it is now.
 
 Usually, I find that mindset is the underlying reason for perceived
 deficiencies. Remember that [Linux is NOT
