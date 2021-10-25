@@ -1,6 +1,7 @@
 User-agent: *
 Sitemap: https://amissing.link/sitemap.xml
 Allow: /src/index.html
+Disallow: /gpg-update.txt
 Disallow: /src/
 Disallow: /pubkeys/
 Disallow: /git/
