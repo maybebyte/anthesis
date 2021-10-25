@@ -24,6 +24,10 @@ as a supplementary resource.
 
 ### Game
 
+Linux is quite capable at gaming. It may not play every Windows game
+(though it approaches that point asymptotically). However, the library
+of playable games is broader than it has ever been.
+
    - [Lutris](https://lutris.net/)
    - [ProtonDB](https://www.protondb.com/)
    - [Retropie](https://retropie.org.uk/)
