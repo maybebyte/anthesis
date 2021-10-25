@@ -24,12 +24,6 @@ as a supplementary resource.
 
 ### Game
 
-   I concede that Linux can't play every Windows game. Let me ask you
-   this: if Linux supports more games than most people can play in a
-   lifetime, does it matter that it doesn't support every single game
-   out there?  Linux can play more games than any console I can think
-   of.
-
    - [Lutris](https://lutris.net/)
    - [ProtonDB](https://www.protondb.com/)
    - [Retropie](https://retropie.org.uk/)
@@ -40,12 +34,8 @@ as a supplementary resource.
 
 ### Handle photos
 
-   Mostly comes from people used to the Adobe suite. It's also not true.
-   Differences in software design/workflow `!=` deficient software.
-
    - [GIMP](https://www.gimp.org/)
    - [Inkscape](https://inkscape.org/)
-   - [Pinta](https://pinta-project.com/)
    - [RawTherapee](https://rawtherapee.com/)
    - [darktable](https://www.darktable.org/)
    - [digiKam](https://www.digikam.org/)
