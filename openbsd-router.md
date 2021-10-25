@@ -11,40 +11,10 @@ vulnerabilities) as a result of poorly engineered software. The paper
 Safe?"](https://repository.stcloudstate.edu/cgi/viewcontent.cgi?article=1067&context=msia_etds)
 addresses this subject well.
 
-For a while, I was running [DD-WRT](https://dd-wrt.com/) on a Netgear
-R7000P as my router. Even though it's leagues better than the stock
-firmware (not a very high bar to clear) and makes for a capable access
-point (AP), it has some pain points as a router. Here are a few that come to
-mind.
-
-1. Upgrades necessitate a total reconfiguration of the router's
-   settings. If upgrades are hard, no one will do them... and then the
-   system is wide open.
-1. No package manager.
-1. No service manager.
-1. No man pages.
-1. OpenBSD's networking tools are better than what Linux has to offer in
-   my experience.
-1. DD-WRT must be configured through the web interface despite support
-   for SSH. It uses a read-only filesystem for `/` (SquashFS).
-
-Lastly, one complaint that doesn't concern routing: if DD-WRT acts as an
-access point, clicking 'Apply settings' in the web interface
-necessitates reassociation due to DD-WRT resetting its network
-interfaces.
-
-DD-WRT is powerful set-and-forget consumer firmware, don't get me
-wrong--I'd still recommend it over proprietary firmware. That said,
-I was constantly wishing that I could peel back the layers of
-abstraction and manage routing in a more transparent fashion. As someone
-who's been bitten by the OpenBSD bug (or pufferfish, same difference),
-the solution that came to mind was to build my own router. So I did, and
-what follows is how I did it.
-
-Note that I still use the Netgear R7000P as a [bridged
-AP](https://wiki.dd-wrt.com/wiki/index.php/Wireless_access_point). OpenBSD's
-AP support is a work in progress and an order of magnitude slower than
-a bridged AP in my case.
+Confronted with this reality, as someone who's been bitten by the
+OpenBSD bug (or pufferfish, same difference), the solution that came to
+mind was to build my own router.  So I did, and what follows is how I
+did it.
 
 ## Hardware
 
