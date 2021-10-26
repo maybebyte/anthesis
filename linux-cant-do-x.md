@@ -33,8 +33,9 @@ of playable games is broader than it has ever been.
    - [Retropie](https://retropie.org.uk/)
    - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
      [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
-     can't really endorse Reddit; that said, I consult subreddit wikis
-     from time to time because they can have useful content.
+     can't really endorse Reddit as a platform; that said, I consult it
+     from time to time. Subreddit wikis in particular can have
+     useful content.
 
 ### Handle photos
 
