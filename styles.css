@@ -54,22 +54,6 @@ a:hover code {
 /* end link behavior/style */
 
 
-/* navbar stuff */
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li a,
-nav li a:visited {
-  color: var(--fg-color);
-  display: flex;
-  padding: 10px;
-}
-/* end navbar stuff */
-
-
 /* desktop design */
 @media (min-width: 800px) {
   html,
