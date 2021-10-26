@@ -8,7 +8,7 @@ mindset that is responsible for the wealth of Linux distributions
 targeted at users new to the platform. Given this, I don't have a
 one-size-fits-all recommendation; each user has different needs, so
 pigeonholing is counterproductive. For instance, someone that feels more
-comfortable with an interface akin to macOS would have a bad time with
+comfortable with an interface akin to macOS could have a bad time with
 [Linux Mint](https://www.linuxmint.com/download.php), even though Linux
 Mint is a great OS for many people.
 
