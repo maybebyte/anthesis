@@ -41,6 +41,10 @@ become.
    [`doas(1)`](https://man.openbsd.org/doas), though the latter is
    preferred.
 
+1. In command line examples, `[...]` is used as a placeholder for actual
+   values. For instance, `usermod -G [group] [user]` means to substitute
+   the desired group and user at those locations.
+
 ## How is amissing.link written?
 
 I write `amissing.link` in [Markdown](https://www.markdownguide.org/)
