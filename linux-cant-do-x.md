@@ -20,7 +20,8 @@ wholesale.
 
 For any of these categories, feel free to use the ["List of
 Applications" ArchWiki entry](https://wiki.archlinux.org/index.php/List_of_applications)
-as a supplementary resource.
+as a supplementary resource. For the purposes of this article, I will
+focus only on GUI applications.
 
 ### Game
 
