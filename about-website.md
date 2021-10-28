@@ -43,7 +43,9 @@ become.
 
 1. In command line examples, `[...]` is used as a placeholder for actual
    values. For instance, `usermod -G [group] [user]` means to substitute
-   the desired group and user at those locations.
+   the desired group and user at those locations. Other placeholders are
+   used in a similar fashion when needed, such as `/path/to/directory`
+   or `example.cue`.
 
 ## How is amissing.link written?
 
