@@ -123,6 +123,9 @@ that some ports, like `ftp/curl`, will require manual intervention.
 
 Install your ports management tool of choice. For the purpose of
 simplicity, I'll choose `ports-mgmt/portmaster` here.
+`ports-mgmt/poudriere` is also good and what I use these days, but
+teaching how to use it here is out of scope. `portmaster` gets the
+job done.
 
     # make -C /usr/ports/ports-mgmt/portmaster install clean
 
