@@ -35,10 +35,9 @@ because they can taste and enjoy the food.
 
 ## Tech is a less universal passion
 
-In comparison, writing and reverse engineering software seems
-disembodied. There isn't an easily accessible, built-in sensory
-experience to bridge the gap in knowledge between two or more people as
-there is with music and cooking.[^2]
+In comparison, writing software seems disembodied. There isn't an easily
+accessible, built-in sensory experience to bridge the gap in knowledge
+between two or more people as there is with music and cooking.[^2]
 
 [^2]: Trying to convey higher level concepts that require subset(s) of
   fundamental knowledge is challenging, but it isn't exclusive to tech.
