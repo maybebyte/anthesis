@@ -66,7 +66,7 @@ and ideas developed by the OpenBSD project. Did you know that
 
 OpenBSD feels transparent and comprehensible. Between the FAQ, man
 pages, and mailing lists, as well as other resources like
-`/etc/examples` and `/usr/local/share/doc/pkg-readmes`, the user is not
+`/etc/examples` and `/usr/local/share/doc/pkg-readmes`, the user isn't
 lacking in ways to understand how the system works under the hood. An
 OpenBSD installation is a didactic environment well-suited to anyone
 with a DIY attitude.
@@ -104,7 +104,7 @@ Users can depend on a new release being made available about once every
 6 months. Every new release comes with documentation on changes made and
 how to upgrade, which is a painless process with the
 [`sysupgrade(8)`](https://man.openbsd.org/sysupgrade) tool. [Here is
-what the upgrade from 6.8 to 6.9 looks
+what the upgrade from 6.8 to 6.9 looked
 like](https://www.openbsd.org/faq/upgrade69.html).
 
 ## Sane defaults
