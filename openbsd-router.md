@@ -47,12 +47,24 @@ this](https://www.openbsd.org/faq/faq4.html).
 Connect to the serial port. I run OpenBSD on my laptop, so I use
 [`cu(1)`](https://man.openbsd.org/cu) for serial connections. Note that
 the user must be part of the `dialer` group to use
-[`cua(4)`](https://man.openbsd.org/cua) devices.
+[`cua(4)`](https://man.openbsd.org/cua) devices, so I'll briefly outline
+how to make sure that's the case.
+
+Display the current user and groups they belong to with
+[`id(1)`](https://man.openbsd.org/id).
+
+    $ id
+
+Add the user to the `dialer` group if necessary with
+[`usermod(8)`](https://man.openbsd.org/usermod).
+
+    # usermod -G dialer [user]
+
+Finally, connect to the serial port. This indicates the line to use
+`(-l)` and the baud rate `(-s)`. The APU4D4 requires a baud rate of
+`115200`.
 
     $ cu -l cuaU0 -s 115200
-
-This indicates the line to use `(-l)` and the baud rate `(-s)`. The APU4D4
-requires a baud rate of `115200`.
 
 From here, the FAQ provides enough information to get through the rest
 of the installation procedure. Be sure to look at [the documentation for
