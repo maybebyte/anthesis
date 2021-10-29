@@ -37,12 +37,7 @@ because they can taste and enjoy the food.
 
 In comparison, writing software seems disembodied. There isn't an easily
 accessible, built-in sensory experience to bridge the gap in knowledge
-between two or more people as there is with music and cooking.[^2]
-
-[^2]: Trying to convey higher level concepts that require subset(s) of
-  fundamental knowledge is challenging, but it isn't exclusive to tech.
-  Chemistry, engineering, music theory, and chess theory all have this
-  problem as well.
+between two or more people as there is with music and cooking.
 
 Also, one has to consider the relationship most people have with
 technology. Some people regard computers and digital tasks similarly to
