@@ -2,7 +2,7 @@
 
 Articles are sorted in reverse chronological order within their
 respective categories. To keep up with new content, [subscribe to my RSS
-feed](/rss.xml).
+feed](https://amissing.link/rss.xml).
 
 If you'd like to talk, [see how to contact me](/contact.html).
 
