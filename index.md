@@ -13,24 +13,24 @@ If you'd like to talk, [see how to contact me](/contact.html).
 
 ## Tech
 
-*Opinion*
+### Opinion
 
 - [Why OpenBSD?](/why-openbsd.html "2021-03-25")
 - ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
 - [Pros and cons of NixOS](/nixos.html "2020-10-24")
 - [Why self-host/use FLOSS?](/why-self-host.html "2020-10-24")
 
-*Software*
+### Software
 
 - [Recommended F-Droid apps](/fdroid.html "2021-04-12")
 - [FLOSS OS recommendations](/os.html "2020-10-24")
 - [Software I use (PC)](/pc.html "2020-10-24")
 
-*Source code*
+### Source code
 
 - [Projects I'm working on](/src/index.html "2020-10-24")
 
-*Tutorials*
+### Tutorials
 
 - [Read Markdown as man pages with lowdown and mandoc](/markdown-as-man-pages.html "2021-10-28")
 - [Setting up a 4K Kodi box with sndio on FreeBSD](/freebsd-entertainment-center.html "2021-06-13")
