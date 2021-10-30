@@ -46,16 +46,11 @@ hammers and nails. That is to say, understanding the nature of the means
 achieving the ends (a nail driven into an object/a completed digital
 task).
 
-Given these realities, the situation I find myself in is a similar
-situation to the one I found myself in all those years ago: feeling
-alone and wondering how I can feel understood and appreciated instead. I
-suspect knowing how to fruitfully share what I love with others would
-help.
-
 ## Ways to approach/deal with this predicament
 
-Here are several observations that I hope others may find
-helpful as well.
+It can be difficult to fruitfully share what you love if it's
+sufficiently complex, so here are several observations that I hope
+others may find helpful.
 
 - Remember the 'show' in show and tell. That is to say, demo when possible so
   that the listener can see things in action. Presentation can be
