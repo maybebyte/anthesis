@@ -52,7 +52,8 @@ Instead, I've outlined the differences so I can drive this point home:
 it firsthand and I'm certain that people deserve better.
 
 Of course, this raises the following question: if proprietary software
-takes advantage of the user, how can the user combat that?
+enables developers to take advantage of those that run their software,
+how can an end user combat that?
 
 A good way to regain freedom is to exchange software that violates
 privacy/user rights for software that respects these values. That is to
