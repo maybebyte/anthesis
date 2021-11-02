@@ -312,7 +312,10 @@ if needed (inspect `/dev/sndstat` for a list of devices).
     # sysctl hw.snd.default.unit=1 # needed for HDMI in my case.
 
 Now, decide whether or not you want to use bit-perfect mode and consult
-the relevant section below.
+the relevant section below. Note that the ["Sync playback to
+display"](https://kodi.wiki/view/Settings/Player/Videos#Sync_playback_to_display)
+option in Kodi is fundamentally incompatible with bit-perfect audio, as
+it resamples both video and audio to match the refresh rate of the monitor.
 
 #### Bit-perfect
 
@@ -326,11 +329,11 @@ adjusted.
 #### Not bit-perfect
 
 I recommend changing `hw.snd.feeder_rate_quality` from its default of
-`1` (I've used the maximum value of `4` before without any issues, but
-see what works for you).  According to
+`1`. According to
 [`sound(4)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sound),
 the default of linear interpolation doesn't provide anti-aliasing
-filtering.
+filtering. I like to start from the highest resampling quality possible
+and lower the value if needed.
 
     # sysctl hw.snd.feeder_rate_quality=4
 
