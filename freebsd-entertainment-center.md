@@ -33,7 +33,7 @@ elsewhere](https://docs.freebsd.org/en/books/handbook/bsdinstall/), and
 I'm not doing anything out of the ordinary during this
 phase.
 
-The short of it is as follows:
+Here's the short of it:
 
 1. [Obtain an installation image for
 amd64](https://www.freebsd.org/where/).
@@ -59,7 +59,7 @@ Log in to the freshly installed FreeBSD box and follow along.
 
 Enable and start
 [`powerd(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=powerd)
-for power management. In theory, it should lower power consumption when
+for power management. In theory, it will lower power consumption when
 the entertainment center isn't doing much.
 
     # sysrc powerd_enable="YES"
@@ -96,10 +96,10 @@ Panda Delta on other computers. Given this, I set
 Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
 microarchitecture (the Latte Panda Delta's microarchitecture).
 
-Note that `CPUTYPE?=goldmont-plus` shouldn't be added if you aren't
-using a Latte Panda Delta or something else with an appropriate CPU.
-Compiling binaries for a microarchitecture other than that of the
-machine trying to run them will end poorly.
+Don't add `CPUTYPE?=goldmont-plus` if the computer in
+question doesn't contain an appropriate CPU. Compiling binaries for a
+microarchitecture other than that of the machine trying to run them will
+end poorly.
 
 `MFX` is for [Intel Quick Sync
 Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
@@ -121,11 +121,10 @@ that some ports, like `ftp/curl`, will require manual intervention.
 
 #### Installing portmaster
 
-Install your ports management tool of choice. For the purpose of
-simplicity, I'll choose `ports-mgmt/portmaster` here.
-`ports-mgmt/poudriere` is also good and what I use these days, but
-teaching how to use it here is out of scope. `portmaster` gets the
-job done.
+Install a ports management tool. For the purpose of simplicity, I'll
+choose `ports-mgmt/portmaster` here. `ports-mgmt/poudriere` is also
+good and what I use these days, but teaching how to use it here is out
+of scope. `portmaster` gets the job done.
 
     # make -C /usr/ports/ports-mgmt/portmaster install clean
 
@@ -155,26 +154,25 @@ I definitely recommend `security/doas` as a simple method of
 privilege elevation.
 
 Consider installing a text editor and a shell in addition to the
-aforementioned tools, if the options in the base system don't meet
-your needs. I like `editors/neovim` and `shells/oksh`.
+aforementioned tools, if desired. I like `editors/neovim` and
+`shells/oksh`.
 
     # portmaster sysutils/tmux security/doas
 
 #### Setting up doas.conf
 
-If you've installed `security/doas`, set up
-[`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since
-persistence is currently unsupported on FreeBSD, I add `nopass` for
-my own sanity.
+If `security/doas` was installed, set up
+[`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since persistence
+is currently unsupported on FreeBSD, I add `nopass` for my own sanity.
 
     # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
 
 #### Entering a tmux session
 
-Ensure you're inside a `tmux` session, as it's important for the next
-part. Simply put, this one-liner checks to see if the current user has a
-`tmux` session currently open. If not, it first tries to attach to an
-existing session, and creates a new session if that fails.
+This is important for the next part. This one-liner checks to see if the
+current user has a `tmux` session currently open. If not, it first tries
+to attach to an existing session, and creates a new session if that
+fails.
 
     $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
 
@@ -184,7 +182,7 @@ existing session, and creates a new session if that fails.
 
 Alright, it's finally time to compile Kodi.
 
-Note: if you don't want to configure anything beyond what's already
+Note: if ports configuration isn't desired beyond what's already
 specified in `make.conf`, prepend `BATCH=1` to the below command. I
 recommend at least looking over the options available for
 `multimedia/ffmpeg` and `multimedia/kodi` with `make config`.
@@ -197,17 +195,17 @@ In the Latte Panda Delta's case, they are
 
     # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver multimedia/libvdpau-va-gl x11/xorg misc/unclutter-xfixes multimedia/kodi multimedia/kodi-addon-inputstream.adaptive
 
-After confirming that you want to build everything, detach from the
-`tmux` session (`CTRL-b d` is the default binding. Alternatively,
-create a second window with `CTRL-b c` and issue `tmux detach`).
-Then, kill the SSH connection and take a fifteen minute break or so.
+After giving permission to `portmaster` to build everything, detach from
+the `tmux` session (`CTRL-b d` is the default binding. Alternatively,
+create a second window with `CTRL-b c` and issue `tmux detach`).  Then,
+kill the SSH connection and take a fifteen minute break or so.
 
-Once that initial fifteen minute break is over, SSH in and `tmux
-attach` to see if there were any errors encountered early on that
-need to be addressed. It's tedious to wait several hours only to
-realize that `portmaster` wasn't actually compiling anything for most
-of that time. Now that you've done so, you can truly relax, because
-compiling Kodi and Xorg on a single board computer isn't too speedy.
+Once that initial fifteen minute break is over, SSH in and `tmux attach`
+to see if there were any errors encountered early on that need to be
+addressed. It's tedious to wait several hours only to realize that
+`portmaster` wasn't actually compiling anything for most of that time.
+Now it's time to relax. Compiling Kodi and Xorg on a single board
+computer isn't too speedy.
 
 #### Reviewing installation messages
 
@@ -219,14 +217,14 @@ Review installation messages to check for needed interventions.
 
 #### Creating the kodi user
 
-Create a separate user for Kodi (I simply named mine `kodi`, and will
+Create a separate user for Kodi (I named mine `kodi`, and will
 refer to this separate user as such for the rest of this article). Make
 sure to add `kodi` to the `video` group.
 
     # adduser
 
-If you forgot to add `kodi` to the `video` group, no problem. Just
-issue the following:
+If `kodi` wasn't added to the `video` group during this process, no
+problem. This can be remedied like so:
 
     # pw groupmod video -m kodi
 
@@ -234,14 +232,14 @@ After that, make sure to log in as `kodi`.
 
 #### Creating .xinitrc
 
-In order to initialize a graphical environment, we need to create
+To initialize a graphical environment, we need to create
 `/home/kodi/.xinitrc`.
 
-The `xset` commands are here to prevent interference with Kodi's
-screen blanking mechanisms. `unclutter` simply ensures that the
-cursor won't remain visible if idle (though the cursor shouldn't be
-visible during ordinary usage--it's merely a fallback in case that
-does happen, i.e., if a pointer device is accidentally bumped).
+The `xset` commands are here to prevent interference with Kodi's screen
+blanking mechanisms. `unclutter` ensures that the cursor won't
+remain visible if idle (though the cursor is usually invisible during
+ordinary usage--it's merely a fallback in case it does become visible.
+One common example is if a pointer device is accidentally bumped).
 
     $ cat <<EOF >~/.xinitrc
     . "${HOME}/.profile"
@@ -265,7 +263,7 @@ If it works, log out of `kodi` and back in to the user with root access.
 
 #### Setting up gettytab
 
-You'll likely want Kodi to start automatically on boot. Some things
+It can be helpful for Kodi to start automatically on boot. Some things
 are required for this to work: the first is that `kodi` needs
 to be automatically logged in. To address this, append some magic to
 [`gettytab(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=gettytab).
@@ -298,7 +296,7 @@ in the correct tty before doing so.
     fi
     EOF
 
-Finally, cross your fingers and reboot.
+Finally, reboot.
 
     # reboot
 
@@ -311,7 +309,7 @@ if needed (inspect `/dev/sndstat` for a list of devices).
 
     # sysctl hw.snd.default.unit=1 # needed for HDMI in my case.
 
-Now, decide whether or not you want to use bit-perfect mode and consult
+Now, decide whether bit-perfect mode will be used or not and consult
 the relevant section below. Note that the ["Sync playback to
 display"](https://kodi.wiki/view/Settings/Player/Videos#Sync_playback_to_display)
 option in Kodi is fundamentally incompatible with bit-perfect audio, as
@@ -319,7 +317,7 @@ it resamples both video and audio to match the refresh rate of the monitor.
 
 #### Bit-perfect
 
-In order to use bit-perfect mode, two `sysctl` tweaks are needed. Here,
+To use bit-perfect mode, two `sysctl` tweaks are needed. Here,
 I use the first device, but be sure to check what device needs to be
 adjusted.
 
@@ -337,8 +335,8 @@ and lower the value if needed.
 
     # sysctl hw.snd.feeder_rate_quality=4
 
-Remember that regardless of whether you chose bit-perfect mode or not,
-if tweaks made with `sysctl` are to be permanent,
+Remember that regardless which mode of operation was selected, if tweaks
+made with `sysctl` are to be permanent,
 [`sysctl.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl.conf)
 must be modified accordingly.
 
@@ -362,16 +360,16 @@ updates. They only download updates.
 
 #### Updating the system and ports
 
-When you're ready and have time to update, perform the following to
-apply changes to the ports and source tree, as well as binary updates to
-the base system (I add `fetch` just to be safe):
+When ready to update, issue these commands to apply changes to the ports
+and source tree, as well as binary updates to the base system (I add
+`fetch` just to be safe):
 
     # portsnap fetch update
     # freebsd-update fetch install
     # git -C /usr/src pull
 
 If `freebsd-update fetch install` installs any updates,
-`graphics/drm-kmod` should be rebuilt [per the FreeBSD
+`graphics/drm-kmod` needs to be rebuilt [per the FreeBSD
 handbook](https://docs.freebsd.org/en/books/handbook/x11/#x-config-video-cards).
 
     # portmaster -f graphics/drm-kmod
