@@ -15,9 +15,9 @@ From the [F-Droid website](https://www.f-droid.org/):
 ## Why F-Droid?
 
 For the reasons outlined in ["Why self-host/use
-FLOSS?"](/why-self-host.html), one should use FLOSS (Free/Libre and Open
-Source Software) whenever possible. The source code is available for
-every app on F-Droid.
+FLOSS?"](/why-self-host.html), using FLOSS (Free/Libre and Open Source
+Software) whenever possible is preferable. The source code is available
+for every app on F-Droid.
 
 ## F-Droid apps
 
@@ -69,11 +69,10 @@ every app on F-Droid.
 
 - [Yet Another Call
   Blocker](https://f-droid.org/en/packages/dummydomain.yetanothercallblocker/).
-  Quite a useful app. If you have a problem with specific area codes
-  calling your number, you can input them in YACB and it will filter
-  them out automatically. You can, of course, exempt contacts from being
-  treated as unknown callers, and YACB even has an option to stop the
-  call before the phone starts ringing on Android 7+.
+  Quite a useful app. Problematic area codes can be added to YACB and it
+  will filter them out automatically. Contacts can be exempted from
+  being treated as unknown callers, and YACB even has an option to stop
+  the call before the phone starts ringing on Android 7+.
 
 - [UntrackMe](https://f-droid.org/en/packages/app.fedilab.nitterizeme/).
   UntrackMe transforms certain links, such as YouTube, Twitter, and
