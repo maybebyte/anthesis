@@ -20,9 +20,12 @@ wholesale.
 ## Linux can't...
 
 For any of these categories, feel free to use the ["List of
-Applications" ArchWiki entry](https://wiki.archlinux.org/index.php/List_of_applications)
-as a supplementary resource. For the purposes of this article, I will
-focus only on GUI applications.
+Applications" ArchWiki
+entry](https://wiki.archlinux.org/index.php/List_of_applications) as a
+supplementary resource. For the purposes of this article, I will focus
+only on GUI applications. Even though there are many powerful CLI
+applications I'm fond of, this article is targeted more toward the
+beginner.
 
 ### Game
 
