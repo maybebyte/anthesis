@@ -35,7 +35,7 @@ If you'd like to talk, [see how to contact me](/contact.html).
 
 - [Read Markdown as man pages with lowdown and mandoc](/markdown-as-man-pages.html "2021-10-28")
 - [Setting up a 4K Kodi box with sndio on FreeBSD](/freebsd-entertainment-center.html "2021-06-13")
-- [Perfecting your metadata: tagging music with beets](/beets.html "2020-11-05")
+- [Perfecting metadata: tagging music with beets](/beets.html "2020-11-05")
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-24")
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-24")
 - [So you want to self host](/self-host-guide.html "2020-10-24")
