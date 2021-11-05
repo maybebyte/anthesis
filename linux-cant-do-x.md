@@ -11,9 +11,10 @@ user-friendly and powerful than it is now.
 
 Usually, I find that mindset is the underlying reason for perceived
 deficiencies. Remember that [Linux is NOT
-Windows](https://linux.oneandoneis2.org/LNW.htm). Your new favorite
-program for a specific task may very well not be the first one you try.
-However, that is no reason in itself to discard Linux wholesale.
+Windows](https://linux.oneandoneis2.org/LNW.htm). Often it's the case
+that a new favorite program for a specific task isn't the first one a
+person tries. However, that is no reason in itself to discard Linux
+wholesale.
 
 ## Linux can't...
 
@@ -81,13 +82,11 @@ of playable games is broader than it has ever been.
 
 ## Linux is powerful
 
-If you're not convinced that Linux is good enough for your needs, here
-are some places you can find Linux:
+Here are some places Linux can be found:
 
 - [Linux runs on the top 500
   supercomputers](https://www.top500.org/statistics/details/osfam/1/).
-- Your favorite website is almost
-  certainly [powered by a Unix-like operating
+- Most websites are [powered by a Unix-like operating
   system](https://w3techs.com/technologies/details/os-unix) ([probably
   Linux](https://w3techs.com/technologies/details/os-linux)).
 - Linux is good enough for Google--both Android and ChromeOS are based
