@@ -13,7 +13,8 @@ Usually, I find that mindset is the underlying reason for perceived
 deficiencies. Remember that [Linux is NOT
 Windows](https://linux.oneandoneis2.org/LNW.htm). Often it's the case
 that a new favorite program for a specific task isn't the first one a
-person tries. However, that is no reason in itself to discard Linux
+person tries, or that it may take some effort to learn a new way
+of doing things. However, that is no reason in itself to discard Linux
 wholesale.
 
 ## Linux can't...
