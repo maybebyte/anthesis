@@ -20,8 +20,7 @@ two articles, this is totally overkill!
 
 This is where [`lowdown`](https://kristaps.bsd.lv/lowdown/) comes in.
 `lowdown` has a number of different output modes that can be specified
-with `lowdown -T [mode]`. `lowdown -T html` is how `lowdown` is typically
-invoked for blogs.
+with `lowdown -T [mode]`. `lowdown -T html` is typical for blogs.
 
 One day, I got curious and read the man page to look for other output
 modes and noticed `lowdown -T man`. Suddenly, it hit me that I could use
@@ -36,14 +35,14 @@ when proofreading my website. I use this trick enough that I wrote a
 `manmd()`](https://amissing.link/src/dotfiles/file/.config/ksh/functions.html)
 to save a few keystrokes.
 
-You can pipe to something other than `mandoc` if it's your preference--I
+Output can be piped to something other than `mandoc` if preferred--I
 use `mandoc` because it's included with OpenBSD.
 
 ## Other options for reading Markdown
 
-It's worth perusing the respective man pages for options that interest
-you. Looking at `mandoc`, you could, for instance, render `lowdown -T
-man` output as a PDF and pipe that into your favorite PDF reader (I like
+It's worth perusing the respective man pages for interesting options.
+Looking at `mandoc`, it's possible to render `lowdown -T man` output as
+a PDF and pipe that into a PDF reader (I like
 [`zathura`](https://pwmt.org/projects/zathura/)):
 
     $ lowdown -T man [Markdown file] | mandoc -T pdf | zathura -
