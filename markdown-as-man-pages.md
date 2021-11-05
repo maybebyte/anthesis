@@ -14,7 +14,7 @@ visiting `http://localhost/`.
 
 I do still like this method for certain things, such as seeing how CSS
 is going to look in Firefox.  It's nice to have a completely local,
-browseable copy of my website.[^1] However, for quickly ascertaining
+browsable copy of my website.[^1] However, for quickly ascertaining
 whether the output for an article is good or not, or to look over one or
 two articles, this is totally overkill!
 
