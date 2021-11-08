@@ -10,8 +10,8 @@ However, I've noticed my passions for programming, cybersecurity, and
 really anything to do with
 [hacking](http://www.catb.org/jargon/html/H/hacker.html),[^1] are
 difficult to relay to others effectively, and I think I've figured out
-why. In order to explain my reasoning, let's examine one of my other
-passions first: music.
+why. To explain my reasoning, let's examine one of my other passions
+first: music.
 
 [^1]: As the document mentions, the term 'hacker' is best when bestowed
   by others. I don't call myself a hacker for the same reason one
@@ -48,7 +48,7 @@ task).
 
 ## Ways to approach/deal with this predicament
 
-It can be difficult to fruitfully share what you love if it's
+It can be difficult to fruitfully share a passion if it's
 sufficiently complex, so here are several observations that I hope
 others may find helpful.
 
