@@ -8,17 +8,16 @@ take a moment to understand NixOS before we dive into the pros and cons.
 
 ## What's NixOS like?
 
-If you've used a Unix-like OS before, chances are that NixOS isn't what
-you'd expect. Where many Linux distributions share a number of
-fundamental similarities (certainly they don't differ as much as the
-BSDs), NixOS is substantially different.
+Where many Linux distributions share a number of fundamental
+similarities (certainly, they don't differ as much as the BSDs), NixOS
+is substantially different.
 
 One of the most important concepts to understand is that NixOS is mostly
 modified by editing a central configuration file. What do I mean by
 this?
 
-Under the imperative paradigm of system management, you'd enable the
-OpenSSH daemon like so (using Debian as an example).
+Under the imperative paradigm of system management, the OpenSSH daemon
+is enabled like so (using Debian as an example).
 
 1. Install OpenSSH.
 
@@ -30,8 +29,8 @@ OpenSSH daemon like so (using Debian as an example).
 
 Contrast this with a declarative system like NixOS.
 
-1. Modify `/etc/nixos/configuration.nix` with your favorite text editor
-   so NixOS knows to enable the OpenSSH daemon.
+1. Modify `/etc/nixos/configuration.nix` so NixOS knows to enable the
+   OpenSSH daemon.
 
         services.sshd.enable = true;
 
@@ -40,9 +39,8 @@ Contrast this with a declarative system like NixOS.
         # nixos-rebuild switch
 
 This installs OpenSSH if it's not already present on the system and sets
-it up for you. It follows that maintaining a NixOS installation is an
-ongoing process of describing and subsequently rebuilding a
-system.
+it up. Maintaining a NixOS installation is an ongoing process of
+describing and subsequently rebuilding a system.
 
 As a result of what it sets out to do, NixOS doesn't follow the
 Filesystem Hierarchy Standard. Most things are isolated from one another
@@ -52,12 +50,11 @@ in `/nix/store`.
 
 ### Consistency
 
-Once you become acquainted with managing your system declaratively, it
-turns out that it's more consistent and reproducible. It feels like
-every program's configuration files use a different syntax, and NixOS
-offers the opportunity to configure everything with one language:
-Nix. When I realized this meant I could configure fonts without XML,
-I was sold. It's the difference between this:
+Managing a system declaratively is more consistent and reproducible. It
+feels like every program's configuration files use a different syntax,
+and NixOS offers the opportunity to configure everything with one
+language: Nix. When I realized this meant I could configure fonts
+without XML, I was sold. It's the difference between this:
 
     <?xml version='1.0'?>
     <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
@@ -90,43 +87,38 @@ And this:
       monospace = [ "Noto Mono" ];
     };
 
-I'd rather write the second one, wouldn't you?
+I'd rather write the second one.
 
 ### Reliability
 
 Rollbacks and atomic upgrades are a part of NixOS as well. If one
-version of the system doesn't boot, you can boot the last working
-configuration (assuming the problem isn't related to the boot
-loader). In addition, you'll probably still have a functioning system if
-the machine dies in the middle of an upgrade.
+version of the system doesn't boot, booting into the last working
+configuration is easy enough to do (assuming the problem isn't related
+to the boot loader).
 
 ### Aids in development
 
 Probably one of the most killer features for developers is
-[`nix-shell`](https://nixos.org/manual/nix/stable/#sec-nix-shell). You
-can create temporary, reproducible environments with whatever packages
-you need. Once you exit `nix-shell`, those packages are no
-longer in your PATH. While virtual environments aren't exclusive to
-NixOS, it's convenient to have a language agnostic tool for this
-included with the system. `nix-shell` is more or less limited to your
-imagination given that it uses the Nix language.
+[`nix-shell`](https://nixos.org/manual/nix/stable/#sec-nix-shell).
+Temporary, reproducible environments can be created with whatever
+packages are needed. Once `nix-shell` is exited, those packages are no
+longer in PATH. While virtual environments aren't exclusive to NixOS,
+it's convenient to have a language agnostic tool for this included with
+the system. `nix-shell` is more or less limited to the imagination
+given that it uses the Nix language.
 
 ### Self-documenting
 
-NixOS is self-documenting in a certain light. When a sysadmin retires
-and someone else takes their place, the newcomer doesn't need to crawl
-through `/etc` and take a shot in the dark as to how the OS is different
-from a fresh installation (though hopefully someone would give the poor
-bastard at least an outline). System configuration happens in one place,
-`/etc/nixos`, and since a NixOS installation is an ongoing process of
-describing the system you want, `/etc/nixos` is a living, breathing
-record of the changes you've made. Because of its reproducible nature,
-NixOS is a great choice for server farms.
+NixOS is self-documenting in a certain light. System configuration
+happens in one place, `/etc/nixos`. Since maintaining a NixOS
+installation is an ongoing process of describing the desired system state,
+`/etc/nixos` is a living, breathing record of the changes made. Because
+of its reproducible nature, NixOS is a great choice for server farms.
 
 ### Custom ISOs are a cinch
 
-One last pro: creating a live ISO to your specifications by leveraging
-Nix is much more pleasant than doing it imperatively in my
+One last pro: creating a live ISO to a set of specifications by
+leveraging Nix is much more pleasant than doing it imperatively in my
 experience. It's easier to understand what the live system does because
 its internals are laid bare in the configuration file. The ISO also
 won't build if there's a problem.
