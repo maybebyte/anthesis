@@ -28,8 +28,8 @@ a great experience.
 [![APU4B4 board on a wooden surface (back side).](/images/apu4b4_2_thumb.jpg)](/images/apu4b4_2.jpg)
 
 Include a [USB to DB9F serial
-adapter](https://www.pcengines.ch/usbcom1a.htm) in your purchase, as
-it's needed for the installation.
+adapter](https://www.pcengines.ch/usbcom1a.htm) in the purchase, as it's
+needed for the installation.
 
 [![USB to DB9F serial adapter on a wooden surface.](/images/usbcom1a_thumb.jpg "It's a pretty nice cable, all in all.")](/images/usbcom1a.jpg)
 
@@ -68,32 +68,36 @@ Finally, connect to the serial port. This indicates the line to use
 
 From here, the FAQ provides enough information to get through the rest
 of the installation procedure. Be sure to look at [the documentation for
-your architecture](https://www.openbsd.org/plat.html). In this case,
-that means to consult [the notes on
+the relevant architecture](https://www.openbsd.org/plat.html). In this
+case, that means to consult [the notes on
 amd64](https://www.openbsd.org/amd64.html).
 
 ## After installation
 
-Do the usual, e.g., read
-[`afterboot(8)`](https://man.openbsd.org/afterboot), check your mail,
-and so on. After that, there's a couple of things you'll probably want
-to implement.
+Do the usual (in other words, read
+[`afterboot(8)`](https://man.openbsd.org/afterboot), check system mail,
+and so on). After that, there's a couple of things that must be
+implemented.
 
 - A [firewall, DHCP server, and DNS
   server](https://www.openbsd.org/faq/pf/example1.html).
-- A [network bridge for ethernet
+- A way to connect to the Internet, which can vary between providers.
+  For some, a PPPoE connection may be needed. See
+  [`pppoe(4)`](https://man.openbsd.org/pppoe).
+
+Some other things that can be added:
+
+- Many use cases require a [network bridge for ethernet
   interfaces](https://www.openbsd.org/faq/faq6.html#Bridge). As of 6.9,
   I'm using [`veb(4)`](https://man.openbsd.org/veb) with good results.
-- Depending on your provider, you may need a PPPoE connection. See
-  [`pppoe(4)`](https://man.openbsd.org/pppoe).
-- [IPv6](https://lipidity.com/openbsd/router/), depending on your use
-  case and whether your ISP supports it.
+- [IPv6](https://lipidity.com/openbsd/router/), depending on use
+  case and whether the ISP supports it.
 - DNS sinkhole with [`unbound(8)`](https://man.openbsd.org/unbound), see
   [genblock](/src/sysadm/file/genblock.html).
 
 As always, give official OpenBSD documentation preferential treatment
 and cross-reference it when using unofficial documentation. Keep it
-simple and if you don't understand something, don't change it.
+simple and if what a knob changes is unclear, don't change it.
 
 ## WireGuard
 
@@ -117,7 +121,7 @@ Bring the [`wg(4)`](https://man.openbsd.org/wg) interface up using
 
     # wg-quick up [conf filename]
 
-Modify your `nat-to` entry in
+Modify the `nat-to` entry in
 [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly. In my
 case, `vport0` and `wg0` are the relevant interfaces.
 
@@ -135,8 +139,8 @@ Verify from a connected client.
 
     $ curl ifconfig.me -w '\n'
 
-If everything's up and working, place the following in
-`/etc/rc.local` so a WireGuard connection is established on boot.
+If everything's up and working, place this in `/etc/rc.local` so a
+WireGuard connection is established on boot.
 
     /usr/local/bin/wg-quick up [conf filename]
 
@@ -159,7 +163,7 @@ Add the public key and related options.
     > wgendpoint [endpoint addr] [port] \
     > wgaip 0.0.0.0/0
 
-Add the IP address specified in your WireGuard configuration file.
+Add the IP address specified in the WireGuard configuration file.
 
     # ifconfig wg0 [if addr]
 
@@ -170,7 +174,7 @@ Set up the relevant routing table entries.
     # route -qn delete -inet [endpoint addr]
     # route -qn add -inet [endpoint addr] -gateway [gateway addr]
 
-Modify your `nat-to` entry in
+Modify the `nat-to` entry in
 [`pf.conf(5)`](https://man.openbsd.org/man/pf.conf) accordingly. In my
 case, `vport0` and `wg0` are the relevant interfaces.
 
@@ -188,7 +192,7 @@ Verify from a connected client.
 
     $ curl ifconfig.me -w '\n'
 
-If everything's up and working, place the following in
+If everything's up and working, place this in
 `/etc/hostname.wg0` so a WireGuard connection is established on boot.
 
     wgkey [private key]
@@ -205,10 +209,10 @@ If everything's up and working, place the following in
 
 ### Concerning WireGuard and Unbound
 
-- Ensure `127.0.0.1` is used for DNS or your router won't use
+- Ensure `127.0.0.1` is used for DNS or the router won't use
 [`unbound(8)`](https://man.openbsd.org/man8/unbound.8). See
 [`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
-- Set the IP address of your VPN's DNS server as the `forward-addr` in
+- Set the IP address of the VPN's DNS server as the `forward-addr` in
 [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf).
-- Don't set `forward-first: yes` or you'll experience DNS leaks whenever
+- Don't set `forward-first: yes` or DNS leaks will occur whenever
 the upstream resolver fails.
