@@ -7,7 +7,7 @@ someone.[^1]
 [^1]: I *would* recover someone's data for them if they had a broken
   installation. That said, I refuse to (re)install proprietary operating
   systems because I don't want to contribute to the aforementioned
-  problems. Exploitative technology is malware, and that must not be
+  problems. Exploitative software is malware, and that must not be
   passed on.
 
 Allow me to explain my reasoning/proselytize. Libre software has
