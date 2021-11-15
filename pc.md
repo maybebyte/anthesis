@@ -30,8 +30,8 @@ location.")](/images/rice-laptop.png)
 [OpenBSD](https://www.openbsd.org/) powers most of my hardware.
 
 I also tried and enjoyed [NixOS](https://nixos.org/). There's so much
-potential in a declarative, reproducible system. If I've piqued your
-curiosity, read [my thoughts on NixOS](/nixos.html).
+potential in a declarative, reproducible system. [I've documented my
+thoughts on NixOS here](/nixos.html).
 
 **Window manager**
 
@@ -63,10 +63,9 @@ workflow for the better. Disorganization is the enemy of progress.
 
 **Text editor**
 
-[Neovim](https://neovim.io). To take your text editing to the next
-level, follow these steps:
+[Neovim](https://neovim.io). To learn Neovim, follow these steps:
 
-1. Add the neovim package.
+1. Add the `neovim` package.
 
         # pkg_add neovim
 
@@ -110,9 +109,7 @@ wonder why I didn't do this sooner.
 
 **RSS reader**
 
-[Newsboat](https://newsboat.org/). I use RSS feeds to track new
-content because it removes the need to create accounts in order to stay up to
-date.
+[Newsboat](https://newsboat.org/).
 
 **Screenshots**
 
@@ -178,17 +175,16 @@ for more.
   Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
   content filtering/adblock.
 
-Ideally, your results on [Cover Your Tracks](https://coveryourtracks.eff.org/)
-should look similar to mine:
+Ideally, results on [Cover Your
+Tracks](https://coveryourtracks.eff.org/) will look similar to this:
 
 [![My Cover Your Tracks results show I'm blocking both tracking ads and
 invisible trackers, as well as protecting me from
 fingerprinting.](/images/coveryourtracks-results.png)](/images/coveryourtracks-results.png)
 
-Anyone willing to put in this much effort to harden Firefox should
-commit to using Tor Browser for most things. I use Firefox for precious
-few tasks these days given that even with these tweaks, Firefox can't
-protect the user as effectively as Tor Browser can.
+Consider using Tor Browser. I use Firefox for precious few tasks these
+days given that even with these tweaks, Firefox can't protect the user
+as effectively as Tor Browser can.
 
 ## Entertainment
 
