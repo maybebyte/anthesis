@@ -1,13 +1,14 @@
 # Why self-host/use FLOSS?
 
 People often don't understand why I choose to be my own provider and use
-libre software, or why I won't repair a broken Windows/macOS
-installation.[^1]
+libre software, or why I won't (re)install Windows or macOS for
+someone.[^1]
 
-[^1]: I realize that refusing to repair proprietary operating systems
-  can come across as 'holier-than-thou.' That said, I don't want to
-  contribute to the success Microsoft and Apple enjoy, nor their hold on
-  those that want my aid, for reasons mentioned in this document.
+[^1]: I *would* recover someone's data for them if they had a broken
+  installation. That said, I refuse to (re)install proprietary operating
+  systems because I don't want to contribute to the aforementioned
+  problems. Exploitative technology is malware, and that must not be
+  passed on.
 
 Allow me to explain my reasoning/proselytize. Libre software has
 these benefits among others:
