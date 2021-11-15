@@ -19,7 +19,7 @@ me.
 
 Check out [LibreHunt](https://librehunt.org/). LibreHunt does a good job
 of explaining the merits of FLOSS and suggests Linux distributions based
-on how you answer its questionnaire.
+on how the questionnaire is answered.
 
 ## What I use
 
@@ -28,21 +28,21 @@ on how you answer its questionnaire.
 See ["Why
 OpenBSD?"](/why-openbsd.html) for more details.
 
-## Other devices you can liberate
+## Other devices to liberate
 
 ### Smartphone
 
-Use a privacy respecting OS for your mobile device if you can.
+It's best to use a privacy respecting OS here, too.
 [GrapheneOS](https://grapheneos.org/) is what I use, although
 [LineageOS](https://www.lineageos.org/) supports a wider range of
 hardware.
 
 ### Router
 
-Your router is a computer too. Proprietary consumer firmware isn't very
+A router is a computer too. Proprietary consumer firmware isn't very
 capable, nor is it secure. DD-WRT, OpenWRT, pfSense, and OpenBSD are all
-much better options. If you decide to flash firmware onto a consumer
-router, use Ethernet and take the appropriate precautions.
+much better options. If flashing firmware onto a consumer router, use
+Ethernet and take the appropriate precautions.
 
 Check out [Building an OpenBSD router](/openbsd-router.html) for more
 information on how I approach it.
