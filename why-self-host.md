@@ -4,11 +4,11 @@ People often don't understand why I choose to be my own provider and use
 libre software, or why I won't (re)install Windows or macOS for
 someone.[^1]
 
-[^1]: I *would* recover someone's data for them if they had a broken
+[^1]: I would recover someone's data for them if they had a broken
   installation. That said, I refuse to (re)install proprietary operating
   systems because I don't want to contribute to the aforementioned
   problems. Exploitative software is malware, and that must not be
-  passed on.
+  passed on (unless it is for security research, of course).
 
 Allow me to explain my reasoning/proselytize. Libre software has
 these benefits among others:
