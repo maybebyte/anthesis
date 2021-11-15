@@ -210,14 +210,14 @@ ordinary usage--it's merely a fallback in case it does become visible.
 One common example is if a pointer device is accidentally bumped).
 
     $ cat <<EOF >~/.xinitrc
-    . "${HOME}/.profile"
-    xset s noblank
-    xset s off
-    xset -dpms
-    unclutter &
-
-    exec kodi
-    EOF
+    > . "${HOME}/.profile"
+    > xset s noblank
+    > xset s off
+    > xset -dpms
+    > unclutter &
+    >
+    > exec kodi
+    > EOF
 
 #### Starting X
 
@@ -237,10 +237,10 @@ to be automatically logged in. To address this, append some magic to
 [`gettytab(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=gettytab).
 
     # cat <<EOF >>/etc/gettytab
-    # autologin kodi
-    A|Al|Autologin console:\
-      :ht:np:sp#115200:al=kodi
-    EOF
+    > # autologin kodi
+    > A|Al|Autologin console:\
+    >   :ht:np:sp#115200:al=kodi
+    > EOF
 
 #### Editing ttys
 
@@ -259,10 +259,10 @@ Essentially, it makes sure X isn't running and that it would start X
 in the correct tty before doing so.
 
     $ cat <<EOF >>~/.profile
-    if [ -z "${DISPLAY}" ] && [ "$(tty)" = '/dev/ttyv1' ]; then
-      exec startx
-    fi
-    EOF
+    > if [ -z "${DISPLAY}" ] && [ "$(tty)" = '/dev/ttyv1' ]; then
+    >   exec startx
+    > fi
+    > EOF
 
 Finally, reboot.
 
