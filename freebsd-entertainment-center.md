@@ -67,49 +67,17 @@ the entertainment center isn't doing much.
 
 ### Creating make.conf
 
-To get it out of the way before compiling anything to ensure changes
-are immediately effective, set up
+To get it out of the way before compiling anything to ensure changes are
+immediately effective, set up
 [`make.conf(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=make.conf).
 
-    # cat <<EOF >/etc/make.conf
-    # performance related tweaks
-    CPUTYPE?=goldmont-plus
-    OPTIONS_SET=ASM CPU_OPTS LTO MFX OPTIMIZED_CFLAGS PGO
-    #
-    # documentation
-    OPTIONS_SET+=DOCS EXAMPLES MANPAGES
-    #
-    # sndio
-    OPTIONS_SET+=SNDIO
-    #
-    # graphical stuff
-    OPTIONS_SET+=X11
-    #
-    # disable certain build options
-    OPTIONS_UNSET=ALSA PLATFORM_WAYLAND PULSEAUDIO PULSE WAYLAND
-    EOF
-
-In my case, there's no need to run binaries compiled on the Latte
-Panda Delta on other computers. Given this, I set
-`CPUTYPE?=goldmont-plus` to tell the compiler to optimize for the
-[Goldmont
-Plus](https://en.wikichip.org/wiki/intel/microarchitectures/goldmont_plus)
-microarchitecture (the Latte Panda Delta's microarchitecture).
-
-Don't add `CPUTYPE?=goldmont-plus` if the computer in
-question doesn't contain an appropriate CPU. Compiling binaries for a
-microarchitecture other than that of the machine trying to run them will
-end poorly.
-
-`MFX` is for [Intel Quick Sync
-Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)
-support in `multimedia/ffmpeg`, because the [Celeron
-N4100](https://ark.intel.com/content/www/us/en/ark/products/128983/intel-celeron-processor-n4100-4m-cache-up-to-2-40-ghz.html)
-(the Latte Panda Delta's CPU) supports Intel Quick Sync Video.
-
-Optionally, use [LibreSSL](https://wiki.freebsd.org/LibreSSL) for ports by
-adding `DEFAULT_VERSIONS+=ssl=libressl` to `make.conf`. Bear in mind
-that some ports, like `ftp/curl`, will require manual intervention.
+To keep things up to date, [my make.conf is available and managed by
+git](/src/sysadm/file/examples/freebsd/poudriere/make.conf.html), but
+please do not copy it blindly. It specifies everything needed to compile
+against sndio, LibreSSL, and Intel Quick Sync Video, but some things are
+removed as well. For example, the `CEC` build option for Kodi might be
+needed in some setups, but I use a wireless keyboard so it's unneeded in
+my case.
 
 ### Checking out source code
 
