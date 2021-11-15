@@ -14,8 +14,8 @@ From the [F-Droid website](https://www.f-droid.org/):
 
 ## Why F-Droid?
 
-For the reasons outlined in ["Why self-host/use
-FLOSS?"](/why-self-host.html), using FLOSS (Free/Libre and Open Source
+For the reasons outlined in [Why self-host/use
+FLOSS?](/why-self-host.html), using FLOSS (Free/Libre and Open Source
 Software) whenever possible is preferable. The source code is available
 for every app on F-Droid.
 
