@@ -8,7 +8,8 @@ someone.[^1]
   installation. That said, I refuse to (re)install proprietary operating
   systems because I don't want to contribute to the aforementioned
   problems. Exploitative software is malware, and that must not be
-  passed on (unless it is for security research, of course).
+  passed on (unless it is for security research, study, or something to
+  that effect).
 
 Allow me to explain my reasoning/proselytize. Libre software has
 these benefits among others:
@@ -52,9 +53,9 @@ Instead, I've outlined the differences so I can drive this point home:
 **those who run proprietary software are the product**. I've experienced
 it firsthand and I'm certain that people deserve better.
 
-Of course, this raises the following question: if proprietary software
-enables developers to take advantage of those that run their software,
-how can an end user combat that?
+This raises a question: if proprietary software enables
+developers to take advantage of those that run their software, how can
+the end user combat that?
 
 A good way to regain freedom is to exchange software that violates
 privacy/user rights for software that respects these values. That is to
