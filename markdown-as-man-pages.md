@@ -13,7 +13,7 @@ to render the output. Then, I would preview the changes in my web browser by
 visiting `http://localhost/`.
 
 I do still like this method for certain things, such as seeing how CSS
-is going to look in Firefox.  It's nice to have a completely local,
+is going to look in Firefox. It's nice to have a completely local,
 browsable copy of my website.[^1] However, for quickly ascertaining
 whether the output for an article is good or not, or to look over one or
 two articles, this is totally overkill!
@@ -30,7 +30,7 @@ paginate that output like so:
     $ lowdown -T man [Markdown file] | mandoc -a
 
 So, it turns out I can [RTFM](https://knowyourmeme.com/memes/rtfm) even
-when proofreading my website. I use this trick enough that I wrote a
+when proofreading my website. I wrote a
 [small shell function named
 `manmd()`](https://amissing.link/src/dotfiles/file/.config/ksh/functions.html)
 to save a few keystrokes.
@@ -60,10 +60,7 @@ readability; if anything, it's very distracting), use `--term-no-colour`:
     $ lowdown -T term --term-no-colour [Markdown file] | less
 
 I also wrote a small shell function for the no color variant of `lowdown
--T term`, `readmd()`, just in case I feel like comparing or switching
-things up. The output is fairly similar, but there are a couple of small
-readability differences that keep me using `lowdown -T man` over
-`lowdown -T term`.
+-T term`, `readmd()`.
 
 [^1]: I realize one could get more or less the same effect without
   running a web server on `localhost` (by pointing Firefox at the HTML
