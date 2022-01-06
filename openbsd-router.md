@@ -96,8 +96,7 @@ Some other things that can be added:
 - DNS sinkhole with [`unbound(8)`](https://man.openbsd.org/unbound), see
   [genblock](/src/sysadm/file/genblock.html).
 - Authoritative DNS for devices on the home network with `home.arpa`,
-- see
-  [rfc8375](https://datatracker.ietf.org/doc/html/rfc8375).
+  see [rfc8375](https://datatracker.ietf.org/doc/html/rfc8375).
 
 As always, give official OpenBSD documentation preferential treatment
 and cross-reference it when using unofficial documentation. Keep it
