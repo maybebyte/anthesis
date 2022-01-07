@@ -32,8 +32,8 @@ is an extension to this setup.
 
 Often people will choose a domain name for their home network on a whim,
 something like `localdomain` or `lan`. I used `lan` for a while. It
-turns out there is a special-use domain explicitly reserved for this
-purpose: `home.arpa.` ([Check out RFC8375 for more
+turns out there is a special-use domain name explicitly reserved for
+this purpose: `home.arpa.` ([Check out RFC8375 for more
 information](https://datatracker.ietf.org/doc/html/rfc8375)).
 
 Now that a domain name is decided, let's get to using it.
