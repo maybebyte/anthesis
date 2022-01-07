@@ -64,8 +64,8 @@ somewhere.
 include: /var/unbound/etc/unbound.conf.lan
 ```
 
-Then, create the file and add these contents to it. It defines one host,
-`peterepeat.home.arpa`. Be sure to adjust things as needed.
+After writing those changes, create the included file and add these
+contents to it. Be sure to adjust things as needed.
 
 ```
 # Allow home.arpa to contain private addresses (RFC1918).
