@@ -150,6 +150,8 @@ complaints, we can restart both daemons.
 # rcctl restart dhcpd unbound
 ```
 
+## Testing DNS resolution
+
 Obtain a new DHCP lease on the client side (as of OpenBSD 6.9, this can
 be done with [dhcpleasectl(8)](https://man.openbsd.org/dhcpleasectl.8).
 The correct interface will vary).
