@@ -174,7 +174,7 @@ $ host 192.168.1.241
 This setup works well enough as is, but it may not be possible to query
 hosts without a fully-qualified domain name (FQDN) depending on the
 system. Check to see if the [`host(1)`](https://man.openbsd.org/host)
-command fails with a partial hostname:
+command fails with a partial hostname.
 
 ```
 $ host peterepeat
@@ -184,7 +184,7 @@ Host peterepeat not found: 3(NXDOMAIN)
 This happens because `.home.arpa` is not being appended to `peterepeat`
 before the lookup. The machine trying to perform the lookup needs to
 have this line added to
-[`resolv.conf(5)`](https://man.openbsd.org/resolv.conf):
+[`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
 
 ```
 domain home.arpa
