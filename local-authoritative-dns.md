@@ -172,9 +172,9 @@ $ host 192.168.1.241
 ## Querying hosts without a FQDN
 
 This setup works well enough as is, but it may not be possible to query
-hosts without a fully-qualified domain name (FQDN) depending on the
-system. Check to see if the [`host(1)`](https://man.openbsd.org/host)
-command fails with a partial hostname.
+hosts without a fully-qualified domain name (FQDN) out of the box. Check
+to see if the [`host(1)`](https://man.openbsd.org/host) command fails
+with a partial hostname.
 
 ```
 $ host peterepeat
@@ -190,7 +190,7 @@ have this line added to
 domain home.arpa
 ```
 
-Then, things work as expected, saving a few keystrokes.
+Then things work as expected, saving a few keystrokes.
 
 ```
 $ host peterepeat
