@@ -28,7 +28,7 @@ DHCP and DNS with [`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
 [`unbound(8)`](https://man.openbsd.org/unbound). Local authoritative DNS
 is an extension to this setup.
 
-## RFC8375 (why we should use home.arpa.)
+## RFC8375 (why we use home.arpa.)
 
 Often people will choose a domain name for their home network on a whim,
 something like `localdomain` or `lan`. I used `lan` for a while. It
@@ -64,8 +64,8 @@ somewhere.
 include: /var/unbound/etc/unbound.conf.lan
 ```
 
-Then, create the file and add the following contents to it. It defines
-one host, `peterepeat.home.arpa`. Be sure to adjust things as needed.
+Then, create the file and add these contents to it. It defines one host,
+`peterepeat.home.arpa`. Be sure to adjust things as needed.
 
 ```
 # Allow home.arpa to contain private addresses (RFC1918).
