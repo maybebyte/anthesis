@@ -190,7 +190,7 @@ have this line added to
 domain home.arpa
 ```
 
-Then things work as expected, saving a few keystrokes.
+Now things work as expected, saving a few keystrokes.
 
 ```
 $ host peterepeat
