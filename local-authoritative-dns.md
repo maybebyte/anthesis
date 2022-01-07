@@ -28,13 +28,13 @@ DHCP and DNS with [`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
 [`unbound(8)`](https://man.openbsd.org/unbound). Local authoritative DNS
 is an extension to this setup.
 
-## RFC8375 (why we should use home.arpa)
+## RFC8375 (why we should use home.arpa.)
 
 Often people will choose a domain name for their home network on a whim,
 something like `localdomain` or `lan`. I used `lan` for a while. It
 turns out there is a special-use domain explicitly reserved for this
-purpose: `home.arpa`. [Check out RFC8375 for more
-information](https://datatracker.ietf.org/doc/html/rfc8375).
+purpose: `home.arpa.` ([Check out RFC8375 for more
+information](https://datatracker.ietf.org/doc/html/rfc8375)).
 
 Now that a domain name is decided, let's get to using it.
 
@@ -54,7 +54,7 @@ section in the default configuration file:
 #local-data-ptr: "192.0.2.51 mycomputer.local"
 ```
 
-I prefer to `include:` a separate file in
+I prefer to include a separate file in
 [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf) so that this
 part of the configuration is distinct. Edit
 `/var/unbound/etc/unbound.conf` and place the desired file name in there
@@ -65,7 +65,7 @@ include: /var/unbound/etc/unbound.conf.lan
 ```
 
 Then, create the file and add the following contents to it. It defines
-one host, `peterepeat.home.arpa`.
+one host, `peterepeat.home.arpa`. Be sure to adjust things as needed.
 
 ```
 # Allow home.arpa to contain private addresses (RFC1918).
@@ -99,9 +99,9 @@ unbound-checkconf: no errors in /var/unbound/etc/unbound.conf
 ## Configuring dhcpd(8)
 
 A viable [dhcpd.conf(5)](https://man.openbsd.org/dhcpd.conf) will need
-to declare a domain name and at least one host, in addition to the
-mandatory parameters. A working configuration could look like this (note
-that `fixed-address` is given a domain name, not an IP address):
+to declare a domain name and at least one host, in addition to mandatory
+parameters. A working configuration could look like this (note that
+`fixed-address` is given a domain name, not an IP address):
 
 ```
 subnet 192.168.1.0 netmask 255.255.255.0 {
@@ -119,8 +119,8 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 }
 ```
 
-I like to add `use-host-decl-names` to assign the hostname automatically
-based on the host declaration like so:
+I prefer to add `use-host-decl-names` to assign the hostname
+automatically based on the host declaration like so:
 
 ```
 subnet 192.168.1.0 netmask 255.255.255.0 {
@@ -197,4 +197,6 @@ peterepeat.home.arpa has address 192.168.1.241
 
 [^1]: [`nsd(8)`](https://man.openbsd.org/nsd) can also fulfill this
   function if lookups to `home.arpa` are forwarded to it with unbound,
-  but it's a more involved setup.
+  but it's a more involved setup. RFC8375 states that it is permissible
+  to combine the recursive resolver function for general DNS lookups
+  with an authoritative resolver for `home.arpa.`
