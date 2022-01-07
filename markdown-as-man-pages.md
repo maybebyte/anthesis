@@ -1,4 +1,4 @@
-# Read Markdown as man pages with lowdown and mandoc
+# Read Markdown as man pages with lowdown(1) and mandoc(1)
 
 My use case, broadly speaking, is similar to that of many others that
 maintain a blog. I write my blog in
@@ -15,8 +15,8 @@ visiting `http://localhost/`.
 I do still like this method for certain things, such as seeing how CSS
 is going to look in Firefox. It's nice to have a completely local,
 browsable copy of my website.[^1] However, for quickly ascertaining
-whether the output for an article is good or not, or to look over one or
-two articles, this is totally overkill!
+whether the output for an article is good or not, this is totally
+overkill!
 
 This is where [`lowdown`](https://kristaps.bsd.lv/lowdown/) comes in.
 `lowdown` has a number of different output modes that can be specified
@@ -30,10 +30,9 @@ paginate that output like so:
     $ lowdown -T man [Markdown file] | mandoc -a
 
 So, it turns out I can [RTFM](https://knowyourmeme.com/memes/rtfm) even
-when proofreading my website. I wrote a
-[small shell function named
+when proofreading my website. I wrote a [small shell function named
 `manmd()`](https://amissing.link/src/dotfiles/file/.config/ksh/functions.html)
-to save a few keystrokes.
+to make the process easier and for the novelty of it.
 
 Output can be piped to something other than `mandoc` if preferred--I
 use `mandoc` because it's included with OpenBSD.
@@ -60,7 +59,8 @@ readability; if anything, it's very distracting), use `--term-no-colour`:
     $ lowdown -T term --term-no-colour [Markdown file] | less
 
 I also wrote a small shell function for the no color variant of `lowdown
--T term`, `readmd()`.
+-T term`, `readmd()`. It's less janky than `manmd()`, as entertaining as
+Markdown converted into man pages can be.
 
 [^1]: I realize one could get more or less the same effect without
   running a web server on `localhost` (by pointing Firefox at the HTML
