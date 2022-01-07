@@ -173,8 +173,8 @@ $ host 192.168.1.241
 
 This setup works well enough as is, but it may not be possible to query
 hosts without a fully-qualified domain name (FQDN) out of the box. Check
-to see if the [`host(1)`](https://man.openbsd.org/host) command fails
-with a partial hostname.
+to see if [`host(1)`](https://man.openbsd.org/host) fails with a partial
+hostname.
 
 ```
 $ host peterepeat
