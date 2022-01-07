@@ -42,7 +42,7 @@ Now that a domain name is decided, let's get to using it.
 
 Unbound is mostly known as a caching recursive resolver. However, it
 can also serve zones authoritatively,[^1] as indicated by this commented out
-section in the default configuration file:
+section in the default configuration file.
 
 ```
 # Serve zones authoritatively from Unbound to resolver clients.
@@ -58,7 +58,7 @@ I prefer to include a separate file in
 [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf) so that this
 part of the configuration is distinct. Edit
 `/var/unbound/etc/unbound.conf` and place the desired file name in there
-somewhere:
+somewhere.
 
 ```
 include: /var/unbound/etc/unbound.conf.lan
@@ -101,7 +101,7 @@ unbound-checkconf: no errors in /var/unbound/etc/unbound.conf
 A viable [dhcpd.conf(5)](https://man.openbsd.org/dhcpd.conf) will need
 to declare a domain name and at least one host, in addition to mandatory
 parameters. A working configuration could look like this (note that
-`fixed-address` is given a domain name, not an IP address):
+`fixed-address` is given a domain name, not an IP address).
 
 ```
 subnet 192.168.1.0 netmask 255.255.255.0 {
@@ -120,7 +120,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 ```
 
 I prefer to add `use-host-decl-names` to assign the hostname
-automatically based on the host declaration like so:
+automatically based on the host declaration like so.
 
 ```
 subnet 192.168.1.0 netmask 255.255.255.0 {
