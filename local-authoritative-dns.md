@@ -184,10 +184,7 @@ Host peterepeat not found: 3(NXDOMAIN)
 This happens because `.home.arpa` is not being appended to `peterepeat`
 before the lookup. The machine trying to perform the lookup needs to
 have this line added to
-[`resolv.conf(5)`](https://man.openbsd.org/resolv.conf) (do not add this
-line to the router, or it will append `.home.arpa` to unresolved domain
-names outside of the local network since it is routing traffic for
-others).
+[`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
 
 ```
 domain home.arpa
