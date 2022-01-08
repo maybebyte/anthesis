@@ -3,9 +3,9 @@
 *Tested on OpenBSD 7.0*
 
 One meaningful addition to home networks is the ability to refer to
-devices using domain names instead of by their IP addresses. Domain
-names are more memorable and human readable. Local authoritative DNS
-allows things like this to work:
+devices using domain names instead of IP addresses. Domain names are
+more memorable and human readable. Local authoritative DNS allows things
+like this to work:
 
 ```
 $ host peterepeat
