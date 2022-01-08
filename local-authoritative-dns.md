@@ -201,7 +201,7 @@ peterepeat.home.arpa has address 192.168.1.241
 ```
 
 [^1]: [`nsd(8)`](https://man.openbsd.org/nsd) can also fulfill this
-  function if lookups to `home.arpa` are forwarded to it with unbound,
+  function if lookups to `home.arpa.` are forwarded to it with unbound,
   but it's a more involved setup. RFC8375 states that it is permissible
   to combine the recursive resolver function for general DNS lookups
   with an authoritative resolver for `home.arpa.`
