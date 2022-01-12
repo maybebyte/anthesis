@@ -22,8 +22,8 @@ PING peterepeat.home.arpa (192.168.1.241): 56 data bytes
 round-trip min/avg/max/std-dev = 0.395/0.395/0.395/0.000 ms
 ```
 
-This document makes some assumptions, the primary assumption being that
-there is [a router running OpenBSD](/openbsd-router.html) and serving
+Understand that this document makes some assumptions. Primarily, that
+there is [a router running OpenBSD](/openbsd-router.html) that serves
 DHCP and DNS with [`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
 [`unbound(8)`](https://man.openbsd.org/unbound). Local authoritative DNS
 is an extension to this setup.
@@ -198,7 +198,7 @@ peterepeat.home.arpa has address 192.168.1.241
 ```
 
 [^1]: [`nsd(8)`](https://man.openbsd.org/nsd) can also fulfill this
-  function if lookups to `home.arpa` are forwarded to it with unbound,
+  function if lookups to `home.arpa.` are forwarded to it with unbound,
   but it's a more involved setup. RFC8375 states that it is permissible
   to combine the recursive resolver function for general DNS lookups
   with an authoritative resolver for `home.arpa.`
