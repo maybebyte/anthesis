@@ -74,10 +74,7 @@ immediately effective, set up
 To keep things up to date, [my make.conf is available and managed by
 git](/src/sysadm/file/examples/freebsd/poudriere/make.conf.html), but
 please do not copy it blindly. It specifies everything needed to compile
-against sndio, LibreSSL, and Intel Quick Sync Video, but some things are
-removed as well. For example, the `CEC` build option for Kodi might be
-needed in some setups, but I use a wireless keyboard so it's unneeded in
-my case.
+against sndio, LibreSSL, and Intel Quick Sync Video.
 
 ### Checking out source code
 
