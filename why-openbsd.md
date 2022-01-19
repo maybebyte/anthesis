@@ -40,19 +40,17 @@ consciously avoids feature creep. There aren't as many bells and
 whistles compared to other operating systems and that's good! That means
 there's less to sift through if something breaks.
 
-Minimalism is another word that could be used to describe this concept.
-
 ## Less decision paralysis
 
 One of Linux's strengths is also a grave weakness: the abundance of
 choice. Deciding what implementation to use for a mail/web/DNS/NTP
-server is a task in itself, as there are many out there. With OpenBSD,
-one already has a sane, powerful, and secure suite of software to choose
-from, also known as the [base
-system](https://why-openbsd.rocks/fact/base-system-concept/).
+server is a task in itself, as there are many out there.
 
-For instance, a web server with HTTPS and automated certificate renewal
-can be had with [`httpd(8)`](https://man.openbsd.org/httpd),
+With OpenBSD, one already has a sane, powerful, and secure suite of
+software to choose from, also known as the [base
+system](https://why-openbsd.rocks/fact/base-system-concept/). For
+instance, a web server with HTTPS and automated certificate renewal can
+be had with [`httpd(8)`](https://man.openbsd.org/httpd),
 [`acme-client(1)`](https://man.openbsd.org/acme-client), and
 [`cron(8)`](https://man.openbsd.org/cron), all without installing any
 additional software.
