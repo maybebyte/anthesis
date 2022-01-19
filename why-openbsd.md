@@ -33,8 +33,8 @@ too much, continue on. Otherwise, perhaps
 
 ## Simplicity
 
-When I say simplicity, I mean architectural simplicity. OpenBSD follows
-the [Unix
+When I say simplicity, I mean simplicity from a software
+design/development perspective. OpenBSD follows the [Unix
 philosophy](https://web.mit.edu/6.055/old/S2009/notes/unix.pdf) and
 consciously avoids feature creep. There aren't as many bells and
 whistles compared to other operating systems and that's good! That means
