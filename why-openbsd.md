@@ -105,31 +105,16 @@ how to upgrade, which is a painless process with the
 
 ## Sane defaults
 
-OpenBSD is very configurable, but usually it doesn't really *need* to be
-configured. There's no need to set up the plethora of things that
-minimal Linux distributions would demand of you, like time
-synchronization, cron, log rotation, local mail delivery, and so forth.
-I miss that seamless, integrated feeling every time I work with
-something that isn't OpenBSD. The truly magical thing is OpenBSD does
-all this without feeling bloated.
+OpenBSD is certainly configurable, but the attitude toward knobs is
+different than many other places. OpenBSD tries to set good defaults
+that work for everyone in the hopes that people won't need to fiddle
+around much (the more someone who doesn't totally understand what
+they're doing changes a system, the more likely they are to break
+something).
 
-Also, the things that *do* require intervention from the user are
-usually pretty straightforward. For instance, enabling power management
-and hibernate + suspend is a three step process involving
-[`apmd(8)`](https://man.openbsd.org/apmd) and
-[`rcctl(8)`](https://man.openbsd.org/rcctl).
-
-1. Enable the service.
-
-        # rcctl enable apmd
-
-1. Ensure that it'll be started in automatic performance adjustment mode.
-
-        # rcctl set apmd flags '-A'
-
-1. Finally, start the service.
-
-        # rcctl start apmd
+Unlike many minimal Linux distributions, time synchronization, cron, log
+rotation, a stateful packet filter/firewall, and local mail delivery are
+all enabled by default on a new OpenBSD installation.
 
 ## Other resources
 
