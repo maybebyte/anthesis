@@ -22,7 +22,7 @@ Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD t
 - Want all the latest features.
 - Need every task or detail to be abstracted away graphically.
 - Get offended by terseness or being directed to relevant
-  documentation when asking others for help. Generally speaking, the mailing lists
+  documentation when asking others for help. The mailing lists
   are quite helpful, but there isn't a lot of hand-holding because
   those qualified to answer technical questions are likely busy with
   other projects, too.
