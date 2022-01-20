@@ -105,10 +105,10 @@ how to upgrade, which is a painless process with the
 
 ## Sane defaults
 
-OpenBSD is certainly configurable, but the attitude toward knobs is
-different than many other places. OpenBSD tries to set good defaults
-that work for everyone in the hopes that people won't need to fiddle
-around much (the more someone who doesn't totally understand what
+OpenBSD is certainly configurable, but the project's attitudes toward
+knobs is different from some others. OpenBSD tries to set good
+defaults that work for everyone in the hopes that people won't need to
+fiddle around much (the more someone who doesn't totally understand what
 they're doing changes a system, the more likely they are to break
 something).
 
