@@ -12,20 +12,12 @@ about these things that can be linked to from elsewhere.
 
 Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD to those that:
 
-- Dislike reading/are unwilling to learn. OpenBSD *will* require reading
-  from time to time, it's just how it is.
-- Expect it to work like `$PREVIOUS_OS`. There's probably a way to make
-  OpenBSD do what you want, but it's the OpenBSD way, not the
-  `$PREVIOUS_OS` way.
+- Dislike reading/are unwilling to learn.
 - Prioritize performance above all else.
 - Desire a powerful filesystem like ZFS.
 - Want all the latest features.
 - Need every task or detail to be abstracted away graphically.
-- Get offended by terseness or being directed to relevant
-  documentation when asking others for help. The mailing lists
-  are quite helpful, but there isn't a lot of hand-holding because
-  those qualified to answer technical questions are likely busy with
-  other projects, too.
+- Want it to work like `$PREVIOUS_OS`.
 
 If you remain unfettered by these, or at least aren't bothered by them
 too much, continue on. Otherwise, perhaps
