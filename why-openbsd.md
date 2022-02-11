@@ -108,7 +108,7 @@ Unlike many minimal Linux distributions, time synchronization, cron, log
 rotation, a stateful packet filter/firewall, and local mail delivery are
 all enabled by default on a new OpenBSD installation.
 
-## Multipurpose
+## Versatile
 
 OpenBSD makes a good OS for both the desktop and the server, at least
 for my needs.
