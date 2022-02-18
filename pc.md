@@ -82,7 +82,7 @@ workflow for the better. Disorganization is the enemy of progress.
 [ssg](https://rgz.ee/ssg.html). I wrote in regular HTML before
 I discovered this POSIX shell script. It generates
 [`sitemap.xml`](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.215.5690&rep=rep1&type=pdf)
-automatically. Writing in markdown is definitely quicker.
+automatically. Writing in Markdown is definitely quicker.
 
 **RSS feed generator**
 
