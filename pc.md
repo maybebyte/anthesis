@@ -142,50 +142,6 @@ It's worth mentioning that both of these browsers have
 I harden Firefox with [arkenfox's
 user.js](https://github.com/arkenfox/user.js).
 
-**Firefox addons**
-
-Here are the addons I use. They're mostly for privacy because [the
-modern web sucks](https://suckless.org/sucks/web/). Check [arkenfox's
-user.js wiki](https://github.com/arkenfox/user.js/wiki/4.1-Extensions)
-for more.
-
-- [Bloody
-  Vikings!](https://addons.mozilla.org/en-US/firefox/addon/bloody-vikings/):
-  disposable email addresses.
-- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/):
-  removes tracking elements from URLs.
-- [Skip
-  Redirect](https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/):
-  when intermediary URLs are present, attempts to extract the destination URL
-  and go there directly.
-- [Smart
-  Referer](https://addons.mozilla.org/en-US/firefox/addon/smart-referer/):
-  [HTTP Referers are a privacy
-  risk](https://developer.mozilla.org/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns).
-- [Temporary
-  Containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/):
-  can be configured to automatically open every new tab in a separate
-  container, which isolates data and confers privacy + security.
-- [Terms of Service; Didn't
-  Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/):
-  understand a site's privacy policy at a glance.
-- [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim):
-  Vim bindings for Firefox.
-- [uBlock
-  Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/):
-  content filtering/adblock.
-
-Ideally, results on [Cover Your
-Tracks](https://coveryourtracks.eff.org/) will look similar to this:
-
-[![My Cover Your Tracks results show I'm blocking both tracking ads and
-invisible trackers, as well as protecting me from
-fingerprinting.](/images/coveryourtracks-results.png)](/images/coveryourtracks-results.png)
-
-Consider using Tor Browser. I use Firefox for precious few tasks these
-days given that even with these tweaks, Firefox can't protect the user
-as effectively as Tor Browser can.
-
 ## Entertainment
 
 **Music player**
