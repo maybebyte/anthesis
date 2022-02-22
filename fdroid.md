@@ -1,8 +1,8 @@
 # Recommended F-Droid apps
 
-[![KISS launcher + Ameixa
-Monochrome.](/images/mobile-rice-lain-thumb.png "KISS launcher + Ameixa
-Monochrome.")](/images/mobile-rice-lain.png)
+[![KISS launcher + Arcticons
+Dark.](/images/mobile-rice-thumb.png "KISS launcher + Arcticons
+Dark.")](/images/mobile-rice.png)
 
 ## What is F-Droid?
 
@@ -37,8 +37,8 @@ for every app on F-Droid.
   find that pinning a few choice apps and searching for the rest with
   KISS Launcher is a more pleasant experience relative to the default
   [GrapheneOS](https://grapheneos.org/) launcher. Also, launchers allow
-  one to use custom icons (I use [Ameixa
-  Monochrome](https://f-droid.org/en/packages/org.xphnx.ameixamonochrome/)).
+  one to use custom icons (I use [Arcticons
+  Dark](https://f-droid.org/en/packages/com.donnnno.arcticons/)).
 
 - [mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/). For those
   that love [mpv](https://mpv.io/) and want it on their phone, too.

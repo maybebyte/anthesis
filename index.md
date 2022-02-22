@@ -7,8 +7,11 @@ cybersecurity. I also like to share tips and tricks that help me out in
 the day-to-day.
 
 Articles are sorted in reverse chronological order within their
-respective categories. To keep up with new content, [subscribe to my RSS
-feed](https://amissing.link/rss.xml).
+respective categories (with the exception of older undated articles I
+want to preserve--those are given `1970-01-01` as an arbitrary
+date).
+
+To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rss.xml).
 
 [Here's how to contact me](/contact.html).
 
@@ -18,18 +21,18 @@ feed](https://amissing.link/rss.xml).
 
 - [Why OpenBSD?](/why-openbsd.html "2021-03-25")
 - ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
-- [Pros and cons of NixOS](/nixos.html "2020-10-24")
-- [Why self-host/use FLOSS?](/why-self-host.html "2020-10-24")
+- [Pros and cons of NixOS](/nixos.html "1970-01-01")
+- [Why self-host/use FLOSS?](/why-self-host.html "1970-01-01")
 
 ### Software
 
 - [Recommended F-Droid apps](/fdroid.html "2021-04-12")
-- [FLOSS OS recommendations](/os.html "2020-10-24")
-- [Software I use (PC)](/pc.html "2020-10-24")
+- [FLOSS OS recommendations](/os.html "1970-01-01")
+- [Software I use (PC)](/pc.html "1970-01-01")
 
 ### Source code
 
-- [Projects I'm working on](/src/index.html "2020-10-24")
+- [Projects I'm working on](/src/index.html "1970-01-01")
 
 ### Tutorials
 
@@ -37,12 +40,12 @@ feed](https://amissing.link/rss.xml).
 - [Read Markdown as man pages with lowdown(1) and mandoc(1)](/markdown-as-man-pages.html "2021-10-28")
 - [Setting up a 4K Kodi box with sndio on FreeBSD](/freebsd-entertainment-center.html "2021-06-13")
 - [Perfecting metadata: tagging music with beets](/beets.html "2020-11-05")
-- [Building an OpenBSD router using an APU4D4](/openbsd-router.html "2020-10-24")
-- [Search sites directly with Firefox](/direct-search-with-firefox.html "2020-10-24")
-- [So you want to self host](/self-host-guide.html "2020-10-24")
+- [Building an OpenBSD router using an APU4D4](/openbsd-router.html "1970-01-01")
+- [Search sites directly with Firefox](/direct-search-with-firefox.html "1970-01-01")
+- [So you want to self host](/self-host-guide.html "1970-01-01")
 
 ## Personal
 
 - [Why a passion for technical subjects can be lonely](/on-lonely-passions.html "2021-04-29")
-- [About amissing.link](/about-website.html "2020-10-24")
-- [About me](/about-me.html "2020-10-24")
+- [About amissing.link](/about-website.html "1970-01-01")
+- [About me](/about-me.html "1970-01-01")
