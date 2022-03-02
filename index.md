@@ -36,6 +36,7 @@ To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rs
 
 ### Tutorials
 
+- [On overwriting disks](/overwriting-disks.html "2022-03-02")
 - [Local authoritative DNS on OpenBSD using dhcpd(8) and unbound(8)](/local-authoritative-dns.html "2022-01-07")
 - [Read Markdown as man pages with lowdown(1) and mandoc(1)](/markdown-as-man-pages.html "2021-10-28")
 - [Setting up a 4K Kodi box with sndio on FreeBSD](/freebsd-entertainment-center.html "2021-06-13")
