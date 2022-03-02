@@ -130,8 +130,9 @@ point.
 `dd` alleviates the need to find the total number of bytes, too, since
 it knows when to stop writing (mainly because `dd` isn't redirecting
 STDOUT with the shell to perform writing, but rather using the `of=`
-functionality baked into `dd`, so `dd` can handle output in ways `pv`
-doesn't due to design/implementation).
+functionality baked into `dd`, so `dd` can learn some things about the
+nature of the output file that `pv` won't know due to
+design/implementation).
 
 As an aside, it's easy enough to pipe `pv` into `dd`, but I haven't run
 into a situation where that was a necessary step.
