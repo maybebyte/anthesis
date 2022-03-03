@@ -135,9 +135,8 @@ functionality baked into `dd`, so `dd` can learn some things about the
 nature of the output file that `pv` won't know due to
 design/implementation).
 
-As an aside, it's easy enough to use `pv` and `dd` in concert with
-pipes, but I haven't run into a situation where that was a necessary
-step.
+As an aside, it's easy enough to pipe `pv` into `dd` or vice versa, but
+I haven't run into a situation where that was a necessary step.
 
 ## Conclusion
 
