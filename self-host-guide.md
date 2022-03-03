@@ -32,10 +32,10 @@ Some resources for pedagogical purposes:
 - [Libre projects](https://libreprojects.net/)
 - [Pi-hole](https://github.com/pi-hole/pi-hole)
 
-If you're not sure what to host, try building a website. By
-creating your own website, you become an Internet landlord and can
-freely express your thoughts instead of remaining under someone else's
-thumb. From here on out, I'll use setting up a website as an example.
+If you're not sure what to host, try building a website. By creating
+your own website, you can freely express your thoughts on your own
+platform instead of remaining under someone else's thumb. From here on
+out, I'll use setting up a website as an example.
 
 ## Pick an operating system
 
