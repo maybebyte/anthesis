@@ -32,7 +32,7 @@ img {
 pre {
   overflow: auto;
   border: 1px solid var(--fg-color);
-  padding: 15px;
+  padding: 0.8em;
 }
 
 
