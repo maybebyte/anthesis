@@ -8,6 +8,8 @@
 
 body {
   font: 18px/1.6 sans-serif;
+  /* 75 characters per line */
+  max-width: 37.5em;
   background: var(--bg-color);
 }
 
@@ -58,7 +60,6 @@ a:hover code {
 @media (min-width: 800px) {
   html,
   body {
-    max-width: 75%;
     margin: auto;
   }
 }
