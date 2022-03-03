@@ -57,7 +57,7 @@ a:hover code {
 
 
 /* desktop design */
-@media (min-width: 800px) {
+@media (min-width: 48em) {
   html,
   body {
     margin: auto;
