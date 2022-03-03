@@ -16,9 +16,10 @@ if it's to be an encrypted volume. The typical suggestion is to use
 # dd if=/dev/urandom of=/dev/rsd0c bs=1m
 ```
 
-`dd` handles this task just fine. If you use GNU `dd`, there's
-`status=progress` (for those on *BSD, sending `SIGINFO` displays the
-current status and there is no `status=progress`).
+`dd` handles this task just fine. If you use a version of `dd` that
+supports it, there's `status=progress`. This isn't the case for
+OpenBSD's version of `dd`, but sending `SIGINFO` will display the
+current status.
 
 That said, there's nothing particularly special about how `dd` handles
 overwriting disks to my knowledge. As far as I can tell, `dd` is
