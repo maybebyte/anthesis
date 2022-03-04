@@ -16,8 +16,8 @@ if it's to be an encrypted volume. The typical suggestion is to use
 # dd if=/dev/urandom of=/dev/rsd0c bs=1m
 ```
 
-`dd` handles this task just fine. On certain versions of `dd`, there's
-`status=progress`. This isn't the case for OpenBSD's version of `dd`,
+`dd` handles this task just fine. Certain versions of `dd` support
+`status=progress`. This isn't the case for OpenBSD's `dd`,
 but sending `SIGINFO` will display the current status.
 
 That said, there's nothing particularly special about how `dd` handles
