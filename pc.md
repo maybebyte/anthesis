@@ -35,8 +35,7 @@ thoughts on NixOS here](/nixos.html).
 
 **Window manager**
 
-[xmonad](https://xmonad.org/). Overall, I really like
-the fundamental concepts and design of Haskell.
+[xmonad](https://xmonad.org/).
 
 Note that I use [sxhkd](https://github.com/baskerville/sxhkd "Simple
 X Hotkey Daemon") to bind keys.
