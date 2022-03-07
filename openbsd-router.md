@@ -94,7 +94,7 @@ Some other things that can be added:
 - [IPv6](https://lipidity.com/openbsd/router/), depending on use
   case and whether the ISP supports it.
 - DNS sinkhole with [`unbound(8)`](https://man.openbsd.org/unbound), see
-  [genblock](/src/sysadm/file/genblock.html).
+  [genblock.pl](/src/sysadm/file/genblock.pl.html).
 - Authoritative DNS for devices on the home network with the special-use
   domain `home.arpa`, see [my article on the subject](/local-authoritative-dns.html).
 
