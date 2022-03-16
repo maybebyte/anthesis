@@ -64,6 +64,6 @@ changes so that I can preview them before committing and pushing to the
 server with git.
 
 Once I push to the server,
-[`post-receive`](/src/sysadm/files/post-receive) activates (see
+[`post-receive`](/src/sysadm/file/post-receive.html) activates (see
 [`githooks(5)`](https://git-scm.com/docs/githooks) for more info) to
 render the Markdown and voilà.
