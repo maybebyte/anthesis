@@ -32,7 +32,7 @@ To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rs
 
 ### Source code
 
-- [Projects I'm working on](/src/index.html "1970-01-01")
+- [Projects I'm working on](/src.html "1970-01-01")
 
 ### Tutorials
 
