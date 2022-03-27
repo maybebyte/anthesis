@@ -3,12 +3,17 @@
 Due to spam, I'll link to plain text files so that web scrapers won't
 have as easy a time. Sorry for the inconvenience.
 
+Some methods may use [GPG](https://www.gnupg.org/ "GNU Privacy Guard"). Here is the fingerprint for [my public key](/pubkeys/eurydice.key):
+
+```
+9096 5AE1 20F8 E848 979D  EA48 5367 0DEB CF37 5780
+```
+
 **Email**
 
 [Address](/g1QM6rw5yI.txt).
 
-[GPG](https://www.gnupg.org/ "GNU Privacy Guard") encryption using [my
-public GPG Key](/pubkeys/eurydice.key) is preferred when corresponding
+GPG encryption using my public GPG Key is preferred when corresponding
 via email. Remember to attach your public key so I can send an encrypted
 message back.
 
