@@ -6,4 +6,4 @@ git repositories.
 
 - [Website (Markdown)](/src/website_md/)
 - [Dotfiles](/src/dotfiles/)
-- [sysadm](/src/sysadm)
+- [sysadm](/src/sysadm/)
