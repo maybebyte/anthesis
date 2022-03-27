@@ -16,6 +16,5 @@ message back.
 
 [Address](/ULEaqFMPqL.txt).
 
-[@eurydice:557755.net](https://matrix.to/#/@eurydice:557755.net).
 One-to-one chats default to end-to-end encryption, so messing with GPG
 isn't necessary.
