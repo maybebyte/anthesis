@@ -11,7 +11,11 @@ Some methods may use [GPG](https://www.gnupg.org/ "GNU Privacy Guard"). Here is 
 
 **Email**
 
-[Address](/g1QM6rw5yI.txt).
+Address is stored here in plaintext:
+
+```
+https://amissing.link/cHDuM39w4v.txt
+```
 
 GPG encryption using my public GPG Key is preferred when corresponding
 via email. Remember to attach your public key so I can send an encrypted
@@ -19,7 +23,11 @@ message back.
 
 **Matrix**
 
-[Address](/ULEaqFMPqL.txt).
+Address is stored here in plaintext:
+
+```
+https://amissing.link/z81zIbDUrT.txt
+```
 
 One-to-one chats default to end-to-end encryption, so messing with GPG
 isn't necessary.
