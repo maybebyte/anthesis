@@ -12,9 +12,7 @@ It's common (and good) advice to first overwrite a disk with random data
 if it's to be an encrypted volume. The typical suggestion is to use
 [`dd(1)`](https://man.openbsd.org/dd) in some fashion similar to this:
 
-```
-# dd if=/dev/urandom of=/dev/rsd0c bs=1m
-```
+	# dd if=/dev/urandom of=/dev/rsd0c bs=1m
 
 `dd` handles this task just fine. Certain versions of `dd` support
 `status=progress`. This isn't the case for OpenBSD's `dd`,
@@ -26,9 +24,7 @@ leveraging the power of input and output streams in a *nix environment.
 Something that can be done by a tool as simple as
 [`cat(1)`](https://man.openbsd.org/cat).
 
-```
-# cat /dev/urandom > /dev/rsd0c
-```
+	# cat /dev/urandom > /dev/rsd0c
 
 Don't mistake that as an endorsement of `cat` for this job. There are
 better tools.
@@ -42,56 +38,48 @@ long time. For larger disks, an ETA proves invaluable. I like
 
 Install `pv` as a package.
 
-```
-# pkg_add pv
-```
+	# pkg_add pv
 
 Here, I'm plugging in a flash drive for testing purposes and running
 [`dmesg(8)`](https://man.openbsd.org/dmesg) for the device name.
 
-```
-$ dmesg
-[...]
-sd5 at scsibus6 targ 1 lun 0: <, USB DISK 3.0, PMAP> removable serial.655716319B52EBB03391
-sd5: 15120MB, 512 bytes/sector, 30965760 sectors
-```
+	$ dmesg
+	[...]
+	sd5 at scsibus6 targ 1 lun 0: <, USB DISK 3.0, PMAP> removable serial.655716319B52EBB03391
+	sd5: 15120MB, 512 bytes/sector, 30965760 sectors
 
 Incidentally, this already gives us the info we need to progress forward
 (number of sectors and number of bytes per sector). But, let's check disk
 details with [`disklabel(8)`](https://man.openbsd.org/disklabel) anyway
 for some more information.
 
-```
-# disklabel sd5
-# /dev/rsd5c:
-type: SCSI
-disk: VOID_LIVE
-label:
-duid: 0000000000000000
-flags:
-bytes/sector: 512
-sectors/track: 63
-tracks/cylinder: 255
-sectors/cylinder: 16065
-cylinders: 1927
-total sectors: 30965760
-boundstart: 0
-boundend: 30965760
-drivedata: 0
+	# disklabel sd5
+	# /dev/rsd5c:
+	type: SCSI
+	disk: VOID_LIVE
+	label:
+	duid: 0000000000000000
+	flags:
+	bytes/sector: 512
+	sectors/track: 63
+	tracks/cylinder: 255
+	sectors/cylinder: 16065
+	cylinders: 1927
+	total sectors: 30965760
+	boundstart: 0
+	boundend: 30965760
+	drivedata: 0
 
-16 partitions:
-#                size           offset  fstype [fsize bsize   cpg]
-  a:         30965760                0 ISO9660
-  c:         30965760                0 ISO9660
-```
+	16 partitions:
+	#                size           offset  fstype [fsize bsize   cpg]
+	  a:         30965760                0 ISO9660
+	  c:         30965760                0 ISO9660
 
 One last step before overwriting: determine how many bytes total are on
 this disk, by multiplying the bytes/sector value by total sectors.
 
-```
-$ echo $((512 * 30965760))
-15854469120
-```
+	$ echo $((512 * 30965760))
+	15854469120
 
 Now we can overwrite the disk. We need `-s` for the total amount of data
 to be transferred, and `-S` to stop transferring once that amount has
@@ -100,10 +88,8 @@ transfer, but not an ETA since it doesn't know how much data it's going
 to process overall. This makes sense because `/dev/urandom` will never send an "end
 of file," so we have to tell `pv` when to stop.
 
-```
-# pv -s 15854469120 -S /dev/urandom > /dev/rsd5c
-47.5MiB 0:00:02 [23.4MiB/s] [>                                                                                                                                              ]  0% ETA 0:10:34
-```
+	# pv -s 15854469120 -S /dev/urandom > /dev/rsd5c
+	47.5MiB 0:00:02 [23.4MiB/s] [>                                                                                                                                              ]  0% ETA 0:10:34
 
 ## Writing image files to disk with a progress bar
 
@@ -114,10 +100,8 @@ and cryptographically verified. The usage is simpler here, since `pv`
 will detect the size of the image file and will receive an "end of
 file."
 
-```
-# pv void-live-x86_64-20210930.iso > /dev/rsd5c
-26.5MiB 0:00:01 [26.4MiB/s] [====>                                                                                                                                          ]  4% ETA 0:00:19
-```
+	# pv void-live-x86_64-20210930.iso > /dev/rsd5c
+	26.5MiB 0:00:01 [26.4MiB/s] [====>                                                                                                                                          ]  4% ETA 0:00:19
 
 ## Why use dd at all then?
 

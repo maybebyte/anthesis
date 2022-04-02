@@ -66,15 +66,15 @@ workflow for the better. Disorganization is the enemy of progress.
 
 1. Add the `neovim` package.
 
-        # pkg_add neovim
+		# pkg_add neovim
 
 1. Open Neovim.
 
-        $ nvim
+		$ nvim
 
 1. Open the tutorial.
 
-        :Tutor
+		:Tutor
 
 **Static site generator**
 

@@ -27,7 +27,7 @@ modes and noticed `lowdown -T man`. Suddenly, it hit me that I could use
 [`mandoc(1)`](https://man.openbsd.org/mandoc) to accept, format, and
 paginate that output like so:
 
-    $ lowdown -T man [Markdown file] | mandoc -a
+	$ lowdown -T man [Markdown file] | mandoc -a
 
 So, it turns out I can [RTFM](https://knowyourmeme.com/memes/rtfm) even
 when proofreading my website. I wrote a [small shell function named
@@ -44,28 +44,28 @@ Looking at `mandoc`, it's possible to render `lowdown -T man` output as
 a PDF and pipe that into a PDF reader (I like
 [`zathura`](https://pwmt.org/projects/zathura/)):
 
-    $ lowdown -T man [Markdown file] | mandoc -T pdf | zathura -
+	$ lowdown -T man [Markdown file] | mandoc -T pdf | zathura -
 
 There is also `lowdown -T term`, described as "ANSI-escaped UTF-8 output
 suitable for reading on the terminal." Here, I paginate the output with
 [`less(1)`](https://man.openbsd.org/less), with `-R` to correctly
 interpret ANSI color escape sequences.
 
-    $ lowdown -T term [Markdown file] | less -R
+	$ lowdown -T term [Markdown file] | less -R
 
 To disable ANSI color escape sequences (I find the added color doesn't enhance
 readability; if anything, it's very distracting), use `--term-no-colour`:
 
-    $ lowdown -T term --term-no-colour [Markdown file] | less
+	$ lowdown -T term --term-no-colour [Markdown file] | less
 
 I also wrote a small shell function for the no color variant of `lowdown
 -T term`, `readmd()`. It's less janky than `manmd()`, as entertaining as
 Markdown converted into man pages can be.
 
 [^1]: I realize one could get more or less the same effect without
-  running a web server on `localhost` (by pointing Firefox at the HTML
-  files directly), but I like this method better.  The application of
-  [`unveil(2)`](https://man.openbsd.org/unveil) to the Firefox package
-  in OpenBSD means that Firefox has limited permissions as to what it
-  can read, write, execute, and create, and I don't want my website
-  cluttering my `~/Downloads` folder.
+      running a web server on `localhost` (by pointing Firefox at the HTML
+      files directly), but I like this method better.  The application of
+      [`unveil(2)`](https://man.openbsd.org/unveil) to the Firefox package
+      in OpenBSD means that Firefox has limited permissions as to what it
+      can read, write, execute, and create, and I don't want my website
+      cluttering my `~/Downloads` folder.

@@ -14,8 +14,8 @@ why. To explain my reasoning, let's examine one of my other passions
 first: music.
 
 [^1]: As the document mentions, the term 'hacker' is best when bestowed
-  by others. I don't call myself a hacker for the same reason one
-  wouldn't walk into a monastery and claim to be an arahant.
+      by others. I don't call myself a hacker for the same reason one
+      wouldn't walk into a monastery and claim to be an arahant.
 
 ## Music is a universal passion
 

@@ -1,66 +1,66 @@
 /* variables for use throughout the document */
 :root {
-  --bg-color: #070d18;
-  --fg-color: #e0e9f0;
-  --link-color: #996aea;
-  --link-alt-color: #80a7f1;
+	--bg-color: #070d18;
+	--fg-color: #e0e9f0;
+	--link-color: #996aea;
+	--link-alt-color: #80a7f1;
 }
 
 body {
-  font: 1.125rem/1.6 sans-serif;
-  /* 72 characters per line */
-  max-width: 36em;
-  background: var(--bg-color);
+	font: 1.125rem/1.6 sans-serif;
+	/* 72 characters per line */
+	max-width: 36em;
+	background: var(--bg-color);
 }
 
 body,
 code,
 hr {
-  color: var(--fg-color);
+	color: var(--fg-color);
 }
 
 h1,
 h2,
 h3 {
-  line-height: initial;
+	line-height: initial;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 pre {
-  overflow: auto;
-  border: 1px solid var(--fg-color);
-  padding: 0.8em;
+	overflow: auto;
+	border: 1px solid var(--fg-color);
+	padding: 0.8em;
 }
 
 
 /* link behavior/style */
 a,
 a code {
-  color: var(--link-color);
-  text-decoration: none;
+	color: var(--link-color);
+	text-decoration: none;
 }
 
 a:visited,
 a:hover,
 a:hover code {
-  color: var(--link-alt-color);
+	color: var(--link-alt-color);
 }
 
 a:hover,
 a:hover code {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 /* end link behavior/style */
 
 
 /* desktop design */
 @media (min-width: 48em) {
-  html,
-  body {
-    margin: auto;
-  }
+	html,
+	body {
+		margin: auto;
+	}
 }
 /* end desktop design */

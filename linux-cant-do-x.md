@@ -33,57 +33,57 @@ Linux is quite capable at gaming. It may not play every Windows game
 (though it approaches that point asymptotically). However, the library
 of playable games is broader than it has ever been.
 
-   - [Lutris](https://lutris.net/)
-   - [ProtonDB](https://www.protondb.com/)
-   - [Retropie](https://retropie.org.uk/)
-   - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
-     [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
-     can't really endorse Reddit as a platform; that said, I consult it
-     from time to time. Subreddit wikis in particular can have
-     useful content.
+  - [Lutris](https://lutris.net/)
+  - [ProtonDB](https://www.protondb.com/)
+  - [Retropie](https://retropie.org.uk/)
+  - [/r/linux_gaming](https://old.reddit.com/r/linux_gaming/), check
+    [the wiki](https://old.reddit.com/r/linux_gaming/wiki/index). I
+    can't really endorse Reddit as a platform; that said, I consult it
+    from time to time. Subreddit wikis in particular can have
+    useful content.
 
 ### Handle photos
 
-   - [GIMP](https://www.gimp.org/)
-   - [Inkscape](https://inkscape.org/)
-   - [RawTherapee](https://rawtherapee.com/)
-   - [darktable](https://www.darktable.org/)
-   - [digiKam](https://www.digikam.org/)
+  - [GIMP](https://www.gimp.org/)
+  - [Inkscape](https://inkscape.org/)
+  - [RawTherapee](https://rawtherapee.com/)
+  - [darktable](https://www.darktable.org/)
+  - [digiKam](https://www.digikam.org/)
 
 ### Paint digitally
 
-   - [Krita](https://krita.org/en/)
+  - [Krita](https://krita.org/en/)
 
 ### Edit videos
 
-   - [Flowblade](https://jliljebl.github.io/flowblade/)
-   - [Kdenlive](https://kdenlive.org/)
-   - [Shotcut](https://www.shotcut.org/)
+  - [Flowblade](https://jliljebl.github.io/flowblade/)
+  - [Kdenlive](https://kdenlive.org/)
+  - [Shotcut](https://www.shotcut.org/)
 
 ### Produce audio
 
-   - [Ardour](https://ardour.org/)
-   - [Audacity](https://www.audacityteam.org/)
-   - [LMMS](https://lmms.io/)
-   - [MusE](https://muse-sequencer.github.io/)
-   - [MuseScore](https://musescore.org/)
+  - [Ardour](https://ardour.org/)
+  - [Audacity](https://www.audacityteam.org/)
+  - [LMMS](https://lmms.io/)
+  - [MusE](https://muse-sequencer.github.io/)
+  - [MuseScore](https://musescore.org/)
 
 ### Do CAD (computer-aided design)
 
-   - [BRL-CAD](https://brlcad.org/). The US Military models weapons
-     systems with it.
-   - [LibreCAD](https://www.librecad.org/)
+  - [BRL-CAD](https://brlcad.org/). The US Military models weapons
+    systems with it.
+  - [LibreCAD](https://www.librecad.org/)
 
 ### Process documents
 
-   - [LibreOffice](https://www.libreoffice.org/)
-   - [OnlyOffice](https://www.onlyoffice.com/)
+  - [LibreOffice](https://www.libreoffice.org/)
+  - [OnlyOffice](https://www.onlyoffice.com/)
 
 ### Be user-friendly
 
-   - [Install Wars! Linux Mint vs Windows 10 vs
-     Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
-     (9:01)
+  - [Install Wars! Linux Mint vs Windows 10 vs
+    Manjaro](https://invidious.snopyta.org/watch?v=wnqRJOJGWGA)
+    (9:01)
 
 ## Linux is powerful
 

@@ -21,22 +21,22 @@ is enabled like so (using Debian as an example).
 
 1. Install OpenSSH.
 
-        # apt install openssh-server
+		# apt install openssh-server
 
 1. Enable the OpenSSH daemon.
 
-        # systemctl enable ssh
+		# systemctl enable ssh
 
 Contrast this with a declarative system like NixOS.
 
 1. Modify `/etc/nixos/configuration.nix` so NixOS knows to enable the
    OpenSSH daemon.
 
-        services.sshd.enable = true;
+		services.sshd.enable = true;
 
 1. Rebuild and switch to the new configuration.
 
-        # nixos-rebuild switch
+		# nixos-rebuild switch
 
 This installs OpenSSH if it's not already present on the system and sets
 it up. Maintaining a NixOS installation is an ongoing process of
@@ -56,36 +56,36 @@ and NixOS offers the opportunity to configure everything with one
 language: Nix. When I realized this meant I could configure fonts
 without XML, I was sold. It's the difference between this:
 
-    <?xml version='1.0'?>
-    <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
-    <fontconfig>
-      <alias>
-        <family>serif</family>
-        <prefer>
-          <family>Noto Serif</family>
-        </prefer>
-      </alias>
-      <alias>
-        <family>sans-serif</family>
-        <prefer>
-          <family>Noto Sans</family>
-        </prefer>
-      </alias>
-      <alias>
-        <family>monospace</family>
-        <prefer>
-          <family>Noto Mono</family>
-        </prefer>
-      </alias>
-    </fontconfig>
+	<?xml version='1.0'?>
+	<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+	<fontconfig>
+		<alias>
+			<family>serif</family>
+			<prefer>
+				<family>Noto Serif</family>
+			</prefer>
+		</alias>
+		<alias>
+			<family>sans-serif</family>
+			<prefer>
+				<family>Noto Sans</family>
+			</prefer>
+		</alias>
+		<alias>
+			<family>monospace</family>
+			<prefer>
+				<family>Noto Mono</family>
+			</prefer>
+		</alias>
+	</fontconfig>
 
 And this:
 
-    fonts.fontconfig.defaultFonts = {
-      serif = [ "Noto Serif" ];
-      sansSerif = [ "Noto Sans" ];
-      monospace = [ "Noto Mono" ];
-    };
+	fonts.fontconfig.defaultFonts = {
+		serif = [ "Noto Serif" ];
+		sansSerif = [ "Noto Sans" ];
+		monospace = [ "Noto Mono" ];
+	};
 
 I'd rather write the second one.
 

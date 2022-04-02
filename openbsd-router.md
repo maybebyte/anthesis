@@ -53,18 +53,18 @@ how to make sure that's the case.
 Display the current user and groups they belong to with
 [`id(1)`](https://man.openbsd.org/id).
 
-    $ id
+	$ id
 
 Add the user to the `dialer` group if necessary with
 [`usermod(8)`](https://man.openbsd.org/usermod).
 
-    # usermod -G dialer [user]
+	# usermod -G dialer [user]
 
 Finally, connect to the serial port. This indicates the line to use
 `(-l)` and the baud rate `(-s)`. The APU4D4 requires a baud rate of
 `115200`.
 
-    $ cu -l cuaU0 -s 115200
+	$ cu -l cuaU0 -s 115200
 
 From here, the FAQ provides enough information to get through the rest
 of the installation procedure. Be sure to look at [the documentation for
