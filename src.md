@@ -1,9 +1,11 @@
 # Projects I'm working on
 
-I publish the source code of my projects here.
-[stagit](https://github.com/oxalorg/stagit) generates HTML pages from
-git repositories.
+I publish the source code of my projects here, and also on GitHub since
+it's a familiar interface to many.
 
-- [Website (Markdown)](/src/website_md/)
-- [Dotfiles](/src/dotfiles/)
-- [sysadm](/src/sysadm/)
+Here, [stagit](https://github.com/oxalorg/stagit) generates HTML pages
+from git repositories.
+
+- [Website](/src/website_md/) [(GitHub)](https://github.com/3uryd1ce/website_md)
+- [Dotfiles](/src/dotfiles/) [(GitHub)](https://github.com/3uryd1ce/dotfiles)
+- [sysadm](/src/sysadm/) [(GitHub)](https://github.com/3uryd1ce/sysadm)
