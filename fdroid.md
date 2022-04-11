@@ -40,6 +40,11 @@ for every app on F-Droid.
   one to use custom icons (I use [Arcticons
   Dark](https://f-droid.org/en/packages/com.donnnno.arcticons/)).
 
+- [Meditation
+  Assistant](https://f-droid.org/en/packages/sh.ftp.rocketninelabs.meditationassistant.opensource/).
+  Practice agnostic and doesn't do more than I need it to--in other
+  words, perfect for my use case.
+
 - [mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/). For those
   that love [mpv](https://mpv.io/) and want it on their phone, too.
 
