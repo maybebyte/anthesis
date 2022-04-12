@@ -81,7 +81,7 @@ implemented.
 
 - A [firewall, DHCP server, and DNS
   server](https://www.openbsd.org/faq/pf/example1.html). See my
-  [pf.conf](/src/sysadm/file/examples/openbsd/pf.conf.router.html).
+  [pf.conf](/src/sysadm/file/examples/openbsd/pf.conf.html).
 - A way to connect to the Internet, which can vary between providers.
   For some, a PPPoE connection may be needed. See
   [`pppoe(4)`](https://man.openbsd.org/pppoe).
