@@ -8,7 +8,7 @@ output to make sure that it's sane before applying changes.
 Formerly, my way of addressing this was to run
 [`httpd(8)`](https://man.openbsd.org/httpd) on `localhost` and use a
 [shell script I wrote called
-`webtest`](https://amissing.link/src/dotfiles/file/.local/bin/webtest.html)
+`webtest`](/src/dotfiles/file/.local/bin/webtest.html)
 to render the output. Then, I would preview the changes in my web browser by
 visiting `http://localhost/`.
 
@@ -31,7 +31,7 @@ paginate that output like so:
 
 So, it turns out I can [RTFM](https://knowyourmeme.com/memes/rtfm) even
 when proofreading my website. I wrote a [small shell function named
-`manmd()`](https://amissing.link/src/dotfiles/file/.config/ksh/functions.html)
+`manmd()`](/src/dotfiles/file/.config/ksh/functions.html)
 to make the process easier and for the novelty of it.
 
 Output can be piped to something other than `mandoc` if preferred--I
