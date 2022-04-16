@@ -110,7 +110,7 @@ Here's a more realistic example that fetches a blocklist and processes
 it with `genblock.pl`, then writes the output to a file in a format
 accepted by [unbound(8)](https://man.openbsd.org/unbound).
 
-	$ ftp -o https://adaway.org/hosts.txt |
+	$ ftp -o - https://adaway.org/hosts.txt |
 	> ./genblock.pl -t unbound -o blocklist.txt
 	$ cat blocklist.txt
 	local-zone: "analytics.163.com" always_refuse
