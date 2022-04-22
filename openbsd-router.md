@@ -66,6 +66,12 @@ Finally, connect to the serial port. This indicates the line to use
 
 	$ cu -l cuaU0 -s 115200
 
+Please remember to enter this at the boot prompt afterward:
+
+	boot> stty com0 115200
+	boot> set tty com0
+	boot> boot
+
 From here, the FAQ provides enough information to get through the rest
 of the installation procedure. Be sure to look at [the documentation for
 the relevant architecture](https://www.openbsd.org/plat.html). In this
