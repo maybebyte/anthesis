@@ -117,5 +117,5 @@ for my needs.
 
 - [Why OpenBSD rocks](https://why-openbsd.rocks/fact/)
 - [awesome-openbsd](https://github.com/ligurio/awesome-openbsd)
-- [Roman Zolotarev's website](https://rgz.ee/), which contains useful
-  tutorials.
+- [Roman Zolotarev's website](https://rgz.ee/)
+- [Solene's website](https://dataswamp.org/~solene/)
