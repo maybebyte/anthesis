@@ -48,6 +48,7 @@ To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rs
 
 ## Personal
 
+- [Favorite music: part two](/favorite-music-part-two.html "2022-04-27")
 - [Favorite music: part one](/favorite-music-part-one.html "2022-03-16")
 - [Why a passion for technical subjects can be lonely](/on-lonely-passions.html "2021-04-29")
 - [About amissing.link](/about-website.html "1970-01-01")
