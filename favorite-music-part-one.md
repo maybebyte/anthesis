@@ -15,6 +15,12 @@ If there's music you think I might enjoy, [feel free to contact
 me](/contact.html). I'm always looking for new music and my tastes are
 fairly eclectic.
 
+## Note on Invidious
+
+If the linked version of invidious doesn't work for some reason, [use
+the redirect service](https://redirect.invidious.io/) (requires
+JavaScript to use some features).
+
 ## Now to the music
 
 - [Aphex Twin - Heliosphan](https://www.youtube.com/watch?v=0Z4cLmbw6q0) (IDM) [(invidious)](https://vid.puffyan.us/watch?v=0Z4cLmbw6q0)
