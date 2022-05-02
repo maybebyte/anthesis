@@ -66,7 +66,8 @@ Finally, connect to the serial port. This indicates the line to use
 
 	$ cu -l cuaU0 -s 115200
 
-Please remember to enter this at the boot prompt afterward:
+Please remember to enter this at the boot prompt afterward, to configure
+the serial connection. Later on, the installer will set these.
 
 	boot> stty com0 115200
 	boot> set tty com0
