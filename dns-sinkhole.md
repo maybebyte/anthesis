@@ -111,7 +111,7 @@ it with `genblock.pl`, then writes the output to a file in a format
 accepted by [unbound(8)](https://man.openbsd.org/unbound).
 
 	$ ftp -o - https://adaway.org/hosts.txt |
-	> ./genblock.pl -t unbound -o blocklist.txt
+	> ./genblock.pl -t unbound > blocklist.txt
 	$ cat blocklist.txt
 	local-zone: "analytics.163.com" always_refuse
 	local-zone: "crash.163.com" always_refuse
@@ -213,7 +213,7 @@ before restarting DNS, add this to `/etc/weekly.local`.
 		&& /bin/mv /etc/blocklist.txt /etc/blocklist.txt.bak
 
 	/usr/bin/xargs -- /usr/bin/ftp -o - < /etc/sysadm/blocklist_urls \
-		| /etc/sysadm/genblock.pl -t unbound -o /etc/blocklist.txt
+		| /etc/sysadm/genblock.pl -t unbound > /etc/blocklist.txt
 
 	# https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet
 	echo 'local-zone: "use-application-dns.net" always_refuse' >> /etc/blocklist.txt
