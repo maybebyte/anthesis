@@ -69,8 +69,7 @@ for every app on F-Droid.
 
 - [Termux](https://termux.com/). Termux is a terminal emulator for
   Android, and offers an incredible amount of power. I use Termux to
-  securely transfer files between my smartphone and computer using SSH,
-  and my dotfiles are there, too.
+  securely transfer files between my smartphone and computer using SSH.
 
 - [Yet Another Call
   Blocker](https://f-droid.org/en/packages/dummydomain.yetanothercallblocker/).
