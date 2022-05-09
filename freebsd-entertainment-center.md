@@ -238,7 +238,7 @@ to be automatically logged in. To address this, append some magic to
 	# cat <<EOF >>/etc/gettytab
 	> # autologin kodi
 	> A|Al|Autologin console:\
-	> 	:ht:np:sp#115200:al=kodi
+	>	:ht:np:sp#115200:al=kodi
 	> EOF
 
 #### Editing ttys
@@ -248,8 +248,8 @@ Edit
 to match below.
 
 	# Virtual terminals
-	#ttyv1  "/usr/libexec/getty Pc"		 xterm   onifexists secure
-	ttyv1   "/usr/libexec/getty Al"		 xterm   onifexists secure
+	#ttyv1	"/usr/libexec/getty Pc"	xterm	onifexists	secure
+	ttyv1	"/usr/libexec/getty Al"	xterm	onifexists	secure
 
 #### Ensuring X only starts in the correct TTY
 
