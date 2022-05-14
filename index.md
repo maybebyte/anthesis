@@ -19,6 +19,7 @@ To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rs
 
 ### Opinion
 
+- [Common people are not the enemy. Greed and selfishness are.](/greed.html "2022-05-14")
 - [Why OpenBSD?](/why-openbsd.html "2021-03-25")
 - ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
 - [Pros and cons of NixOS](/nixos.html "1970-01-01")
