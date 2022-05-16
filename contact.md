@@ -3,7 +3,7 @@
 Due to spam, I'll link to plain text files so that web scrapers won't
 have as easy a time. Sorry for the inconvenience.
 
-Some methods may use [GPG](https://www.gnupg.org/ "GNU Privacy Guard"). Here is the fingerprint for [my public key](/pubkeys/eurydice.key).
+Some methods may use [GPG](https://www.gnupg.org/ "GNU Privacy Guard"). Here is the fingerprint for [my public key](/pubkeys/eurydice.asc).
 
 	9096 5AE1 20F8 E848 979D  EA48 5367 0DEB CF37 5780
 
