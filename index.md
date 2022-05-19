@@ -1,10 +1,9 @@
 # There's no place like /home
 
-Hey, welcome to my blog. My name is Ashlen, and I mainly write about
-technology and software. Areas of particular interest are OpenBSD,
-self-hosting, system administration, programming, online privacy, and
-cybersecurity. I also like to share tips and tricks that help me out in
-the day-to-day.
+Hey, welcome to my blog. I mainly write about technology and software.
+Areas of particular interest are OpenBSD, self-hosting, system
+administration, programming, online privacy, and cybersecurity. I also
+like to share tips and tricks that help me out in the day-to-day.
 
 Articles are sorted in reverse chronological order within their
 respective categories (with the exception of older undated articles I
