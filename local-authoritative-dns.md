@@ -147,7 +147,7 @@ Then, try to resolve the new hostname.
 ## Querying hosts without a FQDN
 
 This setup works well enough as is, but it may not be possible to query
-hosts without a fully-qualified domain name (FQDN) out of the box. Check
+hosts without a fully qualified domain name (FQDN) out of the box. Check
 to see if [`host(1)`](https://man.openbsd.org/host) fails with a partial
 hostname.
 

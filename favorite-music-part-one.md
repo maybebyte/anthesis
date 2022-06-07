@@ -6,9 +6,9 @@ something out there.
 
 The genres are based on MusicBrainz tags for the entire album. If
 anything looks funky, I'm listing it as is, but may not fully agree that
-that song in particular fits that genre.
+the song in particular fits that genre.
 
-These won't be released consistently--the point in my mind is to have
+These won't be released consistently. The point in my mind is to have
 fun with it and publish these when it feels right.
 
 If there's music you think I might enjoy, [feel free to contact

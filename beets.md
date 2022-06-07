@@ -100,7 +100,7 @@ to gently coax it into understanding what I wanted it to do.
 ### Cue splitting
 
 Beets needs a separate file for each track to tag music, yet some
-releases have only one FLAC file for the entire album.  Fortunately, the
+releases have only one FLAC file for the entire album. Fortunately, the
 lone FLAC file can be split given an appropriate cue sheet (a text file
 that describes the album's track layout).
 

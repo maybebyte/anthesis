@@ -16,14 +16,14 @@ I do still like this method for certain things, such as seeing how CSS
 is going to look in Firefox. It's nice to have a completely local,
 browsable copy of my website.[^1] However, for quickly ascertaining
 whether the output for an article is good or not, this is totally
-overkill!
+overkill.
 
 This is where [`lowdown`](https://kristaps.bsd.lv/lowdown/) comes in.
-`lowdown` has a number of different output modes that can be specified
+`lowdown` has a number of output modes that can be specified
 with `lowdown -T [mode]`. `lowdown -T html` is typical for blogs.
 
 One day, I got curious and read the man page to look for other output
-modes and noticed `lowdown -T man`. Suddenly, it hit me that I could use
+modes and noticed `lowdown -T man`. It hit me that I could use
 [`mandoc(1)`](https://man.openbsd.org/mandoc) to accept, format, and
 paginate that output like so:
 
@@ -54,7 +54,7 @@ interpret ANSI color escape sequences.
 	$ lowdown -T term [Markdown file] | less -R
 
 To disable ANSI color escape sequences (I find the added color doesn't enhance
-readability; if anything, it's very distracting), use `--term-no-colour`:
+readability; if anything, it's distracting), use `--term-no-colour`:
 
 	$ lowdown -T term --term-no-colour [Markdown file] | less
 
@@ -64,7 +64,7 @@ Markdown converted into man pages can be.
 
 [^1]: I realize one could get more or less the same effect without
       running a web server on `localhost` (by pointing Firefox at the HTML
-      files directly), but I like this method better.  The application of
+      files directly), but I like this method better. The application of
       [`unveil(2)`](https://man.openbsd.org/unveil) to the Firefox package
       in OpenBSD means that Firefox has limited permissions as to what it
       can read, write, execute, and create, and I don't want my website

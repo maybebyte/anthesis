@@ -5,7 +5,7 @@
 ## Foreword
 
 It's no secret that consumer routers have security problems (600 CVEs
-between 1999 and January of 2017, and those were only the disclosed
+between 1999 and 2017, and those were only the disclosed
 vulnerabilities) as a result of poorly engineered software. The paper
 ["So You Think Your Router Is
 Safe?"](https://repository.stcloudstate.edu/cgi/viewcontent.cgi?article=1067&context=msia_etds)
@@ -13,7 +13,7 @@ addresses this subject well.
 
 Confronted with this reality, as someone who's been bitten by the
 OpenBSD bug (or pufferfish, same difference), the solution that came to
-mind was to build my own router.  So I did, and what follows is how I
+mind was to build my own router. So I did, and what follows is how I
 did it.
 
 ## Hardware

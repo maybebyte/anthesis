@@ -164,7 +164,7 @@ In the Latte Panda Delta's case, they are
 
 After giving permission to `portmaster` to build everything, detach from
 the `tmux` session (`CTRL-b d` is the default binding. Alternatively,
-create a second window with `CTRL-b c` and issue `tmux detach`).  Then,
+create a second window with `CTRL-b c` and issue `tmux detach`). Then,
 kill the SSH connection and take a fifteen minute break or so.
 
 Once that initial fifteen minute break is over, SSH in and `tmux attach`
@@ -184,8 +184,7 @@ Review installation messages to check for needed interventions.
 
 #### Creating the kodi user
 
-Create a separate user for Kodi (I named mine `kodi`, and will
-refer to this separate user as such for the rest of this article). Make
+Create a separate user for Kodi (I named mine `kodi`). Make
 sure to add `kodi` to the `video` group.
 
 	# adduser

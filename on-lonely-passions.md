@@ -33,7 +33,7 @@ understanding and appreciation, it's far from required. Similarly, a
 good chef is adored by many, even those who don't know how to cook,
 because they can taste and enjoy the food.
 
-## Tech is a less universal passion
+## Tech is not a universal passion
 
 In comparison, writing software seems disembodied. There isn't an easily
 accessible, built-in sensory experience to bridge the gap in knowledge

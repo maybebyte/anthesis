@@ -150,10 +150,10 @@ reason, lacking unnecessary features *is* a feature.
 ### Managing things declaratively is sometimes harder
 
 NixOS presents a completely different approach to system management and
-while very powerful, it can also be very frustrating. When the magic
-behind the scenes stops working, it can get ugly. To the point that
-while abstracting away things in Nix saves effort in some ways, it
-creates more work in others.
+while powerful, it can also be frustrating. When the magic behind the
+scenes stops working, it can get ugly. To the point that while
+abstracting away things in Nix saves effort in some ways, it creates
+more work in others.
 
 ### No 'secure by default' philosophy
 

@@ -1,6 +1,6 @@
 # So you want to self-host
 
-That's great! You're on your way to becoming more free and tech
+That's great. You're on your way to becoming more free and tech
 literate. In addition, you'll develop a working understanding of various
 subjects you may not have encountered otherwise.
 
