@@ -17,7 +17,7 @@ first: music.
       by others. I don't call myself a hacker for the same reason one
       wouldn't walk into a monastery and claim to be an arahant.
 
-## Music is a universal passion
+## Music is a nearly universal passion
 
 As a kid, I didn't really know how to relate to people (I still struggle
 with that). The way I talked and conducted myself was foreign. I was an
