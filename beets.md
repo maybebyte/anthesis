@@ -52,7 +52,7 @@ To list the available metadata fields, use `beet fields`.
 [There are high quality plugins available for
 beets](https://beets.readthedocs.io/en/stable/plugins/) that extend its
 functionality and sweeten the deal even more. I won't list all of them
-here, but I'll include a couple examples for demonstrative purposes.
+here, but I'll demonstrate some.
 
 ### Album art
 
