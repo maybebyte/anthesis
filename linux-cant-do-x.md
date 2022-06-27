@@ -1,37 +1,29 @@
 # "Linux can't do X"
 
-People are quick to suggest a system is incapable of something. Often I
-see things online saying that Linux is terrible compared to Windows or
-macOS at handling *X*, or that it is unfriendly to users. Yet, I know of
-at least one [77-year-old grandma that learned how to use
-Linux](https://old.reddit.com/r/linux/comments/gxlkuw/i_recently_taught_my_grandma_77_linux/),
-and have always been able to find an application to perform the task I
-needed on Linux. From my point of view, Linux has never been more
-user-friendly and powerful than it is now.
+Often I see things online saying that Linux is terrible compared to
+Windows or macOS at handling *X*, or that it is not user-friendly. Yet
+from my point of view, Linux has never been more user-friendly and
+powerful than it is now.
 
-Usually, I find that mindset is the underlying reason for perceived
-deficiencies. Remember that [Linux is NOT
-Windows](https://linux.oneandoneis2.org/LNW.htm). Often it's the case
-that a new favorite program for a specific task isn't the first one a
-person tries, or that it may take some effort to learn a new way
-of doing things. However, that is no reason in itself to discard Linux
+One thing to remember is that [Linux is NOT
+Windows](https://linux.oneandoneis2.org/LNW.htm), nor is it macOS. Often
+it is the case that a new favorite program for a specific task is not
+the first one a person tries, and it takes effort to learn a new way of
+doing things. However, that is no reason in itself to discard Linux
 wholesale.
 
-## Linux can't...
+## Linux can...
 
 For any of these categories, feel free to use the ["List of
 Applications" ArchWiki
 entry](https://wiki.archlinux.org/index.php/List_of_applications) as a
-supplementary resource. For the purposes of this article, I will focus
-only on GUI applications. Even though there are many powerful CLI
-applications I'm fond of, this article is targeted more toward the
-beginner.
+supplementary resource.
+
+For this article, I will focus only on GUI applications. Even though
+there are many powerful CLI applications I am fond of, this article is
+tailored to those less familiar with Linux.
 
 ### Game
-
-Linux is quite capable at gaming. It may not play every Windows game
-(though it approaches that point asymptotically). However, the library
-of playable games is broader than it has ever been.
 
   - [Lutris](https://lutris.net/)
   - [ProtonDB](https://www.protondb.com/)
