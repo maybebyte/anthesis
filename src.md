@@ -9,4 +9,4 @@ from git repositories.
 - [Website](/src/website_md/) [(GitHub)](https://github.com/3uryd1ce/website_md)
 - [Dotfiles](/src/dotfiles/) [(GitHub)](https://github.com/3uryd1ce/dotfiles)
 - [sysadm](/src/sysadm/) [(GitHub)](https://github.com/3uryd1ce/sysadm)
-- [learning_perl_exercises](/src/learning_perl_exercises/) [(GitHub)](https://github.com/3uryd1ce/learning_perl_exercises)
+- [learning\_perl\_exercises](/src/learning_perl_exercises/) [(GitHub)](https://github.com/3uryd1ce/learning_perl_exercises)
