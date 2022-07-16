@@ -89,12 +89,12 @@ has these contents.
 The simplest way to process it with `genblock.pl` is like this.
 
 	$ ./genblock.pl examplefile
+	amazon.com
+	facebook.com
 	google.com
+	instagram.com
 	microsoft.com
 	www.apple.com
-	facebook.com
-	instagram.com
-	amazon.com
 
 Notice several things:
 
@@ -103,6 +103,8 @@ Notice several things:
 - Bogus entries aren't included.
 - Lines that start with a comment are completely ignored (otherwise
   `bing.com` would appear in the list).
+- Lines are sorted (easier to [`diff(1)`](https://man.openbsd.org/diff)
+  that way)
 
 ### Making genblock.pl more useful
 
@@ -113,13 +115,13 @@ accepted by [unbound(8)](https://man.openbsd.org/unbound).
 	$ ftp -o - https://adaway.org/hosts.txt |
 	> ./genblock.pl -t unbound > blocklist.txt
 	$ cat blocklist.txt
-	local-zone: "analytics.163.com" always_refuse
-	local-zone: "crash.163.com" always_refuse
-	local-zone: "crashlytics.163.com" always_refuse
-	local-zone: "iad.g.163.com" always_refuse
-	local-zone: "api4.1mobile.com" always_refuse
-	local-zone: "sync.1rx.io" always_refuse
-	local-zone: "tag.1rx.io" always_refuse
+	local-zone: "0ce3c-1fd43.api.pushwoosh.com" always_refuse
+	local-zone: "100016075.collect.igodigital.com" always_refuse
+	local-zone: "10148.engine.mobileapptracking.com" always_refuse
+	local-zone: "10870841.collect.igodigital.com" always_refuse
+	local-zone: "1170.api.swrve.com" always_refuse
+	local-zone: "1170.content.swrve.com" always_refuse
+	local-zone: "1188.api.swrve.com" always_refuse
 	[many more lines like this]
 
 Note that `always_nxdomain` isn't used here. Giving the impression that
@@ -212,7 +214,7 @@ before restarting DNS, add this to `/etc/weekly.local`.
 	/bin/test -e /etc/blocklist.txt \
 		&& /bin/mv /etc/blocklist.txt /etc/blocklist.txt.bak
 
-	/usr/bin/xargs -- /usr/bin/ftp -o - < /etc/sysadm/blocklist_urls \
+	/usr/bin/xargs -- /usr/bin/ftp -o - -- < /etc/sysadm/blocklist_urls \
 		| /etc/sysadm/genblock.pl -t unbound > /etc/blocklist.txt
 
 	# https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet
@@ -221,10 +223,8 @@ before restarting DNS, add this to `/etc/weekly.local`.
 	if /usr/sbin/unbound-checkconf; then
 		/bin/chmod 0444 /etc/blocklist.txt
 		/usr/sbin/rcctl restart unbound
-
 	else
 		/bin/mv /etc/blocklist.txt.bak /etc/blocklist.txt
-
 	fi
 
 These portions are better left outside of `genblock.pl`, for portability
