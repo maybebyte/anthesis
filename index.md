@@ -20,7 +20,6 @@ for those that want/need more privacy. To access the onion service, use
 
 - [Common people are not the enemy. Greed and selfishness are.](/greed.html "2022-05-14")
 - [Why OpenBSD?](/why-openbsd.html "2021-03-25")
-- ["Linux can't do X"](/linux-cant-do-x.html "2020-11-11")
 - [Pros and cons of NixOS](/nixos.html "1970-01-01")
 - [Why self-host/use FLOSS?](/why-self-host.html "1970-01-01")
 
@@ -39,9 +38,7 @@ for those that want/need more privacy. To access the onion service, use
 - [Creating a DNS sinkhole with Perl and unbound(8)](/dns-sinkhole.html "2022-04-14")
 - [On overwriting disks](/overwriting-disks.html "2022-03-02")
 - [Local authoritative DNS on OpenBSD using dhcpd(8) and unbound(8)](/local-authoritative-dns.html "2022-01-07")
-- [Read Markdown as man pages with lowdown(1) and mandoc(1)](/markdown-as-man-pages.html "2021-10-28")
 - [Setting up a 4K Kodi box with sndio on FreeBSD](/freebsd-entertainment-center.html "2021-06-13")
 - [Perfecting metadata: tagging music with beets](/beets.html "2020-11-05")
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "1970-01-01")
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "1970-01-01")
-- [So you want to self host](/self-host-guide.html "1970-01-01")
