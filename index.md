@@ -18,7 +18,6 @@ for those that want/need more privacy. To access the onion service, use
 
 ### Opinion
 
-- [Common people are not the enemy. Greed and selfishness are.](/greed.html "2022-05-14")
 - [Why OpenBSD?](/why-openbsd.html "2021-03-25")
 - [Pros and cons of NixOS](/nixos.html "1970-01-01")
 - [Why self-host/use FLOSS?](/why-self-host.html "1970-01-01")
@@ -42,3 +41,7 @@ for those that want/need more privacy. To access the onion service, use
 - [Perfecting metadata: tagging music with beets](/beets.html "2020-11-05")
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "1970-01-01")
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "1970-01-01")
+
+## Personal
+
+- [Common people are not the enemy. Greed and selfishness are.](/greed.html "2022-05-14")
