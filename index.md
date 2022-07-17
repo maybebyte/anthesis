@@ -5,14 +5,14 @@ Areas of particular interest are OpenBSD, self-hosting, system
 administration, programming, online privacy, and cybersecurity. I also
 like to share tips and tricks that help me out in the day-to-day.
 
-Articles are sorted in reverse chronological order within their
-respective categories (with the exception of older undated articles I
-want to preserve--those are given `1970-01-01` as an arbitrary
-date).
-
 To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rss.xml).
 
 [Here's how to contact me](/contact.html).
+
+Note that this website is also available as an [onion
+service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/)
+for those that want/need more privacy. To access the onion service, use
+[Tor](https://www.torproject.org/).
 
 ## Tech
 
@@ -45,10 +45,3 @@ To keep up with new content, [subscribe to my RSS feed](https://amissing.link/rs
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "1970-01-01")
 - [Search sites directly with Firefox](/direct-search-with-firefox.html "1970-01-01")
 - [So you want to self host](/self-host-guide.html "1970-01-01")
-
-## Personal
-
-- [Favorite music: part two](/favorite-music-part-two.html "2022-04-27")
-- [Favorite music: part one](/favorite-music-part-one.html "2022-03-16")
-- [Why a passion for technical subjects can be lonely](/on-lonely-passions.html "2021-04-29")
-- [About amissing.link](/about-website.html "1970-01-01")
