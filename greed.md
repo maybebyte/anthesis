@@ -1,4 +1,4 @@
-# Common people are not the enemy. Greed and selfishness are.
+# Greed and selfishness are our true enemies.
 
 Speaking of the United States, there is something deeply wrong, and that
 knowledge is in the public consciousness at this point. People are sad,

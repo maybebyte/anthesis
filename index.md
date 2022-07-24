@@ -44,4 +44,4 @@ for those that want/need more privacy. To access the onion service, use
 
 ## Personal
 
-- [Common people are not the enemy. Greed and selfishness are.](/greed.html "2022-05-14")
+- [Greed and selfishness are our true enemies.](/greed.html "2022-05-14")
