@@ -59,12 +59,12 @@ interface.
 Searching for [hosts(5)](https://man.openbsd.org/hosts) files will also
 do the trick.
 
-## Processing domains with genblock.pl
+## Processing domains with genblock
 
-`genblock.pl` is a tool I wrote in Perl to extract domains from a given
+`genblock` is a tool I wrote in Perl to extract domains from a given
 input. Previously a shell script handled this, but I realized that shell
 wasn't ideal for this task and scrapped it in favor of something more
-structured and maintainable. Here's how to use `genblock.pl`.
+structured and maintainable. Here's how to use `genblock`.
 
 ### The basics
 
@@ -86,9 +86,9 @@ has these contents.
 	192.168.1.1
 	GOOGLE.COM
 
-The simplest way to process it with `genblock.pl` is like this.
+The simplest way to process it with `genblock` is like this.
 
-	$ ./genblock.pl examplefile
+	$ ./genblock examplefile
 	amazon.com
 	facebook.com
 	google.com
@@ -106,14 +106,14 @@ Notice several things:
 - Lines are sorted (easier to [`diff(1)`](https://man.openbsd.org/diff)
   that way)
 
-### Making genblock.pl more useful
+### Making genblock more useful
 
 Here's a more realistic example that fetches a blocklist and processes
-it with `genblock.pl`, then writes the output to a file in a format
+it with `genblock`, then writes the output to a file in a format
 accepted by [unbound(8)](https://man.openbsd.org/unbound).
 
 	$ ftp -o - https://adaway.org/hosts.txt |
-	> ./genblock.pl -t unbound > blocklist.txt
+	> ./genblock -t unbound > blocklist.txt
 	$ cat blocklist.txt
 	local-zone: "0ce3c-1fd43.api.pushwoosh.com" always_refuse
 	local-zone: "100016075.collect.igodigital.com" always_refuse
@@ -133,7 +133,7 @@ blocking is part of a policy, and that the DNS isn't broken.
 
 The help output can be accessed like so.
 
-	$ ./genblock.pl -h
+	$ ./genblock -h
 
 ## Configuring a DNS resolver to use the blocklist
 
@@ -198,24 +198,24 @@ Restart the service, assuming it's enabled and already running.
 
 ## Automation
 
-Create `/etc/sysadm` and move `genblock.pl` and a list of blocklist URLs
+Create `/etc/sysadm` and move `genblock` and a list of blocklist URLs
 there (a different directory is fine, too. This is just what I use).
 
 	# mkdir -m 700 /etc/sysadm
-	# mv genblock.pl /etc/sysadm/
+	# mv genblock /etc/sysadm/
 	# mv blocklist_urls /etc/sysadm/
 
 [`cron(8)`](https://man.openbsd.org/cron) can handle the automation. To
 generate a new blocklist weekly for `unbound` and check for validity
 before restarting DNS, add this to `/etc/weekly.local`.
 
-	# For genblock.pl. Does blocklist handling so the script doesn't have
+	# For genblock. Does blocklist handling so the script doesn't have
 	# to. Generates blocklist from content of URLs and reloads daemons.
 	/bin/test -e /etc/blocklist.txt \
 		&& /bin/mv /etc/blocklist.txt /etc/blocklist.txt.bak
 
 	/usr/bin/xargs -- /usr/bin/ftp -o - -- < /etc/sysadm/blocklist_urls \
-		| /etc/sysadm/genblock.pl -t unbound > /etc/blocklist.txt
+		| /etc/sysadm/genblock -t unbound > /etc/blocklist.txt
 
 	# https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet
 	echo 'local-zone: "use-application-dns.net" always_refuse' >> /etc/blocklist.txt
@@ -227,14 +227,14 @@ before restarting DNS, add this to `/etc/weekly.local`.
 		/bin/mv /etc/blocklist.txt.bak /etc/blocklist.txt
 	fi
 
-These portions are better left outside of `genblock.pl`, for portability
+These portions are better left outside of `genblock`, for portability
 and to reduce code complexity. That way, there's no need to worry about
 all of the different init systems, DNS resolvers, methods of fetching,
 websites to fetch from, and so forth.
 
 ## Source code
 
-The source code for `genblock.pl` can be found in my `sysadm` repo,
+The source code for `genblock` can be found in my `sysadm` repo,
 accessible [on amissing.link](/src/sysadm/) or [on
 GitHub](https://github.com/3uryd1ce/sysadm).
 
