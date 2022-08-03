@@ -8,8 +8,8 @@
 
 body {
 	font: 1.125rem/1.6 sans-serif;
-	/* 72 characters per line */
-	max-width: 36em;
+	/* 66 characters per line */
+	max-width: 66ch;
 	background: var(--bg-color);
 }
 
