@@ -10,16 +10,15 @@ worse to live that way, sedating ourselves and avoiding change--the
 change that we are desperate for--and the real growth that is needed to
 overcome our problems?
 
-Look at the strife in this country, and ask, "Who stands to gain from
-this?" It is not the average person. While we are at each other's
-throats, this machine, this system, is functioning as it was designed
-to, and becoming all the more efficient at it. The rich buy a new
-vacation home while housing becomes unaffordable for many. They get
-purely cosmetic surgeries while the rest of us worry how to pay our
-healthcare bills. Power is robbed from those that need it more than
-ever, and given to the powerful. The more we rage against one another,
-the more we miss what is really happening here. Divide and conquer, yes?
-We are the divided and we are the conquered, for as long as we allow it.
+Look at the strife in this country, and ask, "Who stands to gain from this?" It
+is not the average person. While we are at each other's throats, this machine,
+this system, is functioning as it was designed to, and becoming all the more
+efficient at it. The rich buy a new vacation home while housing becomes
+unaffordable for many. They get purely cosmetic surgeries while the rest of us
+worry how to pay our healthcare bills. Power is robbed from those that need it
+more than ever, and given to the powerful. The more we rage against one another,
+the more we miss what is really happening here. We are the divided and the
+conquered, for as long as we allow it.
 
 Corporations run this country. Corporations buy politicians, and those
 politicians sell us the ideas and implement the changes the corporations
