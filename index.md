@@ -14,6 +14,10 @@ service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/)
 for those that want/need more privacy. To access the onion service, use
 [Tor](https://www.torproject.org/).
 
+## Announcements
+
+- [Migrating to anthes.is](/domain-migration.html "2022-10-03")
+
 ## Tech
 
 ### Opinion
