@@ -12,7 +12,7 @@ Some methods may use [GPG](https://www.gnupg.org/ "GNU Privacy Guard"). Here is 
 Address is stored here in plaintext. Remove the spaces around the
 period.
 
-	https://amissing . link/6M2AiieKMR.txt
+	https://anthes . is/6M2AiieKMR.txt
 
 GPG encryption using my public GPG Key is preferred when corresponding
 via email. Remember to attach your public key so I can send an encrypted
@@ -23,7 +23,7 @@ message back.
 Address is stored here in plaintext. Remove the spaces around the
 period.
 
-	https://amissing . link/aQotWTldSG.txt
+	https://anthes . is/aQotWTldSG.txt
 
 One-to-one chats default to end-to-end encryption, so messing with GPG
 isn't necessary.

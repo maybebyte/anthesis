@@ -235,7 +235,7 @@ websites to fetch from, and so forth.
 ## Source code
 
 The source code for `genblock` can be found in my `sysadm` repo,
-accessible [on amissing.link](/src/sysadm/) or [on
+accessible [on this website](/src/sysadm/) or [on
 GitHub](https://github.com/3uryd1ce/sysadm).
 
 ## Addendum I: enforcing DNS provider in pf.conf
