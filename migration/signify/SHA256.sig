@@ -1,3 +1,3 @@
 untrusted comment: verify with sigkey.pub
-RWTWAjH42/QL38BSGKDHNxDjc/N5iACWeMRzPCyujHEC0ZVzOo1nsgr4BV9wbh1o3rLuq+g9A5oS6CgCnex+gPCjOC41YVqRiAE=
-SHA256 (domain-migration.txt) = d34b8a0bbcb74975753e801d123260adcb8aecab1b24566b5c25bb95fab30355
+RWTWAjH42/QL33KD7I9WscrGo1e1TQ7OHvjfKnuqzzaJM6QSrlk4rcB3jdNLr0I8V9u6TlovW3//GQmvBynZXiJaL1Xf0uAaNgs=
+SHA256 (domain-migration.txt) = b0e405edd6ee36886047188c55ae7fdd20a1b7778caba2011464efac79bb463a

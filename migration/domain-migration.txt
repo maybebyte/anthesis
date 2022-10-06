@@ -77,8 +77,8 @@ stay tuned.
 For those interested in verifying that I am really the one doing this, I have
 made the Markdown for this page [available as a .txt
 file](/migration/domain-migration.txt), and added a [signed SHA256
-file](/migration/SHA256). The signature can be validated with the [appropriate
-public key](/pubkeys/eurydice.asc).
+file](/migration/gpg/SHA256.sig). The signature can be validated with the
+[appropriate public key](/pubkeys/eurydice.asc).
 
 I also decided to create a [`signify(1)`](https://man.openbsd.org/signify)
 keypair for those that prefer `signify` to GPG. As before, the [signed SHA256
