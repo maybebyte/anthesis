@@ -48,4 +48,5 @@ for those that want/need more privacy. To access the onion service, use
 
 ## Personal
 
+- [Domain name meanings](/domain-name-meanings.html "2022-11-28")
 - [Greed and selfishness are our true enemies.](/greed.html "2022-05-14")
