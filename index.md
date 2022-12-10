@@ -5,7 +5,7 @@ Areas of particular interest are OpenBSD, self-hosting, system
 administration, programming, online privacy, and cybersecurity. I also
 like to share tips and tricks that help me out in the day-to-day.
 
-To keep up with new content, [subscribe to my RSS feed](https://anthes.is/rss.xml).
+To keep up with new content, [subscribe to my RSS feed](https://www.anthes.is/rss.xml).
 
 [Here's how to contact me](/contact.html).
 

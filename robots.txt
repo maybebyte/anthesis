@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /src/
 Disallow: /pubkeys/
 Disallow: /git/
-Sitemap: https://anthes.is/sitemap.xml
+Sitemap: https://www.anthes.is/sitemap.xml
