@@ -3,10 +3,12 @@
 Maybe you already know how welcoming and pleasant it can feel to interact with
 and learn about Unix-like environments. Or perhaps you're less familiar and at
 ease with them because you have yet to fully discover how comfortable they can
-be. In any case, many people have an evergrowing collection of things that
-engage and intrigue them, so feel free to continue down this page and see how
-many of my interests captivate you. Remember that no matter how much you wander,
-you can always find your way back `/home`.
+be. In any case, remember that no matter how much you wander, you can always
+find your way back `/home`.
+
+I also have plenty of other interests outside of Unix-like operating systems.
+Some of them can be found here. Feel free to continue down this page to see what
+captivates you.
 
 ## Some asides
 
