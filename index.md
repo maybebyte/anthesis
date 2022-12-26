@@ -6,9 +6,8 @@ ease with them because you have yet to fully discover how comfortable they can
 be. In any case, remember that no matter how much you wander, you can always
 find your way back `/home`.
 
-I also have plenty of other interests outside of Unix-like operating systems.
-Some of them can be found here. Feel free to continue down this page to see what
-captivates you.
+Some of my other interests can be found here as well. Feel free to continue down
+this page to see what captivates you.
 
 ## Some asides
 
