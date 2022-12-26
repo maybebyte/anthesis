@@ -1,17 +1,19 @@
-# There's no place like /home
+# Step into your /home
 
-Hey, welcome to my blog. I mainly write about technology and software.
-Areas of particular interest are OpenBSD, self-hosting, system
-administration, programming, online privacy, and cybersecurity. I also
-like to share tips and tricks that help me out in the day-to-day.
+You may already know how welcoming and pleasant a Unix-like environment can be,
+or maybe you have yet to discover it. It's also OK if the way you feel more
+engaged is by learning about other subjects. Feel free to scroll down and
+explore the articles below to find how many interests of mine capture your
+attention. No matter where you wander off to, you can always come back `/home`.
 
-To keep up with new content, [subscribe to my RSS feed](https://www.anthes.is/rss.xml).
+When you want to keep up with my content more closely, [subscribe to my
+RSS feed](https://www.anthes.is/rss.xml).
 
-[Here's how to contact me](/contact.html).
+When you want or need to talk about something, [contact me](/contact.html).
 
-Note that this website is also available as an [onion
-service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/)
-for those that want/need more privacy. To access the onion service, use
+Since this blog is available as an [onion
+service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/),
+you may continue to browse it with some added privacy by using
 [Tor](https://www.torproject.org/).
 
 ## Announcements
