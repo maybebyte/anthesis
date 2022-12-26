@@ -16,7 +16,7 @@ feed](https://www.anthes.is/rss.xml).
 When you want or need to talk to me about something, [contact
 me](/contact.html).
 
-You can [study and examine my source code on this website](/src.html
+You can study and examine my source code [on this website](/src.html
 "1970-01-01") and [on GitHub](https://github.com/3uryd1ce/).
 
 You can use [Tor](https://www.torproject.org/) to [browse this website as an
