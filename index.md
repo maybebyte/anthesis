@@ -20,10 +20,9 @@ me](/contact.html).
 You can study and examine my source code [on this website](/src.html
 "1970-01-01") and [on GitHub](https://github.com/3uryd1ce/).
 
-You can use [Tor](https://www.torproject.org/) to [browse this website as an
-onion
-service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/)
-for some added privacy.
+For some added privacy, use [Tor](https://www.torproject.org/) to [browse this
+website as an onion
+service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/).
 
 [This website lives under a new root domain](/domain-migration.html "2022-10-03") as of October 2022.
 
