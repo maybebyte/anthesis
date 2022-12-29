@@ -1,13 +1,13 @@
 # Welcome to anthes.is
 
 Maybe you already know how inviting and pleasant it can feel to interact with
-and learn about Unix-like environments. Or perhaps you're less familiar and at
-ease with them because you have yet to fully discover how comfortable they can
-be. In any case, remember that no matter how much you wander, you can always
-find your way back `/home`.
+and learn about Unix-like operating systems. Or perhaps you regard them with
+less familiarity and ease because you have yet to fully discover how comfortable
+and engaging they can be. In any case, remember that no matter how much you
+wander, you can always find your way back `/home`.
 
-Some other interests, tech-related and otherwise, can be found here as well.
-Feel free to continue down this page to see what captivates you.
+Some other subjects I find fascinating are here as well. Feel free to continue
+down this home page to see what captivates you.
 
 ## Some asides
 
