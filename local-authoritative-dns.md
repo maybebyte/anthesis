@@ -56,21 +56,9 @@ somewhere.
 
 	include: /var/unbound/etc/unbound.conf.lan
 
-After writing those changes, create the included file and add these
-contents to it. Be sure to adjust things as needed.
-
-	# Allow home.arpa to contain private addresses (RFC1918).
-	private-domain: home.arpa
-
-	# Create a local-zone for home.arpa. The 'static' type causes unbound(8)
-	# to answer if there's a match from local data. Otherwise, it sends a
-	# NXDOMAIN.
-	local-zone: "home.arpa." static
-
-	# Create a local-zone for reverse DNS. This entirely depends
-	# on what subnet the local network is on. This entry matches the
-	# 192.168.1.0/24 subnet.
-	local-zone: "1.168.192.in-addr.arpa." static
+After writing those changes, create the included file and add these contents to
+it. Be sure to adjust things as needed. Unbound already includes RFC8375
+support, so only `local-data` and `local-data-ptr` need to be added.
 
 	# This is where individual hosts are defined. Both an A record and a PTR
 	# record are needed. It is no coincidence that local-data-ptr is the
