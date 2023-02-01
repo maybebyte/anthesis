@@ -1,13 +1,5 @@
 # Welcome to anthes.is
 
-IMPORTANT: Today (Tue Jan 31 2023) I've noticed that NS records for my domain
-have been removed from the `.is` zone, and that the domain name itself is on
-hold according to information from WHOIS. I'm unsure why this has happened, but
-I'm looking into it. I received unexpected traffic from too many IPs to count,
-alternating between one specific page at a time in bursts. I'm guessing the site
-was linked somewhere, but it's really too early to say if those two events are
-correlated at all. The server itself appears to be OK, and I'm also OK.
-
 Maybe you already know how inviting and pleasant it can feel to interact with
 and learn about Unix-like operating systems. Or perhaps you regard them with
 less familiarity and ease because you have yet to fully discover how comfortable
