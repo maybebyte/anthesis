@@ -1,7 +1,7 @@
 # FLOSS OS recommendations
 
-[![The absolute state of Linux
-distributions.](/images/standards.png)](/images/standards.png)
+[![The state of Linux
+distributions.](/images/xkcd-standards.png)](/images/xkcd-standards.png)
 
 The above [xkcd comic](https://xkcd.com/927/) illustrates a particular
 mindset that is responsible for the wealth of Linux distributions
