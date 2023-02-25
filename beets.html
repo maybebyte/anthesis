@@ -21,7 +21,7 @@
 
 	<body>
 		<header>
-			<h1 id="welcome">Welcome to www.anthes.is (&ldquo;anthesis&rdquo;)</h1>
+			<h1 id="welcome">Welcome to www.anthes.is (&#8220;anthesis&#8221;)</h1>
 		</header>
 
 		<main>
@@ -58,7 +58,7 @@
 
 							<li>
 							<p>
-							You can easily find what you&rsquo;re looking for by
+							You can easily find what you&#8217;re looking for by
 							querying the metadata.
 							</p>
 							</li>
@@ -84,7 +84,7 @@
 
 					<p>
 					The good news is that some other developers decided a while
-					ago that &ldquo;enough is enough.&rdquo; Now you can
+					ago that &#8220;enough is enough.&#8221; Now you can
 					<a href="https://beets.io/">use beets to manage your music</a>.
 					It makes handling your collection so much simpler by
 					fetching metadata from
@@ -92,13 +92,13 @@
 					</p>
 
 					<p>
-					From the project&rsquo;s website:
+					From the project&#8217;s website:
 					</p>
 
 					<blockquote cite="https://beets.io/">
 					<p>
-					&ldquo;Beets is the media library management system for obsessive
-					music geeks.&rdquo;
+					&#8220;Beets is the media library management system for obsessive
+					music geeks.&#8221;
 					</p>
 					</blockquote>
 				</section>
@@ -154,7 +154,7 @@
 
 					<p>
 					If the similarity score is high enough, beets tags the music
-					automatically and moves on. Otherwise, it&rsquo;ll prompt
+					automatically and moves on. Otherwise, it&#8217;ll prompt
 					you for additional details.
 					</p>
 				</section>
@@ -167,7 +167,7 @@
 					</p>
 
 					<p>
-					When you do so, it&rsquo;s often best to narrow down your
+					When you do so, it&#8217;s often best to narrow down your
 					query with the available metadata fields. This includes
 					things like
 					<code>genre</code>,
@@ -179,7 +179,7 @@
 					</p>
 
 					<p>
-					Here&rsquo;s an example where I query by genre (note that
+					Here&#8217;s an example where I query by genre (note that
 					you need to use the
 					<a href="#plugins-genre">lastgenre plugin</a>
 					for this to work).
@@ -188,7 +188,7 @@
 					<pre>$ <kbd>beet ls genre:'Progressive Rock'</kbd></pre>
 
 					<p>
-					You don&rsquo;t <em>have</em> to quote it as I&rsquo;ve done
+					You don&#8217;t <em>have</em> to quote it as I&#8217;ve done
 					here. I do it out of habit, as whitespace is typically
 					significant in the shell.
 					</p>
@@ -205,7 +205,7 @@
 					<p>
 					There are many high quality plugins for beets that extend
 					its functionality and make it even more appealing.
-					I&rsquo;ll only demonstrate fetching album art and genre
+					I&#8217;ll only demonstrate fetching album art and genre
 					information here, but please do check out the
 					<a href="https://beets.readthedocs.io/en/stable/plugins/">
 						documentation on plugins</a>
@@ -233,7 +233,7 @@
 						</p>
 
 						<p>
-						Thankfully, there&rsquo;s an easy fix for this. Add this
+						Thankfully, there&#8217;s an easy fix for this. Add this
 						to your <code>config.yaml</code>:
 						</p>
 
@@ -256,8 +256,8 @@
 						<h4 id="plugins-genre">Genre</h4>
 
 						<p>
-						Out of the box, beets actually doesn&rsquo;t deal with
-						genres at all because MusicBrainz doesn&rsquo;t have
+						Out of the box, beets actually doesn&#8217;t deal with
+						genres at all because MusicBrainz doesn&#8217;t have
 						that information. Many people consider sorting by genre
 						an important feature to have.
 						</p>
@@ -289,21 +289,21 @@
 
 					<p>
 					Beets needs a separate file for each track to tag music, yet
-					sometimes there&rsquo;s only one FLAC file for the entire
+					sometimes there&#8217;s only one FLAC file for the entire
 					album (it can also be something other than FLAC, but for
-					this example I&rsquo;ll assume it&rsquo;s a FLAC file).
+					this example I&#8217;ll assume it&#8217;s a FLAC file).
 					</p>
 
 					<p>
 					The nice thing is that as long as you have a cue
-					sheet&mdash;a text file that describes the album&rsquo;s
-					track layout with timestamps&mdash;that
+					sheet&#8212;a text file that describes the album&#8217;s
+					track layout with timestamps&#8212;that
 					single FLAC file can be split into separate files by track
-					(&ldquo;cue splitting&rdquo;).
+					(&#8220;cue splitting&#8221;).
 					</p>
 
 					<p>
-					Here&rsquo;s how I split a file like this into multiple
+					Here&#8217;s how I split a file like this into multiple
 					files given a cue sheet.
 					</p>
 
@@ -339,7 +339,7 @@
 						By default, the output format looks like
 						<code>split-track01.flac</code>. Beets will rename the
 						files according to the metadata anyway, so it
-						doesn&rsquo;t matter too much.
+						doesn&#8217;t matter too much.
 						</p>
 
 						<pre>$ <kbd>shnsplit -f example.cue -o flac example.flac</kbd></pre>
@@ -353,7 +353,7 @@
 
 						<p>
 						This is needed for the next step so that the original
-						FLAC file won&rsquo;t be targeted by
+						FLAC file won&#8217;t be targeted by
 						<code>cuetag</code>.
 						</p>
 						<pre>$ <kbd>mv example.flac{,.bak}</kbd></pre>
@@ -409,7 +409,7 @@
 					<pre>$ <kbd>splitflac example.cue example.flac</kbd></pre>
 
 					<p>
-					By default, <code>splitflac</code> doesn&rsquo;t delete the
+					By default, <code>splitflac</code> doesn&#8217;t delete the
 					original FLAC file. To do so on a successful split, pass the
 					<code>-d</code> flag.
 					</p>
