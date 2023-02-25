@@ -1,9 +1,9 @@
 /* variables for use throughout the document */
 :root {
-	--bg-color: #070d18;
-	--fg-color: #e0e9f0;
-	--link-color: #996aea;
-	--link-alt-color: #80a7f1;
+	--bg-color: #151522;
+	--fg-color: #e6e6e6;
+	--link-color: #aa69aa;
+	--alt-link-color: #9090e9;
 }
 
 body {
@@ -34,7 +34,7 @@ img {
 pre {
 	overflow: auto;
 	border: 1px solid var(--fg-color);
-	padding: 0.8em;
+	padding: 0.8rem;
 }
 
 
@@ -42,21 +42,13 @@ pre {
 a,
 a code {
 	color: var(--link-color);
-	text-decoration: none;
 }
 
 a:visited,
 a:hover,
 a:hover code {
-	color: var(--link-alt-color);
+   color: var(--alt-link-color);
 }
-
-a:hover,
-a:hover code {
-	text-decoration: underline;
-}
-/* end link behavior/style */
-
 
 /* desktop design */
 @media (min-width: 48em) {
