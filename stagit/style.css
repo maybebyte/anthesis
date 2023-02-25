@@ -1,11 +1,11 @@
 /* variables for use throughout the document */
 :root {
-	--bg-color: #070d18;
-	--fg-color: #e0e9f0;
-	--link-color: #996aea;
-	--link-alt-color: #80a7f1;
-	--git-added-color: #507fdb;
-	--git-deleted-color: #b075c5;
+	--bg-color: #151222;
+	--fg-color: #e6e6e6;
+	--link-color: #ad6bad;
+	--link-alt-color: #9090e9;
+	--git-added-color: #9090e9;
+	--git-deleted-color: #b26e6e;
 	--git-chunk-header-color: #9999d0;
 }
 
