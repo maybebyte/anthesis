@@ -3,7 +3,7 @@
 	--bg-color: #151222;
 	--fg-color: #e6e6e6;
 	--link-color: #ad6bad;
-	--link-alt-color: #9090e9;
+	--alt-link-color: #9090e9;
 	--git-added-color: #9090e9;
 	--git-deleted-color: #b26e6e;
 	--git-chunk-header-color: #9999d0;
@@ -34,7 +34,7 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: var(--link-alt-color);
+	color: var(--alt-link-color);
 	text-decoration: underline;
 }
 
