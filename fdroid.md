@@ -1,9 +1,5 @@
 # Recommended F-Droid apps
 
-[![KISS launcher + Arcticons
-Dark.](/images/mobile-rice-thumb.png "KISS launcher + Arcticons
-Dark.")](/images/mobile-rice.png)
-
 ## What is F-Droid?
 
 From the [F-Droid website](https://www.f-droid.org/):

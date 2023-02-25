@@ -1,7 +1,5 @@
 # Why OpenBSD?
 
-[![The OpenBSD logo with the mascot, Puffy the pufferfish, above it.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
-
 Formerly, my thoughts on [OpenBSD](https://www.openbsd.org/) were
 scattered around my website. I'd allude to its strengths when needed.
 However, that approach made my argumentation feel disjointed as a

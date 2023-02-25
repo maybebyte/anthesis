@@ -23,10 +23,7 @@ on how the questionnaire is answered.
 
 ## What I use
 
-[![The OpenBSD logo with the mascot, Puffy the pufferfish, above it.](/images/openbsd-logo.png "Puffy is one of my favorite mascots.")](/images/openbsd-logo.png)
-
-See ["Why
-OpenBSD?"](/why-openbsd.html) for more details.
+I like OpenBSD. See ["Why OpenBSD?"](/why-openbsd.html) for more details.
 
 ## Other devices to liberate
 
