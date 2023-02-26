@@ -1,12 +1,15 @@
 /* variables for use throughout the document */
 :root {
-	--bg-color: #151222;
-	--fg-color: #e6e6e6;
-	--link-color: #ad6bad;
-	--alt-link-color: #9090e9;
-	--git-added-color: #9090e9;
-	--git-deleted-color: #b26e6e;
-	--git-chunk-header-color: #9999d0;
+	--bg-color: #0d0d15;
+	--fg-color: #cccccc;
+	--dull-color: #86869b;
+	--hover-dull-color: #9b9bb0;
+	--link-color: #a566a5;
+	--hover-link-color: #ba7bba;
+	--git-added-color: #7b7bc7;
+	--hover-git-added-color: #9090dc;
+	--git-deleted-color: #a56666;
+	--hover-git-deleted-color: #ba7b7b;
 }
 
 body {
@@ -26,16 +29,6 @@ h1,
 h2 {
 	font-size: 1em;
 	margin: 0;
-}
-
-a,
-a:visited {
-	color: var(--link-color);
-	text-decoration: none;
-}
-a:hover {
-	color: var(--alt-link-color);
-	text-decoration: underline;
 }
 
 #blob a {
@@ -84,26 +77,45 @@ pre {
 	font-family: monospace;
 }
 
-pre a.h {
-	color: var(--git-chunk-header-color);
+a,
+a:visited {
+	color: var(--link-color);
+}
+a:hover {
+	color: var(--hover-link-color);
 }
 
-span.i,
-pre a.i {
-	color: var(--git-added-color);
-}
-
-span.d,
-pre a.d {
-	color: var(--git-deleted-color);
-}
-
-pre a.h:hover,
-pre a.i:hover,
-pre a.d:hover {
+a.d,
+a.h,
+a.i,
+a.line {
 	text-decoration: none;
 }
 
-.line {
-	color: var(--fg-color);
+a.h,
+a.line {
+	color: var(--dull-color);
+}
+
+a.h:hover,
+a.line:hover {
+	color: var(--hover-dull-color);
+}
+
+a.i,
+span.i {
+	color: var(--git-added-color);
+}
+
+a.i:hover {
+	color: var(--hover-git-added-color);
+}
+
+a.d,
+span.d {
+	color: var(--git-deleted-color);
+}
+
+a.d:hover {
+	color: var(--hover-git-deleted-color);
 }

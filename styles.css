@@ -1,9 +1,9 @@
 /* variables for use throughout the document */
 :root {
-	--bg-color: #151522;
-	--fg-color: #e6e6e6;
-	--link-color: #ad6bad;
-	--alt-link-color: #9090e9;
+	--bg-color: #0d0d15;
+	--fg-color: #cccccc;
+	--link-color: #a566a5;
+	--hover-link-color: #ba7bba;
 }
 
 body {
@@ -44,10 +44,15 @@ a code {
 	color: var(--link-color);
 }
 
-a:visited,
+/* TODO: make a proper "visited" color */
+/* a:visited,
+a:visited code {
+	color: var(--link-color);
+} */
+
 a:hover,
 a:hover code {
-   color: var(--alt-link-color);
+	color: var(--hover-link-color);
 }
 
 /* desktop design */
@@ -57,4 +62,3 @@ a:hover code {
 		margin: auto;
 	}
 }
-/* end desktop design */
