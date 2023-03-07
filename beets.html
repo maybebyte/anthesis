@@ -30,10 +30,10 @@
 						with beets</h2>
 
 					<p>
-					Have you ever stopped to consider how important it is to have
-					proper metadata for your music files? If you maintain your own
-					music library, you probably already know how helpful it is from
-					experience.
+					Have you stopped and considered how important it is to have
+					proper metadata for your music files? If you maintain your
+					own music library, you probably already know how helpful it
+					is from experience.
 					</p>
 				</section>
 
@@ -74,20 +74,12 @@
 				<section>
 					<h3 id="beets-makes-it-easy">Take the easy way out</h3>
 					<p>
-					The unfortunate part is that tagging everything yourself can
-					be a laborious task, and some people give up before finding
-					a better solution. Even something like fetching and
-					embedding album art can quickly become a pain without
-					intelligent software to do the hard work for you.
-					</p>
-
-					<p>
-					The good news is that some other developers decided a while
-					ago that &#8220;enough is enough.&#8221; Now you can
-					<a href="https://beets.io/">use beets to manage your music</a>.
-					It makes handling your collection so much simpler by
-					fetching metadata from
-					<a href="https://musicbrainz.org/">MusicBrainz</a>.
+					If you&#8217;re new to tagging music or want to change your
+					workflow, maybe you can
+					<a href="https://beets.io/">use beets to manage your library</a>.
+					Allowing it to fetch and apply metadata from
+					<a href="https://musicbrainz.org/">MusicBrainz</a>
+					makes getting those perks I mentioned before a lot easier.
 					</p>
 
 					<p>
@@ -106,10 +98,10 @@
 					<h3 id="installation">Installing beets</h3>
 
 					<p>
-					I demonstrate how to install beets on
-					<a href="https://www.openbsd.org">OpenBSD</a>
-					here. That said, beets is available for installation on many
-					other operating systems as well.
+					Beets is probably available for installation with whatever
+					package manager your operating system uses. Here&#8217;s how
+					to install it on
+					<a href="https://www.openbsd.org">OpenBSD</a>.
 					</p>
 
 					<pre># <kbd>pkg_add beets</kbd></pre>
@@ -120,23 +112,18 @@
 
 					<p>
 					By default, beets places imported music in
-					<code>~/Music</code>. If this is acceptable, feel free to
-					skip this section.
-					</p>
-
-					<p>
-					If you do need to change it, add the desired path to the
-					<code>config.yaml</code> file like so:
+					<code>~/Music</code>. If you need to change that, add the
+					desired path to the <code>config.yaml</code> file like so:
 					</p>
 
 					<pre><code>directory: /path/to/music/library</code></pre>
 
 					<p>
 					Chances are that you can go straight to importing music
-					without any further modifications. If you do encounter
+					without any further modifications (but if you do encounter
 					issues, consult the
 					<a href="https://beets.readthedocs.io/en/stable/reference/config.html">
-					documentation on configuration</a>.
+					documentation on configuration</a>).
 					</p>
 				</section>
 
@@ -153,8 +140,8 @@
 
 					<p>
 					If the similarity score is high enough, beets tags the music
-					automatically and moves on. Otherwise, it&#8217;ll prompt
-					you for additional details.
+					automatically and moves on. Otherwise, it&#8217;ll ask for
+					additional details.
 					</p>
 				</section>
 
@@ -166,9 +153,8 @@
 					</p>
 
 					<p>
-					When you do so, it&#8217;s often best to narrow down your
-					query with the available metadata fields. This includes
-					things like
+					It&#8217;s often best to narrow down your query with the
+					available metadata fields. This includes things like
 					<code>genre</code>,
 					<code>artist</code>,
 					<code>album</code>,
@@ -187,14 +173,8 @@
 					<pre>$ <kbd>beet ls genre:'Progressive Rock'</kbd></pre>
 
 					<p>
-					You don&#8217;t <em>have</em> to quote it as I&#8217;ve done
-					here. I do it out of habit, as whitespace is typically
-					significant in the shell.
-					</p>
-
-					<p>
-					As a side note, you can list what metadata fields are
-					available with <kbd>beet fields</kbd>.
+					As a side note, listing available metadata fields is done
+					with <kbd>beet fields</kbd>.
 					</p>
 				</section>
 
@@ -203,9 +183,9 @@
 
 					<p>
 					There are many high quality plugins for beets that extend
-					its functionality and make it even more appealing.
-					I&#8217;ll only demonstrate fetching album art and genre
-					information here, but please do check out the
+					its functionality.
+					I&#8217;ll only demonstrate a little bit of that here, but
+					please do check out the
 					<a href="https://beets.readthedocs.io/en/stable/plugins/">
 						documentation on plugins</a>
 					to see how many other things are possible.
@@ -337,8 +317,8 @@
 						<p>
 						By default, the output format looks like
 						<code>split-track01.flac</code>. Beets will rename the
-						files according to the metadata anyway, so it
-						doesn&#8217;t matter too much.
+						files according to the metadata anyway, so the name
+						doesn&#8217;t matter much.
 						</p>
 
 						<pre>$ <kbd>shnsplit -f example.cue -o flac example.flac</kbd></pre>
@@ -409,8 +389,8 @@
 
 					<p>
 					By default, <code>splitflac</code> doesn&#8217;t delete the
-					original FLAC file. To do so on a successful split, pass the
-					<code>-d</code> flag.
+					original FLAC file. To do so on a successful split, pass
+					<code>-d</code>.
 					</p>
 
 					<pre>$ <kbd>splitflac -d example.cue example.flac</kbd></pre>
