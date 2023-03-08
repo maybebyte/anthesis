@@ -1,6 +1,9 @@
 User-agent: *
+Disallow: /rss.xml
 Disallow: /contact.html
 Disallow: /src/
 Disallow: /pubkeys/
 Disallow: /git/
+Disallow: /images/
+Disallow: /migration/
 Sitemap: https://www.anthes.is/sitemap.xml
