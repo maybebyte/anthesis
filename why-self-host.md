@@ -27,7 +27,7 @@ software](https://www.gnu.org/proprietary/proprietary.en.html) offers:
   a device outside Apple's ecosystem).
 - Surveillance is commonplace and it's harder to tell what exactly
   a program is doing. [Both Apple and Microsoft cooperate with the
-  NSA](/images/Prism_slide_5.jpg).
+  NSA](/images/Prism_slide_5.png).
 - Planned obsolescence, which nickels and dimes users.
 - Proprietary software exists to turn a profit. Large companies have
   enough power that they can (and do) turn a blind eye to flagrant
