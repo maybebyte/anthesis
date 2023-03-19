@@ -28,7 +28,7 @@
 			</header>
 
 			<p>
-			Last updated: <time datetime="2023-03-11">March 11th, 2023</time>
+			Last updated: <time datetime="2023-03-19">March 19th, 2023</time>
 			</p>
 
 			<article>
@@ -179,31 +179,23 @@
 					<p>
 					There are many high quality plugins for beets that extend
 					its functionality.
-					I&#8217;ll only demonstrate a little bit of that here, but
-					please do check out the
+					I&#8217;ll only demonstrate a little bit of that
+					here, but please do check out the
 					<a href="https://beets.readthedocs.io/en/stable/plugins/">
 						documentation on plugins</a>
-					to see how many other things are possible.
+					for more information.
 					</p>
 
 					<section>
 						<h3 id="plugins-album-art">Album art</h3>
 
 						<p>
-						If you use
-						<a href="https://rybczak.net/ncmpcpp/"
-							title="NCurses Music Player C++">
-							NCMPCPP as a music player</a>
-						and
-						<a href="https://www.musicpd.org/"
-							title="Music Player Daemon">
-							MPD as a music server</a>
-						like I do, then this may not matter as much to you.
+						If you use a minimal music player like I do,
+						then this may not matter as much to you.
 
-						However, with more
-						<a href="https://kodi.tv/">
-							full-featured media applications like Kodi</a>,
-						missing artwork can stick out like a sore thumb.
+						However, with more full-featured media
+						applications, missing artwork can stick out like
+						a sore thumb.
 						</p>
 
 						<p>
@@ -218,12 +210,6 @@
 						</p>
 
 						<pre>$ <kbd>beet fetchart</kbd></pre>
-
-						<p>
-						For more details, see the
-						<a href="https://beets.readthedocs.io/en/stable/plugins/fetchart.html">
-							documentation for fetchart</a>.
-						</p>
 					</section>
 
 					<section>
@@ -249,12 +235,6 @@
 						</p>
 
 						<pre>$ <kbd>beet lastgenre</kbd></pre>
-
-						<p>
-						For more details, see the
-						<a href="https://beets.readthedocs.io/en/stable/plugins/lastgenre.html">
-							documentation for lastgenre</a>.
-						</p>
 					</section>
 				</section>
 
@@ -275,6 +255,8 @@
 					single FLAC file can be split into separate files by track
 					(&#8220;cue splitting&#8221;).
 					</p>
+
+					<h3 id="how-to-use-a-cue-sheet">How to use a cue sheet</h3>
 
 					<p>
 					Here&#8217;s how I split a file like this into multiple
@@ -342,7 +324,7 @@
 						<code>./*.flac</code> targets all FLAC files in the
 						current directory. See
 						<a href="https://github.com/koalaman/shellcheck/wiki/SC2035">
-							SC2035</a>
+							shellcheck&#8217;s wiki entry for SC2035</a>
 						for an explanation of why I use <code>./*.flac</code>
 						instead of <code>*.flac</code>.
 						</p>
