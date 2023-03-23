@@ -23,15 +23,15 @@ Engines](https://pcengines.ch/). Their boards come with
 [coreboot](https://www.coreboot.org/) preinstalled and so far it's been
 a great experience.
 
-![APU4B4 board on a wooden surface (front side).](/images/apu4b4_1_thumb.png)
+![APU4B4 board on a wooden surface (front side).](/images/apu4b4_1_thumb.c18528fca0cba9ef4c3848c0f10fc6430be53fd2305f83197d02448a1b9f305e.png)
 
-![APU4B4 board on a wooden surface (back side).](/images/apu4b4_2_thumb.png)
+![APU4B4 board on a wooden surface (back side).](/images/apu4b4_2_thumb.4847a17a1552db16c59c2e6f5063d3250c4d2e188f35ea0de4d999b8589029bd.png)
 
 Include a [USB to DB9F serial
 adapter](https://www.pcengines.ch/usbcom1a.htm) in the purchase, as it's
 needed for the installation.
 
-![USB to DB9F serial adapter on a wooden surface.](/images/usbcom1a_thumb.png)
+![USB to DB9F serial adapter on a wooden surface.](/images/usbcom1a_thumb.ed1530b66afc03466606d66be7c67b728f4648652f57df7b269195ec731b6088.png)
 
 [Consult the manual for assembly
 instructions](https://pcengines.ch/pdf/apu4.pdf).
