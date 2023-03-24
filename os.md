@@ -1,7 +1,7 @@
 # FLOSS OS recommendations
 
 [![The state of Linux
-distributions.](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.png)](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.png)
+distributions.](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.2.png)](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.2.png)
 
 The above [xkcd comic](https://xkcd.com/927/) illustrates a particular
 mindset that is responsible for the wealth of Linux distributions
