@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<link
+			rel="stylesheet"
+			href="/styles.9240336879c56eebf1a6cf987ae0cea03bd3b5b93b6b2d3037ac4b221ac44ee2.2.css"
+			type="text/css"
+		/>
+		<link
+			rel="icon"
+			href="/favicon.1d9d66e8e0f6f92db8c49e54f947c1f74da9a1a71ab0a0749fb43679df437515.svg"
+			type="image/x-icon"
+		/>
+
+		<title>NixOS: 8 important pros and cons - anthesis</title>
+
+		<meta name="description" content=
+			"Curious about the benefits and drawbacks of NixOS? Read my review to
+			decide whether NixOS is a good daily driver for you."
+		/>
+
+		<!-- Not compatible with color schemes... yet. -->
+		<meta name="color-scheme" content="normal"/>
+
+		<link rel="canonical" href="https://www.anthes.is/nixos.html"/>
+		<link rel="alternate" type="application/atom+xml" href="/rss.xml"/>
+	</head>
+
+	<body>
+		<main>
+			<h1>NixOS: 8 important pros and cons</h1>
+
+			<article>
+				<p>
+				Last updated: <time datetime="2023-04-05">April 5th, 2023</time>
+				</p>
+
+				<p>
+				Before you continue on, here&#8217;s a short list of the
+				advantages and disadvantages I talk about for reference.
+				</p>
+
+				<dl>
+					<dt>Strengths</dt>
+						<dd>Abstraction</dd>
+						<dd>Reproducible builds</dd>
+						<dd>Atomic upgrades</dd>
+						<dd>Rollbacks</dd>
+						<dd>Immutability</dd>
+					<dt>Weaknesses</dt>
+						<dd>The learning curve</dd>
+						<dd>Some security concerns</dd>
+						<dd>Requires systemd</dd>
+				</dl>
+
+				<section>
+					<h2 id="what-is-nixos">What is NixOS and why might you use it?</h2>
+
+					<p>
+					<a href="https://nixos.org/">NixOS</a>
+					is a unique Linux distribution. The main thing that
+					makes NixOS special is the ability to describe your
+					desired system layout using the Nix language. To do
+					this, you edit
+					<code>/etc/nixos/configuration.nix</code> and then
+					rebuild the system.
+					</p>
+
+					<p>
+					There are some benefits to using NixOS and its
+					declarative configuration system over more
+					traditional (imperative) operating systems. But
+					before we discuss those, we must first define what
+					these terms mean and how they relate to one another.
+					If you already know what they mean,
+					<a href="#nixos-advantages">feel free to skip ahead</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2 id="imperative-vs-declarative">What do imperative and declarative mean?</h2>
+
+					<p>
+					The easiest way for me to explain the difference
+					between these two concepts is to talk about them in
+					the context of software development.
+					</p>
+
+					<p>
+					When someone talks about <em>imperative</em>
+					programming languages, they mean things like Python
+					and C. To make languages like this useful, you
+					provide step-by-step instructions that lead to your
+					end goal. In other words,
+					<strong>imperative means you write out how to do something</strong>.
+					</p>
+
+					<p>
+					Meanwhile, you&#8217;ll often hear Haskell and Nix
+					mentioned when the subject of discussion is
+					<em>declarative</em> programming languages.
+					They&#8217;re designed so that they can perform the
+					needed steps on their own when given a proper
+					description. In other words,
+					<strong>declarative means you describe what the end result should be</strong>.
+					</p>
+
+					<p>
+					The next two sections outline the process of
+					activating an SSH service within these two models.
+					</p>
+				</section>
+
+				<section>
+					<h3 id="enable-ssh-arch">How to enable SSH on Arch (imperative)</h3>
+
+					<ol>
+						<li>
+						<p>
+						Install OpenSSH.
+						</p>
+						<pre># <kbd>pacman -S openssh</kbd></pre>
+						</li>
+
+						<li>
+						<p>
+						Enable the service.
+						</p>
+						<pre># <kbd>systemctl enable ssh</kbd></pre>
+						</li>
+					</ol>
+
+					<h3 id="enable-ssh-nixos">How to enable SSH on NixOS (declarative)</h3>
+
+					<ol>
+						<li>
+						<p>
+						Modify <code>/etc/nixos/configuration.nix</code> so
+						NixOS knows what services it should start
+						automatically.
+						</p>
+						<pre><kbd>services.sshd.enable = true;</kbd></pre>
+						</li>
+
+						<li>
+						<p>
+						Rebuild and switch to the new configuration.
+						</p>
+						<pre># <kbd>nixos-rebuild switch</kbd></pre>
+						</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2 id="nixos-advantages">NixOS advantages</h2>
+
+					<section>
+						<h3 id="abstraction">Pro #1: Abstraction</h3>
+
+						<p>
+						The nice thing about NixOS is that a lot of
+						different software can be configured using the
+						same syntax. Compare the way that fonts are
+						configured in the Extensible Markup Language
+						(XML) to the Nix expression.
+						</p>
+
+						<p>
+						You may notice that the XML sample defines only
+						serif. Yet right below it, Nix is able to
+						declare default serif, sans-serif, and monospace
+						fonts in less space.
+						</p>
+
+						<pre><code>&#60;?xml version=&#39;1.0&#39;?&#62;
+&#60;!DOCTYPE fontconfig SYSTEM &#39;fonts.dtd&#39;&#62;
+&#60;fontconfig&#62;
+	&#60;alias&#62;
+		&#60;family&#62;serif&#60;/family&#62;
+		&#60;prefer&#62;
+		&#60;family&#62;Liberation Serif&#60;/family&#62;
+		&#60;/prefer&#62;
+	&#60;/alias&#62;
+&#60;/fontconfig&#62;</code></pre>
+
+						<pre><code>fonts.fontconfig.defaultFonts = {
+	serif = [ "Liberation Serif" ];
+	sansSerif = [ "Liberation Sans" ];
+	monospace = [ "Victor Mono" ];
+};</code></pre>
+						</section>
+
+						<section>
+							<h3 id="reproducible-builds">Pro #2: Reproducible builds</h3>
+
+							<p>
+							Reproducibility and deterministic behavior
+							are dense topics. When it comes to NixOS,
+							the idea is that it&#8217;s easy to recreate
+							a given system configuration. For instance,
+							copying
+							<code>/etc/nixos/configuration.nix</code>
+							over to a different machine and performing a
+							rebuild should yield the same system state.
+							</p>
+
+							<p>
+							This means that NixOS is a good candidate
+							for cloud servers, as reliable system
+							deployment is straightforward and built into
+							the OS itself. Nix itself is great for
+							collaboration because everyone can obtain
+							and use the same version of important
+							libraries.
+							</p>
+						</section>
+
+						<section>
+							<h3 id="atomic-rollbacks">Pro #3: Atomic upgrades</h3>
+
+							<p>
+							Another thing that can be really helpful is
+							avoiding partial states. One way to do this
+							is to make sure that instead of a
+							reconfiguration potentially failing
+							somewhere in the middle, either everything
+							takes effect or nothing does. This is also
+							known as <em>atomicity</em>.
+							</p>
+
+							<p>
+							Upgrading NixOS is an atomic transaction.
+							Here&#8217;s a practical example of how that
+							can be useful: if a power outage happens
+							during a rebuild, the packages are still in
+							a consistent state. The system will either
+							use the entire working set of packages from
+							before or after.
+							</p>
+						</section>
+
+						<section>
+							<h3 id="rollbacks">Pro #4: Rollbacks</h3>
+
+							<p>
+							The ability to select previous
+							&#8220;generations&#8221; at boot time is a
+							key feature of NixOS. If you mess something
+							up, you can usually roll back to a previous
+							working configuration from the boot loader
+							(unless the thing you messed up <em>is</em>
+							the boot loader).
+							</p>
+						</section>
+
+						<section>
+							<h3 id="immutability">Pro #5: Immutability</h3>
+
+							<p>
+							Packages are isolated from one another in
+							unique locations and always remain the same
+							once built. That location&#8217;s name is
+							derived from a cryptographic hash of the
+							package&#8217;s build dependency graph. As a
+							result, you can easily switch between
+							identical versions of software that differ
+							in some other way (maybe the build
+							dependencies/flags are different).
+							</p>
+						</section>
+
+					</section>
+
+				<section>
+					<h2 id="nixos-disadvantages">NixOS disadvantages</h2>
+
+					<section>
+						<h3 id="learning-curve">Con #1: The learning curve</h3>
+
+						<p>
+						Using Nix to manage everything is a commitment
+						and it&#8217;s best to treat it like one. After
+						all, what we&#8217;re talking about is a system
+						you configure with a programming language. You
+						can maybe get by for a while with minimal
+						knowledge (enough to set basic settings and
+						rebuild), but NixOS is mainly oriented toward
+						developers.
+						</p>
+
+						<p>
+						Here&#8217;s a piece of advice: experiment with
+						Nix before installing NixOS on bare metal.
+						You&#8217;ll want to check the
+						<a
+							href="https://nixos.org/guides/nix-language.html"
+							hreflang="en"
+							rel="nofollow"
+						>Nix language guide</a>
+						and follow along to get a sense of how the
+						language feels first.
+						</p>
+					</section>
+
+					<section>
+						<h3 id="security-concerns">Con #2: Some security concerns</h3>
+
+						<p>
+						A good practice to get into is looking at the
+						open issues a software project has before using
+						it, particularly security issues. Here are a few
+						to consider before using NixOS.
+						</p>
+
+						<ul>
+							<li>
+							<a
+								href="https://github.com/NixOS/nixpkgs/issues/24288"
+								hreflang="en"
+								rel="nofollow"
+							>World-readable secrets inside the Nix store</a>
+							</li>
+
+							<li>
+							<a
+								href="https://github.com/NixOS/nixpkgs/issues/11908"
+								hreflang="en"
+								rel="nofollow"
+							>Many NixOS services needlessly run as root</a>
+							</li>
+
+							<li>
+							<a
+								href="https://github.com/NixOS/nixpkgs/issues/121293"
+								hreflang="en"
+								rel="nofollow"
+							>chmod leaves opportunity to leak secrets</a>
+							</li>
+
+							<li>
+							<a
+								href="https://github.com/NixOS/nixpkgs/issues/156400"
+								hreflang="en"
+								rel="nofollow"
+							>Secrets provided in arguments are exposed to unprivileged users</a>
+							</li>
+
+							<li>
+							<a
+								href="https://github.com/NixOS/nixpkgs/issues/55370"
+								hreflang="en"
+								rel="nofollow"
+							>nobody/nogroup shouldn't be used</a>
+							</li>
+						</ul>
+
+						<p>
+						Of course, every project of notable size and
+						scope has <em>some</em> security issues. Decide
+						for yourself what an acceptable threshold is
+						based on what you&#8217;ll be using the software
+						for. You might also consult the
+						<a 
+							href="https://nixos.org/community/teams/security.html"
+							hreflang="en"
+							rel="nofollow"
+						>NixOS security page</a>.
+						</p>
+					</section>
+
+					<section>
+						<h3 id="requires-systemd">Con #3: Requires systemd</h3>
+
+						<p>
+						One thing to keep in mind when looking at NixOS
+						is that
+						<a
+							href="https://github.com/NixOS/nixpkgs/issues/126797"
+							hreflang="en"
+							rel="nofollow"
+						>NixOS depends on systemd</a>. There&#8217;s no
+						option to use something different like OpenRC or
+						runit. This will probably remain the case for
+						the foreseeable future.
+						</p>
+
+						<p>
+						If you&#8217;re fine with systemd, then perhaps
+						this isn&#8217;t a concern for you. All the
+						same, one drawback of NixOS is that it
+						doesn&#8217;t enjoy the level of freedom that a
+						distribution like Gentoo has in this regard.
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<h2 id="closing-remarks">Closing remarks</h2>
+
+					<p>
+					Every system has its strengths and weaknesses. At
+					the end of the day, software is a tool. To select
+					the right tool for the job, you need to first
+					understand the problem you&#8217;re looking to
+					solve. This includes when you&#8217;re evaluating
+					whether a system like NixOS would be a good daily
+					driver, server, and so on.
+					</p>
+
+					<p>
+					I hope that this review has given you some reasons
+					to explore Nix and NixOS, as well as knowledge to
+					arm yourself with when you do so. Assuming the pros
+					were compelling to you and the cons seem like things
+					you can live with, you may as well give it a try.
+					Experience is one of the best ways to learn.
+					</p>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
