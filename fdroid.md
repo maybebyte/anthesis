@@ -1,5 +1,16 @@
 # Recommended F-Droid apps
 
+NOTE: Though I care about open source software, I can no longer
+recommend F-Droid as an app store as of 2023-04-18. Please see [F-Droid
+Security
+Issues](https://privsec.dev/posts/android/f-droid-security-issues/).
+These days I prefer to [update apps via
+RSS](https://www.privacyguides.org/en/android/#manually-with-rss-notifications)
+instead.
+
+I may rewrite this post or delete it at a later date, but I felt I
+should at least mention this before then.
+
 ## What is F-Droid?
 
 From the [F-Droid website](https://www.f-droid.org/):
