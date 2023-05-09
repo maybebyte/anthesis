@@ -37,6 +37,23 @@ pre {
 	padding: 0.8rem;
 }
 
+.navbar ul {
+	list-style: none;
+	margin: 1.5rem 0 0.5rem;
+	font-size: 1.375rem;
+	display: inline-block;
+
+	/* remove default list padding */
+	padding-left: 0px;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+.navbar li:not(:last-child) {
+	padding-right: 0.5rem;
+}
 
 /* link behavior/style */
 a,
