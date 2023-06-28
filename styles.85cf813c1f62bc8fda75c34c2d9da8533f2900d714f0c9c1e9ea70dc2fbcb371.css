@@ -1,22 +1,27 @@
 :root {
-	--bg-color: #0d0d15;
-	--fg-color: #bfbfbf;
-	--link-color: #a566a5;
-	--hover-link-color: #ba7bba;
+	--dark-theme-bg-color: #212328;
+	--dark-theme-text-color: #eeeeee;
+	--dark-theme-heading-color: #d4d4d4;
+	--dark-theme-link-color: #4b9687;
+	--dark-theme-hover-link-color: #a578bd;
 }
 
 body {
 	font: 1.125rem/1.6 sans-serif;
 	max-width: 66ch;
-	background-color: var(--bg-color);
-	color: var(--fg-color);
+	background-color: var(--dark-theme-bg-color);
+	color: var(--dark-theme-text-color);
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
 	line-height: initial;
 	margin-top: 0;
+	color: var(--dark-theme-heading-color);
 }
 
 img {
@@ -27,7 +32,7 @@ img {
 
 pre {
 	overflow: auto;
-	border: 1px solid var(--fg-color);
+	border: 1px solid var(--dark-theme-text-color);
 	padding: 0.8rem;
 }
 
@@ -48,12 +53,12 @@ header nav {
 
 a,
 a code {
-	color: var(--link-color);
+	color: var(--dark-theme-link-color);
 }
 
 a:hover,
 a:hover code {
-	color: var(--hover-link-color);
+	color: var(--dark-theme-hover-link-color);
 }
 
 @media (min-width: 48em) {
