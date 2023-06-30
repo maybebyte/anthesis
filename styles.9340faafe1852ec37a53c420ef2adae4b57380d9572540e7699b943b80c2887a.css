@@ -2,8 +2,8 @@
 	--bg-color: #eeeeee;
 	--text-color: #232323;
 	--heading-color: #232323;
-	--link-color: #067881;
-	--hover-link-color: #8d5a93;
+	--link-color: #0c7881;
+	--hover-link-color: #7e5da8;
 }
 
 @media (prefers-color-scheme: dark) {
