@@ -8,11 +8,11 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg-color: #212328;
-		--text-color: #eeeeee;
-		--heading-color: #d4d4d4;
-		--link-color: #4b9687;
-		--hover-link-color: #a578bd;
+		--bg-color: #1a1c22;
+		--text-color: #e5e5e5;
+		--heading-color: #c9c9c9;
+		--link-color: #389278;
+		--hover-link-color: #887abc;
 	}
 }
 
