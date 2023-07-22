@@ -1,15 +1,27 @@
-/* variables for use throughout the document */
 :root {
-	--bg-color: #0d0d15;
-	--fg-color: #cccccc;
-	--dull-color: #86869b;
-	--hover-dull-color: #9b9bb0;
-	--link-color: #a566a5;
-	--hover-link-color: #ba7bba;
-	--git-added-color: #7676bf;
-	--hover-git-added-color: #9090dc;
-	--git-deleted-color: #aa6969;
-	--hover-git-deleted-color: #bf7e7e;
+	--bg-color: #fbf3db;
+	--fg-color: #3a4d53;
+	--dull-color: #909995;
+	--link-color: #006dce;
+	--hover-link-color: #8762c6;
+	--git-added-color: #489100;
+	--hover-git-added-color: #428b00;
+	--git-deleted-color: #d2212d;
+	--hover-git-deleted-color: #cc1729;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #103c48;
+		--fg-color: #cad8d9;
+		--dull-color: #72898f;
+		--link-color: #58a3ff;
+		--hover-link-color: #bd96fa;
+		--git-added-color: #75b938;
+		--hover-git-added-color: #84c747;
+		--git-deleted-color: #fa5750;
+		--hover-git-deleted-color: #ff665c;
+	}
 }
 
 body {

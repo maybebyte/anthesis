@@ -1,22 +1,22 @@
 :root {
-	--bg-color: #eeeeee;
-	--text-color: #232323;
-	--heading-color: #232323;
-	--link-color: #0c7881;
-	--hover-link-color: #7e5da8;
-	--code-block-bg-color: #282a31;
-	--code-block-text-color: #cfcfcf;
+	--bg-color: #fbf3db;
+	--text-color: #3a4d53;
+	--heading-color: #53676d;
+	--link-color: #006dce;
+	--hover-link-color: #8762c6;
+	--code-block-bg-color: #ece3cc;
+	--code-block-text-color: #3a4d53;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg-color: #1a1c22;
-		--text-color: #e5e5e5;
-		--heading-color: #c9c9c9;
-		--link-color: #389278;
-		--hover-link-color: #8a7ab8;
-		--code-block-bg-color: #12161b;
-		--code-block-text-color: #c2c2c2;
+		--bg-color: #103c48;
+		--text-color: #cad8d9;
+		--heading-color: #adbcbc;
+		--link-color: #58a3ff;
+		--hover-link-color: #bd96fa;
+		--code-block-bg-color: #174956;
+		--code-block-text-color: #cad8d9;
 	}
 }
 
@@ -43,6 +43,13 @@ img {
 	max-width: 100%;
 	height: fit-content;
 	display: block;
+}
+
+p code,
+p kbd {
+	background-color: var(--code-block-bg-color);
+	color: var(--code-block-text-color);
+	border-radius: 0.25rem;
 }
 
 pre {
@@ -73,6 +80,10 @@ header nav {
 a,
 a code {
 	color: var(--link-color);
+}
+
+a code {
+	background-color: var(--bg-color);
 }
 
 a:hover,
