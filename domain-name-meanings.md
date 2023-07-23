@@ -3,7 +3,7 @@
 This article is about the personal meaning of `amissing.link` and
 `anthes.is`.
 
-## What was the meaning of "a missing link"?
+## What was the meaning of "a missing link?"
 
 The way I think of it is that when something is lost, it's found in the
 last place a person looks. I figured that "a missing link" could
@@ -13,7 +13,7 @@ something, click on it, and end up appreciating whatever it was they
 found. I had hoped people would experience that feeling when they
 discovered this website, and I still do.
 
-## What is the meaning of "anthesis"?
+## What is the meaning of "anthesis?"
 
 It refers to the period when a flower is fully open and functioning, or
 the beginning of that period. Another way to express it is by saying
