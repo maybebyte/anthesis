@@ -1,5 +1,13 @@
 # Why self-host/use FLOSS?
 
+NOTE (2023-07-22): my opinions on this subject are more nuanced these
+days than this article lets on. It's due for a rewrite, and probably
+deserves to be split up into two separate articles. Until then, please
+take what's written here with a grain of salt because it fails to
+acknowledge some of the pitfalls of open source. Not all open source
+software is created equally, and it's important to always do your best
+to assess the quality of projects before using them.
+
 People often don't understand why I choose to be my own provider and use
 libre software.
 

@@ -2,6 +2,11 @@
 
 *Tested on OpenBSD 6.8*
 
+NOTE (2023-07-22): the [APU platform is
+end-of-life](https://pcengines.ch/eol.htm). In addition, this article is
+probably due for a rewrite. Many of the principles still apply on a
+broad level, but tread with caution.
+
 ## Foreword
 
 It's no secret that consumer routers have security problems (600 CVEs
