@@ -43,6 +43,15 @@ h2 {
 	margin: 0;
 }
 
+a,
+a:visited {
+	color: var(--link-color);
+}
+
+a:hover {
+	color: var(--hover-link-color);
+}
+
 #blob a {
 	padding: 0 5px 0 0;
 }
@@ -51,12 +60,12 @@ h2 {
 	text-decoration: none;
 }
 
-table thead td {
-	font-weight: bold;
-}
-
 table td {
 	padding: 0 0.4em;
+}
+
+table thead td {
+	font-weight: bold;
 }
 
 #content table td {
@@ -87,14 +96,6 @@ hr {
 
 pre {
 	font-family: monospace;
-}
-
-a,
-a:visited {
-	color: var(--link-color);
-}
-a:hover {
-	color: var(--hover-link-color);
 }
 
 a.d,
