@@ -46,7 +46,9 @@ img {
 }
 
 p code,
-p kbd {
+p kbd,
+li code,
+li kbd {
 	background-color: var(--code-block-bg-color);
 	color: var(--code-block-text-color);
 	border-radius: 0.25rem;
@@ -93,7 +95,7 @@ a:focus code {
 	color: var(--hover-link-color);
 }
 
-@media (min-width: 48em) {
+@media (width >= 48em) {
 	html,
 	body {
 		margin: auto;
