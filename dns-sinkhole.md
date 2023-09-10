@@ -2,6 +2,11 @@
 
 *Tested on OpenBSD 7.0 and OpenBSD 7.1-current*
 
+NOTE (2023-09-10): I'm deprecating genblock, please use
+[domain-sift](/domain-sift.html) instead. domain-sift has a proper
+test suite and packaging, unlike genblock. This page and genblock
+are kept around for historical purposes, at least for now.
+
 ## What is a DNS sinkhole?
 
 A DNS sinkhole is a domain name server that doesn't perform domain name
