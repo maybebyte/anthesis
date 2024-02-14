@@ -1,4 +1,4 @@
-# How to find the best software for your needs
+# How to find the best software for you
 
 Published: 2024-02-13
 
