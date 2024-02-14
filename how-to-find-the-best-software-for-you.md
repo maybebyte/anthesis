@@ -20,13 +20,12 @@ of it as a collection of ideas that I wanted to organize.
 
 ## Table of contents
 
-- [How to find the best software for you](#how-to-find-the-best-software-for-you)
-  - [What's your use case for the software?](#whats-your-use-case-for-the-software)
-    - [Questions to determine your software use case](#questions-to-determine-your-software-use-case)
-  - [What are some methods to find software?](#what-are-some-methods-to-find-software)
-  - [What are some ways to compare software projects?](#what-are-some-ways-to-compare-software-projects)
-    - [How to review open source repositories](#how-to-review-open-source-repositories)
-    - [Other things to review and ask](#other-things-to-review-and-ask)
+- [What's your use case for the software?](#whats-your-use-case-for-the-software)
+  - [Questions to determine your software use case](#questions-to-determine-your-software-use-case)
+- [What are some methods to find software?](#what-are-some-methods-to-find-software)
+- [What are some ways to compare software projects?](#what-are-some-ways-to-compare-software-projects)
+  - [How to review open source repositories](#how-to-review-open-source-repositories)
+  - [Other things to review and ask](#other-things-to-review-and-ask)
 
 ## What's your use case for the software?
 
