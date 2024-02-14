@@ -21,7 +21,7 @@ of it as a collection of ideas that I wanted to organize.
 ## What's your use case for the software?
 
 There's plenty of software out there, but whether it'll be useful to you
-somewhat depends on whether it fits your use case. You might find that
+somewhat depends on if it fits your use case. You might find that
 understanding your requirements and preferences helps not only with
 choosing which project to use---it can also improve your overall
 satisfaction with the end result.
