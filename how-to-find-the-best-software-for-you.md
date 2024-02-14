@@ -130,12 +130,12 @@ trust in before following any instructions or taking any advice.
 - Reading discussions (think forums, chatrooms, and mailing lists, to
   name a few), wikis, blogs, or other written resources that concern
   something relevant to the kind of software you're looking for. You can
-  get some really good ideas by visiting these places and skimming
-  through them.
+  get some good ideas by visiting these places and skimming through
+  them.
 
 - Consulting other forms of media such as videos. These tend to take
   more time, or at least they do for me. However, they're still valuable
-  and can lead to some really good finds.
+  and can lead to some good finds.
 
 - Prompting large language models (LLMs) to brainstorm ideas with you,
   make suggestions, and explain concepts. It's usually good to remain a
@@ -161,9 +161,8 @@ only examining the code itself can provide that. Even so, these have
 been good heuristics (rules of thumb) to follow for me because many of
 them do seem to be correlated with code quality.
 
-Though if you have sufficient time, motivation, and skill, definitely
-read through the source code. It really is the best way to assess
-software quality.
+Though if you have sufficient time, motivation, and skill, reading
+through the source code is a good idea.
 
 ### How to review open source repositories
 
@@ -180,8 +179,8 @@ Gitlab, etc).
   language used by another?
 
 - Is there a security policy? If so, what does it say? Vulnerability
-  disclosure programs, bug bounties, and regular audits are always good
-  things to see.
+  disclosure programs, bug bounties, and regular audits are good things
+  to see.
 
 - Are best practices and standards in the industry generally present
   (tests, linters and static analysis tools, continuous integration and
@@ -203,8 +202,8 @@ Gitlab, etc).
   - What other kinds of activity happened in the past month?
 
 - Indicators of popularity, such as the number of stars and forks. But
-  be really careful with these. Fake stars and forks have been available
-  for purchase in various places for a while now.
+  be careful with these. Fake stars and forks have been available for
+  purchase in various places for a while now.
 
   - One idea is to glance at the forks and see if any of them have
     significant activity. Look at the accounts responsible for the more
@@ -212,7 +211,7 @@ Gitlab, etc).
     like merged pull requests in reputable repositories that they don't
     own.
 
-- The number of people that regularly contribute. Bus factor is always
+- The number of people that regularly contribute. Bus factor is
   something to consider---how many people would have to get hit by a bus
   for the entire thing to stall indefinitely? Is that an acceptable
   level of risk for something you may be consistently using? Are you
@@ -298,5 +297,5 @@ Gitlab, etc).
   designed for what it needs to do?" Plain, fast, and functional is a
   much better sign than flashy, slow, and nearly disintegrating.
 
-- You can always throw the software into a virtual machine you don't use
-  for anything else and run it to study its behavior.
+- You can throw the software into a virtual machine you don't use for
+  anything else and run it to study its behavior.
