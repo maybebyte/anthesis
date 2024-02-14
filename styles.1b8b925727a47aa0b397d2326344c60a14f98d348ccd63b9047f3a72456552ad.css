@@ -54,6 +54,10 @@ li kbd {
 	border-radius: 0.25rem;
 }
 
+ul li p {
+	margin-bottom: 0;
+}
+
 pre {
 	overflow: auto;
 	padding: 1rem;
