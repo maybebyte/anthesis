@@ -1,6 +1,6 @@
 # How to find the best software for you
 
-Published: 2024-02-13
+Published: 2024-02-14
 
 With software, there can be so many choices that figuring out where to
 start is less easy than it could be, let alone deciding which project
