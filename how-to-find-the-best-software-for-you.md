@@ -90,6 +90,7 @@ tomorrow (and maybe even the day after that, too).
   licensing, source code availability, and things of this nature? Here
   are some examples of where the differences between open source
   licenses in particular can be important to think about.
+
   - Perhaps you need to incorporate some open source code into
     proprietary software, or maybe you favor ease of adoption. In this
     case, something with a permissive license could work well (MIT, BSD,
@@ -184,6 +185,7 @@ Gitlab, etc).
   actively maintained, which means resolution of bugs and
   vulnerabilities may be more likely. Remember that the simpler the code
   is, the less maintenance it probably needs.
+
   - When was the last commit?
   - How frequently does this repository get new commits in general?
   - When was the last release?
@@ -194,6 +196,7 @@ Gitlab, etc).
 - Indicators of popularity, such as the number of stars and forks. But
   be really careful with these. Fake stars and forks have been available
   for purchase in various places for a while now.
+
   - One idea is to glance at the forks and see if any of them have
     significant activity. Look at the accounts responsible for the more
     popular forks and check for things that are more difficult to fake,
@@ -210,6 +213,7 @@ Gitlab, etc).
   various filters, combining them if it seems interesting. The manner in
   which problems are resolved can speak volumes about the level of care
   put into the software.
+
   - Sort by number of comments, from greatest to least. These are in
     some way significant to the community. The same goes for sorting by
     reactions.
@@ -225,6 +229,7 @@ Gitlab, etc).
 - Pull requests. Ideally, there will be a certain degree of scrutiny
   present, and yet also a willingness to accept good contributions. You
   can use many of the same sorting and filtering options as before.
+
   - Closed pull requests, both merged and unmerged.
   - Open pull requests that are linked to issues (you can do this the
     other way around, too).
@@ -234,6 +239,7 @@ Gitlab, etc).
 
 - The documentation. READMEs, manuals, official wikis and blogs, release
   notes, etc.
+
   - How much effort has been put into the documentation? You could look
     at commits and pull requests related to this, but it can be
     determined by feel as well.
