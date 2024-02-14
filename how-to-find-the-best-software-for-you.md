@@ -181,10 +181,10 @@ Gitlab, etc).
   disclosure programs, bug bounties, and regular audits are always good
   things to see.
 
-- Are best practices in the industry generally present (tests, linters
-  and static analysis tools, continuous integration and continuous
-  deployment, semantic commit messages, etc)? It should be clear that
-  efforts are being made to create robust, reliable software.
+- Are best practices and standards in the industry generally present
+  (tests, linters and static analysis tools, continuous integration and
+  continuous deployment, conventional commits, semantic versioning,
+  etc)?
 
 - When was the project first started? Repositories that have been active
   for a while may be more likely to stick around.
