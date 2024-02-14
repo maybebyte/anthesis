@@ -13,7 +13,7 @@ get in the way of "good enough." The best software for you is whatever
 allows you to achieve your goals while meeting your requirements.
 
 With that said, there's also no reason to let "adequate" get in the way
-of "better yet." :)
+of "even better." :)
 
 Also, note that I rarely ever go through this formal of a process. Think
 of it as a collection of ideas that I wanted to organize.
