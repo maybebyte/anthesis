@@ -174,8 +174,10 @@ Gitlab, etc).
 - A priority in many cases is to check the license and README, ensuring
   that everything there fits with your goals and use case.
 
-- If you're a programmer, check what programming languages are used. Are
-  you able to fix or extend software written in those languages?
+- Check what programming languages are used. Are you able to fix or
+  extend software written in those languages? Do you like something
+  about the programming language used for one project more than the
+  language used by another?
 
 - Is there a security policy? If so, what does it say? Vulnerability
   disclosure programs, bug bounties, and regular audits are always good
