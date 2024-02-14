@@ -178,7 +178,7 @@ Gitlab, etc).
   efforts are being made to create robust, reliable software.
 
 - When was the project first started? Repositories that have been active
-  for a while may be less likely to suddenly disappear.
+  for a while may be more likely to stick around.
 
 - What different types of activity are happening and how recently have
   they occurred? These are ways to see if a project is still being
