@@ -183,8 +183,7 @@ Gitlab, etc).
 
 - Are best practices and standards in the industry generally present
   (tests, linters and static analysis tools, continuous integration and
-  continuous deployment, conventional commits, semantic versioning,
-  etc)?
+  continuous delivery, conventional commits, semantic versioning, etc)?
 
 - When was the project first started? Repositories that have been active
   for a while may be more likely to stick around.
