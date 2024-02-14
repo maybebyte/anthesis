@@ -200,8 +200,7 @@ Gitlab, etc).
   - How frequently does this repository get new commits in general?
   - When was the last release?
   - How frequently are new releases made in general?
-  - What other kinds of activity happened in the past month, three
-    months, etc?
+  - What other kinds of activity happened in the past month?
 
 - Indicators of popularity, such as the number of stars and forks. But
   be really careful with these. Fake stars and forks have been available
