@@ -144,10 +144,10 @@ trust in before following any instructions or taking any advice.
   current limitations, and I'm interested to see how it develops.
 
 - Asking knowledgeable people what they use, how they found it, and why
-  they chose it over the alternatives. The best way to get a good
-  response from people is to ask good questions and show them that you
-  value their time; in other words, it should be evident that you've
-  already done some research, such as using a search engine and
+  they chose it over the alternatives. It's likely that you'll get a
+  better response from people if you ask good questions and show them
+  that you value their time; in other words, it should be evident that
+  you've already done some research, such as using a search engine and
   consulting other publicly available resources.
 
 ## What are some ways to compare software projects?
