@@ -8,6 +8,7 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 
 ### 2024
 
+- [Encrypted headless Raspberry Pi running Gentoo](/encrypted-headless-raspberry-pi-gentoo.md "2024-07-06")
 - [How to find the best software for you](/how-to-find-the-best-software-for-you.html "2024-02-14")
 
 ### 2023
