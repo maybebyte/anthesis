@@ -291,7 +291,7 @@ to boot the rest of the system.
 
 ## Conclusion and thoughts
 
-This setup won't prevent a determined adversary from removing the SD
+This setup won't prevent a determined adversary from removing the microSD
 card and tampering with anything on the boot partition (the kernel; the
 initramfs; the firmware), nor does it prevent hardware level attacks. An
 attacker could theoretically leverage these to obtain the encryption
