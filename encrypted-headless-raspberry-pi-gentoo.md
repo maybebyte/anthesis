@@ -2,6 +2,8 @@
 
 Published: July 6th, 2024
 
+Last updated: July 8th, 2024
+
 It took me about a week to get Gentoo running on a Raspberry Pi 4B with
 full disk encryption, but I'm happy with the result and I learned a
 couple of things. I wanted to share my findings so no one else has to
