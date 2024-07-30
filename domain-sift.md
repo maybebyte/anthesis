@@ -50,7 +50,7 @@ DNS resolver.
 ## Installation
 
 To install `domain-sift`, [download the most recent
-release](https://github.com/3uryd1ce/domain-sift/releases) and run
+release](https://github.com/maybebyte/domain-sift/releases) and run
 the following commands inside the source directory. Note that
 `domain-sift` requires Perl 5.36 or later, since subroutine signatures
 are no longer experimental in that release.
