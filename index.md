@@ -39,7 +39,6 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 - [NixOS review: 8 important pros and cons](/nixos-pros-cons.html "1970-01-01")
 - [Why self-host/use FLOSS?](/why-self-host.html "1970-01-01")
 - [FLOSS OS recommendations](/os.html "1970-01-01")
-- [Software I use (PC)](/pc.html "1970-01-01")
 
 ## Some things you should know
 
