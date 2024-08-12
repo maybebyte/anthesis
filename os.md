@@ -1,4 +1,4 @@
-# FLOSS OS recommendations
+# Open source operating system recommendations
 
 [![A three panel comic strip from xkcd. It's titled "How Standards Proliferate" with a subheading of "See: A/C chargers, character encodings, instant messaging, etc." The first panel says "Situation: there are 14 competing standards." The second panel features two stick figures talking to one another, a man on the left and a woman on the right. The man says to the woman, "14?! Ridiculous! We need to develop one universal standard that covers everyone's use cases." The woman replies, "Yeah!" The third panel has a box in the top left hand corner that says, "Soon:", and the main text says, "Situation: There are 15 competing standards." ](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.2.png)](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.2.png)
 
