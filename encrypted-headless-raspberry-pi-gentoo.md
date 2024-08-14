@@ -2,7 +2,7 @@
 
 Published: July 6th, 2024
 
-Last updated: July 8th, 2024
+Last updated: August 14th, 2024
 
 It took me about a week to get Gentoo running on a Raspberry Pi 4B with
 full disk encryption, but I'm happy with the result and I learned a
@@ -178,11 +178,18 @@ I made sure that support for relevant tech was built into the kernel. In
 my case, this included [LVM](https://wiki.gentoo.org/wiki/LVM),
 [dm-crypt](https://wiki.gentoo.org/wiki/Dm-crypt), and
 [XFS](https://wiki.gentoo.org/wiki/Xfs), as these are all needed during
-the boot process. Note that at the time of writing, I was only able to
-boot the Raspberry Pi with `sys-kernel/raspberrypi-sources`, and not
-`sys-kernel/gentoo-sources`.
+the boot process.
 
-### Compiling the kernel and installing it
+There's a choice between `sys-kernel/raspberrypi-sources` and
+`sys-kernel/gentoo-sources`. I can confirm that both work, although I
+started with `sys-kernel/raspberrypi-sources` first.
+`sys-kernel/gentoo-sources` does lack some functionality like device
+tree overlay support, but it works for my use case.
+
+It might be possible to configure other kernels to work, like the
+distribution kernel, but I haven't tested that.
+
+### Compiling the Raspberry Pi foundation kernel and installing it
 
 I followed instructions presented in the [Linux kernel section of the
 Raspberry Pi
@@ -290,6 +297,41 @@ the filesystems were mounted at `/mnt`.
 
 After rebooting, I was presented with the decryption prompt and was able
 to boot the rest of the system.
+
+### Switching to gentoo-sources
+
+The kernel provided by the Raspberry Pi foundation is unsupported
+security-wise by Gentoo. So I wanted to switch to
+`sys-kernel/gentoo-sources`. This is a relatively straightforward
+process, fortunately.
+
+Change directory to the new kernel sources.
+
+```
+$ cd /usr/src/linux-6.6.30-gentoo
+```
+
+Copy the working config over.
+
+```
+# cp /usr/src/linux-6.6.31_p20240529-raspberrypi/.config .
+```
+
+Update the current kernel configuration so it works with this kernel.
+
+```
+# make oldconfig
+```
+
+Follow the process from before to build the kernel, except ignore
+copying the overlay files since `sys-kernel/gentoo-sources` doesn't
+create them. Once that's done, `/boot/config.txt` will need to be
+updated so that it points to the correct initramfs file.
+
+Another thing I had to do is update `/boot/cmdline.txt` so that it
+contains `8250.nr_uarts=1`, otherwise the [serial console fails to
+initialize
+properly](https://forums.raspberrypi.com/viewtopic.php?t=246215).
 
 ## Conclusion and thoughts
 
