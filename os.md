@@ -2,43 +2,111 @@
 
 [![A three panel comic strip from xkcd. It's titled "How Standards Proliferate" with a subheading of "See: A/C chargers, character encodings, instant messaging, etc." The first panel says "Situation: there are 14 competing standards." The second panel features two stick figures talking to one another, a man on the left and a woman on the right. The man says to the woman, "14?! Ridiculous! We need to develop one universal standard that covers everyone's use cases." The woman replies, "Yeah!" The third panel has a box in the top left hand corner that says, "Soon:", and the main text says, "Situation: There are 15 competing standards." ](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.2.png)](/images/xkcd-standards.6975f55c09cec9a24ccb0185707d56892b881f9b1157c3e6d7ff61554d91ba94.2.png)
 
-The above [xkcd comic](https://xkcd.com/927/) illustrates a particular
-mindset that is responsible for the wealth of Linux distributions
-targeted at users new to the platform. Given this, I don't have a
-one-size-fits-all recommendation; each user has different needs, so
-pigeonholing is counterproductive. For instance, someone that feels more
-comfortable with an interface akin to macOS could have a bad time with
-[Linux Mint](https://www.linuxmint.com/download.php), even though Linux
-Mint is a great OS for many people.
+The above [xkcd comic](https://xkcd.com/927/) illustrates the
+difficulties of creating a universal standard, and why it often only
+results in yet another competing standard instead. This is a broadly
+applicable lesson that explains the wide array of open source operating
+systems available today.
 
-However, I'll share a quiz I find helpful, as well as what works for
-me.
+One of the most common experiences that someone exploring alternative
+operating systems on their own may encounter is a feeling of being
+overwhelmed by the sheer amount of choice available. While I have no
+real solution for this feeling, I hope that my own "best of kind" list
+can be useful regardless.
 
-## Generate recommendations from a quiz
+Before my recommendations, here are a couple of resources that I find
+helpful:
 
-Check out [LibreHunt](https://librehunt.org/). LibreHunt does a good job
-of explaining the merits of FLOSS and suggests Linux distributions based
-on how the questionnaire is answered.
+- [Librehunt](https://librehunt.org/)
+- [Distrowatch](https://distrowatch.com/)
 
-## What I use
+## User friendly and just works
 
-I like OpenBSD. See ["Why OpenBSD?"](/why-openbsd.html) for more details.
+There are many options in this space, but a great all-around pick that I
+always fall back to is [Linux Mint](https://linuxmint.com/). The
+Cinnamon edition stands out in particular, as it's user friendly and
+feels polished, yet it also empowers the user. The large, helpful
+community is exactly what someone new to Linux will appreciate. I feel
+confident pointing to Linux Mint for this use case, as it showcases the
+unique strengths of Linux in an accessible way to new users.
 
-## Other devices to liberate
+## Innovative and for power users
 
-### Smartphone
+[Fedora](https://fedoraproject.org/) is backed by Red Hat, the largest
+Linux company in the world. It offers many compelling features out of
+the box, such as the SELinux mandatory access control system and the
+copy-on-write filesystem known as btrfs. If taking advantage of new
+Linux features and keeping a finger on its pulse is important to you,
+Fedora is a sensible choice.
 
-It's best to use a privacy respecting OS here, too.
-[GrapheneOS](https://grapheneos.org/) is what I use, although
-[LineageOS](https://www.lineageos.org/) supports a wider range of
-hardware.
+## Reasonably secure and paranoid
 
-### Router
+[Qubes OS](https://www.qubes-os.org) is a security-oriented operating
+system designed to separate different aspects of your digital life into
+virtual machines, also called qubes. The idea is to compartmentalize
+everything so that if one qube is compromised, the rest of the system
+won't be affected. Qubes OS integrates [Whonix](https://www.whonix.org/)
+which is a huge win for privacy. I highly recommend it to anyone that
+prioritizes the security of their machine above all else.
 
-A router is a computer too. Proprietary consumer firmware isn't
-exceedingly capable, nor is it secure. DD-WRT, OpenWRT, pfSense, and
-OpenBSD are all much better options. If flashing firmware onto a
-consumer router, use Ethernet and take the appropriate precautions.
+## Run the latest software and do it your way
 
-Check out [Building an OpenBSD router](/openbsd-router.html) for more
-information on how I approach it.
+[Arch](https://archlinux.org/) is often the first advanced Linux
+distribution that people try. A distribution installed from the
+command-line, Arch aims to provide the newest releases of software in
+its repositories. The Arch wiki is an excellent source of information
+and a massive selection of software can be installed via the Arch User
+Repository (AUR). Arch offers a middle ground between customization and
+practicality that many people appreciate.
+
+## Customize everything and learn a lot about Linux
+
+[Gentoo](https://www.gentoo.org/) prioritizes extensive customization
+and choice. Portage (Gentoo's package management system) exposes a
+wealth of options to the user, allowing them to easily adjust the
+compile time options of software they install through something called
+"USE flags." In addition, components like the system logger and init
+system are chosen during the installation process, which also takes
+place at the command-line. Gentoo's wiki and its knowledgeable yet
+friendly community make it one of the best ways to learn about the deep
+inner workings of Linux.
+
+## The minimal Unix-like cousin of Arch
+
+[Void](https://voidlinux.org/) falls somewhere between Arch and Gentoo
+in my eyes. It feels more Unix-like than Arch, yet it doesn't lean as
+strongly into customization as Gentoo. Void's package manager (xbps),
+init system (runit), and alternative libc support (musl) are major
+selling points of the distribution. In general, I can see the logic
+behind many of the decisions and design choices that the project makes.
+For example, I think mandoc is an excellent manual page system, and Void
+uses it by default.
+
+## Simple, stable, and follows the Unix philosophy
+
+[OpenBSD](https://www.openbsd.org/) is a BSD system that has a strong
+focus on security, portability, simplicity, and correctness. OpenBSD
+features some of the best documentation of any project I've used, and it
+introduced me to a lot of software that I still admire to this day. For
+me, it's unmatched on the server side due to OpenBSD's simplicity and
+secure by default approach. Development moves in a more deliberate,
+controlled manner compared to Linux, which moves rapidly and more
+chaotically. [Here are some more of my thoughts on
+OpenBSD](/why-openbsd.html).
+
+## A secure mobile operating system
+
+[GrapheneOS](https://grapheneos.org/) is a privacy and security focused
+version of Android, specifically for Google Pixel devices due to the
+merits of that hardware. Some of the unique advantages of GrapheneOS are
+sandboxed Google Play services, extensive system hardening, and secure
+replacement applications. In terms of mobile operating systems, I know
+of nothing more secure.
+
+## Reproducible, declaratively built OS
+
+[NixOS](https://nixos.org) presents a different method of system
+management: describing your desired system in a configuration file and
+then issuing a single command to build it. There are definite advantages
+to this approach and [I've written more about NixOS
+here](/nixos-pros-cons.html).
