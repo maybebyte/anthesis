@@ -2,12 +2,6 @@
 
 *Tested on FreeBSD 13.0-RELEASE*
 
-NOTE (2023-07-22): this installation procedure is needlessly complex and
-time-consuming for the average user, and is more effort to maintain as
-well. For most people, binary packages and skipping the steps to build
-from source against LibreSSL and sndio is the more sensible option. I
-don't have time to rewrite this currently, but it needs a rewrite.
-
 ## Overview
 
 Everyone needs a break sometimes. In my case, I find myself watching
