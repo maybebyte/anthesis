@@ -2,29 +2,6 @@
 
 *Tested on FreeBSD 13.0-RELEASE*
 
-## Overview
-
-Everyone needs a break sometimes. In my case, I find myself watching
-videos and listening to music frequently, and sometimes I'd rather play
-media over speakers than headphones (they're a different experience,
-with pros and cons to each).
-
-I'm aware there are Linux distributions that provide a decent
-out-of-the-box experience with Kodi. The one that comes to mind is
-[LibreELEC](https://libreelec.tv/). I've used it before, and I'd say
-LibreELEC would suffice for the average person.
-
-However, I strongly prefer to have control over how everything
-functions, even if it requires some initial setup. What really matters
-to me is how pleasant it is to extend and maintain a given system. In my
-eyes, setup is the short game and maintenance is the long game.
-
-I also have gripes with the implementation. If I don't have the last word
-in how a system works, then I'm typically disinterested because it means
-I'll have a harder time fixing it if something goes wrong. Given these
-factors, I set out to create my own entertainment center that met my
-specific needs on a Latte Panda Delta.
-
 ## Installation
 
 For the sake of brevity, I won't cover the process of installing FreeBSD in depth. It's
@@ -308,7 +285,6 @@ must be modified accordingly.
 
 [Note that `sndiod` is not needed in either case](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
 
-
 ### Staying up to date
 
 #### Setting up cron to fetch updates nightly
@@ -354,13 +330,7 @@ Reboot.
 
 Overall, I'm quite happy with the way the entertainment center turned
 out. It's involved in the beginning (in great part due to my specific
-desires/vision), but maintaining it isn't so bad. I definitely feel more
-comfortable maintaining a *BSD system over a Linux system in the long
-term (particularly OpenBSD, but FreeBSD as well), so this setup works
-out well for me.
-
-Eventually, I'd like to add in the ability to emulate and play games.
-For now, Kodi is enough to quell my boredom.
+desires/vision), but maintaining it isn't so bad.
 
 ## Additional resources
 
