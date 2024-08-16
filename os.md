@@ -14,20 +14,16 @@ overwhelmed by the sheer amount of choice available. While I have no
 real solution for this feeling, I hope that my own "best of kind" list
 can be useful regardless.
 
-Before my recommendations, here are a couple of resources that I find
-helpful:
+Before my recommendations, here are some resources that I find helpful:
 
 - [Librehunt](https://librehunt.org/) first explains in simple terms the
   concepts that anyone would need to know to make an informed decision
   about Linux. After that, the second part involves a quiz so that
-  Librehunt can suggest relevant Linux distributions. As it's aimed at
-  the beginner, it doesn't include references to BSD or alternative
-  operating systems that I could see. But Librehunt is still a good
-  website all the same.
+  Librehunt can suggest relevant Linux distributions.
 
 - [Distrochooser](https://distrochooser.de/) is similar to Librehunt in
   that it uses the answers to a quiz to recommend Linux distributions,
-  except I'd say the target audience is more technically inclined. 
+  except I'd say the target audience is more technically inclined.
 
 - [Distrowatch](https://distrowatch.com/) is a more visually busy and
   dense website, to say the least, but it's a decent tool to search
@@ -38,7 +34,7 @@ helpful:
   in the last 6 months.
 
 - [Repology](https://repology.org/) offers a way to search the software
-  repositories of many different open source operating systems at once. 
+  repositories of many different open source operating systems at once.
 
 ## User friendly and just works
 
