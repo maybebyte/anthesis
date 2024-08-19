@@ -254,7 +254,7 @@ automatically selected as the default kernel, but we need to add the
 initramfs in.
 
 ```
-initramfs initramfs-6.1.21_p20230405-raspberrypi-v8.img followkernel
+initramfs initramfs-6.6.31_p20240529-raspberrypi-v8.img followkernel
 ```
 
 `/boot/cmdline.txt` needs to be changed so it provides information on
