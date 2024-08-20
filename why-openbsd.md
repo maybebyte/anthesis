@@ -17,10 +17,6 @@ Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD t
 - Need every task or detail to be abstracted away graphically.
 - Want it to work like `$PREVIOUS_OS`.
 
-If these aren't things that align with a given use case, maybe
-[Librehunt](https://librehunt.org/) will be of more avail. Otherwise,
-continue on.
-
 ## Simplicity
 
 When I say simplicity, I mean simplicity from a software
