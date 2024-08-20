@@ -37,7 +37,7 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 - [Building an OpenBSD router using an APU4D4](/openbsd-router.html "1970-01-01")
 - [Firefox keyword search: bookmark method](/firefox-keyword-search.html "1970-01-01")
 - [NixOS review: 8 important pros and cons](/nixos-pros-cons.html "1970-01-01")
-- [Why self-host/use FLOSS?](/why-self-host.html "1970-01-01")
+- [Benefits and drawbacks of self-hosting](/why-self-host.html "1970-01-01")
 - [Open source operating system recommendations](/os.html "1970-01-01")
 
 ## Some things you should know
