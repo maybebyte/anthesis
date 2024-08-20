@@ -1,7 +1,7 @@
 # How to find the best software for you
 
 Published: Febuary 14th, 2024
-Last updated: February 28th, 2024
+Last updated: August 19th, 2024
 
 With software, there can be so many choices that figuring out where to
 start is less easy than it could be, let alone deciding which project
@@ -14,7 +14,7 @@ in the way of good enough. The best software for you is whatever allows
 you to achieve your goals while meeting your requirements.
 
 With that said, there's also no reason to let adequate get in the way
-of even better. :)
+of even better.
 
 Also, note that I rarely ever go through this formal of a process. Think
 of it as a collection of ideas that I wanted to organize.
@@ -297,6 +297,8 @@ Gitlab, etc).
   but "from an engineering standpoint, is this website intelligently
   designed for what it needs to do?" Plain, fast, and functional is a
   much better sign than flashy, slow, and nearly disintegrating.
+
+- Is the software written in a memory-safe programming language?
 
 - You can throw the software into a virtual machine you don't use for
   anything else and run it to study its behavior.
