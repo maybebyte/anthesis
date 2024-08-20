@@ -1,5 +1,7 @@
 # Benefits and drawbacks of self-hosting
 
+Last updated: August 19th, 2024
+
 As someone that has run many of my own services for a while now, I feel
 that I can speak to the advantages and disadvantages of self-hosting. In
 my case, the benefits have more than made up for the drawbacks, but I
