@@ -19,13 +19,6 @@ From the [F-Droid website](https://www.f-droid.org/):
 >Software) applications for the Android platform. The client makes it
 >easy to browse, install, and keep track of updates on your device."
 
-## Why F-Droid?
-
-For the reasons outlined in [Why self-host/use
-FLOSS?](/why-self-host.html), using FLOSS (Free/Libre and Open Source
-Software) whenever possible is preferable. The source code is available
-for every app on F-Droid.
-
 ## F-Droid apps
 
 - [ImagePipe](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
