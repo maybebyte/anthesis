@@ -31,20 +31,11 @@ of it as a collection of ideas that I wanted to organize.
 ## What's your use case for the software?
 
 There's plenty of software out there, but whether it'll be useful to you
-somewhat depends on if it fits your use case. You might find that
-understanding your requirements and preferences helps not only with
-choosing which project to use---it can also improve your overall
-satisfaction with the end result.
-
-Here's a list of questions that could be helpful for determining exactly
-what you're looking for in software.
+somewhat depends on if it fits your use case. Here's a list of questions
+that could be helpful for determining exactly what you're looking for in
+software.
 
 ### Questions to determine your software use case
-
-As you read through this list of questions, consider whether the answers
-will stay the same in the future or not. It's good to plan a little.
-Ideally, by doing so you'll choose the right software for today and
-tomorrow (and maybe even the day after that, too).
 
 - What problem will the software solve? If it's going to replace a prior
   solution, what about the previous approach didn't work and what needs
