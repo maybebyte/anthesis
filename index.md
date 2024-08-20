@@ -43,6 +43,6 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 ## Some things you should know
 
 - If you want or need to talk to me about something, [please contact me](/contact.html).
-- You can study and examine my source code [on this website](/src.html "1970-01-01") and [on GitHub](https://github.com/maybebyte/).
+- You can find my source code [on this website](/src.html "1970-01-01") and [on GitHub](https://github.com/maybebyte/).
 - For additional privacy, you can [use Tor](https://www.torproject.org/) to [browse this website as an onion service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/).
 - Beginning in October 2022, [this website is now hosted under a new root domain](/domain-migration.html "2022-10-03").
