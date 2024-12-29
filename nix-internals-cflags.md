@@ -15,7 +15,7 @@ Even though this isn't perfect and doesn't list every operating system
 I'm interested in having these details for, I feel I should share what I
 have so far.
 
-Documentation for compilation flags can be found in these places:
+Some relevant documentation can be found in these places:
 
 - [GCC flag docs](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
 - [Clang flag docs](https://clang.llvm.org/docs/ClangCommandLineReference.html)
@@ -29,10 +29,10 @@ would be preferred, but either is fine).
 
 I'm definitely open to [pull
 requests](https://github.com/maybebyte/anthesis/pulls), especially to
-fix issues. Pull requests to add operating systems along with details
-are welcome as well, although it's unlikely that I'll add in forks of
-systems already mentioned unless they differ enough in content to be
-interesting.
+fix issues. Pull requests to add missing details to anything listed, or
+to add new items along with details, are welcome as well. Though it's
+unlikely that I'll add in forks of systems already mentioned unless they
+differ enough in content to be interesting.
 
 ## Table of contents
 
