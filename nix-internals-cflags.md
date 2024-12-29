@@ -212,7 +212,7 @@ Clang/LLVM](https://github.com/clearlinux-pkgs/llvm/blob/3fade2633755c8ddd4b4ce7
 ## Debian
 
 [dpkg-buildflags](https://manpages.debian.org/bookworm/dpkg-dev/dpkg-buildflags.1.en.html)
-is a perl script, provided by the `dpkg-dev` package. A lot of the heavy
+is a Perl script, provided by the `dpkg-dev` package. A lot of the heavy
 lifting is done by the libraries sourced by the script, which are in
 `/usr/share/perl5/Dpkg`. Those libraries are provided by the
 `libdpkg-perl` package (a dependency of `dpkg-dev`).
