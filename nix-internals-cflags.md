@@ -1,5 +1,7 @@
 # Linux/Unix internals: x86_64 CFLAGS/CXXFLAGS
 
+Published: December 29th, 2024
+
 As I've been using Gentoo, I've become curious about what kinds of
 interesting build flags other systems use to compile their binaries on a
 global level, as well as what configure-time flags are set on GCC and
