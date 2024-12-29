@@ -56,7 +56,7 @@ interesting.
 [According to this
 poster](https://bbs.archlinux.org/viewtopic.php?pid=2189095#p2189095),
 the build flags can be found in [the x86_64.conf file in the
-devtools package](https://gitlab.archlinux.org/archlinux/devtools/-/blob/5c0f8d37d5b1f3c380b49c60f3d2e5e8ab586f62/config/makepkg/x86_64.conf#L43)
+devtools package](https://gitlab.archlinux.org/archlinux/devtools/-/blob/5c0f8d37d5b1f3c380b49c60f3d2e5e8ab586f62/config/makepkg/x86_64.conf#L43).
 
 CFLAGS:
 
@@ -104,7 +104,7 @@ Here are the [configure-time GCC flags for Arch](https://gitlab.archlinux.org/ar
 
 Here are the [configure-time Clang flags for Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/clang/-/blob/e8801aceb5f717ae9c8477618e7b0485414eee32/PKGBUILD#L79).
 
-Here are the [configure-time LLVM flags for Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/llvm/-/blob/809803c2eaf4d2c3b526ae77820167d1fab99bb0/PKGBUILD#L81)
+Here are the [configure-time LLVM flags for Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/llvm/-/blob/809803c2eaf4d2c3b526ae77820167d1fab99bb0/PKGBUILD#L81).
 
 ## Alpine
 
@@ -153,7 +153,7 @@ The [performance section in the
 documentation](https://www.clearlinux.org/clear-linux-documentation/guides/clear/performance.html)
 lays everything out nicely.
 
-- [__global_cflags in macros](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/macros#L538)
+- [\__global\_cflags in macros](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/macros#L538)
 - [optflags in rpmrc](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/rpmrc#L13)
 
 For x86_64, here is what that looks like:
@@ -187,11 +187,15 @@ For x86_64, here is what that looks like:
 
 There are some interesting things in here. Two flags in particular I
 find really interesting: `-ftrivial-auto-var-init=zero` and
-`-mrelax-cmpxchg-loop`. `-ftrivial-auto-var-init` is a
+`-mrelax-cmpxchg-loop`.
+
+`-ftrivial-auto-var-init` is a
 security-related flag. I've heard that both
 ChromiumOS and Android use that flag in some form. Gentoo may add it to
 their hardened builds, at least this is what [this open bug would
-suggest](https://bugs.gentoo.org/913339). `-mrelax-cmpxchg-loop` is a
+suggest](https://bugs.gentoo.org/913339).
+
+`-mrelax-cmpxchg-loop` is a
 recently added flag from Intel that supposedly boosts performance. [Here
 is the GCC bug where it's
 discussed](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103069).
