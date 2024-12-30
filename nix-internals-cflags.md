@@ -453,6 +453,8 @@ then built the package):
 -Wl,-z,now
 ```
 
+If `-fzero-call-used-regs=used-gpr` is used, it wasn't printed during the test build.
+
 [GCC nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/gcc/default.nix).
 
 [Clang nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/llvm/common/clang/default.nix).
