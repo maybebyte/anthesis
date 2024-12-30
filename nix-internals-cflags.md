@@ -195,10 +195,11 @@ ChromiumOS and Android use that flag in some form. Gentoo may add it to
 their hardened builds, at least this is what [this open bug would
 suggest](https://bugs.gentoo.org/913339).
 
-`-mrelax-cmpxchg-loop` is a
-recently added flag from Intel that supposedly boosts performance. [Here
-is the GCC bug where it's
-discussed](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103069).
+`-mrelax-cmpxchg-loop` relaxes spin loops in certain conditions,
+benefiting thread synchronization. [Here is the GCC bug where it's
+discussed](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103069). [Intel
+discusses it a little
+here](https://www.intel.com/content/www/us/en/developer/articles/technical/building-innovation-and-performance-with-gcc12.html).
 
 The question of compiler configure-time flags for Clear Linux gets
 complicated, because they have separate GCC builds for AVX2 and AVX512.
