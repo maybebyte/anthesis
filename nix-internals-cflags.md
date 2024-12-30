@@ -220,7 +220,7 @@ packages in [clearlinux-pkgs](https://github.com/clearlinux-pkgs):
 
 - On x86_64, it [enables `-fzero-call-used-regs=used` on packages 
   security-sensitive
-  packages](https://github.com/clearlinux/autospec/blob/54240261104357e79455574d5b821860e27de60a/autospec/specfiles.py#L611).
+  packages](https://github.com/clearlinux/autospec/blob/54240261104357e79455574d5b821860e27de60a/autospec/specfiles.py#L616).
   I found this due to [Seirdy's note on the
   subject](https://seirdy.one/notes/2023/04/17/clang-supports-wiping-call-used-registers).
 - [On packages where the `funroll-loops` option is
