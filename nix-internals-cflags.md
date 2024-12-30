@@ -218,7 +218,7 @@ Linux does. [autospec](https://github.com/clearlinux/autospec) is at the
 heart of this. A couple of interesting things about autospec and the
 packages in [clearlinux-pkgs](https://github.com/clearlinux-pkgs):
 
-- On x86_64, it [enables `-fzero-call-used-regs=used` on packages 
+- On x86_64, it [enables `-fzero-call-used-regs=used` on
   security-sensitive
   packages](https://github.com/clearlinux/autospec/blob/54240261104357e79455574d5b821860e27de60a/autospec/specfiles.py#L616).
   I found this due to [Seirdy's note on the
