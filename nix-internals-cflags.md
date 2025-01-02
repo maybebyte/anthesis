@@ -10,8 +10,8 @@ global level, as well as what configure-time flags are set on GCC and
 Clang. This article collects these flags for some distributions to make
 them easier for me to track down and compare in the future.
 
-Because this is a huge rabbit hole, there are some things I won't be
-doing in the interest of time. They're listed in the caveats section.
+Because this is a huge rabbit hole, there are some things I won't be doing in
+the interest of time. They're listed in the [Caveats section](#caveats).
 
 Even though this isn't perfect and doesn't list every operating system
 I'm interested in having these details for, I feel I should share what I
@@ -52,6 +52,7 @@ differ enough in content to be interesting.
 12. [Void](#void)
 13. [Caveats](#caveats)
 14. [Areas for improvement](#areas-for-improvement)
+15. [Other resources](#other-resources)
 
 ## Arch
 
@@ -453,7 +454,8 @@ then built the package):
 -Wl,-z,now
 ```
 
-If `-fzero-call-used-regs=used-gpr` is used, it wasn't printed during the test build.
+If `-fzero-call-used-regs=used-gpr` is used, it wasn't printed during the test
+build.
 
 [GCC nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/gcc/default.nix).
 
@@ -845,7 +847,11 @@ writing.
 
 - Investigating ChromiumOS and Android in particular.
 
-- Looking more into areas mentioned in the caveats section (reviewing
-  patches, other toolchain components, etc).
+- Looking more into areas mentioned in the [Caveats section](#caveats)
+  (reviewing patches, other toolchain components, etc).
 
 - Probably many others I haven't thought of.
+
+## Other resources
+
+- [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
