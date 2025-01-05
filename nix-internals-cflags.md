@@ -2,7 +2,7 @@
 
 Published: December 29th, 2024
 
-Updated: December 30th, 2024
+Updated: January 5th, 2025
 
 As I've been using Gentoo, I've become curious about what kinds of
 interesting build flags other systems use to compile their binaries on a
@@ -855,3 +855,4 @@ writing.
 ## Other resources
 
 - [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
+- [compiler-flags-distro](https://github.com/jvoisin/compiler-flags-distro): usage of enabled-by-default hardening-related compiler flags across Linux distributions.
