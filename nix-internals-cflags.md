@@ -2,20 +2,22 @@
 
 Published: December 29th, 2024
 
+Updated: January 5th, 2025
+
 As I've been using Gentoo, I've become curious about what kinds of
 interesting build flags other systems use to compile their binaries on a
 global level, as well as what configure-time flags are set on GCC and
 Clang. This article collects these flags for some distributions to make
 them easier for me to track down and compare in the future.
 
-Because this is a huge rabbit hole, there are some things I won't be
-doing in the interest of time. They're listed in the caveats section.
+Because this is a huge rabbit hole, there are some things I won't be doing in
+the interest of time. They're listed in the [Caveats section](#caveats).
 
 Even though this isn't perfect and doesn't list every operating system
 I'm interested in having these details for, I feel I should share what I
 have so far.
 
-Documentation for compilation flags can be found in these places:
+Some relevant documentation can be found in these places:
 
 - [GCC flag docs](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
 - [Clang flag docs](https://clang.llvm.org/docs/ClangCommandLineReference.html)
@@ -29,10 +31,10 @@ would be preferred, but either is fine).
 
 I'm definitely open to [pull
 requests](https://github.com/maybebyte/anthesis/pulls), especially to
-fix issues. Pull requests to add operating systems along with details
-are welcome as well, although it's unlikely that I'll add in forks of
-systems already mentioned unless they differ enough in content to be
-interesting.
+fix issues. Pull requests to add missing details to anything listed, or
+to add new items along with details, are welcome as well. Though it's
+unlikely that I'll add in forks of systems already mentioned unless they
+differ enough in content to be interesting.
 
 ## Table of contents
 
@@ -50,6 +52,7 @@ interesting.
 12. [Void](#void)
 13. [Caveats](#caveats)
 14. [Areas for improvement](#areas-for-improvement)
+15. [Other resources](#other-resources)
 
 ## Arch
 
@@ -195,10 +198,11 @@ ChromiumOS and Android use that flag in some form. Gentoo may add it to
 their hardened builds, at least this is what [this open bug would
 suggest](https://bugs.gentoo.org/913339).
 
-`-mrelax-cmpxchg-loop` is a
-recently added flag from Intel that supposedly boosts performance. [Here
-is the GCC bug where it's
-discussed](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103069).
+`-mrelax-cmpxchg-loop` relaxes spin loops in certain conditions,
+benefiting thread synchronization. [Here is the GCC bug where it's
+discussed](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103069). [Intel
+discusses it a little
+here](https://www.intel.com/content/www/us/en/developer/articles/technical/building-innovation-and-performance-with-gcc12.html).
 
 The question of compiler configure-time flags for Clear Linux gets
 complicated, because they have separate GCC builds for AVX2 and AVX512.
@@ -208,6 +212,26 @@ build](https://github.com/clearlinux-pkgs/gcc/blob/fb236130c0cfccd0ab3e3bf7e8e4d
 Similar situation for Clang. Here are the [Clear Linux
 configuration-time flags for
 Clang/LLVM](https://github.com/clearlinux-pkgs/llvm/blob/3fade2633755c8ddd4b4ce7c91ec37eb6c219880/llvm.spec#L311).
+
+I'm breaking a rule I made for myself a little bit (no per-package
+CFLAGS/CXXFLAGS reviewing) to discuss some interesting tweaks Clear
+Linux does. [autospec](https://github.com/clearlinux/autospec) is at the
+heart of this. A couple of interesting things about autospec and the
+packages in [clearlinux-pkgs](https://github.com/clearlinux-pkgs):
+
+- On x86_64, it [enables `-fzero-call-used-regs=used` on
+  security-sensitive
+  packages](https://github.com/clearlinux/autospec/blob/54240261104357e79455574d5b821860e27de60a/autospec/specfiles.py#L616).
+  I found this due to [Seirdy's note on the
+  subject](https://seirdy.one/notes/2023/04/17/clang-supports-wiping-call-used-registers).
+- [On packages where the `funroll-loops` option is
+  set](https://github.com/clearlinux/autospec/blob/54240261104357e79455574d5b821860e27de60a/autospec/specfiles.py#L634)
+  (no doubt [a reference/inside
+  joke](https://shlomifish.org/humour/by-others/funroll-loops/Gentoo-is-Rice.html)),
+  `-O3` is added if `use_clang` was also set. Otherwise,
+  `-fno-semantic-interposition` and `-falign-functions=32` are added.
+
+There's a lot to learn from this distribution.
 
 ## Debian
 
@@ -429,6 +453,9 @@ then built the package):
 -Wl,-z,relro
 -Wl,-z,now
 ```
+
+If `-fzero-call-used-regs=used-gpr` is used, it wasn't printed during the test
+build.
 
 [GCC nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/gcc/default.nix).
 
@@ -820,7 +847,12 @@ writing.
 
 - Investigating ChromiumOS and Android in particular.
 
-- Looking more into areas mentioned in the caveats section (reviewing
-  patches, other toolchain components, etc).
+- Looking more into areas mentioned in the [Caveats section](#caveats)
+  (reviewing patches, other toolchain components, etc).
 
 - Probably many others I haven't thought of.
+
+## Other resources
+
+- [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
+- [compiler-flags-distro](https://github.com/jvoisin/compiler-flags-distro): usage of enabled-by-default hardening-related compiler flags across Linux distributions.
