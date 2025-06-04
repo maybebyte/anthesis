@@ -6,6 +6,11 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 
 ## Articles
 
+### 2025
+
+- [Gentoo one-liners for a rainy day](/gentoo-one-liners.html "2025-06-04")
+- [OpenPGP Key Transition Statement](/gpg-transition-20250406.html "2025-04-06")
+
 ### 2024
 
 - [Encrypted headless Raspberry Pi running Gentoo](/encrypted-headless-raspberry-pi-gentoo.md "2024-07-06")
