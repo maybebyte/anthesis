@@ -132,10 +132,11 @@ reasons:
 When I was using these commands, it was to guide CFLAGS tweaking to
 better optimize Gentoo in a VM, since virtual machines have limited
 resources. I use a setup where video playback cannot benefit from
-hardware acceleration (Qubes OS), so I was seeing if this approach could
-make a difference. I think I did manage to gain a few FPS from this, but
-as I didn't benchmark it beyond comparing frame timings in mpv and the
-gain is relatively minor (<=10fps), I have no solid proof.
+hardware acceleration at the time of writing (Qubes OS), so I was seeing
+if this approach could make a difference. I think I did manage to gain a
+few FPS from this, but as I didn't benchmark it beyond comparing frame
+timings in mpv and the gain is relatively minor (<=10fps), I have no
+solid proof.
 
 Though with that said, I should mention that these days I really believe
 in benchmarking and profiling, as they make a huge difference. The gains
