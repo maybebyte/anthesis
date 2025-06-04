@@ -1,5 +1,7 @@
 # Gentoo one-liners for a rainy day
 
+Published: June 4th, 2025
+
 ## Prerequisites
 
 Install the necessary Portage utilities and GNU Parallel:
