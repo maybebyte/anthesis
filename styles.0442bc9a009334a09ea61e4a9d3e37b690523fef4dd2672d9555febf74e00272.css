@@ -1,3 +1,13 @@
+@font-face {
+  src: url("/fonts/assistant-v23-latin-regular-657c7f51b39287e94d0fee906457d6a5ccbb8ed5124c7a6235a42ed9d0cbc08b.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
 :root {
   --bg-color: #fbf3db;
   --text-color: #3a4d53;
@@ -21,20 +31,22 @@
 }
 
 body {
-  font: 1.25rem/1.5 sans-serif;
+  font:
+    1.5rem/1.5 "Assistant",
+    sans-serif;
   max-width: 66ch;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 h4 {
   font-size: 1.5rem;
@@ -94,7 +106,7 @@ header nav {
 .navbar ul {
   display: flex;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding-left: 0;
 }
 
