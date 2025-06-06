@@ -8,6 +8,16 @@
   text-rendering: optimizeLegibility;
 }
 
+@font-face {
+  src: url("/fonts/source-code-pro-v30-latin-regular-75aa8cacfd459d58d7c093f3ff0ab8745cc878dfc93c5d4cda052791aeace878.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
 :root {
   --bg-color: #fbf3db;
   --text-color: #3a4d53;
@@ -37,6 +47,15 @@ body {
   max-width: 66ch;
   background-color: var(--bg-color);
   color: var(--text-color);
+}
+
+code,
+kbd,
+pre,
+samp,
+tt,
+var {
+  font-family: "Source Code Pro", monospace;
 }
 
 h1 {
