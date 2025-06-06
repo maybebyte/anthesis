@@ -1,5 +1,5 @@
 @font-face {
-  src: url("/fonts/assistant-variable-latin-641467c8336e796b0e31555ca6ccd1296b7cda52960c561ed15f35c1a31b43e4.woff2")
+  src: url("/fonts/assistant-variable-latin-8ed22178dbd859476d764b6bec0f7679744df2ca622b3daf9fdae93d9a7ea522.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Assistant";
@@ -11,12 +11,10 @@
 }
 
 @font-face {
-  src: url("/fonts/source-code-pro-latin-ad92e558586d2c8a62734a0209d17f0a11987e92151bb5961fd60be43b5c5dcf.woff2")
+  src: url("/fonts/source-code-pro-latin-f103c06e619f528fcd55110f79758b9e26f1b14467a33292802e99bb6b25737e.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Source Code Pro";
-  font-style: normal;
-  font-weight: 400;
   text-rendering: optimizeLegibility;
   unicode-range:
     U+0-24F, U+259, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC, U+1E00-1EFF, U+2000-206F,
