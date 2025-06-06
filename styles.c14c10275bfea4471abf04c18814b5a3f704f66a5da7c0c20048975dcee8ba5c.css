@@ -1,21 +1,27 @@
 @font-face {
-  src: url("/fonts/assistant-v23-latin-regular-657c7f51b39287e94d0fee906457d6a5ccbb8ed5124c7a6235a42ed9d0cbc08b.woff2")
+  src: url("/fonts/assistant-variable-latin-641467c8336e796b0e31555ca6ccd1296b7cda52960c561ed15f35c1a31b43e4.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Assistant";
-  font-style: normal;
-  font-weight: 400;
   text-rendering: optimizeLegibility;
+  unicode-range:
+    U+0-24F, U+259, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC, U+1E00-1EFF, U+2000-206F,
+    U+2074, U+20A0-20CF, U+2113, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+2C60-2C7F, U+A720-A7FF, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  src: url("/fonts/source-code-pro-v30-latin-regular-75aa8cacfd459d58d7c093f3ff0ab8745cc878dfc93c5d4cda052791aeace878.woff2")
+  src: url("/fonts/source-code-pro-latin-ad92e558586d2c8a62734a0209d17f0a11987e92151bb5961fd60be43b5c5dcf.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  unicode-range:
+    U+0-24F, U+259, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC, U+1E00-1EFF, U+2000-206F,
+    U+2074, U+20A0-20CF, U+2113, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+2C60-2C7F, U+A720-A7FF, U+FEFF, U+FFFD;
 }
 
 :root {
