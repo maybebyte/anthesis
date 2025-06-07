@@ -46,6 +46,13 @@
     U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@font-face {
+  src: local("Arial");
+  font-family: "Source Sans 3-fallback";
+  letter-spacing: 0.75px;
+  word-spacing: -0.25px;
+}
+
 :root {
   --bg-color: #fbf3db;
   --text-color: #3a4d53;
@@ -71,6 +78,7 @@
 body {
   font:
     1.5rem/1.5 "Source Sans 3",
+    "Source Sans 3-fallback",
     sans-serif;
   max-width: 66ch;
   background-color: var(--bg-color);
@@ -83,7 +91,7 @@ pre,
 samp,
 tt,
 var {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", "Courier New", monospace;
 }
 
 h1 {
