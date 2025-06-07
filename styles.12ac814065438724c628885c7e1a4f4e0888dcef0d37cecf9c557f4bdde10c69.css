@@ -47,6 +47,54 @@
 }
 
 @font-face {
+  src: url("/fonts/source-sans3-variable-upright-extended-latin-e4cf10db13387e1766cfef94df5fea081fedcd10aedb8dc2d41cf2a253358706.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+100-130, U+132-151, U+154-24F, U+259, U+1E00-1EFF, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  src: url("/fonts/source-sans3-variable-italic-extended-latin-231bddcc126af26f107e1f6cc9160164293c80ec7ef245d9a83635926e61c2e0.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+100-130, U+132-151, U+154-24F, U+259, U+1E00-1EFF, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-upright-extended-latin-29b04beca88b5758ecd36c805edc0478d9468c19cb30e18b11427405534e185b.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+100-130, U+132-151, U+154-24F, U+259, U+1E00-1EFF, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-italic-extended-latin-ed69b46a7c01307e0476c24c839c2bdbc4c74aca468ed33649e805b6b40c13d0.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+100-130, U+132-151, U+154-24F, U+259, U+1E00-1EFF, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
   src: local("Arial");
   font-family: "Source Sans 3-fallback";
   letter-spacing: 0.75px;
