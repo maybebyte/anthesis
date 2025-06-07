@@ -187,6 +187,221 @@
 }
 
 @font-face {
+  src: url("/fonts/source-sans-3-variable-upright-greek-f098c957f16098dce540ecf5c67869f04d367162e40bcccc135446096bda6015.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+374, U+375, U+37A, U+37E, U+384-38A, U+38C, U+38E-3A1, U+3A3-3D1, U+3D5,
+    U+3D7, U+3D9, U+3DB, U+3DD, U+3E1, U+3F4, U+3F7, U+3F8, U+1F00-1F15,
+    U+1F18-1F1D, U+1F20-1F45, U+1F48-1F4D, U+1F50-1F57, U+1F59, U+1F5B, U+1F5D,
+    U+1F5F-1F7D, U+1F80-1FB4, U+1FB6-1FC4, U+1FC6-1FD3, U+1FD6-1FDB,
+    U+1FDD-1FEF, U+1FF2-1FF4, U+1FF6-1FFE;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-italic-greek-3f2e08c8c6acd4046dc60f19a9f0f4dc2a81abcd00dfaccd4488f295c987ae49.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+374, U+375, U+37A, U+37E, U+384-38A, U+38C, U+38E-3A1, U+3A3-3D1, U+3D5,
+    U+3D7, U+3D9, U+3DB, U+3DD, U+3E1, U+3F4, U+3F7, U+3F8, U+1F00-1F15,
+    U+1F18-1F1D, U+1F20-1F45, U+1F48-1F4D, U+1F50-1F57, U+1F59, U+1F5B, U+1F5D,
+    U+1F5F-1F7D, U+1F80-1FB4, U+1FB6-1FC4, U+1FC6-1FD3, U+1FD6-1FDB,
+    U+1FDD-1FEF, U+1FF2-1FF4, U+1FF6-1FFE;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-upright-greek-f1cd51cbd32cd991800e66ce0585c78051462965db386d5204f574f73c81dc13.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+374, U+375, U+37A, U+37E, U+384-38A, U+38C, U+38E-3A1, U+3A3-3CE, U+3D0,
+    U+3D1, U+3D5, U+3D7, U+3D9, U+3DB, U+3DD, U+3E1, U+1FBD-1FC1, U+1FCD-1FCF,
+    U+1FDD-1FDF, U+1FED-1FEF, U+1FFD, U+1FFE;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-italic-greek-ef3ff05743d54662311e8687c3bb1b8a8c8ceb43d9425764f43fd26445eb2c7b.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range: U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-upright-vietnamese-1782dc59402d924b58f00c7b3504f3c96599f31b91d8c96f3c1da3e78e9d0a8d.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+102, U+103, U+110, U+111, U+128, U+129, U+168, U+169, U+1A0, U+1A1, U+1AF,
+    U+1B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-italic-vietnamese-4dc7cf697a5e288c870ef73113d365079887a7d81fb1ed720d7d3697459af588.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+102, U+103, U+110, U+111, U+128, U+129, U+168, U+169, U+1A0, U+1A1, U+1AF,
+    U+1B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-upright-vietnamese-e62eb5a684fcdbed596adbebeabf384be75aa1b82dccaf4e3b19782923a5a9f1.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+102, U+103, U+110, U+111, U+128, U+129, U+168, U+169, U+1A0, U+1A1, U+1AF,
+    U+1B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-italic-vietnamese-c918c1176fb409af640d003dc6842c0808ecf2275841eb21fb779e6080e779e8.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+102, U+103, U+110, U+111, U+128, U+129, U+168, U+169, U+1A0, U+1A1, U+1AF,
+    U+1B0, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-upright-other-b285cac627286a516391846912ce7e3e1c687d73237905e95acfee8e5e31f1c4.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+250-258, U+25A-27B, U+27D-285, U+287-292, U+294, U+295, U+298, U+299,
+    U+29B-29F, U+2A1-2A8, U+2B0-2B4, U+2B7-2B9, U+2BD-2C1, U+2C7-2CC, U+2D0-2D9,
+    U+2DB, U+2DD, U+2DE, U+2E0-2E4, U+2ED, U+300-30D, U+30F-313, U+315,
+    U+318-320, U+323-32A, U+32C, U+32E-332, U+334, U+337-33D, U+340, U+342-345,
+    U+34F, U+357, U+358, U+35C, U+35E, U+35F, U+361, U+1D25, U+1D2C, U+1D2E,
+    U+1D30, U+1D31, U+1D33-1D3A, U+1D3C, U+1D3E-1D43, U+1D47-1D4B, U+1D4D,
+    U+1D4F-1D52, U+1D56-1D58, U+1D5B, U+1D6F, U+1D70, U+1D79, U+1D7B, U+1D7F,
+    U+1D9C, U+1DA0, U+1DAC, U+1DAE, U+1DB0, U+1DBB, U+1DBF, U+1DCD, U+2070,
+    U+2071, U+2075-208E, U+2105, U+2117, U+211E, U+2120, U+2126, U+212E,
+    U+2150-215E, U+2189, U+2190, U+2192, U+2194-2199, U+21A8, U+21D0-21D3,
+    U+21E7, U+2200, U+2202, U+2203, U+2206, U+220F, U+2211, U+2219, U+221A,
+    U+221E, U+221F, U+2229, U+222B, U+2236, U+2237, U+2248, U+2260, U+2261,
+    U+2264, U+2265, U+2302, U+2303, U+2310, U+2318, U+231C-2321, U+2325, U+2326,
+    U+232B, U+25A0, U+25A1, U+25AA-25AC, U+25B2-25BA, U+25BC-25C4, U+25C6,
+    U+25C9-25CC, U+25CF, U+25D8, U+25D9, U+25E6, U+2610, U+2611, U+2615,
+    U+263A-263C, U+263F-2642, U+2660, U+2663, U+2665, U+2666, U+266A, U+266B,
+    U+2713, U+2714, U+2717, U+2718, U+2752, U+275B-2760, U+2764, U+27E6-27E9,
+    U+2E18, U+2E22-2E25, U+2E3A, U+2E3B, U+2E52, U+A71C, U+AB53, U+AB66, U+AB67,
+    U+FB00-FB04, U+1F10D-1F10F, U+1F12F, U+1F16A-1F16F, U+1F4A9, U+1F512,
+    U+1F748, U+1F916;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-italic-other-a1ac036af0f948df2f6583bc6adf0a2b6f11ab54a9d7fac9f690be78993e9f9f.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+250-258, U+25A-27B, U+27D-285, U+287-292, U+294, U+295, U+298, U+299,
+    U+29B-29F, U+2A1-2A8, U+2B0-2B4, U+2B7-2B9, U+2BD-2C1, U+2C7-2CC, U+2D0-2D9,
+    U+2DB, U+2DD, U+2DE, U+2E0-2E4, U+2ED, U+300-30D, U+30F-313, U+315,
+    U+318-320, U+323-32A, U+32C, U+32E-332, U+334, U+337-33D, U+340, U+342-345,
+    U+34F, U+357, U+358, U+35C, U+35E, U+35F, U+361, U+1D25, U+1D2C, U+1D2E,
+    U+1D30, U+1D31, U+1D33-1D3A, U+1D3C, U+1D3E-1D43, U+1D47-1D4B, U+1D4D,
+    U+1D4F-1D52, U+1D56-1D58, U+1D5B, U+1D6F, U+1D70, U+1D79, U+1D7B, U+1D7F,
+    U+1D9C, U+1DA0, U+1DAC, U+1DAE, U+1DB0, U+1DBB, U+1DBF, U+1DCD, U+2070,
+    U+2071, U+2075-208E, U+2105, U+2117, U+211E, U+2120, U+2126, U+212E,
+    U+2150-215E, U+2189, U+2190, U+2192, U+2194-2199, U+21A8, U+21D0-21D3,
+    U+21E7, U+2200, U+2202, U+2203, U+2206, U+220F, U+2211, U+2219, U+221A,
+    U+221E, U+221F, U+2229, U+222B, U+2236, U+2237, U+2248, U+2260, U+2261,
+    U+2264, U+2265, U+2302, U+2303, U+2310, U+2318, U+231C-2321, U+2325, U+2326,
+    U+232B, U+25A0, U+25A1, U+25AA-25AC, U+25B2-25BA, U+25BC-25C4, U+25C6,
+    U+25C9-25CC, U+25CF, U+25D8, U+25D9, U+25E6, U+2610, U+2611, U+2615,
+    U+263A-263C, U+263F-2642, U+2660, U+2663, U+2665, U+2666, U+266A, U+266B,
+    U+2713, U+2714, U+2717, U+2718, U+2752, U+275B-2760, U+2764, U+27E6-27E9,
+    U+2E18, U+2E22-2E25, U+2E3A, U+2E3B, U+2E52, U+A71C, U+AB53, U+AB66, U+AB67,
+    U+FB00-FB04, U+1F10D-1F10F, U+1F12F, U+1F16A-1F16F, U+1F4A9, U+1F512,
+    U+1F748, U+1F916;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-upright-other-9cd66abea77c5c46080e68ee785318b1a0c46c590d12a7005ec1ca42be447244.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+250-258, U+25A-25C, U+25E-268, U+26A-276, U+278-27B, U+27D, U+27E,
+    U+280-284, U+287-292, U+294, U+295, U+298, U+299, U+29C-29F, U+2A1, U+2A2,
+    U+2A4, U+2A6, U+2A7, U+2B0, U+2B2, U+2B3, U+2B7-2B9, U+2BE, U+2BF, U+2C1,
+    U+2C7-2CC, U+2D0, U+2D1, U+2D8, U+2D9, U+2DB, U+2DD, U+2DE, U+2E0-2E4,
+    U+300-30C, U+30F-313, U+318-320, U+323-32A, U+32C, U+32E-331, U+334,
+    U+339-33D, U+341-345, U+35F, U+361, U+1D43, U+1D47-1D49, U+1D4D, U+1D4F,
+    U+1D50, U+1D52, U+1D56-1D58, U+1D5B, U+1D9C, U+1DA0, U+1DBB, U+2070, U+2071,
+    U+2075-2079, U+207D-2089, U+208D, U+208E, U+2094, U+2105, U+2117, U+2120,
+    U+2126, U+212E, U+2150-215E, U+2189, U+2190, U+2192, U+2194-2199, U+21A8,
+    U+21D0-21D3, U+2200, U+2202, U+2203, U+2206, U+220F, U+2211, U+2219, U+221A,
+    U+221E, U+221F, U+2229, U+222B, U+2237, U+2248, U+2260, U+2261, U+2264,
+    U+2265, U+2302, U+2310, U+231C-2321, U+2500-25A1, U+25AA-25AC, U+25B2-25BA,
+    U+25BC-25C4, U+25C6, U+25C9-25CC, U+25CF, U+25D8, U+25D9, U+25E6, U+2610,
+    U+2611, U+2615, U+263A-263C, U+2640, U+2642, U+2660, U+2663, U+2665, U+2666,
+    U+266A, U+266B, U+2713, U+2752, U+2764, U+27E6, U+27E7, U+2E18, U+2E22-2E25,
+    U+E0A0-E0A2, U+E0B0-E0B3, U+FB01, U+FB02, U+1F3B5, U+1F3B6, U+1F4A9,
+    U+1F512, U+1F916;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-italic-other-9c9bb17fd0e3873a72cfe5a2b9a417b1b3a8adb7059852092010e1e0b3c94e9b.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+250-258, U+25A-25C, U+25E-268, U+26A-276, U+278-27B, U+27D, U+27E,
+    U+280-284, U+287-292, U+294, U+295, U+298, U+299, U+29C-29F, U+2A1, U+2A2,
+    U+2A4, U+2A6, U+2A7, U+2B0, U+2B2, U+2B3, U+2B7-2B9, U+2BE, U+2BF, U+2C1,
+    U+2C7-2CC, U+2D0, U+2D1, U+2D8, U+2D9, U+2DB, U+2DD, U+2DE, U+2E0-2E4,
+    U+300-30C, U+30F-313, U+318-320, U+323-32A, U+32C, U+32E-331, U+334,
+    U+339-33D, U+341-345, U+35F, U+361, U+1D43, U+1D47-1D49, U+1D4D, U+1D4F,
+    U+1D50, U+1D52, U+1D56-1D58, U+1D5B, U+1D9C, U+1DA0, U+1DBB, U+2070, U+2071,
+    U+2075-2079, U+207D-2089, U+208D, U+208E, U+2094, U+2105, U+2117, U+2120,
+    U+2126, U+212E, U+2150-215E, U+2189, U+2190, U+2192, U+2194-2199, U+21A8,
+    U+21D0-21D3, U+2200, U+2202, U+2203, U+2206, U+220F, U+2211, U+2219, U+221A,
+    U+221E, U+221F, U+2229, U+222B, U+2237, U+2248, U+2260, U+2261, U+2264,
+    U+2265, U+2302, U+2310, U+231C-2321, U+2500-25A1, U+25AA-25AC, U+25B2-25BA,
+    U+25BC-25C4, U+25C6, U+25C9-25CC, U+25CF, U+25D8, U+25D9, U+25E6, U+2610,
+    U+2611, U+2615, U+263A-263C, U+2640, U+2642, U+2660, U+2663, U+2665, U+2666,
+    U+266A, U+266B, U+2713, U+2752, U+2764, U+27E6, U+27E7, U+2E18, U+2E22-2E25,
+    U+E0A0-E0A2, U+E0B0-E0B3, U+FB01, U+FB02, U+1F3B5, U+1F3B6, U+1F4A9,
+    U+1F512, U+1F916;
+}
+
+@font-face {
   src: local("Arial");
   font-family: "Source Sans 3-fallback";
   letter-spacing: 0.75px;
