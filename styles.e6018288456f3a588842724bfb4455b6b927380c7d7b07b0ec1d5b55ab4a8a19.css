@@ -47,7 +47,7 @@
 }
 
 @font-face {
-  src: url("/fonts/source-sans3-variable-upright-extended-latin-e4cf10db13387e1766cfef94df5fea081fedcd10aedb8dc2d41cf2a253358706.woff2")
+  src: url("/fonts/source-sans-3-variable-upright-extended-latin-e4cf10db13387e1766cfef94df5fea081fedcd10aedb8dc2d41cf2a253358706.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Source Sans 3";
@@ -59,7 +59,7 @@
 }
 
 @font-face {
-  src: url("/fonts/source-sans3-variable-italic-extended-latin-231bddcc126af26f107e1f6cc9160164293c80ec7ef245d9a83635926e61c2e0.woff2")
+  src: url("/fonts/source-sans-3-variable-italic-extended-latin-231bddcc126af26f107e1f6cc9160164293c80ec7ef245d9a83635926e61c2e0.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Source Sans 3";
@@ -92,6 +92,54 @@
   unicode-range:
     U+100-130, U+132-151, U+154-24F, U+259, U+1E00-1EFF, U+20A0-20AB,
     U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-upright-cyrillic-ad0792b84e3d491fcf413b7d19d91b2b39252232827c805cd84949afdfd31dd0.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+400-52F, U+1C80-1C88, U+20B4, U+2116, U+2DE0-2DFF, U+A640-A69F, U+FE2E,
+    U+FE2F;
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-variable-italic-cyrillic-b6b8fb43349d24d82b6eb9b9c7f308640556d21765dfebad116fe759cbc665cd.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+400-52F, U+1C80-1C88, U+20B4, U+2116, U+2DE0-2DFF, U+A640-A69F, U+FE2E,
+    U+FE2F;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-upright-cyrillic-48b1220e6b34f6388288209a3bc461bd476e099199fbb99d5ac856e7c3b16b37.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+400-52F, U+1C80-1C88, U+20B4, U+2116, U+2DE0-2DFF, U+A640-A69F, U+FE2E,
+    U+FE2F;
+}
+
+@font-face {
+  src: url("/fonts/source-code-pro-variable-italic-cyrillic-180d23a2ca79d9f4df53348449528b498c10ce44223ec9de8255a2524f5d4629.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro";
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+  unicode-range:
+    U+400-52F, U+1C80-1C88, U+20B4, U+2116, U+2DE0-2DFF, U+A640-A69F, U+FE2E,
+    U+FE2F;
 }
 
 @font-face {
