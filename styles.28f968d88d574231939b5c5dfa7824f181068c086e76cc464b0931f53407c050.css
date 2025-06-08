@@ -401,13 +401,6 @@
     U+1F512, U+1F916;
 }
 
-@font-face {
-  src: local("Arial");
-  font-family: "Source Sans 3-fallback";
-  letter-spacing: 0.75px;
-  word-spacing: -0.25px;
-}
-
 :root {
   --bg-color: #fbf3db;
   --text-color: #3a4d53;
@@ -433,7 +426,7 @@
 body {
   font:
     1.5rem/1.5 "Source Sans 3",
-    "Source Sans 3-fallback",
+    "Arial",
     sans-serif;
   max-width: 66ch;
   background-color: var(--bg-color);
