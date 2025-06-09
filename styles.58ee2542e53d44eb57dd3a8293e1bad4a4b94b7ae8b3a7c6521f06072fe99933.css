@@ -2,14 +2,14 @@
   src: url("/fonts/source-sans-3-subset-f61dcf6550dba28c3727f951e0519133833fcb4deb0126670ed75dc932a2bbdd.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Source Sans 3";
+  font-family: "Source Sans 3 Faux";
 }
 
 @font-face {
   src: url("/fonts/source-code-pro-subset-517c474831b45b9c5018ec6383be1fff131bfa2c0b0b20c8fbb2dee5613202ea.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Source Code Pro";
+  font-family: "Source Code Pro Faux";
 }
 
 @font-face {
@@ -440,6 +440,7 @@
 body {
   font:
     1.5rem/1.5 "Source Sans 3",
+    "Source Sans 3 Faux",
     "Arial",
     sans-serif;
   max-width: 66ch;
@@ -453,7 +454,8 @@ pre,
 samp,
 tt,
 var {
-  font-family: "Source Code Pro", "Courier New", monospace;
+  font-family:
+    "Source Code Pro", "Source Code Pro Faux", "Courier New", monospace;
 }
 
 h1 {
