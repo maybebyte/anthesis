@@ -394,7 +394,6 @@
 :root {
   --bg-color: #fbf3db;
   --text-color: #3a4d53;
-  --heading-color: #53676d;
   --link-color: #006dce;
   --hover-link-color: #8762c6;
   --code-block-bg-color: #ece3cc;
@@ -405,7 +404,6 @@
   :root {
     --bg-color: #103c48;
     --text-color: #cad8d9;
-    --heading-color: #adbcbc;
     --link-color: #58a3ff;
     --hover-link-color: #bd96fa;
     --code-block-bg-color: #174956;
@@ -436,6 +434,7 @@ var {
 
 h1 {
   font-size: 2.5rem;
+  font-weight: 600;
 }
 h2 {
   font-size: 2rem;
@@ -443,12 +442,8 @@ h2 {
 h3 {
   font-size: 1.75rem;
 }
-h4 {
-  font-size: 1.5rem;
-}
-h5 {
-  font-size: 1.5rem;
-}
+h4,
+h5,
 h6 {
   font-size: 1.5rem;
 }
@@ -462,7 +457,14 @@ h6 {
   line-height: initial;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-  color: var(--heading-color);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 img {
