@@ -1,29 +1,10 @@
 @font-face {
-  src: url("/fonts/source-sans-3-subset-f61dcf6550dba28c3727f951e0519133833fcb4deb0126670ed75dc932a2bbdd.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Source Sans 3 Faux";
-}
-
-@font-face {
-  src: url("/fonts/source-code-pro-subset-517c474831b45b9c5018ec6383be1fff131bfa2c0b0b20c8fbb2dee5613202ea.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Source Code Pro Faux";
-}
-
-@font-face {
   src: url("/fonts/source-sans-3-variable-upright-41f608e4a2bfefe2039a2833c86ccf24992c815ad4812bc7322e5779badd045f.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Source Sans 3";
   font-style: normal;
   text-rendering: optimizeLegibility;
-  unicode-range:
-    U+20-7E, U+A0-FF, U+131, U+152, U+153, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC,
-    U+2007, U+2009-200B, U+2010-201E, U+2020-2023, U+2026, U+202F-2033, U+2035,
-    U+2039, U+203A, U+203C-203F, U+2044, U+2047-204A, U+2074, U+20AC, U+2122,
-    U+2191, U+2193, U+2212, U+2215, U+FEFF;
 }
 
 @font-face {
@@ -47,11 +28,6 @@
   font-family: "Source Code Pro";
   font-style: normal;
   text-rendering: optimizeLegibility;
-  unicode-range:
-    U+20-7E, U+A0-FF, U+131, U+152, U+153, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC,
-    U+2007, U+2010, U+2012-201E, U+2020-2022, U+2026, U+202F, U+2030, U+2032,
-    U+2033, U+2035, U+2039, U+203A, U+203C-203F, U+2044, U+2047-2049, U+2074,
-    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF;
 }
 
 @font-face {
