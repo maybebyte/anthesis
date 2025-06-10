@@ -397,17 +397,17 @@
   --link-color: #284466;
   --hover-link-color: #436084;
   --code-block-bg-color: #d6ccc2;
-  --code-block-text-color: #100a04;
+  --code-block-text-color: #1b150e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #103c48;
-    --text-color: #cad8d9;
-    --link-color: #58a3ff;
-    --hover-link-color: #bd96fa;
-    --code-block-bg-color: #174956;
-    --code-block-text-color: #cad8d9;
+    --bg-color: #1e212b;
+    --text-color: #b9beca;
+    --link-color: #7a89c0;
+    --hover-link-color: #8c9bd4;
+    --code-block-bg-color: #2a2e37;
+    --code-block-text-color: #b9beca;
   }
 }
 
