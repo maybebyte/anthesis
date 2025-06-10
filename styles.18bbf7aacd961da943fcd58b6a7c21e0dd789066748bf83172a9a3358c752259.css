@@ -393,10 +393,11 @@
 
 :root {
   --bg-color: #faf0e6;
-  --text-color: #331b02;
+  --text-color: #342c25;
   --link-color: #2f517a;
-  --hover-link-color: #3f6ba2;
-  --code-block-bg-color: #ebe1d8;
+  --hover-link-color: #456892;
+  --code-block-bg-color: #e9dfd6;
+  --code-block-text-color: #272019;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -412,7 +413,6 @@
 body {
   font:
     1.5rem/1.5 "Source Sans 3",
-    "Source Sans 3 Faux",
     "Arial",
     sans-serif;
   max-width: 66ch;
@@ -426,8 +426,8 @@ pre,
 samp,
 tt,
 var {
-  font-family:
-    "Source Code Pro", "Source Code Pro Faux", "Courier New", monospace;
+  font-family: "Source Code Pro", "Courier New", monospace;
+  color: var(--code-block-text-color);
 }
 
 h1 {
