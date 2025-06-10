@@ -392,12 +392,12 @@
 }
 
 :root {
-  --bg-color: #faf0e6;
-  --text-color: #342c25;
-  --link-color: #2f517a;
-  --hover-link-color: #456892;
-  --code-block-bg-color: #e6dcd2;
-  --code-block-text-color: #251e17;
+  --bg-color: #e6dcd2;
+  --text-color: #1b150e;
+  --link-color: #284466;
+  --hover-link-color: #436084;
+  --code-block-bg-color: #d6ccc2;
+  --code-block-text-color: #100a04;
 }
 
 @media (prefers-color-scheme: dark) {
