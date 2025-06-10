@@ -392,12 +392,11 @@
 }
 
 :root {
-  --bg-color: #fbf3db;
-  --text-color: #3a4d53;
-  --link-color: #006dce;
-  --hover-link-color: #8762c6;
-  --code-block-bg-color: #ece3cc;
-  --code-block-text-color: #3a4d53;
+  --bg-color: #faf0e6;
+  --text-color: #331b02;
+  --link-color: #2f517a;
+  --hover-link-color: #3f6ba2;
+  --code-block-bg-color: #ebe1d8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -407,7 +406,6 @@
     --link-color: #58a3ff;
     --hover-link-color: #bd96fa;
     --code-block-bg-color: #174956;
-    --code-block-text-color: #cad8d9;
   }
 }
 
@@ -434,7 +432,6 @@ var {
 
 h1 {
   font-size: 2.5rem;
-  font-weight: 600;
 }
 h2 {
   font-size: 2rem;
@@ -459,6 +456,7 @@ h6 {
   margin-bottom: 0.75rem;
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -478,7 +476,6 @@ p kbd,
 li code,
 li kbd {
   background-color: var(--code-block-bg-color);
-  color: var(--code-block-text-color);
   border-radius: 0.25rem;
   padding: 0.25rem;
 }
@@ -491,7 +488,6 @@ pre {
   overflow: auto;
   padding: 1rem;
   background-color: var(--code-block-bg-color);
-  color: var(--code-block-text-color);
   border-radius: 0.25rem;
 }
 
