@@ -393,11 +393,11 @@
 
 :root {
   --bg-color: #faf0e6;
-  --text-color: #331b02;
+  --text-color: #342c25;
   --link-color: #2f517a;
   --hover-link-color: #456892;
   --code-block-bg-color: #e9dfd6;
-  --code-block-text-color: #260f00;
+  --code-block-text-color: #272019;
 }
 
 @media (prefers-color-scheme: dark) {
