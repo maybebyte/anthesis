@@ -1,3 +1,39 @@
+.fonts-loaded-1 body {
+  font-family: "Source Sans 3 Faux";
+}
+.fonts-loaded-1 code,
+kbd,
+pre,
+samp,
+tt,
+var {
+  font-family: "Source Code Pro Faux";
+}
+.fonts-loaded-2 body {
+  font-family: "Source Sans 3";
+}
+.fonts-loaded-2 code,
+kbd,
+pre,
+samp,
+tt,
+var {
+  font-family: "Source Code Pro";
+}
+
+@font-face {
+  src: url("/fonts/source-sans-3-subset-f61dcf6550dba28c3727f951e0519133833fcb4deb0126670ed75dc932a2bbdd.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Sans 3 Faux";
+}
+@font-face {
+  src: url("/fonts/source-code-pro-subset-517c474831b45b9c5018ec6383be1fff131bfa2c0b0b20c8fbb2dee5613202ea.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Source Code Pro Faux";
+}
+
 @font-face {
   src: url("/fonts/source-sans-3-variable-upright-41f608e4a2bfefe2039a2833c86ccf24992c815ad4812bc7322e5779badd045f.woff2")
     format("woff2");
