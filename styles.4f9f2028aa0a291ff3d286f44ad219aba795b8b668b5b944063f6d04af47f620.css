@@ -450,7 +450,6 @@ var {
 body {
   font:
     1.5rem/1.5 "Source Sans 3",
-    "Arial",
     sans-serif;
   max-width: 66ch;
   background-color: var(--bg-color);
@@ -463,7 +462,7 @@ pre,
 samp,
 tt,
 var {
-  font-family: "Source Code Pro", "Courier New", monospace;
+  font-family: "Source Code Pro", monospace;
   color: var(--code-block-text-color);
 }
 
