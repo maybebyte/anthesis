@@ -450,20 +450,20 @@ var {
 body {
   font-size: 1.5rem;
   font-family:
-    Source Sans 3,
+    "Source Sans 3",
     -apple-system,
-    BlinkMacSystemFont,
-    Avenir Next,
-    Avenir,
-    Segoe UI,
-    Helvetica Neue,
-    Adwaita Sans,
-    Cantarell,
-    Ubuntu,
-    Roboto,
-    Noto,
-    Helvetica,
-    Arial,
+    "BlinkMacSystemFont",
+    "Avenir Next",
+    "Avenir",
+    "Segoe UI",
+    "Helvetica Neue",
+    "Adwaita Sans",
+    "Cantarell",
+    "Ubuntu",
+    "Roboto",
+    "Noto",
+    "Helvetica",
+    "Arial",
     sans-serif;
   line-height: 1.5;
   max-width: 66ch;
@@ -478,13 +478,13 @@ samp,
 tt,
 var {
   font-family:
-    Source Code Pro,
-    Menlo,
-    Consolas,
-    Monaco,
-    Adwaita Mono,
-    Liberation Mono,
-    Lucida Console,
+    "Source Code Pro",
+    "Menlo",
+    "Consolas",
+    "Monaco",
+    "Adwaita Mono",
+    "Liberation Mono",
+    "Lucida Console",
     monospace;
   color: var(--code-block-text-color);
 }
