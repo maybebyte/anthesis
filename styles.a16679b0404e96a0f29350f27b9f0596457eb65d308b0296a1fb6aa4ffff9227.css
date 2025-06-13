@@ -448,9 +448,24 @@ var {
 }
 
 body {
-  font:
-    1.5rem/1.5 "Source Sans 3",
+  font-size: 1.5rem;
+  font-family:
+    Source Sans 3,
+    -apple-system,
+    BlinkMacSystemFont,
+    Avenir Next,
+    Avenir,
+    Segoe UI,
+    Helvetica Neue,
+    Adwaita Sans,
+    Cantarell,
+    Ubuntu,
+    Roboto,
+    Noto,
+    Helvetica,
+    Arial,
     sans-serif;
+  line-height: 1.5;
   max-width: 66ch;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -462,7 +477,15 @@ pre,
 samp,
 tt,
 var {
-  font-family: "Source Code Pro", monospace;
+  font-family:
+    Source Code Pro,
+    Menlo,
+    Consolas,
+    Monaco,
+    Adwaita Mono,
+    Liberation Mono,
+    Lucida Console,
+    monospace;
   color: var(--code-block-text-color);
 }
 
