@@ -455,7 +455,7 @@ var {
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: var(--font-sans);
   line-height: 1.5;
   max-width: 66ch;
@@ -474,18 +474,18 @@ var {
 }
 
 h1 {
-  font-size: 2.5rem;
-}
-h2 {
   font-size: 2rem;
 }
+h2 {
+  font-size: 1.5rem;
+}
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 h4,
 h5,
 h6 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 h1,
@@ -496,8 +496,8 @@ h5,
 h6 {
   font-weight: 500;
   line-height: initial;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 img {
@@ -527,14 +527,14 @@ pre {
 }
 
 header nav {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .navbar ul {
   display: flex;
   justify-content: flex-start;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-left: 0;
 }
 
