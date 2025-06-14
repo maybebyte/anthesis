@@ -573,7 +573,8 @@ h6 {
   font-size: 1rem;
 }
 
-img, picture {
+img,
+picture {
   max-width: 100%;
   height: fit-content;
   display: block;
@@ -626,4 +627,18 @@ a:focus,
 a:hover code,
 a:focus code {
   color: var(--hover-link-color);
+}
+
+a:focus,
+summary:focus,
+[tabindex="0"]:focus,
+form :focus {
+  outline: 3px solid;
+}
+
+@supports selector(:focus-visible) {
+  a:focus:not(:focus-visible),
+  [tabindex="0"]:focus:not(:focus-visible) {
+    outline: none;
+  }
 }
