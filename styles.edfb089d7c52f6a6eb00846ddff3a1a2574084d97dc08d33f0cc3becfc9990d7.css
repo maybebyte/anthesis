@@ -504,6 +504,13 @@ pre {
   margin: 1rem 0;
 }
 
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin: 0;
+}
+
 h2,
 h3,
 h4,
