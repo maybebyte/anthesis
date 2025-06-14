@@ -487,6 +487,7 @@ var {
 
 body {
   margin: auto;
+  padding-inline: 1rem;
   font-size: 1rem;
   font-family: var(--font-sans);
   line-height: 1.5;
