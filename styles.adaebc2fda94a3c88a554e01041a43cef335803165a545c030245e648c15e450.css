@@ -1,3 +1,34 @@
+* {
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
 .fonts-loaded-1 body {
   font-family: "Source Sans 3 Faux";
 }
@@ -463,6 +494,51 @@ body {
   color: var(--text-color);
 }
 
+p,
+dl,
+ol,
+ul,
+pre {
+  margin: 1rem 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: initial;
+}
+
+h2 + :is(h3, h4, h5, h6),
+h2 + section :is(h3, h4, h5, h6),
+h3 + :is(h4, h5, h6),
+h3 + section :is(h4, h5, h6),
+h4 + :is(h5, h6),
+h4 + section :is(h5, h6),
+h5 + h6,
+h5 + section h6 {
+  margin-top: 0.25rem;
+}
+
+nav[class="articles"] :is(h1, h2, h3, h4, h5, h6) + ul {
+  margin-top: 0.25rem;
+}
+
+dd {
+  margin-left: 1.5rem;
+}
+
 code,
 kbd,
 pre,
@@ -488,19 +564,7 @@ h6 {
   font-size: 1rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500;
-  line-height: initial;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-img {
+img, picture {
   max-width: 100%;
   height: fit-content;
   display: block;
@@ -524,11 +588,6 @@ pre {
   padding: 1rem;
   background-color: var(--code-block-bg-color);
   border-radius: 0.25rem;
-}
-
-header nav {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .navbar ul {
