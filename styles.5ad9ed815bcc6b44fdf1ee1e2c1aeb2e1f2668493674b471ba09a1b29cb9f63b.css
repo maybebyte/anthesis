@@ -486,6 +486,7 @@ var {
 }
 
 body {
+  margin: auto;
   font-size: 1rem;
   font-family: var(--font-sans);
   line-height: 1.5;
@@ -616,11 +617,4 @@ a:focus,
 a:hover code,
 a:focus code {
   color: var(--hover-link-color);
-}
-
-@media (width >= 48em) {
-  html,
-  body {
-    margin: auto;
-  }
 }
