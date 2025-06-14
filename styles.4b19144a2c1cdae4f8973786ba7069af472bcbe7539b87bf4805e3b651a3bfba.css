@@ -601,14 +601,15 @@ pre {
 
 .navbar ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   font-size: 1.25rem;
   padding-left: 0;
+  gap: 1rem;
 }
 
 .navbar li {
   display: inline-block;
-  padding-right: 1rem;
 }
 
 a,
