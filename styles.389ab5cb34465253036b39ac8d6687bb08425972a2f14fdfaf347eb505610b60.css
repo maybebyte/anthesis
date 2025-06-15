@@ -459,13 +459,8 @@ var {
 }
 
 :root {
-  --font-sans:
-    "Source Sans 3", -apple-system, "BlinkMacSystemFont", "Avenir Next",
-    "Avenir", "Segoe UI", "Helvetica Neue", "Adwaita Sans", "Cantarell",
-    "Ubuntu", "Roboto", "Noto", "Helvetica", "Arial", sans-serif;
-  --font-mono:
-    "Source Code Pro", "Menlo", "Consolas", "Monaco", "Adwaita Mono",
-    "Liberation Mono", "Lucida Console", monospace;
+  --font-sans: "Source Sans 3", sans-serif;
+  --font-mono: "Source Code Pro", monospace;
   --bg-color: #e6dcd2;
   --text-color: #1b150e;
   --link-color: #284466;
