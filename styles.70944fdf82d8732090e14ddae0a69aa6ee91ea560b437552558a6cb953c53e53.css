@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 *,
 *::before,
@@ -487,7 +488,7 @@ var {
 
 body {
   margin: auto;
-  padding-inline: 1em;
+  padding-inline: 16px;
   font-family: var(--font-sans);
   line-height: 1.5;
   max-width: 66ch;
@@ -499,8 +500,28 @@ p,
 dl,
 ol,
 ul,
-pre {
+pre,
+menu {
   margin: 1em 0;
+}
+
+blockquote,
+figure {
+  margin: 1em 2.5em;
+}
+
+ul,
+ol,
+menu {
+  padding-left: 2.5em;
+}
+
+dd {
+  margin-left: 2.5em;
+}
+
+hr {
+  margin: 0.5em 0;
 }
 
 ul ul,
@@ -545,10 +566,6 @@ h5 + section h6 {
 
 nav[class="articles"] :is(h1, h2, h3, h4, h5, h6) + ul {
   margin-top: 0.25em;
-}
-
-dd {
-  margin-left: 1.5em;
 }
 
 code,
