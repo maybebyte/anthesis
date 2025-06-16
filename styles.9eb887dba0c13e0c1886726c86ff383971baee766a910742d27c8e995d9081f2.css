@@ -461,6 +461,7 @@ var {
 :root {
   --font-sans: "Source Sans 3", sans-serif;
   --font-mono: "Source Code Pro", monospace;
+  --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
   --bg-color: #e6dcd2;
   --text-color: #272019;
   --link-color: #284466;
@@ -480,10 +481,13 @@ var {
   }
 }
 
+:root {
+  font-size: var(--base-font-size);
+}
+
 body {
   margin: auto;
-  padding-inline: 1rem;
-  font-size: 1rem;
+  padding-inline: 1em;
   font-family: var(--font-sans);
   line-height: 1.5;
   max-width: 66ch;
@@ -496,7 +500,7 @@ dl,
 ol,
 ul,
 pre {
-  margin: 1rem 0;
+  margin: 1em 0;
 }
 
 ul ul,
@@ -511,7 +515,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 1rem;
+  margin-top: 1em;
 }
 
 h1,
@@ -532,19 +536,19 @@ h4 + :is(h5, h6),
 h4 + section :is(h5, h6),
 h5 + h6,
 h5 + section h6 {
-  margin-top: 0.25rem;
+  margin-top: 0.25em;
 }
 
 :is(h1, h2, h3, h4, h5, h6) + :not(section, h1, h2, h3, h4, h5, h6) {
-  margin-top: 0.75rem;
+  margin-top: 0.75em;
 }
 
 nav[class="articles"] :is(h1, h2, h3, h4, h5, h6) + ul {
-  margin-top: 0.25rem;
+  margin-top: 0.25em;
 }
 
 dd {
-  margin-left: 1.5rem;
+  margin-left: 1.5em;
 }
 
 code,
@@ -584,8 +588,6 @@ p kbd,
 li code,
 li kbd {
   background-color: var(--code-block-bg-color);
-  border-radius: 0.25rem;
-  padding: 0.25rem;
 }
 
 ul li p {
@@ -594,9 +596,9 @@ ul li p {
 
 pre {
   overflow: auto;
-  padding: 1rem;
+  padding: 1em;
   background-color: var(--code-block-bg-color);
-  border-radius: 0.25rem;
+  border-radius: 0.25em;
 }
 
 .navbar ul {
@@ -605,7 +607,9 @@ pre {
   justify-content: flex-start;
   font-size: 1.25rem;
   padding-left: 0;
-  gap: 1rem;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+  gap: 0.75em;
 }
 
 .navbar li {
