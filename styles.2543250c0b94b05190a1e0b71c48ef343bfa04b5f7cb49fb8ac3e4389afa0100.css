@@ -535,6 +535,10 @@ h5 + section h6 {
   margin-top: 0.25rem;
 }
 
+:is(h1, h2, h3, h4, h5, h6) + :not(section, h1, h2, h3, h4, h5, h6) {
+  margin-top: 0.75rem;
+}
+
 nav[class="articles"] :is(h1, h2, h3, h4, h5, h6) + ul {
   margin-top: 0.25rem;
 }
