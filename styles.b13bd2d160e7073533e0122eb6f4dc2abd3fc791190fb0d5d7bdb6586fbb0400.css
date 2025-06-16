@@ -462,11 +462,11 @@ var {
   --font-sans: "Source Sans 3", sans-serif;
   --font-mono: "Source Code Pro", monospace;
   --bg-color: #e6dcd2;
-  --text-color: #1b150e;
+  --text-color: #272019;
   --link-color: #284466;
   --hover-link-color: #436084;
   --code-block-bg-color: #d6ccc2;
-  --code-block-text-color: #1b150e;
+  --code-block-text-color: #272019;
 }
 
 @media (prefers-color-scheme: dark) {
