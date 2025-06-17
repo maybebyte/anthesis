@@ -473,12 +473,12 @@ var {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #1e212b;
-    --fg-color: #b9beca;
-    --link-color: #7a89c0;
-    --hover-link-color: #8c9bd4;
-    --code-block-bg-color: #2a2e37;
-    --code-block-text-color: #b9beca;
+    --bg-color: #21242e;
+    --fg-color: #b9bdcb;
+    --link-color: #758bc0;
+    --hover-link-color: #849ad1;
+    --code-block-bg-color: #2d303b;
+    --code-block-text-color: #b9bdcb;
   }
 }
 
