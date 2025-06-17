@@ -622,7 +622,7 @@ pre {
   border-radius: 0.25em;
 }
 
-.navbar ul {
+nav[class="navbar"] ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -633,7 +633,7 @@ pre {
   gap: 0.75em;
 }
 
-.navbar li {
+nav[class="navbar"] li {
   display: inline-block;
 }
 
