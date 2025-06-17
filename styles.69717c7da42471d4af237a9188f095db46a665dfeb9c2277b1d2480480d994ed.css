@@ -466,7 +466,9 @@ var {
   --bg-color: #e6dcd2;
   --fg-color: #342c25;
   --link-color: #1b4870;
-  --hover-link-color: #3a658c;
+  --hover-link-color: #38648e;
+  --visited-link-color: #4e396a;
+  --hover-visited-link-color: #6a5588;
   --code-block-bg-color: #d6ccc2;
   --code-block-text-color: #342c25;
 }
@@ -477,6 +479,8 @@ var {
     --fg-color: #b9bdcb;
     --link-color: #758bc0;
     --hover-link-color: #849ad1;
+    --visited-link-color: #9680b7;
+    --hover-visited-link-color: #a68fc7;
     --code-block-bg-color: #2d303b;
     --code-block-text-color: #b9bdcb;
   }
@@ -646,6 +650,25 @@ a:hover,
 a:focus,
 a:hover code,
 a:focus code {
+  color: var(--hover-link-color);
+}
+
+a:visited,
+a:visited code {
+  color: var(--visited-link-color);
+}
+a:visited:hover,
+a:visited:focus,
+a:visited:hover code,
+a:visited:focus code {
+  color: var(--hover-visited-link-color);
+}
+
+nav[class="navbar"] a:visited {
+  color: var(--link-color);
+}
+nav[class="navbar"] a:visited:hover,
+nav[class="navbar"] a:visited:focus {
   color: var(--hover-link-color);
 }
 
