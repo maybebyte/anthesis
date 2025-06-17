@@ -465,10 +465,10 @@ var {
   --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
   --bg-color: #e6dcd2;
   --fg-color: #342c25;
-  --link-color: #1b4870;
-  --hover-link-color: #38648e;
-  --visited-link-color: #4e396a;
-  --hover-visited-link-color: #6a5588;
+  --link-color: #20577d;
+  --hover-link-color: #31668d;
+  --visited-link-color: #5c4679;
+  --hover-visited-link-color: #6a5589;
   --code-block-bg-color: #d6ccc2;
   --code-block-text-color: #342c25;
 }
