@@ -464,17 +464,17 @@ var {
   --font-mono: "Source Code Pro", monospace;
   --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
   --bg-color: #e6dcd2;
-  --text-color: #272019;
-  --link-color: #284466;
-  --hover-link-color: #436084;
+  --fg-color: #342c25;
+  --link-color: #1b4870;
+  --hover-link-color: #3a658c;
   --code-block-bg-color: #d6ccc2;
-  --code-block-text-color: #272019;
+  --code-block-text-color: #342c25;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #1e212b;
-    --text-color: #b9beca;
+    --fg-color: #b9beca;
     --link-color: #7a89c0;
     --hover-link-color: #8c9bd4;
     --code-block-bg-color: #2a2e37;
@@ -493,7 +493,7 @@ body {
   line-height: 1.5;
   max-width: 66ch;
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--fg-color);
 }
 
 p,
