@@ -466,9 +466,7 @@ var {
   --bg-color: #e6dcd2;
   --fg-color: #342c25;
   --link-color: #08456a;
-  --hover-link-color: #1b5379;
   --visited-link-color: #4a3466;
-  --hover-visited-link-color: #584275;
   --code-block-bg-color: #d6ccc2;
   --code-block-text-color: #342c25;
 }
@@ -478,9 +476,7 @@ var {
     --bg-color: #21242e;
     --fg-color: #bfc4d2;
     --link-color: #99b8f3;
-    --hover-link-color: #a2c1fd;
     --visited-link-color: #c3aae9;
-    --hover-visited-link-color: #ccb3f3;
     --code-block-bg-color: #2d303b;
     --code-block-text-color: #bfc4d2;
   }
@@ -650,8 +646,8 @@ a:hover,
 a:focus,
 a:hover code,
 a:focus code {
-  color: var(--hover-link-color);
   font-size: 105%;
+  font-weight: 500;
 }
 
 a:visited,
@@ -662,8 +658,8 @@ a:visited:hover,
 a:visited:focus,
 a:visited:hover code,
 a:visited:focus code {
-  color: var(--hover-visited-link-color);
   font-size: 105%;
+  font-weight: 500;
 }
 
 nav[class="navbar"] a:visited {
@@ -671,7 +667,8 @@ nav[class="navbar"] a:visited {
 }
 nav[class="navbar"] a:visited:hover,
 nav[class="navbar"] a:visited:focus {
-  color: var(--hover-link-color);
+  font-size: 105%;
+  font-weight: 500;
 }
 
 a:focus,
