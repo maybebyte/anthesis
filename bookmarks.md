@@ -18,15 +18,6 @@ I'll be adding other sections as time goes on.
   available. No downloading, no layout shift, no invisible text.
 - [Wakamai Fondue](https://wakamaifondue.com/). The tool that answers
   the question, "What can my font do?"
-- [Font style matcher](https://meowni.ca/font-style-matcher/). Match
-  fallback fonts to your web fonts for better loading experience.
-- [Fallback font generator](https://screenspan.net/fallback). Generate
-  CSS for perfect font fallbacks to reduce layout shift.
-- [Perfect-ish font fallback](https://www.industrialempathy.com/perfect-ish-font-fallback/).
-  Automated tool to match Google Fonts with system font fallbacks
-  using size-adjust.
-- [FFFFALLBACK](https://lucaslarson.github.io/fallback/). Bookmarklet
-  for testing font fallback choices on live web pages.
 - [Unicode Range Interchange](https://www.zachleat.com/unicode-range-interchange).
   Do math on `unicode-range` values for web fonts.
 - [Accessible fluid CSS type generator](https://fluid.style/). Generate
@@ -40,16 +31,6 @@ I'll be adding other sections as time goes on.
   users with different vision types.
 - [OKLCH Color Picker](https://oklch.com). Perceptually uniform color
   picker using the OKLCH color space.
-- [Interactive color picker](https://bottosson.github.io/misc/colorpicker/).
-  Björn Ottosson's advanced color picker with multiple color spaces.
-- [Atmos color wheel](https://atmos.style/color-wheel). Professional
-  color wheel tool for creating harmonious UI color schemes.
-- [Adobe Color Wheel](https://color.adobe.com/create/color-wheel).
-  Adobe's color palette generator with harmony rules.
-- [Coolors](https://coolors.co). Generate, browse, and save beautiful
-  color palettes quickly.
-- [Figma Colors](https://www.figma.com/colors/). Figma's color palette
-  and accessibility tools.
 - [coloraide](https://github.com/facelessuser/coloraide). Python
   library for color manipulation and conversion.
 - [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/).
