@@ -802,25 +802,20 @@ Here are things I haven't done, and why I haven't done them.
 - Reviewing each patch for gcc/clang for compilation flags. I had a look
   at their configure-time flags, but reviewing patches takes more time
   than I'm comfortable investing in this at the moment.
-
 - Reviewing the configuration and patches of things other than the
   compiler that influence binary execution, such as binutils, libc, etc.
   These aren't really compilation flags, although still interesting. I
   guess I do make somewhat of an exception for LDFLAGS.
-
 - Reviewing the configuration of every supported compiler. I'm only
   doing GCC and Clang. I won't include their configure-time flags
   inline, but I'll link to where they can be found (since the
   configuration of the compiler is often closely tied to build flags).
-
 - Comparing each architecture per distribution to find architecture
   specific flags. I'm only doing x86_64 for now.
-
 - Covering every single distribution. Generally speaking, outside of
   large forks like Ubuntu, I'm mostly interested in independent
   distributions rather than forks. Mainly because I have a feeling this is
   where the most difference is likely to be observed.
-
 - Covering build flags for every compiled language (Rust, Go, etc).
   These are indeed interesting, but my focus is on C/C++, specifically
   CFLAGS and CXXFLAGS.
@@ -844,12 +839,9 @@ writing.
 - Including more distributions and systems. There are a lot of them
   to consider and some of them would be a pain to gather flags for (lots
   of source code review).
-
 - Investigating ChromiumOS and Android in particular.
-
 - Looking more into areas mentioned in the [Caveats section](#caveats)
   (reviewing patches, other toolchain components, etc).
-
 - Probably many others I haven't thought of.
 
 ## Other resources

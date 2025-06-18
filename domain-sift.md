@@ -203,11 +203,9 @@ This is an explicit part of its design for a few reasons.
 
 1. It follows the Unix philosophy: do one thing well; read
    from a file or STDIN; print to STDOUT.
-
 2. It allows `domain-sift` to use a minimum set of
    [`pledge(2)`](https://man.openbsd.org/pledge) promises through
    [`OpenBSD::Pledge(3p)`](https://man.openbsd.org/OpenBSD%3A%3APledge).
-
 3. The simple design makes it much more flexible and portable.
 
 Here is more or less what I use to fetch blocklists:

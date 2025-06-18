@@ -20,11 +20,9 @@ Before my recommendations, here are some resources that I find helpful:
   concepts that anyone would need to know to make an informed decision
   about Linux. After that, the second part involves a quiz so that
   Librehunt can suggest relevant Linux distributions.
-
 - [Distrochooser](https://distrochooser.de/) is similar to Librehunt in
   that it uses the answers to a quiz to recommend Linux distributions,
   except I'd say the target audience is more technically inclined.
-
 - [Distrowatch](https://distrowatch.com/) is a more visually busy and
   dense website, to say the least, but it's a decent tool to search
   operating systems by category, discover new ones, or read a little
@@ -32,7 +30,6 @@ Before my recommendations, here are some resources that I find helpful:
   the way they measure popularity: the numbers by each distribution is
   how many times that page has been visited on the Distrowatch website
   in the last 6 months.
-
 - [Repology](https://repology.org/) offers a way to search the software
   repositories of many different open source operating systems at once.
 

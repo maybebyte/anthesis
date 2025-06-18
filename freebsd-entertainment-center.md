@@ -14,13 +14,10 @@ Here's the short of it:
 
 1. [Obtain an installation image for
 amd64](https://www.freebsd.org/where/).
-
 1. Verify the image's checksum and GPG signature. Without this, there is
    no assurance that the installation image is from the source it claims
    to be and that it hasn't been tampered with.
-
 1. Flash the image to a USB drive.
-
 1. Boot from the USB drive and go through the installation procedure.
 
 ## After installation
