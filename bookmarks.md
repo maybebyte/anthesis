@@ -6,7 +6,7 @@ Updated: June 17th, 2025
 
 A curated collection of tools and resources I've found genuinely useful.
 These are mostly focused on web development and design right now, but
-I'll be adding other sections as I continue building this out.
+I'll be adding other sections as time goes on.
 
 ## Web Development & Design
 
@@ -82,3 +82,19 @@ I'll be adding other sections as I continue building this out.
 - [Great typography bake off](https://readabilitymatters.org/articles/the-great-typography-bake-off).
   Scientific study comparing eight fonts for glance-based legibility in
   mobile interfaces.
+- [Utilising psychophysical techniques to investigate the effects of age,
+  typeface design, size and display polarity on glance legibility](https://www.tandfonline.com/doi/full/10.1080/00140139.2015.1137637).
+  Psychophysical study of factors affecting text legibility in brief
+  glance conditions.
+- [Closed letter counters impair recognition](https://www.sciencedirect.com/science/article/abs/pii/S0003687022000321).
+  Experimental study showing closed apertures in letters reduce recognition accuracy.
+- [Research Highlight | How important is x-height for font legibility?](https://readabilitymatters.org/articles/research-highlight-how-important-is-x-height-for-font-legibility).
+  Research summary on x-height's impact on letter recognition using visual
+  attention theory.
+- [Good Background Colors for Readers: A Study of People with and without Dyslexia](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf).
+  Large-scale study showing warm background colors improve reading performance
+  for all readers.
+- [Towards Individuated Reading Experiences: Different Fonts Increase Reading
+  Speed for Different Individuals](https://dl.acm.org/doi/10.1145/3502222).
+  Large-scale study showing 35% reading speed variation between fonts
+  with no impact on comprehension.
