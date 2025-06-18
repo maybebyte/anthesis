@@ -463,22 +463,24 @@ var {
   --font-sans: "Source Sans 3", sans-serif;
   --font-mono: "Source Code Pro", monospace;
   --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
-  --bg-color: #e6dcd2;
-  --fg-color: #342c25;
-  --link-color: #08456a;
+  --bg-color: #f3e7de;
+  --fg-color: #282019;
+  --link-fg-color: #08456a;
   --visited-link-color: #4a3466;
-  --code-block-bg-color: #d6ccc2;
-  --code-block-text-color: #342c25;
+  --code-block-bg-color: #e2d7ce;
+  --code-block-fg-color: #282019;
+  --heading-fg-color: #282019;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #21242e;
     --fg-color: #bfc4d2;
-    --link-color: #99b8f3;
+    --link-fg-color: #99b8f3;
     --visited-link-color: #c3aae9;
     --code-block-bg-color: #2d303b;
-    --code-block-text-color: #bfc4d2;
+    --code-block-fg-color: #bfc4d2;
+    --heading-fg-color: #bfc4d2;
   }
 }
 
@@ -538,6 +540,12 @@ li :is(ul, ol) li {
   margin-top: 0.5em;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--heading-fg-color);
+}
+
 h2,
 h3,
 h4,
@@ -582,7 +590,7 @@ samp,
 tt,
 var {
   font-family: var(--font-mono);
-  color: var(--code-block-text-color);
+  color: var(--code-block-fg-color);
 }
 
 h1 {
@@ -643,7 +651,7 @@ nav[class="navbar"] li {
 
 a,
 a code {
-  color: var(--link-color);
+  color: var(--link-fg-color);
 }
 
 a code {
@@ -669,7 +677,7 @@ a:visited:focus code {
 }
 
 nav[class="navbar"] a:visited {
-  color: var(--link-color);
+  color: var(--link-fg-color);
 }
 nav[class="navbar"] a:visited:hover,
 nav[class="navbar"] a:visited:focus {
