@@ -531,6 +531,10 @@ ol ul {
   margin: 0;
 }
 
+li + li {
+  margin-top: 0.5em;
+}
+
 h2,
 h3,
 h4,
@@ -631,6 +635,7 @@ nav[class="navbar"] ul {
 
 nav[class="navbar"] li {
   display: inline-block;
+  margin-top: 0;
 }
 
 a,
@@ -646,8 +651,7 @@ a:hover,
 a:focus,
 a:hover code,
 a:focus code {
-  font-size: 105%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a:visited,
@@ -658,8 +662,7 @@ a:visited:hover,
 a:visited:focus,
 a:visited:hover code,
 a:visited:focus code {
-  font-size: 105%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 nav[class="navbar"] a:visited {
@@ -667,8 +670,7 @@ nav[class="navbar"] a:visited {
 }
 nav[class="navbar"] a:visited:hover,
 nav[class="navbar"] a:visited:focus {
-  font-size: 105%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a:focus,
