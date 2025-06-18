@@ -1,6 +1,7 @@
 # Bookmarks
 
 Published: June 17th, 2025
+
 Updated: June 17th, 2025
 
 A curated collection of tools and resources I've found genuinely useful.
