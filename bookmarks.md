@@ -61,8 +61,7 @@ I'll be adding other sections as time goes on.
   Results from The Readability Group's survey testing font
   accessibility claims.
 - [Great typography bake off](https://readabilitymatters.org/articles/the-great-typography-bake-off).
-  Scientific study comparing eight fonts for glance-based legibility in
-  mobile interfaces.
+  Scientific study comparing eight fonts for glance-based legibility.
 - [Utilising psychophysical techniques to investigate the effects of age,
   typeface design, size and display polarity on glance legibility](https://www.tandfonline.com/doi/full/10.1080/00140139.2015.1137637).
   Psychophysical study of factors affecting text legibility in brief
@@ -73,9 +72,7 @@ I'll be adding other sections as time goes on.
   Research summary on x-height's impact on letter recognition using visual
   attention theory.
 - [Good Background Colors for Readers: A Study of People with and without Dyslexia](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf).
-  Large-scale study showing warm background colors improve reading performance
-  for all readers.
+  Large-scale study showing warm background colors improve reading performance.
 - [Towards Individuated Reading Experiences: Different Fonts Increase Reading
   Speed for Different Individuals](https://dl.acm.org/doi/10.1145/3502222).
-  Large-scale study showing 35% reading speed variation between fonts
-  with no impact on comprehension.
+  Large-scale study showing 35% reading speed variation between fonts.
