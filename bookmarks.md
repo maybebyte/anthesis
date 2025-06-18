@@ -1,5 +1,12 @@
 # Bookmarks
 
+Published: June 17th, 2025
+Updated: June 17th, 2025
+
+A curated collection of tools and resources I've found genuinely useful.
+These are mostly focused on web development and design right now, but
+I'll be adding other sections as I continue building this out.
+
 ## Web Development & Design
 
 ### Typography & Fonts
