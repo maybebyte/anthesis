@@ -534,6 +534,9 @@ ol ul {
 li + li {
   margin-top: 0.5em;
 }
+li :is(ul, ol) li {
+  margin-top: 0.5em;
+}
 
 h2,
 h3,
