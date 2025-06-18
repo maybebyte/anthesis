@@ -76,3 +76,7 @@ I'll be adding other sections as time goes on.
 - [Towards Individuated Reading Experiences: Different Fonts Increase Reading
   Speed for Different Individuals](https://dl.acm.org/doi/10.1145/3502222).
   Large-scale study showing 35% reading speed variation between fonts.
+- [The Influence of Fonts on the Reading Performance in Easy-to-Read Texts:
+  A Legibility Study with 145 Participants](https://direct.mit.edu/desi/article-abstract/39/3/30/116623/The-Influence-of-Fonts-on-the-Reading-Performance).
+  Study challenging sans-serif font recommendations for cognitively
+  accessible texts.
