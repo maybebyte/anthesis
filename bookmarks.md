@@ -94,3 +94,7 @@ I'll be adding other sections as time goes on.
   Legibility](https://rsisinternational.org/journals/ijriss/articles/font-matters-investigating-the-typographical-components-of-legibility/).
   Comprehensive analysis of typographical factors affecting legibility
   across print and digital media.
+- [Evaluating Fonts: Font Family Selection for Accessibility & Display
+  Readability](https://www.researchgate.net/publication/338149302_Evaluating_Fonts_Font_Family_Selection_for_Accessibility_Display_Readability).
+  Practical guide evaluating dozens of fonts for glyph distinctiveness and
+  accessibility features.
