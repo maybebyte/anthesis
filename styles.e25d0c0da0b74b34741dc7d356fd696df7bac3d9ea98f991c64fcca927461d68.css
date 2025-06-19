@@ -464,12 +464,12 @@ var {
   --font-mono: "Source Code Pro", monospace;
   --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
   --bg-color: #fff3eb;
-  --fg-color: #1b130e;
+  --fg-color: #1b1008;
   --link-fg-color: #013a6b;
   --visited-link-color: #4a275f;
   --code-block-bg-color: #eee2da;
-  --code-block-fg-color: #100804;
-  --heading-fg-color: #433933;
+  --code-block-fg-color: #100601;
+  --heading-fg-color: #46382f;
 }
 
 @media (prefers-color-scheme: dark) {
