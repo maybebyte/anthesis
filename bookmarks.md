@@ -25,6 +25,8 @@ I'll be adding other sections as time goes on.
 
 ### Color & Accessibility
 
+- [APCA Contrast Calculator](https://apcacontrast.com).
+  Next-generation contrast calculator.
 - [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/).
   Check color contrast ratios for WCAG compliance.
 - [Whocanuse](https://www.whocanuse.com). See how color choices affect
@@ -54,6 +56,8 @@ I'll be adding other sections as time goes on.
   accessibility.
 - [Addressing Accessibility Concerns With Using Fluid Type](https://www.smashingmagazine.com/2023/11/addressing-accessibility-concerns-fluid-type/).
   Making fluid typography accessible for all users.
+- [The Realities And Myths Of Contrast And Color](https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color/).
+  In-depth exploration of the science behind color and contrast.
 
 ### Research & Studies
 
