@@ -469,7 +469,7 @@ var {
   --visited-link-color: #4a275f;
   --code-block-bg-color: #eee2da;
   --code-block-fg-color: #100601;
-  --heading-fg-color: #46382f;
+  --heading-fg-color: #53453c;
 }
 
 @media (prefers-color-scheme: dark) {
