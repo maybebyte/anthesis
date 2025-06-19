@@ -666,7 +666,6 @@ a:focus,
 a:hover code,
 a:focus code {
   font-weight: 500;
-  font-size: 105%;
 }
 
 a:visited,
@@ -678,7 +677,6 @@ a:visited:focus,
 a:visited:hover code,
 a:visited:focus code {
   font-weight: 500;
-  font-size: 105%;
 }
 
 nav[class="navbar"] a:visited {
@@ -687,7 +685,6 @@ nav[class="navbar"] a:visited {
 nav[class="navbar"] a:visited:hover,
 nav[class="navbar"] a:visited:focus {
   font-weight: 500;
-  font-size: 105%;
 }
 
 a:focus,
