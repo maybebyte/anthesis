@@ -463,13 +463,13 @@ var {
   --font-sans: "Source Sans 3", sans-serif;
   --font-mono: "Source Code Pro", monospace;
   --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
-  --bg-color: #f3e7de;
-  --fg-color: #282019;
-  --link-fg-color: #08456a;
-  --visited-link-color: #4a3466;
-  --code-block-bg-color: #e2d7ce;
-  --code-block-fg-color: #282019;
-  --heading-fg-color: #282019;
+  --bg-color: #fff3eb;
+  --fg-color: #1b130e;
+  --link-fg-color: #013a6b;
+  --visited-link-color: #4a275f;
+  --code-block-bg-color: #eee2da;
+  --code-block-fg-color: #100804;
+  --heading-fg-color: #433933;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -542,7 +542,10 @@ li :is(ul, ol) li {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--heading-fg-color);
 }
 
