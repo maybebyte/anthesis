@@ -2,7 +2,7 @@
 
 Published: June 17th, 2025
 
-Updated: June 17th, 2025
+Updated: June 18th, 2025
 
 A curated collection of tools and resources I've found genuinely useful.
 These are mostly focused on web development and design right now, but
@@ -47,6 +47,9 @@ I'll be adding other sections as time goes on.
   and compare default CSS styles across browsers.
 - [Typography - U.S. Web Design System](https://designsystem.digital.gov/components/typography).
   Government design system typography guidelines and components.
+- [Using type | U.S. Web Design System](https://designsystem.digital.gov/design-tokens/typesetting/overview/).
+  Government design system's approach to typography using optical
+  normalization and design tokens.
 
 ### Articles & Guides
 
@@ -87,3 +90,7 @@ I'll be adding other sections as time goes on.
   A Legibility Study with 145 Participants](https://direct.mit.edu/desi/article-abstract/39/3/30/116623/The-Influence-of-Fonts-on-the-Reading-Performance).
   Study challenging sans-serif font recommendations for cognitively
   accessible texts.
+- [Font Matters: Investigating the Typographical Components of
+  Legibility](https://rsisinternational.org/journals/ijriss/articles/font-matters-investigating-the-typographical-components-of-legibility/).
+  Comprehensive analysis of typographical factors affecting legibility
+  across print and digital media.
