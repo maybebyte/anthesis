@@ -462,7 +462,7 @@ var {
 :root {
   --font-sans: "Source Sans 3", sans-serif;
   --font-mono: "Source Code Pro", monospace;
-  --base-font-size: clamp(1rem, 0.826rem + 0.87vw, 1.5rem);
+  --base-font-size: clamp(1.105rem, 0.913rem + 0.961vw, 1.658rem);
   --bg-color: #fff3eb;
   --fg-color: #1b1008;
   --link-fg-color: #013a6b;
@@ -484,7 +484,7 @@ var {
   }
 }
 
-:root {
+html {
   font-size: var(--base-font-size);
 }
 
