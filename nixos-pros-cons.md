@@ -87,7 +87,7 @@ You may notice that the XML sample only defines serif. Yet right below it, Nix i
 fonts.fontconfig.defaultFonts = {
 	serif = [ "Liberation Serif" ];
 	sansSerif = [ "Liberation Sans" ];
-	monospace = [ "Victor Mono" ];
+	monospace = [ "Liberation Mono" ];
 };
 ```
 
