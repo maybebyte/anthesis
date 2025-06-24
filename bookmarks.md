@@ -66,6 +66,9 @@ I'll be adding other sections as time goes on.
   Making fluid typography accessible for all users.
 - [The Realities And Myths Of Contrast And Color](https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color/).
   In-depth exploration of the science behind color and contrast.
+- [The Equilateral Triangle of a Perfect Paragraph](https://css-tricks.com/equilateral-triangle-perfect-paragraph/).
+  Typography theory explaining how font-size, line-height, and line
+  width work together.
 
 ### Research & Studies
 
