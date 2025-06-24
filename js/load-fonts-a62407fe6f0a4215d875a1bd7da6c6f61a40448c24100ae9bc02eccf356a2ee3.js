@@ -6,14 +6,14 @@
     }
 
     const stage1Promises = [
-      "1.5rem 'Source Sans 3 Faux'",
-      "1.5rem 'Source Code Pro Faux'",
+      "1rem 'Atkinson Hyperlegible Next Faux'",
+      "1rem 'Atkinson Hyperlegible Mono Faux'",
     ];
     const stage2Promises = [
-      "1.5rem 'Source Sans 3'",
-      "1.5rem 'Source Code Pro'",
-      "italic 1.5rem 'Source Sans 3'",
-      "italic 1.5rem 'Source Code Pro'",
+      "1rem 'Atkinson Hyperlegible Next'",
+      "1rem 'Atkinson Hyperlegible Mono'",
+      "italic 1rem 'Atkinson Hyperlegible Next'",
+      "italic 1rem 'Atkinson Hyperlegible Mono'",
     ];
 
     Promise.all(stage1Promises.map((font) => document.fonts.load(font))).then(
