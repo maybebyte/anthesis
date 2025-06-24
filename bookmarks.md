@@ -25,6 +25,8 @@ I'll be adding other sections as time goes on.
 - [xheightable](https://www.xheightable.com/app/).
   Font pairing tool using x-height data from 150+ Google and Adobe
   fonts.
+- [Triangle](https://betterwebtype.com/triangle/). Interactive game
+  teaching the balance of font size, line height, and line width.
 
 ### Color & Accessibility
 
