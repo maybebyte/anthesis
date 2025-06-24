@@ -58,7 +58,6 @@ var {
     format("woff2");
   font-display: swap;
   font-family: "Atkinson Hyperlegible Next Faux";
-  size-adjust: 106.5%;
 }
 
 @font-face {
@@ -68,7 +67,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range: U+394, U+3A9, U+3BC, U+3C0;
 }
 
@@ -79,7 +77,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range:
     U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
     U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
@@ -93,7 +90,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range:
     U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
     U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
@@ -108,7 +104,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
 }
 
@@ -119,7 +114,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: normal;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range: U+394, U+3A9, U+3BC, U+3C0;
 }
 
@@ -130,7 +124,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: normal;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range:
     U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
     U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
@@ -144,7 +137,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: normal;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range:
     U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
     U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
@@ -159,7 +151,6 @@ var {
   font-family: "Atkinson Hyperlegible Next";
   font-style: normal;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
 }
 
@@ -168,7 +159,6 @@ var {
     format("woff2");
   font-display: swap;
   font-family: "Atkinson Hyperlegible Mono Faux";
-  size-adjust: 106.5%;
 }
 
 @font-face {
@@ -178,7 +168,6 @@ var {
   font-family: "Atkinson Hyperlegible Mono";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range: U+394, U+3A9, U+3BC, U+3C0;
 }
 
@@ -189,7 +178,6 @@ var {
   font-family: "Atkinson Hyperlegible Mono";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range:
     U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
     U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
@@ -203,7 +191,6 @@ var {
   font-family: "Atkinson Hyperlegible Mono";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range:
     U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
     U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
@@ -217,7 +204,6 @@ var {
   font-family: "Atkinson Hyperlegible Mono";
   font-style: italic;
   font-weight: 200 800;
-  size-adjust: 106.5%;
   unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
 }
 
@@ -227,7 +213,6 @@ var {
   font-display: swap;
   font-family: "Atkinson Hyperlegible Mono";
   font-style: normal;
-  size-adjust: 106.5%;
   font-weight: 200 800;
   unicode-range: U+394, U+3A9, U+3BC, U+3C0;
 }
@@ -238,7 +223,6 @@ var {
   font-display: swap;
   font-family: "Atkinson Hyperlegible Mono";
   font-style: normal;
-  size-adjust: 106.5%;
   font-weight: 200 800;
   unicode-range:
     U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
@@ -252,7 +236,6 @@ var {
   font-display: swap;
   font-family: "Atkinson Hyperlegible Mono";
   font-style: normal;
-  size-adjust: 106.5%;
   font-weight: 200 800;
   unicode-range:
     U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
@@ -266,7 +249,6 @@ var {
   font-display: swap;
   font-family: "Atkinson Hyperlegible Mono";
   font-style: normal;
-  size-adjust: 106.5%;
   font-weight: 200 800;
   unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
 }
@@ -274,7 +256,7 @@ var {
 :root {
   --font-sans: "Atkinson Hyperlegible Next", sans-serif;
   --font-mono: "Atkinson Hyperlegible Mono", monospace;
-  --base-font-size: clamp(1rem, 0.913rem + 0.435vw, 1.25rem);
+  --base-font-size: clamp(1.065rem, 0.973rem + 0.463vw, 1.331rem);
   --bg-color: #fff3eb;
   --fg-color: #1b1008;
   --link-fg-color: #013a6b;
