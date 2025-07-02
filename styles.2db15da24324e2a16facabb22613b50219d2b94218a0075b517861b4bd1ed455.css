@@ -268,13 +268,13 @@ var {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #21242e;
-    --fg-color: #bfc4d2;
-    --link-fg-color: #99b8f3;
-    --visited-link-color: #c3aae9;
-    --code-block-bg-color: #2d303b;
-    --code-block-fg-color: #bfc4d2;
-    --heading-fg-color: #bfc4d2;
+    --bg-color: #292c37;
+    --fg-color: #e5ebfa;
+    --link-fg-color: #cdf0ff;
+    --visited-link-color: #fae5ff;
+    --code-block-bg-color: #353945;
+    --code-block-fg-color: #eaf0fe;
+    --heading-fg-color: #ced3e0;
   }
 }
 
