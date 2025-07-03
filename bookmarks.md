@@ -62,7 +62,7 @@ more sections coming over time.
   and compare default CSS styles across browsers.
 - [Typography - U.S. Web Design System](https://designsystem.digital.gov/components/typography).
   Government design system typography guidelines and components.
-- [Type styles | U.S. Web Design System](https://designsystem.digital.gov/design-tokens/typesetting/overview/).
+- [Using type | U.S. Web Design System](https://designsystem.digital.gov/design-tokens/typesetting/overview/).
   Government design system's approach to typography with optical
   normalization and design tokens.
 
