@@ -117,16 +117,16 @@ the size of the image file and will receive an "end of file."
 ## Why use dd at all then?
 
 `dd` offers a level of control beyond these other tools, and proves
-helpful for various other contexts besides writing arbitrary data to
-disk. `seek=` and `skip=` are two options that come to mind for carving
-out data, along with `count=` for terminating the process at a specific
+helpful in other contexts besides writing arbitrary data to disk.
+`seek=` and `skip=` are two options that come to mind for carving out
+data, along with `count=` for terminating the process at a specific
 point.
 
 `dd` also eliminates the need to find the total number of bytes, since
 it knows when to stop writing. This happens mainly because `dd` doesn't
 redirect STDOUT with the shell to perform writing, but rather uses the
-`of=` feature built into `dd`, so `dd` can learn things about the nature
-of the output file that `pv` won't know due to design/implementation
+`of=` feature built into `dd`. `dd` can learn things about the nature of
+the output file that `pv` won't know due to design/implementation
 differences.
 
 As an aside, it's straightforward to pipe `pv` into `dd` or vice versa,
