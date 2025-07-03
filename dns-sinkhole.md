@@ -2,12 +2,12 @@
 
 _Tested on OpenBSD 7.0 and OpenBSD 7.1-current_
 
-NOTE (2023-09-10): I'm deprecating genblock, please use
-[domain-sift](/domain-sift.html) instead. domain-sift has a proper
-test suite and packaging, unlike genblock. This page and genblock
-are kept around for historical purposes, at least for now.
+**NOTE (2023-09-10):** I'm deprecating genblock, please use
+[domain-sift](/domain-sift.html) instead. domain-sift has a proper test
+suite and packaging, unlike genblock. This page and genblock remain
+available for historical purposes, at least for now.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 
@@ -23,67 +23,68 @@ are kept around for historical purposes, at least for now.
   - [Unwind](#unwind)
 - [Automation](#automation)
 - [Source code](#source-code)
-- [Addendum I: enforcing DNS provider in pf.conf](#addendum-i-enforcing-dns-provider-in-pfconf)
-- [Addendum II: getting around it](#addendum-ii-getting-around-it)
+- [Addendum I: Enforcing DNS provider in pf.conf](#addendum-i-enforcing-dns-provider-in-pfconf)
+- [Addendum II: Getting around it](#addendum-ii-getting-around-it)
 
 <!-- mtoc-end -->
 
 ## What is a DNS sinkhole?
 
-A DNS sinkhole is a domain name server that doesn't perform domain name
-resolution for certain domains (typically those that contain undesired
-content, such as trackers, malware, and ads).
+A Domain Name System (DNS) sinkhole is a domain name server that doesn't
+perform domain name resolution for certain domains (typically those that
+contain undesired content, such as trackers, malware, and ads).
 
 Ordinarily, a client asks for the IP address associated with a domain
-and the configured DNS server will provide it. Here, the [canary domain
+and the configured DNS server provides it. Here, the [canary domain
 "use-application-dns.net"](https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet)
-is used as an example.
+serves as an example.
 
     $ host use-application-dns.net
     use-application-dns.net has address 44.236.72.93
     use-application-dns.net has address 44.235.246.155
     use-application-dns.net has address 44.236.48.31
 
-Hopefully it's clear that domains are a human readable way to represent
-one or more IP addresses, and that DNS is one part of a larger system
-for communications. On a website, for instance, it's really TCP/IP that
-allows a client to access the resources on the web server, and DNS is
-merely the road map that shows how to get there.
+Domains provide a human-readable way to represent one or more IP
+addresses, and DNS forms one part of a larger system for communications.
+On a website, for instance, TCP/IP enables a client to access the
+resources on the web server, and DNS merely provides the road map that
+shows how to get there.
 
-A DNS sinkhole, then, refuses to hand out answers for certain domains.
-Since the client trying to connect doesn't know the IP address of the
-server to connect to, the connection won't be made.[^1]
+A DNS sinkhole refuses to provide answers for certain domains. Since the
+client trying to connect doesn't know the IP address of the server to
+connect to, it won't make the connection.[^1]
 
     $ host use-application-dns.net
     Host use-application-dns.net not found: 5(REFUSED)
 
 ## Why not just use an adblocker?
 
-There's nothing wrong with using a browser extension to block ads,
+Nothing prevents you from using a browser extension to block ads,
 provided it's open source and trustworthy (I recommend [uBlock
 Origin](https://ublockorigin.com/)).
 
-DNS sinkholes have some unique strengths that aren't possible with an
-adblocker alone. Domain filtering can be applied to the entire network,
-meaning individual configuration for every device isn't strictly
-necessary. One benefit of this is that domains can be blocked on devices
-that aren't very manipulable otherwise (think Internet of Things, smart
-TVs, mobile devices, guest devices, and so forth).
+DNS sinkholes have unique strengths that an adblocker alone cannot
+provide. You can apply domain filtering to the entire network, meaning
+individual configuration for every device isn't necessary. You can block
+domains on devices that aren't easily configurable otherwise (think
+Internet of Things, smart TVs, mobile devices, guest devices, and so
+forth).
 
 ## Where to get the domains to block?
 
-There are many different sources. The [ticked
+Many different sources exist. The [ticked
 lists](https://v.firebog.net/hosts/lists.php?type=tick) from
-[firebog.net](https://firebog.net/) are worth considering. This is how
-ticked lists are described:
+[firebog.net](https://firebog.net/) are worth considering. Here's how
+ticked lists work:
 
-> Sites with preferrably no falsely blocked sites, for Pi-hole installs that will have minimal maintenance
+> Sites with preferably no falsely blocked sites, for Pi-hole installs
+> that require minimal maintenance
 
 [Pi-hole](https://pi-hole.net/) is a popular DNS sinkhole with a web
 interface.
 
-Searching for [hosts(5)](https://man.openbsd.org/hosts) files will also
-do the trick.
+Searching for [hosts(5)](https://man.openbsd.org/hosts) files also
+works.
 
 ## Processing domains with genblock
 
@@ -94,8 +95,8 @@ structured and maintainable. Here's how to use `genblock`.
 
 ### The basics
 
-Pretend there's a file named `examplefile` in the current directory that
-has these contents.
+Pretend a file named `examplefile` exists in the current directory with
+these contents.
 
     $ cat examplefile
     # Look at how awesome this blocklist is. Isn't it cool?
@@ -112,7 +113,7 @@ has these contents.
     192.168.1.1
     GOOGLE.COM
 
-The simplest way to process it with `genblock` is like this.
+The simplest way to process it with `genblock` looks like this.
 
     $ ./genblock examplefile
     amazon.com
@@ -124,10 +125,10 @@ The simplest way to process it with `genblock` is like this.
 
 Notice several things:
 
-- Uppercase gets converted to lowercase. DNS is case insensitive.
+- Uppercase converts to lowercase. DNS is case insensitive.
 - Duplicate entries are removed.
-- Bogus entries aren't included.
-- Lines that start with a comment are completely ignored (otherwise
+- Bogus entries don't appear.
+- Lines that start with a comment are ignored completely (otherwise
   `bing.com` would appear in the list).
 - Lines are sorted (easier to [`diff(1)`](https://man.openbsd.org/diff)
   that way)
@@ -157,21 +158,21 @@ blocking is part of a policy, and that the DNS isn't broken.
 
 ### Getting more help
 
-The help output can be accessed like so.
+Access the help output like this.
 
     $ ./genblock -h
 
 ## Configuring a DNS resolver to use the blocklist
 
-Remember to check after setup that domain filtering is properly
-working with something like [`host(1)`](https://man.openbsd.org/host)
-or [`dig(1)`](https://man.openbsd.org/host).
+Remember to check after setup that domain filtering works properly with
+something like [`host(1)`](https://man.openbsd.org/host) or
+[`dig(1)`](https://man.openbsd.org/host).
 
 ### Unbound
 
-Move the file somewhere that indicates it's a system
-configuration file (so `/etc`, or alternatively `/var/unbound/etc` on
-OpenBSD) and give it world readable permissions, but nothing else.
+Move the file somewhere that indicates it's a system configuration file
+(so `/etc`, or alternatively `/var/unbound/etc` on OpenBSD) and give it
+world readable permissions, but nothing else.
 
     # mv blocklist.txt /etc/blocklist.txt
     # chmod 0444 /etc/blocklist.txt
@@ -225,7 +226,7 @@ Restart the service, assuming it's enabled and already running.
 ## Automation
 
 Create `/etc/sysadm` and move `genblock` and a list of blocklist URLs
-there (a different directory is fine, too. This is just what I use).
+there (a different directory works fine, too. This is just what I use).
 
     # mkdir -m 700 /etc/sysadm
     # mv genblock /etc/sysadm/
@@ -253,20 +254,20 @@ before restarting DNS, add this to `/etc/weekly.local`.
     	/bin/mv /etc/blocklist.txt.bak /etc/blocklist.txt
     fi
 
-These portions are better left outside of `genblock`, for portability
-and to reduce code complexity. That way, there's no need to worry about
-all of the different init systems, DNS resolvers, methods of fetching,
-websites to fetch from, and so forth.
+I keep these portions outside of `genblock` for portability and to
+reduce code complexity. That way, there's no need to worry about all the
+different init systems, DNS resolvers, methods of fetching, websites to
+fetch from, and so forth.
 
 ## Source code
 
-The source code for `genblock` can be found in my `sysadm` repo,
+You can find the source code for `genblock` in my `sysadm` repo,
 accessible [on this website](/src/sysadm/) or [on
 GitHub](https://github.com/maybebyte/sysadm).
 
-## Addendum I: enforcing DNS provider in pf.conf
+## Addendum I: Enforcing DNS provider in pf.conf
 
-Of course, none of this will prevent queries to a different server.
+None of this prevents queries to a different server.
 
     # host use-application-dns.net
     Host use-application-dns.net not found: 5(REFUSED)
@@ -280,24 +281,26 @@ Of course, none of this will prevent queries to a different server.
     use-application-dns.net has address 44.235.246.155
     use-application-dns.net has address 44.236.48.31
 
-If the DNS sinkhole is running on a router, place this in
-[`pf.conf(5)`](https://man.openbsd.org/pf.conf) to block queries to
-an external DNS server.
+If the DNS sinkhole runs on a router, place this in
+[`pf.conf(5)`](https://man.openbsd.org/pf.conf) to block queries to an
+external DNS server.
 
     block return in log quick proto { tcp udp } to !($int_if) port { domain domain-s }
 
 The correct value for `$int_if` may vary. It's `vport0` in my case,
-which is the same interface that hands out DHCP leases. Either way, it's
-important to do this because many devices come with a fallback DNS entry
-that will make these efforts for naught.
+which is the same interface that hands out Dynamic Host Configuration
+Protocol (DHCP) leases. Either way, this step matters because many
+devices come with a fallback DNS entry that renders these efforts
+useless.
 
-## Addendum II: getting around it
+## Addendum II: Getting around it
 
-It's still possible to circumvent these measures even with firewall
-rules in place. Encrypting outgoing traffic to be later decrypted with
-something like a VPN, SSH tunnel, or Tor will get the job done.
+You can still circumvent these measures even with firewall rules in
+place. Encrypting outgoing traffic to be later decrypted with something
+like a Virtual Private Network (VPN), SSH tunnel, or Tor accomplishes
+this.
 
 [^1]:
-    Please note that theoretically there's nothing preventing the
-    client from connecting to the IP address itself, if it's known or can
-    be discovered some other way.
+    Please note that theoretically nothing prevents the client from
+    connecting to the IP address itself, if it's known or can be
+    discovered some other way.
