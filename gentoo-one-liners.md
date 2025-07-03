@@ -2,7 +2,9 @@
 
 Published: June 4th, 2025
 
-## Table of Contents
+Updated: July 3rd, 2025
+
+## Table of contents
 
 <!-- mtoc-start -->
 
@@ -12,7 +14,7 @@ Published: June 4th, 2025
 - [Combining package size and dependency count](#combining-package-size-and-dependency-count)
 - [Print packages without a package.env entry](#print-packages-without-a-packageenv-entry)
 - [As above, but only larger packages](#as-above-but-only-larger-packages)
-- [Analyzing upgradable packages](#analyzing-upgradable-packages)
+- [Analyzing upgradeable packages](#analyzing-upgradeable-packages)
 - [Multi-column sorting](#multi-column-sorting)
 - [Practical applications](#practical-applications)
 
@@ -34,7 +36,7 @@ Show which packages pull in the greatest number of dependencies:
 qlist -CI | sort -u | parallel 'echo $(qdepends -CqqQ {} | wc -l) {}' | sort -n > pkgs_with_most_deps.txt
 ```
 
-Here's what each part does:
+What each part does:
 
 - `qlist -CI`: Lists all installed packages without color output in
   `category/package` format.
@@ -81,8 +83,7 @@ The `join` command joins lines of two files on a common field:
 
 ## Print packages without a package.env entry
 
-Print out packages that haven't been customized in
-`/etc/portage/package.env`:
+Print packages you haven't customized in `/etc/portage/package.env`:
 
 ```sh
 comm -13 <(awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/) {print $1}' /etc/portage/package.env/* | sort -u) <(qlist -CI | sort -u)
@@ -107,25 +108,24 @@ This adds size filtering:
 - `grep -f -`: Uses the uncustomized package list as search patterns.
 - `awk 'match($2, /^([0-9]{4}\.[0-9]K)|([0-9]+\.[0-9][MG])$/)'`: Matches
   packages >=1000K.
-- The regex captures four-digit kilobyte values or any megabyte/gigabyte values.
+- The regular expression captures four-digit kilobyte values or any
+  megabyte/gigabyte values.
 
-## Analyzing upgradable packages
+## Analyzing upgradeable packages
 
-Find packages that aren't customized in `/etc/portage/package.env` and
-are already due for an upgrade anyway:
+Find packages you haven't customized in `/etc/portage/package.env` that
+already need an upgrade:
 
 ```sh
 comm -13 <(awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/) {print $1}' /etc/portage/package.env/* | sort -u) <(EIX_LIMIT=0 eix -u -# | sort -u)
 ```
 
-This targets upgradable packages:
-
 - `EIX_LIMIT=0`: Removes eix output limits.
-- `eix -u -#`: Lists upgradable packages in `category/package` format.
+- `eix -u -#`: Lists upgradeable packages in `category/package` format.
 
 ## Multi-column sorting
 
-Use multiple keys for different analysis priorities:
+Use several sort keys for different analysis priorities:
 
 ```sh
 sort -k1,1n -k2,2h combined.txt
@@ -134,26 +134,25 @@ sort -k2,2h -k1,1n combined.txt
 
 The first command prioritizes dependency count, using size as a
 tiebreaker. The second makes size the primary criterion. The `h` and `n`
-are for human-readable and numeric sorting.
+refer to human-readable and numeric sorting.
 
 ## Practical applications
 
-These commands help to identify large packages that could be replaced
-with lightweight alternatives, which can be useful for a number of
+These commands identify large packages you can replace
+with lightweight alternatives, which proves useful for several
 reasons:
 
 - Freeing up storage space.
 - Creating a more minimal system.
 
-When I was using these commands, it was to guide CFLAGS tweaking to
-better optimize Gentoo in a VM, since virtual machines have limited
-resources. I use a setup where video playback cannot benefit from
-hardware acceleration at the time of writing (Qubes OS), so I was seeing
-if this approach could make a difference. I think I did manage to gain a
-few FPS from this, but as I didn't benchmark it beyond comparing frame
-timings in mpv and the gain is relatively minor (<=10fps), I have no
-solid proof.
+I used these commands to guide CFLAGS tweaking to better optimize Gentoo
+in a VM, since virtual machines have limited resources. I use a setup
+where video playback doesn't benefit from hardware acceleration at the
+time of writing (Qubes OS). I wanted to see if this approach could make
+a difference. I think I managed to gain a few FPS (frames per second)
+from this, but I didn't benchmark it beyond comparing frame timings in
+mpv. The gain was relatively minor (<=10fps), so I have no solid proof.
 
-Though with that said, I should mention that these days I really believe
-in benchmarking and profiling, as they make a huge difference. The gains
-from those techniques is typically far greater than CFLAGS tweaking.
+I should mention that these days I believe strongly in benchmarking and
+profiling, as they make a real difference. The gains from those
+techniques typically exceed the gains from CFLAGS tweaking.
