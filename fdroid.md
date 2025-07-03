@@ -11,7 +11,7 @@ instead.
 I may rewrite this post or delete it later, but I felt I should at least
 mention this concern first.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 
