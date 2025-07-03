@@ -16,6 +16,28 @@ Weaknesses
 : Some security concerns
 : Requires systemd
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [What is NixOS and why might you use it?](#what-is-nixos-and-why-might-you-use-it)
+- [What do imperative and declarative mean?](#what-do-imperative-and-declarative-mean)
+  - [Enable SSH imperatively](#enable-ssh-imperatively)
+  - [Enable SSH declaratively](#enable-ssh-declaratively)
+- [NixOS advantages](#nixos-advantages)
+  - [Pro #1: Abstraction](#pro-1-abstraction)
+  - [Pro #2: Reproducible builds](#pro-2-reproducible-builds)
+  - [Pro #3: Atomic upgrades](#pro-3-atomic-upgrades)
+  - [Pro #4: Rollbacks](#pro-4-rollbacks)
+  - [Pro #5: Immutability](#pro-5-immutability)
+- [NixOS disadvantages](#nixos-disadvantages)
+  - [Con #1: The learning curve](#con-1-the-learning-curve)
+  - [Con #2: Some security concerns](#con-2-some-security-concerns)
+  - [Con #3: Requires systemd](#con-3-requires-systemd)
+- [Concluding my NixOS review](#concluding-my-nixos-review)
+
+<!-- mtoc-end -->
+
 ## What is NixOS and why might you use it?
 
 [NixOS](https://nixos.org/) is a unique Linux distribution. The main thing that makes NixOS special is the ability to describe your desired system layout with the Nix language. To do this, you edit a file named `/etc/nixos/configuration.nix` and then rebuild the system.

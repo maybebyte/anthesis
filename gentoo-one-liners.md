@@ -2,6 +2,22 @@
 
 Published: June 4th, 2025
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Prerequisites](#prerequisites)
+- [Finding packages with the most dependencies](#finding-packages-with-the-most-dependencies)
+- [Finding the largest packages](#finding-the-largest-packages)
+- [Combining package size and dependency count](#combining-package-size-and-dependency-count)
+- [Print packages without a package.env entry](#print-packages-without-a-packageenv-entry)
+- [As above, but only larger packages](#as-above-but-only-larger-packages)
+- [Analyzing upgradable packages](#analyzing-upgradable-packages)
+- [Multi-column sorting](#multi-column-sorting)
+- [Practical applications](#practical-applications)
+
+<!-- mtoc-end -->
+
 ## Prerequisites
 
 Install the necessary Portage utilities and GNU Parallel:

@@ -24,6 +24,18 @@ DHCP and DNS with [`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
 [`unbound(8)`](https://man.openbsd.org/unbound). Local authoritative DNS
 is an extension to this setup.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [RFC8375 (why we use home.arpa.)](#rfc8375-why-we-use-homearpa)
+- [Configuring unbound(8)](#configuring-unbound8)
+- [Configuring dhcpd(8)](#configuring-dhcpd8)
+- [Testing DNS resolution](#testing-dns-resolution)
+- [Querying hosts without a FQDN](#querying-hosts-without-a-fqdn)
+
+<!-- mtoc-end -->
+
 ## RFC8375 (why we use home.arpa.)
 
 Often people will choose a domain name for their home network on a whim,

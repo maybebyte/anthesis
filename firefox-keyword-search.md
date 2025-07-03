@@ -2,6 +2,18 @@
 
 Last updated: May 3rd, 2023
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Introduction](#introduction)
+- [Why use bookmark keywords?](#why-use-bookmark-keywords)
+- [Defining a keyword for Wiktionary](#defining-a-keyword-for-wiktionary)
+  - [Test it out: search Wiktionary for definitions](#test-it-out-search-wiktionary-for-definitions)
+- [What else is possible?](#what-else-is-possible)
+
+<!-- mtoc-end -->
+
 ## Introduction
 
 Many people use a search engine to navigate the Internet, but not everyone knows about Firefox keyword search (the process of assigning keywords to bookmarks so that you can query virtually any site with ease).[^1] Read on to learn why this is important and how to set it up.

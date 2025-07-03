@@ -6,6 +6,18 @@ Note: Data loss may be caused by blindly running commands in this
 article. Ensure the right disk is being targeted before executing
 anything.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [The usual method](#the-usual-method)
+- [Overwriting disks with a progress bar](#overwriting-disks-with-a-progress-bar)
+- [Writing image files to disk with a progress bar](#writing-image-files-to-disk-with-a-progress-bar)
+- [Why use dd at all then?](#why-use-dd-at-all-then)
+- [Conclusion](#conclusion)
+
+<!-- mtoc-end -->
+
 ## The usual method
 
 It's common (and good) advice to first overwrite a disk with random data

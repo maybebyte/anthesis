@@ -8,6 +8,19 @@ A curated collection of tools and resources I've found genuinely useful.
 These are mostly focused on web development and design right now, but
 I'll be adding other sections as time goes on.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Web Development & Design](#web-development--design)
+  - [Typography & Fonts](#typography--fonts)
+  - [Color & Accessibility](#color--accessibility)
+  - [CSS & Standards](#css--standards)
+  - [Articles & Guides](#articles--guides)
+  - [Research & Studies](#research--studies)
+
+<!-- mtoc-end -->
+
 ## Web Development & Design
 
 ### Typography & Fonts

@@ -12,6 +12,25 @@ spend that much time trying to figure this out. :)
 Note that this is a rough outline, not a step-by-step guide on how to
 install Gentoo.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [What my setup involves](#what-my-setup-involves)
+- [Covering the microSD card installation](#covering-the-microsd-card-installation)
+  - [Wireless networking](#wireless-networking)
+  - [Serial console](#serial-console)
+- [Summarizing the rest](#summarizing-the-rest)
+  - [Preparing the disk](#preparing-the-disk)
+  - [Ensuring kernel support](#ensuring-kernel-support)
+  - [Compiling the Raspberry Pi foundation kernel and installing it](#compiling-the-raspberry-pi-foundation-kernel-and-installing-it)
+  - [Editing configuration files](#editing-configuration-files)
+  - [Copying the filesystem contents over](#copying-the-filesystem-contents-over)
+  - [Switching to gentoo-sources](#switching-to-gentoo-sources)
+- [Conclusion and thoughts](#conclusion-and-thoughts)
+
+<!-- mtoc-end -->
+
 ## What my setup involves
 
 Here are the things that my setup involves:

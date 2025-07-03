@@ -2,6 +2,44 @@
 
 *Tested on FreeBSD 13.0-RELEASE*
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Installation](#installation)
+- [After installation](#after-installation)
+  - [Setting up power management](#setting-up-power-management)
+  - [Creating make.conf](#creating-makeconf)
+  - [Checking out source code](#checking-out-source-code)
+    - [Checking out the ports tree](#checking-out-the-ports-tree)
+    - [Installing portmaster](#installing-portmaster)
+    - [Checking out FreeBSD's source code](#checking-out-freebsds-source-code)
+  - [Odds and ends before compiling Kodi](#odds-and-ends-before-compiling-kodi)
+    - [Installing needed tools](#installing-needed-tools)
+    - [Setting up doas.conf](#setting-up-doasconf)
+    - [Entering a tmux session](#entering-a-tmux-session)
+  - [Compiling Kodi](#compiling-kodi)
+    - [Using portmaster to compile ports](#using-portmaster-to-compile-ports)
+    - [Reviewing installation messages](#reviewing-installation-messages)
+  - [Setting up a user environment for Kodi](#setting-up-a-user-environment-for-kodi)
+    - [Creating the kodi user](#creating-the-kodi-user)
+    - [Creating .xinitrc](#creating-xinitrc)
+    - [Starting X](#starting-x)
+  - [Starting Kodi automatically](#starting-kodi-automatically)
+    - [Setting up gettytab](#setting-up-gettytab)
+    - [Editing ttys](#editing-ttys)
+    - [Ensuring X only starts in the correct TTY](#ensuring-x-only-starts-in-the-correct-tty)
+  - [Configuring the sound system](#configuring-the-sound-system)
+    - [Bit-perfect](#bit-perfect)
+    - [Not bit-perfect](#not-bit-perfect)
+  - [Staying up to date](#staying-up-to-date)
+    - [Setting up cron to fetch updates nightly](#setting-up-cron-to-fetch-updates-nightly)
+    - [Updating the system and ports](#updating-the-system-and-ports)
+- [Parting words](#parting-words)
+- [Additional resources](#additional-resources)
+
+<!-- mtoc-end -->
+
 ## Installation
 
 For the sake of brevity, I won't cover the process of installing FreeBSD in depth. It's

@@ -11,6 +11,20 @@ forward with the new key.
 This transition document is signed by both keys to validate the
 transition.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Key Details](#key-details)
+  - [Old Key](#old-key)
+  - [New Key](#new-key)
+- [Verification Instructions](#verification-instructions)
+  - [Keys](#keys)
+  - [Transition Document](#transition-document)
+  - [Verification Steps](#verification-steps)
+
+<!-- mtoc-end -->
+
 ## Key Details
 
 ### Old Key

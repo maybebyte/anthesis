@@ -11,6 +11,15 @@ instead.
 I may rewrite this post or delete it at a later date, but I felt I
 should at least mention this before then.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [What is F-Droid?](#what-is-f-droid)
+- [F-Droid apps](#f-droid-apps)
+
+<!-- mtoc-end -->
+
 ## What is F-Droid?
 
 From the [F-Droid website](https://www.f-droid.org/):

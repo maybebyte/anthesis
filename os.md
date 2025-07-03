@@ -14,6 +14,25 @@ overwhelmed by the sheer amount of choice available. While I have no
 real solution for this feeling, I hope that my own "best of kind" list
 can be useful regardless.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Resources](#resources)
+- [User friendly and just works](#user-friendly-and-just-works)
+- [Innovative and for power users](#innovative-and-for-power-users)
+- [Reasonably secure and paranoid](#reasonably-secure-and-paranoid)
+- [Run the latest software and do it your way](#run-the-latest-software-and-do-it-your-way)
+- [Customize everything and learn a lot about Linux](#customize-everything-and-learn-a-lot-about-linux)
+- [The minimal Unix-like cousin of Arch](#the-minimal-unix-like-cousin-of-arch)
+- [Simple, stable, and follows the Unix philosophy](#simple-stable-and-follows-the-unix-philosophy)
+- [A secure mobile operating system](#a-secure-mobile-operating-system)
+- [Reproducible, declaratively built OS](#reproducible-declaratively-built-os)
+
+<!-- mtoc-end -->
+
+## Resources
+
 Before my recommendations, here are some resources that I find helpful:
 
 - [Librehunt](https://librehunt.org/) first explains in simple terms the

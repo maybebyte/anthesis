@@ -36,23 +36,27 @@ to add new items along with details, are welcome as well. Though it's
 unlikely that I'll add in forks of systems already mentioned unless they
 differ enough in content to be interesting.
 
-## Table of contents
+## Table of Contents
 
-1. [Arch](#arch)
-2. [Alpine](#alpine)
-3. [Clear Linux](#clear-linux)
-4. [Debian](#debian)
-5. [Fedora](#fedora)
-6. [Gentoo](#gentoo)
-7. [NixOS](#nixos)
-8. [OpenBSD](#openbsd)
-9. [OpenSUSE](#opensuse)
-10. [Solus](#solus)
-11. [Ubuntu](#ubuntu)
-12. [Void](#void)
-13. [Caveats](#caveats)
-14. [Areas for improvement](#areas-for-improvement)
-15. [Other resources](#other-resources)
+<!-- mtoc-start -->
+
+- [Arch](#arch)
+- [Alpine](#alpine)
+- [Clear Linux](#clear-linux)
+- [Debian](#debian)
+- [Fedora](#fedora)
+- [Gentoo](#gentoo)
+- [NixOS](#nixos)
+- [OpenBSD](#openbsd)
+- [OpenSUSE](#opensuse)
+- [Solus](#solus)
+- [Ubuntu](#ubuntu)
+- [Void](#void)
+- [Caveats](#caveats)
+- [Areas for improvement](#areas-for-improvement)
+- [Other resources](#other-resources)
+
+<!-- mtoc-end -->
 
 ## Arch
 

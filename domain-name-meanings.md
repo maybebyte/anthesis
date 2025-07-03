@@ -3,6 +3,15 @@
 This article is about the personal meaning of `amissing.link` and
 `anthes.is`.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [What was the meaning of "a missing link?"](#what-was-the-meaning-of-a-missing-link)
+- [What is the meaning of "anthesis?"](#what-is-the-meaning-of-anthesis)
+
+<!-- mtoc-end -->
+
 ## What was the meaning of "a missing link?"
 
 The way I think of it is that when something is lost, it's found in the

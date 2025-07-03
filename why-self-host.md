@@ -6,7 +6,16 @@ As someone that has run many of my own services for a while now, I feel
 that I can speak to the advantages and disadvantages of self-hosting. In
 my case, the benefits have more than made up for the drawbacks, but I
 think that the question of whether it's worth it to self-host is
-something that each person or organization has to answer for themselves. 
+something that each person or organization has to answer for themselves.
+
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Benefits](#benefits)
+- [Drawbacks](#drawbacks)
+
+<!-- mtoc-end -->
 
 ## Benefits
 

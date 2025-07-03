@@ -5,6 +5,22 @@ around and I have some articles planned that I would like to write, though I
 feel it is important to first announce that this website's domain name is
 changing.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [When is this happening?](#when-is-this-happening)
+- [What will happen to the old domain name?](#what-will-happen-to-the-old-domain-name)
+- [Why change the domain name?](#why-change-the-domain-name)
+  - [DNSSEC](#dnssec)
+  - [Top-level domains matter](#top-level-domains-matter)
+- [Wrapping up](#wrapping-up)
+- [Verification (optional)](#verification-optional)
+  - [With GPG](#with-gpg)
+  - [With signify](#with-signify)
+
+<!-- mtoc-end -->
+
 ## When is this happening?
 
 Though I have already registered `anthes.is`, I would like to wait a short

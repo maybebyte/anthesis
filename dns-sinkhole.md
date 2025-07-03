@@ -7,6 +7,27 @@ NOTE (2023-09-10): I'm deprecating genblock, please use
 test suite and packaging, unlike genblock. This page and genblock
 are kept around for historical purposes, at least for now.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [What is a DNS sinkhole?](#what-is-a-dns-sinkhole)
+- [Why not just use an adblocker?](#why-not-just-use-an-adblocker)
+- [Where to get the domains to block?](#where-to-get-the-domains-to-block)
+- [Processing domains with genblock](#processing-domains-with-genblock)
+  - [The basics](#the-basics)
+  - [Making genblock more useful](#making-genblock-more-useful)
+  - [Getting more help](#getting-more-help)
+- [Configuring a DNS resolver to use the blocklist](#configuring-a-dns-resolver-to-use-the-blocklist)
+  - [Unbound](#unbound)
+  - [Unwind](#unwind)
+- [Automation](#automation)
+- [Source code](#source-code)
+- [Addendum I: enforcing DNS provider in pf.conf](#addendum-i-enforcing-dns-provider-in-pfconf)
+- [Addendum II: getting around it](#addendum-ii-getting-around-it)
+
+<!-- mtoc-end -->
+
 ## What is a DNS sinkhole?
 
 A DNS sinkhole is a domain name server that doesn't perform domain name

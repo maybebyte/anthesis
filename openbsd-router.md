@@ -7,6 +7,19 @@ end-of-life](https://pcengines.ch/eol.htm). In addition, this article is
 probably due for a rewrite. Many of the principles still apply on a
 broad level, but tread with caution.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Foreword](#foreword)
+- [Hardware](#hardware)
+- [Download OpenBSD](#download-openbsd)
+- [Install OpenBSD](#install-openbsd)
+- [After installation](#after-installation)
+- [WireGuard](#wireguard)
+
+<!-- mtoc-end -->
+
 ## Foreword
 
 It's no secret that consumer routers have security problems (600 CVEs

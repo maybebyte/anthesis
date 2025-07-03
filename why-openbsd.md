@@ -6,6 +6,23 @@ However, that approach made my argumentation feel disjointed as a
 result. Overall, it seems more sensible to have a central place to talk
 about these things that can be linked to from elsewhere.
 
+## Table of Contents
+
+<!-- mtoc-start -->
+
+- [Why not OpenBSD?](#why-not-openbsd)
+- [Simplicity](#simplicity)
+- [Less decision paralysis](#less-decision-paralysis)
+- [Great documentation](#great-documentation)
+- [Security](#security)
+- [Privacy](#privacy)
+- [Stability](#stability)
+- [Sane defaults](#sane-defaults)
+- [Versatile](#versatile)
+- [Other resources](#other-resources)
+
+<!-- mtoc-end -->
+
 ## Why not OpenBSD?
 
 Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD to those that:

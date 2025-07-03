@@ -12,15 +12,19 @@ DNS resolver.
 
 ## Table of Contents
 
-1. [Project structure](#project-structure)
-2. [Installation](#installation)
-3. [Documentation](#documentation)
-4. [domain-sift and unwind](#domain-sift-and-unwind)
-5. [domain-sift and unbound](#domain-sift-and-unbound)
-6. [domain-sift and unbound (RPZ)](#domain-sift-and-unbound-rpz)
-7. [Regarding blocklist sources](#regarding-blocklist-sources)
-8. [Caveats](#caveats)
-9. [License](#license)
+<!-- mtoc-start -->
+
+- [Project structure](#project-structure)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [domain-sift and unwind](#domain-sift-and-unwind)
+- [domain-sift and unbound](#domain-sift-and-unbound)
+- [domain-sift and unbound (RPZ)](#domain-sift-and-unbound-rpz)
+- [Regarding blocklist sources](#regarding-blocklist-sources)
+- [Caveats](#caveats)
+- [License](#license)
+
+<!-- mtoc-end -->
 
 ## Project structure
 
