@@ -2,28 +2,28 @@
 
 Published: June 17th, 2025
 
-Updated: June 18th, 2025
+Updated: July 3rd, 2025
 
-A curated collection of tools and resources I've found genuinely useful.
-These are mostly focused on web development and design right now, but
-I'll be adding other sections as time goes on.
+A curated collection of tools and resources that have proven genuinely useful.
+These focus on web development and design currently, with
+more sections coming over time.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 
-- [Web Development and Design](#web-development-and-design)
-  - [Typography and Fonts](#typography-and-fonts)
-  - [Color and Accessibility](#color-and-accessibility)
-  - [CSS and Standards](#css-and-standards)
-  - [Articles and Guides](#articles-and-guides)
-  - [Research and Studies](#research-and-studies)
+- [Web development and design](#web-development-and-design)
+  - [Typography and fonts](#typography-and-fonts)
+  - [Color and accessibility](#color-and-accessibility)
+  - [CSS and standards](#css-and-standards)
+  - [Articles and guides](#articles-and-guides)
+  - [Research and studies](#research-and-studies)
 
 <!-- mtoc-end -->
 
-## Web Development and Design
+## Web development and design
 
-### Typography and Fonts
+### Typography and fonts
 
 - [Modern Font Stacks](https://modernfontstacks.com). System font
   stack CSS organized by typeface classification.
@@ -32,41 +32,41 @@ I'll be adding other sections as time goes on.
 - [Wakamai Fondue](https://wakamaifondue.com/). The tool that answers
   the question, "What can my font do?"
 - [Unicode Range Interchange](https://www.zachleat.com/unicode-range-interchange).
-  Do math on `unicode-range` values for web fonts.
+  Perform math on `unicode-range` values for web fonts.
 - [Accessible fluid CSS type generator](https://fluid.style/). Generate
-  accessible fluid typography CSS with proper constraints.
+  accessible fluid typography CSS with appropriate constraints.
 - [xheightable](https://www.xheightable.com/app/).
-  Font pairing tool using x-height data from 150+ Google and Adobe
+  Font pairing tool with x-height data from 150+ Google and Adobe
   fonts.
 - [Triangle](https://betterwebtype.com/triangle/). Interactive game
   teaching the balance of font size, line height, and line width.
 
-### Color and Accessibility
+### Color and accessibility
 
-- [APCA Contrast Calculator](https://apcacontrast.com).
+- [Advanced Perceptual Contrast Algorithm (APCA) Calculator](https://apcacontrast.com).
   Next-generation contrast calculator.
 - [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/).
-  Check color contrast ratios for WCAG compliance.
+  Verify color contrast ratios for WCAG (Web Content Accessibility Guidelines) compliance.
 - [Whocanuse](https://www.whocanuse.com). See how color choices affect
-  users with different vision types.
-- [OKLCH Color Picker](https://oklch.com). Perceptually uniform color
-  picker using the OKLCH color space.
+  people with different vision types.
+- [Oklab Lightness Chroma Hue (OKLCH) Color Picker](https://oklch.com).
+  Perceptually uniform color picker in the OKLCH color space.
 - [coloraide](https://github.com/facelessuser/coloraide). Python
   library for color manipulation and conversion.
 - [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/).
   Generate Material Design 3 color schemes from seed colors.
 
-### CSS and Standards
+### CSS and standards
 
 - [Browser Default Styles](https://browserdefaultstyles.com/). Search
   and compare default CSS styles across browsers.
 - [Typography - U.S. Web Design System](https://designsystem.digital.gov/components/typography).
   Government design system typography guidelines and components.
-- [Using type | U.S. Web Design System](https://designsystem.digital.gov/design-tokens/typesetting/overview/).
-  Government design system's approach to typography using optical
+- [Type styles | U.S. Web Design System](https://designsystem.digital.gov/design-tokens/typesetting/overview/).
+  Government design system's approach to typography with optical
   normalization and design tokens.
 
-### Articles and Guides
+### Articles and guides
 
 - [A comprehensive guide to font loading strategies](https://www.zachleat.com/web/comprehensive-webfonts/).
   Complete guide to web font loading performance strategies.
@@ -76,14 +76,14 @@ I'll be adding other sections as time goes on.
   Understanding how responsive typography affects browser zoom
   accessibility.
 - [Addressing Accessibility Concerns With Using Fluid Type](https://www.smashingmagazine.com/2023/11/addressing-accessibility-concerns-fluid-type/).
-  Making fluid typography accessible for all users.
+  Making fluid typography accessible for all people.
 - [The Realities And Myths Of Contrast And Color](https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color/).
   In-depth exploration of the science behind color and contrast.
 - [The Equilateral Triangle of a Perfect Paragraph](https://css-tricks.com/equilateral-triangle-perfect-paragraph/).
   Typography theory explaining how font-size, line-height, and line
   width work together.
 
-### Research and Studies
+### Research and studies
 
 - [Readability group survey](https://github.com/thibaudcolas/readability-group-survey).
   Results from The Readability Group's survey testing font
@@ -97,7 +97,7 @@ I'll be adding other sections as time goes on.
 - [Closed letter counters impair recognition](https://www.sciencedirect.com/science/article/abs/pii/S0003687022000321).
   Experimental study showing closed apertures in letters reduce recognition accuracy.
 - [Research Highlight | How important is x-height for font legibility?](https://readabilitymatters.org/articles/research-highlight-how-important-is-x-height-for-font-legibility).
-  Research summary on x-height's impact on letter recognition using visual
+  Research summary on x-height's impact on letter recognition through visual
   attention theory.
 - [Good Background Colors for Readers: A Study of People with and without Dyslexia](https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf).
   Large-scale study showing warm background colors improve reading performance.
@@ -111,7 +111,7 @@ I'll be adding other sections as time goes on.
 - [Font Matters: Investigating the Typographical Components of
   Legibility](https://rsisinternational.org/journals/ijriss/articles/font-matters-investigating-the-typographical-components-of-legibility/).
   Comprehensive analysis of typographical factors affecting legibility
-  across print and digital media.
+  in print and digital media.
 - [Evaluating Fonts: Font Family Selection for Accessibility & Display
   Readability](https://www.researchgate.net/publication/338149302_Evaluating_Fonts_Font_Family_Selection_for_Accessibility_Display_Readability).
   Practical guide evaluating dozens of fonts for glyph distinctiveness and
