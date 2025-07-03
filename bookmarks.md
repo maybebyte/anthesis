@@ -4,9 +4,9 @@ Published: June 17th, 2025
 
 Updated: July 3rd, 2025
 
-A curated collection of tools and resources that have proven genuinely useful.
-These focus on web development and design currently, with
-more sections coming over time.
+A curated collection of tools and resources that have proven genuinely
+useful. These focus on web development and design currently, with more
+sections coming over time.
 
 ## Table of contents
 
