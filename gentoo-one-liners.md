@@ -38,13 +38,13 @@ qlist -CI | sort -u | parallel 'echo $(qdepends -CqqQ {} | wc -l) {}' | sort -n 
 
 What each part does:
 
-- `qlist -CI`: Lists all installed packages without color output in
+- `qlist -CI`: lists all installed packages without color output in
   `category/package` format.
-- `sort -u`: Sorts output and removes duplicate entries.
-- `parallel`: Runs dependency counting through GNU Parallel for better performance.
-- `qdepends -CqqQ {}`: Queries dependencies without color output, quietly.
-- `wc -l`: Counts the dependency lines.
-- `sort -n`: Sorts numerically by dependency count.
+- `sort -u`: sorts output and removes duplicate entries.
+- `parallel`: executes dependency counting through GNU Parallel for better performance.
+- `qdepends -CqqQ {}`: queries dependencies without color output, quietly.
+- `wc -l`: counts the dependency lines.
+- `sort -n`: sorts numerically by dependency count.
 
 The output shows dependency count followed by package name, from
 packages with the least dependencies to greatest.
@@ -59,10 +59,10 @@ qlist -CI | sort -u | parallel qsize -C | awk '{print $NF,$1}' | cut -d ':' -f 1
 
 Breaking this down:
 
-- `qsize -C`: Reports package sizes in human-readable format without color output.
-- `awk '{print $NF,$1}'`: Reorders output to put size first, then package name.
-- `cut -d ':' -f 1`: Removes trailing colon.
-- `sort -h`: Sorts by human-readable numbers (handles K, M, G suffixes).
+- `qsize -C`: reports package sizes in human-readable format without color output.
+- `awk '{print $NF,$1}'`: reorders output to put size first, then package name.
+- `cut -d ':' -f 1`: removes trailing colon.
+- `sort -h`: sorts by human-readable numbers (handles K, M, G suffixes).
 
 This arranges packages from smallest to largest.
 
@@ -76,14 +76,14 @@ join -j 2 -o 1.1,2.1,0 <(sort -k2 pkgs_with_most_deps.txt) <(sort -k2 biggest_pk
 
 The `join` command joins lines of two files on a common field:
 
-- `-j 2`: Join on field 2 (package names).
-- `-o 1.1,2.1,0`: Output format (dependencies, size, package name).
-- `<(sort -k2 ...)`: Process substitution with secondary key sorting.
-- `tr ' ' '\t'`: Converts spaces to tabs for cleaner formatting.
+- `-j 2`: join on field 2 (package names).
+- `-o 1.1,2.1,0`: output format (dependencies, size, package name).
+- `<(sort -k2 ...)`: process substitution with secondary key sorting.
+- `tr ' ' '\t'`: converts spaces to tabs for cleaner formatting.
 
 ## Print packages without a package.env entry
 
-Print packages you haven't customized in `/etc/portage/package.env`:
+Print packages not yet customized in `/etc/portage/package.env`:
 
 ```sh
 comm -13 <(awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/) {print $1}' /etc/portage/package.env/* | sort -u) <(qlist -CI | sort -u)
@@ -91,8 +91,8 @@ comm -13 <(awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/) {print $1}' /etc
 
 This `comm` usage compares sorted lists:
 
-- `-13`: Shows only lines unique to installation.
-- `awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/)'`: Grabs package
+- `-13`: shows only lines unique to installation.
+- `awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/)'`: extracts package
   in `category/package` format.
 
 ## As above, but only larger packages
@@ -105,27 +105,27 @@ comm -13 <(awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/) {print $1}' /etc
 
 This adds size filtering:
 
-- `grep -f -`: Uses the uncustomized package list as search patterns.
-- `awk 'match($2, /^([0-9]{4}\.[0-9]K)|([0-9]+\.[0-9][MG])$/)'`: Matches
+- `grep -f -`: uses the uncustomized package list as search patterns.
+- `awk 'match($2, /^([0-9]{4}\.[0-9]K)|([0-9]+\.[0-9][MG])$/)'`: matches
   packages >=1000K.
 - The regular expression captures four-digit kilobyte values or any
   megabyte/gigabyte values.
 
 ## Analyzing upgradeable packages
 
-Find packages you haven't customized in `/etc/portage/package.env` that
+Find packages not yet customized in `/etc/portage/package.env` that
 already need an upgrade:
 
 ```sh
 comm -13 <(awk 'match($1, /^[a-zA-Z0-9_+-]+\/[a-zA-Z0-9_+-]+$/) {print $1}' /etc/portage/package.env/* | sort -u) <(EIX_LIMIT=0 eix -u -# | sort -u)
 ```
 
-- `EIX_LIMIT=0`: Removes eix output limits.
-- `eix -u -#`: Lists upgradeable packages in `category/package` format.
+- `EIX_LIMIT=0`: removes eix output limits.
+- `eix -u -#`: lists upgradeable packages in `category/package` format.
 
 ## Multi-column sorting
 
-Use several sort keys for different analysis priorities:
+Use multiple sort keys for different analysis priorities:
 
 ```sh
 sort -k1,1n -k2,2h combined.txt
@@ -138,9 +138,8 @@ refer to human-readable and numeric sorting.
 
 ## Practical applications
 
-These commands identify large packages you can replace
-with lightweight alternatives, which proves useful for several
-reasons:
+These commands identify large packages that can be replaced with
+lightweight alternatives, which proves useful for several reasons:
 
 - Freeing up storage space.
 - Creating a more minimal system.
