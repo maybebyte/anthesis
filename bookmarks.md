@@ -12,18 +12,18 @@ I'll be adding other sections as time goes on.
 
 <!-- mtoc-start -->
 
-- [Web Development & Design](#web-development--design)
-  - [Typography & Fonts](#typography--fonts)
-  - [Color & Accessibility](#color--accessibility)
-  - [CSS & Standards](#css--standards)
-  - [Articles & Guides](#articles--guides)
-  - [Research & Studies](#research--studies)
+- [Web Development and Design](#web-development-and-design)
+  - [Typography and Fonts](#typography-and-fonts)
+  - [Color and Accessibility](#color-and-accessibility)
+  - [CSS and Standards](#css-and-standards)
+  - [Articles and Guides](#articles-and-guides)
+  - [Research and Studies](#research-and-studies)
 
 <!-- mtoc-end -->
 
-## Web Development & Design
+## Web Development and Design
 
-### Typography & Fonts
+### Typography and Fonts
 
 - [Modern Font Stacks](https://modernfontstacks.com). System font
   stack CSS organized by typeface classification.
@@ -41,7 +41,7 @@ I'll be adding other sections as time goes on.
 - [Triangle](https://betterwebtype.com/triangle/). Interactive game
   teaching the balance of font size, line height, and line width.
 
-### Color & Accessibility
+### Color and Accessibility
 
 - [APCA Contrast Calculator](https://apcacontrast.com).
   Next-generation contrast calculator.
@@ -56,7 +56,7 @@ I'll be adding other sections as time goes on.
 - [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/).
   Generate Material Design 3 color schemes from seed colors.
 
-### CSS & Standards
+### CSS and Standards
 
 - [Browser Default Styles](https://browserdefaultstyles.com/). Search
   and compare default CSS styles across browsers.
@@ -66,7 +66,7 @@ I'll be adding other sections as time goes on.
   Government design system's approach to typography using optical
   normalization and design tokens.
 
-### Articles & Guides
+### Articles and Guides
 
 - [A comprehensive guide to font loading strategies](https://www.zachleat.com/web/comprehensive-webfonts/).
   Complete guide to web font loading performance strategies.
@@ -83,7 +83,7 @@ I'll be adding other sections as time goes on.
   Typography theory explaining how font-size, line-height, and line
   width work together.
 
-### Research & Studies
+### Research and Studies
 
 - [Readability group survey](https://github.com/thibaudcolas/readability-group-survey).
   Results from The Readability Group's survey testing font
