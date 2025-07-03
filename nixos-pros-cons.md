@@ -50,9 +50,9 @@ If you already know the differences between them, [feel free to skip ahead](#nix
 
 The easiest way for me to explain these two concepts is to talk about them in the context of software development.
 
-*Imperative* programming languages are things like Python and C. To make languages like this useful, you provide step-by-step instructions that lead to your end goal. In other words, **imperative means you write out how to do something**.
+_Imperative_ programming languages are things like Python and C. To make languages like this useful, you provide step-by-step instructions that lead to your end goal. In other words, **imperative means you write out how to do something**.
 
-Meanwhile, Haskell and Nix are examples of *declarative* programming languages. Their design allows them to perform the necessary steps on their own when given a proper description. In other words, **declarative means you describe what the end result should be**.
+Meanwhile, Haskell and Nix are examples of _declarative_ programming languages. Their design allows them to perform the necessary steps on their own when given a proper description. In other words, **declarative means you describe what the end result should be**.
 
 Let's compare the process of activating an SSH service on Arch Linux and NixOS to demonstrate the differences between these two paradigms.
 
@@ -113,7 +113,7 @@ fonts.fontconfig.defaultFonts = {
 };
 ```
 
-Note that this will *not* install font packages for you. There is a separate `fonts.fonts` option where you list each package out.
+Note that this will _not_ install font packages for you. There is a separate `fonts.fonts` option where you list each package out.
 
 ### Pro #2: Reproducible builds
 
@@ -123,7 +123,7 @@ This means that NixOS is a good Linux distribution for cloud servers, as reliabl
 
 ### Pro #3: Atomic upgrades
 
-Another really helpful feature Nix developers included is the avoidance of partial states. When software is designed around this principle, either everything takes effect or nothing does. This is also known as *atomicity*.
+Another really helpful feature Nix developers included is the avoidance of partial states. When software is designed around this principle, either everything takes effect or nothing does. This is also known as _atomicity_.
 
 Upgrading NixOS is an atomic transaction. Here's a practical example of how that can be useful: if a power outage happens during a rebuild, the packages are still in a consistent state. The system will either use the entire working set of packages from before or after.
 
@@ -155,7 +155,7 @@ It's always a good idea to see what open issues a software project has before us
 - [Secrets provided in arguments are exposed to unprivileged users](https://github.com/NixOS/nixpkgs/issues/156400)
 - [nobody/nogroup shouldn't be used](https://github.com/NixOS/nixpkgs/issues/55370)
 
-Of course, every software project of notable size and scope has *some* security issues. Decide for yourself what an acceptable threshold is. You might also consult the [NixOS security page](https://nixos.org/community/teams/security.html).
+Of course, every software project of notable size and scope has _some_ security issues. Decide for yourself what an acceptable threshold is. You might also consult the [NixOS security page](https://nixos.org/community/teams/security.html).
 
 ### Con #3: Requires systemd
 

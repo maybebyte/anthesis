@@ -22,8 +22,8 @@ Many people use a search engine to navigate the Internet, but not everyone knows
 
 For a number of reasons, "smart keywords" (I guess that's what Mozilla calls them) can be a very useful tool for you.
 
-- *Better online privacy*. Only query and send data to the site you want answers from, right?
-- *They save time*. Once you set them up, you can effortlessly search your favorite websites from the address bar.
+- _Better online privacy_. Only query and send data to the site you want answers from, right?
+- _They save time_. Once you set them up, you can effortlessly search your favorite websites from the address bar.
 
 ## Defining a keyword for Wiktionary
 
@@ -35,9 +35,9 @@ Open up Firefox and navigate to www.wiktionary.org. Right click Wiktionary's sea
 
 Firefox will now present a dialog box with three options.
 
-1. The *name* of the bookmark.
-2. The *location* to save the bookmark in.
-3. The *keyword* to use for the bookmark.
+1. The _name_ of the bookmark.
+2. The _location_ to save the bookmark in.
+3. The _keyword_ to use for the bookmark.
 
 Choose a name and location if you like. Then, type in your desired keyword and click "Save" to add it. I chose `wkt`.
 

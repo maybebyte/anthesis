@@ -160,7 +160,7 @@ The [performance section in the
 documentation](https://www.clearlinux.org/clear-linux-documentation/guides/clear/performance.html)
 lays everything out nicely.
 
-- [\__global\_cflags in macros](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/macros#L538)
+- [\_\_global_cflags in macros](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/macros#L538)
 - [optflags in rpmrc](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/rpmrc#L13)
 
 For x86_64, here is what that looks like:
@@ -296,7 +296,7 @@ Features:
 Builtins:
 
 Flag: ASFLAGS
-Value: 
+Value:
 Origin: vendor
 
 Flag: CFLAGS
@@ -654,11 +654,11 @@ Features:
 Builtins:
 
 Flag: ASFLAGS
-Value: 
+Value:
 Origin: vendor
 
 Flag: ASFLAGS_FOR_BUILD
-Value: 
+Value:
 Origin: vendor
 
 Flag: CFLAGS
@@ -738,7 +738,7 @@ Value: -Cforce-frame-pointers=yes
 Origin: vendor
 
 Flag: RUSTFLAGS_FOR_BUILD
-Value: 
+Value:
 Origin: vendor
 ```
 

@@ -24,9 +24,9 @@ should at least mention this before then.
 
 From the [F-Droid website](https://www.f-droid.org/):
 
->"F-Droid is an installable catalogue of FOSS (Free and Open Source
->Software) applications for the Android platform. The client makes it
->easy to browse, install, and keep track of updates on your device."
+> "F-Droid is an installable catalogue of FOSS (Free and Open Source
+> Software) applications for the Android platform. The client makes it
+> easy to browse, install, and keep track of updates on your device."
 
 ## F-Droid apps
 

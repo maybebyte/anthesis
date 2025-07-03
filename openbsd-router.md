@@ -1,6 +1,6 @@
 # Building an OpenBSD router using an APU4D4
 
-*Tested on OpenBSD 6.8*
+_Tested on OpenBSD 6.8_
 
 NOTE (2023-07-22): the [APU platform is
 end-of-life](https://pcengines.ch/eol.htm). In addition, this article is
@@ -71,25 +71,25 @@ how to make sure that's the case.
 Display the current user and groups they belong to with
 [`id(1)`](https://man.openbsd.org/id).
 
-	$ id
+    $ id
 
 Add the user to the `dialer` group if necessary with
 [`usermod(8)`](https://man.openbsd.org/usermod).
 
-	# usermod -G dialer [user]
+    # usermod -G dialer [user]
 
 Finally, connect to the serial port. This indicates the line to use
 `(-l)` and the baud rate `(-s)`. The APU4D4 requires a baud rate of
 `115200`.
 
-	$ cu -l cuaU0 -s 115200
+    $ cu -l cuaU0 -s 115200
 
 Please remember to enter this at the boot prompt afterward, to configure
 the serial connection. Later on, the installer will set these.
 
-	boot> stty com0 115200
-	boot> set tty com0
-	boot> boot
+    boot> stty com0 115200
+    boot> set tty com0
+    boot> boot
 
 From here, the FAQ provides enough information to get through the rest
 of the installation procedure. Be sure to look at [the documentation for

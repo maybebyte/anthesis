@@ -157,11 +157,11 @@ To get the serial console working, I did these things:
 1. To get a tty, I uncommented the line in `/etc/inittab` that points to
    the `/dev/ttyS0` device.
 
-    ```
-    # SERIAL CONSOLES
-    s0:12345:respawn:/sbin/agetty -L 115200 ttyS0 vt100
-    #s1:12345:respawn:/sbin/agetty -L 115200 ttyS1 vt100
-    ```
+   ```
+   # SERIAL CONSOLES
+   s0:12345:respawn:/sbin/agetty -L 115200 ttyS0 vt100
+   #s1:12345:respawn:/sbin/agetty -L 115200 ttyS1 vt100
+   ```
 
 ## Summarizing the rest
 

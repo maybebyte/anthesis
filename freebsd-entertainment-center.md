@@ -1,6 +1,6 @@
 # Setting up a 4K Kodi box with sndio on FreeBSD
 
-*Tested on FreeBSD 13.0-RELEASE*
+_Tested on FreeBSD 13.0-RELEASE_
 
 ## Table of Contents
 
@@ -51,7 +51,7 @@ phase.
 Here's the short of it:
 
 1. [Obtain an installation image for
-amd64](https://www.freebsd.org/where/).
+   amd64](https://www.freebsd.org/where/).
 1. Verify the image's checksum and GPG signature. Without this, there is
    no assurance that the installation image is from the source it claims
    to be and that it hasn't been tampered with.
@@ -74,8 +74,8 @@ Enable and start
 for power management. In theory, it will lower power consumption when
 the entertainment center isn't doing much.
 
-	# sysrc powerd_enable="YES"
-	# service powerd start
+    # sysrc powerd_enable="YES"
+    # service powerd start
 
 ### Creating make.conf
 
@@ -94,7 +94,7 @@ against sndio, LibreSSL, and Intel Quick Sync Video.
 
 [See the FreeBSD handbook entry on ports for more details](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
 
-	# portsnap fetch extract
+    # portsnap fetch extract
 
 #### Installing portmaster
 
@@ -103,19 +103,19 @@ choose `ports-mgmt/portmaster` here. `ports-mgmt/poudriere` is also
 good and what I use these days, but teaching how to use it here is out
 of scope. `portmaster` gets the job done.
 
-	# make -C /usr/ports/ports-mgmt/portmaster install clean
+    # make -C /usr/ports/ports-mgmt/portmaster install clean
 
 #### Checking out FreeBSD's source code
 
 Install `git`, as it's needed for checking out the source tree. I
 like the `git-tiny` flavor.
 
-	# portmaster devel/git@tiny
+    # portmaster devel/git@tiny
 
 [Check out the source tree](https://docs.freebsd.org/en/books/handbook/cutting-edge/#updating-src-obtaining-src).
 This is required for building `graphics/drm-kmod`.
 
-	# git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
+    # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
 
 ### Odds and ends before compiling Kodi
 
@@ -134,7 +134,7 @@ Consider installing a text editor and a shell in addition to the
 aforementioned tools, if desired. I like `editors/neovim` and
 `shells/oksh`.
 
-	# portmaster sysutils/tmux security/doas
+    # portmaster sysutils/tmux security/doas
 
 #### Setting up doas.conf
 
@@ -142,7 +142,7 @@ If `security/doas` was installed, set up
 [`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since persistence
 is currently unsupported on FreeBSD, I add `nopass` for my own sanity.
 
-	# echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
+    # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
 
 #### Entering a tmux session
 
@@ -151,7 +151,7 @@ current user has a `tmux` session currently open. If not, it first tries
 to attach to an existing session, and creates a new session if that
 fails.
 
-	$ [ -z "${TMUX}" ] && { tmux attach || tmux; }
+    $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
 
 ### Compiling Kodi
 
@@ -170,9 +170,9 @@ In the Latte Panda Delta's case, they are
 `multimedia/libva-intel-media-driver` and
 `multimedia/libvdpau-va-gl`.
 
-	# portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver \
-	> multimedia/libvdpau-va-gl x11/xorg misc/unclutter-xfixes multimedia/kodi \
-	> multimedia/kodi-addon-inputstream.adaptive
+    # portmaster audio/sndio graphics/drm-kmod multimedia/libva-intel-media-driver \
+    > multimedia/libvdpau-va-gl x11/xorg misc/unclutter-xfixes multimedia/kodi \
+    > multimedia/kodi-addon-inputstream.adaptive
 
 After giving permission to `portmaster` to build everything, detach from
 the `tmux` session (`CTRL-b d` is the default binding. Alternatively,
@@ -190,7 +190,7 @@ computer isn't too speedy.
 
 Review installation messages to check for needed interventions.
 
-	$ pkg query '%M' | less
+    $ pkg query '%M' | less
 
 ### Setting up a user environment for Kodi
 
@@ -199,12 +199,12 @@ Review installation messages to check for needed interventions.
 Create a separate user for Kodi (I named mine `kodi`). Make
 sure to add `kodi` to the `video` group.
 
-	# adduser
+    # adduser
 
 If `kodi` wasn't added to the `video` group during this process, no
 problem. This can be remedied like so:
 
-	# pw groupmod video -m kodi
+    # pw groupmod video -m kodi
 
 After that, make sure to log in as `kodi`.
 
@@ -219,21 +219,21 @@ remain visible if idle (though the cursor is usually invisible during
 ordinary usage--it's merely a fallback in case it does become visible.
 One common example is if a pointer device is accidentally bumped).
 
-	$ cat <<EOF >~/.xinitrc
-	> . "${HOME}/.profile"
-	> xset s noblank
-	> xset s off
-	> xset -dpms
-	> unclutter &
-	>
-	> exec kodi
-	> EOF
+    $ cat <<EOF >~/.xinitrc
+    > . "${HOME}/.profile"
+    > xset s noblank
+    > xset s off
+    > xset -dpms
+    > unclutter &
+    >
+    > exec kodi
+    > EOF
 
 #### Starting X
 
 From a console (not SSH), start X.
 
-	$ startx
+    $ startx
 
 If it works, log out of `kodi` and back in to the user with root access.
 
@@ -246,11 +246,11 @@ are required for this to work: the first is that `kodi` needs
 to be automatically logged in. To address this, append some magic to
 [`gettytab(5)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=gettytab).
 
-	# cat <<EOF >>/etc/gettytab
-	> # autologin kodi
-	> A|Al|Autologin console:\
-	>	:ht:np:sp#115200:al=kodi
-	> EOF
+    # cat <<EOF >>/etc/gettytab
+    > # autologin kodi
+    > A|Al|Autologin console:\
+    >	:ht:np:sp#115200:al=kodi
+    > EOF
 
 #### Editing ttys
 
@@ -258,9 +258,9 @@ Edit
 [`ttys(5)`](https://www.freebsd.org/cgi/man.cgi?query=ttys&apropos=0&sektion=0&manpath=FreeBSD+13.0-RELEASE&arch=default&format=html)
 to match below.
 
-	# Virtual terminals
-	#ttyv1	"/usr/libexec/getty Pc"	xterm	onifexists	secure
-	ttyv1	"/usr/libexec/getty Al"	xterm	onifexists	secure
+    # Virtual terminals
+    #ttyv1	"/usr/libexec/getty Pc"	xterm	onifexists	secure
+    ttyv1	"/usr/libexec/getty Al"	xterm	onifexists	secure
 
 #### Ensuring X only starts in the correct TTY
 
@@ -268,15 +268,15 @@ As `kodi`, append this simple check to `/home/kodi/.profile`.
 Essentially, it makes sure X isn't running and that it would start X
 in the correct tty before doing so.
 
-	$ cat <<EOF >>~/.profile
-	> if [ -z "${DISPLAY}" ] && [ "$(tty)" = '/dev/ttyv1' ]; then
-	> 	exec startx
-	> fi
-	> EOF
+    $ cat <<EOF >>~/.profile
+    > if [ -z "${DISPLAY}" ] && [ "$(tty)" = '/dev/ttyv1' ]; then
+    > 	exec startx
+    > fi
+    > EOF
 
 Finally, reboot.
 
-	# reboot
+    # reboot
 
 ### Configuring the sound system
 
@@ -285,7 +285,7 @@ default device with
 [`sysctl(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=sysctl)
 if needed (inspect `/dev/sndstat` for a list of devices).
 
-	# sysctl hw.snd.default.unit=1 # needed for HDMI in my case.
+    # sysctl hw.snd.default.unit=1 # needed for HDMI in my case.
 
 Now, decide whether bit-perfect mode will be used or not and consult
 the relevant section below. Note that the ["Sync playback to
@@ -299,8 +299,8 @@ To use bit-perfect mode, two `sysctl` tweaks are needed. Here,
 I use the first device, but be sure to check what device needs to be
 adjusted.
 
-	# sysctl dev.pcm.1.bitperfect=1
-	# sysctl hw.snd.maxautovchans=0
+    # sysctl dev.pcm.1.bitperfect=1
+    # sysctl hw.snd.maxautovchans=0
 
 #### Not bit-perfect
 
@@ -311,7 +311,7 @@ the default of linear interpolation doesn't provide anti-aliasing
 filtering. I like to start from the highest resampling quality possible
 and lower the value if needed.
 
-	# sysctl hw.snd.feeder_rate_quality=4
+    # sysctl hw.snd.feeder_rate_quality=4
 
 Remember that regardless which mode of operation was selected, if tweaks
 made with `sysctl` are to be permanent,
@@ -330,10 +330,10 @@ Pull in updates every night at `03:00` per
 Note that neither `portsnap cron` nor `freebsd-update cron` apply
 updates. They only download updates.
 
-	# cat <<EOF | crontab -
-	> 0 3 * * * root /usr/sbin/portsnap cron
-	> 0 3 * * * root /usr/sbin/freebsd-update cron
-	> EOF
+    # cat <<EOF | crontab -
+    > 0 3 * * * root /usr/sbin/portsnap cron
+    > 0 3 * * * root /usr/sbin/freebsd-update cron
+    > EOF
 
 #### Updating the system and ports
 
@@ -341,25 +341,25 @@ When ready to update, issue these commands to apply changes to the ports
 and source tree, as well as binary updates to the base system (I add
 `fetch` just to be safe):
 
-	# portsnap fetch update
-	# freebsd-update fetch install
-	# git -C /usr/src pull
+    # portsnap fetch update
+    # freebsd-update fetch install
+    # git -C /usr/src pull
 
 If `freebsd-update fetch install` installs any updates,
 `graphics/drm-kmod` needs to be rebuilt [per the FreeBSD
 handbook](https://docs.freebsd.org/en/books/handbook/x11/#x-config-video-cards).
 
-	# portmaster -f graphics/drm-kmod
+    # portmaster -f graphics/drm-kmod
 
 Always check `/usr/ports/UPDATING` before upgrading any ports. Then,
 upgrade.
 
-	$ less /usr/ports/UPDATING
-	# portmaster -a
+    $ less /usr/ports/UPDATING
+    # portmaster -a
 
 Reboot.
 
-	# reboot
+    # reboot
 
 ## Parting words
 

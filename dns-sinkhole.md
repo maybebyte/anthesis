@@ -1,6 +1,6 @@
 # Creating a DNS sinkhole with Perl and unbound(8)
 
-*Tested on OpenBSD 7.0 and OpenBSD 7.1-current*
+_Tested on OpenBSD 7.0 and OpenBSD 7.1-current_
 
 NOTE (2023-09-10): I'm deprecating genblock, please use
 [domain-sift](/domain-sift.html) instead. domain-sift has a proper
@@ -39,10 +39,10 @@ and the configured DNS server will provide it. Here, the [canary domain
 "use-application-dns.net"](https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet)
 is used as an example.
 
-	$ host use-application-dns.net
-	use-application-dns.net has address 44.236.72.93
-	use-application-dns.net has address 44.235.246.155
-	use-application-dns.net has address 44.236.48.31
+    $ host use-application-dns.net
+    use-application-dns.net has address 44.236.72.93
+    use-application-dns.net has address 44.235.246.155
+    use-application-dns.net has address 44.236.48.31
 
 Hopefully it's clear that domains are a human readable way to represent
 one or more IP addresses, and that DNS is one part of a larger system
@@ -54,8 +54,8 @@ A DNS sinkhole, then, refuses to hand out answers for certain domains.
 Since the client trying to connect doesn't know the IP address of the
 server to connect to, the connection won't be made.[^1]
 
-	$ host use-application-dns.net
-	Host use-application-dns.net not found: 5(REFUSED)
+    $ host use-application-dns.net
+    Host use-application-dns.net not found: 5(REFUSED)
 
 ## Why not just use an adblocker?
 
@@ -77,7 +77,7 @@ lists](https://v.firebog.net/hosts/lists.php?type=tick) from
 [firebog.net](https://firebog.net/) are worth considering. This is how
 ticked lists are described:
 
->Sites with preferrably no falsely blocked sites, for Pi-hole installs that will have minimal maintenance
+> Sites with preferrably no falsely blocked sites, for Pi-hole installs that will have minimal maintenance
 
 [Pi-hole](https://pi-hole.net/) is a popular DNS sinkhole with a web
 interface.
@@ -97,30 +97,30 @@ structured and maintainable. Here's how to use `genblock`.
 Pretend there's a file named `examplefile` in the current directory that
 has these contents.
 
-	$ cat examplefile
-	# Look at how awesome this blocklist is. Isn't it cool?
-	# It only uses 100% verified and real domains.
-	# Don't worry, bing.com is still accessible.
-	google.com
-	microsoft.com
-	3.1415926
-	www.apple.com
-	FACEBOOK.com
-	foobar
-	127.0.0.1 instagram.com
-	127.0.0.1 amazon.com
-	192.168.1.1
-	GOOGLE.COM
+    $ cat examplefile
+    # Look at how awesome this blocklist is. Isn't it cool?
+    # It only uses 100% verified and real domains.
+    # Don't worry, bing.com is still accessible.
+    google.com
+    microsoft.com
+    3.1415926
+    www.apple.com
+    FACEBOOK.com
+    foobar
+    127.0.0.1 instagram.com
+    127.0.0.1 amazon.com
+    192.168.1.1
+    GOOGLE.COM
 
 The simplest way to process it with `genblock` is like this.
 
-	$ ./genblock examplefile
-	amazon.com
-	facebook.com
-	google.com
-	instagram.com
-	microsoft.com
-	www.apple.com
+    $ ./genblock examplefile
+    amazon.com
+    facebook.com
+    google.com
+    instagram.com
+    microsoft.com
+    www.apple.com
 
 Notice several things:
 
@@ -138,17 +138,17 @@ Here's a more realistic example that fetches a blocklist and processes
 it with `genblock`, then writes the output to a file in a format
 accepted by [unbound(8)](https://man.openbsd.org/unbound).
 
-	$ ftp -o - https://adaway.org/hosts.txt |
-	> ./genblock -t unbound > blocklist.txt
-	$ cat blocklist.txt
-	local-zone: "0ce3c-1fd43.api.pushwoosh.com" always_refuse
-	local-zone: "100016075.collect.igodigital.com" always_refuse
-	local-zone: "10148.engine.mobileapptracking.com" always_refuse
-	local-zone: "10870841.collect.igodigital.com" always_refuse
-	local-zone: "1170.api.swrve.com" always_refuse
-	local-zone: "1170.content.swrve.com" always_refuse
-	local-zone: "1188.api.swrve.com" always_refuse
-	[many more lines like this]
+    $ ftp -o - https://adaway.org/hosts.txt |
+    > ./genblock -t unbound > blocklist.txt
+    $ cat blocklist.txt
+    local-zone: "0ce3c-1fd43.api.pushwoosh.com" always_refuse
+    local-zone: "100016075.collect.igodigital.com" always_refuse
+    local-zone: "10148.engine.mobileapptracking.com" always_refuse
+    local-zone: "10870841.collect.igodigital.com" always_refuse
+    local-zone: "1170.api.swrve.com" always_refuse
+    local-zone: "1170.content.swrve.com" always_refuse
+    local-zone: "1188.api.swrve.com" always_refuse
+    [many more lines like this]
 
 Note that `always_nxdomain` isn't used here. Giving the impression that
 these domains don't exist when we aren't checking for existence
@@ -159,7 +159,7 @@ blocking is part of a policy, and that the DNS isn't broken.
 
 The help output can be accessed like so.
 
-	$ ./genblock -h
+    $ ./genblock -h
 
 ## Configuring a DNS resolver to use the blocklist
 
@@ -173,24 +173,24 @@ Move the file somewhere that indicates it's a system
 configuration file (so `/etc`, or alternatively `/var/unbound/etc` on
 OpenBSD) and give it world readable permissions, but nothing else.
 
-	# mv blocklist.txt /etc/blocklist.txt
-	# chmod 0444 /etc/blocklist.txt
+    # mv blocklist.txt /etc/blocklist.txt
+    # chmod 0444 /etc/blocklist.txt
 
 For `unbound`, add this somewhere in
 [unbound.conf(5)](https://man.openbsd.org/unbound.conf).
 
-	include: /etc/blocklist.txt
+    include: /etc/blocklist.txt
 
 Check the config for validity.
 
-	# unbound-checkconf /var/unbound/etc/unbound.conf
-	unbound-checkconf: no errors in /var/unbound/etc/unbound.conf
+    # unbound-checkconf /var/unbound/etc/unbound.conf
+    unbound-checkconf: no errors in /var/unbound/etc/unbound.conf
 
 Restart the service, assuming it's enabled and already running.
 
-	# rcctl restart unbound
-	unbound(ok)
-	unbound(ok)
+    # rcctl restart unbound
+    unbound(ok)
+    unbound(ok)
 
 ### Unwind
 
@@ -203,55 +203,55 @@ One domain per line is the format `unwind` accepts per
 do anything special there. Move the file and modify permissions as
 before.
 
-	# mv blocklist.txt /etc/blocklist.txt
-	# chmod 0444 /etc/blocklist.txt
+    # mv blocklist.txt /etc/blocklist.txt
+    # chmod 0444 /etc/blocklist.txt
 
 To include the file in `unwind.conf`, add this (optionally, with `log`
 at the end as shown here to log blocked queries).
 
-	block list /etc/blocklist.txt log
+    block list /etc/blocklist.txt log
 
 Check the config for validity.
 
-	# unwind -n
-	configuration OK
+    # unwind -n
+    configuration OK
 
 Restart the service, assuming it's enabled and already running.
 
-	# rcctl restart unwind
-	unwind(ok)
-	unwind(ok)
+    # rcctl restart unwind
+    unwind(ok)
+    unwind(ok)
 
 ## Automation
 
 Create `/etc/sysadm` and move `genblock` and a list of blocklist URLs
 there (a different directory is fine, too. This is just what I use).
 
-	# mkdir -m 700 /etc/sysadm
-	# mv genblock /etc/sysadm/
-	# mv blocklist_urls /etc/sysadm/
+    # mkdir -m 700 /etc/sysadm
+    # mv genblock /etc/sysadm/
+    # mv blocklist_urls /etc/sysadm/
 
 [`cron(8)`](https://man.openbsd.org/cron) can handle the automation. To
 generate a new blocklist weekly for `unbound` and check for validity
 before restarting DNS, add this to `/etc/weekly.local`.
 
-	# For genblock. Does blocklist handling so the script doesn't have
-	# to. Generates blocklist from content of URLs and reloads daemons.
-	/bin/test -e /etc/blocklist.txt \
-		&& /bin/mv /etc/blocklist.txt /etc/blocklist.txt.bak
+    # For genblock. Does blocklist handling so the script doesn't have
+    # to. Generates blocklist from content of URLs and reloads daemons.
+    /bin/test -e /etc/blocklist.txt \
+    	&& /bin/mv /etc/blocklist.txt /etc/blocklist.txt.bak
 
-	/usr/bin/xargs -- /usr/bin/ftp -o - -- < /etc/sysadm/blocklist_urls \
-		| /etc/sysadm/genblock -t unbound > /etc/blocklist.txt
+    /usr/bin/xargs -- /usr/bin/ftp -o - -- < /etc/sysadm/blocklist_urls \
+    	| /etc/sysadm/genblock -t unbound > /etc/blocklist.txt
 
-	# https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet
-	echo 'local-zone: "use-application-dns.net" always_refuse' >> /etc/blocklist.txt
+    # https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet
+    echo 'local-zone: "use-application-dns.net" always_refuse' >> /etc/blocklist.txt
 
-	if /usr/sbin/unbound-checkconf; then
-		/bin/chmod 0444 /etc/blocklist.txt
-		/usr/sbin/rcctl restart unbound
-	else
-		/bin/mv /etc/blocklist.txt.bak /etc/blocklist.txt
-	fi
+    if /usr/sbin/unbound-checkconf; then
+    	/bin/chmod 0444 /etc/blocklist.txt
+    	/usr/sbin/rcctl restart unbound
+    else
+    	/bin/mv /etc/blocklist.txt.bak /etc/blocklist.txt
+    fi
 
 These portions are better left outside of `genblock`, for portability
 and to reduce code complexity. That way, there's no need to worry about
@@ -268,23 +268,23 @@ GitHub](https://github.com/maybebyte/sysadm).
 
 Of course, none of this will prevent queries to a different server.
 
-	# host use-application-dns.net
-	Host use-application-dns.net not found: 5(REFUSED)
-	# host use-application-dns.net 1.1.1.1
-	Using domain server:
-	Name: 1.1.1.1
-	Address: 1.1.1.1#53
-	Aliases:
+    # host use-application-dns.net
+    Host use-application-dns.net not found: 5(REFUSED)
+    # host use-application-dns.net 1.1.1.1
+    Using domain server:
+    Name: 1.1.1.1
+    Address: 1.1.1.1#53
+    Aliases:
 
-	use-application-dns.net has address 44.236.72.93
-	use-application-dns.net has address 44.235.246.155
-	use-application-dns.net has address 44.236.48.31
+    use-application-dns.net has address 44.236.72.93
+    use-application-dns.net has address 44.235.246.155
+    use-application-dns.net has address 44.236.48.31
 
 If the DNS sinkhole is running on a router, place this in
 [`pf.conf(5)`](https://man.openbsd.org/pf.conf) to block queries to
 an external DNS server.
 
-	block return in log quick proto { tcp udp } to !($int_if) port { domain domain-s }
+    block return in log quick proto { tcp udp } to !($int_if) port { domain domain-s }
 
 The correct value for `$int_if` may vary. It's `vport0` in my case,
 which is the same interface that hands out DHCP leases. Either way, it's
@@ -297,6 +297,7 @@ It's still possible to circumvent these measures even with firewall
 rules in place. Encrypting outgoing traffic to be later decrypted with
 something like a VPN, SSH tunnel, or Tor will get the job done.
 
-[^1]: Please note that theoretically there's nothing preventing the
-  client from connecting to the IP address itself, if it's known or can
-  be discovered some other way.
+[^1]:
+    Please note that theoretically there's nothing preventing the
+    client from connecting to the IP address itself, if it's known or can
+    be discovered some other way.
