@@ -78,4 +78,4 @@ From the [F-Droid website](https://www.f-droid.org/):
   UntrackMe transforms certain links, such as YouTube, Twitter, and
   Instagram, to point at a FLOSS (Free/Libre and Open Source Software)
   privacy respecting alternative. In the case of Twitter, it changes the
-  domain to a Nitter instance, for example.
+  domain to a Nitter instance.
