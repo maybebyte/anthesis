@@ -21,8 +21,8 @@ updating, though many principles still apply. Proceed with caution.
 
 ## Foreword
 
-Consumer routers have well-documented security problems. Between 1999
-and 2017, researchers disclosed 600 CVEs (Common Vulnerabilities and
+Consumer routers are riddled with security problems. Between 1999 and
+2017, researchers disclosed 600 CVEs (Common Vulnerabilities and
 Exposures) for router software---and those represent only the public
 vulnerabilities. The paper ["So You Think Your Router Is
 Safe?"](https://repository.stcloudstate.edu/cgi/viewcontent.cgi?article=1067&context=msia_etds)
