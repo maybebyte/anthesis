@@ -1,8 +1,14 @@
 # My Unix blog: scripts, software, /etc
 
-Hey, welcome to my blog! I typically write about various forms of technology, including software, programming, and Unix-like operating systems. I often discuss topics related to [OpenBSD](https://www.openbsd.org).
+Hey, welcome to my blog! I typically write about various forms of
+technology, including software, programming, and Unix-like operating
+systems. I often discuss topics related to
+[OpenBSD](https://www.openbsd.org).
 
-Please feel free to explore as much as you like, and remember to [subscribe to my RSS feed](https://www.anthes.is/rss.xml) so you get updated when I release new content.
+Please feel free to explore as much as you like, and remember to
+[subscribe to my RSS (Really Simple Syndication)
+feed](https://www.anthes.is/rss.xml) so you get updated when new content
+is released.
 
 ## Articles
 
@@ -13,7 +19,8 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 
 ### 2024
 
-- [Encrypted headless Raspberry Pi running Gentoo](/encrypted-headless-raspberry-pi-gentoo.md "2024-07-06")
+- [Linux/Unix internals: x86_64 CFLAGS/CXXFLAGS](/nix-internals-cflags.html "2024-12-29")
+- [Encrypted headless Raspberry Pi running Gentoo](/encrypted-headless-raspberry-pi-gentoo.html "2024-07-06")
 - [How to find the best software for you](/how-to-find-the-best-software-for-you.html "2024-02-14")
 
 ### 2023
@@ -47,7 +54,12 @@ Please feel free to explore as much as you like, and remember to [subscribe to m
 
 ## Some things you should know
 
-- If you want or need to talk to me about something, [please contact me](/contact.html).
-- You can find my source code [on this website](/src.html "1970-01-01") and [on GitHub](https://github.com/maybebyte/).
-- For additional privacy, you can [use Tor](https://www.torproject.org/) to [browse this website as an onion service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/).
-- Beginning in October 2022, [this website is now hosted under a new root domain](/domain-migration.html "2022-10-03").
+For extra privacy, you can [use Tor](https://www.torproject.org/)
+to [browse this website as an onion
+service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/).
+
+Beginning in October 2022, [this website is hosted under a new root
+domain](/domain-migration.html "2022-10-03") ("anthes.is").
+
+I maintain an organized [list of bookmarks](/bookmarks.html) for personal use
+that you may find useful as well.
