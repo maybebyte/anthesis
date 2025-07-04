@@ -92,8 +92,8 @@ tasks correctly:
    documents these steps.
 
 Despite the second step appearing straightforward, I encountered an
-issue: how do I install networking tools when I need those same tools to
-configure my networking?
+issue. How do I install networking tools when I need those same tools to
+configure networking?
 
 For many people, the easiest solution would be plugging in an Ethernet
 cable and installing packages that way. I also read that downloading the
