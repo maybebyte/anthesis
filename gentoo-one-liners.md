@@ -108,8 +108,6 @@ This adds size filtering:
 - `grep -f -`: uses the uncustomized package list as search patterns.
 - `awk 'match($2, /^([0-9]{4}\.[0-9]K)|([0-9]+\.[0-9][MG])$/)'`: matches
   packages >=1000K.
-- The regular expression captures four-digit kilobyte values or any
-  megabyte/gigabyte values.
 
 ## Analyzing upgradeable packages
 
@@ -148,10 +146,12 @@ I used these commands to guide CFLAGS tweaking to better optimize Gentoo
 in a VM, since virtual machines have limited resources. I use a setup
 where video playback doesn't benefit from hardware acceleration at the
 time of writing (Qubes OS). I wanted to see if this approach could make
-a difference. I think I managed to gain a few FPS (frames per second)
-from this, but I didn't benchmark it beyond comparing frame timings in
-mpv. The gain was relatively minor (<=10fps), so I have no solid proof.
+a difference.
 
-I should mention that these days I believe strongly in benchmarking and
-profiling, as they make a real difference. The gains from those
-techniques typically exceed the gains from CFLAGS tweaking.
+I think I managed to gain a few FPS (frames per second) from this, but I
+didn't benchmark it beyond comparing frame timings in mpv. The gain was
+relatively minor (<=10fps).
+
+These days I believe strongly in benchmarking and profiling, as they
+make a real difference. The gains from those techniques typically exceed
+the gains from CFLAGS tweaking.
