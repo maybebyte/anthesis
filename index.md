@@ -6,9 +6,8 @@ systems. I often discuss topics related to
 [OpenBSD](https://www.openbsd.org).
 
 Please feel free to explore as much as you like, and remember to
-[subscribe to my RSS (Really Simple Syndication)
-feed](https://www.anthes.is/rss.xml) so you get updated when new content
-is released.
+[subscribe to my RSS (Really Simple Syndication) feed](https://www.anthes.is/rss.xml)
+so you get updated when new content is released.
 
 ## Articles
 
@@ -55,11 +54,11 @@ is released.
 ## Some things you should know
 
 For extra privacy, you can [use Tor](https://www.torproject.org/)
-to [browse this website as an onion
-service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/).
+to [browse this website as an onion service](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/).
 
-Beginning in October 2022, [this website is hosted under a new root
-domain](/domain-migration.html "2022-10-03") ("anthes.is").
+Beginning in October 2022,
+[this website is hosted under a new root domain](/domain-migration.html "2022-10-03")
+("anthes.is").
 
-I maintain an organized [list of bookmarks](/bookmarks.html) for personal use
-that you may find useful as well.
+I maintain an organized [list of bookmarks](/bookmarks.html) for
+personal use that you may find useful as well.
