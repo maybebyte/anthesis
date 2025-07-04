@@ -355,11 +355,12 @@ initialize](https://forums.raspberrypi.com/viewtopic.php?t=246215).
 This setup won't prevent a determined adversary from removing the
 microSD card and tampering with anything on the boot partition (the
 kernel, the initramfs, or the firmware). It also doesn't prevent
-hardware-level attacks. An attacker could theoretically leverage these
-to obtain the encryption password entered on boot. The encryption does
-protect the data when the Raspberry Pi is powered off. Besides, targeted
-and sophisticated attacks like these aren't currently in my threat
-model. This setup raises the difficulty level for data recovery.
+hardware-level attacks. If an attacker leverages these, they can obtain
+the encryption password entered on boot.
 
-If those types of attacks ever become part of my threat model, I would
+Still, the encryption protects the data when the Raspberry Pi is powered
+off. This setup raises the difficulty level for data recovery, but it
+doesn't account for sophisticated attacks like this.
+
+If those types of attacks ever became part of my threat model, I would
 look into Secure Boot on the Raspberry Pi.
