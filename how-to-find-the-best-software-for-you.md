@@ -45,9 +45,9 @@ questions that can help determine exactly what you need.
   what solves a problem you have.
 
 - Can you break that problem into smaller ones so that specialized tools
-  can handle each part more effectively? Sometimes you may not need
-  another application and can handle it with programs you already have,
-  especially if you're good at shell scripting.
+  can handle each part? Sometimes you may not need another application and
+  can handle it with programs you already have, especially if you're good
+  at shell scripting.
 
 - Who are the target users and what do they require? Consider their
   accessibility requirements and whether the program fulfills those. User
@@ -77,11 +77,10 @@ questions that can help determine exactly what you need.
 
 - What are your privacy and security requirements? To give a meaningful
   answer, you need to know your threat model first. There's little sense
-  in assuming that something provides privacy or security without a
-  threat model, since it remains unknown what it protects from or
-  what stays private from whom. Thinking about these things helps you
-  protect your assets more effectively and could save you some
-  headaches.
+  in assuming that something provides privacy or security without a threat
+  model, since it remains unknown what it protects from or what stays
+  private from whom. Thinking about these things helps you protect your
+  assets and could save you some headaches.
 
 - Do you have any preferences or requirements when it comes to software
   licensing, source code availability, and similar factors? Here are some
