@@ -2,16 +2,17 @@
 
 Published: December 29th, 2024
 
-Updated: January 5th, 2025
+Updated: July 3rd, 2025
 
-As I've been using Gentoo, I've become curious about what kinds of
-interesting build flags other systems use to compile their binaries on a
-global level, as well as what configure-time flags are set on GCC and
-Clang. This article collects these flags for some distributions to make
-them easier for me to track down and compare in the future.
+As I've used Gentoo, I've become curious about what kinds of interesting
+build flags other systems use to compile their binaries on a global
+level, as well as what configure-time flags they set on GCC and Clang.
+This article collects these flags for some distributions to make them
+easier for me to track down and compare in the future.
 
-Because this is a huge rabbit hole, there are some things I won't be doing in
-the interest of time. They're listed in the [Caveats section](#caveats).
+Because this is a huge rabbit hole, there are some things I won't be
+doing in the interest of time. They're listed in the [Caveats
+section](#caveats).
 
 Even though this isn't perfect and doesn't list every operating system
 I'm interested in having these details for, I feel I should share what I
@@ -21,7 +22,8 @@ Some relevant documentation can be found in these places:
 
 - [GCC flag docs](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
 - [Clang flag docs](https://clang.llvm.org/docs/ClangCommandLineReference.html)
-- [ld(1)](https://www.man7.org/linux/man-pages/man1/ld.1.html) (documents RELRO, BIND_NOW, etc)
+- [ld(1)](https://www.man7.org/linux/man-pages/man1/ld.1.html)
+  (documents RELRO (RELocation Read-Only), BIND_NOW, etc)
 
 If there's something incorrect here, please let me know, either by
 [contacting me directly](/contact.html) or by [opening an issue on my
@@ -32,9 +34,9 @@ would be preferred, but either is fine).
 I'm definitely open to [pull
 requests](https://github.com/maybebyte/anthesis/pulls), especially to
 fix issues. Pull requests to add missing details to anything listed, or
-to add new items along with details, are welcome as well. Though it's
-unlikely that I'll add in forks of systems already mentioned unless they
-differ enough in content to be interesting.
+to add new items along with details, are welcome as well. Though I'm
+unlikely to add forks of systems already mentioned unless they differ
+enough in content to be interesting.
 
 ## Table of Contents
 
@@ -62,8 +64,8 @@ differ enough in content to be interesting.
 
 [According to this
 poster](https://bbs.archlinux.org/viewtopic.php?pid=2189095#p2189095),
-the build flags can be found in [the x86_64.conf file in the
-devtools package](https://gitlab.archlinux.org/archlinux/devtools/-/blob/5c0f8d37d5b1f3c380b49c60f3d2e5e8ab586f62/config/makepkg/x86_64.conf#L43).
+the build flags can be found in [the x86_64.conf file in the devtools
+package](https://gitlab.archlinux.org/archlinux/devtools/-/blob/5c0f8d37d5b1f3c380b49c60f3d2e5e8ab586f62/config/makepkg/x86_64.conf#L43).
 
 CFLAGS:
 
@@ -107,17 +109,20 @@ LTOFLAGS:
 -flto=auto
 ```
 
-Here are the [configure-time GCC flags for Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/blob/5d3fc68a98b548026f01eec74707445e8b16413a/PKGBUILD#L76).
+Here are the [configure-time GCC flags for
+Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/blob/5d3fc68a98b548026f01eec74707445e8b16413a/PKGBUILD#L76).
 
-Here are the [configure-time Clang flags for Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/clang/-/blob/e8801aceb5f717ae9c8477618e7b0485414eee32/PKGBUILD#L79).
+Here are the [configure-time Clang flags for
+Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/clang/-/blob/e8801aceb5f717ae9c8477618e7b0485414eee32/PKGBUILD#L79).
 
-Here are the [configure-time LLVM flags for Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/llvm/-/blob/809803c2eaf4d2c3b526ae77820167d1fab99bb0/PKGBUILD#L81).
+Here are the [configure-time LLVM (Low Level Virtual Machine) flags for
+Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/llvm/-/blob/809803c2eaf4d2c3b526ae77820167d1fab99bb0/PKGBUILD#L81).
 
 ## Alpine
 
 Alpine compiles packages using abuild. The
 [default.conf](https://git.alpinelinux.org/abuild/tree/default.conf?id=8c47dfcfb16619a4943af8f10628d5042d667ec4)
-file has some of the compiler flags used for the distribution.
+file contains the compiler flags used for the distribution.
 
 CFLAGS:
 
@@ -146,13 +151,17 @@ LDFLAGS:
 -Wl,--as-needed,-O1,--sort-common
 ```
 
-[GCC configuration for Alpine](https://gitlab.alpinelinux.org/alpine/aports/-/blob/b6ad59f82c35cd47d5200d5b5919f7ba20c871e3/main/gcc/APKBUILD#L348).
+[GCC configuration for
+Alpine](https://gitlab.alpinelinux.org/alpine/aports/-/blob/b6ad59f82c35cd47d5200d5b5919f7ba20c871e3/main/gcc/APKBUILD#L348).
 
-[Clang configuration for Alpine](https://gitlab.alpinelinux.org/alpine/aports/-/blob/b6ad59f82c35cd47d5200d5b5919f7ba20c871e3/main/clang19/APKBUILD#L85).
+[Clang configuration for
+Alpine](https://gitlab.alpinelinux.org/alpine/aports/-/blob/b6ad59f82c35cd47d5200d5b5919f7ba20c871e3/main/clang19/APKBUILD#L85).
 
-[LLVM configuration for Alpine](https://gitlab.alpinelinux.org/alpine/aports/-/blob/b6ad59f82c35cd47d5200d5b5919f7ba20c871e3/main/llvm19/APKBUILD#L141).
+[LLVM configuration for
+Alpine](https://gitlab.alpinelinux.org/alpine/aports/-/blob/b6ad59f82c35cd47d5200d5b5919f7ba20c871e3/main/llvm19/APKBUILD#L141).
 
-[This discussion has some interesting details](https://gitlab.alpinelinux.org/alpine/tsc/-/issues/64).
+[This discussion has some interesting
+details](https://gitlab.alpinelinux.org/alpine/tsc/-/issues/64).
 
 ## Clear Linux
 
@@ -160,8 +169,10 @@ The [performance section in the
 documentation](https://www.clearlinux.org/clear-linux-documentation/guides/clear/performance.html)
 lays everything out nicely.
 
-- [\_\_global_cflags in macros](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/macros#L538)
-- [optflags in rpmrc](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/rpmrc#L13)
+- [\_\_global_cflags in
+  macros](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/macros#L538)
+- [optflags in
+  rpmrc](https://github.com/clearlinux/clr-rpm-config/blob/fdefdfa05363304f341150cf532137ebd5079a71/rpmrc#L13)
 
 For x86_64, here is what that looks like:
 
@@ -192,20 +203,19 @@ For x86_64, here is what that looks like:
 -Wp,-D_REENTRANT
 ```
 
-There are some interesting things in here. Two flags in particular I
-find really interesting: `-ftrivial-auto-var-init=zero` and
+The configuration contains some interesting flags. Two flags in
+particular I find noteworthy: `-ftrivial-auto-var-init=zero` and
 `-mrelax-cmpxchg-loop`.
 
-`-ftrivial-auto-var-init` is a
-security-related flag. I've heard that both
-ChromiumOS and Android use that flag in some form. Gentoo may add it to
-their hardened builds, at least this is what [this open bug would
-suggest](https://bugs.gentoo.org/913339).
+`-ftrivial-auto-var-init` is a security-related flag. I've heard that
+both ChromiumOS and Android use that flag in some form. Gentoo may add
+it to their hardened builds, at least [this open bug suggests
+so](https://bugs.gentoo.org/913339).
 
 `-mrelax-cmpxchg-loop` relaxes spin loops in certain conditions,
 benefiting thread synchronization. [Here is the GCC bug where it's
 discussed](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=103069). [Intel
-discusses it a little
+discusses it
 here](https://www.intel.com/content/www/us/en/developer/articles/technical/building-innovation-and-performance-with-gcc12.html).
 
 The question of compiler configure-time flags for Clear Linux gets
@@ -232,8 +242,8 @@ packages in [clearlinux-pkgs](https://github.com/clearlinux-pkgs):
   set](https://github.com/clearlinux/autospec/blob/54240261104357e79455574d5b821860e27de60a/autospec/specfiles.py#L634)
   (no doubt [a reference/inside
   joke](https://shlomifish.org/humour/by-others/funroll-loops/Gentoo-is-Rice.html)),
-  `-O3` is added if `use_clang` was also set. Otherwise,
-  `-fno-semantic-interposition` and `-falign-functions=32` are added.
+  `-O3` gets added if `use_clang` was also set. Otherwise,
+  `-fno-semantic-interposition` and `-falign-functions=32` get added.
 
 There's a lot to learn from this distribution.
 
@@ -241,9 +251,9 @@ There's a lot to learn from this distribution.
 
 [dpkg-buildflags](https://manpages.debian.org/bookworm/dpkg-dev/dpkg-buildflags.1.en.html)
 is a Perl script, provided by the `dpkg-dev` package. A lot of the heavy
-lifting is done by the libraries sourced by the script, which are in
-`/usr/share/perl5/Dpkg`. Those libraries are provided by the
-`libdpkg-perl` package (a dependency of `dpkg-dev`).
+lifting gets done by the libraries sourced by the script, which live in
+`/usr/share/perl5/Dpkg`. Those libraries come from the `libdpkg-perl`
+package (a dependency of `dpkg-dev`).
 
 Debian 12 (Bookworm).
 
@@ -340,18 +350,20 @@ Value: -g -O2 -ffile-prefix-map=/home/user=. -fstack-protector-strong -Wformat -
 Origin: vendor
 ```
 
-[Debian's GCC configure-time flags are in this
+[Debian's GCC configure-time flags can be found in this
 file](https://salsa.debian.org/toolchain-team/gcc/-/blob/80e847249c0b608ef570071c27feddd47d7ad74b/debian/rules2#L211),
 stored in the CONFARGS variable.
 
-[Debian's Clang/LLVM configure-time flags](https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/-/blob/d8936ab77b62cf373bf6d3295a4ac4ecb5a56c70/debian/rules).
+[Debian's Clang/LLVM configure-time
+flags](https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/-/blob/d8936ab77b62cf373bf6d3295a4ac4ecb5a56c70/debian/rules).
 
 ## Fedora
 
-Obtained via [RPM
+Obtained via [RPM (Red Hat Package Manager)
 macros](https://docs.fedoraproject.org/en-US/packaging-guidelines/RPMMacros/).
 
-[Build flags docs here](https://src.fedoraproject.org/rpms/redhat-rpm-config/blob/93063bb396395b9a208a2448fdcf55eccf16219e/f/buildflags.md).
+[Build flags docs
+here](https://src.fedoraproject.org/rpms/redhat-rpm-config/blob/93063bb396395b9a208a2448fdcf55eccf16219e/f/buildflags.md).
 
 These commands were run in a Fedora 40 virtual machine.
 
@@ -401,42 +413,46 @@ flags](https://src.fedoraproject.org/rpms/llvm/blob/2d83cf0031e0bb176dcb488a6985
 
 ## Gentoo
 
-`/etc/portage/make.conf`, of course. But there are other flags that are
-implicitly set as well. The settings depend on things like what USE
-flags are set, as an example.
+`/etc/portage/make.conf`. But additional flags get set implicitly as
+well. The settings depend on things like what USE flags get set, as an
+example.
 
-[The build flags mainly seem to be in
+[The build flags mainly live in
 toolchain.eclass](https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/toolchain.eclass?id=8b7d8b342b1379cd768c2d9458bd37ca0540baf3#n768).
-[Gentoo's configure-time flags for GCC are in
+[Gentoo's configure-time flags for GCC live in
 toolchain.eclass](https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/toolchain.eclass?id=8b7d8b342b1379cd768c2d9458bd37ca0540baf3#n1166)
 as well.
 
-The [referenced patches are located here](https://gitweb.gentoo.org/proj/gcc-patches.git/tree/14.2.0/gentoo).
+The [referenced patches can be found
+here](https://gitweb.gentoo.org/proj/gcc-patches.git/tree/14.2.0/gentoo).
 
-[Current GCC](https://gitweb.gentoo.org/repo/gentoo.git/tree/sys-devel/gcc/gcc-14.2.1_p20241116.ebuild?id=8b7d8b342b1379cd768c2d9458bd37ca0540baf3).
+[Current
+GCC](https://gitweb.gentoo.org/repo/gentoo.git/tree/sys-devel/gcc/gcc-14.2.1_p20241116.ebuild?id=8b7d8b342b1379cd768c2d9458bd37ca0540baf3).
 
-[Current Clang](https://gitweb.gentoo.org/repo/gentoo.git/tree/llvm-core/clang/clang-19.1.4.ebuild?id=8b7d8b342b1379cd768c2d9458bd37ca0540baf3).
+[Current
+Clang](https://gitweb.gentoo.org/repo/gentoo.git/tree/llvm-core/clang/clang-19.1.4.ebuild?id=8b7d8b342b1379cd768c2d9458bd37ca0540baf3).
 
-[Current LLVM](https://gitweb.gentoo.org/repo/gentoo.git/tree/llvm-core/llvm/llvm-19.1.6.ebuild?id=8bce482033f18b19b2c57c964e7fb738f2e69985#n371).
+[Current
+LLVM](https://gitweb.gentoo.org/repo/gentoo.git/tree/llvm-core/llvm/llvm-19.1.6.ebuild?id=8bce482033f18b19b2c57c964e7fb738f2e69985#n371).
 
 The [hardened toolchain changes table in
 Project:Toolchain](https://wiki.gentoo.org/wiki/Hardened/Toolchain#Changes)
 is worth mentioning as well.
 
-While on the subject of Gentoo: ChromiumOS is interesting to think
-about. ChromiumOS is the open source base for ChromeOS on Chromebooks;
-it uses Portage, Gentoo's package management system. It probably has
-some cool ideas and developments. I haven't looked into it enough to
-offer insightful commentary on it---I'd have to sift through a lot of
-code to be able to talk about it halfway intelligently.
+While on the subject of Gentoo, ChromiumOS is interesting to think
+about. ChromiumOS is the open source base for ChromeOS on Chromebooks.
+It uses Portage, Gentoo's package management system. I haven't looked
+into it enough to offer insightful commentary on it---I'd have to sift
+through a lot of code to talk about it halfway intelligently.
 
 ## NixOS
 
-I'm making a bit of a presumption here: that NixOS doesn't add
-CFLAGS/CXXFLAGS beyond what nixpkgs does. I don't really see why it
-would, after all, but I felt it was important to note that all the same.
+I'm presuming something here: that NixOS doesn't add CFLAGS/CXXFLAGS
+beyond what nixpkgs does. I don't see why it would, after all, but I
+felt it was important to note that all the same.
 
-[Hardening flags are mentioned here](https://github.com/NixOS/nixpkgs/blob/0f9814b0086f39e6ffdf17ccb9e2de06875a89a5/doc/stdenv/stdenv.chapter.md#hardening-in-nixpkgs-sec-hardening-in-nixpkgs).
+[Hardening flags get mentioned
+here](https://github.com/NixOS/nixpkgs/blob/0f9814b0086f39e6ffdf17ccb9e2de06875a89a5/doc/stdenv/stdenv.chapter.md#hardening-in-nixpkgs-sec-hardening-in-nixpkgs).
 
 Here are the ones used by default at the time of writing (I verified
 this by [copying the .nix file from this
@@ -458,18 +474,21 @@ then built the package):
 -Wl,-z,now
 ```
 
-If `-fzero-call-used-regs=used-gpr` is used, it wasn't printed during the test
-build.
+If `-fzero-call-used-regs=used-gpr` gets used, it wasn't printed during
+the test build.
 
-[GCC nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/gcc/default.nix).
+[GCC
+nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/gcc/default.nix).
 
-[Clang nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/llvm/common/clang/default.nix).
+[Clang
+nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/llvm/common/clang/default.nix).
 
-[LLVM nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/llvm/common/llvm/default.nix).
+[LLVM
+nixpkg](https://github.com/NixOS/nixpkgs/blob/47a040766c7da47a24f7abfae4472866188a9e91/pkgs/development/compilers/llvm/common/llvm/default.nix).
 
 ## OpenBSD
 
-Local changes to their integrated (and old) version of GCC are described
+Local changes to their integrated (and old) version of GCC get described
 in [gcc-local](https://man.openbsd.org/gcc-local). The same applies to
 [clang-local](https://man.openbsd.org/clang-local), although it's a
 current version.
@@ -508,24 +527,24 @@ clang/llvm](https://build.opensuse.org/projects/openSUSE:Factory/packages/llvm/f
 At the time of writing, the relevant versions are 14 and 19,
 respectively.
 
-So, [OpenSUSE's GCC configure-time flags are
+So, [OpenSUSE's GCC configure-time flags can be found
 here](https://build.opensuse.org/projects/devel:gcc/packages/gcc14/files/gcc14.spec?expand=1&rev=51).
 Starts on line 2510.
 
-[OpenSUSE's Clang configure-time flags are
+[OpenSUSE's Clang configure-time flags can be found
 here](https://build.opensuse.org/projects/openSUSE:Factory/packages/llvm19/files/llvm19.spec?expand=1&rev=6).
 Starts on line 1092.
 
 ## Solus
 
-These are sourced from [this GitHub
+These flags come from [this GitHub
 issue](https://github.com/getsolus/packages/issues/124). From what I can
-tell, the flags are set by [ypkg](https://github.com/getsolus/ypkg).
+tell, the flags get set by [ypkg](https://github.com/getsolus/ypkg).
 Specifically,
 [ypkgcontext.py](https://github.com/getsolus/ypkg/blob/f6cc1aab08b5b446a61a9d927b3c2887d15e9928/ypkg2/ypkgcontext.py).
 
 To get the latest flags, I guess one would have to figure out how to get
-ypkg (or some other piece of the Solus build system) to spit them out
+ypkg (or some other piece of the Solus build system) to output them
 somehow. I haven't done so, but it certainly seems possible.
 
 CFLAGS:
@@ -584,9 +603,11 @@ LDFLAGS:
 -Wl,--sort-common
 ```
 
-[Solus' GCC configure-time flags are here](https://github.com/getsolus/packages/blob/c79150396860fbf21e420ce6bfff9d90d50e6436/packages/g/gcc/package.yml#L133).
+[Solus' GCC configure-time flags can be found
+here](https://github.com/getsolus/packages/blob/c79150396860fbf21e420ce6bfff9d90d50e6436/packages/g/gcc/package.yml#L133).
 
-[Solus' Clang/LLVM configure-time flags are here](https://github.com/getsolus/packages/blob/c79150396860fbf21e420ce6bfff9d90d50e6436/packages/l/llvm/package.yml#L493).
+[Solus' Clang/LLVM configure-time flags can be found
+here](https://github.com/getsolus/packages/blob/c79150396860fbf21e420ce6bfff9d90d50e6436/packages/l/llvm/package.yml#L493).
 
 ## Ubuntu
 
@@ -749,9 +770,11 @@ that I figured that out from. [Ditto for
 Clang/LLVM](https://git.launchpad.net/ubuntu/+source/llvm-defaults/tree/debian/rules?h=ubuntu/oracular&id=6914a22e703cf147e4515a4927312fc1dc57346a#n104),
 which appears to be 19.
 
-[Ubuntu's GCC configure-time flags begin here](https://git.launchpad.net/ubuntu/+source/gcc-14/tree/debian/rules2?h=ubuntu/oracular&id=196135dbf5be9bda2e279f90063bd5a6b0a9a9a1#n263).
+[Ubuntu's GCC configure-time flags begin
+here](https://git.launchpad.net/ubuntu/+source/gcc-14/tree/debian/rules2?h=ubuntu/oracular&id=196135dbf5be9bda2e279f90063bd5a6b0a9a9a1#n263).
 
-[Ubuntu's LLVM configure-time flags are here](https://git.launchpad.net/ubuntu/+source/llvm-toolchain-19/tree/debian/rules?h=ubuntu/oracular&id=0c82c471ddfc3a1357374ff67564160a9187145d#n847).
+[Ubuntu's LLVM configure-time flags can be found
+here](https://git.launchpad.net/ubuntu/+source/llvm-toolchain-19/tree/debian/rules?h=ubuntu/oracular&id=0c82c471ddfc3a1357374ff67564160a9187145d#n847).
 
 ## Void
 
@@ -791,9 +814,10 @@ LDFLAGS:
 -Wl,-z,now
 ```
 
-[Void's GCC configure-time flags are here](https://github.com/void-linux/void-packages/blob/4dcad43166c40b08800bad3c6db1deff3ac4105c/srcpkgs/gcc/template#L205).
+[Void's GCC configure-time flags can be found
+here](https://github.com/void-linux/void-packages/blob/4dcad43166c40b08800bad3c6db1deff3ac4105c/srcpkgs/gcc/template#L205).
 
-[Void's Clang configure-time flags are
+[Void's Clang configure-time flags can be found
 here](https://github.com/void-linux/void-packages/blob/4dcad43166c40b08800bad3c6db1deff3ac4105c/srcpkgs/llvm17/template#L7).
 The main version of clang used by the distro can be [found in the llvm
 package
@@ -805,33 +829,33 @@ Here are things I haven't done, and why I haven't done them.
 
 - Reviewing each patch for gcc/clang for compilation flags. I had a look
   at their configure-time flags, but reviewing patches takes more time
-  than I'm comfortable investing in this at the moment.
+  than I want to invest at the moment.
 - Reviewing the configuration and patches of things other than the
   compiler that influence binary execution, such as binutils, libc, etc.
   These aren't really compilation flags, although still interesting. I
-  guess I do make somewhat of an exception for LDFLAGS.
+  guess I do make an exception for LDFLAGS.
 - Reviewing the configuration of every supported compiler. I'm only
-  doing GCC and Clang. I won't include their configure-time flags
-  inline, but I'll link to where they can be found (since the
-  configuration of the compiler is often closely tied to build flags).
+  doing GCC and Clang. I won't include their configure-time flags inline,
+  but I'll link to where they can be found (since the configuration of the
+  compiler often ties closely to build flags).
 - Comparing each architecture per distribution to find architecture
   specific flags. I'm only doing x86_64 for now.
 - Covering every single distribution. Generally speaking, outside of
-  large forks like Ubuntu, I'm mostly interested in independent
-  distributions rather than forks. Mainly because I have a feeling this is
-  where the most difference is likely to be observed.
+  large forks like Ubuntu, I'm interested in independent distributions
+  rather than forks. Mainly because I have a feeling this is where the
+  most difference is likely to be observed.
 - Covering build flags for every compiled language (Rust, Go, etc).
   These are indeed interesting, but my focus is on C/C++, specifically
   CFLAGS and CXXFLAGS.
 
-My approach favored coverage, not extreme precision. I mostly gathered
+My approach favored coverage, not extreme precision. I gathered
 compilation flags that I could find in a configuration file (the
 equivalent of `/etc/portage/make.conf` for other distributions), through
 some light source code reading, or by executing some utility. I had to
-limit myself in some ways because otherwise it was unlikely that I'd be
-able to release this article anytime soon.
+limit myself in some ways because otherwise it was unlikely that I'd
+release this article anytime soon.
 
-So, please don't take what I've written here as gospel. Something being
+Please don't take what I've written here as gospel. Something being
 absent doesn't necessarily prove anything, as the distribution may have
 enabled it in a place that I didn't look. However, something being
 present and reflected in the linked source code _does_ prove that a
@@ -840,15 +864,18 @@ writing.
 
 ## Areas for improvement
 
-- Including more distributions and systems. There are a lot of them
-  to consider and some of them would be a pain to gather flags for (lots
-  of source code review).
+- Including more distributions and systems. There are a lot of them to
+  consider and some of them would be a pain to gather flags for (lots of
+  source code review).
 - Investigating ChromiumOS and Android in particular.
 - Looking more into areas mentioned in the [Caveats section](#caveats)
   (reviewing patches, other toolchain components, etc).
-- Probably many others I haven't thought of.
+- Many others I haven't thought of.
 
 ## Other resources
 
-- [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
-- [compiler-flags-distro](https://github.com/jvoisin/compiler-flags-distro): usage of enabled-by-default hardening-related compiler flags across Linux distributions.
+- [Compiler Options Hardening Guide for C and
+  C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
+- [compiler-flags-distro](https://github.com/jvoisin/compiler-flags-distro):
+  usage of enabled-by-default hardening-related compiler flags across
+  Linux distributions.
