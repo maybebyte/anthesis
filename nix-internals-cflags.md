@@ -38,7 +38,7 @@ to add new items along with details, are welcome as well. Though I'm
 unlikely to add forks of systems already mentioned unless they differ
 enough in content to be interesting.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 
