@@ -1,10 +1,10 @@
 # Why OpenBSD?
 
-Formerly, my thoughts on [OpenBSD](https://www.openbsd.org/) were
-scattered around my website. I'd allude to its strengths when needed.
-However, that approach made my argumentation feel disjointed as a
-result. Overall, it seems more sensible to have a central place to talk
-about these things that can be linked to from elsewhere.
+Previously, I scattered my thoughts on
+[OpenBSD](https://www.openbsd.org/) around my website, alluding to its
+strengths when needed. However, that approach made my argumentation feel
+disjointed as a result. It seems more sensible to have a central place
+to discuss these things.
 
 ## Table of Contents
 
@@ -25,11 +25,12 @@ about these things that can be linked to from elsewhere.
 
 ## Why not OpenBSD?
 
-Firstly, I'd like to bring up the 'dealbreakers.' I wouldn't recommend OpenBSD to those that:
+First, I'd like to bring up the 'dealbreakers.' I wouldn't recommend
+OpenBSD to those that:
 
 - Dislike reading/are unwilling to learn.
 - Prioritize performance above all else.
-- Desire a powerful filesystem like ZFS.
+- Desire a powerful filesystem like ZFS (Z File System).
 - Want all the latest features.
 - Need every task or detail to be abstracted away graphically.
 - Want it to work like `$PREVIOUS_OS`.
@@ -46,8 +47,9 @@ there's less to sift through if something breaks.
 ## Less decision paralysis
 
 One of Linux's strengths is also a grave weakness: the abundance of
-choice. Deciding what implementation to use for a mail/web/DNS/NTP
-server is a task in itself, as there are many out there.
+choice. Deciding what implementation to use for a mail/web/DNS (Domain
+Name System)/NTP (Network Time Protocol) server is a task in itself, as
+there are many out there.
 
 With OpenBSD, one already has a sane, powerful, and secure suite of
 software to choose from, also known as the [base
@@ -70,21 +72,20 @@ pages, and mailing lists, as well as other resources like
 `/etc/examples` and `/usr/local/share/doc/pkg-readmes`, the user isn't
 lacking in ways to understand how the system works under the hood. An
 OpenBSD installation is a didactic environment well-suited to anyone
-with a DIY attitude.
+with a do-it-yourself (DIY) attitude.
 
 ## Security
 
-Of course, no discussion of OpenBSD's strengths would be complete
-without mention of [its focus on
-security](https://www.openbsd.org/security.html).
+No discussion of OpenBSD's strengths would be complete without mention
+of [its focus on security](https://www.openbsd.org/security.html).
 
 One example I like, albeit one not strictly focused on the base system,
-is how Firefox and Tor Browser are packaged with
+is how the OpenBSD project packages Firefox and Tor Browser with
 [`pledge(2)`](https://man.openbsd.org/pledge) and
 [`unveil(2)`](https://man.openbsd.org/unveil) in mind. Speaking to the
 latter system call, there's no reason these browsers should be able to
 read `~/.ssh` or `~/.gnupg`, so they can't. They can only interact with
-whitelisted paths (with permission to read, write, execute, create, or
+allowlisted paths (with permission to read, write, execute, create, or
 any combination thereof, depending on what's stipulated). As a result,
 the amount of damage a malicious extension or browser exploit could
 wreak is much less than usual.
@@ -92,7 +93,7 @@ wreak is much less than usual.
 ## Privacy
 
 `kern.video.record` and `kern.audio.record` are both set to `0` by
-default, meaning that no video or audio can be recorded without
+default, meaning that no video or audio recording can occur without
 permission.
 
 ## Stability
@@ -101,23 +102,28 @@ I mean this both in terms of system stability and how fast things
 change. A constantly changing system is a nightmare to maintain for
 system administrators.
 
-Users can depend on a new release being made available about once every
-6 months. Every new release comes with documentation on changes made and
-how to upgrade, which is a painless process with the
+Users can depend on the project making a new release available about
+once every 6 months. Every new release comes with documentation on
+changes made and how to upgrade, which is a painless process with the
 [`sysupgrade(8)`](https://man.openbsd.org/sysupgrade) tool.
 
 ## Sane defaults
 
 OpenBSD is certainly configurable, but the project's attitudes toward
-knobs is different from some others. OpenBSD tries to set good
-defaults that work for everyone in the hopes that people won't need to
-fiddle around much (the more someone who doesn't totally understand what
+knobs is different from some others. OpenBSD tries to set good defaults
+that work for everyone in the hopes that people won't need to fiddle
+around much (the more someone who doesn't totally understand what
 they're doing changes a system, the more likely they are to break
 something).
 
-Unlike many minimal Linux distributions, time synchronization, cron, log
-rotation, a stateful packet filter/firewall, and local mail delivery are
-all enabled by default on a new OpenBSD installation.
+Unlike many minimal Linux distributions, these services are all enabled
+by default on a new OpenBSD installation:
+
+- time synchronization
+- cron
+- log rotation
+- a stateful packet filter/firewall
+- local mail delivery
 
 ## Versatile
 
