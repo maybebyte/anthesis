@@ -6,17 +6,13 @@ Updated: July 3rd, 2025
 
 As I've used Gentoo, I've become curious about what kinds of interesting
 build flags other systems use to compile their binaries on a global
-level, as well as what configure-time flags they set on GCC and Clang.
-This article collects these flags for some distributions to make them
-easier for me to track down and compare in the future.
+level, as well as what configure-time flags they set on GCC (GNU
+Compiler Collection) and Clang. This article collects these flags for
+some distributions to make them easier for me to track down and compare
+in the future.
 
-Because this is a huge rabbit hole, there are some things I won't be
-doing in the interest of time. They're listed in the [Caveats
-section](#caveats).
-
-Even though this isn't perfect and doesn't list every operating system
-I'm interested in having these details for, I feel I should share what I
-have so far.
+Because this is a rabbit hole, there are some things I won't be doing in
+the interest of time. They're listed in the [Caveats section](#caveats).
 
 Some relevant documentation can be found in these places:
 
@@ -24,19 +20,6 @@ Some relevant documentation can be found in these places:
 - [Clang flag docs](https://clang.llvm.org/docs/ClangCommandLineReference.html)
 - [ld(1)](https://www.man7.org/linux/man-pages/man1/ld.1.html)
   (documents RELRO (RELocation Read-Only), BIND_NOW, etc)
-
-If there's something incorrect here, please let me know, either by
-[contacting me directly](/contact.html) or by [opening an issue on my
-website's GitHub
-repository](https://github.com/maybebyte/anthesis/issues) (the latter
-would be preferred, but either is fine).
-
-I'm definitely open to [pull
-requests](https://github.com/maybebyte/anthesis/pulls), especially to
-fix issues. Pull requests to add missing details to anything listed, or
-to add new items along with details, are welcome as well. Though I'm
-unlikely to add forks of systems already mentioned unless they differ
-enough in content to be interesting.
 
 ## Table of contents
 
