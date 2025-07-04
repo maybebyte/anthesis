@@ -2,6 +2,15 @@
 
 Last updated: July 4th, 2025
 
+## Table of contents
+
+<!-- mtoc-start -->
+
+- [Email](#email)
+- [My public GPG key](#my-public-gpg-key)
+
+<!-- mtoc-end -->
+
 ## Email
 
 You can find my email address stored here in plaintext. I avoid linking
