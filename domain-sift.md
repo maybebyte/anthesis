@@ -10,7 +10,7 @@ contain known malicious or otherwise undesirable domains, and then
 format them in such a way that those domains can be blocked by a
 DNS resolver.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 

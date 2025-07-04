@@ -11,7 +11,7 @@ forward with the new key.
 This transition document is signed by both keys to validate the
 transition.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 

@@ -6,7 +6,7 @@ strengths when needed. However, that approach made my argumentation feel
 disjointed as a result. It seems more sensible to have a central place
 to discuss these things.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 

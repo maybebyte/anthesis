@@ -19,7 +19,7 @@ of even better.
 Also, note that I rarely ever go through this formal of a process. Think
 of it as a collection of ideas that I wanted to organize.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 

@@ -16,7 +16,7 @@ Weaknesses
 : Some security concerns
 : Requires systemd
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 

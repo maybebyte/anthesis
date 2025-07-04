@@ -2,7 +2,7 @@
 
 Last updated: May 3rd, 2023
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 

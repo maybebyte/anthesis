@@ -5,7 +5,7 @@ around and I have some articles planned that I would like to write, though I
 feel it is important to first announce that this website's domain name is
 changing.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 
