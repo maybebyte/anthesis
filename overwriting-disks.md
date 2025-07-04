@@ -139,5 +139,5 @@ pretty basic stuff, and only shows one use case for `pv`. Wacky things
 are possible, like creating tarballs with a progress bar, for instance.
 
 Nothing is wrong with keeping it traditional and using `dd`. I found
-`pv` useful when writing random data to large disks so I could have some
-idea of when the process would end.
+`pv` useful when writing random data to large disks so I had some idea
+of when the process would end.
