@@ -40,5 +40,5 @@ while, and eventually fade away.
 Instead, to flourish means understanding that nothing stays the same and
 embracing these challenges for what they truly represent, rather than
 avoiding or trying to control them. If we only had clear, sunny days,
-there would be no rain. Without rain, there would be no
-growth---essentially, no anthesis.
+there would be no rain. Without rain, there would be no growth---no
+anthesis.
