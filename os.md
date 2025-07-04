@@ -53,7 +53,7 @@ Before my recommendations, here are some resources that I find helpful:
   it uses the answers to a quiz to recommend Linux distributions, except
   I'd say the target audience is more technically inclined.
 - [Distrowatch](https://distrowatch.com/) presents a more visually busy
-  and dense website, to say the least, but it's a decent tool to search
+  and dense website, to say the least. But it's a decent tool to search
   operating systems by category, discover new ones, or read a little about
   what's happening in the Linux world. Note the way they measure
   popularity: the numbers by each distribution reflect how many times
