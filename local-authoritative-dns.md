@@ -4,8 +4,8 @@ _Tested on OpenBSD 7.0_
 
 One meaningful addition to home networks is the ability to refer to
 devices using domain names instead of IP addresses. Domain names are
-more memorable and human readable. Local authoritative DNS allows things
-like this to work:
+more memorable and human readable. Local authoritative DNS (Domain Name
+System) enables things like this to work:
 
     $ host peterepeat
     peterepeat.home.arpa has address 192.168.1.241
@@ -18,13 +18,14 @@ like this to work:
     1 packets transmitted, 1 packets received, 0.0% packet loss
     round-trip min/avg/max/std-dev = 0.395/0.395/0.395/0.000 ms
 
-Understand that this document makes some assumptions. Primarily, that
-there is [a router running OpenBSD](/openbsd-router.html) that serves
-DHCP and DNS with [`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
+This document makes some assumptions. Primarily, that there's [a router
+running OpenBSD](/openbsd-router.html) that serves DHCP (Dynamic Host
+Configuration Protocol) and DNS with
+[`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
 [`unbound(8)`](https://man.openbsd.org/unbound). Local authoritative DNS
-is an extension to this setup.
+extends this setup.
 
-## Table of Contents
+## Table of contents
 
 <!-- mtoc-start -->
 
@@ -38,18 +39,18 @@ is an extension to this setup.
 
 ## RFC8375 (why we use home.arpa.)
 
-Often people will choose a domain name for their home network on a whim,
+Often people choose a domain name for their home network on a whim,
 something like `localdomain` or `lan`. I used `lan` for a while. It
-turns out there is a special-use domain name explicitly reserved for
+turns out there's a specific-use domain name explicitly reserved for
 this purpose: `home.arpa.` ([Check out RFC8375 for more
 information](https://datatracker.ietf.org/doc/html/rfc8375)).
 
-Now that a domain name is decided, let's get to using it.
+Now that we've chosen a domain name, let's configure it.
 
 ## Configuring unbound(8)
 
-Unbound is mostly known as a caching recursive resolver. However, it
-can also serve zones authoritatively,[^1] as indicated by this commented out
+Unbound functions primarily as a caching recursive resolver. But it can
+also serve zones authoritatively,[^1] as shown by this commented out
 section in the default configuration file.
 
     # Serve zones authoritatively from Unbound to resolver clients.
@@ -62,34 +63,33 @@ section in the default configuration file.
 
 I prefer to include a separate file in
 [`unbound.conf(5)`](https://man.openbsd.org/unbound.conf) so that this
-part of the configuration is distinct. Edit
-`/var/unbound/etc/unbound.conf` and place the desired file name in there
+part of the configuration remains distinct. Edit
+`/var/unbound/etc/unbound.conf` and place the desired filename in there
 somewhere.
 
     include: /var/unbound/etc/unbound.conf.lan
 
-After writing those changes, create the included file and add these contents to
-it. Be sure to adjust things as needed. Unbound already includes RFC8375
-support, so only `local-data` and `local-data-ptr` need to be added.
+After writing those changes, create the included file and add these
+contents. Adjust things as needed. Unbound already includes RFC8375
+support, so you only need to add `local-data` and `local-data-ptr`.
 
-    # This is where individual hosts are defined. Both an A record and a PTR
-    # record are needed. It is no coincidence that local-data-ptr is the
-    # reverse of local-data.
+    # Define individual hosts here. Both an A record and a PTR
+    # record are needed. Note that local-data-ptr reverses local-data.
     local-data: "peterepeat.home.arpa. IN A 192.168.1.241"
     local-data-ptr: 192.168.1.241 peterepeat.home.arpa"
 
-Save the file. Check that the syntax is sane (unbound will check the
-syntax of the included file, too).
+Save the file. Check that the syntax is valid (unbound checks the syntax
+of the included file, too).
 
     # unbound-checkconf
     unbound-checkconf: no errors in /var/unbound/etc/unbound.conf
 
 ## Configuring dhcpd(8)
 
-A viable [dhcpd.conf(5)](https://man.openbsd.org/dhcpd.conf) will need
-to declare a domain name and at least one host, in addition to mandatory
-parameters. A working configuration could look like this (note that
-`fixed-address` is given a domain name, not an IP address).
+A viable [dhcpd.conf(5)](https://man.openbsd.org/dhcpd.conf) needs
+to declare a domain name and at least one host, along with mandatory
+parameters. A working configuration looks like this (note that
+`fixed-address` takes a domain name, not an IP address).
 
     subnet 192.168.1.0 netmask 255.255.255.0 {
     	option domain-name "home.arpa";
@@ -123,17 +123,17 @@ automatically based on the host declaration like so.
     	}
     }
 
-Check that dhcpd is happy with the configuration. If there are no
-complaints, we can restart both daemons.
+Check that dhcpd accepts the configuration. If there are no
+complaints, restart both daemons.
 
     # dhcpd -n
     # rcctl restart dhcpd unbound
 
 ## Testing DNS resolution
 
-Obtain a new DHCP lease on the client side (as of OpenBSD 6.9, this can
-be done with [dhcpleasectl(8)](https://man.openbsd.org/dhcpleasectl.8).
-The correct interface will vary).
+Get a new DHCP lease on the client side (as of OpenBSD 6.9, you can
+do this with [dhcpleasectl(8)](https://man.openbsd.org/dhcpleasectl.8).
+The correct interface varies).
 
     # dhcpleasectl re0
 
@@ -146,7 +146,7 @@ Then, try to resolve the new hostname.
 
 ## Querying hosts without a FQDN
 
-This setup works well enough as is, but it may not be possible to query
+This setup works well enough as-is, but you might not be able to query
 hosts without a fully qualified domain name (FQDN) out of the box. Check
 to see if [`host(1)`](https://man.openbsd.org/host) fails with a partial
 hostname.
@@ -154,9 +154,9 @@ hostname.
     $ host peterepeat
     Host peterepeat not found: 3(NXDOMAIN)
 
-This happens because `.home.arpa` is not being appended to `peterepeat`
-before the lookup. The machine trying to perform the lookup needs to
-have this line added to
+This happens because the system doesn't append `.home.arpa` to
+`peterepeat` before the lookup. The machine trying to perform the lookup
+needs to have this line added to
 [`resolv.conf(5)`](https://man.openbsd.org/resolv.conf).
 
     domain home.arpa
@@ -168,7 +168,7 @@ Now things work as expected, saving a few keystrokes.
 
 [^1]:
     [`nsd(8)`](https://man.openbsd.org/nsd) can also fulfill this
-    function if lookups to `home.arpa.` are forwarded to it with unbound,
-    but it's a more involved setup. RFC8375 states that it is permissible
-    to combine the recursive resolver function for general DNS lookups
-    with an authoritative resolver for `home.arpa.`
+    function if you forward lookups to `home.arpa.` to it with unbound, but
+    that's a more involved setup. RFC8375 states that combining the
+    recursive resolver function for general DNS lookups with an
+    authoritative resolver for `home.arpa.` is permissible.
