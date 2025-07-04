@@ -2,6 +2,24 @@
 
 Last updated: July 4th, 2025
 
+## Table of contents
+
+<!-- mtoc-start -->
+
+- [Why metadata matters](#why-metadata-matters)
+- [Beets as a music manager](#beets-as-a-music-manager)
+- [How to install beets](#how-to-install-beets)
+- [How to configure beets](#how-to-configure-beets)
+- [How to import music](#how-to-import-music)
+- [How to query music](#how-to-query-music)
+- [What plugins does beets have?](#what-plugins-does-beets-have)
+  - [Album art with fetchart](#album-art-with-fetchart)
+  - [Genre metadata with lastgenre](#genre-metadata-with-lastgenre)
+- [Cue sheets and how to use them](#cue-sheets-and-how-to-use-them)
+  - [Scripting cue splitting](#scripting-cue-splitting)
+
+<!-- mtoc-end -->
+
 ## Why metadata matters
 
 Tagged music files come with significant benefits. To name just a few:
