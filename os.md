@@ -55,8 +55,8 @@ Before my recommendations, here are some resources that I find helpful:
 - [Distrowatch](https://distrowatch.com/) presents a more visually busy
   and dense website, to say the least. But it's a decent tool to search
   operating systems by category, discover new ones, or read a little about
-  what's happening in the Linux world. Note the way they measure
-  popularity: the numbers by each distribution reflect how many times
+  what's happening in the Linux world. **Note the way they measure
+  popularity**: the numbers by each distribution reflect how many times
   visitors accessed that page on the Distrowatch website in the last 6
   months.
 - [Repology](https://repology.org/) offers a way to search the software
