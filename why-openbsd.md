@@ -54,8 +54,9 @@ as there are many out there.
 With OpenBSD, one already has a sane, powerful, and secure suite of
 software to choose from, also known as the [base
 system](https://why-openbsd.rocks/fact/base-system-concept/). For
-instance, a web server with HTTPS and automated certificate renewal can
-be had with [`httpd(8)`](https://man.openbsd.org/httpd),
+instance, a web server with HyperText Transfer Protocol Secure (HTTPS)
+and automated certificate renewal can be had with
+[`httpd(8)`](https://man.openbsd.org/httpd),
 [`acme-client(1)`](https://man.openbsd.org/acme-client), and
 [`cron(8)`](https://man.openbsd.org/cron), all without installing any
 additional software.

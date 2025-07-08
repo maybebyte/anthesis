@@ -202,8 +202,9 @@ discusses it
 here](https://www.intel.com/content/www/us/en/developer/articles/technical/building-innovation-and-performance-with-gcc12.html).
 
 The question of compiler configure-time flags for Clear Linux gets
-complicated, because they have separate GCC builds for AVX2 and AVX512.
-Here are the [configure-time flags for the main GCC
+complicated, because they have separate GCC builds for Advanced Vector
+Extensions 2 (AVX2) and Advanced Vector Extensions 512 (AVX512) Here are
+the [configure-time flags for the main GCC
 build](https://github.com/clearlinux-pkgs/gcc/blob/fb236130c0cfccd0ab3e3bf7e8e4d3cc6f3bbc70/gcc.spec#L289).
 
 Similar situation for Clang. Here are the [Clear Linux

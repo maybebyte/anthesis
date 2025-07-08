@@ -51,7 +51,7 @@ questions that can help determine exactly what you need.
 
 - Who are the target users and what do they require? Consider their
   accessibility requirements and whether the program fulfills those. User
-  interface (UI) and user experience (UX) considerations most likely fall
+  Interface (UI) and User Experience (UX) considerations most likely fall
   under this category as well.
 
 - What capabilities do you need? Let's say you have a list of web pages
@@ -59,16 +59,15 @@ questions that can help determine exactly what you need.
   those websites remain online may prove useful for other reasons, but it
   won't handle everything you need on its own. You might also need
   features related to tool integration, like the ability to work with
-  certain data formats (JSON, XML), databases (SQL, NoSQL), APIs
-  (Application Programming Interfaces), or other common data exchange
-  systems (standard input and standard output remain among my favorites).
+  certain data formats, databases, Application Programming Interfaces
+  (APIs), or other common data exchange systems.
 
 - What capabilities _aren't_ needed? The simpler a piece of software,
   the fewer places exist in the code for bugs. Perhaps you're thinking of
   creating a blog written in Markdown, one that doesn't need dynamic
   elements like JavaScript or PHP. With this in mind, you could rule out
-  content management systems and start looking at static site
-  generators or Markdown-to-HTML converters instead.
+  content management systems and start looking at static site generators
+  or Markdown to HyperText Markup Language (HTML) converters instead.
 
 - What operating systems and/or environments must the software support?
   Software proves more useful when you can actually install and run it.
