@@ -196,8 +196,8 @@ on the logical volumes.
 
 I ensured that the kernel included support for relevant technologies. In
 my case, this included [LVM](https://wiki.gentoo.org/wiki/LVM),
-[dm-crypt](https://wiki.gentoo.org/wiki/Dm-crypt), and
-[XFS](https://wiki.gentoo.org/wiki/Xfs), as the system needs these
+[dm-crypt](https://wiki.gentoo.org/wiki/Dm-crypt), and [X File System
+(XFS)](https://wiki.gentoo.org/wiki/Xfs), as the system needs these
 during the boot process.
 
 You can choose between `sys-kernel/raspberrypi-sources` and

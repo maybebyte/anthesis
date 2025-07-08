@@ -30,7 +30,7 @@ OpenBSD to those that:
 
 - Dislike reading/are unwilling to learn.
 - Prioritize performance above all else.
-- Desire a powerful filesystem like ZFS (Z File System).
+- Desire a powerful filesystem like Z File System (ZFS).
 - Want all the latest features.
 - Need every task or detail to be abstracted away graphically.
 - Want it to work like `$PREVIOUS_OS`.
@@ -47,9 +47,9 @@ there's less to sift through if something breaks.
 ## Less decision paralysis
 
 One of Linux's strengths is also a grave weakness: the abundance of
-choice. Deciding what implementation to use for a mail/web/DNS (Domain
-Name System)/NTP (Network Time Protocol) server is a task in itself, as
-there are many out there.
+choice. Deciding what implementation to use for a mail, web, Domain Name
+System (DNS), or Network Time Protocol (NTP) server is a task in itself,
+as there are many out there.
 
 With OpenBSD, one already has a sane, powerful, and secure suite of
 software to choose from, also known as the [base
@@ -67,12 +67,12 @@ and ideas developed by the OpenBSD project. Did you know that
 
 ## Great documentation
 
-OpenBSD feels transparent and comprehensible. Between the FAQ, man
-pages, and mailing lists, as well as other resources like
-`/etc/examples` and `/usr/local/share/doc/pkg-readmes`, the user isn't
-lacking in ways to understand how the system works under the hood. An
-OpenBSD installation is a didactic environment well-suited to anyone
-with a do-it-yourself (DIY) attitude.
+OpenBSD feels transparent and comprehensible. Between the Frequently
+Asked Questions (FAQ), man pages, and mailing lists, as well as other
+resources like `/etc/examples` and `/usr/local/share/doc/pkg-readmes`,
+the user isn't lacking in ways to understand how the system works under
+the hood. An OpenBSD installation is a didactic environment well-suited
+to anyone with a Do It Yourself (DIY) attitude.
 
 ## Security
 

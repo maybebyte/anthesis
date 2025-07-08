@@ -69,8 +69,9 @@ languages. Their design allows them to perform the necessary steps on
 their own when given a proper description. In other words, **declarative
 means you describe what the end result should be**.
 
-Let's compare the process of activating a Secure Shell (SSH) service on Arch Linux and
-NixOS to demonstrate the differences between these two paradigms.
+Let's compare the process of activating a Secure Shell (SSH) service on
+Arch Linux and NixOS to demonstrate the differences between these two
+paradigms.
 
 ### Enable SSH imperatively
 

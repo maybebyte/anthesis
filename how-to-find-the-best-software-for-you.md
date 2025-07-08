@@ -88,15 +88,15 @@ questions that can help determine exactly what you need.
   particular matter:
   - Perhaps you need to incorporate some open source code into
     proprietary software, or maybe you favor ease of adoption. In this
-    case, something with a permissive license could work well. MIT
-    (Massachusetts Institute of Technology), BSD (Berkeley Software
-    Distribution), and ISC (Internet Systems Consortium) all fall under
-    the permissive license category.
+    case, something with a permissive license could work well.
+    Massachusetts Institute of Technology (MIT), Berkeley Software
+    Distribution (BSD), and Internet Systems Consortium (ISC) all fall
+    under the permissive license category.
   - If you feel strongly that source code, including any derivative
     works, should always remain open to all, then you may want to consider
-    a copyleft license. GPL (GNU General Public License), AGPL (Affero
-    General Public License), and MPL (Mozilla Public License) all fall
-    under the copyleft license category.
+    a copyleft license. GNU General Public License (GPL), Affero General
+    Public License (AGPL), and Mozilla Public License (MPL) all fall under
+    the copyleft license category.
 
 - What other constraints do you have? These can include factors like
   performance, scalability, user support, compliance with standards and

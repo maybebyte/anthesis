@@ -143,12 +143,12 @@ lightweight alternatives, which proves useful for several reasons:
 - Creating a more minimal system.
 
 I used these commands to guide CFLAGS tweaking to better optimize Gentoo
-in a VM, since virtual machines have limited resources. I use a setup
-where video playback doesn't benefit from hardware acceleration at the
-time of writing (Qubes OS). I wanted to see if this approach could make
-a difference.
+in a Virtual Machine (VM), since VMs have limited resources. I use a
+setup where video playback doesn't benefit from hardware acceleration at
+the time of writing (Qubes OS). I wanted to see if this approach could
+make a difference.
 
-I think I managed to gain a few FPS (frames per second) from this, but I
+I think I managed to gain a few Frames Per Second (FPS) from this, but I
 didn't benchmark it beyond comparing frame timings in mpv. The gain was
 relatively minor (<=10fps).
 

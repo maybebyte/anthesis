@@ -2,7 +2,7 @@
 
 _Tested on OpenBSD 6.8_
 
-**NOTE** (2023-07-22): the [APU (Accelerated Processing Unit) platform
+**NOTE** (2023-07-22): the [Accelerated Processing Unit (APU) platform
 is end-of-life](https://pcengines.ch/eol.htm). This article may need
 updating, though many principles still apply. Proceed with caution.
 
@@ -22,8 +22,8 @@ updating, though many principles still apply. Proceed with caution.
 ## Foreword
 
 Consumer routers are riddled with security problems. Between 1999 and
-2017, researchers disclosed 600 CVEs (Common Vulnerabilities and
-Exposures) for router software---and those represent only the public
+2017, researchers disclosed 600 Common Vulnerabilities and Exposures
+(CVEs) for router software---and those represent only the public
 vulnerabilities. The paper ["So You Think Your Router Is
 Safe?"](https://repository.stcloudstate.edu/cgi/viewcontent.cgi?article=1067&context=msia_etds)
 addresses this subject well.
@@ -101,13 +101,13 @@ Complete the usual tasks (read
 [`afterboot(8)`](https://man.openbsd.org/afterboot), check system mail,
 etc.). After that, you need to implement several components:
 
-- A [firewall, DHCP (Dynamic Host Configuration Protocol) server, and
-  DNS (Domain Name System)
+- A [firewall, Dynamic Host Configuration Protocol (DHCP) server, and
+  Domain Name System (DNS)
   server](https://www.openbsd.org/faq/pf/example1.html). See my
   [pf.conf](/src/sysadm/file/examples/openbsd/pf.conf.html).
 - A way to connect to the Internet, which varies between providers. For
-  some, you may need a PPPoE connection. See
-  [`pppoe(4)`](https://man.openbsd.org/pppoe).
+  some, you may need a Point-To-Point Protocol over Ethernet (PPPoE)
+  connection. See [`pppoe(4)`](https://man.openbsd.org/pppoe).
 
 You can also add these components:
 
@@ -115,7 +115,7 @@ You can also add these components:
   interfaces](https://www.openbsd.org/faq/faq6.html#Bridge). As of 6.9, I
   use [`veb(4)`](https://man.openbsd.org/veb) with good results.
 - [IPv6](https://lipidity.com/openbsd/router/), depending on your use
-  case and whether your ISP (Internet Service Provider) supports it.
+  case and whether your Internet Service Provider (ISP) supports it.
 - DNS sinkhole with [`unbound(8)`](https://man.openbsd.org/unbound), see
   [Creating a DNS sinkhole with Perl and unbound(8)](/dns-sinkhole.html).
 - Authoritative DNS for devices on the home network with the special-use

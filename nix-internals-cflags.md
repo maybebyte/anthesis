@@ -6,10 +6,10 @@ Updated: July 3rd, 2025
 
 As I've used Gentoo, I've become curious about what kinds of interesting
 build flags other systems use to compile their binaries on a global
-level, as well as what configure-time flags they set on GCC (GNU
-Compiler Collection) and Clang. This article collects these flags for
-some distributions to make them easier for me to track down and compare
-in the future.
+level, as well as what configure-time flags they set on GNU Compiler
+Collection (GCC) and Clang. This article collects these flags for some
+distributions to make them easier for me to track down and compare in
+the future.
 
 Because this is a rabbit hole, there are some things I won't be doing in
 the interest of time. They're listed in the [Caveats section](#caveats).
@@ -19,7 +19,7 @@ Some relevant documentation can be found in these places:
 - [GCC flag docs](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
 - [Clang flag docs](https://clang.llvm.org/docs/ClangCommandLineReference.html)
 - [ld(1)](https://www.man7.org/linux/man-pages/man1/ld.1.html)
-  (documents RELRO (RELocation Read-Only), BIND_NOW, etc)
+  (documents RELocation Read-Only (RELRO), BIND_NOW, etc)
 
 ## Table of contents
 
@@ -98,7 +98,7 @@ Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/blob/5d3fc
 Here are the [configure-time Clang flags for
 Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/clang/-/blob/e8801aceb5f717ae9c8477618e7b0485414eee32/PKGBUILD#L79).
 
-Here are the [configure-time LLVM (Low Level Virtual Machine) flags for
+Here are the [configure-time Low Level Virtual Machine (LLVM) flags for
 Arch](https://gitlab.archlinux.org/archlinux/packaging/packages/llvm/-/blob/809803c2eaf4d2c3b526ae77820167d1fab99bb0/PKGBUILD#L81).
 
 ## Alpine
@@ -342,7 +342,7 @@ flags](https://salsa.debian.org/pkg-llvm-team/llvm-toolchain/-/blob/d8936ab77b62
 
 ## Fedora
 
-Obtained via [RPM (Red Hat Package Manager)
+Obtained via [Red Hat Package Manager (RPM)
 macros](https://docs.fedoraproject.org/en-US/packaging-guidelines/RPMMacros/).
 
 [Build flags docs

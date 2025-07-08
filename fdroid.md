@@ -4,8 +4,8 @@
 recommend F-Droid as an app store as of 2023-04-18. Please see [F-Droid
 Security
 Issues](https://privsec.dev/posts/android/f-droid-security-issues/).
-These days I prefer to [update apps via RSS (Really Simple
-Syndication)](https://www.privacyguides.org/en/android/#manually-with-rss-notifications)
+These days I prefer to [update apps via Really Simple Syndication
+(RSS)](https://www.privacyguides.org/en/android/#manually-with-rss-notifications)
 instead.
 
 I may rewrite this post or delete it later, but I felt I should at least
@@ -33,13 +33,13 @@ From the [F-Droid website](https://www.f-droid.org/):
 - [ImagePipe](https://f-droid.org/en/packages/de.kaffeemitkoffein.imagepipe/)
   or [Scrambled
   Exif](https://f-droid.org/en/packages/com.jarsilio.android.scrambledeggsif/).
-  Both apps remove EXIF (Exchangeable Image File Format) data, metadata in
+  Both apps remove Exchangeable Image File Format (EXIF) data, metadata in
   photos that can reveal personal information, before you send pictures.
   Despite serving a similar purpose, the two apps differ in implementation
   and features. Notably, ImagePipe also reduces image size (though it
   keeps the original unaltered and stores the changed copy in a separate
   folder), which may or may not be desirable depending on your use case.
-- [KISS (Keep It Simple, Stupid)
+- [Keep It Simple, Stupid (KISS)
   Launcher](https://f-droid.org/en/packages/fr.neamar.kiss/). I find that
   pinning a few choice apps and searching for the rest with KISS Launcher
   provides a more pleasant experience relative to the default
@@ -76,6 +76,6 @@ From the [F-Droid website](https://www.f-droid.org/):
   phone starts ringing on Android 7+.
 - [UntrackMe](https://f-droid.org/en/packages/app.fedilab.nitterizeme/).
   UntrackMe transforms certain links, such as YouTube, Twitter, and
-  Instagram, to point at a FLOSS (Free/Libre and Open Source Software)
+  Instagram, to point at a Free/Libre and Open Source Software (FLOSS)
   privacy respecting alternative. In the case of Twitter, it changes the
   domain to a Nitter instance.

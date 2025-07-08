@@ -127,8 +127,8 @@ Void uses it by default.
 
 ## Simple, stable, and follows the Unix philosophy
 
-[OpenBSD](https://www.openbsd.org/) represents a BSD (Berkeley Software
-Distribution) system that has a strong focus on security, portability,
+[OpenBSD](https://www.openbsd.org/) is a Berkeley Software Distribution
+(BSD) system that has a strong focus on security, portability,
 simplicity, and correctness. OpenBSD features some of the best
 documentation of any project I've used, and it introduced me to a lot of
 software that I still admire to this day. For me, it remains unmatched

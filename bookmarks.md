@@ -25,8 +25,8 @@ sections coming over time.
 
 ### Typography and fonts
 
-- [Modern Font Stacks](https://modernfontstacks.com). System font
-  stack CSS organized by typeface classification.
+- [Modern Font Stacks](https://modernfontstacks.com). System font stack
+  Cascading Style Sheets (CSS), organized by typeface classification.
 - [System font stack](https://systemfontstack.com). The fastest fonts
   available. No downloading, no layout shift, no invisible text.
 - [Wakamai Fondue](https://wakamaifondue.com/). The tool that answers

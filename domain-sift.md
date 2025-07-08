@@ -1,15 +1,15 @@
 # domain-sift: extract and format domains
 
-Last updated: July 4th, 2025
+Last updated: July 8th, 2025
 
 `domain-sift` is a Perl script that extracts unique domains from at
 least one provided file and prints them to standard output in a given
-format. If you don't provide a file, `domain-sift` reads from standard
-input (STDIN) instead.
+format. If you don't provide a file, `domain-sift` reads from Standard
+Input (STDIN) instead.
 
 One use of this utility: extract domains from blocklists that contain
 known malicious or otherwise undesirable domains, then format them so
-that a DNS (Domain Name System) resolver can block those domains.
+that a Domain Name System (DNS) resolver can block those domains.
 
 ## Table of contents
 
@@ -197,7 +197,7 @@ formatting them. It doesn't fetch blocklists or provide them.
 The design explicitly includes this limitation for a few reasons:
 
 1.  It follows the Unix philosophy: do one thing well; read from a file
-    or STDIN; print to standard output (STDOUT).
+    or STDIN; print to Standard Output (STDOUT).
 
 2.  It lets `domain-sift` use minimal
     [`pledge(2)`](https://man.openbsd.org/pledge) promises through

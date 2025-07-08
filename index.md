@@ -6,8 +6,9 @@ systems. I often discuss topics related to
 [OpenBSD](https://www.openbsd.org).
 
 Please feel free to explore as much as you like, and remember to
-[subscribe to my RSS (Really Simple Syndication) feed](https://www.anthes.is/rss.xml)
-so you get updated when new content is released.
+[subscribe to my Really Simple Syndication (RSS)
+feed](https://www.anthes.is/rss.xml) so you get updated when new content
+is released.
 
 ## Articles
 

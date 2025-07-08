@@ -45,7 +45,7 @@ exist.
 
 When overwriting disks with little storage capacity, the lack of
 progress bar isn't pressing because the operation doesn't take long. For
-larger disks, an estimated time of arrival (ETA) proves invaluable. I
+larger disks, an Estimated Time of Arrival (ETA) proves invaluable. I
 like [`pv`](http://ivarch.com/programs/pv.shtml) for this task.
 
 Install `pv` as a package.

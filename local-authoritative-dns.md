@@ -4,8 +4,8 @@ _Tested on OpenBSD 7.0_
 
 One meaningful addition to home networks is the ability to refer to
 devices using domain names instead of IP addresses. Domain names are
-more memorable and human readable. Local authoritative DNS (Domain Name
-System) enables things like this to work:
+more memorable and human readable. Local authoritative Domain Name
+System (DNS) enables things like this to work:
 
     $ host peterepeat
     peterepeat.home.arpa has address 192.168.1.241
@@ -19,8 +19,8 @@ System) enables things like this to work:
     round-trip min/avg/max/std-dev = 0.395/0.395/0.395/0.000 ms
 
 This document makes some assumptions. Primarily, that there's [a router
-running OpenBSD](/openbsd-router.html) that serves DHCP (Dynamic Host
-Configuration Protocol) and DNS with
+running OpenBSD](/openbsd-router.html) that serves Dynamic Host
+Configuration Protocol (DHCP) and DNS with
 [`dhcpd(8)`](https://man.openbsd.org/dhcpd) and
 [`unbound(8)`](https://man.openbsd.org/unbound). Local authoritative DNS
 extends this setup.
@@ -147,7 +147,7 @@ Then, try to resolve the new hostname.
 ## Querying hosts without a FQDN
 
 This setup works well enough as-is, but you might not be able to query
-hosts without a fully qualified domain name (FQDN) out of the box. Check
+hosts without a Fully-Qualified Domain Name (FQDN) out of the box. Check
 to see if [`host(1)`](https://man.openbsd.org/host) fails with a partial
 hostname.
 
