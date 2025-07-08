@@ -21,9 +21,9 @@ cons.
 
 - **Learning more about system administration and software stacks** by
   building it yourself. Few teachers beat hands-on experience. When I
-  first started, I didn't even know what an A record was (for those who
-  don't already know, an A record is a Domain Name System (DNS) record
-  that maps a domain to an IP address).
+  first started, I didn't even know what the term "A record" meant (for
+  those who don't already know, an A record refers to a Domain Name System
+  (DNS) record that maps a domain to an IP address).
 - **Control and choice.** For instance, you can decide what operating
   system to use. Often many software choices exist for a particular
   use case, and you can control the configuration details.
