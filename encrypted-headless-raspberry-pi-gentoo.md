@@ -36,10 +36,11 @@ installing Gentoo.
 Here are the components my setup uses:
 
 - Raspberry Pi 4 Model B, Revision 1.2
-- USB to UART (Universal Asynchronous Receiver/Transmitter) serial cable
+- Universal Serial Bus (USB) to Universal Asynchronous
+  Receiver/Transmitter (UART) serial cable
 - Argon One M.2 case
-- NVMe SSD (Solid State Drive)
-- microSD card
+- Non-Volatile Memory Express (NVMe) Solid State Drive (SSD)
+- Micro Secure Digital (microSD) card
 
 I could have used a monitor and keyboard instead of a serial connection.
 This would have been easier overall. Since I planned to use the
@@ -66,9 +67,9 @@ tasks correctly:
 1. Download the firmware, place it in the appropriate locations, and
    create symbolic links. [The Gentoo wiki covers this
    process](https://wiki.gentoo.org/wiki/Raspberry_Pi_Install_Guide#Installing_the_Raspberry_Pi_Foundation_files).
-   I found that referencing the Raspberry Pi OS directory listing for
-   `/usr/lib/firmware/brcm/` helped me understand the symbolic link naming
-   scheme.
+   I found that referencing the Raspberry Pi Operating System (OS)
+   directory listing for `/usr/lib/firmware/brcm/` helped me understand the
+   symbolic link naming scheme.
 
    Here's what a working `/usr/lib/firmware/brcm/` looks like for me
    (though note that I haven't tested bluetooth):
@@ -122,7 +123,7 @@ didn't exist. I would need to run `emerge-webrsync` to get it, which
 requires networking.
 
 What worked for me was to plug the microSD card into a USB adapter,
-mount the root filesystem on my laptop, create a [QEMU (Quick Emulator)
+mount the root filesystem on my laptop, create a [Quick Emulator (QEMU)
 chroot](https://wiki.gentoo.org/wiki/Embedded_Handbook/General/Compiling_with_QEMU_user_chroot),
 and then compile the software I needed inside the chroot using my
 laptop's networking.
@@ -141,8 +142,8 @@ To get the serial console working, I completed these steps:
 
    Note that the order matters because whichever `console=` entry
    appears last becomes the destination for `/dev/console`. I discovered
-   this because mine were in the wrong order and the LUKS (Linux Unified
-   Key Setup) decryption prompt, as well as OpenRC output, never
+   this because mine were in the wrong order and the Linux Unified Key
+   Setup (LUKS) decryption prompt, as well as OpenRC output, never
    appeared on my serial console.
 
    More information is available at the [kernel.org documentation for
@@ -167,11 +168,11 @@ To get the serial console working, I completed these steps:
 At this point, I had a fully functioning Gentoo installation with
 wireless networking and serial console access on the microSD card. The
 next challenge was transferring the root filesystem to an encrypted SSD
-(Solid State Drive) and getting it working.
+and getting it working.
 
 The approach I used involves having the Raspberry Pi 4B read firmware
-files and everything else needed to boot from the unencrypted EFI
-(Extensible Firmware Interface) partition on the microSD card.
+files and everything else needed to boot from the unencrypted Extensible
+Firmware Interface (EFI) partition on the microSD card.
 `/boot/config.txt` and `/boot/cmdline.txt` contain configuration entries
 and parameters relevant to the boot process.
 
@@ -184,7 +185,7 @@ performed a [memory cell
 clearing](https://wiki.archlinux.org/title/SSD_Memory_Cell_Clearing)
 (also known as "secure erase").
 
-After that, I created a [LUKS volume with LVM (Logical Volume Manager)
+After that, I created a [LUKS volume with Logical Volume Manager (LVM)
 inside
 it](https://wiki.archlinux.org/title/Full_disk_encryption#LVM_on_LUKS)
 on the SSD. Then I [created
@@ -195,9 +196,8 @@ on the logical volumes.
 
 I ensured that the kernel included support for relevant technologies. In
 my case, this included [LVM](https://wiki.gentoo.org/wiki/LVM),
-[dm-crypt](https://wiki.gentoo.org/wiki/Dm-crypt), and [XFS (a
-high-performance journaling file
-system)](https://wiki.gentoo.org/wiki/Xfs), as the system needs these
+[dm-crypt](https://wiki.gentoo.org/wiki/Dm-crypt), and
+[XFS](https://wiki.gentoo.org/wiki/Xfs), as the system needs these
 during the boot process.
 
 You can choose between `sys-kernel/raspberrypi-sources` and

@@ -46,7 +46,7 @@ sections coming over time.
 - [Advanced Perceptual Contrast Algorithm (APCA) Calculator](https://apcacontrast.com).
   Next-generation contrast calculator.
 - [WebAIM Color Contrast Checker](https://webaim.org/resources/contrastchecker/).
-  Verify color contrast ratios for WCAG (Web Content Accessibility Guidelines) compliance.
+  Verify color contrast ratios for Web Content Accessibility Guidelines (WCAG) compliance.
 - [Whocanuse](https://www.whocanuse.com). See how color choices affect
   people with different vision types.
 - [Oklab Lightness Chroma Hue (OKLCH) Color Picker](https://oklch.com).

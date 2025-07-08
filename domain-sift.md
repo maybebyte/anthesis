@@ -159,8 +159,8 @@ rpz:
 ```
 
 NOTE: `rpz.home.arpa` serves as an example. The name entry may be
-different in your case. In a local area network (LAN) where Unbound
-runs on the gateway/router, make sure that a `local-data` entry exists
+different in your case. In a Local Area Network (LAN) where Unbound runs
+on the gateway/router, make sure that a `local-data` entry exists
 somewhere so that the name you chose resolves. Something like this
 should work:
 
@@ -197,7 +197,7 @@ formatting them. It doesn't fetch blocklists or provide them.
 The design explicitly includes this limitation for a few reasons:
 
 1.  It follows the Unix philosophy: do one thing well; read from a file
-    or STDIN; print to STDOUT.
+    or STDIN; print to standard output (STDOUT).
 
 2.  It lets `domain-sift` use minimal
     [`pledge(2)`](https://man.openbsd.org/pledge) promises through
@@ -232,5 +232,5 @@ $ rcctl get unbound timeout
 
 This software is Copyright © 2023 by Ashlen.
 
-This software uses the ISC License (Internet Systems Consortium
+This software uses the Internet Systems Consortium License (ISC
 License). For more details, see the `LICENSE` file in the project root.

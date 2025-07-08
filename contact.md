@@ -22,9 +22,9 @@ emails.
 
 ## My public GPG key
 
-I prefer to receive email encrypted with [GPG](https://www.gnupg.org/)
-(GNU Privacy Guard) when possible so that the contents remain private.
-But you can send unencrypted email to me as well.
+I prefer to receive email encrypted with [GNU Privacy Guard
+(GPG)](https://www.gnupg.org/) when possible so that the contents remain
+private. But you can send unencrypted email to me as well.
 
 Here is the fingerprint for [my public
 key](/pubkeys/F1B59F496EE704B0.asc) if you know how to

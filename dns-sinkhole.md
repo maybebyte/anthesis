@@ -34,8 +34,9 @@ A Domain Name System (DNS) sinkhole is a domain name server that doesn't
 perform domain name resolution for certain domains (typically those that
 contain undesired content, such as trackers, malware, and ads).
 
-Ordinarily, a client asks for the IP address associated with a domain
-and the configured DNS server provides it. Here, the [canary domain
+Ordinarily, a client asks for the Internet Protocol (IP) address
+associated with a domain and the configured DNS server provides it.
+Here, the [canary domain
 "use-application-dns.net"](https://support.mozilla.org/en-US/kb/canary-domain-use-application-dnsnet)
 serves as an example.
 
@@ -46,9 +47,9 @@ serves as an example.
 
 Domains provide a human-readable way to represent one or more IP
 addresses, and DNS forms one part of a larger system for communications.
-On a website, for instance, TCP/IP enables a client to access the
-resources on the web server, and DNS merely provides the road map that
-shows how to get there.
+On a website, for instance, TCP/IP (Transmission Control Protocol/
+Internet Protocol) enables a client to access the resources on the web
+server. DNS merely provides the road map that shows how to get there.
 
 A DNS sinkhole refuses to provide answers for certain domains. Since the
 client trying to connect doesn't know the IP address of the server to
@@ -297,8 +298,8 @@ useless.
 
 You can still circumvent these measures even with firewall rules in
 place. Encrypting outgoing traffic to be later decrypted with something
-like a Virtual Private Network (VPN), SSH tunnel, or Tor accomplishes
-this.
+like a Virtual Private Network (VPN), Secure Shell (SSH) tunnel, or Tor
+accomplishes this.
 
 [^1]:
     Please note that theoretically nothing prevents the client from
