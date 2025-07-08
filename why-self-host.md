@@ -1,6 +1,6 @@
 # Benefits and drawbacks of self-hosting
 
-Last updated: July 3rd, 2025
+Last updated: July 7th, 2025
 
 As someone who has run many services for a while now, I feel I can speak
 to the advantages and disadvantages of self-hosting. In my case, the
@@ -21,9 +21,10 @@ themselves.
 
 - **Learning more about system administration and software stacks** by
   building it yourself. Few teachers beat hands-on experience. When I
-  first started, I didn't even know what an A record was (a Domain Name
-  System, or DNS, record that maps a domain to an IP address). Now I
-  know much more about networking and cybersecurity.
+  first started, I didn't even know what an A record was (for those who
+  don't already know, an A record is a DNS (Domain Name System) record
+  that maps a domain to an IP address). Now I know much more about
+  networking and cybersecurity.
 - **Control and choice.** For instance, you can decide what operating
   system to use. Often multiple software choices exist for particular use
   cases (web servers immediately come to mind), and you control all the
