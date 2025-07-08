@@ -1,6 +1,6 @@
 # How to contact me
 
-Last updated: July 4th, 2025
+Last updated: July 7th, 2025
 
 ## Table of contents
 
@@ -14,8 +14,9 @@ Last updated: July 4th, 2025
 ## Email
 
 You can find my email address stored here in plaintext. I avoid linking
-to it directly as a basic form of spam mitigation (otherwise the average
-bot can scrape the page contents and try to send me unwanted emails).
+to it directly as a basic form of spam mitigation. Otherwise, the
+average bot can scrape the page contents and try to send me unwanted
+emails.
 
     https://www DOT anthes DOT is/roAJVp7qzs.txt
 
