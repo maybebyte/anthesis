@@ -1,6 +1,6 @@
 # Firefox keyword search: bookmark method
 
-Last updated: July 4th, 2025
+Last updated: July 8th, 2025
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ Last updated: July 4th, 2025
 Many people use a search engine to navigate the Internet, but not
 everyone knows about Firefox keyword search. This feature lets you
 assign keywords to bookmarks so that you can query virtually any site
-with ease.^([note 1](#fn1)) Read on to learn how to set it up.
+with ease.[^1] Read on to learn how to set it up.
 
 ## Why use bookmark keywords?
 
@@ -72,7 +72,6 @@ You can edit your regular bookmarks in the same way to navigate to any
 site in a couple of keystrokes. Note that because there's no query to
 make, you only type in the keyword itself.
 
----
-
-1.  Pretty much anything based on Firefox can add keywords to bookmarks
-    as well. This includes Tor Browser. [↩ (go back)](#fnref1)
+[^1]:
+    Pretty much anything based on Firefox can add keywords to bookmarks
+    as well. This includes Tor Browser.
