@@ -17,6 +17,7 @@ sections coming over time.
   - [Color and accessibility](#color-and-accessibility)
   - [CSS and standards](#css-and-standards)
   - [Articles and guides](#articles-and-guides)
+  - [Static Site Generators](#static-site-generators)
   - [Research and studies](#research-and-studies)
 
 <!-- mtoc-end -->
@@ -82,6 +83,14 @@ sections coming over time.
 - [The Equilateral Triangle of a Perfect Paragraph](https://css-tricks.com/equilateral-triangle-perfect-paragraph/).
   Typography theory explaining how font-size, line-height, and line
   width work together.
+
+### Static Site Generators
+
+- [Jamstack Static Site Generators (SSGs)
+  list](https://jamstack.org/generators/). Comprehensive list of open
+  source SSGs with optional filters for programming language, template, and license.
+- [ssg](https://romanzolotarev.com/ssg.html). Minimal static site
+  generator written in shell.
 
 ### Research and studies
 
