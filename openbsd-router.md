@@ -111,7 +111,7 @@ etc.). After that, you need to implement several components:
 
 You can also add these components:
 
-- Many use cases require a [network bridge for ethernet
+- Many use cases require a [network bridge for Ethernet
   interfaces](https://www.openbsd.org/faq/faq6.html#Bridge). As of 6.9, I
   use [`veb(4)`](https://man.openbsd.org/veb) with good results.
 - [IPv6](https://lipidity.com/openbsd/router/), depending on your use
