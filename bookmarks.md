@@ -2,7 +2,7 @@
 
 Published: June 17th, 2025
 
-Updated: July 3rd, 2025
+Updated: July 11th, 2025
 
 A curated collection of tools and resources that have proven genuinely
 useful. These focus on web development and design currently, with more
@@ -97,11 +97,15 @@ sections coming over time.
   Hugo's Go templates.
 
 ### Scalable Vector Graphics (SVG) utilities
+
 - [usvg](https://github.com/linebender/resvg/tree/main/crates/usvg). SVG
   simplification tool written in Rust that converts complex SVGs to
   simplified representations while maintaining validity.
 - [svgo](https://github.com/svg/svgo). Node.js-based SVG optimizer that
   removes redundant metadata and elements to reduce file size.
+- [rsvg-convert](https://github.com/GNOME/librsvg/blob/main/rsvg-convert.rst).
+  Command-line SVG renderer using Cairo that converts SVGs to other
+  formats with high-quality output.
 
 ### Research and studies
 
