@@ -15,9 +15,10 @@ sections coming over time.
 - [Web development and design](#web-development-and-design)
   - [Typography and fonts](#typography-and-fonts)
   - [Color and accessibility](#color-and-accessibility)
-  - [CSS and standards](#css-and-standards)
+  - [Cascading Style Sheets (CSS) and standards](#cascading-style-sheets-css-and-standards)
   - [Articles and guides](#articles-and-guides)
-  - [Static Site Generators](#static-site-generators)
+  - [Static Site Generators (SSGs)](#static-site-generators-ssgs)
+  - [Scalable Vector Graphics (SVG) utilities](#scalable-vector-graphics-svg-utilities)
   - [Research and studies](#research-and-studies)
 
 <!-- mtoc-end -->
@@ -27,7 +28,7 @@ sections coming over time.
 ### Typography and fonts
 
 - [Modern Font Stacks](https://modernfontstacks.com). System font stack
-  Cascading Style Sheets (CSS), organized by typeface classification.
+  CSS, organized by typeface classification.
 - [System font stack](https://systemfontstack.com). The fastest fonts
   available. No downloading, no layout shift, no invisible text.
 - [Wakamai Fondue](https://wakamaifondue.com/). The tool that answers
@@ -57,7 +58,7 @@ sections coming over time.
 - [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/).
   Generate Material Design 3 color schemes from seed colors.
 
-### CSS and standards
+### Cascading Style Sheets (CSS) and standards
 
 - [Browser Default Styles](https://browserdefaultstyles.com/). Search
   and compare default CSS styles across browsers.
@@ -84,13 +85,23 @@ sections coming over time.
   Typography theory explaining how font-size, line-height, and line
   width work together.
 
-### Static Site Generators
+### Static Site Generators (SSGs)
 
-- [Jamstack Static Site Generators (SSGs)
-  list](https://jamstack.org/generators/). Comprehensive list of open
-  source SSGs with optional filters for programming language, template, and license.
+- [Jamstack SSGs list](https://jamstack.org/generators/). Comprehensive
+  list of open source SSGs with optional filters for programming language,
+  template, and license.
 - [ssg](https://romanzolotarev.com/ssg.html). Minimal static site
   generator written in shell.
+- [Zola](https://www.getzola.org). Rust-based static site generator
+  using Tera templating engine, designed as an intuitive alternative to
+  Hugo's Go templates.
+
+### Scalable Vector Graphics (SVG) utilities
+- [usvg](https://github.com/linebender/resvg/tree/main/crates/usvg). SVG
+  simplification tool written in Rust that converts complex SVGs to
+  simplified representations while maintaining validity.
+- [svgo](https://github.com/svg/svgo). Node.js-based SVG optimizer that
+  removes redundant metadata and elements to reduce file size.
 
 ### Research and studies
 
