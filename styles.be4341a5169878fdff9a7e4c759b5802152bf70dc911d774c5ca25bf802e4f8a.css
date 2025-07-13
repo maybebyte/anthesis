@@ -264,6 +264,8 @@ var {
   --code-block-bg-color: #eee2da;
   --code-block-fg-color: #100601;
   --heading-fg-color: #53453c;
+  --hr-color: #53453c;
+  --footer-fg-color: #3f3229;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -275,6 +277,8 @@ var {
     --code-block-bg-color: #353945;
     --code-block-fg-color: #eaf0fe;
     --heading-fg-color: #ced3e0;
+    --hr-color: #ced3e0;
+    --footer-fg-color: #d9deed;
   }
 }
 
@@ -297,7 +301,8 @@ dl,
 ol,
 ul,
 pre,
-menu {
+menu,
+hr {
   margin: 1em 0;
 }
 
@@ -314,10 +319,6 @@ menu {
 
 dd {
   margin-left: 2.5em;
-}
-
-hr {
-  margin: 0.5em 0;
 }
 
 ul ul,
@@ -493,4 +494,21 @@ form :focus {
   [tabindex="0"]:focus:not(:focus-visible) {
     outline: none;
   }
+}
+
+footer {
+  margin-top: 2.5em;
+  font-size: 0.9375em;
+  color: var(--footer-fg-color);
+}
+footer code {
+  color: var(--footer-fg-color);
+  word-break: break-all;
+}
+footer hr {
+  margin-bottom: 1.25em;
+  background-color: var(--hr-color);
+  height: 2px;
+  border: none;
+  opacity: 0.2;
 }
