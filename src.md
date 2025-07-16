@@ -1,7 +1,11 @@
 # Projects I'm working on
 
-I publish the source code of my projects here, and also on GitHub since
-it's a familiar interface to many.
+**NOTE (2025-07-16)**: Not all projects are currently available on
+anthes.is. I aim to fix this in the future, but for now you can visit
+[my GitHub page](https://github.com/maybebyte) if you want to explore
+all the code I've published online.
+
+I publish the source code of my projects here and on GitHub.
 
 Here, [stagit](https://github.com/oxalorg/stagit) generates HyperText
 Markup Language (HTML) pages from git repositories.
