@@ -1,0 +1,20 @@
+{
+  "name": "anthes.is",
+  "short_name": "anthes.is",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.a0cc65b93093379f34d1c8e8e094b2fbda082a9d55237f3361966df61d2e43a7.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/web-app-manifest-512x512.69bbeabe7319105af25a723732a1158c1e3341f0f8dd3077bd8fa831d0ba7e75.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#fff3eb",
+  "background_color": "#fff3eb",
+  "display": "standalone",
+  "start_url": "/"
+}
