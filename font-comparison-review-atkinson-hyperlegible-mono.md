@@ -117,7 +117,7 @@ that distinguish `d` from `b`.
 
 ### Scenarios where character distinction matters
 
-Character distinction proves critical in several scenarios:
+Character distinction proves important in several scenarios:
 
 - Debugging the results of a Structured Query Language (SQL) query, like
   `SELECT * FROM users WHERE id = 'B510'`, only to realize you meant
@@ -352,9 +352,9 @@ font through settings menus or configuration files.
   design.
 - [Max Kohler's development
   notes](https://www.maxkohler.com/notes/2021-02-16-atkinson-hyperreadable/)
-  indicate Applied Design Works focused primarily on low-vision readers
-  rather than dyslexic readers, though they expect the accessibility
-  features to benefit both groups.
+  indicate Applied Design Works focused primarily on readers with vision
+  difficulties rather than readers with dyslexia, though they expect the
+  accessibility features to benefit both groups.
 - The font's commercial origins and the creators' branding incentives
   may influence legibility claims.
 - Atkinson Hyperlegible Mono lacks programming ligature support.
