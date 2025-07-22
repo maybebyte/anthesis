@@ -316,7 +316,7 @@ Mono.](/images/programming_symbols_comparison_operators.d4a3140fc7b95a005a9ffe6a
 
 ![Font comparison showing "The five boxing wizards jump quickly." across
 JetBrains Mono, Fira Code, and Atkinson Hyperlegible
-Mono.](./images/boxing_wizards.703dfe1edc4ea255f3273f93cf3dcb3198cc9964636bae038b98a7c20786d522.png)
+Mono.](/images/boxing_wizards.703dfe1edc4ea255f3273f93cf3dcb3198cc9964636bae038b98a7c20786d522.png)
 
 ## Installation and configuration
 
