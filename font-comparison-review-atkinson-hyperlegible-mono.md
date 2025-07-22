@@ -357,7 +357,9 @@ font through settings menus or configuration files.
   accessibility features to benefit both groups.
 - The font's commercial origins and the creators' branding incentives
   may influence legibility claims.
-- Atkinson Hyperlegible Mono lacks programming ligature support.
+- Atkinson Hyperlegible Mono lacks programming ligature support. I view
+  this as a feature and not a bug, but some may prefer a font with
+  ligatures.
 - Legibility claims lack peer-reviewed research support. While [Atkinson
   Hyperlegible performed well in the Readability Group
   Survey](https://github.com/thibaudcolas/readability-group-survey), this
