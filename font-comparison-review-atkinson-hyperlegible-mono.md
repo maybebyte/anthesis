@@ -2,6 +2,8 @@
 
 Published: July 22nd, 2025
 
+Updated: July 22nd, 2025
+
 Recently, I modified `anthes.is` to use Atkinson Hyperlegible Next for
 sans-serif and Atkinson Hyperlegible Mono for monospace. Following the
 principle of [eating your own dog
@@ -9,6 +11,12 @@ food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), I also
 switched to Atkinson Hyperlegible Mono in my terminal. After a month of
 daily use, I can now assess this font's practical advantages and compare
 it to established programming fonts like JetBrains Mono and Fira Code.
+
+Download links:
+
+- [Google Fonts GitHub repository (recommended)](https://github.com/googlefonts/atkinson-hyperlegible-next-mono)
+- [Official download link (requires email and EULA)](https://www.brailleinstitute.org/freefont/)
+- [Nerd Fonts release that added Atkinson Hyperlegible Mono](https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.4.0)
 
 ## Table of contents
 
