@@ -390,3 +390,6 @@ font through settings menus or configuration files.
   guidance](https://pimpmytype.com/atkinson-hyperlegible-font-pairs/).
 - [My bookmarks page](/bookmarks.html) contains links
   related to typography, legibility, and fonts.
+- [Coding Font hosts a dedicated page for Atkinson Hyperlegible
+  Mono](https://www.codingfont.com/AtkinsonHyperlegibleMono). You can
+  compare fonts side-by-side there.
