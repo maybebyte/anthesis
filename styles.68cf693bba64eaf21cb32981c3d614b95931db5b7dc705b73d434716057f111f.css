@@ -291,7 +291,7 @@ body {
   padding-inline: 16px;
   font-family: var(--font-sans);
   line-height: 1.5;
-  max-width: 66ch;
+  max-width: 38rem;
   background-color: var(--bg-color);
   color: var(--fg-color);
 }
