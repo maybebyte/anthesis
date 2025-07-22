@@ -36,6 +36,7 @@ Download links:
   - [Single homoglyphs comparison](#single-homoglyphs-comparison)
   - [Mirror glyphs comparison](#mirror-glyphs-comparison)
   - [Programming symbols comparison](#programming-symbols-comparison)
+  - [Alphabet comparison](#alphabet-comparison)
 - [Installation and configuration](#installation-and-configuration)
 - [Caveats](#caveats)
 - [Other resources](#other-resources)
@@ -310,6 +311,12 @@ Mono.](/images/programming_symbols_comparison_operators.d4a3140fc7b95a005a9ffe6a
   distinction. The `-` and `_` show great differentiation, while `*`
   reduces in size and ascends above `+` for clarity. The `<>` characters
   remain separate rather than joining.
+
+### Alphabet comparison
+
+![Font comparison showing "The five boxing wizards jump quickly." across
+JetBrains Mono, Fira Code, and Atkinson Hyperlegible
+Mono.](./images/boxing_wizards.703dfe1edc4ea255f3273f93cf3dcb3198cc9964636bae038b98a7c20786d522.png)
 
 ## Installation and configuration
 
