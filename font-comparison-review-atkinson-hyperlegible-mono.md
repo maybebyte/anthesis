@@ -373,3 +373,5 @@ font through settings menus or configuration files.
   Next](https://pimpmytype.com/font/atkinson-hyperlegible-next/), as well
   as [font pairing
   guidance](https://pimpmytype.com/atkinson-hyperlegible-font-pairs/).
+- [My bookmarks page](/bookmarks.html) contains links
+  related to typography, legibility, and fonts.
