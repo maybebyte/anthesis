@@ -1,2 +1,3 @@
-Personal email: personal@anthes.is
-Dev email: dev@anthes.is
+Personal email: personal AT anthes DOT is
+Dev email: dev AT anthes DOT is
+Employment offers email: jobs AT anthes DOT is

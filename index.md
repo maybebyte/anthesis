@@ -10,6 +10,9 @@ Please feel free to explore as much as you like, and remember to
 feed](https://www.anthes.is/rss.xml) so you get updated when new content
 is released.
 
+I'm currently looking for work. If you're an employer interested in
+hiring me, you can [find my contact details here](/contact.html).
+
 ## Articles
 
 ### 2025
