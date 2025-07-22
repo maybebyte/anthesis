@@ -14,6 +14,8 @@ is released.
 
 ### 2025
 
+- [Font comparison and review: Atkinson Hyperlegible
+Mono](/font-comparison-review-atkinson-hyperlegible-mono.html "2025-07-22")
 - [Gentoo one-liners for a rainy day](/gentoo-one-liners.html "2025-06-04")
 - [OpenPGP Key Transition Statement](/gpg-transition-20250406.html "2025-04-06")
 
