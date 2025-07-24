@@ -288,7 +288,7 @@ html {
 
 body {
   margin: auto;
-  padding-inline: clamp(0rem, 18rem + -40vw, 1.5rem);
+  padding-inline: clamp(0px, 288.842px + -42.105vw, 24px);
   padding-block: 1rem;
   font-family: var(--font-sans);
   line-height: 1.5;
