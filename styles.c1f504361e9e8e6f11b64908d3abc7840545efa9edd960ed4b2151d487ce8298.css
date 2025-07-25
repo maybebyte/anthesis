@@ -1,3 +1,15 @@
+/*
+I based the Anthesis Legible fonts on Atkinson Hyperlegible
+Next/Mono. The designers of those typefaces did all the hard work,
+not me.
+
+I renamed these fonts due to a licensing issue: the way I subset
+fonts causes them to become "modified" under SIL OFL 1.1, so I can't
+use the same name if a Reserved Font Name is set.
+
+https://openfontlicense.org/
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +43,7 @@ h6 {
 }
 
 .fonts-loaded-1 body {
-  font-family: "Atkinson Hyperlegible Next Faux";
+  font-family: "Anthesis Legible Sans Faux";
 }
 .fonts-loaded-1 code,
 kbd,
@@ -39,10 +51,10 @@ pre,
 samp,
 tt,
 var {
-  font-family: "Atkinson Hyperlegible Mono Faux";
+  font-family: "Anthesis Legible Mono Faux";
 }
 .fonts-loaded-2 body {
-  font-family: "Atkinson Hyperlegible Next";
+  font-family: "Anthesis Legible Sans";
 }
 .fonts-loaded-2 code,
 kbd,
@@ -50,78 +62,36 @@ pre,
 samp,
 tt,
 var {
-  font-family: "Atkinson Hyperlegible Mono";
+  font-family: "Anthesis Legible Mono";
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-regular-critical-text-26f063ce94c98ddd2a923c588e0ae8cf55eaa0a791b1d45cbef416e1ded0ef5c.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-critical-text.54375ca3dae348f0c57a53aafc73d794efcff78bd00a1b55102111a29f55d862.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Next Faux";
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-italic-greek-db1274ebc20a871f20f3bde24d903b884e4d0f160df0a3ac38075b60f8fb3b70.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
-  font-style: italic;
-  font-weight: 200 800;
-  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-italic-latin-0cb1f637e0ef7d20f857ac0cffc04c2b7ec8498d89d3ae21aa92713f5daaeaf6.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
-  font-style: italic;
-  font-weight: 200 800;
-  unicode-range:
-    U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
-    U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
-    U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-italic-latin-extended-79661cc4a6b6abd476bb093a57e170ee984e1be9ff00aada042fd01addb512e5.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
-  font-style: italic;
-  font-weight: 200 800;
-  unicode-range:
-    U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
-    U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
-    U+16E-17E, U+192, U+218-21B, U+237, U+1E80-1E85, U+1E9E, U+1EF2-1EF3,
-    U+2020, U+20B9, U+2113;
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-italic-vietnamese-62bc432b9a3060872669d774c955b6dd1ce40e5287985aa8a7a93f8c6d894ce5.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
-  font-style: italic;
-  font-weight: 200 800;
-  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-regular-greek-3ba8f520a498de5def7a78a8d656e4a476a824dd8e64d70bc3091797cd304997.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
+  font-family: "Anthesis Legible Sans Faux";
   font-style: normal;
-  font-weight: 200 800;
-  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+  font-weight: 400;
+  unicode-range:
+    U+20-23, U+25-29, U+2C-3B, U+3F-5A, U+61-7A, U+2013-2014, U+2018-2019,
+    U+201C-201D, U+2022, U+2026;
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-regular-latin-8457efda9fd63561092389f42061eabe4218d54c0ee061be10e2a70ca0e097f1.woff2")
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-critical-code.a0447452cb2d31877e08bfe3fa4d46d4a4e0a1fc29bebebc75be7b6c90943c0c.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
+  font-family: "Anthesis Legible Mono Faux";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+20-7E;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin-955152a44de0f377b6a77eb91be90946e53b93871138f230ac45c530bc2c4edd.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
   font-style: normal;
   font-weight: 200 800;
   unicode-range:
@@ -131,10 +101,10 @@ var {
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-regular-latin-extended-6903198b1c5addbca3a76aa6809f015dee73e221c9a32dda5052adb53eee44cd.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin-extended-c6f798dde43a67cb5856628c130610f8b149c1878dad65e35dbea86a64be0881.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
+  font-family: "Anthesis Legible Sans";
   font-style: normal;
   font-weight: 200 800;
   unicode-range:
@@ -145,37 +115,43 @@ var {
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-next/atkinson-hyperlegible-next-regular-vietnamese-368e2feaa0aff86c614a7879ed98f8c91975feb5bb0bb323665dd5e74d7f2099.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-greek-1cfd8452350d88206031e2046abc4db15ae6dec2b13b1a897cc70a8c298c76d9.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Next";
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-vietnamese-8311ac94dc2714361f24f8cc37758b7853ee4247750ac9866f64e4c84892f5b3.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
   font-style: normal;
   font-weight: 200 800;
   unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-regular-critical-code-c02ba7d25cb6c529cd6a2d7230d10e76b95a107459d14051f91a385a7cc1aa97.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-other-031dfd9a4e3fd0e4404251b2c2b50bfcf8e4bc6f51f0a3fd797ae16b72e1d83a.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono Faux";
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-italic-greek-2123268ac2076cfd171d30247a4635507eb25bd61554f08c0e889cc7e62de7a5.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
-  font-style: italic;
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
   font-weight: 200 800;
-  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+312, U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E,
+    U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-italic-latin-2cc5de46081e36ff76f0d771713afa8ee1d3cef251e5107a65111bf2549e91cc.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-latin.c61d509d81c50fa95ea5075f46303c49e4b37d1b4aca263beb23a416cd030011.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
+  font-family: "Anthesis Legible Sans";
   font-style: italic;
   font-weight: 200 800;
   unicode-range:
@@ -185,11 +161,58 @@ var {
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-italic-latin-extended-320d888dcc41f2329b1369b70e7d3a4aa38452d45ac7b9f5cef3d556a079514d.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-latin-extended.5cf0371616b92063f9b4763e4922521b38ff468fdb66989ed5bd51f19297b7d0.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
+  font-family: "Anthesis Legible Sans";
   font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
+    U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
+    U+16E-17E, U+192, U+218-21B, U+237, U+1E80-1E85, U+1E9E, U+1EF2-1EF3,
+    U+2020, U+20B9, U+2113;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-greek.81984cd9ef07e369d38af2248c6471039214b7969d9a500319a627f513a4bdbd.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-vietnamese.3ff32f27caaa0f3970381da0b1d3c66ff5129728075126315f4a275f81101c94.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-other.dc6034154650ab7d2fc6c64c8ac7898af54036b807138732541c06051ba199fc.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+312, U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E,
+    U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-latin-extended.521927f972b4f5a6da11d00fbbc2124d08fd60e874222006d25c592acea688aa.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
   font-weight: 200 800;
   unicode-range:
     U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
@@ -198,30 +221,10 @@ var {
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-italic-vietnamese-c3615ca241f314b12a6a5ea127d1084deb47b69fd6c697466abb7939798a6fb6.woff2")
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-latin.2a602be2c1e52e20de28b2fd7cb6bc081c06927bc94af9e77d74079fc89cd9fe.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
-  font-style: italic;
-  font-weight: 200 800;
-  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-regular-greek-852d5c6d33d6421bd98b02fcf2f7e9f0a92ea5bafa95519bef23970ad952830f.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
-  font-style: normal;
-  font-weight: 200 800;
-  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
-}
-
-@font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-regular-latin-be6b8cb67aa0827f1c874cd6f48766b74a8c82611ceddb23c8564008d6d2475b.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
+  font-family: "Anthesis Legible Mono";
   font-style: normal;
   font-weight: 200 800;
   unicode-range:
@@ -231,11 +234,57 @@ var {
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-regular-latin-extended-7d7714cc826c2dbf462f0e5aa79e490e3ac1118843b6c2b0873029f43fd9f6f6.woff2")
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-greek.3c7262cfa78615b5e5440167184bf19d9752e1b509d5b65607918500964516aa.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
+  font-family: "Anthesis Legible Mono";
   font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-vietnamese.6ebf548c4c44c90fcbbe66eb43f89128ae437a4142e8050273e8a8197436d607.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-other.6976da59eb68bd55a8eca7955d773c09bac9531c5bb1039a5eece6f3ea540114.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E, U+222B,
+    U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-latin.20e68301c11a62f15bed63a7733a12938e9c25de2f589d17550a2e1058a8007b.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
+    U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
+    U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-latin-extended.445d5386629dd0e8a5c895025cb3d3f930bccf155bcb79f01afc7198aff6d608.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
   font-weight: 200 800;
   unicode-range:
     U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
@@ -244,18 +293,42 @@ var {
 }
 
 @font-face {
-  src: url("/fonts/atkinson-hyperlegible-mono/atkinson-hyperlegible-mono-regular-vietnamese-180bdac85d5ddf6ece01e865e8a598041571022c37f6113fa7556ed0c856b7be.woff2")
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-greek.e437835c6a4a3565a77b3d490b3a306ec4ff11dce6275e5a8d318e96bc97101a.woff2")
     format("woff2");
   font-display: swap;
-  font-family: "Atkinson Hyperlegible Mono";
-  font-style: normal;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-vietnamese.23f3cc0818434f67c07e9fb235ccc39e141da2a534713142e75238e4a5d64a4c.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
   font-weight: 200 800;
   unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-other.b7feead5cb879bde90955c64bcc6fa2a88dd3ff1178532d4c48655a7f46e7240.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E, U+222B,
+    U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
 }
 
 :root {
-  --font-sans: "Atkinson Hyperlegible Next", sans-serif;
-  --font-mono: "Atkinson Hyperlegible Mono", monospace;
+  --font-sans: "Anthesis Legible Sans", sans-serif;
+  --font-mono: "Anthesis Legible Mono", monospace;
   --base-font-size: clamp(1.065rem, 0.973rem + 0.463vw, 1.331rem);
   --bg-color: #fff3eb;
   --fg-color: #1b1008;
