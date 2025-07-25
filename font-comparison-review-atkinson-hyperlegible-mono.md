@@ -2,15 +2,16 @@
 
 Published: July 22nd, 2025
 
-Updated: July 22nd, 2025
+Updated: July 25th, 2025
 
-Recently, I modified `anthes.is` to use Atkinson Hyperlegible Next for
-sans-serif and Atkinson Hyperlegible Mono for monospace. Following the
-principle of [eating your own dog
-food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), I also
-switched to Atkinson Hyperlegible Mono in my terminal. After a month of
-daily use, I can now assess this font's practical advantages and compare
-it to established programming fonts like JetBrains Mono and Fira Code.
+Recently, I modified `anthes.is` to use [my own subsetted
+versions](#a-note-on-licensing) of Atkinson Hyperlegible Next and
+Atkinson Hyperlegible Mono. Following the principle of [eating your own
+dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), I
+also switched to Atkinson Hyperlegible Mono in my terminal. After a
+month of daily use, I can now assess this font's practical advantages
+and compare it to established programming fonts like JetBrains Mono and
+Fira Code.
 
 Download links:
 
@@ -40,6 +41,7 @@ Download links:
 - [Installation and configuration](#installation-and-configuration)
 - [Caveats](#caveats)
 - [Other resources](#other-resources)
+- [A note on licensing](#a-note-on-licensing)
 
 <!-- mtoc-end -->
 
@@ -393,3 +395,19 @@ font through settings menus or configuration files.
 - [Coding Font hosts a dedicated page for Atkinson Hyperlegible
   Mono](https://www.codingfont.com/AtkinsonHyperlegibleMono). You can
   compare fonts side-by-side there.
+
+## A note on licensing
+
+The Braille Institute and the designers they collaborated with released
+the Atkinson Hyperlegible fonts under the [SIL Open Font License,
+version 1.1](https://openfontlicense.org/). The website links to a
+license that reserves "ATKINSON" and "HYPERLEGIBLE" as Reserved Font
+Names. Anyone that modifies the font [must remove those words from the
+name and
+metadata](https://openfontlicense.org/how-to-modify-ofl-fonts/#what-do-i-need-to-do-to-redistribute-a-modified-font).
+[Subsetting counts as modification in many
+cases](https://openfontlicense.org/webfonts-and-reserved-font-names/#subsetting).
+
+Since I subset these fonts for performance reasons, I named the
+derivative versions "Anthesis Legible Sans" and "Anthesis Legible Mono"
+to honor the license.

@@ -1,0 +1,103 @@
+# FONTLOG for Anthesis Legible Sans
+
+This file provides detailed information on Anthesis Legible Sans. If you
+create a derivative work, please include this file along with the fonts.
+Update it each time you make a change to the fonts.
+
+## Basic font information
+
+Atkinson Hyperlegible Next provides the foundation for Anthesis Legible
+Sans. The creators of Atkinson Hyperlegible Next specifically designed
+their typeface to improve legibility.
+
+To improve font loading performance and reduce bandwidth consumption on
+the web, the `subset_fonts.py` script subsetted Anthesis Legible Sans
+and split it into separate font files. You can find that script here:
+
+https://github.com/maybebyte/subset_fonts
+
+### More about subset_fonts.py
+
+`subset_fonts.py` splits fonts into Roman and Italic variants, then
+further divides them by the font's supported character ranges:
+
+- Latin
+- Latin Extended
+- Cyrillic
+- Cyrillic Extended
+- Greek
+- Greek Extended
+- Vietnamese
+- Vietnamese Extended
+- Other
+
+`subset_fonts.py` also provides a "critical text" variant to support a
+Critical Flash Of Faux Text (Critical FOFT) implementation. You can find
+more details here:
+
+https://www.zachleat.com/web/comprehensive-webfonts/
+
+### Critical FOFT implementation example
+
+Visit these links to view a Cascading Style Sheets (CSS) and JavaScript
+implementation that support the Critical FOFT approach:
+
+https://github.com/maybebyte/anthesis/blob/b66a90506fcdf8a973d65856ee074390018f5a1e/styles.c1f504361e9e8e6f11b64908d3abc7840545efa9edd960ed4b2151d487ce8298.css
+https://github.com/maybebyte/anthesis/blob/b66a90506fcdf8a973d65856ee074390018f5a1e/js/load-fonts.b4f8eef2ca4f7efbfbba0d5f7890a0bb1648d595ba77d137a1a4675099b7a47e.js
+
+## Changelog
+
+25 July 2025 (Ashlen) Anthesis Legible Sans Version 2.001
+- Subsetted Atkinson Hyperlegible Next fonts for web optimization.
+- Created character set variants (Latin, Cyrillic, etc).
+- Converted to WOFF2 format for web delivery.
+- Renamed to honor Open Font License (OFL) Reserved Font Name (RFN)
+  restrictions.
+
+## Acknowledgments
+
+These designers and firms worked on fonts in the Atkinson Hyperlegible
+family:
+
+- Elliott Scott
+- Megan Eiswerth
+- Linus Boman
+- Theodore Petrosky
+- Applied Design Works
+- Letters From Sweden
+
+---
+
+
+If you make modifications, please add these fields:
+
+N: Name
+W: Web address (optional)
+C: Contact information
+D: Description
+
+---
+
+
+N: Ashlen
+W: https://www.anthes.is/
+C: https://www.anthes.is/contact.html
+D: Creator of Anthesis Legible Sans, based on Atkinson Hyperlegible
+   Next.
+
+N: Letters From Sweden
+W: https://lettersfromsweden.se/
+C: https://lettersfromsweden.se/contact/
+D: Design firm that worked on the Atkinson Hyperlegible Next
+   typeface.
+
+N: Applied Design Works
+W: https://helloapplied.com/
+C: https://helloapplied.com/contact-2/
+D: Design firm that worked on both the original Atkinson Hyperlegible
+  typeface and the Atkinson Hyperlegible Next typeface.
+
+N: Braille Institute of America, Inc.
+W: https://www.brailleinstitute.org/
+C: https://www.brailleinstitute.org/contact/
+D: Commissioned designers to create the Atkinson Hyperlegible typeface.
