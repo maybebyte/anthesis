@@ -2,7 +2,7 @@
 
 Published: June 17th, 2025
 
-Updated: July 11th, 2025
+Updated: July 25th, 2025
 
 A curated collection of tools and resources that have proven genuinely
 useful. These focus on web development and design currently, with more
@@ -42,6 +42,16 @@ sections coming over time.
   fonts.
 - [Triangle](https://betterwebtype.com/triangle/). Interactive game
   teaching the balance of font size, line height, and line width.
+- [Letter Pair - Font Compatibility
+  Analyzer](https://letter-pair.vercel.app/analyze). Tool for uploading
+  and analyzing compatibility between up to three fonts.
+- [Typewolf resources](https://typewolf.com/resources). Comprehensive
+  collection of typography resources including books, tools, learning
+  materials, type foundries, font services, blogs, and identification
+  tools.
+- [Typedetail resources](https://typedetail.com/resources). Curated
+  typography resources organized by category including websites, blogs,
+  online books, talks, tools, projects, events, foundries, and articles.
 
 ### Color and accessibility
 
@@ -84,6 +94,10 @@ sections coming over time.
 - [The Equilateral Triangle of a Perfect Paragraph](https://css-tricks.com/equilateral-triangle-perfect-paragraph/).
   Typography theory explaining how font-size, line-height, and line
   width work together.
+- [Practical Typography](https://practicaltypography.com). Matthew
+  Butterick's comprehensive online typography book covering fundamentals
+  from type composition and text formatting to font recommendations and
+  page layout.
 
 ### Static Site Generators (SSGs)
 
