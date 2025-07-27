@@ -6,12 +6,15 @@
     }
 
     const stage1Promises = [
+      "1rem 'Anthesis Gravitas Sans Faux'",
       "1rem 'Anthesis Legible Sans Faux'",
       "1rem 'Anthesis Legible Mono Faux'",
     ];
     const stage2Promises = [
+      "1rem 'Anthesis Gravitas Sans'",
       "1rem 'Anthesis Legible Sans'",
       "1rem 'Anthesis Legible Mono'",
+      "italic 1rem 'Anthesis Gravitas Sans'",
       "italic 1rem 'Anthesis Legible Sans'",
       "italic 1rem 'Anthesis Legible Mono'",
     ];
