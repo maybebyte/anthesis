@@ -98,6 +98,17 @@ sections coming over time.
   Butterick's comprehensive online typography book covering fundamentals
   from type composition and text formatting to font recommendations and
   page layout.
+- [Best Practices of Combining
+Typefaces](https://www.smashingmagazine.com/2011/11/best-practices-of-combining-typefaces/).
+  Guide to effectively pairing different typefaces in design, covering
+  principles like serif-sans serif combinations, typographic
+  personalities, contrast creation, and common mistakes to avoid.
+- [Evaluating the quality of a
+typeface](https://kupferschrift.de/cms/2018/08/evaluating-the-quality-of-a-typeface/).
+  Comprehensive criteria for assessing typeface quality beyond personal
+  taste, including technical drawing quality, stroke consistency,
+  character proportions, spacing, kerning, and design coherence for both
+  users and designers.
 
 ### Static Site Generators (SSGs)
 
