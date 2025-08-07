@@ -779,6 +779,13 @@ form :focus {
   }
 }
 
+hr {
+  background-color: var(--hr-color);
+  height: 2px;
+  border: none;
+  opacity: 0.2;
+}
+
 footer {
   margin-top: 2.5em;
   font-size: 0.9375em;
@@ -790,10 +797,6 @@ footer code {
 }
 footer hr {
   margin-bottom: 1.25em;
-  background-color: var(--hr-color);
-  height: 2px;
-  border: none;
-  opacity: 0.2;
 }
 footer p {
   margin-bottom: 0;
