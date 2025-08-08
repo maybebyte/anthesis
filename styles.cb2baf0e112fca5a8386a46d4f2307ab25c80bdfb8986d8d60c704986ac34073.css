@@ -613,8 +613,8 @@ ol ul {
 li + li {
   margin-top: 0.5em;
 }
-li :is(ul, ol) li {
-  margin-top: 0.5em;
+li :is(ul, ol) li:first-of-type {
+  margin-top: 0.25em;
 }
 
 h1,
@@ -632,7 +632,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 h1,
