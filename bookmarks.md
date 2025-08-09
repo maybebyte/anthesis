@@ -2,7 +2,7 @@
 
 Published: June 17th, 2025
 
-Updated: July 25th, 2025
+Updated: August 9th, 2025
 
 A curated collection of tools and resources that have proven genuinely
 useful. These focus on web development and design currently, with more
@@ -14,6 +14,7 @@ sections coming over time.
 
 - [Web development and design](#web-development-and-design)
   - [Typography and fonts](#typography-and-fonts)
+    - [Type foundries](#type-foundries)
   - [Color and accessibility](#color-and-accessibility)
   - [Cascading Style Sheets (CSS) and standards](#cascading-style-sheets-css-and-standards)
   - [Articles and guides](#articles-and-guides)
@@ -52,6 +53,34 @@ sections coming over time.
 - [Typedetail resources](https://typedetail.com/resources). Curated
   typography resources organized by category including websites, blogs,
   online books, talks, tools, projects, events, foundries, and articles.
+- [Pimp My Type - Free Quality
+  Fonts](https://pimpmytype.com/free-quality-fonts/). Article detailing
+  some quality font sources.
+- [Type Foundry Directory](https://typefoundry.directory/). Directory
+  with hundreds of interesting type foundries organized in a table.
+- [I Love Typography](https://fonts.ilovetypography.com/).
+  Catalogs/sells fonts from indie foundries.
+- [Font Squirrel](https://www.fontsquirrel.com/). Another collection of
+  free fonts.
+
+#### Type foundries
+
+- [Atipo Foundry](https://www.atipofoundry.com/). Spanish type foundry
+  offering typefaces with a "pay what you want" pricing model.
+- [The League of Moveable
+  Type](https://www.theleagueofmoveabletype.com/). Open-source type
+  foundry.
+- [Arrowtype](https://www.arrowtype.com/). Brooklyn-based foundry by
+  Stephen Nixon, the creator of Recursive.
+- [Alanna Munro Type Foundry](https://www.alannamunro.com/). Independent
+  foundry that offers typefaces like Stornoway and Kyoshi.
+- [Newlyn](https://newlyn.com/). Includes New Vision and New Science.
+- [Fairetype](https://www.fairetype.com/). Typefaces offered include:
+  Sprig, Octave, and Luma.
+- [Swiss Typefaces](https://www.swisstypefaces.com/). Swiss foundry
+  known for families like Euclid, SangBleu, and Suisse.
+- [MB Type](https://mbtype.com/). The author of Practical Typography
+  sells his typefaces here.
 
 ### Color and accessibility
 
@@ -99,12 +128,12 @@ sections coming over time.
   from type composition and text formatting to font recommendations and
   page layout.
 - [Best Practices of Combining
-Typefaces](https://www.smashingmagazine.com/2011/11/best-practices-of-combining-typefaces/).
+  Typefaces](https://www.smashingmagazine.com/2011/11/best-practices-of-combining-typefaces/).
   Guide to effectively pairing different typefaces in design, covering
   principles like serif-sans serif combinations, typographic
   personalities, contrast creation, and common mistakes to avoid.
 - [Evaluating the quality of a
-typeface](https://kupferschrift.de/cms/2018/08/evaluating-the-quality-of-a-typeface/).
+  typeface](https://kupferschrift.de/cms/2018/08/evaluating-the-quality-of-a-typeface/).
   Comprehensive criteria for assessing typeface quality beyond personal
   taste, including technical drawing quality, stroke consistency,
   character proportions, spacing, kerning, and design coherence for both
