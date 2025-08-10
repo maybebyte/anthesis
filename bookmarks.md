@@ -74,7 +74,6 @@ sections coming over time.
   Stephen Nixon, the creator of Recursive.
 - [Alanna Munro Type Foundry](https://www.alannamunro.com/). Independent
   foundry that offers typefaces like Stornoway and Kyoshi.
-- [Newlyn](https://newlyn.com/). Includes New Vision and New Science.
 - [Fairetype](https://www.fairetype.com/). Typefaces offered include:
   Sprig, Octave, and Luma.
 - [Swiss Typefaces](https://www.swisstypefaces.com/). Swiss foundry
