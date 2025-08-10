@@ -49,7 +49,7 @@ https://github.com/maybebyte/anthesis/blob/main/js/load-fonts.js
 
 ## Changelog
 
-[Current Date] (Ashlen) Anthesis Gravitas Sans Version 3.000
+26 July 2025 (Ashlen) Anthesis Gravitas Sans Version 3.000
 - Subsetted IBM Plex Sans fonts for web optimization.
 - Created character set variants (Latin, Cyrillic, etc).
 - Converted to WOFF2 format for web delivery.
