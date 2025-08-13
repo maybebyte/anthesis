@@ -47,6 +47,10 @@ https://github.com/maybebyte/anthesis/blob/b66a90506fcdf8a973d65856ee074390018f5
 
 ## Changelog
 
+12 Aug 2025 (Ashlen) Anthesis Legible Sans Version 2.002
+- Fixed font file names so that they were more consistent. No functional
+  changes.
+
 25 July 2025 (Ashlen) Anthesis Legible Sans Version 2.001
 - Subsetted Atkinson Hyperlegible Next fonts for web optimization.
 - Created character set variants (Latin, Cyrillic, etc).
