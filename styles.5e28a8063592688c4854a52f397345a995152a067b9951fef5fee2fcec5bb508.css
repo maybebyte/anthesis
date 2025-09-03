@@ -586,6 +586,7 @@ h5,
 h6 {
   color: var(--heading-fg-color);
   font-family: var(--font-headings);
+  font-feature-settings: "ss14", "ss15";
 }
 
 h2,
