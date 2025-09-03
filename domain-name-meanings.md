@@ -37,12 +37,8 @@ permanently. Sometimes it still seems like there isn't enough light, and
 storms still rage from time to time. These things arrive, stay for a
 while, and eventually fade away.
 
-In my eyes, to flourish means understanding that nothing stays the same.
-Embracing challenges. Remembering to choose this way of approaching life
-over avoiding, denying, or excessive controlling. Coming back home every
-time you find yourself lost somewhere else.
-
-If there were only clear, sunny days, there would be no rain. Without
-rain, there would be no growth. In other words... when enough struggle
-and enough support both exist at the same time, there also exists the
-opportunity for anthesis.
+Instead, to flourish means understanding that nothing stays the same and
+embracing these challenges for what they truly represent, rather than
+avoiding or trying to control them. If we only had clear, sunny days,
+there would be no rain. Without rain, there would be no growth---no
+anthesis.
