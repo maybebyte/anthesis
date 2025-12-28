@@ -584,7 +584,7 @@ h4,
 h5,
 h6 {
   font-weight: 525;
-  line-height: initial;
+  line-height: 1.2;
 }
 
 h2 + :is(h3, h4, h5, h6),
