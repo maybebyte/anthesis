@@ -657,7 +657,7 @@ pre {
   border-radius: 0.25em;
 }
 
-nav[class="navbar"] ul {
+.navbar ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -668,7 +668,7 @@ nav[class="navbar"] ul {
   gap: 0.75em;
 }
 
-nav[class="navbar"] li {
+.navbar li {
   display: inline-block;
   margin-top: 0;
 }
@@ -701,11 +701,11 @@ a:visited:focus {
   text-decoration-thickness: 2px;
 }
 
-nav[class="navbar"] a:visited {
+.navbar a:visited {
   color: var(--link-fg-color);
 }
-nav[class="navbar"] a:visited:hover,
-nav[class="navbar"] a:visited:focus {
+.navbar a:visited:hover,
+.navbar a:visited:focus {
   text-decoration-thickness: 2px;
 }
 
