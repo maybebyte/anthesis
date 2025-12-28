@@ -678,15 +678,18 @@ a code {
   color: var(--link-fg-color);
 }
 
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
 a code {
   background-color: var(--bg-color);
 }
 
 a:hover,
-a:focus,
-a:hover code,
-a:focus code {
-  font-weight: 500;
+a:focus {
+  text-decoration-thickness: 2px;
 }
 
 a:visited,
@@ -694,10 +697,8 @@ a:visited code {
   color: var(--visited-link-color);
 }
 a:visited:hover,
-a:visited:focus,
-a:visited:hover code,
-a:visited:focus code {
-  font-weight: 500;
+a:visited:focus {
+  text-decoration-thickness: 2px;
 }
 
 nav[class="navbar"] a:visited {
@@ -705,7 +706,7 @@ nav[class="navbar"] a:visited {
 }
 nav[class="navbar"] a:visited:hover,
 nav[class="navbar"] a:visited:focus {
-  font-weight: 500;
+  text-decoration-thickness: 2px;
 }
 
 a:focus,
