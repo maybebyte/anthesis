@@ -44,39 +44,19 @@ h6 {
 .fonts-loaded-1 body {
   font-family: "Anthesis Legible Sans Faux";
 }
-.fonts-loaded-1 code,
-kbd,
-pre,
-samp,
-tt,
-var {
+.fonts-loaded-1 :is(code, kbd, pre, samp, tt, var) {
   font-family: "Anthesis Legible Mono Faux";
 }
-.fonts-loaded-1 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.fonts-loaded-1 :is(h1, h2, h3, h4, h5, h6) {
   font-family: "Escalator Faux";
 }
 .fonts-loaded-2 body {
   font-family: "Anthesis Legible Sans";
 }
-.fonts-loaded-2 code,
-kbd,
-pre,
-samp,
-tt,
-var {
+.fonts-loaded-2 :is(code, kbd, pre, samp, tt, var) {
   font-family: "Anthesis Legible Mono";
 }
-.fonts-loaded-2 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.fonts-loaded-2 :is(h1, h2, h3, h4, h5, h6) {
   font-family: "Escalator";
 }
 
