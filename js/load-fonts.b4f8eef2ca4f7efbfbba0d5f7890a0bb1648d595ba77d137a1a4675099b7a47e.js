@@ -6,15 +6,12 @@
     }
 
     const stage1Promises = [
-      "1rem 'Escalator Faux'",
       "1rem 'Anthesis Legible Sans Faux'",
       "1rem 'Anthesis Legible Mono Faux'",
     ];
     const stage2Promises = [
-      "1rem 'Escalator'",
       "1rem 'Anthesis Legible Sans'",
       "1rem 'Anthesis Legible Mono'",
-      "italic 1rem 'Escalator'",
       "italic 1rem 'Anthesis Legible Sans'",
       "italic 1rem 'Anthesis Legible Mono'",
     ];

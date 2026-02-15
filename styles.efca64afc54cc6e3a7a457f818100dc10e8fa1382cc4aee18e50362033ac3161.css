@@ -47,19 +47,12 @@ h6 {
 .fonts-loaded-1 :is(code, kbd, pre, samp, tt, var) {
   font-family: "Anthesis Legible Mono Faux";
 }
-.fonts-loaded-1 :is(h1, h2, h3, h4, h5, h6) {
-  font-family: "Escalator Faux";
-}
 .fonts-loaded-2 body {
   font-family: "Anthesis Legible Sans";
 }
 .fonts-loaded-2 :is(code, kbd, pre, samp, tt, var) {
   font-family: "Anthesis Legible Mono";
 }
-.fonts-loaded-2 :is(h1, h2, h3, h4, h5, h6) {
-  font-family: "Escalator";
-}
-
 @font-face {
   src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-critical-text.54375ca3dae348f0c57a53aafc73d794efcff78bd00a1b55102111a29f55d862.woff2")
     format("woff2");
@@ -80,160 +73,6 @@ h6 {
   font-style: normal;
   font-weight: 400;
   unicode-range: U+20-7E;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-critical-text.12f30cb2455f15631912de050dcd64fa8b5d6bc197d14e598b124b8088c4e46f.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator Faux";
-  font-style: normal;
-  font-weight: 400;
-  unicode-range:
-    U+20-23, U+25-29, U+2C-3B, U+3F-5A, U+61-7A, U+2013-2014, U+2018-2019,
-    U+201C-201D, U+2022, U+2026;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-cyrillic.e2a68b43b06f8d1df3a79d4d02f3aaddf38acd55241e06d791c96d6187768e04.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: normal;
-  font-weight: 100 900;
-  unicode-range: U+2116;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-greek.99812f4e3b01d46c8e852d3cda0b2873e395e7cee67c7640e20140b3e31033ca.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: normal;
-  font-weight: 100 900;
-  unicode-range: U+3B1-3B2, U+3BC;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-latin.d9513df3b438ce54e5112cfb0d7ad4de90664b0e75fe96841cd5517a152f01e0.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: normal;
-  font-weight: 100 900;
-  unicode-range:
-    U+20-7E, U+A0-AB, U+AE-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2007,
-    U+2009, U+2013-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
-    U+2032-2033, U+2039-203A, U+2044, U+2074, U+20AC, U+2122, U+2212;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-latin-extended.fb07f0ed9a9a143f9799d865d37568b8346e768f0ed5054bb02071f063497935.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: normal;
-  font-weight: 100 900;
-  unicode-range:
-    U+100-137, U+139-17E, U+192, U+1FC-1FD, U+218-21B, U+237, U+259,
-    U+1E80-1E85, U+1E9E, U+1EBC-1EBD, U+1EF2-1EF3, U+1EF8-1EF9, U+2020,
-    U+20B9-20BA, U+20BD, U+20BF;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-other.c4f9fe9e25d0effb4f74ce8b4c4e297e618b730ce8586733ffca99f9963c2f44.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: normal;
-  font-weight: 100 900;
-  unicode-range:
-    U+2C7, U+2D8-2D9, U+2DB, U+2DD, U+323, U+326, U+2070, U+2075-2079,
-    U+2080-2089, U+2117, U+2120, U+2153-2154, U+215B-215E, U+2248, U+2260,
-    U+2264-2265, U+FB01-FB02;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-regular-vietnamese.184e5f0c0ef54ad8c9dab8d936b167ccf23f87c108892e1361da13e5859aeba6.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: normal;
-  font-weight: 100 900;
-  unicode-range:
-    U+102-103, U+110-111, U+128-129, U+168-169, U+1EBC-1EBD, U+1EF2-1EF3,
-    U+1EF8-1EF9;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-italic-cyrillic.64522f65d0cea4e6d3532afc8b38ccb575000130fbd8f3e874a4224de0d322c4.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: italic;
-  font-weight: 100 900;
-  unicode-range: U+2116;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-italic-greek.8abd160fd05cfe8e5adc25955e4d2b08187fc8242faddc500ac200c2d82798b9.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: italic;
-  font-weight: 100 900;
-  unicode-range: U+3B1-3B2, U+3BC;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-italic-latin.2d7a86705e3e4f514c629b0487a173a723a8d854a83485ef30160eb8d33772d4.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: italic;
-  font-weight: 100 900;
-  unicode-range:
-    U+20-7E, U+A0-AB, U+AE-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2007,
-    U+2009, U+2013-2015, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
-    U+2032-2033, U+2039-203A, U+2044, U+2074, U+20AC, U+2122, U+2212;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-italic-latin-extended.d56f1882ec8ac62badd105808f531ad210ed1fbfd54ace055b5554f9de2ad3a4.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: italic;
-  font-weight: 100 900;
-  unicode-range:
-    U+100-137, U+139-17E, U+192, U+1FC-1FD, U+218-21B, U+237, U+259,
-    U+1E80-1E85, U+1E9E, U+1EBC-1EBD, U+1EF2-1EF3, U+1EF8-1EF9, U+2020,
-    U+20B9-20BA, U+20BD, U+20BF;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-italic-other.1d5d9a3920630f0e0ec9cb221aa871737ec3ab97339748d507d504a5febb29d6.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: italic;
-  font-weight: 100 900;
-  unicode-range:
-    U+2C7, U+2D8-2D9, U+2DB, U+2DD, U+323, U+326, U+2070, U+2075-2079,
-    U+2080-2089, U+2117, U+2120, U+2153-2154, U+215B-215E, U+2248, U+2260,
-    U+2264-2265, U+FB01-FB02;
-}
-
-@font-face {
-  src: url("/fonts/escalator/escalator-italic-vietnamese.d9f4dd01fc47d88daa83e51150de104fc7657542bf59b54991e3f4807a69ef2c.woff2")
-    format("woff2");
-  font-display: swap;
-  font-family: "Escalator";
-  font-style: italic;
-  font-weight: 100 900;
-  unicode-range:
-    U+102-103, U+110-111, U+128-129, U+168-169, U+1EBC-1EBD, U+1EF2-1EF3,
-    U+1EF8-1EF9;
 }
 
 @font-face {
@@ -476,7 +315,6 @@ h6 {
 
 :root {
   --font-sans: "Anthesis Legible Sans", sans-serif;
-  --font-headings: "Escalator", sans-serif;
   --font-mono: "Anthesis Legible Mono", monospace;
   --base-font-size: clamp(1.065rem, 0.973rem + 0.463vw, 1.331rem);
   --bg-color: #fff3eb;
@@ -565,8 +403,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-fg-color);
-  font-family: var(--font-headings);
-  font-feature-settings: "ss14", "ss15";
+  font-family: var(--font-sans);
 }
 
 h2,
