@@ -1,0 +1,530 @@
+# Instincts generated from https://github.com/maybebyte/anthesis
+# Generated: 2026-02-16T20:35:47.985Z
+# Version: 2.0
+
+---
+id: anthesis-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: style, feat, fix, docs
+
+## Evidence
+
+- 200 commits analyzed
+- Detected conventional commit pattern
+- Examples: revert(css): restore default heading line-height, refactor(css): simplify navbar selectors
+
+---
+id: anthesis-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Commit Length
+
+## Action
+
+Keep commit messages concise (under 50 characters)
+
+## Evidence
+
+- Average commit message length: 44 chars
+- Based on 200 commits
+
+---
+id: anthesis-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Naming Files
+
+## Action
+
+Use kebab-case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: kebab-case
+
+---
+id: anthesis-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Export Style
+
+## Action
+
+Prefer mixed exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: mixed
+
+---
+id: anthesis-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: anthesis-workflow-feature-development
+trigger: "when implementing a new feature"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Workflow Feature Development
+
+## Action
+
+Follow the feature-development workflow:
+1. Add feature implementation
+2. Add tests for feature
+3. Update documentation
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~13x per month
+- Files: 
+
+---
+id: anthesis-workflow-css-style-updates
+trigger: "when doing css style updates"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Workflow Css Style Updates
+
+## Action
+
+Follow the css-style-updates workflow:
+1. Modify CSS styles
+2. Update CSS file hash in _header.html template
+3. Test visual changes
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~15x per month
+- Files: _header.html, styles.{hash}.css
+
+---
+id: anthesis-workflow-content-updates
+trigger: "when doing content updates"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Workflow Content Updates
+
+## Action
+
+Follow the content-updates workflow:
+1. Edit markdown content
+2. Update last modified dates
+3. Add new resources or links
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~8x per month
+- Files: bookmarks.md, index.md, *.md
+
+---
+id: anthesis-workflow-font-system-changes
+trigger: "when doing font system changes"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Workflow Font System Changes
+
+## Action
+
+Follow the font-system-changes workflow:
+1. Add/modify font files in fonts/ directory
+2. Update font loading JavaScript
+3. Update CSS with new font declarations
+4. Update _header.html with new hashes
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: fonts/*/, js/load-fonts.{hash}.js, styles.{hash}.css
+
+---
+id: anthesis-workflow-revert-changes
+trigger: "when doing revert changes"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Workflow Revert Changes
+
+## Action
+
+Follow the revert-changes workflow:
+1. Identify commit to revert
+2. Execute git revert
+3. Update affected files to previous state
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: Various files depending on what's being reverted
+
+---
+id: anthesis-workflow-heading-typography-adjustments
+trigger: "when doing heading typography adjustments"
+confidence: 0.7
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/maybebyte/anthesis
+---
+
+# Anthesis Workflow Heading Typography Adjustments
+
+## Action
+
+Follow the heading-typography-adjustments workflow:
+1. Modify heading font-weight values in CSS
+2. Update CSS file hash in _header.html
+3. Test heading appearance across different sizes
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~4x per month
+- Files: _header.html, styles.{hash}.css
+
+---
+id: anthesis-kebab-case-files
+trigger: "When creating new files"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Kebab Case Files
+
+## Action
+
+Use kebab-case naming convention
+
+## Evidence
+
+- Consistent file naming pattern across repository
+- All existing files follow kebab-case
+
+---
+id: anthesis-camelcase-functions
+trigger: "When defining JavaScript functions"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Camelcase Functions
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- JavaScript codebase follows standard camelCase conventions
+- Function naming patterns in js/ directory
+
+---
+id: anthesis-screaming-snake-constants
+trigger: "When defining constants"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Screaming Snake Constants
+
+## Action
+
+Use SCREAMING_SNAKE_CASE naming convention
+
+## Evidence
+
+- Standard JavaScript constant naming pattern
+- Consistent with repository conventions
+
+---
+id: anthesis-conventional-commits
+trigger: "When making commits"
+confidence: 0.95
+domain: git
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Conventional Commits
+
+## Action
+
+Use conventional commit format with type prefix
+
+## Evidence
+
+- 100% of commits follow conventional format
+- Consistent use of feat, fix, style, docs prefixes
+
+---
+id: anthesis-44-char-commits
+trigger: "When writing commit messages"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis 44 Char Commits
+
+## Action
+
+Keep commit message length around 44 characters
+
+## Evidence
+
+- Average commit length is 44 characters
+- All example commits are concise and descriptive
+
+---
+id: anthesis-css-scope-prefix
+trigger: "When making CSS changes"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Css Scope Prefix
+
+## Action
+
+Use fix(css) or style prefix in commit message
+
+## Evidence
+
+- Multiple commits use fix(css) prefix
+- CSS changes consistently scoped with css prefix
+
+---
+id: anthesis-css-hash-update
+trigger: "When modifying CSS styles"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Css Hash Update
+
+## Action
+
+Update CSS file hash in _header.html template
+
+## Evidence
+
+- css-style-updates workflow occurs 15x/month
+- Always involves both styles.{hash}.css and _header.html
+
+---
+id: anthesis-font-multi-file-update
+trigger: "When adding or modifying fonts"
+confidence: 0.88
+domain: workflow
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Font Multi File Update
+
+## Action
+
+Update fonts/, js/load-fonts.{hash}.js, styles.{hash}.css, and _header.html
+
+## Evidence
+
+- font-system-changes workflow pattern
+- Consistent 4-file update pattern for font changes
+
+---
+id: anthesis-heading-weight-testing
+trigger: "When adjusting heading typography"
+confidence: 0.85
+domain: workflow
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Heading Weight Testing
+
+## Action
+
+Test heading appearance across different sizes after font-weight changes
+
+## Evidence
+
+- heading-typography-adjustments workflow occurs 4x/month
+- Multiple commits focus on heading font-weight
+
+---
+id: anthesis-content-date-update
+trigger: "When updating markdown content"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Content Date Update
+
+## Action
+
+Update last modified dates in markdown files
+
+## Evidence
+
+- content-updates workflow pattern
+- Standard practice for content modification workflow
+
+---
+id: anthesis-a11y-prefix
+trigger: "When adding accessibility features"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis A11y Prefix
+
+## Action
+
+Use feat(a11y) prefix in commit message
+
+## Evidence
+
+- feat(a11y): add prefers-reduced-motion support commit
+- Accessibility changes get specific scoping
+
+---
+id: anthesis-revert-css-scope
+trigger: "When reverting CSS changes"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Revert Css Scope
+
+## Action
+
+Use revert(css) prefix in commit message
+
+## Evidence
+
+- revert(css): restore default heading line-height commit
+- Reverts are scoped to affected domain
+
+---
+id: anthesis-layout-shift-prevention
+trigger: "When making CSS hover effects"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Layout Shift Prevention
+
+## Action
+
+Ensure changes don't cause layout shift
+
+## Evidence
+
+- fix(css): prevent layout shift on link hover commit
+- Explicit focus on layout stability
+
+---
+id: anthesis-fonts-loaded-scoping
+trigger: "When defining font-family CSS rules"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: maybebyte/anthesis
+---
+
+# Anthesis Fonts Loaded Scoping
+
+## Action
+
+Scope font-family selectors to .fonts-loaded classes
+
+## Evidence
+
+- fix(css): scope font-family selectors to .fonts-loaded classes commit
+- Font loading optimization pattern
+
