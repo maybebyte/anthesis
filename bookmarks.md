@@ -2,7 +2,7 @@
 
 Published: June 17th, 2025
 
-Updated: August 9th, 2025
+Updated: March 7th, 2026
 
 A curated collection of tools and resources that have proven genuinely
 useful. These focus on web development and design currently, with more
@@ -21,6 +21,8 @@ sections coming over time.
   - [Static Site Generators (SSGs)](#static-site-generators-ssgs)
   - [Scalable Vector Graphics (SVG) utilities](#scalable-vector-graphics-svg-utilities)
   - [Research and studies](#research-and-studies)
+- [LLMs](#llms)
+  - [Research and studies](#research-and-studies-1)
 
 <!-- mtoc-end -->
 
@@ -193,3 +195,12 @@ sections coming over time.
   Readability](https://www.researchgate.net/publication/338149302_Evaluating_Fonts_Font_Family_Selection_for_Accessibility_Display_Readability).
   Practical guide evaluating dozens of fonts for glyph distinctiveness and
   accessibility features.
+
+## LLMs
+
+### Research and studies
+
+- [Context Rot: How Increasing Input Tokens Impacts LLM
+  Performance](https://research.trychroma.com/context-rot). Large Language
+  Models (LLMs) are typically presumed to process context uniformly;
+  however, in practice, this assumption does not hold.
