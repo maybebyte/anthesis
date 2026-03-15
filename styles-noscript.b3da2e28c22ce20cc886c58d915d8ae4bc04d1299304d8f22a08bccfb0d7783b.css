@@ -1,0 +1,11 @@
+body {
+  font-family: "Anthesis Legible Sans", sans-serif;
+}
+code,
+kbd,
+pre,
+samp,
+tt,
+var {
+  font-family: "Anthesis Legible Mono", monospace;
+}

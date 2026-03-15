@@ -314,8 +314,8 @@ h6 {
 }
 
 :root {
-  --font-sans: "Anthesis Legible Sans", sans-serif;
-  --font-mono: "Anthesis Legible Mono", monospace;
+  --font-sans: sans-serif;
+  --font-mono: monospace;
   --base-font-size: clamp(1.065rem, 0.973rem + 0.463vw, 1.331rem);
   --bg-color: #fff3eb;
   --fg-color: #1b1008;
