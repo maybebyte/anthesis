@@ -42,22 +42,22 @@ h6 {
 }
 
 .fonts-loaded-1 body {
-  font-family: "Anthesis Legible Sans Faux";
+  font-family: "Anthesis Legible Sans Faux", sans-serif;
 }
 .fonts-loaded-1 :is(code, kbd, pre, samp, tt, var) {
-  font-family: "Anthesis Legible Mono Faux";
+  font-family: "Anthesis Legible Mono Faux", monospace;
 }
 .fonts-loaded-1 :is(h1, h2, h3, h4, h5, h6) {
-  font-family: "Anthesis Legible Sans Faux";
+  font-family: "Anthesis Legible Sans Faux", sans-serif;
 }
 .fonts-loaded-2 body {
-  font-family: "Anthesis Legible Sans";
+  font-family: "Anthesis Legible Sans", sans-serif;
 }
 .fonts-loaded-2 :is(code, kbd, pre, samp, tt, var) {
-  font-family: "Anthesis Legible Mono";
+  font-family: "Anthesis Legible Mono", monospace;
 }
 .fonts-loaded-2 :is(h1, h2, h3, h4, h5, h6) {
-  font-family: "Anthesis Legible Sans";
+  font-family: "Anthesis Legible Sans", sans-serif;
 }
 @font-face {
   src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-critical-text.54375ca3dae348f0c57a53aafc73d794efcff78bd00a1b55102111a29f55d862.woff2")
