@@ -403,7 +403,6 @@ h4,
 h5,
 h6 {
   color: var(--heading-fg-color);
-  font-family: var(--font-sans);
 }
 
 h2,
