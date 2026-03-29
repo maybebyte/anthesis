@@ -363,8 +363,6 @@ body {
   max-width: 34rem;
   background-color: var(--bg-color);
   color: var(--fg-color);
-  -webkit-hyphens: auto;
-  hyphens: auto;
 }
 
 p,
@@ -422,8 +420,6 @@ h5,
 h6 {
   color: var(--heading-fg-color);
   font-family: var(--font-sans);
-  -webkit-hyphens: none;
-  hyphens: none;
 }
 
 h2,
