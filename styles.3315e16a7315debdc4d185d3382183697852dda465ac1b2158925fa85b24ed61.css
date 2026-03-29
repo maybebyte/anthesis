@@ -357,10 +357,14 @@ body {
   padding-inline: clamp(0px, 288.842px + -42.105vw, 24px);
   padding-block: 1rem;
   font-family: var(--font-sans);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
   line-height: 1.5;
   max-width: 34rem;
   background-color: var(--bg-color);
   color: var(--fg-color);
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 p,
@@ -378,6 +382,9 @@ figure {
   margin: 1em 2.5em;
 }
 
+ul {
+  list-style-type: circle;
+}
 ul,
 ol,
 menu {
@@ -410,6 +417,8 @@ h5,
 h6 {
   color: var(--heading-fg-color);
   font-family: var(--font-sans);
+  -webkit-hyphens: none;
+  hyphens: none;
 }
 
 h2,
@@ -427,7 +436,7 @@ h4,
 h5,
 h6 {
   font-weight: 525;
-  line-height: initial;
+  line-height: 1.25;
 }
 
 h2 + :is(h3, h4, h5, h6),
@@ -456,17 +465,25 @@ samp,
 tt,
 var {
   font-family: var(--font-mono);
+  font-size: 0.9em;
   color: var(--code-block-fg-color);
+}
+pre code,
+pre kbd,
+pre samp,
+pre tt,
+pre var {
+  font-size: 1em;
 }
 
 h1 {
-  font-size: 2rem;
-}
-h2 {
   font-size: 1.5rem;
 }
-h3 {
+h2 {
   font-size: 1.25rem;
+}
+h3 {
+  font-size: 1.1rem;
 }
 h4,
 h5,
@@ -504,7 +521,7 @@ pre {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0.75em;
