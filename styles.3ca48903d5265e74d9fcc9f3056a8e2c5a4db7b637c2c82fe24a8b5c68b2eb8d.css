@@ -382,6 +382,11 @@ figure {
   margin: 1em 2.5em;
 }
 
+blockquote {
+  font-size: 0.9375em;
+  line-height: 1.4;
+}
+
 ul {
   list-style-type: circle;
 }
@@ -458,6 +463,10 @@ nav[class="articles"] :is(h1, h2, h3, h4, h5, h6) + ul {
   margin-top: 0.25em;
 }
 
+nav[class="articles"] li + li {
+  margin-top: 0.25em;
+}
+
 code,
 kbd,
 pre,
@@ -477,7 +486,7 @@ pre var {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 1.163rem + 0.435vw, 1.5rem);
 }
 h2 {
   font-size: 1.25rem;
@@ -521,7 +530,7 @@ pre {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0.75em;
@@ -585,9 +594,9 @@ form :focus {
 
 hr {
   background-color: var(--hr-color);
-  height: 2px;
+  height: 1px;
   border: none;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 footer {
