@@ -440,6 +440,17 @@ h6 {
   line-height: 1.25;
 }
 
+/* Keep headings attached to their content when printing (gate 7). */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  break-after: avoid;
+  break-inside: avoid;
+}
+
 h2 + :is(h3, h4, h5, h6),
 h2 + section :is(h3, h4, h5, h6),
 h3 + :is(h4, h5, h6),
