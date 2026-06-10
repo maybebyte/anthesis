@@ -10,31 +10,25 @@ _Tested on FreeBSD 13.0-RELEASE_
 - [After installation](#after-installation)
   - [Setting up power management](#setting-up-power-management)
   - [Creating make.conf](#creating-makeconf)
-  - [Checking out source code](#checking-out-source-code)
-    - [Checking out the ports tree](#checking-out-the-ports-tree)
-    - [Installing portmaster](#installing-portmaster)
-    - [Checking out FreeBSD's source code](#checking-out-freebsds-source-code)
-  - [Odds and ends before compiling Kodi](#odds-and-ends-before-compiling-kodi)
-    - [Installing needed tools](#installing-needed-tools)
-    - [Setting up doas.conf](#setting-up-doasconf)
-    - [Entering a tmux session](#entering-a-tmux-session)
-  - [Compiling Kodi](#compiling-kodi)
-    - [Using portmaster to compile ports](#using-portmaster-to-compile-ports)
-    - [Reviewing installation messages](#reviewing-installation-messages)
-  - [Setting up a user environment for Kodi](#setting-up-a-user-environment-for-kodi)
-    - [Creating the kodi user](#creating-the-kodi-user)
-    - [Creating .xinitrc](#creating-xinitrc)
-    - [Starting X](#starting-x)
-  - [Starting Kodi automatically](#starting-kodi-automatically)
-    - [Setting up gettytab](#setting-up-gettytab)
-    - [Editing ttys](#editing-ttys)
-    - [Ensuring X only starts in the correct terminal](#ensuring-x-only-starts-in-the-correct-terminal)
+  - [Checking out the ports tree](#checking-out-the-ports-tree)
+  - [Installing portmaster](#installing-portmaster)
+  - [Checking out FreeBSD's source code](#checking-out-freebsds-source-code)
+  - [Installing needed tools](#installing-needed-tools)
+  - [Setting up doas.conf](#setting-up-doasconf)
+  - [Entering a tmux session](#entering-a-tmux-session)
+  - [Using portmaster to compile ports](#using-portmaster-to-compile-ports)
+  - [Reviewing installation messages](#reviewing-installation-messages)
+  - [Creating the kodi user](#creating-the-kodi-user)
+  - [Creating .xinitrc](#creating-xinitrc)
+  - [Starting X](#starting-x)
+  - [Setting up gettytab](#setting-up-gettytab)
+  - [Editing ttys](#editing-ttys)
+  - [Ensuring X only starts in the correct terminal](#ensuring-x-only-starts-in-the-correct-terminal)
   - [Configuring the sound system](#configuring-the-sound-system)
-    - [Bit-perfect](#bit-perfect)
-    - [Not bit-perfect](#not-bit-perfect)
-  - [Staying up to date](#staying-up-to-date)
-    - [Setting up cron to fetch updates nightly](#setting-up-cron-to-fetch-updates-nightly)
-    - [Updating the system and ports](#updating-the-system-and-ports)
+  - [Bit-perfect](#bit-perfect)
+  - [Not bit-perfect](#not-bit-perfect)
+  - [Setting up cron to fetch updates nightly](#setting-up-cron-to-fetch-updates-nightly)
+  - [Updating the system and ports](#updating-the-system-and-ports)
 - [Parting words](#parting-words)
 - [Resources](#resources)
 
@@ -87,16 +81,14 @@ don't copy it without understanding it first. The configuration includes
 everything needed to compile with sndio, LibreSSL, and Intel Quick Sync
 Video support.
 
-### Checking out source code
-
-#### Checking out the ports tree
+### Checking out the ports tree
 
 [See the FreeBSD handbook entry on ports for more
 details](https://docs.freebsd.org/en/books/handbook/ports/#ports-using).
 
     # portsnap fetch extract
 
-#### Installing portmaster
+### Installing portmaster
 
 Install a ports management tool. For simplicity, this guide uses
 `ports-mgmt/portmaster`. While `ports-mgmt/poudriere` also works well,
@@ -105,7 +97,7 @@ done.
 
     # make -C /usr/ports/ports-mgmt/portmaster install clean
 
-#### Checking out FreeBSD's source code
+### Checking out FreeBSD's source code
 
 Install `git`, as the source tree checkout requires it. The `git-tiny`
 flavor works well.
@@ -118,9 +110,7 @@ Building `graphics/drm-kmod` requires the source tree.
 
     # git clone https://git.freebsd.org/src.git -b releng/13.0 /usr/src
 
-### Odds and ends before compiling Kodi
-
-#### Installing needed tools
+### Installing needed tools
 
 Install a few tools to make the build process more manageable before
 building Kodi. `sysutils/tmux` proves essential because you can detach
@@ -135,7 +125,7 @@ Consider installing a text editor and shell if desired. I like
 
     # portmaster sysutils/tmux security/doas
 
-#### Setting up doas.conf
+### Setting up doas.conf
 
 If you installed `security/doas`, set up
 [`doas.conf(5)`](https://man.openbsd.org/doas.conf). Since FreeBSD
@@ -143,7 +133,7 @@ currently lacks persistence support, adding `nopass` improves usability.
 
     # echo 'permit nopass :wheel' >/usr/local/etc/doas.conf
 
-#### Entering a tmux session
+### Entering a tmux session
 
 This step matters for the next section. The one-liner below checks
 whether the current user has a tmux session open. If not, it first tries
@@ -152,9 +142,7 @@ fails.
 
     $ [ -z "${TMUX}" ] && { tmux attach || tmux; }
 
-### Compiling Kodi
-
-#### Using portmaster to compile ports
+### Using portmaster to compile ports
 
 Now compile Kodi.
 
@@ -185,15 +173,13 @@ frustrating.
 Now, relax---compiling Kodi and Xorg on a single board computer takes
 time.
 
-#### Reviewing installation messages
+### Reviewing installation messages
 
 Review installation messages to check for needed interventions.
 
     $ pkg query '%M' | less
 
-### Setting up a user environment for Kodi
-
-#### Creating the kodi user
+### Creating the kodi user
 
 Create a separate user for Kodi (named `kodi` here). Add the `kodi` user
 to the `video` group.
@@ -207,7 +193,7 @@ ahead and fix it now:
 
 After that, log in as the `kodi` user.
 
-#### Creating .xinitrc
+### Creating .xinitrc
 
 Create `/home/kodi/.xinitrc` to configure part of the startup process
 for the graphical environment.
@@ -228,7 +214,7 @@ short period of inactivity.
     > exec kodi
     > EOF
 
-#### Starting X
+### Starting X
 
 From a console (not SSH), start X.
 
@@ -237,9 +223,7 @@ From a console (not SSH), start X.
 If X starts successfully, log out of the `kodi` user and back in to the
 user with root access.
 
-### Starting Kodi automatically
-
-#### Setting up gettytab
+### Setting up gettytab
 
 Having Kodi start automatically on boot can help. This requires the
 `kodi` user to log in automatically. To enable this, append some
@@ -252,7 +236,7 @@ configuration to
     >	:ht:np:sp#115200:al=kodi
     > EOF
 
-#### Editing ttys
+### Editing ttys
 
 Edit
 [`ttys(5)`](https://www.freebsd.org/cgi/man.cgi?query=ttys&apropos=0&sektion=0&manpath=FreeBSD+13.0-RELEASE&arch=default&format=html)
@@ -262,7 +246,7 @@ to match the following configuration.
     #ttyv1	"/usr/libexec/getty Pc"	xterm	onifexists	secure
     ttyv1	"/usr/libexec/getty Al"	xterm	onifexists	secure
 
-#### Ensuring X only starts in the correct terminal
+### Ensuring X only starts in the correct terminal
 
 As the `kodi` user, append this check to `/home/kodi/.profile`. The
 check makes X start only in the correct terminal and prevents X from
@@ -293,7 +277,7 @@ display"](https://kodi.wiki/view/Settings/Player/Videos#Sync_playback_to_display
 option in Kodi conflicts with bit-perfect audio. It resamples both video
 and audio to match the display's refresh rate.
 
-#### Bit-perfect
+### Bit-perfect
 
 To use bit-perfect mode, apply two `sysctl` tweaks. This example uses
 the first device, but check which device needs tweaking.
@@ -301,7 +285,7 @@ the first device, but check which device needs tweaking.
     # sysctl dev.pcm.1.bitperfect=1
     # sysctl hw.snd.maxautovchans=0
 
-#### Not bit-perfect
+### Not bit-perfect
 
 Change `hw.snd.feeder_rate_quality` from its default value of `1`.
 According to
@@ -320,9 +304,7 @@ accordingly.
 [Note that sndiod isn't needed in either
 case](https://forums.freebsd.org/threads/sndiod-enable.62892/#post-363265).
 
-### Staying up to date
-
-#### Setting up cron to fetch updates nightly
+### Setting up cron to fetch updates nightly
 
 Pull in updates every night at 03:00 using
 [`portsnap(8)`](https://www.freebsd.org/cgi/man.cgi?sektion=0&manpath=FreeBSD%2013.0-RELEASE&arch=default&format=html&query=portsnap)
@@ -337,7 +319,7 @@ updates. They only download updates.
     > 0 3 * * * root /usr/sbin/freebsd-update cron
     > EOF
 
-#### Updating the system and ports
+### Updating the system and ports
 
 When ready to update, run these commands to apply changes to the ports
 and source tree. They also apply binary updates to the base system.

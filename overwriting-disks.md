@@ -109,7 +109,7 @@ Let's say for the sake of demonstration that I made a terrible mistake
 and I really needed that live disk. No problem, we can write the data
 back. I've already downloaded and cryptographically verified the image
 file I'm using here. The usage is simpler here, since `pv` will detect
-the size of the image file and will receive an "end of file."
+the size of the image file and will receive an “end of file.”
 
     # pv void-live-x86_64-20210930.iso > /dev/rsd5c
     26.5MiB 0:00:01 [26.4MiB/s] [====>                                                                                                                                          ]  4% ETA 0:00:19
