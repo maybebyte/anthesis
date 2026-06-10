@@ -1,0 +1,14 @@
+# Local development tooling and planning artifacts (never published)
+CLAUDE.md
+specs/
+test/
+.specify/
+.claude/
+.gsd/
+.gsd-id
+.playwright-mcp/
+
+node_modules/
+.DS_Store
+*.tmp
+*.swp

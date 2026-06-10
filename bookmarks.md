@@ -14,7 +14,7 @@ sections coming over time.
 
 - [Web development and design](#web-development-and-design)
   - [Typography and fonts](#typography-and-fonts)
-    - [Type foundries](#type-foundries)
+  - [Type foundries](#type-foundries)
   - [Color and accessibility](#color-and-accessibility)
   - [Cascading Style Sheets (CSS) and standards](#cascading-style-sheets-css-and-standards)
   - [Articles and guides](#articles-and-guides)
@@ -65,7 +65,7 @@ sections coming over time.
 - [Font Squirrel](https://www.fontsquirrel.com/). Another collection of
   free fonts.
 
-#### Type foundries
+### Type foundries
 
 - [Atipo Foundry](https://www.atipofoundry.com/). Spanish type foundry
   offering typefaces with a "pay what you want" pricing model.
