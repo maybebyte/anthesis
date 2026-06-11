@@ -554,35 +554,45 @@ a code {
   color: var(--link-fg-color);
 }
 
-a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.15em;
+:where(a[href]) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: currentColor;
+}
+
+@supports (color: color-mix(in oklch, white, black)) {
+  :where(a[href]) {
+    text-decoration-color: color-mix(in oklch, currentColor 40%, transparent);
+  }
+}
+
+:where(a[href]):hover {
+  text-decoration-color: currentColor;
+}
+
+:where(a[href]):focus-visible {
+  text-decoration-color: currentColor;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :where(a[href]) {
+    transition: text-decoration-color 150ms ease-out;
+  }
 }
 
 a code {
   background-color: var(--bg-color);
 }
 
-a:hover,
-a:focus {
-  text-decoration-thickness: 2px;
-}
-
 a:visited,
 a:visited code {
   color: var(--visited-link-color);
 }
-a:visited:hover,
-a:visited:focus {
-  text-decoration-thickness: 2px;
-}
 
 .navbar a:visited {
   color: var(--link-fg-color);
-}
-.navbar a:visited:hover,
-.navbar a:visited:focus {
-  text-decoration-thickness: 2px;
 }
 
 a:focus,
