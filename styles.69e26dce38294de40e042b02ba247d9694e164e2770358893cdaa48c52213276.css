@@ -1,0 +1,681 @@
+/*
+I based the Anthesis Legible fonts on Atkinson Hyperlegible Next/Mono,
+The designers of those typefaces did all the hard work, not me.
+
+I renamed these fonts due to a licensing issue: the way I subset
+fonts causes them to become "modified" under SIL OFL 1.1, so I can't
+use the same name if a Reserved Font Name is set.
+
+https://openfontlicense.org/
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+@supports (text-wrap: balance) {
+  :where(h1, h2, h3, h4, h5, h6, figcaption, blockquote footer, cite, dt):where(
+    :not(body > header *, body > footer *, nav *, menu *, button *)
+  ) {
+    text-wrap: balance;
+  }
+}
+@supports (text-wrap: pretty) {
+  :where(p, li, dd, blockquote p):where(
+    :not(body > header *, body > footer *, nav *, menu *, button *)
+  ) {
+    text-wrap: pretty;
+  }
+}
+
+.fonts-loaded-1 body {
+  font-family: "Anthesis Legible Sans Faux", sans-serif;
+}
+.fonts-loaded-1 :is(code, kbd, pre, samp, tt, var) {
+  font-family: "Anthesis Legible Mono Faux", monospace;
+}
+.fonts-loaded-1 :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Anthesis Legible Sans Faux", sans-serif;
+}
+.fonts-loaded-2 body {
+  font-family: "Anthesis Legible Sans", sans-serif;
+}
+.fonts-loaded-2 :is(code, kbd, pre, samp, tt, var) {
+  font-family: "Anthesis Legible Mono", monospace;
+}
+.fonts-loaded-2 :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Anthesis Legible Sans", sans-serif;
+}
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-critical-text.54375ca3dae348f0c57a53aafc73d794efcff78bd00a1b55102111a29f55d862.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans Faux";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range:
+    U+20-23, U+25-29, U+2C-3B, U+3F-5A, U+61-7A, U+2013-2014, U+2018-2019,
+    U+201C-201D, U+2022, U+2026;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-critical-code.a0447452cb2d31877e08bfe3fa4d46d4a4e0a1fc29bebebc75be7b6c90943c0c.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono Faux";
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+20-7E;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin.c6f798dde43a67cb5856628c130610f8b149c1878dad65e35dbea86a64be0881.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
+    U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
+    U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin-extended.955152a44de0f377b6a77eb91be90946e53b93871138f230ac45c530bc2c4edd.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
+    U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
+    U+16E-17E, U+192, U+218-21B, U+237, U+1E80-1E85, U+1E9E, U+1EF2-1EF3,
+    U+2020, U+20B9, U+2113;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-greek.1cfd8452350d88206031e2046abc4db15ae6dec2b13b1a897cc70a8c298c76d9.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-vietnamese.8311ac94dc2714361f24f8cc37758b7853ee4247750ac9866f64e4c84892f5b3.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-other.031dfd9a4e3fd0e4404251b2c2b50bfcf8e4bc6f51f0a3fd797ae16b72e1d83a.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+312, U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E,
+    U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-latin.c61d509d81c50fa95ea5075f46303c49e4b37d1b4aca263beb23a416cd030011.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
+    U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
+    U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-latin-extended.5cf0371616b92063f9b4763e4922521b38ff468fdb66989ed5bd51f19297b7d0.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
+    U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
+    U+16E-17E, U+192, U+218-21B, U+237, U+1E80-1E85, U+1E9E, U+1EF2-1EF3,
+    U+2020, U+20B9, U+2113;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-greek.81984cd9ef07e369d38af2248c6471039214b7969d9a500319a627f513a4bdbd.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-vietnamese.3ff32f27caaa0f3970381da0b1d3c66ff5129728075126315f4a275f81101c94.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-italic-other.dc6034154650ab7d2fc6c64c8ac7898af54036b807138732541c06051ba199fc.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Sans";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+312, U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E,
+    U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-latin-extended.521927f972b4f5a6da11d00fbbc2124d08fd60e874222006d25c592acea688aa.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
+    U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
+    U+16E-17E, U+192, U+218-21B, U+237, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2020;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-latin.2a602be2c1e52e20de28b2fd7cb6bc081c06927bc94af9e77d74079fc89cd9fe.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
+    U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
+    U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-greek.3c7262cfa78615b5e5440167184bf19d9752e1b509d5b65607918500964516aa.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-vietnamese.6ebf548c4c44c90fcbbe66eb43f89128ae437a4142e8050273e8a8197436d607.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-roman-other.6976da59eb68bd55a8eca7955d773c09bac9531c5bb1039a5eece6f3ea540114.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: normal;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E, U+222B,
+    U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-latin.20e68301c11a62f15bed63a7733a12938e9c25de2f589d17550a2e1058a8007b.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+20-7E, U+A0-AC, U+AE-B4, U+B6-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC,
+    U+2009, U+2013-2014, U+2018-201A, U+201C-201E, U+2020-2022, U+2026, U+2030,
+    U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-latin-extended.445d5386629dd0e8a5c895025cb3d3f930bccf155bcb79f01afc7198aff6d608.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+100-107, U+10A-113, U+116-11B, U+11E-123, U+126-127, U+12A-12B, U+12E-133,
+    U+136-137, U+139-13E, U+141-148, U+150-155, U+158-15B, U+15E-165, U+16A-16B,
+    U+16E-17E, U+192, U+218-21B, U+237, U+1E80-1E85, U+1E9E, U+1EF2-1EF3, U+2020;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-greek.e437835c6a4a3565a77b3d490b3a306ec4ff11dce6275e5a8d318e96bc97101a.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+394, U+3A9, U+3BC, U+3C0;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-vietnamese.23f3cc0818434f67c07e9fb235ccc39e141da2a534713142e75238e4a5d64a4c.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range: U+102-103, U+110-111, U+1EF2-1EF3;
+}
+
+@font-face {
+  src: url("/fonts/anthesis-legible-mono/anthesis-legible-mono-italic-other.b7feead5cb879bde90955c64bcc6fa2a88dd3ff1178532d4c48655a7f46e7240.woff2")
+    format("woff2");
+  font-display: swap;
+  font-family: "Anthesis Legible Mono";
+  font-style: italic;
+  font-weight: 200 800;
+  unicode-range:
+    U+2C7, U+2C9, U+2D8-2D9, U+2DB, U+2DD, U+300-304, U+306-308, U+30A-30C,
+    U+326-328, U+212E, U+2202, U+220F, U+2211, U+2219-221A, U+221E, U+222B,
+    U+2248, U+2260, U+2264-2265, U+25CA, U+266A;
+}
+
+:root {
+  --font-sans: sans-serif;
+  --font-mono: monospace;
+  --base-font-size: clamp(1.065rem, 0.973rem + 0.463vw, 1.331rem);
+  --bg-color: #fff3eb;
+  --fg-color: #1b1008;
+  --link-fg-color: #013a6b;
+  --visited-link-color: #4a275f;
+  --code-block-bg-color: #eee2da;
+  --code-block-fg-color: #100601;
+  --heading-fg-color: #53453c;
+  --hr-color: #53453c;
+  --footer-fg-color: #3f3229;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #292c37;
+    --fg-color: #e5ebfa;
+    --link-fg-color: #cdf0ff;
+    --visited-link-color: #fae5ff;
+    --code-block-bg-color: #353945;
+    --code-block-fg-color: #eaf0fe;
+    --heading-fg-color: #ced3e0;
+    --hr-color: #ced3e0;
+    --footer-fg-color: #d9deed;
+  }
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  margin: auto;
+  padding-inline: clamp(0px, 288.842px + -42.105vw, 24px);
+  padding-block: 1rem;
+  font-family: var(--font-sans);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  max-width: 34rem;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+p,
+dl,
+ol,
+ul,
+pre,
+menu,
+hr {
+  margin: 1em 0;
+}
+
+blockquote,
+figure {
+  margin: 1em 2.5em;
+}
+
+blockquote {
+  font-size: 0.9375em;
+  line-height: 1.4;
+}
+
+ul {
+  list-style-type: circle;
+}
+ul,
+ol,
+menu {
+  padding-left: 2.5em;
+}
+
+dd {
+  margin-left: 2.5em;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin: 0;
+}
+
+li + li {
+  margin-top: 0.5em;
+}
+li :is(ul, ol) li:first-of-type {
+  margin-top: 0.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-fg-color);
+  font-family: var(--font-sans);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 525;
+  line-height: 1.25;
+}
+
+/* Keep headings attached to their content in fragmented layouts (gate 7). */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+@media print {
+  /*
+  Print fragmentation controls keep readable content together where
+  supported. Browser behavior varies, and very tall blocks may still split.
+  */
+  body > main p,
+  body > main li,
+  body > main blockquote,
+  body > main dd {
+    orphans: 3;
+    widows: 3;
+  }
+
+  body > main figure,
+  body > main blockquote,
+  body > main pre,
+  body > main table,
+  body > main img {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  body > main h1,
+  body > main h2,
+  body > main h3,
+  body > main h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+}
+
+h2 + :is(h3, h4, h5, h6),
+h2 + section :is(h3, h4, h5, h6),
+h3 + :is(h4, h5, h6),
+h3 + section :is(h4, h5, h6),
+h4 + :is(h5, h6),
+h4 + section :is(h5, h6),
+h5 + h6,
+h5 + section h6 {
+  margin-top: 0.25em;
+}
+
+:is(h1, h2, h3, h4, h5, h6) + :not(section, h1, h2, h3, h4, h5, h6) {
+  margin-top: 0.75em;
+}
+
+nav[class="articles"] :is(h1, h2, h3, h4, h5, h6) + ul {
+  margin-top: 0.25em;
+}
+
+nav[class="articles"] li + li {
+  margin-top: 0.25em;
+}
+
+code,
+kbd,
+pre,
+samp,
+tt,
+var {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  color: var(--code-block-fg-color);
+}
+pre code,
+pre kbd,
+pre samp,
+pre tt,
+pre var {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: clamp(1.25rem, 1.163rem + 0.435vw, 1.5rem);
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1.1rem;
+}
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em 0;
+}
+
+p code,
+p kbd,
+li code,
+li kbd {
+  background-color: var(--code-block-bg-color);
+}
+
+ul li p {
+  margin-bottom: 0;
+}
+
+pre {
+  overflow: auto;
+  padding: 1em;
+  background-color: var(--code-block-bg-color);
+  border-radius: 0.25em;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 1rem;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  gap: 0.75em;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-top: 0;
+}
+
+a,
+a code {
+  color: var(--link-fg-color);
+}
+
+:where(a[href]) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: currentColor;
+}
+
+@supports (color: color-mix(in oklch, white, black)) {
+  :where(a[href]) {
+    text-decoration-color: color-mix(in oklch, currentColor 40%, transparent);
+  }
+}
+
+:where(a[href]):hover {
+  text-decoration-color: currentColor;
+}
+
+:where(a[href]):focus-visible {
+  text-decoration-color: currentColor;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :where(a[href]) {
+    transition: text-decoration-color 150ms ease-out;
+  }
+}
+
+a code {
+  background-color: var(--bg-color);
+}
+
+a:visited,
+a:visited code {
+  color: var(--visited-link-color);
+}
+
+.navbar a:visited {
+  color: var(--link-fg-color);
+}
+
+a:focus,
+summary:focus,
+[tabindex="0"]:focus,
+form :focus {
+  outline: 3px solid currentColor;
+}
+
+@supports selector(:focus-visible) {
+  a:focus:not(:focus-visible),
+  [tabindex="0"]:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+hr {
+  background-color: var(--hr-color);
+  height: 1px;
+  border: none;
+  opacity: 0.4;
+}
+
+footer {
+  margin-top: 2.5em;
+  font-size: 0.9375em;
+  color: var(--footer-fg-color);
+}
+footer code {
+  color: var(--footer-fg-color);
+  word-break: break-all;
+}
+footer hr {
+  margin-bottom: 1.25em;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
