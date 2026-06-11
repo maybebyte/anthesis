@@ -32,13 +32,19 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
+@supports (text-wrap: balance) {
+  :where(h1, h2, h3, h4, h5, h6, figcaption, blockquote footer, cite, dt):where(
+    :not(body > header *, body > footer *, nav *, menu *, button *)
+  ) {
+    text-wrap: balance;
+  }
+}
+@supports (text-wrap: pretty) {
+  :where(p, li, dd, blockquote p):where(
+    :not(body > header *, body > footer *, nav *, menu *, button *)
+  ) {
+    text-wrap: pretty;
+  }
 }
 
 .fonts-loaded-1 body {
