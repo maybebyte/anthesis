@@ -1,6 +1,11 @@
 # Quality gate for anthes.is. Hygiene fixers must never touch vendored
 # trees or content-hashed assets (editing one silently breaks its hash) —
 # the &generated anchor below excludes both.
+#
+# The vendored-tree list {fonts, stagit, migration, pubkeys} is duplicated
+# in each tool's own syntax across .pre-commit-config.yaml, .typos.toml,
+# .gitleaks.toml, .editorconfig, and .github/scripts/check-hashes.sh —
+# update all together.
 default_stages: [pre-commit]
 
 repos:

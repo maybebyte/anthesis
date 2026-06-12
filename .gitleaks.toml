@@ -3,6 +3,10 @@
 [extend]
 useDefault = true
 
+# The vendored-tree list is duplicated across .pre-commit-config.yaml,
+# .typos.toml, .gitleaks.toml, .editorconfig, and
+# .github/scripts/check-hashes.sh — update all together. fonts/ is
+# deliberately absent here: font binaries hold nothing secret-shaped.
 [[allowlists]]
 description = "Public keys, archived migration content, and stagit output are published on purpose"
 paths = [
