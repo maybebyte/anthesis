@@ -22,6 +22,15 @@ repos:
       - id: check-added-large-files
         args: [--maxkb=600]
 
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.47.2
+    hooks:
+      - id: typos
+        # Upstream defaults to --write-changes --force-exclude (autofix).
+        # Keep --force-exclude (excludes must apply to explicitly passed
+        # filenames) but drop --write-changes: report-only.
+        args: [--force-exclude]
+
   - repo: local
     hooks:
       - id: check-asset-hashes
