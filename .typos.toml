@@ -1,0 +1,23 @@
+[files]
+extend-exclude = [
+  "stagit/",
+  "migration/",
+  "pubkeys/",
+  "fonts/",
+  "gpg-transition-20250406.txt",
+  "roAJVp7qzs.txt",
+]
+
+[default]
+extend-ignore-re = [
+  # hex digests, commit hashes, content-hash filename tokens
+  "[0-9a-fA-F]{7,}",
+  # Monero donation address
+  "8B1s[1-9A-HJ-NP-Za-km-z]{90,}",
+  # markdown heading-anchor slugs (apostrophes dropped, e.g. "familys")
+  "\\(#[a-z0-9-]+\\)",
+]
+
+[default.extend-words]
+# Grow only from real false positives. Identity mappings accept the word.
+uncatalogued = "uncatalogued"
