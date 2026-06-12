@@ -29,26 +29,28 @@ that a Domain Name System (DNS) resolver can block those domains.
 
 ## Project structure
 
-    |-- Changes
-    |-- LICENSE
-    |-- MANIFEST
-    |-- Makefile.PL
-    |-- README.md
-    |-- bin
-    |   `-- domain-sift
-    |-- lib
-    |   `-- Domain
-    |       |-- Sift
-    |       |   |-- Manipulate.pm
-    |       |   `-- Match.pm
-    |       `-- Sift.pm
-    `-- t
-        |-- 00-load.t
-        |-- Domain-Sift-Manipulate.t
-        |-- Domain-Sift-Match.t
-        |-- manifest.t
-        |-- pod-coverage.t
-        `-- pod.t
+```
+|-- Changes
+|-- LICENSE
+|-- MANIFEST
+|-- Makefile.PL
+|-- README.md
+|-- bin
+|   `-- domain-sift
+|-- lib
+|   `-- Domain
+|       |-- Sift
+|       |   |-- Manipulate.pm
+|       |   `-- Match.pm
+|       `-- Sift.pm
+`-- t
+    |-- 00-load.t
+    |-- Domain-Sift-Manipulate.t
+    |-- Domain-Sift-Match.t
+    |-- manifest.t
+    |-- pod-coverage.t
+    `-- pod.t
+```
 
 ## Installation
 
@@ -58,20 +60,24 @@ following commands inside the source directory. Note that `domain-sift`
 requires Perl 5.36 or later, since subroutine signatures are no longer
 experimental in that release.
 
-    $ perl Makefile.PL
-    $ make
-    $ make test
-    # make install
+```
+$ perl Makefile.PL
+$ make
+$ make test
+# make install
+```
 
 ## Documentation
 
 After installation, you can read the documentation with `perldoc`. `man`
 often works as well.
 
-    $ perldoc Domain::Sift
-    $ perldoc Domain::Sift::Match
-    $ perldoc Domain::Sift::Manipulate
-    $ perldoc domain-sift
+```
+$ perldoc Domain::Sift
+$ perldoc Domain::Sift::Match
+$ perldoc Domain::Sift::Manipulate
+$ perldoc domain-sift
+```
 
 ## domain-sift and unwind
 
