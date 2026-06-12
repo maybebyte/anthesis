@@ -1,0 +1,20 @@
+# gitleaks config for anthes.is. Extends the default ruleset; allowlists
+# cover material that is public by design.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Public keys, archived migration content, and stagit output are published on purpose"
+paths = [
+  '''^pubkeys/''',
+  '''^migration/''',
+  '''^stagit/''',
+  '''^gpg-transition-20250406\.txt$''',
+]
+
+[[allowlists]]
+description = "PGP public key blocks and the Monero donation address are public by design"
+regexes = [
+  '''-----BEGIN PGP (PUBLIC KEY BLOCK|SIGNATURE)-----''',
+  '''8B1s[1-9A-HJ-NP-Za-km-z]{90,}''',
+]

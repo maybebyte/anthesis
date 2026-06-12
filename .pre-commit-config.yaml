@@ -56,3 +56,17 @@ repos:
         language: script
         pass_filenames: false
         always_run: true
+      # Local hook rather than the official one: upstream hardcodes
+      # --staged in its entry, which consumers cannot override, and this
+      # hook should scan full history at push time instead.
+      - id: gitleaks
+        name: gitleaks (full history)
+        entry: gitleaks git --redact --verbose
+        language: golang
+        additional_dependencies:
+          # gitleaks still declares its Go module path under the old
+          # zricethezav account name.
+          - github.com/zricethezav/gitleaks/v8@v8.30.1
+        pass_filenames: false
+        always_run: true
+        stages: [pre-push]
