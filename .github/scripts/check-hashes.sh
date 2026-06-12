@@ -10,7 +10,10 @@
 #     commit-pinned permalinks that are valid but not present on disk);
 # (c) _header.html and errdocs/err.html agree on the hash tokens they
 #     reference (compared by basename, since the two files may legitimately
-#     use different path prefixes for the same asset).
+#     use different path prefixes for the same asset);
+# (d) every tracked hashed asset is referenced by at least one tracked
+#     text file — otherwise it is orphaned: published with the site but
+#     reachable by nothing.
 #
 # Word-splitting over `git ls-files` output is safe here: tracked names in
 # this repo contain no whitespace.
@@ -24,6 +27,11 @@ fail() {
   printf 'check-hashes: %s\n' "$1" >&2
   status=1
 }
+
+# Vendored trees never count as reference sources: FONTLOG.txt holds
+# historical commit-pinned permalinks whose tokens are valid but stale.
+# Word-split deliberately when passed to git.
+vendored_pathspecs=':!fonts/ :!stagit/ :!migration/ :!pubkeys/'
 
 # --- (a) filename hash matches content hash --------------------------------
 for f in $(git ls-files | grep -E '\.[0-9a-f]{64}\.' || true); do
@@ -40,11 +48,25 @@ refs() {
   grep -oE '[A-Za-z0-9_/.-]*\.[0-9a-f]{64}\.[A-Za-z0-9.]+' "$1" | sort -u
 }
 
-for src in $(git grep -I -l -E '\.[0-9a-f]{64}\.' -- \
-  ':!fonts/' ':!stagit/' ':!migration/' ':!pubkeys/'); do
+# shellcheck disable=SC2086 # vendored_pathspecs must word-split
+for src in $(git grep -I -l -E '\.[0-9a-f]{64}\.' -- $vendored_pathspecs); do
   for ref in $(refs "$src"); do
     [ -f "${ref#/}" ] || fail "$src references missing asset: $ref"
   done
+done
+
+# --- (d) every tracked hashed asset is referenced somewhere ----------------
+# One grep collects every .<token>. occurrence in tracked text files; an
+# asset whose token never appears is orphaned. Reference chains satisfy
+# this naturally (fonts are reachable via the hashed stylesheets).
+# shellcheck disable=SC2086 # vendored_pathspecs must word-split
+referenced=$(git grep -I -h -oE '\.[0-9a-f]{64}\.' -- $vendored_pathspecs | sort -u)
+for f in $(git ls-files | grep -E '\.[0-9a-f]{64}\.' || true); do
+  tok=$(expr "$f" : '.*\.\([0-9a-f]\{64\}\)\.')
+  case "$referenced" in
+    *".$tok."*) ;;
+    *) fail "orphaned hashed asset (referenced by nothing): $f" ;;
+  esac
 done
 
 # --- (c) header and errdocs reference identical hash tokens ----------------
