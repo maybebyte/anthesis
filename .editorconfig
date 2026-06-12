@@ -17,3 +17,10 @@ indent_style = tab
 [{fonts,stagit,migration,pubkeys}/**]
 insert_final_newline = false
 trim_trailing_whitespace = false
+
+# Binary and hashed image/icon assets anywhere in the tree: an editor save
+# must never alter their bytes — content-hashed filenames break otherwise
+# (favicon.<hash>.svg legitimately lacks a final newline).
+[*.{png,webp,svg,ico,woff2}]
+insert_final_newline = false
+trim_trailing_whitespace = false
