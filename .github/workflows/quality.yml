@@ -27,7 +27,9 @@ jobs:
         with:
           path: ~/.cache/pre-commit
           key: pre-commit-${{ runner.os }}-${{ hashFiles('.pre-commit-config.yaml') }}
-      - run: pipx install pre-commit==4.6.0
+      # uv is preinstalled on ubuntu-latest and installs in ~1-3s where
+      # pipx takes 5-15s building a venv.
+      - run: uv tool install pre-commit==4.6.0
       - run: pre-commit run --all-files --show-diff-on-failure
       - run: pre-commit run --all-files --hook-stage pre-push
 
@@ -40,7 +42,7 @@ jobs:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           persist-credentials: false
-      - run: pipx install zizmor==1.25.2
+      - run: uv tool install zizmor==1.25.2
       - run: zizmor --format=github .
         env:
           # Without a token zizmor silently skips its online audits
