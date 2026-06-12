@@ -36,7 +36,8 @@ for several reasons.
 Let's use [Wiktionary, the multilingual
 dictionary](https://www.wiktionary.org/) as an example.
 
-Open up Firefox and navigate to www.wiktionary.org. Right click
+Open up Firefox and navigate to
+[www.wiktionary.org](https://www.wiktionary.org/). Right click
 Wiktionary's search bar to pull up a context menu with several entries.
 Left click the "Add a Keyword for this Search…" entry.
 
