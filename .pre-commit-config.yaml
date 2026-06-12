@@ -1,0 +1,23 @@
+# Quality gate for anthes.is. Hygiene fixers must never touch vendored
+# trees or content-hashed assets (editing one silently breaks its hash) —
+# the &generated anchor below excludes both.
+default_stages: [pre-commit]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: &generated '^(fonts/|stagit/|migration/|pubkeys/)|\.[0-9a-f]{64}\.'
+      - id: end-of-file-fixer
+        exclude: *generated
+      - id: mixed-line-ending
+        args: [--fix=lf]
+        exclude: *generated
+      - id: check-yaml
+      - id: check-json
+        exclude: '\.jsonc$'
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-added-large-files
+        args: [--maxkb=600]
