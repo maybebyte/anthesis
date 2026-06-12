@@ -1,0 +1,20 @@
+version: 2
+
+# The pre-commit ecosystem GA'd in March 2026, but some dependabot-core
+# paths still gate it behind this flag; harmless if unneeded.
+enable-beta-ecosystems: true
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "chore(deps)"
+
+  - package-ecosystem: pre-commit
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "chore(deps)"
