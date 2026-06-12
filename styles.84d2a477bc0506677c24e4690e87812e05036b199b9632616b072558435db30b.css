@@ -329,6 +329,7 @@ h6 {
   --font-sans: sans-serif;
   --font-mono: monospace;
   --base-font-size: clamp(1.065rem, 0.973rem + 0.463vw, 1.331rem);
+  --anchor-scroll-offset: 0.75rem;
   --bg-color: #fff3eb;
   --fg-color: #1b1008;
   --link-fg-color: #013a6b;
@@ -338,6 +339,12 @@ h6 {
   --heading-fg-color: #53453c;
   --hr-color: #53453c;
   --footer-fg-color: #3f3229;
+}
+
+@supports (scroll-margin-top: 1rlh) {
+  :root {
+    --anchor-scroll-offset: 0.75rlh;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -455,6 +462,10 @@ h5,
 h6 {
   break-after: avoid;
   break-inside: avoid;
+}
+
+body > main :where(h1, h2, h3, h4, h5, h6)[id] {
+  scroll-margin-top: var(--anchor-scroll-offset);
 }
 
 @media print {
