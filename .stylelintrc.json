@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": ["stagit/**"],
+  "rules": {
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "property-no-deprecated": [
+      true,
+      { "ignoreProperties": ["/^page-break-/"] }
+    ],
+    "property-no-vendor-prefix": [
+      true,
+      { "ignoreProperties": ["/^(-webkit-|-moz-)text-size-adjust$/"] }
+    ]
+  }
+}

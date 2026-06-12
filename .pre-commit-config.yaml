@@ -38,6 +38,18 @@ repos:
 
   - repo: local
     hooks:
+      - id: stylelint
+        name: stylelint
+        # --config-basedir points at pre-commit's isolated node env (located
+        # via the stylelint binary) so `extends` in .stylelintrc.json can
+        # resolve stylelint-config-standard.
+        entry: sh -c 'exec stylelint --config-basedir "$(dirname "$(dirname "$(command -v stylelint)")")/lib" "$@"' --
+        language: node
+        additional_dependencies:
+          - stylelint@17.13.0
+          - stylelint-config-standard@40.0.0
+        files: '\.css$'
+        exclude: '^stagit/'
       - id: check-asset-hashes
         name: check asset hashes
         entry: .github/scripts/check-hashes.sh
