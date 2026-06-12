@@ -65,7 +65,11 @@ repos:
         entry: .github/scripts/check-hashes.sh
         language: script
         pass_filenames: false
-        always_run: true
+        # The check always covers the whole tree; this filter only decides
+        # when it runs: any change to a hashed asset or to a file type that
+        # references hashed assets (articles, templates, stylesheets,
+        # webmanifest). CI's --all-files run always triggers it.
+        files: '\.(md|html|css|webmanifest)$|\.[0-9a-f]{64}\.'
       # Local hook rather than the official one: upstream hardcodes
       # --staged in its entry, which consumers cannot override. The wrapper
       # scans only the pushed range locally and full history when no range
