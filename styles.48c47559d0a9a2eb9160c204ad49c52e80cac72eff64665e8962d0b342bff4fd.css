@@ -88,7 +88,7 @@ h6 {
 }
 
 @font-face {
-  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin.c6f798dde43a67cb5856628c130610f8b149c1878dad65e35dbea86a64be0881.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin.955152a44de0f377b6a77eb91be90946e53b93871138f230ac45c530bc2c4edd.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Anthesis Legible Sans";
@@ -101,7 +101,7 @@ h6 {
 }
 
 @font-face {
-  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin-extended.955152a44de0f377b6a77eb91be90946e53b93871138f230ac45c530bc2c4edd.woff2")
+  src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-latin-extended.c6f798dde43a67cb5856628c130610f8b149c1878dad65e35dbea86a64be0881.woff2")
     format("woff2");
   font-display: swap;
   font-family: "Anthesis Legible Sans";
