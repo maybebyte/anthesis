@@ -31,6 +31,11 @@ repos:
         # filenames) but drop --write-changes: report-only.
         args: [--force-exclude]
 
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.22.1
+    hooks:
+      - id: markdownlint-cli2
+
   - repo: local
     hooks:
       - id: check-asset-hashes
