@@ -8,9 +8,11 @@
 #     discovered, not hardcoded, so renames cannot leave stale references
 #     behind; vendored trees are skipped (FONTLOG.txt holds historical
 #     commit-pinned permalinks that are valid but not present on disk);
-# (c) _header.html and errdocs/err.html agree on the hash tokens they
-#     reference (compared by basename, since the two files may legitimately
-#     use different path prefixes for the same asset);
+# (c) every tracked HTML template that references hashed assets agrees
+#     with the others on the tokens it references — templates are
+#     discovered, not hardcoded, so a new template cannot escape the
+#     check (compared by basename, since templates may legitimately use
+#     different path prefixes for the same asset);
 # (d) every tracked hashed asset is referenced by at least one tracked
 #     text file — otherwise it is orphaned: published with the site but
 #     reachable by nothing.
@@ -69,21 +71,34 @@ for f in $(git ls-files | grep -E '\.[0-9a-f]{64}\.' || true); do
   esac
 done
 
-# --- (c) header and errdocs reference identical hash tokens ----------------
-for src in _header.html errdocs/err.html; do
-  [ -f "$src" ] || fail "expected template missing: $src"
-done
-
+# --- (c) HTML templates reference identical hash tokens --------------------
 tokens() {
   refs "$1" | sed 's|.*/||' | sort -u
 }
 
-header_tokens=$(tokens _header.html)
-err_tokens=$(tokens errdocs/err.html)
-if [ "$header_tokens" != "$err_tokens" ]; then
-  fail '_header.html and errdocs/err.html disagree on hashed assets:'
-  printf '%s\n' '--- _header.html:' "$header_tokens" \
-    '--- errdocs/err.html:' "$err_tokens" >&2
-fi
+templates=$(git grep -I -l -E '\.[0-9a-f]{64}\.' -- '*.html' || true)
+
+# Guard against the check silently degrading: these two must always be in
+# the discovered set.
+for required in _header.html errdocs/err.html; do
+  printf '%s\n' "$templates" | grep -qx "$required" ||
+    fail "expected template missing from agreement check: $required"
+done
+
+base_file=''
+base_tokens=''
+for t in $templates; do
+  if [ -z "$base_file" ]; then
+    base_file=$t
+    base_tokens=$(tokens "$t")
+    continue
+  fi
+  t_tokens=$(tokens "$t")
+  if [ "$t_tokens" != "$base_tokens" ]; then
+    fail "$base_file and $t disagree on hashed assets:"
+    printf '%s\n' "--- $base_file:" "$base_tokens" \
+      "--- $t:" "$t_tokens" >&2
+  fi
+done
 
 exit "$status"
