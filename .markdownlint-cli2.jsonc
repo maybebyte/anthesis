@@ -1,0 +1,31 @@
+{
+  // Auto-exclude gitignored paths (specs/, test/, CLAUDE.md, ...).
+  "gitignore": true,
+  "config": {
+    "default": true,
+    // No hard line-length limit; prose uses soft wrapping.
+    "MD013": false,
+    "MD010": { "code_blocks": false },
+    // Shell examples deliberately show "$ " / "# " prompts.
+    "MD014": false,
+    "MD024": { "siblings_only": true },
+    // Published articles split ordered lists around code blocks and mix
+    // all-ones with sequential numbering.
+    "MD029": false,
+    // Ordered lists legitimately use both 1- and 2-space markers across
+    // published articles.
+    "MD030": false,
+    // Articles use no raw HTML outside code blocks.
+    "MD033": { "allowed_elements": [] },
+    // Emphasis lines are deliberate captions (e.g. "Tested on ..."),
+    // not headings.
+    "MD036": false,
+    // Fenced blocks without a language are fine; the site renderer does
+    // no syntax highlighting.
+    "MD040": false,
+    // Every article starts with an H1 title.
+    "MD041": true
+    // MD046 stays at its default (per-file consistent code-block style):
+    // some articles are all-fenced, others all-indented.
+  }
+}
