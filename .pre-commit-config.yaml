@@ -21,3 +21,12 @@ repos:
       - id: check-case-conflict
       - id: check-added-large-files
         args: [--maxkb=600]
+
+  - repo: local
+    hooks:
+      - id: check-asset-hashes
+        name: check asset hashes
+        entry: .github/scripts/check-hashes.sh
+        language: script
+        pass_filenames: false
+        always_run: true
