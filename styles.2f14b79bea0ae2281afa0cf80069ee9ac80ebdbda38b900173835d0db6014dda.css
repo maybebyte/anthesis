@@ -13,16 +13,19 @@ https://openfontlicense.org/
   margin: 0;
   padding: 0;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
+
 p,
 h1,
 h2,
@@ -32,6 +35,7 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
 @supports (text-wrap: balance) {
   :where(h1, h2, h3, h4, h5, h6, figcaption, blockquote footer, cite, dt):where(
     :not(body > header *, body > footer *, nav *, menu *, button *)
@@ -39,6 +43,7 @@ h6 {
     text-wrap: balance;
   }
 }
+
 @supports (text-wrap: pretty) {
   :where(p, li, dd, blockquote p):where(
     :not(body > header *, body > footer *, nav *, menu *, button *)
@@ -50,21 +55,27 @@ h6 {
 .fonts-loaded-1 body {
   font-family: "Anthesis Legible Sans Faux", sans-serif;
 }
+
 .fonts-loaded-1 :is(code, kbd, pre, samp, tt, var) {
   font-family: "Anthesis Legible Mono Faux", monospace;
 }
+
 .fonts-loaded-1 :is(h1, h2, h3, h4, h5, h6) {
   font-family: "Anthesis Legible Sans Faux", sans-serif;
 }
+
 .fonts-loaded-2 body {
   font-family: "Anthesis Legible Sans", sans-serif;
 }
+
 .fonts-loaded-2 :is(code, kbd, pre, samp, tt, var) {
   font-family: "Anthesis Legible Mono", monospace;
 }
+
 .fonts-loaded-2 :is(h1, h2, h3, h4, h5, h6) {
   font-family: "Anthesis Legible Sans", sans-serif;
 }
+
 @font-face {
   src: url("/fonts/anthesis-legible-sans/anthesis-legible-sans-roman-critical-text.54375ca3dae348f0c57a53aafc73d794efcff78bd00a1b55102111a29f55d862.woff2")
     format("woff2");
@@ -371,7 +382,7 @@ body {
   padding-block: 1rem;
   font-family: var(--font-sans);
   font-kerning: normal;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizelegibility;
   line-height: 1.5;
   max-width: 34rem;
   background-color: var(--bg-color);
@@ -401,6 +412,7 @@ blockquote {
 ul {
   list-style-type: circle;
 }
+
 ul,
 ol,
 menu {
@@ -421,6 +433,7 @@ ol ul {
 li + li {
   margin-top: 0.5em;
 }
+
 li :is(ul, ol) li:first-of-type {
   margin-top: 0.25em;
 }
@@ -532,6 +545,7 @@ var {
   font-size: 0.9em;
   color: var(--code-block-fg-color);
 }
+
 pre code,
 pre kbd,
 pre samp,
@@ -543,12 +557,15 @@ pre var {
 h1 {
   font-size: clamp(1.25rem, 1.163rem + 0.435vw, 1.5rem);
 }
+
 h2 {
   font-size: 1.25rem;
 }
+
 h3 {
   font-size: 1.1rem;
 }
+
 h4,
 h5,
 h6 {
@@ -607,21 +624,21 @@ a code {
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.16em;
   text-decoration-skip-ink: auto;
-  text-decoration-color: currentColor;
+  text-decoration-color: currentcolor;
 }
 
 @supports (color: color-mix(in oklch, white, black)) {
   :where(a[href]) {
-    text-decoration-color: color-mix(in oklch, currentColor 40%, transparent);
+    text-decoration-color: color-mix(in oklch, currentcolor 40%, transparent);
   }
 }
 
 :where(a[href]):hover {
-  text-decoration-color: currentColor;
+  text-decoration-color: currentcolor;
 }
 
 :where(a[href]):focus-visible {
-  text-decoration-color: currentColor;
+  text-decoration-color: currentcolor;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -647,7 +664,7 @@ a:focus,
 summary:focus,
 [tabindex="0"]:focus,
 form :focus {
-  outline: 3px solid currentColor;
+  outline: 3px solid currentcolor;
 }
 
 @supports selector(:focus-visible) {
@@ -669,13 +686,16 @@ footer {
   font-size: 0.9375em;
   color: var(--footer-fg-color);
 }
+
 footer code {
   color: var(--footer-fg-color);
   word-break: break-all;
 }
+
 footer hr {
   margin-bottom: 1.25em;
 }
+
 footer p {
   margin-bottom: 0;
 }
