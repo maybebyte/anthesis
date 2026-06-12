@@ -1,0 +1,48 @@
+name: quality
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          # gitleaks scans full history
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ runner.os }}-${{ hashFiles('.pre-commit-config.yaml') }}
+      - run: pipx install pre-commit==4.6.0
+      - run: pre-commit run --all-files --show-diff-on-failure
+      - run: pre-commit run --all-files --hook-stage pre-push
+
+  workflow-security:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - run: pipx install zizmor==1.25.2
+      - run: zizmor --format=github .
+        env:
+          # Without a token zizmor silently skips its online audits
+          # (impostor-commit, known-vulnerable/unpinned-uses).
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
