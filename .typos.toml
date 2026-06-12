@@ -1,4 +1,7 @@
 [files]
+# The vendored-tree list is duplicated across .pre-commit-config.yaml,
+# .typos.toml, .gitleaks.toml, .editorconfig, and
+# .github/scripts/check-hashes.sh — update all together.
 extend-exclude = [
   "stagit/",
   "migration/",

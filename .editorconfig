@@ -14,6 +14,9 @@ indent_size = 2
 indent_style = tab
 
 # Vendored/generated trees and never-edit upstream files: leave bytes alone.
+# This list is duplicated across .pre-commit-config.yaml, .typos.toml,
+# .gitleaks.toml, .editorconfig, and .github/scripts/check-hashes.sh —
+# update all together.
 [{fonts,stagit,migration,pubkeys}/**]
 insert_final_newline = false
 trim_trailing_whitespace = false

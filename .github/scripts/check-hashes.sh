@@ -32,6 +32,8 @@ fail() {
 
 # Vendored trees never count as reference sources: FONTLOG.txt holds
 # historical commit-pinned permalinks whose tokens are valid but stale.
+# This list is duplicated across .pre-commit-config.yaml, .typos.toml,
+# .gitleaks.toml, .editorconfig, and this script — update all together.
 # Word-split deliberately when passed to git.
 vendored_pathspecs=':!fonts/ :!stagit/ :!migration/ :!pubkeys/'
 
