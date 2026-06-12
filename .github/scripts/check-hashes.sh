@@ -3,8 +3,11 @@
 #
 # (a) every tracked file with a .<sha256>. token in its name hashes to
 #     exactly that token;
-# (b) every hashed asset referenced by _header.html, errdocs/err.html and
-#     site.webmanifest exists on disk;
+# (b) every hashed asset referenced by any tracked text file (templates,
+#     stylesheets, articles) exists on disk — referencing files are
+#     discovered, not hardcoded, so renames cannot leave stale references
+#     behind; vendored trees are skipped (FONTLOG.txt holds historical
+#     commit-pinned permalinks that are valid but not present on disk);
 # (c) _header.html and errdocs/err.html agree on the hash tokens they
 #     reference (compared by basename, since the two files may legitimately
 #     use different path prefixes for the same asset).
@@ -37,14 +40,18 @@ refs() {
   grep -oE '[A-Za-z0-9_/.-]*\.[0-9a-f]{64}\.[A-Za-z0-9.]+' "$1" | sort -u
 }
 
-for src in _header.html errdocs/err.html site.webmanifest; do
-  [ -f "$src" ] || { fail "expected source file missing: $src"; continue; }
+for src in $(git grep -I -l -E '\.[0-9a-f]{64}\.' -- \
+  ':!fonts/' ':!stagit/' ':!migration/' ':!pubkeys/'); do
   for ref in $(refs "$src"); do
     [ -f "${ref#/}" ] || fail "$src references missing asset: $ref"
   done
 done
 
 # --- (c) header and errdocs reference identical hash tokens ----------------
+for src in _header.html errdocs/err.html; do
+  [ -f "$src" ] || fail "expected template missing: $src"
+done
+
 tokens() {
   refs "$1" | sed 's|.*/||' | sort -u
 }
