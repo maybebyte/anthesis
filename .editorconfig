@@ -21,9 +21,10 @@ indent_style = tab
 insert_final_newline = false
 trim_trailing_whitespace = false
 
-# Binary and hashed image/icon assets anywhere in the tree: an editor save
+# Binary and hashed media assets anywhere in the tree: an editor save
 # must never alter their bytes — content-hashed filenames break otherwise
-# (favicon.<hash>.svg legitimately lacks a final newline).
-[*.{png,webp,svg,ico,woff2}]
+# (favicon.<hash>.svg legitimately lacks a final newline). Covers types
+# not present yet so a future asset starts protected; extend on new types.
+[*.{png,webp,svg,ico,woff2,jpg,jpeg,gif,avif,mp4,webm}]
 insert_final_newline = false
 trim_trailing_whitespace = false
