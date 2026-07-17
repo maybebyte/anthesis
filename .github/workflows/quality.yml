@@ -28,7 +28,7 @@ jobs:
           path: ~/.cache/pre-commit
           key: pre-commit-${{ runner.os }}-${{ hashFiles('.pre-commit-config.yaml') }}
       # uv installs in ~1-3s where pipx takes 5-15s building a venv.
-      - uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # v8.2.0
+      - uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990 # v8.3.2
       - run: uv tool install pre-commit==4.6.0
       - run: pre-commit run --all-files --show-diff-on-failure
       - run: pre-commit run --all-files --hook-stage pre-push
@@ -42,7 +42,7 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
-      - uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # v8.2.0
+      - uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990 # v8.3.2
       - run: uv tool install zizmor==1.25.2
       - run: zizmor --format=github .
         env:
